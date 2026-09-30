@@ -1,0 +1,36 @@
+/**
+ * The motorcycle catalogue: every brand and model sold (0 km, now or before) in Paraguay, with sourced facts.
+ * Written by phase R1 from the research record in docs/research/catalogo/*.json via
+ * `php docs/research/build-catalogo.php` — edit the JSON and rebuild, never this file by hand.
+ * Reasoning, what was rejected and the "próxima tanda" live in docs/research/catalogo.md.
+ *
+ * Shape (PLAN.md §2.2 — a contract: nobody renames these keys later):
+ *
+ *   A sourced fact  ['value' => int|string, 'source' => ['label' => string, 'url' => string], 'accessed' => 'YYYY-MM-DD']
+ *
+ *   marcas[slug]
+ *     name          string
+ *     distributor   ['name' => string, 'source' => ['label', 'url'], 'accessed' => 'YYYY-MM-DD']  official distributor
+ *     sortOrder     int      seed order from moto (honda 10 … kenton 60), new brands from 100
+ *
+ *   modelos["marca/modelo"]
+ *     brand         string   key into marcas
+ *     name          string   commercial name as sold in Paraguay, without the brand
+ *     slug          string   slugify() of moto/src/lib/slug.ts; seed slugs never change; never tipo, ciudad,
+ *                            nuevas, usadas, en-cuotas, page
+ *     category      string   slug from moto/src/db/seed-data/categories.ts: naked, scooter, cub, enduro-cross,
+ *                            touring, deportiva, custom-chopper, motocarro-carga, electrica, cuatriciclo
+ *     years         ?string  optional, only when a source gives it
+ *     specs         array    key => sourced fact, only what a source publishes. Keys: cc (int), potencia, torque,
+ *                            transmision, arranque, freno_del, freno_tras, tanque, peso, motor, refrigeracion,
+ *                            alimentacion, velocidad_max, neumatico_del, neumatico_tras, altura_asiento (strings,
+ *                            exactly as published)
+ *     prices        array    list of sourced facts + 'currency' => 'PYG'|'USD', 'condition' => '0km'. Only a price
+ *                            a distributor, the brand or a Paraguayan retailer published; the render hides one whose
+ *                            'accessed' is > 120 days old (D6). Never an estimate.
+ *     versions      string[] trim names as published
+ *     sources       array    list of ['label', 'url', 'accessed', 'method' => 'page'|'snippet', 'note'?]: the evidence
+ *                            that the model is sold in Paraguay (D4) plus every page a fact came from. 'snippet' =
+ *                            read through a web-search result for that URL because the environment could not open
+ *                            the page directly (PLAN §4.18).
+ */
