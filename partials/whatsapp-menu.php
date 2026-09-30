@@ -1,20 +1,12 @@
 <?php
 /**
- * The WhatsApp menu. ONE panel per page, rendered next to the
- * floating button in partials/footer.php; every trigger on the page — the
- * header pill, the drawer pill, the floating button and (same element) the
- * mobile sticky bar — opens this one.
- *
- * Options come from content/lead-values.php: the current page's service first
- * and pre-highlighted, then the owner's four priority services, then "otra
- * consulta". Each option is its own wa.me link with its own prefill and its
- * own `data-service`, so whatsapp_click is attributable per service
- * (assets/js/analytics.js).
+ * The WhatsApp menu: ONE panel per page, opened by every [data-wa-trigger].
+ * Options come from whatsapp_menu(): this page first, then the sources in
+ * content/lead-values.php 'whatsappMenu', then "otra consulta". Each option is
+ * a wa_href() link — never wa.me directly (D10).
  *
  * Progressive enhancement: the panel ships `hidden` and every trigger is an
- * ordinary link to this page's own prefill, so without JS a visitor still
- * reaches WhatsApp with a service-specific message — they just don't get the
- * menu.
+ * ordinary link to this page's own prefill.
  */
 
 declare(strict_types=1);
@@ -44,14 +36,9 @@ if ($waMenuOptions === []) {
       <?php foreach ($waMenuOptions as $waOption): ?>
         <li>
           <a class="wa-menu__option<?= $waOption['current'] ? ' wa-menu__option--current' : '' ?>"
-             href="<?= e($waOption['link']) ?>" rel="noopener"
+             href="<?= e($waOption['link']) ?>" rel="nofollow"
              data-service="<?= e($waOption['slug']) ?>">
-            <span class="wa-menu__label">
-              <?= e($waOption['label']) ?>
-              <?php if ($waOption['current']): ?>
-                <span class="wa-menu__badge"><?= e(ui('whatsapp.this_page')) ?></span>
-              <?php endif; ?>
-            </span>
+            <span class="wa-menu__label"><?= e($waOption['label']) ?></span>
             <span class="wa-menu__text"><?= e($waOption['text']) ?></span>
           </a>
         </li>

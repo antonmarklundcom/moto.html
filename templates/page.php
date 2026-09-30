@@ -1,16 +1,7 @@
 <?php
 /**
- * A plain content page from content/pages.php: the H1 and lead from the page
- * record, then its optional 'sections' as prose, then the CTA band. Used by the
- * legal pages and by any page whose whole content is text.
- *
- * Every route file that uses it is three lines: require bootstrap, set $path,
- * require this file.
- *
- *   $path  string  required — the key in content/pages.php
- *
- * A page whose record has 'stub' => true renders through
- * templates/page-stub.php instead; the route file decides which.
+ * A plain static page from content/pages.php: H1, lead, optional sections,
+ * the CTA band. Route file: bootstrap, $path = '/ruta', require this.
  */
 
 declare(strict_types=1);
@@ -27,8 +18,8 @@ if ($meta === []) {
 $page = [
     'title'       => $meta['title'],
     'description' => $meta['description'],
-    'path'        => $path,
-    'breadcrumbs' => [['label' => $meta['title'], 'path' => $path]],
+    'path'        => clean_path($path),
+    'breadcrumbs' => [['label' => $meta['title'], 'path' => clean_path($path)]],
 ];
 
 require ROOT_DIR . '/partials/head.php';
@@ -39,28 +30,18 @@ require ROOT_DIR . '/partials/header.php';
     <div class="container">
       <?php require ROOT_DIR . '/partials/breadcrumbs.php'; ?>
       <div class="page-hero__inner">
-        <h1><?= e($meta['h1'] !== '' ? $meta['h1'] : $meta['title']) ?></h1>
+        <h1><?= e(($meta['h1'] ?? '') !== '' ? $meta['h1'] : $meta['title']) ?></h1>
         <?php if (!empty($meta['lead'])): ?>
-          <p class="lead"><?= e($meta['lead']) ?></p>
+          <p class="lead"><?= inline((string) $meta['lead']) ?></p>
         <?php endif; ?>
       </div>
     </div>
   </section>
 
-  <?php if (!empty($meta['sections'])): ?>
+  <?php $pageSections = render_sections((array) ($meta['sections'] ?? [])); ?>
+  <?php if ($pageSections !== ''): ?>
     <section class="section">
-      <div class="container stack">
-        <?php foreach ($meta['sections'] as $pageBlock): ?>
-          <div class="prose">
-            <?php if (!empty($pageBlock['h2'])): ?>
-              <h2><?= e($pageBlock['h2']) ?></h2>
-            <?php endif; ?>
-            <?php foreach ($pageBlock['body'] ?? [] as $pageParagraph): ?>
-              <p><?= e($pageParagraph) ?></p>
-            <?php endforeach; ?>
-          </div>
-        <?php endforeach; ?>
-      </div>
+      <div class="container stack"><?= $pageSections ?></div>
     </section>
   <?php endif; ?>
 

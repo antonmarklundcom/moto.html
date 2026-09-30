@@ -5,12 +5,14 @@
 #     ./deploy/make-zip.sh
 #     → dist/<slug>-YYYY-MM-DD.zip, where <slug> is 'slug' in content/site.php
 #
-# The zip contains exactly what the site needs to run and nothing else: no docs,
-# no prompts, no tests, no deploy scripts, no git metadata, no config.php (that
-# is created on the server from config.example.php) and no logs.
+# The PRIMARY deploy is Hostinger Git of the whole repository (PLAN D19); this
+# zip is the alternative. It contains exactly what the site needs to run: no
+# docs, prompts, tests, scripts, deploy tooling, git metadata, config.php or
+# logs. content/_dev/ ships (it is inert without APP_ENV=dev, and the Git
+# deploy carries it anyway), so verify.sh --root checks the same fixtures.
 #
-# Upload it in hPanel → File Manager, extract inside public_html/ (the archive is
-# flat, so files land directly there), then create config.php. See README.md, "Deploy to Hostinger".
+# Upload it in hPanel → File Manager, extract inside public_html/ (the archive
+# is flat), then create config.php (SITE_URL, SITE_NOINDEX, VenderCRM).
 #
 set -euo pipefail
 
@@ -70,14 +72,15 @@ else
 fi
 
 # Page directories: every top-level directory that has an index.php anywhere
-# under it, at any depth. A route can be one level deep (marangatu/index.php)
-# or nested (blog/<slug>/index.php, herramientas/<slug>/index.php,
-# segmentos/<slug>/index.php) — either way the top-level directory
-# name is what matters, since cp -R below brings its whole subtree along.
+# under it, at any depth (guias/<slug>/index.php, motos/<marca>/<modelo>/index.php,
+# ir/wa/general/index.php) — the top-level name is what matters, since cp -R
+# brings its whole subtree along.
 while IFS= read -r name; do
   cp -R "$ROOT/$name" "$STAGE/$name"
 done < <(find "$ROOT" -mindepth 2 -name index.php \
-           -not -path "$ROOT/dist/*" -not -path "$ROOT/tests/*" \
+           -not -path "$ROOT/dist/*" -not -path "$ROOT/tests/*" -not -path "$ROOT/deploy/*" \
+           -not -path "$ROOT/scripts/*" -not -path "$ROOT/docs/*" -not -path "$ROOT/prompts/*" \
+           -not -path "*/node_modules/*" \
            -printf '%P\n' | cut -d/ -f1 | sort -u)
 
 # logs/ must exist and be writable for the lead handler's degraded mode, and it
@@ -89,7 +92,7 @@ HTACCESS
 touch "$STAGE/logs/.gitkeep"
 
 # Belt and braces: nothing that should have been excluded may be in the stage.
-for forbidden in docs prompts tests deploy .git config.php dist plan.md README.md KNOWN-ISSUES.md; do
+for forbidden in docs prompts tests deploy scripts .git .github config.php dist PLAN.md README.md KNOWN-ISSUES.md; do
   if [ -e "$STAGE/$forbidden" ]; then
     echo "refusing to ship: $forbidden" >&2
     exit 1

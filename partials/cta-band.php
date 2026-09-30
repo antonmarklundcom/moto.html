@@ -1,26 +1,19 @@
 <?php
 /**
- * The closing "solicitar consulta" band. Reused at the foot of every service
- * page, tool, article and hub.
+ * The closing band on every content page: "Enviar consulta" and WhatsApp.
  *
- *   $ctaTitle     string  defaults to ui('cta_band.title')
- *   $ctaLead      string  defaults to ui('cta_band.lead')
- *   $ctaWhatsapp  string  wa.me prefill text; defaults to this page's own text
- *                         from content/lead-values.php, so the
- *                         message names the service the visitor was reading
- *                         about and never the button's label
- *   $ctaContactPath string  the primary button's href, defaults to /contacto/
- *                           (a second-language section passes its own path)
+ *   $ctaTitle  string  defaults to ui('cta_band.title')
+ *   $ctaLead   string  defaults to ui('cta_band.lead')
+ *
+ * The WhatsApp prefill is this page's own (whatsapp_text_for_page()), through
+ * the tracked redirect (D10).
  */
 
 declare(strict_types=1);
 
-$ctaTitle       = $ctaTitle ?? ui('cta_band.title');
-$ctaLead        = $ctaLead ?? ui('cta_band.lead');
-$ctaWhatsapp    = $ctaWhatsapp ?? whatsapp_text_for_page();
-$ctaSlug        = current_lead_slug();
-$ctaLink        = whatsapp_link($ctaWhatsapp);
-$ctaContactPath = $ctaContactPath ?? '/contacto/';
+$ctaTitle = $ctaTitle ?? ui('cta_band.title');
+$ctaLead  = $ctaLead ?? ui('cta_band.lead');
+$ctaLink  = wa_href(whatsapp_text_for_page());
 ?>
 <section class="section section--ink">
   <div class="container stack">
@@ -28,15 +21,13 @@ $ctaContactPath = $ctaContactPath ?? '/contacto/';
     <h2 class="d2"><?= e($ctaTitle) ?></h2>
     <p class="lead"><?= e($ctaLead) ?></p>
     <div class="btn-row">
-      <a class="btn btn--primary" href="<?= e($ctaContactPath) ?>"><?= e(ui('cta.consult')) ?></a>
       <?php if ($ctaLink !== null): ?>
-        <a class="btn btn--whatsapp" href="<?= e($ctaLink) ?>" rel="noopener"
-           data-service="<?= e($ctaSlug ?? '') ?>"><?= e(ui('cta.whatsapp_long')) ?></a>
+        <a class="btn btn--whatsapp" href="<?= e($ctaLink) ?>" rel="nofollow"
+           data-service="<?= e(current_lead_slug() ?? '') ?>"><?= e(ui('cta.whatsapp_long')) ?></a>
       <?php endif; ?>
+      <a class="btn btn--primary" href="/contacto"><?= e(ui('cta.consult')) ?></a>
     </div>
   </div>
 </section>
 <?php
-/* An include shares the caller's scope: leave nothing behind for a second band
-   or a later partial on the same page (house convention). */
-unset($ctaTitle, $ctaLead, $ctaWhatsapp, $ctaSlug, $ctaLink, $ctaContactPath);
+unset($ctaTitle, $ctaLead, $ctaLink);

@@ -2,10 +2,10 @@
 /**
  * The offline lead ledger.
  *
- *     php deploy/leads-to-csv.php logs/leads.log > leads.csv
- *     php deploy/leads-to-csv.php logs/leads.log --tier=A > tier-a.csv
+ *     php deploy/leads-to-csv.php logs/leads.jsonl > leads.csv
+ *     php deploy/leads-to-csv.php logs/leads.jsonl --tier=A > tier-a.csv
  *
- * Turns logs/leads.log — one JSON object per accepted lead, written by
+ * Turns logs/leads.jsonl — one JSON object per accepted lead, written by
  * enviar.php whether or not the CRM took it — into a CSV with one column per
  * field. That file is the thing you hand to an accountant, sort by tier, or
  * import somewhere else; the CRM is the system of record, this is the copy
@@ -40,11 +40,11 @@ foreach ($args as $arg) {
     }
 }
 
-$source ??= dirname(__DIR__) . '/logs/leads.log';
+$source ??= dirname(__DIR__) . '/logs/leads.jsonl';
 
 if (!is_file($source) || !is_readable($source)) {
     fwrite(STDERR, "Cannot read {$source}\n");
-    fwrite(STDERR, "Usage: php deploy/leads-to-csv.php [logs/leads.log] [--tier=A]\n");
+    fwrite(STDERR, "Usage: php deploy/leads-to-csv.php [logs/leads.jsonl] [--tier=A]\n");
     exit(1);
 }
 
@@ -52,9 +52,9 @@ if (!is_file($source) || !is_readable($source)) {
    handler ever adds (a new fields.* key, a new utm parameter) becomes its own
    column automatically, so this never needs editing when the payload grows. */
 const LEAD_CSV_LEADING = [
-    'at', 'outcome', 'fields.valor', 'fields.servicio', 'fields.etiqueta',
+    'at', 'fields.tipo_lead', 'fields.valor', 'fields.origen', 'fields.modelo', 'fields.en_cuotas',
     'name', 'phone', 'email', 'fields.empresa', 'fields.necesita',
-    'message', 'fields.resultado_herramienta', 'page_url', 'source',
+    'message', 'fields.formulario', 'idempotency_key', 'page_url', 'source',
 ];
 
 /**

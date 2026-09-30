@@ -1,34 +1,38 @@
 <?php
 /**
- * The how-to guides under /guias/, keyed by slug — same shape discipline as
- * content/services.php and content/tools.php.
+ * Guides, /guias/{slug}. Shared by three lane-2 phases, each adding only its
+ * own keys inside its own block: /* == B2 == *\/ (compra, precios),
+ * /* == B4 == *\/ (reparacion), /* == B5 == *\/ (tramites). Comparisons are
+ * NOT here: they live in content/comparativas.php.
  *
- * Why this content type exists: a how-to query ("cómo se hace X") is answered
- * only partly by a service page. A guide answers it in full, then offers the
- * "¿prefiere que lo hagamos nosotros?" box to hand the task over — which is why
- * every guide names a relatedService.
+ * Key: the slug (the Node app's slug when the guide is ported, D2).
  *
- *   path             string   URL, trailing slash
- *   title            string   the guide's concept, used as the title fallback
- *   navLabel         string   short label for the hub, the nav and the footer
- *   seoTitle         string   <title> without the site suffix, <= 41 chars
- *   metaDescription  string   120–155 chars, unique across the whole site
- *   lastReviewed     string   ISO date, shown next to the "orientativo" note
- *   hero             array    eyebrow, h1, lead
- *   intro            string[] 2–3 paragraphs read before the numbered steps
- *   steps            array    [['title' => ..., 'body' => string[]], ...] →
- *                             both the visible numbered list and the HowTo
- *                             JSON-LD (templates/guide.php builds both from
- *                             this one array)
- *   faq              array    [['q' => ..., 'a' => ...], ...] → FAQPage JSON-LD
- *   relatedService   ?string  slug into content/services.php AND
- *                             content/lead-values.php — the delegate box's form,
- *                             WhatsApp prefill and next-step text all resolve
- *                             from this one slug
- *   toolLink         ?array   ['path' => ..., 'label' => ..., 'text' => ...]
- *   related          string[] 2–3 sibling guide slugs
+ *   group            string   'compra' | 'precios' | 'reparacion' | 'tramites'
+ *   title            string   the guide's name — breadcrumb and hub card
+ *   navLabel         string   short label for the /guias hub
+ *   seoTitle         string   <title>, <= 60 chars (suffix added only if it fits)
+ *   metaDescription  string   120–160 chars, unique site-wide
+ *   query            string   the search it answers ("mi moto no arranca")
+ *   published        string   YYYY-MM-DD
+ *   updated          string   YYYY-MM-DD — "Actualizado el", Article, sitemap lastmod
+ *   hero             array    ['h1' => …, 'lead' => …]
+ *   intro            blocks   before the first section (lib/render.php render_blocks():
+ *                             paragraphs with [link](/ruta) and **bold**, list, ol,
+ *                             note, table, ['fact' => hecho], ['price' => hecho],
+ *                             ['verify' => 'qué y dónde'])
+ *   sections         array    [['h2' => …, 'id' => …, 'body' => blocks], …] — the
+ *                             TOC lists every section with an id that rendered
+ *   faq              array    [['q' => …, 'a' => …], …] → FAQPage
+ *   links            array    [['path' => '/motos/honda', 'label' => …], …] — "Seguí leyendo"
+ *   related          string[] sibling guide slugs (cards at the foot)
+ *   quiz             ?string  id in content/quiz.php (B5's exam guide)
+ *   sources          array    [['label','url','accessed'], …] listed under "Fuentes"
+ *
+ * Gate: >= 600 rendered words AND >= 2 internal links (anywhere in the body:
+ * inline links, links[], related[]).
  */
 
 declare(strict_types=1);
 
-return [];
+return [
+];

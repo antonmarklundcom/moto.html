@@ -1,14 +1,18 @@
 <?php
 /**
- * Prints the route contract as "<path><TAB><expected status>" lines, one per
- * URL. verify.sh consumes this, so a phase extends the smoke test simply by
- * adding content — a new service, article, tool, guide or segment page appears
- * here automatically.
+ * Prints the route contract, one URL per line:
+ *
+ *     <path>\t<expected status>[\t<expected Location>]
+ *
+ * Status "deny" means "never readable": 404 locally, 403 or 404 on Apache.
+ * verify.sh and deploy/verify-live.sh both consume it, so a phase extends the
+ * smoke test just by adding content: every route in the registry
+ * (lib/routes.php) appears here automatically.
  *
  *     php deploy/routes.php [site-root]
  *
- * The site root defaults to the repository root; verify.sh passes the unzipped
- * dist/ directory when checking the deploy artifact.
+ * With APP_ENV=dev the [DEV] fixture routes are included; verify-live.sh runs
+ * it without, so production is never asked for a [DEV] page.
  */
 
 declare(strict_types=1);
@@ -18,60 +22,42 @@ require rtrim($root, '/') . '/lib/bootstrap.php';
 
 $routes = [];
 
-/* Static pages, including the ones still marked as stubs — they must respond
-   200 even while their content belongs to a later phase. '/404' is excluded:
-   it is rendered by 404.php, not by a route of its own. */
-foreach (content('pages') as $path => $meta) {
-    if (!empty($meta['noindex'])) {
-        continue;
-    }
-    $routes[$path] = 200;
+/* Every page the content arrays declare. */
+foreach (array_keys(route_index()) as $path) {
+    $routes[] = [$path, '200'];
 }
 
-/* Every collection with a page of its own. */
-foreach (services() as $service) {
-    $routes[$service['path']] = 200;
-}
-foreach (nav('tools') as $tool) {
-    $routes[$tool['path']] = 200;
-}
-foreach (nav('guias') as $guide) {
-    $routes[$guide['path']] = 200;
-}
-foreach (content('blog') as $article) {
-    $routes['/blog/' . $article['slug'] . '/'] = 200;
-}
-foreach (content('segmentos') as $segmento) {
-    $routes[$segmento['path']] = 200;
-}
+/* Generated endpoints. */
+$routes[] = ['/robots.txt', '200'];
+$routes[] = ['/sitemap.xml', '200'];
 
-/* Non-page endpoints. */
-$routes['/robots.txt']  = 200;
-$routes['/sitemap.xml'] = 200;
+/* No trailing slash (D3), no visible index.php; the query string survives. */
+$routes[] = ['/guias/', '301', '/guias'];
+$routes[] = ['/motos/', '301', '/motos'];
+$routes[] = ['/guias/index.php', '301', '/guias'];
+$routes[] = ['/contacto/?utm_source=x', '301', '/contacto?utm_source=x'];
 
-/* Legacy URLs a rebuild froze: the redirects and 410s in .htaccess and
-   router.php get their expected status here, so verify.sh proves all three
-   agree. Example (uncomment together with the rules in those two files):
-   //   $routes['/hello-world/'] = 410;
-   //   $routes['/wp-sitemap.xml'] = 301;
-   //   $routes['/?page_id=3'] = 301;                                        */
+/* The tracked WhatsApp redirect (D10) answers 302 whatever is configured. */
+$routes[] = ['/ir/wa/general?texto=verify&desde=/', '302'];
 
-/* A path that does not exist must be a 404, not a soft 200. */
-$routes['/esta-pagina-no-existe/'] = 404;
+/* The lead handler refuses GET. */
+$routes[] = ['/enviar.php', '405'];
 
-/* Internals must never be readable over HTTP. */
+/* A path that does not exist is a 404, not a soft 200. */
+$routes[] = ['/esta-pagina-no-existe', '404'];
+
+/* Internals are never readable over HTTP (D19: the whole repo is deployed). */
 foreach ([
-    '/lib/helpers.php',
-    '/lib/market/py.php',
-    '/content/site.php',
-    '/partials/header.php',
-    '/templates/service.php',
-    '/config.example.php',
-    '/logs/leads.log',
+    '/content/site.php', '/content/_dev/catalogo.php', '/lib/helpers.php', '/lib/market/py.php',
+    '/partials/head.php', '/templates/model.php', '/templates/body/model.php',
+    '/docs/log/T0.md', '/prompts/_handoff.md', '/tests/indexing.php', '/deploy/make-zip.sh',
+    '/deploy/package.json', '/scripts/port-guides.php', '/logs/leads.jsonl', '/logs/wa-clicks.jsonl',
+    '/config.php', '/config.example.php', '/README.md', '/PLAN.md', '/.git/config', '/.git/HEAD',
+    '/.gitignore', '/.github/workflows/verify.yml',
 ] as $path) {
-    $routes[$path] = 404;
+    $routes[] = [$path, 'deny'];
 }
 
-foreach ($routes as $path => $status) {
-    echo $path, "\t", $status, "\n";
+foreach ($routes as $route) {
+    echo implode("\t", $route), "\n";
 }

@@ -2427,3 +2427,50 @@ a.industries__item:focus-visible {
   font-family: var(--font-body);
   font-size: var(--t-note);
 }
+
+/* == F1 == foundation components: content pages, facts, tables, TOC, quiz == */
+
+.content-page { padding-block: var(--s-4) var(--s-5); }
+.content-body { max-width: 760px; }
+.content-body > * + * { margin-top: var(--s-4); }
+.content-body h1 { font-size: clamp(30px, 6vw, var(--t-d3)); line-height: 1.1; }
+.content-body h2 { font-size: var(--t-d4); line-height: 1.2; margin-bottom: var(--s-2); }
+.content-body section { scroll-margin-top: 96px; }
+.content-head > * + * { margin-top: var(--s-2); }
+
+/* A sourced fact: the value, then who published it and when (D5, D6). */
+.fact__src { color: var(--muted); font-size: var(--t-note); }
+.fact__src a { color: inherit; text-decoration: underline; }
+.fact--price { display: inline-flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; }
+.fact--price .fact__value { font-size: var(--t-lead); }
+.price-list { list-style: none; padding: 0; display: grid; gap: var(--s-2); }
+.price-list__cond { display: inline-block; font-size: var(--t-label); font-weight: 600; padding: 2px 8px;
+  border-radius: var(--r-chip); background: var(--surface); border: 1px solid var(--border); }
+
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.data-table { width: 100%; border-collapse: collapse; font-size: var(--t-small); }
+.data-table th, .data-table td { text-align: left; vertical-align: top; padding: 10px 12px;
+  border-bottom: 1px solid var(--border); }
+.data-table thead th { font-size: var(--t-label); text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.spec-table tbody th { width: 38%; font-weight: 600; }
+.data-table caption { text-align: left; color: var(--muted); font-size: var(--t-note); padding-bottom: 6px; }
+
+.toc { border: 1px solid var(--border); border-radius: var(--r-tile); padding: var(--s-3); background: var(--surface); }
+.toc__title { font-weight: 600; margin-bottom: 6px; }
+.toc ol { margin: 0; padding-left: 20px; display: grid; gap: 4px; }
+.toc a { display: inline-block; min-height: 32px; padding-block: 4px; }
+
+.link-list { list-style: none; padding: 0; display: grid; gap: 6px; }
+.link-list a { display: inline-flex; align-items: center; min-height: 44px; }
+.more-link a { font-weight: 600; }
+
+.sources { font-size: var(--t-note); color: var(--muted); }
+.sources h2 { font-size: var(--t-lead); color: var(--ink); }
+.sources ul { padding-left: 18px; display: grid; gap: 4px; }
+
+.quiz__list { padding-left: 22px; display: grid; gap: var(--s-3); }
+.quiz__q { font-weight: 600; }
+.quiz__options { margin: 6px 0; padding-left: 20px; }
+
+.field--check { display: flex; align-items: center; gap: 10px; min-height: 44px; }
+.field--check input { width: 22px; height: 22px; accent-color: var(--accent); }

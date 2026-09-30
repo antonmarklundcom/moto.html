@@ -1,54 +1,44 @@
 <?php
 /**
- * Lead handler. The browser posts here; this file posts to VenderCRM with the
- * site's API key. The key never reaches the page — that is the whole reason
- * this indirection exists (vendercrm-lead-capture skill, rule 1).
+ * Lead handler (PLAN D11, INTEGRATIONS §2, ADR-25). The browser posts here;
+ * this file posts to VenderCRM with the site's API key, which never reaches
+ * the page.
  *
- * Contract, consumed by partials/lead-form.php and by the tool pages:
+ * Order of operations — each one is a rule:
+ *   1. POST only. Honeypot filled → 303 /gracias, nothing written, nothing sent.
+ *   2. Same-origin check, phone required and normalised to E.164 (+595…).
+ *   3. The lead TYPE is resolved server-side from the posted `source` slug in
+ *      content/lead-values.php (consulta | comercial). A posted type, tier or
+ *      idempotency key is never read.
+ *   4. idempotency_key = sha256(phone_e164|type|YYYY-MM-DD-HH), hour in UTC.
+ *   5. The lead is appended to logs/leads.jsonl FIRST — before the CRM is
+ *      tried — so a lead can never be lost to a CRM outage.
+ *   6. POST to {VENDERCRM_URL}/api/v1/leads (10 s timeout). source is
+ *      "site:moto-com-py"; fields.tipo_lead carries the type. Empty optional
+ *      fields are omitted; never pipeline, stage, owner or tag — not even
+ *      inside fields. 201 and 200 duplicate:true are success. Each attempt is
+ *      appended to logs/crm-deliveries.jsonl with the same key, so a later
+ *      retry is safe.
+ *   7. The visitor never sees a CRM error: JSON {ok:true, degraded} for the
+ *      fetch() path, 303 to /gracias (?tipo=comercial for that type) without JS.
  *
- *   POST fields: name, company?, phone (required), email?, need, message?,
- *                source_page, form_id, idempotency_key, website (honeypot),
- *                service?, value_tier?, tool_result?,
- *                utm_source|utm_medium|utm_campaign|utm_term|utm_content,
- *                gclid?, fbclid?
- *
- *   LEAD VALUE ROUTING: every lead carries the service it came
- *   from and that service's value tier, resolved SERVER-SIDE from
- *   content/lead-values.php. The posted `value_tier` is never trusted — tier is
- *   set by the page, not by whoever posts the form,
- *   and a form field is the one thing on this request an attacker controls.
- *
- *   Optional: with RESEND_API_KEY + LEAD_NOTIFY_TO in config.php every accepted
- *   lead is also emailed to the firm (see notify_by_email).
- *
- *   Response: JSON {ok, degraded, error?} plus, on success, the lead's
- *   resolved {service, value_tier, value, currency} and the per-service
- *   thank-you copy, when the request asks for JSON (Accept: application/json).
- *   Otherwise a 303 redirect to /contacto/?enviado=1&s=<slug>, which renders
- *   the same thank-you server-side — so the form works with JavaScript
- *   disabled.
- *
- * DEGRADED MODE: with no VENDERCRM_URL / VENDERCRM_API_KEY in config.php, or
- * when the CRM is unreachable, the lead is appended to logs/leads.log and the
- * visitor still gets success with degraded: true. A visitor who filled in a form
- * and got an error page is a lost customer; a logged lead is a five-minute fix.
- *
- * This file is shared chrome: pages parameterise it, they do not edit it.
+ * Without VENDERCRM_URL / VENDERCRM_API_KEY the lead stays in leads.jsonl
+ * (degraded) and the visitor still gets the thank-you. Optional: RESEND_API_KEY
+ * + LEAD_NOTIFY_TO + LEAD_FROM email each lead too.
  */
 
 declare(strict_types=1);
 
 require __DIR__ . '/lib/bootstrap.php';
 
-const LEAD_RATE_MAX     = 5;     // submissions per IP …
-const LEAD_RATE_WINDOW  = 600;   // … per 10 minutes
-const LEAD_CRM_TIMEOUT  = 10;    // seconds
-const LEAD_SUCCESS_PATH = '/contacto/?enviado=1';
+const LEAD_RATE_MAX    = 5;     // submissions per IP …
+const LEAD_RATE_WINDOW = 600;   // … per 10 minutes
+const LEAD_CRM_TIMEOUT = 10;    // seconds
 
-$wantsJson = str_contains($_SERVER['HTTP_ACCEPT'] ?? '', 'application/json');
+$wantsJson = str_contains((string) ($_SERVER['HTTP_ACCEPT'] ?? ''), 'application/json');
 
 /**
- * Answer and stop: JSON for the fetch() path, a redirect for the plain form.
+ * Answer and stop: JSON for fetch(), a 303 for the plain form.
  */
 function respond(bool $ok, bool $degraded, ?string $error = null, array $extra = []): never
 {
@@ -56,32 +46,26 @@ function respond(bool $ok, bool $degraded, ?string $error = null, array $extra =
 
     if ($wantsJson) {
         header('Content-Type: application/json; charset=utf-8');
+        header('Cache-Control: no-store');
         http_response_code($ok ? 200 : 422);
         echo json_encode(
-            array_filter(
-                ['ok' => $ok, 'degraded' => $degraded, 'error' => $error],
-                static fn ($v) => $v !== null
-            ) + $extra,
+            array_filter(['ok' => $ok, 'degraded' => $degraded, 'error' => $error], static fn ($v) => $v !== null) + $extra,
             JSON_UNESCAPED_UNICODE
         );
         exit;
     }
 
     http_response_code(303);
-    /* The thank-you is per service, so the no-JS path has to
-       carry the slug across the redirect — /contacto/ renders it from the same
-       content/lead-values.php record the inline success state uses. */
-    $success = LEAD_SUCCESS_PATH;
-    if (!empty($extra['service'])) {
-        $success .= '&s=' . rawurlencode((string) $extra['service']);
+    if ($ok) {
+        header('Location: /gracias' . (($extra['lead_type'] ?? '') === 'comercial' ? '?tipo=comercial' : ''));
+    } else {
+        header('Location: /contacto?error=1');
     }
-
-    header('Location: ' . ($ok ? $success : '/contacto/?error=1'));
     exit;
 }
 
 /**
- * Trimmed POST value, capped at the length VenderCRM accepts for that field.
+ * Trimmed POST value, capped at the length VenderCRM accepts.
  */
 function field(string $key, int $max): string
 {
@@ -90,14 +74,11 @@ function field(string $key, int $max): string
     return is_string($value) ? mb_substr(trim($value), 0, $max) : '';
 }
 
-/**
- * The client IP, preferring the proxy header Hostinger sets.
- */
 function client_ip(): string
 {
     foreach (['HTTP_CF_CONNECTING_IP', 'HTTP_X_REAL_IP', 'REMOTE_ADDR'] as $key) {
         if (!empty($_SERVER[$key]) && is_string($_SERVER[$key])) {
-            return explode(',', $_SERVER[$key])[0];
+            return trim(explode(',', $_SERVER[$key])[0]);
         }
     }
 
@@ -105,38 +86,31 @@ function client_ip(): string
 }
 
 /**
- * File-based rate limit: at most LEAD_RATE_MAX submissions per IP per window.
- * No database, so one small JSON file per IP hash under logs/rate/.
+ * At most LEAD_RATE_MAX submissions per IP per window; one small file per IP
+ * hash under logs/rate/. Never blocks a lead when it cannot track.
  */
 function rate_limited(string $ip): bool
 {
-    $dir = ROOT_DIR . '/logs/rate';
+    $dir = logs_dir() . '/rate';
     if (!is_dir($dir) && !@mkdir($dir, 0775, true) && !is_dir($dir)) {
-        return false;   // cannot track it — never block a real lead over this
+        return false;
     }
 
-    $file  = $dir . '/' . hash('sha256', $ip) . '.json';
-    $now   = time();
-    $hits  = [];
-
+    $file = $dir . '/' . hash('sha256', $ip) . '.json';
+    $now  = time();
+    $hits = [];
     if (is_file($file)) {
         $decoded = json_decode((string) @file_get_contents($file), true);
         if (is_array($decoded)) {
-            $hits = array_filter(
-                $decoded,
-                static fn ($t) => is_int($t) && $t > $now - LEAD_RATE_WINDOW
-            );
+            $hits = array_filter($decoded, static fn ($t) => is_int($t) && $t > $now - LEAD_RATE_WINDOW);
         }
     }
-
     if (count($hits) >= LEAD_RATE_MAX) {
         return true;
     }
-
     $hits[] = $now;
     @file_put_contents($file, json_encode(array_values($hits)), LOCK_EX);
 
-    /* Opportunistic cleanup so logs/rate/ cannot grow without bound. */
     if (random_int(1, 50) === 1) {
         foreach (glob($dir . '/*.json') ?: [] as $stale) {
             if (@filemtime($stale) < $now - LEAD_RATE_WINDOW * 6) {
@@ -149,81 +123,50 @@ function rate_limited(string $ip): bool
 }
 
 /**
- * Append the lead to logs/leads.log. Always called, so there is a local record
- * even when the CRM accepted it.
+ * Append one JSON line to logs/<file>. Returns false when it could not.
  */
-function log_lead(array $payload, string $outcome): void
+function append_log(string $file, array $line): bool
 {
-    $dir = ROOT_DIR . '/logs';
+    $dir = logs_dir();
     if (!is_dir($dir) && !@mkdir($dir, 0775, true) && !is_dir($dir)) {
-        return;
+        return false;
     }
 
-    $line = json_encode(
-        ['at' => gmdate('c'), 'outcome' => $outcome] + $payload,
-        JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES
-    );
-
-    @file_put_contents($dir . '/leads.log', $line . "\n", FILE_APPEND | LOCK_EX);
+    return @file_put_contents(
+        $dir . '/' . $file,
+        json_encode($line, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . "\n",
+        FILE_APPEND | LOCK_EX
+    ) !== false;
 }
 
 /**
- * Email the lead to the firm through Resend, when configured. Runs after the
- * CRM decision and never changes the visitor's outcome: a failure is logged
- * and the visitor still sees success — the lead is already in leads.log.
+ * Email the lead through Resend when configured. Never changes the outcome.
  */
 function notify_by_email(array $payload, string $outcome): void
 {
     $apiKey = cfg('RESEND_API_KEY');
     $to     = cfg('LEAD_NOTIFY_TO');
     $from   = cfg('LEAD_FROM');
-
     if ($apiKey === null || $to === null || $from === null || !function_exists('curl_init')) {
         return;
     }
 
     $lines = [];
-    foreach (['name' => 'Nombre', 'phone' => 'Teléfono', 'email' => 'Email', 'message' => 'Mensaje',
-              'source' => 'Formulario', 'page_url' => 'Página'] as $key => $label) {
+    foreach (['name' => 'Nombre', 'phone' => 'Teléfono', 'email' => 'Email', 'message' => 'Mensaje', 'page_url' => 'Página'] as $key => $label) {
         if (!empty($payload[$key])) {
             $lines[] = $label . ': ' . $payload[$key];
         }
     }
-    /* fields keys are lower-case identifiers; ucfirst() alone would put
-       "Resultado_herramienta" in an email a person reads. */
-    $fieldLabels = [
-        'valor'                 => 'Tier',
-        'servicio'              => 'Servicio',
-        'necesita'              => 'Necesita',
-        'empresa'               => 'Empresa',
-        'resultado_herramienta' => 'Resultado de la herramienta',
-        'etiqueta'              => 'Etiqueta',
-        'formulario'            => 'Formulario',
-    ];
     foreach (($payload['fields'] ?? []) as $key => $value) {
-        $lines[] = ($fieldLabels[$key] ?? ucfirst((string) $key)) . ': ' . $value;
+        $lines[] = ucfirst(str_replace('_', ' ', (string) $key)) . ': ' . $value;
     }
     $lines[] = '';
     $lines[] = 'Estado CRM: ' . $outcome;
     $lines[] = 'Recibido: ' . gmdate('Y-m-d H:i') . ' UTC';
 
-    /* "[Tier A] Nuevo contacto: Abrir una EAS — María": the two
-       things that decide whether this one gets answered first are the tier and
-       the service, so both go in the subject line. */
-    $who      = $payload['name'] ?? $payload['phone'] ?? 'sin nombre';
-    $tier     = $payload['fields']['valor'] ?? '';
-    $servicio = $payload['fields']['servicio'] ?? '';
-    $subject  = ($tier !== '' ? '[Tier ' . $tier . '] ' : '')
-              . 'Nuevo contacto: '
-              . ($servicio !== '' ? $servicio . ' — ' : '')
-              . $who;
-    $body    = json_encode(array_filter([
-        'from'     => $from,
-        'to'       => [$to],
-        'reply_to' => $payload['email'] ?? null,
-        'subject'  => mb_substr($subject, 0, 150),
-        'text'     => implode("\n", $lines),
-    ]), JSON_UNESCAPED_UNICODE);
+    $subject = '[' . ($payload['fields']['tipo_lead'] ?? 'consulta') . '] Nuevo contacto: '
+             . (!empty($payload['fields']['modelo']) ? $payload['fields']['modelo'] . ' — ' : '')
+             . ($payload['name'] ?? $payload['phone']);
 
     $ch = curl_init('https://api.resend.com/emails');
     curl_setopt_array($ch, [
@@ -231,57 +174,46 @@ function notify_by_email(array $payload, string $outcome): void
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_TIMEOUT        => 8,
         CURLOPT_CONNECTTIMEOUT => 5,
-        CURLOPT_HTTPHEADER     => [
-            'Content-Type: application/json',
-            'Authorization: Bearer ' . $apiKey,
-        ],
-        CURLOPT_POSTFIELDS => $body,
+        CURLOPT_HTTPHEADER     => ['Content-Type: application/json', 'Authorization: Bearer ' . $apiKey],
+        CURLOPT_POSTFIELDS     => json_encode(array_filter([
+            'from'     => $from,
+            'to'       => [$to],
+            'reply_to' => $payload['email'] ?? null,
+            'subject'  => mb_substr($subject, 0, 150),
+            'text'     => implode("\n", $lines),
+        ]), JSON_UNESCAPED_UNICODE),
     ]);
     $response = curl_exec($ch);
     $status   = (int) curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    $curlErr  = curl_error($ch);
     curl_close($ch);
-
     if ($status !== 200) {
-        error_log(sprintf('Resend notification failed [%d] %s %s', $status, (string) $response, $curlErr));
+        error_log(sprintf('Resend notification failed [%d] %s', $status, (string) $response));
     }
 }
 
-// --- 1. POST only ------------------------------------------------------------
+// --- 1. POST only; honeypot ---------------------------------------------------
 if (($_SERVER['REQUEST_METHOD'] ?? 'GET') !== 'POST') {
     http_response_code(405);
     header('Allow: POST');
-    header('Location: /contacto/', true, 303);
     exit;
 }
 
-// --- 2. Honeypot: accept silently so the bot sees success and moves on -------
 if (($_POST['website'] ?? '') !== '') {
-    respond(true, true);
+    respond(true, false);          // looks like success to the bot; nothing written, nothing sent
 }
 
-// --- 3. Same-origin check ----------------------------------------------------
-// A cross-site POST is either a bot or a misconfiguration; either way it is not
-// one of our forms. A request with neither header (some privacy setups) is let
-// through — the honeypot and the rate limit still apply.
-$origin = $_SERVER['HTTP_ORIGIN'] ?? $_SERVER['HTTP_REFERER'] ?? '';
+// --- 2. Same origin, phone ------------------------------------------------------
+$origin = (string) ($_SERVER['HTTP_ORIGIN'] ?? $_SERVER['HTTP_REFERER'] ?? '');
 if ($origin !== '') {
     $originHost  = parse_url($origin, PHP_URL_HOST);
     $requestHost = parse_url(site_origin(), PHP_URL_HOST) ?: ($_SERVER['HTTP_HOST'] ?? '');
-
-    if ($originHost !== null && strcasecmp($originHost, (string) $requestHost) !== 0) {
+    if (is_string($originHost) && strcasecmp($originHost, (string) $requestHost) !== 0) {
         respond(false, false, 'origin');
     }
 }
 
-// --- 4. Validate -------------------------------------------------------------
-$phone = field('phone', 30);
-$digits = preg_replace('/\D+/', '', $phone) ?? '';
-
-/* Deliberately loose: local numbers run 7–10 digits and international ones up
-   to 15 (E.164). VenderCRM normalises the format; we only reject what plainly
-   cannot be a phone number. */
-if (strlen($digits) < 7 || strlen($digits) > 15) {
+$phone = phone_e164(field('phone', 30));
+if ($phone === null) {
     respond(false, false, 'phone');
 }
 
@@ -294,115 +226,87 @@ if (rate_limited(client_ip())) {
     respond(false, false, 'rate');
 }
 
-// --- 5. First-touch attribution ---------------------------------------------
-// Written by the CRM's vc-attribution.js when the CRM script is added; POST fields win.
-$attr = [];
-if (!empty($_COOKIE['vc_attr'])) {
-    $decoded = json_decode((string) $_COOKIE['vc_attr'], true);
-    if (is_array($decoded)) {
-        $attr = $decoded;
-    }
+// --- 3. Type, tier, key: server-side --------------------------------------------
+$sourceSlug = field('source', 60);
+$need       = field('need', 60);
+$lead       = lead_value($sourceSlug !== '' ? $sourceSlug : null);
+if ($lead['slug'] === null) {
+    $lead = lead_value_for_need($need !== '' ? $need : 'otro');
 }
+$leadType = lead_type_for($lead['slug'] ?? null);
+$tier     = (string) $lead['tier'];
 
+$idempotencyKey = lead_idempotency_key($phone, $leadType);
+
+// --- 4. Attribution: POST fields win over the vc_attr first-touch cookie ------------
+$attr = [];
+if (!empty($_COOKIE['vc_attr']) && is_string($_COOKIE['vc_attr'])) {
+    $decoded = json_decode($_COOKIE['vc_attr'], true);
+    $attr    = is_array($decoded) ? $decoded : [];
+}
 $attribution = [];
 foreach (['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid', 'fbclid'] as $key) {
-    $value = field($key, 200) ?: (string) ($attr[$key] ?? '');
+    $value = field($key, 200) ?: (is_string($attr[$key] ?? null) ? mb_substr($attr[$key], 0, 200) : '');
     if ($value !== '') {
-        $attribution[$key] = mb_substr($value, 0, 200);
+        $attribution[$key] = $value;
     }
 }
 
-// --- 6. Build the VenderCRM payload -----------------------------------------
-// Never send pipeline, stage, owner or tag: routing lives on the site record in
-// the CRM so it can be changed without a code deploy.
-$formId     = field('form_id', 60) ?: 'contacto';
-$sourcePage = field('source_page', 2000) ?: '/';
-$need       = field('need', 100);
-$company    = field('company', 200);
-
-/* A stable key so a double-click or a network retry replays the same lead
-   instead of creating a duplicate. The form supplies one per render; the
-   phone-plus-hour fallback covers callers that do not. */
-$idempotencyKey = field('idempotency_key', 100);
-if (strlen($idempotencyKey) < 8) {
-    $idempotencyKey = hash('sha256', $digits . '|' . gmdate('Y-m-d-H'));
-}
-
-/* --- The lead value model ---------------
-   The page names its service; the tier, the CRM tag and the thank-you copy all
-   come from content/lead-values.php. A `service` we do not recognise is
-   dropped rather than trusted, and a lead with no service takes the tier of its
-   chip — so a posted value_tier can never inflate a lead's worth. */
-$service    = field('service', 80);
-$toolResult = field('tool_result', 500);
-
-$lead = $service !== '' ? lead_value($service) : lead_value_for_need($need ?: 'otro');
-if ($lead['slug'] === null) {
-    $service = '';   // unknown slug: keep the lead, drop the claim
-}
-
-/* On a /contacto/ lead the chip is what the visitor told us, so the label names
-   the need; on a service or tool page it names the page they were reading. */
-$serviceLabel = $service !== ''
-    ? lead_label($service)
-    : ($need !== '' ? lead_need_label($need) : '');
+// --- 5. The payload ---------------------------------------------------------------
+$sourcePage = field('source_page', 300);
+$sourcePage = str_starts_with($sourcePage, '/') ? clean_path($sourcePage) : '/';
 
 $fields = array_filter([
-    'necesita'              => $need !== '' ? lead_need_label($need) : '',
-    'empresa'               => $company,
-    'formulario'            => $formId,
-    'servicio'              => $serviceLabel,
-    'valor'                 => (string) $lead['tier'],
-    'resultado_herramienta' => $toolResult,
-    /* The crmTag travels as a FIELD, not as a top-level `tags` array. The
-       VenderCRM endpoint takes no tag/pipeline/stage/owner input by design
-       (vendercrm-lead-capture, "Never send pipeline, stage, owner or tag"):
-       routing lives on the site record in the CRM so it can change without a
-       deploy, and a leaked key cannot redirect leads. Carrying the tag on the
-       timeline gives the build plan what it is actually for — knowing what this
-       lead is — without handing the browser control of where it lands. */
-    'etiqueta'              => (string) $lead['crmTag'],
-]);
+    'tipo_lead'  => $leadType,
+    'formulario' => field('form_id', 60),
+    'origen'     => lead_label((string) ($lead['slug'] ?? 'consulta')),
+    'necesita'   => $need !== '' && ui('needs.' . $need) !== '' ? lead_need_label($need) : '',
+    'modelo'     => field('modelo', 120),
+    'en_cuotas'  => $leadType === 'consulta' && field('cuotas', 5) === 'si' ? 'si' : '',
+    'empresa'    => $leadType === 'comercial' ? field('company', 200) : '',
+    'valor'      => $tier,
+], static fn ($v) => $v !== '');
 
-/* What the JSON path needs to fire the conversion event and show the right
-   thank-you. The value is the tier's Ads proxy in
-   the site's currency, read from the same file the tier came from. */
-$leadResult = [
+$referrer = is_string($attr['referrer'] ?? null) ? mb_substr($attr['referrer'], 0, 2000) : '';
+
+$payload = array_filter([
+    'phone'           => $phone,
+    'idempotency_key' => $idempotencyKey,
+    'name'            => field('name', 200),
+    'email'           => $email,
+    'message'         => field('message', 5000),
+    'source'          => 'site:' . (string) site('slug'),
+    'page_url'        => url($sourcePage),
+    'referrer'        => $referrer,
+], static fn ($v) => $v !== '' && $v !== null) + $attribution + ['fields' => $fields];
+
+$result = [
+    'lead_type'  => $leadType,
     'service'    => (string) ($lead['slug'] ?? ''),
-    'value_tier' => (string) $lead['tier'],
-    'value'      => lead_tier_value((string) $lead['tier']),
+    'value_tier' => $tier,
+    'value'      => lead_tier_value($tier),
     'currency'   => market_currency(),
     'thanks'     => [
         'steps'    => array_values((array) ($lead['nextStep'] ?? [])),
-        'whatsapp' => whatsapp_link($lead['whatsappText']),
+        'whatsapp' => wa_href((string) $lead['whatsappText'], $sourcePage),
         'link'     => $lead['nextLink'] ?? null,
     ],
 ];
 
-$payload = array_filter([
-    'phone'           => $phone,
-    'name'            => field('name', 200),
-    'email'           => $email,
-    'message'         => field('message', 5000),
-    'source'          => 'formulario-' . $formId,
-    'page_url'        => str_starts_with($sourcePage, 'http') ? $sourcePage : url($sourcePage),
-    'referrer'        => (string) ($attr['referrer'] ?? ''),
-    'idempotency_key' => $idempotencyKey,
-], static fn ($v) => $v !== '' && $v !== null);
-
-$payload += $attribution;
-if ($fields !== []) {
-    $payload['fields'] = $fields;
+// --- 6. logs/leads.jsonl FIRST ---------------------------------------------------
+$logged = append_log('leads.jsonl', ['at' => gmdate('c')] + $payload);
+if (!$logged) {
+    error_log('LEAD NOT LOGGED (logs/ not writable): ' . json_encode($payload, JSON_UNESCAPED_UNICODE));
 }
 
-// --- 7. Forward, or degrade gracefully --------------------------------------
+// --- 7. Then the CRM --------------------------------------------------------------
 $crmUrl = cfg('VENDERCRM_URL');
 $apiKey = cfg('VENDERCRM_API_KEY');
 
 if ($crmUrl === null || $apiKey === null || !function_exists('curl_init')) {
-    log_lead($payload, 'degraded:not-configured');
-    notify_by_email($payload, 'degraded:not-configured');
-    respond(true, true, null, $leadResult);
+    append_log('crm-deliveries.jsonl', ['at' => gmdate('c'), 'idempotency_key' => $idempotencyKey, 'status' => 'not-configured']);
+    notify_by_email($payload, 'sin CRM configurado');
+    respond(true, true, null, $result);
 }
 
 $ch = curl_init(rtrim($crmUrl, '/') . '/api/v1/leads');
@@ -411,29 +315,31 @@ curl_setopt_array($ch, [
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_TIMEOUT        => LEAD_CRM_TIMEOUT,
     CURLOPT_CONNECTTIMEOUT => 5,
-    CURLOPT_HTTPHEADER     => [
-        'Content-Type: application/json',
-        'X-Api-Key: ' . $apiKey,
-    ],
-    CURLOPT_POSTFIELDS => json_encode($payload, JSON_UNESCAPED_UNICODE),
+    CURLOPT_HTTPHEADER     => ['Content-Type: application/json', 'X-Api-Key: ' . $apiKey],
+    CURLOPT_POSTFIELDS     => json_encode($payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
 ]);
-
 $response = curl_exec($ch);
 $status   = (int) curl_getinfo($ch, CURLINFO_HTTP_CODE);
 $curlErr  = curl_error($ch);
 curl_close($ch);
 
-/* 201 created, 200 idempotency replay — both are the system working. */
-if ($status === 201 || $status === 200) {
-    log_lead($payload, 'crm:' . $status);
-    notify_by_email($payload, 'crm:' . $status);
-    respond(true, false, null, $leadResult);
+/* 201 created; 200 is the idempotency replay (duplicate:true) — both success. */
+$body      = is_string($response) ? json_decode($response, true) : null;
+$delivered = $status === 201 || $status === 200;
+
+append_log('crm-deliveries.jsonl', [
+    'at'              => gmdate('c'),
+    'idempotency_key' => $idempotencyKey,
+    'status'          => $status ?: 'unreachable',
+    'duplicate'       => is_array($body) ? (bool) ($body['duplicate'] ?? false) : null,
+    'error'           => $delivered ? null : mb_substr(trim((string) $response . ' ' . $curlErr), 0, 2000),
+]);
+
+if (!$delivered) {
+    /* 401 key, 403 site off or billing, 422 names the field, 429 rate: all ours
+       to fix, none the visitor's problem. The lead is already in leads.jsonl. */
+    error_log(sprintf('VenderCRM lead failed [%d] %s %s', $status, (string) $response, $curlErr));
 }
+notify_by_email($payload, $delivered ? 'crm:' . $status : 'crm-falló:' . ($status ?: 'sin-respuesta'));
 
-/* Anything else is our problem, not the visitor's. The body names the failing
-   field on a 422 and the misconfiguration on a 401/403, so log all of it. */
-error_log(sprintf('VenderCRM lead failed [%d] %s %s', $status, (string) $response, $curlErr));
-log_lead($payload, 'degraded:crm-' . ($status ?: 'unreachable'));
-notify_by_email($payload, 'degraded:crm-' . ($status ?: 'unreachable'));
-
-respond(true, true, null, $leadResult);
+respond(true, !$delivered, null, $result);
