@@ -311,6 +311,7 @@ Ninguna. Q1–Q3 fueron respondidas el 2026-09-30 (`docs/decisions-needed.md`).
 |---|---|---|
 | Plan | [antonmarklundcom/moto.html#1](https://github.com/antonmarklundcom/moto.html/pull/1) | — |
 | T0 | PR de `phase/T0` | [docs/log/T0.md](docs/log/T0.md) |
+| R1 | PR de `phase/R1` | [docs/log/R1.md](docs/log/R1.md) |
 
 ## 10. Backlog
 
