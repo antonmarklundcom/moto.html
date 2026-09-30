@@ -45,7 +45,7 @@ return [
             'distributor' => [
                 'name' => 'DIESA S.A.',
                 'source' => [
-                    'label' => 'La Nación / ABC: DIESA presents Honda models, exclusive importer',
+                    'label' => 'ABC Color',
                     'url' => 'https://www.abc.com.py/empresariales/2025/03/15/diesa-presento-las-nuevas-motos-honda-nx190-y-cb190r-20/',
                 ],
                 'accessed' => '2026-09-30',
@@ -55,9 +55,9 @@ return [
         'star' => [
             'name' => 'Star',
             'distributor' => [
-                'name' => 'Alex S.A. (brand owner/assembler, Paraguay)',
+                'name' => 'Alex S.A.',
                 'source' => [
-                    'label' => 'STAR - ABC Color',
+                    'label' => 'ABC Color',
                     'url' => 'https://www.abc.com.py/empresariales/2025/07/10/star-la-motocicleta-que-acompana-en-todo-lo-que-uno-se-propone/',
                 ],
                 'accessed' => '2026-09-30',
@@ -68,10 +68,7 @@ return [
             'name' => 'Yamaha',
             'distributor' => [
                 'name' => 'Chacomer S.A.E.',
-                'source' => [
-                    'label' => 'Yamaha Motor Paraguay | Chacomer S.A.E.',
-                    'url' => 'http://yamaha-motor.com.py/producto/51/xtz-150',
-                ],
+                'source' => ['label' => 'Yamaha Motor Paraguay', 'url' => 'http://yamaha-motor.com.py/producto/51/xtz-150'],
                 'accessed' => '2026-09-30',
             ],
             'sortOrder' => 20,
@@ -79,9 +76,9 @@ return [
         'suzuki' => [
             'name' => 'Suzuki',
             'distributor' => [
-                'name' => 'Chacomer Automotores (Chacomer S.A.E.)',
+                'name' => 'Chacomer S.A.E.',
                 'source' => [
-                    'label' => 'ABC Color - Suzuki Motos regresa a Paraguay con Chacomer',
+                    'label' => 'ABC Color',
                     'url' => 'https://www.abc.com.py/empresariales/2025/01/14/suzuki-motos-regresa-a-paraguay-con-chacomer/',
                 ],
                 'accessed' => '2026-09-30',
@@ -91,9 +88,9 @@ return [
         'bajaj' => [
             'name' => 'Bajaj',
             'distributor' => [
-                'name' => 'Asunción Motor Sport S.A. (AMS, Grupo JBB)',
+                'name' => 'Asunción Motor Sport S.A. (AMS)',
                 'source' => [
-                    'label' => 'La Nación - Bajaj llegó al Paraguay',
+                    'label' => 'La Nación',
                     'url' => 'https://www.lanacion.com.py/negocios_edicion_impresa/2019/01/12/bajaj-llego-al-paraguay-y-busca-ser-lider-en-el-segmento-de-motos/',
                 ],
                 'accessed' => '2026-09-30',
@@ -103,11 +100,8 @@ return [
         'tvs' => [
             'name' => 'TVS',
             'distributor' => [
-                'name' => 'Chacomer',
-                'source' => [
-                    'label' => 'TVS Motor Paraguay (paraguay.tvsmotor.com) / Chacomer contact',
-                    'url' => 'https://paraguay.tvsmotor.com/en/',
-                ],
+                'name' => 'Chacomer S.A.E.',
+                'source' => ['label' => 'TVS Motor Paraguay', 'url' => 'https://paraguay.tvsmotor.com/en/'],
                 'accessed' => '2026-09-30',
             ],
             'sortOrder' => 50,
@@ -115,77 +109,50 @@ return [
         'kenton' => [
             'name' => 'Kenton',
             'distributor' => [
-                'name' => 'Chacomer S.A. (maker/brand owner, Paraguay)',
-                'source' => [
-                    'label' => 'Kenton brand produced by Chacomer since 1991 - Chacomer / Revista Plus',
-                    'url' => 'https://www.chacomer.com.py/moto/kenton.html',
-                ],
+                'name' => 'Chacomer S.A.E.',
+                'source' => ['label' => 'Chacomer', 'url' => 'https://www.chacomer.com.py/moto/kenton.html'],
                 'accessed' => '2026-09-30',
             ],
             'sortOrder' => 60,
-        ],
-        'royal-enfield' => [
-            'name' => 'Royal Enfield',
-            'distributor' => [
-                'name' => 'Reimpex S.A.',
-                'source' => [
-                    'label' => 'Royal Enfield Paraguay / Reimpex',
-                    'url' => 'https://reimpex.com.py/reimpex/marca/7/royal-enfield',
-                ],
-                'accessed' => '2026-09-30',
-            ],
-            'sortOrder' => 100,
         ],
         'bmw-motorrad' => [
             'name' => 'BMW Motorrad',
             'distributor' => [
                 'name' => 'Garden Automotores S.A.',
                 'source' => [
-                    'label' => 'La Nación - BMW Motorrad Paraguay lanzó la nueva G 310 GS',
+                    'label' => 'La Nación',
                     'url' => 'https://www.lanacion.com.py/negocios_edicion_impresa/2018/03/26/bmw-motorrad-paraguay-lanzo-la-nueva-g-310-gs/',
                 ],
                 'accessed' => '2026-09-30',
             ],
             'sortOrder' => 103,
         ],
-        'benelli' => [
-            'name' => 'Benelli',
-            'distributor' => [
-                'name' => 'Inverfin',
-                'source' => [
-                    'label' => 'Diario HOY - Benelli llega a Paraguay de la mano de Inverfin',
-                    'url' => 'https://www.hoy.com.py/negocios/marca-italiana-de-motos-benelli-llega-a-paraguay-de-la-mano-de-inverfin/amp',
-                ],
-                'accessed' => '2026-09-30',
-            ],
-            'sortOrder' => 105,
-        ],
         'cfmoto' => [
             'name' => 'CFMoto',
             'distributor' => [
                 'name' => 'IMAG',
-                'source' => ['label' => 'CFMOTO Paraguay', 'url' => 'https://www.cfmoto.com.py/motos.php'],
+                'source' => ['label' => 'CFMoto Paraguay', 'url' => 'https://www.cfmoto.com.py/motos.php'],
                 'accessed' => '2026-09-30',
             ],
             'sortOrder' => 106,
         ],
-        'ducati' => [
-            'name' => 'Ducati',
+        'triumph' => [
+            'name' => 'Triumph',
             'distributor' => [
-                'name' => 'IMAG S.R.L.',
+                'name' => 'Mecauto S.A.',
                 'source' => [
-                    'label' => 'Infonegocios - Ducati acelera en Paraguay',
-                    'url' => 'https://infonegocios.com.py/conosur/ducati-acelera-en-paraguay-imag-registra-un-centenar-de-motocicletas-vendidas-desde-el-2020',
+                    'label' => 'Triumph Motorcycles',
+                    'url' => 'https://www.triumph-motorcycles.co/triumph-hub-page/paraguay',
                 ],
                 'accessed' => '2026-09-30',
             ],
-            'sortOrder' => 107,
+            'sortOrder' => 110,
         ],
         'taiga' => [
             'name' => 'Taiga',
             'distributor' => [
                 'name' => 'Inverfin',
-                'source' => ['label' => 'Inverfin - Motocicletas Taiga', 'url' => 'https://inverfin.com.py/collections/taiga'],
+                'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/collections/taiga'],
                 'accessed' => '2026-09-30',
             ],
             'sortOrder' => 111,
@@ -194,7 +161,7 @@ return [
             'name' => 'Leopard',
             'distributor' => [
                 'name' => 'Reimpex',
-                'source' => ['label' => 'Reimpex - Leopard', 'url' => 'https://www.reimpex.com.py/leopard'],
+                'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard'],
                 'accessed' => '2026-09-30',
             ],
             'sortOrder' => 112,
@@ -202,9 +169,9 @@ return [
         'super-soco' => [
             'name' => 'Super Soco',
             'distributor' => [
-                'name' => 'Quantum Motors (Industrias Quantum Motors S.A.)',
+                'name' => 'Quantum Motors',
                 'source' => [
-                    'label' => 'Infonegocios - Dónde conseguir motos eléctricas en Paraguay',
+                    'label' => 'InfoNegocios',
                     'url' => 'https://infonegocios.com.py/infomotor/donde-conseguir-motos-electricas-tipo-scooter-en-paraguay-aca-tenes-unas-opciones',
                 ],
                 'accessed' => '2026-09-30',
@@ -214,9 +181,9 @@ return [
         'yadea' => [
             'name' => 'Yadea',
             'distributor' => [
-                'name' => 'Quantum Motors (Industrias Quantum Motors S.A.)',
+                'name' => 'Quantum Motors',
                 'source' => [
-                    'label' => 'Infonegocios - Dónde conseguir motos eléctricas en Paraguay',
+                    'label' => 'InfoNegocios',
                     'url' => 'https://infonegocios.com.py/infomotor/donde-conseguir-motos-electricas-tipo-scooter-en-paraguay-aca-tenes-unas-opciones',
                 ],
                 'accessed' => '2026-09-30',
@@ -225,48 +192,6 @@ return [
         ],
     ],
     'modelos' => [
-        'honda/africa-twin' => [
-            'brand' => 'honda',
-            'name' => 'Africa Twin',
-            'slug' => 'africa-twin',
-            'category' => 'touring',
-            'specs' => [],
-            'prices' => [],
-            'versions' => ['Africa Twin 2026', 'Adventure'],
-            'sources' => [
-                [
-                    'label' => 'ABC Color: Honda presenta la Africa Twin 2026',
-                    'url' => 'https://www.abc.com.py/empresariales/2026/04/18/honda-presenta-la-africa-twin-2026-con-diseno-iconico/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Paraguayan press naming model as launched by DIESA',
-                ],
-                [
-                    'label' => 'Honda Paraguay Africa Twin Adventure',
-                    'url' => 'https://hondamotos.com.py/productos/Africa-Twin-Adventure/2',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                ],
-            ],
-        ],
-        'honda/cb-300f-twister' => [
-            'brand' => 'honda',
-            'name' => 'CB 300F Twister',
-            'slug' => 'cb-300f-twister',
-            'category' => 'naked',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Honda Paraguay CB 300 F Twister',
-                    'url' => 'https://hondamotos.com.py/productos/CB-300-F-TWISTER/52',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'official Honda Paraguay (DIESA) page, seen in search results',
-                ],
-            ],
-        ],
         'honda/cb-500x' => [
             'brand' => 'honda',
             'name' => 'CB 500X',
@@ -277,11 +202,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Clasipar ad by DIESA S.A. (lists CG 110, CB1 125, Navi 110, CB160, XR150, Africa, XR190, CB190R, Tornado 250, Grom, CB 500X, CB650R, NC750X, CRF1100, CRF250F)',
+                    'label' => 'Clasipar (aviso de DIESA S.A.)',
                     'url' => 'https://clasipar.paraguay.com/motor/motos/no-te-quedes-sin-tu-moto-honda-diesa-cg-110-cb1-125-navi-110-cb160-xr150-africa-1100-92967',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'distributor ad (criterion a); model list taken from search summary',
+                    'note' => 'Clasipar ad by DIESA S.A. (lists CG 110, CB1 125, Navi 110, CB160, XR150, Africa, XR190, CB190R, Tornado 250, Grom, CB 500X, CB650R, NC750X, CRF1100, CRF250F) — distributor ad (criterion a); model list taken from search summary',
                 ],
             ],
         ],
@@ -294,7 +219,7 @@ return [
                 'cc' => [
                     'value' => 125,
                     'source' => [
-                        'label' => 'Honda CB1 125 ficha PDF',
+                        'label' => 'Honda Motos Paraguay',
                         'url' => 'https://hondamotos.com.py/uploads/products/30.pdf',
                     ],
                     'accessed' => '2026-09-30',
@@ -302,7 +227,7 @@ return [
                 'potencia' => [
                     'value' => '10.1 hp @ 8,500 rpm',
                     'source' => [
-                        'label' => 'Honda CB1 125 ficha PDF',
+                        'label' => 'Honda Motos Paraguay',
                         'url' => 'https://hondamotos.com.py/uploads/products/30.pdf',
                     ],
                     'accessed' => '2026-09-30',
@@ -310,7 +235,7 @@ return [
                 'transmision' => [
                     'value' => '4 velocidades',
                     'source' => [
-                        'label' => 'Honda CB1 125 ficha PDF',
+                        'label' => 'Honda Motos Paraguay',
                         'url' => 'https://hondamotos.com.py/uploads/products/30.pdf',
                     ],
                     'accessed' => '2026-09-30',
@@ -318,7 +243,7 @@ return [
                 'tanque' => [
                     'value' => '10 L',
                     'source' => [
-                        'label' => 'Honda CB1 125 ficha PDF',
+                        'label' => 'Honda Motos Paraguay',
                         'url' => 'https://hondamotos.com.py/uploads/products/30.pdf',
                     ],
                     'accessed' => '2026-09-30',
@@ -326,7 +251,7 @@ return [
                 'peso' => [
                     'value' => '128 kg',
                     'source' => [
-                        'label' => 'Honda CB1 125 ficha PDF',
+                        'label' => 'Honda Motos Paraguay',
                         'url' => 'https://hondamotos.com.py/uploads/products/30.pdf',
                     ],
                     'accessed' => '2026-09-30',
@@ -334,7 +259,7 @@ return [
                 'refrigeracion' => [
                     'value' => 'Aire',
                     'source' => [
-                        'label' => 'Honda CB1 125 ficha PDF',
+                        'label' => 'Honda Motos Paraguay',
                         'url' => 'https://hondamotos.com.py/uploads/products/30.pdf',
                     ],
                     'accessed' => '2026-09-30',
@@ -342,7 +267,7 @@ return [
                 'neumatico_del' => [
                     'value' => '80/100-18',
                     'source' => [
-                        'label' => 'Honda CB1 125 ficha PDF',
+                        'label' => 'Honda Motos Paraguay',
                         'url' => 'https://hondamotos.com.py/uploads/products/30.pdf',
                     ],
                     'accessed' => '2026-09-30',
@@ -350,7 +275,7 @@ return [
                 'neumatico_tras' => [
                     'value' => '90/90-18',
                     'source' => [
-                        'label' => 'Honda CB1 125 ficha PDF',
+                        'label' => 'Honda Motos Paraguay',
                         'url' => 'https://hondamotos.com.py/uploads/products/30.pdf',
                     ],
                     'accessed' => '2026-09-30',
@@ -361,35 +286,32 @@ return [
                     'value' => 13950000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Classic Motos CB1 125',
-                        'url' => 'https://www.classicmotos.com.py/producto/honda-cb1-125/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/honda-cb1-125/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Honda CB1 125 ficha (hondamotos.com.py)',
+                    'label' => 'Honda Motos Paraguay',
                     'url' => 'https://hondamotos.com.py/uploads/products/30.pdf',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'official Honda Paraguay (DIESA) page, seen in search results',
+                    'note' => 'Honda CB1 125 ficha (hondamotos.com.py) — official Honda Paraguay (DIESA) page, seen in search results',
                 ],
                 [
-                    'label' => 'Classic Motos CB1 125',
+                    'label' => 'Classic Motos',
                     'url' => 'https://www.classicmotos.com.py/producto/honda-cb1-125/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer evidence',
+                    'note' => 'Classic Motos CB1 125 — retailer evidence',
                 ],
                 [
-                    'label' => 'La Norteña CB1 125',
+                    'label' => 'La Norteña',
                     'url' => 'https://lanortena.net.py/prod/honda-cb1-125/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer page',
+                    'note' => 'La Norteña CB1 125 — retailer page',
                 ],
             ],
         ],
@@ -401,34 +323,22 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 162,
-                    'source' => [
-                        'label' => 'Classic Motos CB160-F (summary: 162.71 cc)',
-                        'url' => 'https://www.classicmotos.com.py/producto/honda-cb160-f/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/honda-cb160-f/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => [
-                        'label' => 'Classic Motos CB160-F',
-                        'url' => 'https://www.classicmotos.com.py/producto/honda-cb160-f/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/honda-cb160-f/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => [
-                        'label' => 'Classic Motos CB160-F',
-                        'url' => 'https://www.classicmotos.com.py/producto/honda-cb160-f/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/honda-cb160-f/'],
                     'accessed' => '2026-09-30',
                 ],
                 'velocidad_max' => [
                     'value' => '110 km/h',
-                    'source' => [
-                        'label' => 'Classic Motos CB160-F',
-                        'url' => 'https://www.classicmotos.com.py/producto/honda-cb160-f/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/honda-cb160-f/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -437,80 +347,25 @@ return [
                     'value' => 19105000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Classic Motos CB160-F',
-                        'url' => 'https://www.classicmotos.com.py/producto/honda-cb160-f/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/honda-cb160-f/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Classic Motos CB160-F',
+                    'label' => 'Classic Motos',
                     'url' => 'https://www.classicmotos.com.py/producto/honda-cb160-f/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer evidence',
+                    'note' => 'Classic Motos CB160-F — retailer evidence',
                 ],
                 [
-                    'label' => 'Clasipar ad by DIESA S.A. (lists CG 110, CB1 125, Navi 110, CB160, XR150, Africa, XR190, CB190R, Tornado 250, Grom, CB 500X, CB650R, NC750X, CRF1100, CRF250F)',
+                    'label' => 'Clasipar (aviso de DIESA S.A.)',
                     'url' => 'https://clasipar.paraguay.com/motor/motos/no-te-quedes-sin-tu-moto-honda-diesa-cg-110-cb1-125-navi-110-cb160-xr150-africa-1100-92967',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'distributor ad (criterion a); model list taken from search summary',
-                ],
-            ],
-        ],
-        'honda/cb190r' => [
-            'brand' => 'honda',
-            'name' => 'CB190R',
-            'slug' => 'cb190r',
-            'category' => 'naked',
-            'specs' => [
-                'potencia' => [
-                    'value' => '12,2 kW (16,6 PS) a 8.500 rpm',
-                    'source' => [
-                        'label' => 'Honda Paraguay — ficha CB190R (PDF)',
-                        'url' => 'https://hondamotos.com.py/uploads/products/31.pdf',
-                    ],
-                    'accessed' => '2026-09-30',
-                ],
-            ],
-            'prices' => [],
-            'versions' => ['CB190R 2.0'],
-            'sources' => [
-                [
-                    'label' => 'Honda CB190R ficha (hondamotos.com.py)',
-                    'url' => 'https://hondamotos.com.py/uploads/products/31.pdf',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'official Honda Paraguay (DIESA) page, seen in search results',
-                ],
-                [
-                    'label' => 'ABC Color: Diesa presentó NX190 y CB190R 2.0',
-                    'url' => 'https://www.abc.com.py/empresariales/2025/03/15/diesa-presento-las-nuevas-motos-honda-nx190-y-cb190r-20/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Paraguayan press naming model as launched by DIESA',
-                ],
-            ],
-        ],
-        'honda/cb350-hness' => [
-            'brand' => 'honda',
-            'name' => 'CB350 H\'Ness',
-            'slug' => 'cb350-hness',
-            'category' => 'custom-chopper',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'La Nación',
-                    'url' => 'https://www.lanacion.com.py/negocios_edicion_impresa/2024/05/22/diesa-presento-a-la-honda-xl-750-transalp-y-a-la-cb-350-hness/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Paraguayan press naming model as launched by DIESA',
+                    'note' => 'Clasipar ad by DIESA S.A. (lists CG 110, CB1 125, Navi 110, CB160, XR150, Africa, XR190, CB190R, Tornado 250, Grom, CB 500X, CB650R, NC750X, CRF1100, CRF250F) — distributor ad (criterion a); model list taken from search summary',
                 ],
             ],
         ],
@@ -524,11 +379,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Clasipar ad by DIESA S.A. (lists CG 110, CB1 125, Navi 110, CB160, XR150, Africa, XR190, CB190R, Tornado 250, Grom, CB 500X, CB650R, NC750X, CRF1100, CRF250F)',
+                    'label' => 'Clasipar (aviso de DIESA S.A.)',
                     'url' => 'https://clasipar.paraguay.com/motor/motos/no-te-quedes-sin-tu-moto-honda-diesa-cg-110-cb1-125-navi-110-cb160-xr150-africa-1100-92967',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'distributor ad (criterion a); model list taken from search summary',
+                    'note' => 'Clasipar ad by DIESA S.A. (lists CG 110, CB1 125, Navi 110, CB160, XR150, Africa, XR190, CB190R, Tornado 250, Grom, CB 500X, CB650R, NC750X, CRF1100, CRF250F) — distributor ad (criterion a); model list taken from search summary',
                 ],
             ],
         ],
@@ -542,11 +397,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Clasipar ad by DIESA S.A. (lists CG 110, CB1 125, Navi 110, CB160, XR150, Africa, XR190, CB190R, Tornado 250, Grom, CB 500X, CB650R, NC750X, CRF1100, CRF250F)',
+                    'label' => 'Clasipar (aviso de DIESA S.A.)',
                     'url' => 'https://clasipar.paraguay.com/motor/motos/no-te-quedes-sin-tu-moto-honda-diesa-cg-110-cb1-125-navi-110-cb160-xr150-africa-1100-92967',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'distributor ad (criterion a); model list taken from search summary',
+                    'note' => 'Clasipar ad by DIESA S.A. (lists CG 110, CB1 125, Navi 110, CB160, XR150, Africa, XR190, CB190R, Tornado 250, Grom, CB 500X, CB650R, NC750X, CRF1100, CRF250F) — distributor ad (criterion a); model list taken from search summary',
                 ],
             ],
         ],
@@ -558,7 +413,7 @@ return [
             'specs' => [
                 'arranque' => [
                     'value' => 'Eléctrico',
-                    'source' => ['label' => 'Honda Paraguay DIO 110', 'url' => 'https://hondamotos.com.py/productos/DIO-110/51'],
+                    'source' => ['label' => 'Honda Motos Paraguay', 'url' => 'https://hondamotos.com.py/productos/DIO-110/51'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -567,34 +422,18 @@ return [
                     'value' => 10725000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Honda Paraguay DIO 110', 'url' => 'https://hondamotos.com.py/productos/DIO-110/51'],
+                    'source' => ['label' => 'Honda Motos Paraguay', 'url' => 'https://hondamotos.com.py/productos/DIO-110/51'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Honda Paraguay DIO 110',
+                    'label' => 'Honda Motos Paraguay',
                     'url' => 'https://hondamotos.com.py/productos/DIO-110/51',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                ],
-            ],
-        ],
-        'honda/msx125-grom' => [
-            'brand' => 'honda',
-            'name' => 'MSX125 Grom',
-            'slug' => 'msx125-grom',
-            'category' => 'naked',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Honda Paraguay MSX125 GROM',
-                    'url' => 'https://hondamotos.com.py/productos/CB190R/35',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
+                    'note' => 'Honda Paraguay DIO 110',
                 ],
             ],
         ],
@@ -608,28 +447,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Clasipar ad by DIESA S.A. (lists CG 110, CB1 125, Navi 110, CB160, XR150, Africa, XR190, CB190R, Tornado 250, Grom, CB 500X, CB650R, NC750X, CRF1100, CRF250F)',
+                    'label' => 'Clasipar (aviso de DIESA S.A.)',
                     'url' => 'https://clasipar.paraguay.com/motor/motos/no-te-quedes-sin-tu-moto-honda-diesa-cg-110-cb1-125-navi-110-cb160-xr150-africa-1100-92967',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'distributor ad (criterion a); model list taken from search summary',
-                ],
-            ],
-        ],
-        'honda/nc750x' => [
-            'brand' => 'honda',
-            'name' => 'NC750X',
-            'slug' => 'nc750x',
-            'category' => 'touring',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Honda Paraguay NC750X',
-                    'url' => 'https://hondamotos.com.py/productos/CB500X/5',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
+                    'note' => 'Clasipar ad by DIESA S.A. (lists CG 110, CB1 125, Navi 110, CB160, XR150, Africa, XR190, CB190R, Tornado 250, Grom, CB 500X, CB650R, NC750X, CRF1100, CRF250F) — distributor ad (criterion a); model list taken from search summary',
                 ],
             ],
         ],
@@ -641,32 +463,32 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 184,
-                    'source' => ['label' => 'Honda Paraguay NX190', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
+                    'source' => ['label' => 'Honda Motos Paraguay', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => ['label' => 'Honda Paraguay NX190', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
+                    'source' => ['label' => 'Honda Motos Paraguay', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Disco',
-                    'source' => ['label' => 'Honda Paraguay NX190', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
+                    'source' => ['label' => 'Honda Motos Paraguay', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '12 L',
-                    'source' => ['label' => 'Honda Paraguay NX190', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
+                    'source' => ['label' => 'Honda Motos Paraguay', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => 'Monocilíndrico',
-                    'source' => ['label' => 'Honda Paraguay NX190', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
+                    'source' => ['label' => 'Honda Motos Paraguay', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
                     'accessed' => '2026-09-30',
                 ],
                 'alimentacion' => [
                     'value' => 'Inyección electrónica PGM-FI',
-                    'source' => ['label' => 'Honda Paraguay NX190', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
+                    'source' => ['label' => 'Honda Motos Paraguay', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -674,18 +496,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Honda Paraguay NX190',
+                    'label' => 'Honda Motos Paraguay',
                     'url' => 'https://hondamotos.com.py/productos/NX190/58',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'official Honda Paraguay (DIESA) page, seen in search results',
+                    'note' => 'Honda Paraguay NX190 — official Honda Paraguay (DIESA) page, seen in search results',
                 ],
                 [
                     'label' => 'ABC Color',
                     'url' => 'https://www.abc.com.py/empresariales/2025/03/15/diesa-presento-las-nuevas-motos-honda-nx190-y-cb190r-20/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press naming model as launched by DIESA',
+                    'note' => 'ABC Color — Paraguayan press naming model as launched by DIESA',
                 ],
             ],
         ],
@@ -698,7 +520,7 @@ return [
                 'cc' => [
                     'value' => 471,
                     'source' => [
-                        'label' => 'La Nación: Diesa presentó Rebel 500, NX500 y X-ADV 750',
+                        'label' => 'La Nación',
                         'url' => 'https://www.lanacion.com.py/negocios/2025/04/04/diesa-presento-las-nuevas-motocicletas-rebel-500-nx500-y-x-adv-750/',
                     ],
                     'accessed' => '2026-09-30',
@@ -708,18 +530,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'ABC Color: Lanzan Honda Rebel 500, NX500 y X-ADV 750',
+                    'label' => 'ABC Color',
                     'url' => 'https://www.abc.com.py/empresariales/2025/04/12/lanzan-honda-rebel-500-nx500-y-x-adv-750/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press naming model as launched by DIESA',
+                    'note' => 'ABC Color: Lanzan Honda Rebel 500, NX500 y X-ADV 750 — Paraguayan press naming model as launched by DIESA',
                 ],
                 [
                     'label' => 'La Nación',
                     'url' => 'https://www.lanacion.com.py/negocios/2025/04/04/diesa-presento-las-nuevas-motocicletas-rebel-500-nx500-y-x-adv-750/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press naming model as launched by DIESA',
+                    'note' => 'La Nación — Paraguayan press naming model as launched by DIESA',
                 ],
             ],
         ],
@@ -733,36 +555,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'ABC Color: Lanzan Honda Rebel 500, NX500 y X-ADV 750',
+                    'label' => 'ABC Color',
                     'url' => 'https://www.abc.com.py/empresariales/2025/04/12/lanzan-honda-rebel-500-nx500-y-x-adv-750/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press naming model as launched by DIESA',
+                    'note' => 'ABC Color: Lanzan Honda Rebel 500, NX500 y X-ADV 750 — Paraguayan press naming model as launched by DIESA',
                 ],
                 [
-                    'label' => 'La Nación: Diesa presentó Rebel 500, NX500 y X-ADV 750',
+                    'label' => 'La Nación',
                     'url' => 'https://www.lanacion.com.py/negocios/2025/04/04/diesa-presento-las-nuevas-motocicletas-rebel-500-nx500-y-x-adv-750/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press naming model as launched by DIESA',
-                ],
-            ],
-        ],
-        'honda/trx-250' => [
-            'brand' => 'honda',
-            'name' => 'TRX 250 4x2',
-            'slug' => 'trx-250',
-            'category' => 'cuatriciclo',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Honda Paraguay TRX 250 4X2 manual',
-                    'url' => 'https://hondamotos.com.py/productos/TRX-250-4X2-MANUAL/45',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'official Honda Paraguay (DIESA) page, seen in search results',
+                    'note' => 'La Nación: Diesa presentó Rebel 500, NX500 y X-ADV 750 — Paraguayan press naming model as launched by DIESA',
                 ],
             ],
         ],
@@ -775,7 +579,7 @@ return [
                 'cc' => [
                     'value' => 110,
                     'source' => [
-                        'label' => 'Classic Motos Wave 110S',
+                        'label' => 'Classic Motos',
                         'url' => 'https://www.classicmotos.com.py/producto/honda-wave-110s/',
                     ],
                     'accessed' => '2026-09-30',
@@ -783,7 +587,7 @@ return [
                 'transmision' => [
                     'value' => 'Semiautomática 4 velocidades',
                     'source' => [
-                        'label' => 'Classic Motos Wave 110S',
+                        'label' => 'Classic Motos',
                         'url' => 'https://www.classicmotos.com.py/producto/honda-wave-110s/',
                     ],
                     'accessed' => '2026-09-30',
@@ -791,7 +595,7 @@ return [
                 'arranque' => [
                     'value' => 'Eléctrico y pedal',
                     'source' => [
-                        'label' => 'Classic Motos Wave 110S',
+                        'label' => 'Classic Motos',
                         'url' => 'https://www.classicmotos.com.py/producto/honda-wave-110s/',
                     ],
                     'accessed' => '2026-09-30',
@@ -799,7 +603,7 @@ return [
                 'refrigeracion' => [
                     'value' => 'Aire',
                     'source' => [
-                        'label' => 'Classic Motos Wave 110S',
+                        'label' => 'Classic Motos',
                         'url' => 'https://www.classicmotos.com.py/producto/honda-wave-110s/',
                     ],
                     'accessed' => '2026-09-30',
@@ -811,7 +615,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Classic Motos Wave 110S',
+                        'label' => 'Classic Motos',
                         'url' => 'https://www.classicmotos.com.py/producto/honda-wave-110s/',
                     ],
                     'accessed' => '2026-09-30',
@@ -820,18 +624,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Honda Paraguay Wave 110S',
+                    'label' => 'Honda Motos Paraguay',
                     'url' => 'https://hondamotos.com.py/productos/WAVE110S/29',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'official Honda Paraguay (DIESA) page, seen in search results',
+                    'note' => 'Honda Paraguay Wave 110S — official Honda Paraguay (DIESA) page, seen in search results',
                 ],
                 [
-                    'label' => 'Classic Motos Wave 110S',
+                    'label' => 'Classic Motos',
                     'url' => 'https://www.classicmotos.com.py/producto/honda-wave-110s/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer evidence',
+                    'note' => 'Classic Motos Wave 110S — retailer evidence',
                 ],
             ],
         ],
@@ -844,7 +648,7 @@ return [
                 'cc' => [
                     'value' => 745,
                     'source' => [
-                        'label' => 'La Nación: Diesa presentó Rebel 500, NX500 y X-ADV 750',
+                        'label' => 'La Nación',
                         'url' => 'https://www.lanacion.com.py/negocios/2025/04/04/diesa-presento-las-nuevas-motocicletas-rebel-500-nx500-y-x-adv-750/',
                     ],
                     'accessed' => '2026-09-30',
@@ -852,7 +656,7 @@ return [
                 'transmision' => [
                     'value' => 'Automática DCT de doble embrague',
                     'source' => [
-                        'label' => 'La Nación: Diesa presentó Rebel 500, NX500 y X-ADV 750',
+                        'label' => 'La Nación',
                         'url' => 'https://www.lanacion.com.py/negocios/2025/04/04/diesa-presento-las-nuevas-motocicletas-rebel-500-nx500-y-x-adv-750/',
                     ],
                     'accessed' => '2026-09-30',
@@ -862,36 +666,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'ABC Color: Lanzan Honda Rebel 500, NX500 y X-ADV 750',
+                    'label' => 'ABC Color',
                     'url' => 'https://www.abc.com.py/empresariales/2025/04/12/lanzan-honda-rebel-500-nx500-y-x-adv-750/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press naming model as launched by DIESA',
+                    'note' => 'ABC Color: Lanzan Honda Rebel 500, NX500 y X-ADV 750 — Paraguayan press naming model as launched by DIESA',
                 ],
                 [
                     'label' => 'La Nación',
                     'url' => 'https://www.lanacion.com.py/negocios/2025/04/04/diesa-presento-las-nuevas-motocicletas-rebel-500-nx500-y-x-adv-750/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press naming model as launched by DIESA',
-                ],
-            ],
-        ],
-        'honda/xl-750-transalp' => [
-            'brand' => 'honda',
-            'name' => 'XL 750 Transalp',
-            'slug' => 'xl-750-transalp',
-            'category' => 'touring',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'La Nación: Diesa presentó XL 750 Transalp y CB 350 H\'ness',
-                    'url' => 'https://www.lanacion.com.py/negocios_edicion_impresa/2024/05/22/diesa-presento-a-la-honda-xl-750-transalp-y-a-la-cb-350-hness/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Paraguayan press naming model as launched by DIESA',
+                    'note' => 'La Nación — Paraguayan press naming model as launched by DIESA',
                 ],
             ],
         ],
@@ -903,10 +689,7 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => [
-                        'label' => 'Classic Motos XR150L (summary: 4 tiempos, 150 cc, trail)',
-                        'url' => 'https://www.classicmotos.com.py/producto/honda-xr150l/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/honda-xr150l/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -915,35 +698,32 @@ return [
                     'value' => 20267000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Honda Paraguay XR150L', 'url' => 'https://hondamotos.com.py/productos/XR150L/13'],
+                    'source' => ['label' => 'Honda Motos Paraguay', 'url' => 'https://hondamotos.com.py/productos/XR150L/13'],
                     'accessed' => '2026-09-30',
                 ],
                 [
                     'value' => 21500000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Classic Motos XR150L',
-                        'url' => 'https://www.classicmotos.com.py/producto/honda-xr150l/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/honda-xr150l/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Honda Paraguay XR150L',
+                    'label' => 'Honda Motos Paraguay',
                     'url' => 'https://hondamotos.com.py/productos/XR150L/13',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'official Honda Paraguay (DIESA) page, seen in search results',
+                    'note' => 'Honda Paraguay XR150L — official Honda Paraguay (DIESA) page, seen in search results',
                 ],
                 [
-                    'label' => 'Classic Motos XR150L',
+                    'label' => 'Classic Motos',
                     'url' => 'https://www.classicmotos.com.py/producto/honda-xr150l/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer evidence',
+                    'note' => 'Classic Motos XR150L — retailer evidence',
                 ],
             ],
         ],
@@ -958,28 +738,25 @@ return [
                     'value' => 26500000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Classic Motos XR190L',
-                        'url' => 'https://www.classicmotos.com.py/producto/honda-xr190l/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/honda-xr190l/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Honda Paraguay XR190L',
+                    'label' => 'Honda Motos Paraguay',
                     'url' => 'https://hondamotos.com.py/productos/XR190L/12',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'official Honda Paraguay (DIESA) page, seen in search results',
+                    'note' => 'Honda Paraguay XR190L — official Honda Paraguay (DIESA) page, seen in search results',
                 ],
                 [
-                    'label' => 'Classic Motos XR190L',
+                    'label' => 'Classic Motos',
                     'url' => 'https://www.classicmotos.com.py/producto/honda-xr190l/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer evidence',
+                    'note' => 'Classic Motos XR190L — retailer evidence',
                 ],
             ],
         ],
@@ -992,7 +769,7 @@ return [
                 'cc' => [
                     'value' => 249,
                     'source' => [
-                        'label' => 'Classic Motos XR 250 Tornado',
+                        'label' => 'Classic Motos',
                         'url' => 'https://www.classicmotos.com.py/producto/xr-250-tornado/',
                     ],
                     'accessed' => '2026-09-30',
@@ -1000,7 +777,7 @@ return [
                 'potencia' => [
                     'value' => '22.98 hp a 7500 rpm',
                     'source' => [
-                        'label' => 'Classic Motos XR 250 Tornado',
+                        'label' => 'Classic Motos',
                         'url' => 'https://www.classicmotos.com.py/producto/xr-250-tornado/',
                     ],
                     'accessed' => '2026-09-30',
@@ -1008,7 +785,7 @@ return [
                 'torque' => [
                     'value' => '23.73 Nm a 6000 rpm',
                     'source' => [
-                        'label' => 'Classic Motos XR 250 Tornado',
+                        'label' => 'Classic Motos',
                         'url' => 'https://www.classicmotos.com.py/producto/xr-250-tornado/',
                     ],
                     'accessed' => '2026-09-30',
@@ -1016,7 +793,7 @@ return [
                 'transmision' => [
                     'value' => '6 velocidades',
                     'source' => [
-                        'label' => 'Classic Motos XR 250 Tornado',
+                        'label' => 'Classic Motos',
                         'url' => 'https://www.classicmotos.com.py/producto/xr-250-tornado/',
                     ],
                     'accessed' => '2026-09-30',
@@ -1024,7 +801,7 @@ return [
                 'refrigeracion' => [
                     'value' => 'Aire',
                     'source' => [
-                        'label' => 'Classic Motos XR 250 Tornado',
+                        'label' => 'Classic Motos',
                         'url' => 'https://www.classicmotos.com.py/producto/xr-250-tornado/',
                     ],
                     'accessed' => '2026-09-30',
@@ -1036,7 +813,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Classic Motos XR 250 Tornado',
+                        'label' => 'Classic Motos',
                         'url' => 'https://www.classicmotos.com.py/producto/xr-250-tornado/',
                     ],
                     'accessed' => '2026-09-30',
@@ -1045,36 +822,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Honda Paraguay XR 250 Tornado',
+                    'label' => 'Honda Motos Paraguay',
                     'url' => 'https://hondamotos.com.py/productos/XR-250-TORNADO/10',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'official Honda Paraguay (DIESA) page, seen in search results',
+                    'note' => 'Honda Paraguay XR 250 Tornado — official Honda Paraguay (DIESA) page, seen in search results',
                 ],
                 [
-                    'label' => 'Classic Motos XR 250 Tornado',
+                    'label' => 'Classic Motos',
                     'url' => 'https://www.classicmotos.com.py/producto/xr-250-tornado/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer evidence',
-                ],
-            ],
-        ],
-        'honda/xr-300-tornado' => [
-            'brand' => 'honda',
-            'name' => 'XR 300 Tornado',
-            'slug' => 'xr-300-tornado',
-            'category' => 'enduro-cross',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Classic Motos XR 300 Tornado',
-                    'url' => 'https://www.classicmotos.com.py/producto/xr-300-tornado/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'retailer evidence',
+                    'note' => 'Classic Motos XR 250 Tornado — retailer evidence',
                 ],
             ],
         ],
@@ -1086,34 +845,22 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 644,
-                    'source' => [
-                        'label' => 'Classic Motos XR 650L',
-                        'url' => 'https://www.classicmotos.com.py/producto/xr-650l/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/xr-650l/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '44 HP',
-                    'source' => [
-                        'label' => 'Classic Motos XR 650L',
-                        'url' => 'https://www.classicmotos.com.py/producto/xr-650l/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/xr-650l/'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => '4 tiempos SOHC',
-                    'source' => [
-                        'label' => 'Classic Motos XR 650L',
-                        'url' => 'https://www.classicmotos.com.py/producto/xr-650l/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/xr-650l/'],
                     'accessed' => '2026-09-30',
                 ],
                 'refrigeracion' => [
                     'value' => 'Aire, cárter seco',
-                    'source' => [
-                        'label' => 'Classic Motos XR 650L',
-                        'url' => 'https://www.classicmotos.com.py/producto/xr-650l/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/xr-650l/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -1121,11 +868,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Classic Motos XR 650L',
+                    'label' => 'Classic Motos',
                     'url' => 'https://www.classicmotos.com.py/producto/xr-650l/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer evidence',
+                    'note' => 'Classic Motos XR 650L — retailer evidence',
                 ],
             ],
         ],
@@ -1137,12 +884,12 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => '150-X', 'url' => 'https://star.com.py/producto/SK150-X-CKD/150-x'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-X-CKD/150-x'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '11,56 HP / 8000 RPM',
-                    'source' => ['label' => '150-X', 'url' => 'https://star.com.py/producto/SK150-X-CKD/150-x'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-X-CKD/150-x'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -1151,52 +898,25 @@ return [
                     'value' => 6800000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Alex S.A. 150-X', 'url' => 'https://www.alex.com.py/producto/258/150-x'],
+                    'source' => ['label' => 'Alex S.A.', 'url' => 'https://www.alex.com.py/producto/258/150-x'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => '150-X',
+                    'label' => 'Star',
                     'url' => 'https://star.com.py/producto/SK150-X-CKD/150-x',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
+                    'note' => '150-X — Official brand page star.com.py',
                 ],
                 [
-                    'label' => 'Alex S.A. 150-X',
+                    'label' => 'Alex S.A.',
                     'url' => 'https://www.alex.com.py/producto/258/150-x',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor catalogue with Gs. price',
-                ],
-            ],
-        ],
-        'star/a1-110' => [
-            'brand' => 'star',
-            'name' => 'A1 110',
-            'slug' => 'a1-110',
-            'category' => 'scooter',
-            'specs' => [
-                'cc' => [
-                    'value' => 110,
-                    'source' => [
-                        'label' => 'MOTONETA A1 110cc',
-                        'url' => 'https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc',
-                    ],
-                    'accessed' => '2026-09-30',
-                ],
-            ],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'MOTONETA A1 110cc',
-                    'url' => 'https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
+                    'note' => 'Alex S.A. 150-X — Distributor catalogue with Gs. price',
                 ],
             ],
         ],
@@ -1208,37 +928,37 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 110,
-                    'source' => ['label' => 'DAX 110', 'url' => 'https://star.com.py/producto/SK110-DAX-CKD/dax-110'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK110-DAX-CKD/dax-110'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
                     'value' => 'Eléctrico / Pedal',
-                    'source' => ['label' => 'DAX 110', 'url' => 'https://star.com.py/producto/SK110-DAX-CKD/dax-110'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK110-DAX-CKD/dax-110'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'DAX 110', 'url' => 'https://star.com.py/producto/SK110-DAX-CKD/dax-110'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK110-DAX-CKD/dax-110'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'DAX 110', 'url' => 'https://star.com.py/producto/SK110-DAX-CKD/dax-110'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK110-DAX-CKD/dax-110'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '3,5 litros',
-                    'source' => ['label' => 'DAX 110', 'url' => 'https://star.com.py/producto/SK110-DAX-CKD/dax-110'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK110-DAX-CKD/dax-110'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '100 kg',
-                    'source' => ['label' => 'DAX 110', 'url' => 'https://star.com.py/producto/SK110-DAX-CKD/dax-110'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK110-DAX-CKD/dax-110'],
                     'accessed' => '2026-09-30',
                 ],
                 'altura_asiento' => [
                     'value' => '740 mm',
-                    'source' => ['label' => 'DAX 110', 'url' => 'https://star.com.py/producto/SK110-DAX-CKD/dax-110'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK110-DAX-CKD/dax-110'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -1247,25 +967,25 @@ return [
                     'value' => 5400000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Alex S.A. Dax 110', 'url' => 'https://www.alex.com.py/producto/252/dax-110cc'],
+                    'source' => ['label' => 'Alex S.A.', 'url' => 'https://www.alex.com.py/producto/252/dax-110cc'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'DAX 110',
+                    'label' => 'Star',
                     'url' => 'https://star.com.py/producto/SK110-DAX-CKD/dax-110',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
+                    'note' => 'DAX 110 — Official brand page star.com.py',
                 ],
                 [
-                    'label' => 'Alex S.A. Dax 110',
+                    'label' => 'Alex S.A.',
                     'url' => 'https://www.alex.com.py/producto/252/dax-110cc',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor catalogue with Gs. price',
+                    'note' => 'Alex S.A. Dax 110 — Distributor catalogue with Gs. price',
                 ],
             ],
         ],
@@ -1277,12 +997,12 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 110,
-                    'source' => ['label' => 'DAX-A 110', 'url' => 'https://star.com.py/producto/SK110DAX-A-CKD/dax-a-110'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK110DAX-A-CKD/dax-a-110'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => ['label' => 'DAX-A 110', 'url' => 'https://star.com.py/producto/SK110DAX-A-CKD/dax-a-110'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK110DAX-A-CKD/dax-a-110'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -1291,25 +1011,25 @@ return [
                     'value' => 5900000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Alex S.A. Dax-A 110', 'url' => 'https://www.alex.com.py/producto/253/dax-a-110cc'],
+                    'source' => ['label' => 'Alex S.A.', 'url' => 'https://www.alex.com.py/producto/253/dax-a-110cc'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'DAX-A 110',
+                    'label' => 'Star',
                     'url' => 'https://star.com.py/producto/SK110DAX-A-CKD/dax-a-110',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
+                    'note' => 'DAX-A 110 — Official brand page star.com.py',
                 ],
                 [
-                    'label' => 'Alex S.A. Dax-A 110',
+                    'label' => 'Alex S.A.',
                     'url' => 'https://www.alex.com.py/producto/253/dax-a-110cc',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor catalogue with Gs. price',
+                    'note' => 'Alex S.A. Dax-A 110 — Distributor catalogue with Gs. price',
                 ],
             ],
         ],
@@ -1321,12 +1041,12 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'FXZ 150', 'url' => 'https://star.com.py/producto/SK150-FXZ-CKD/fxz-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-FXZ-CKD/fxz-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '12,78 HP / 8500 RPM',
-                    'source' => ['label' => 'FXZ 150', 'url' => 'https://star.com.py/producto/SK150-FXZ-CKD/fxz-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-FXZ-CKD/fxz-150cc'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -1335,28 +1055,25 @@ return [
                     'value' => 9500000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Alex S.A. FXZ 150',
-                        'url' => 'https://alex.com.py/producto/263/motocicleta-fxz-150cc',
-                    ],
+                    'source' => ['label' => 'Alex S.A.', 'url' => 'https://alex.com.py/producto/263/motocicleta-fxz-150cc'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'FXZ 150',
+                    'label' => 'Star',
                     'url' => 'https://star.com.py/producto/SK150-FXZ-CKD/fxz-150cc',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
+                    'note' => 'FXZ 150 — Official brand page star.com.py',
                 ],
                 [
-                    'label' => 'Alex S.A. FXZ 150',
+                    'label' => 'Alex S.A.',
                     'url' => 'https://alex.com.py/producto/263/motocicleta-fxz-150cc',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor catalogue with Gs. price',
+                    'note' => 'Alex S.A. FXZ 150 — Distributor catalogue with Gs. price',
                 ],
             ],
         ],
@@ -1368,27 +1085,27 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 125,
-                    'source' => ['label' => 'GENIUS 125', 'url' => 'https://star.com.py/producto/SK125GENIUS-CKD/genius-125'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK125GENIUS-CKD/genius-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '7,3 HP / 7500 RPM',
-                    'source' => ['label' => 'GENIUS 125', 'url' => 'https://star.com.py/producto/SK125GENIUS-CKD/genius-125'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK125GENIUS-CKD/genius-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => ['label' => 'GENIUS 125', 'url' => 'https://star.com.py/producto/SK125GENIUS-CKD/genius-125'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK125GENIUS-CKD/genius-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'GENIUS 125', 'url' => 'https://star.com.py/producto/SK125GENIUS-CKD/genius-125'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK125GENIUS-CKD/genius-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '4 litros',
-                    'source' => ['label' => 'GENIUS 125', 'url' => 'https://star.com.py/producto/SK125GENIUS-CKD/genius-125'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK125GENIUS-CKD/genius-125'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -1397,28 +1114,25 @@ return [
                     'value' => 6600000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Alex S.A. Genius 125',
-                        'url' => 'https://www.alex.com.py/producto/254/genius-125cc',
-                    ],
+                    'source' => ['label' => 'Alex S.A.', 'url' => 'https://www.alex.com.py/producto/254/genius-125cc'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'GENIUS 125',
+                    'label' => 'Star',
                     'url' => 'https://star.com.py/producto/SK125GENIUS-CKD/genius-125',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
+                    'note' => 'GENIUS 125 — Official brand page star.com.py',
                 ],
                 [
-                    'label' => 'Alex S.A. Genius 125',
+                    'label' => 'Alex S.A.',
                     'url' => 'https://www.alex.com.py/producto/254/genius-125cc',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor catalogue with Gs. price',
+                    'note' => 'Alex S.A. Genius 125 — Distributor catalogue with Gs. price',
                 ],
             ],
         ],
@@ -1430,27 +1144,27 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 125,
-                    'source' => ['label' => 'MAGIC 125', 'url' => 'https://star.com.py/producto/SK125-MAGIC-CKD/magic-125'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK125-MAGIC-CKD/magic-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '7,3 HP / 7500 RPM',
-                    'source' => ['label' => 'MAGIC 125', 'url' => 'https://star.com.py/producto/SK125-MAGIC-CKD/magic-125'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK125-MAGIC-CKD/magic-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => ['label' => 'MAGIC 125', 'url' => 'https://star.com.py/producto/SK125-MAGIC-CKD/magic-125'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK125-MAGIC-CKD/magic-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'MAGIC 125', 'url' => 'https://star.com.py/producto/SK125-MAGIC-CKD/magic-125'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK125-MAGIC-CKD/magic-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '4 litros',
-                    'source' => ['label' => 'MAGIC 125', 'url' => 'https://star.com.py/producto/SK125-MAGIC-CKD/magic-125'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK125-MAGIC-CKD/magic-125'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -1459,25 +1173,25 @@ return [
                     'value' => 6900000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Alex S.A. Magic 125', 'url' => 'https://www.alex.com.py/producto/255/magic-125'],
+                    'source' => ['label' => 'Alex S.A.', 'url' => 'https://www.alex.com.py/producto/255/magic-125'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'MAGIC 125',
+                    'label' => 'Star',
                     'url' => 'https://star.com.py/producto/SK125-MAGIC-CKD/magic-125',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
+                    'note' => 'MAGIC 125 — Official brand page star.com.py',
                 ],
                 [
-                    'label' => 'Alex S.A. Magic 125',
+                    'label' => 'Alex S.A.',
                     'url' => 'https://www.alex.com.py/producto/255/magic-125',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor catalogue with Gs. price',
+                    'note' => 'Alex S.A. Magic 125 — Distributor catalogue with Gs. price',
                 ],
             ],
         ],
@@ -1489,18 +1203,12 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => [
-                        'label' => 'NEW DESERT 150',
-                        'url' => 'https://star.com.py/producto/SK150BR-NEW-CKD/new-desert-150',
-                    ],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150BR-NEW-CKD/new-desert-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '11 HP / 8500 RPM',
-                    'source' => [
-                        'label' => 'NEW DESERT 150',
-                        'url' => 'https://star.com.py/producto/SK150BR-NEW-CKD/new-desert-150',
-                    ],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150BR-NEW-CKD/new-desert-150'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -1509,55 +1217,25 @@ return [
                     'value' => 8500000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Alex S.A. New Desert 150',
-                        'url' => 'https://www.alex.com.py/producto/264/new-desert-150cc',
-                    ],
+                    'source' => ['label' => 'Alex S.A.', 'url' => 'https://www.alex.com.py/producto/264/new-desert-150cc'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'NEW DESERT 150',
+                    'label' => 'Star',
                     'url' => 'https://star.com.py/producto/SK150BR-NEW-CKD/new-desert-150',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
+                    'note' => 'NEW DESERT 150 — Official brand page star.com.py',
                 ],
                 [
-                    'label' => 'Alex S.A. New Desert 150',
+                    'label' => 'Alex S.A.',
                     'url' => 'https://www.alex.com.py/producto/264/new-desert-150cc',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor catalogue with Gs. price',
-                ],
-            ],
-        ],
-        'star/new-desert-200' => [
-            'brand' => 'star',
-            'name' => 'New Desert 200',
-            'slug' => 'new-desert-200',
-            'category' => 'enduro-cross',
-            'specs' => [
-                'cc' => [
-                    'value' => 200,
-                    'source' => [
-                        'label' => 'NEW DESERT 200',
-                        'url' => 'https://star.com.py/producto/SK200-BR-CKD/new-desert-200cc',
-                    ],
-                    'accessed' => '2026-09-30',
-                ],
-            ],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'NEW DESERT 200',
-                    'url' => 'https://star.com.py/producto/SK200-BR-CKD/new-desert-200cc',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
+                    'note' => 'Alex S.A. New Desert 150 — Distributor catalogue with Gs. price',
                 ],
             ],
         ],
@@ -1569,37 +1247,37 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'NT-A 150cc', 'url' => 'https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '11 HP / 8500 RPM',
-                    'source' => ['label' => 'NT-A 150cc', 'url' => 'https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => ['label' => 'NT-A 150cc', 'url' => 'https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'NT-A 150cc', 'url' => 'https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '14 litros',
-                    'source' => ['label' => 'NT-A 150cc', 'url' => 'https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_del' => [
                     'value' => '2.75×18',
-                    'source' => ['label' => 'NT-A 150cc', 'url' => 'https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_tras' => [
                     'value' => '90/90×18',
-                    'source' => ['label' => 'NT-A 150cc', 'url' => 'https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -1607,11 +1285,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'NT-A 150cc',
+                    'label' => 'Star',
                     'url' => 'https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
+                    'note' => 'NT-A 150cc — Official brand page star.com.py',
                 ],
             ],
         ],
@@ -1623,42 +1301,42 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'RX4 150', 'url' => 'https://star.com.py/producto/SK150-RX4-CKD/rx4-150'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-RX4-CKD/rx4-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '11 HP',
-                    'source' => ['label' => 'RX4 150', 'url' => 'https://star.com.py/producto/SK150-RX4-CKD/rx4-150'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-RX4-CKD/rx4-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'torque' => [
                     'value' => '9.8 Nm',
-                    'source' => ['label' => 'RX4 150', 'url' => 'https://star.com.py/producto/SK150-RX4-CKD/rx4-150'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-RX4-CKD/rx4-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => ['label' => 'RX4 150', 'url' => 'https://star.com.py/producto/SK150-RX4-CKD/rx4-150'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-RX4-CKD/rx4-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'RX4 150', 'url' => 'https://star.com.py/producto/SK150-RX4-CKD/rx4-150'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-RX4-CKD/rx4-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '15 litros',
-                    'source' => ['label' => 'RX4 150', 'url' => 'https://star.com.py/producto/SK150-RX4-CKD/rx4-150'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-RX4-CKD/rx4-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_del' => [
                     'value' => '2.75x18',
-                    'source' => ['label' => 'RX4 150', 'url' => 'https://star.com.py/producto/SK150-RX4-CKD/rx4-150'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-RX4-CKD/rx4-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_tras' => [
                     'value' => '3.00 x18',
-                    'source' => ['label' => 'RX4 150', 'url' => 'https://star.com.py/producto/SK150-RX4-CKD/rx4-150'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-RX4-CKD/rx4-150'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -1666,11 +1344,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'RX4 150',
+                    'label' => 'Star',
                     'url' => 'https://star.com.py/producto/SK150-RX4-CKD/rx4-150',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
+                    'note' => 'RX4 150 — Official brand page star.com.py',
                 ],
             ],
         ],
@@ -1682,57 +1360,57 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'SMX 150cc', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '11 HP / 8500 RPM',
-                    'source' => ['label' => 'SMX 150cc', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => 'Manual 5 velocidades',
-                    'source' => ['label' => 'SMX 150cc', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
                     'value' => 'Eléctrico / Pedal',
-                    'source' => ['label' => 'SMX 150cc', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => ['label' => 'SMX 150cc', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'SMX 150cc', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '12 litros',
-                    'source' => ['label' => 'SMX 150cc', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '110 kg',
-                    'source' => ['label' => 'SMX 150cc', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => '4 tiempos, monocilíndrico, refrigerado por aire, 2 válvulas',
-                    'source' => ['label' => 'SMX 150cc', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_del' => [
                     'value' => '90/90-19',
-                    'source' => ['label' => 'SMX 150cc', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_tras' => [
                     'value' => '110/90-17',
-                    'source' => ['label' => 'SMX 150cc', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -1740,11 +1418,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'SMX 150cc',
+                    'label' => 'Star',
                     'url' => 'https://star.com.py/producto/SMX150-CKD/smx-150cc',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
+                    'note' => 'SMX 150cc — Official brand page star.com.py',
                 ],
             ],
         ],
@@ -1756,27 +1434,27 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 125,
-                    'source' => ['label' => 'STAR 125', 'url' => 'https://star.com.py/producto/SK125-5-CKD/star-125'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK125-5-CKD/star-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '10,34 HP / 8000 RPM',
-                    'source' => ['label' => 'STAR 125', 'url' => 'https://star.com.py/producto/SK125-5-CKD/star-125'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK125-5-CKD/star-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'STAR 125', 'url' => 'https://star.com.py/producto/SK125-5-CKD/star-125'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK125-5-CKD/star-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'STAR 125', 'url' => 'https://star.com.py/producto/SK125-5-CKD/star-125'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK125-5-CKD/star-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '11 litros',
-                    'source' => ['label' => 'STAR 125', 'url' => 'https://star.com.py/producto/SK125-5-CKD/star-125'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK125-5-CKD/star-125'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -1785,25 +1463,25 @@ return [
                     'value' => 5650000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Alex S.A. Star 125', 'url' => 'https://www.alex.com.py/producto/256/star-125'],
+                    'source' => ['label' => 'Alex S.A.', 'url' => 'https://www.alex.com.py/producto/256/star-125'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'STAR 125',
+                    'label' => 'Star',
                     'url' => 'https://star.com.py/producto/SK125-5-CKD/star-125',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
+                    'note' => 'STAR 125 — Official brand page star.com.py',
                 ],
                 [
-                    'label' => 'Alex S.A. Star 125',
+                    'label' => 'Alex S.A.',
                     'url' => 'https://www.alex.com.py/producto/256/star-125',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor catalogue with Gs. price',
+                    'note' => 'Alex S.A. Star 125 — Distributor catalogue with Gs. price',
                 ],
             ],
         ],
@@ -1815,42 +1493,42 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'STAR 150', 'url' => 'https://star.com.py/producto/SK150-CG-CKD/star-150'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-CG-CKD/star-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '11,56 HP / 8000 RPM',
-                    'source' => ['label' => 'STAR 150', 'url' => 'https://star.com.py/producto/SK150-CG-CKD/star-150'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-CG-CKD/star-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'STAR 150', 'url' => 'https://star.com.py/producto/SK150-CG-CKD/star-150'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-CG-CKD/star-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'STAR 150', 'url' => 'https://star.com.py/producto/SK150-CG-CKD/star-150'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-CG-CKD/star-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '11 litros',
-                    'source' => ['label' => 'STAR 150', 'url' => 'https://star.com.py/producto/SK150-CG-CKD/star-150'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-CG-CKD/star-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '110 kg',
-                    'source' => ['label' => 'STAR 150', 'url' => 'https://star.com.py/producto/SK150-CG-CKD/star-150'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-CG-CKD/star-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => '4 tiempos, monocilíndrico',
-                    'source' => ['label' => 'STAR 150', 'url' => 'https://star.com.py/producto/SK150-CG-CKD/star-150'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-CG-CKD/star-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'altura_asiento' => [
                     'value' => '760 mm',
-                    'source' => ['label' => 'STAR 150', 'url' => 'https://star.com.py/producto/SK150-CG-CKD/star-150'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150-CG-CKD/star-150'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -1859,52 +1537,25 @@ return [
                     'value' => 5800000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Alex S.A. Star 150', 'url' => 'https://www.alex.com.py/producto/257/star-150'],
+                    'source' => ['label' => 'Alex S.A.', 'url' => 'https://www.alex.com.py/producto/257/star-150'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'STAR 150',
+                    'label' => 'Star',
                     'url' => 'https://star.com.py/producto/SK150-CG-CKD/star-150',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
+                    'note' => 'STAR 150 — Official brand page star.com.py',
                 ],
                 [
-                    'label' => 'Alex S.A. Star 150',
+                    'label' => 'Alex S.A.',
                     'url' => 'https://www.alex.com.py/producto/257/star-150',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor catalogue with Gs. price',
-                ],
-            ],
-        ],
-        'star/star-200' => [
-            'brand' => 'star',
-            'name' => 'Star 200',
-            'slug' => 'star-200',
-            'category' => 'naked',
-            'specs' => [
-                'cc' => [
-                    'value' => 200,
-                    'source' => [
-                        'label' => 'STAR 200',
-                        'url' => 'https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc',
-                    ],
-                    'accessed' => '2026-09-30',
-                ],
-            ],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'STAR 200',
-                    'url' => 'https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
+                    'note' => 'Alex S.A. Star 150 — Distributor catalogue with Gs. price',
                 ],
             ],
         ],
@@ -1917,7 +1568,7 @@ return [
                 'cc' => [
                     'value' => 200,
                     'source' => [
-                        'label' => 'MOTOCARGA 200cc SUPER CARGA',
+                        'label' => 'Star',
                         'url' => 'https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga',
                     ],
                     'accessed' => '2026-09-30',
@@ -1925,7 +1576,7 @@ return [
                 'potencia' => [
                     'value' => '14 HP / 7500 RPM',
                     'source' => [
-                        'label' => 'MOTOCARGA 200cc SUPER CARGA',
+                        'label' => 'Star',
                         'url' => 'https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga',
                     ],
                     'accessed' => '2026-09-30',
@@ -1933,7 +1584,7 @@ return [
                 'arranque' => [
                     'value' => 'Eléctrico/pedal',
                     'source' => [
-                        'label' => 'MOTOCARGA 200cc SUPER CARGA',
+                        'label' => 'Star',
                         'url' => 'https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga',
                     ],
                     'accessed' => '2026-09-30',
@@ -1941,7 +1592,7 @@ return [
                 'motor' => [
                     'value' => '4 tiempos/monocilíndrico/transmisión por eje/refrigerado por aire',
                     'source' => [
-                        'label' => 'MOTOCARGA 200cc SUPER CARGA',
+                        'label' => 'Star',
                         'url' => 'https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga',
                     ],
                     'accessed' => '2026-09-30',
@@ -1951,18 +1602,18 @@ return [
             'versions' => ['Sin cabina', 'Con cabina'],
             'sources' => [
                 [
-                    'label' => 'MOTOCARGA 200cc SUPER CARGA',
+                    'label' => 'Star',
                     'url' => 'https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
+                    'note' => 'MOTOCARGA 200cc SUPER CARGA — Official brand page star.com.py',
                 ],
                 [
-                    'label' => 'Alex S.A. Motocarga',
+                    'label' => 'Alex S.A.',
                     'url' => 'https://www.alex.com.py/producto/240/motocarga',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'distributor',
+                    'note' => 'Alex S.A. Motocarga — distributor',
                 ],
             ],
         ],
@@ -1974,17 +1625,17 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'TR-5 150cc', 'url' => 'https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '12,51 HP / 8500 RPM',
-                    'source' => ['label' => 'TR-5 150cc', 'url' => 'https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '12 litros',
-                    'source' => ['label' => 'TR-5 150cc', 'url' => 'https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -1992,11 +1643,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'TR-5 150cc',
+                    'label' => 'Star',
                     'url' => 'https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
+                    'note' => 'TR-5 150cc — Official brand page star.com.py',
                 ],
             ],
         ],
@@ -2008,17 +1659,17 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'XPRO 150', 'url' => 'https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '11,56 HP / 8000 RPM',
-                    'source' => ['label' => 'XPRO 150', 'url' => 'https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '14 litros',
-                    'source' => ['label' => 'XPRO 150', 'url' => 'https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -2026,76 +1677,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'XPRO 150',
+                    'label' => 'Star',
                     'url' => 'https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
-                ],
-            ],
-        ],
-        'star/xpro-200' => [
-            'brand' => 'star',
-            'name' => 'XPro 200',
-            'slug' => 'xpro-200',
-            'category' => 'naked',
-            'specs' => [
-                'cc' => [
-                    'value' => 200,
-                    'source' => ['label' => 'XPRO 200cc', 'url' => 'https://star.com.py/producto/XPRO200-R-CKD/xpro-200cc'],
-                    'accessed' => '2026-09-30',
-                ],
-            ],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'XPRO 200cc',
-                    'url' => 'https://star.com.py/producto/XPRO200-R-CKD/xpro-200cc',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Official brand page star.com.py',
-                ],
-            ],
-        ],
-        'star/xrm-150' => [
-            'brand' => 'star',
-            'name' => 'XRM 150',
-            'slug' => 'xrm-150',
-            'category' => 'cub',
-            'specs' => [
-                'cc' => [
-                    'value' => 150,
-                    'source' => [
-                        'label' => 'Star XRM 150 (star.com.py)',
-                        'url' => 'https://star.com.py/producto/XRM150-CKD/xrm-150',
-                    ],
-                    'accessed' => '2026-09-30',
-                ],
-            ],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Star XRM 150 (star.com.py)',
-                    'url' => 'https://star.com.py/producto/XRM150-CKD/xrm-150',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'official brand page',
-                ],
-                [
-                    'label' => 'Alex S.A. XRM 150',
-                    'url' => 'https://alex.com.py/producto/2329/xrm-150',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'official distributor',
-                ],
-                [
-                    'label' => 'Classic Motos Star XRM 150',
-                    'url' => 'https://www.classicmotos.com.py/producto/star-xrm-150/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'retailer',
+                    'note' => 'XPRO 150 — Official brand page star.com.py',
                 ],
             ],
         ],
@@ -2107,58 +1693,37 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 200,
-                    'source' => [
-                        'label' => 'Classic Motos Star XVR200',
-                        'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '13.7 HP / 8000 RPM',
-                    'source' => [
-                        'label' => 'Classic Motos Star XVR200',
-                        'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'torque' => [
                     'value' => '13.8 Nm / 6500 RPM',
-                    'source' => [
-                        'label' => 'Classic Motos Star XVR200',
-                        'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => 'Manual 5 velocidades',
-                    'source' => [
-                        'label' => 'Classic Motos Star XVR200',
-                        'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
                     'value' => 'Eléctrico / pedal',
-                    'source' => [
-                        'label' => 'Classic Motos Star XVR200',
-                        'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => '4 tiempos monocilíndrico, varilla',
-                    'source' => [
-                        'label' => 'Classic Motos Star XVR200',
-                        'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'refrigeracion' => [
                     'value' => 'Aire',
-                    'source' => [
-                        'label' => 'Classic Motos Star XVR200',
-                        'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -2166,25 +1731,25 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Star XVR 200 (star.com.py)',
+                    'label' => 'Star',
                     'url' => 'https://star.com.py/producto/XVR200-CKD/xvr-200',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'official brand page, listed in result',
+                    'note' => 'Star XVR 200 (star.com.py) — official brand page, listed in result',
                 ],
                 [
-                    'label' => 'Alex S.A. XVR 200',
+                    'label' => 'Alex S.A.',
                     'url' => 'https://alex.com.py/producto/2217/xvr-200',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'official distributor',
+                    'note' => 'Alex S.A. XVR 200 — official distributor',
                 ],
                 [
-                    'label' => 'Classic Motos Star XVR200',
+                    'label' => 'Classic Motos',
                     'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer spec source',
+                    'note' => 'Classic Motos Star XVR200 — retailer spec source',
                 ],
             ],
         ],
@@ -2197,7 +1762,7 @@ return [
                 'cc' => [
                     'value' => 110,
                     'source' => [
-                        'label' => 'Chacomer - Motocicleta Cub Yamaha Crypton',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/moto/yamaha.html?cilindrada=110+CC&modelo=CRYPTON',
                     ],
                     'accessed' => '2026-09-30',
@@ -2205,7 +1770,7 @@ return [
                 'transmision' => [
                     'value' => 'Semiautomatica',
                     'source' => [
-                        'label' => 'Chacomer - Crypton',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/moto-yamaha-t110c-crypton-negro.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2213,7 +1778,7 @@ return [
                 'motor' => [
                     'value' => 'Monocilindrico, 4 tiempos, 2 valvulas, SOHC',
                     'source' => [
-                        'label' => 'Chacomer - Crypton',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/moto-yamaha-t110c-crypton-negro.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2221,7 +1786,7 @@ return [
                 'refrigeracion' => [
                     'value' => 'Aire',
                     'source' => [
-                        'label' => 'Chacomer - Crypton',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/moto-yamaha-t110c-crypton-negro.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2229,7 +1794,7 @@ return [
                 'alimentacion' => [
                     'value' => 'Carburador',
                     'source' => [
-                        'label' => 'Chacomer - Crypton',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/moto-yamaha-t110c-crypton-negro.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2237,7 +1802,7 @@ return [
                 'neumatico_del' => [
                     'value' => '70/90 R17',
                     'source' => [
-                        'label' => 'Chacomer - Crypton',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/moto-yamaha-t110c-crypton-negro.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2249,7 +1814,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer - Moto Yamaha T110C Crypton Negro',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/moto-yamaha-t110c-crypton-negro.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2258,43 +1823,76 @@ return [
             'versions' => ['T110C Crypton'],
             'sources' => [
                 [
-                    'label' => 'Chacomer - Moto Yamaha T110C Crypton Negro',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/moto-yamaha-t110c-crypton-negro.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor (Chacomer) product page',
+                    'note' => 'Chacomer - Moto Yamaha T110C Crypton Negro — Distributor (Chacomer) product page',
                 ],
                 [
-                    'label' => 'Chacomer - Motocicleta Cub Yamaha Crypton',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-cub-yamaha-crypton.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor (Chacomer) product page',
+                    'note' => 'Chacomer - Motocicleta Cub Yamaha Crypton — Distributor (Chacomer) product page',
                 ],
             ],
         ],
         'yamaha/fz-25' => [
             'brand' => 'yamaha',
-            'name' => 'FZ-25 ABS',
+            'name' => 'FZ-25',
             'slug' => 'fz-25',
             'category' => 'naked',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 249,
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'motor' => [
+                    'value' => '4 tiempos SOHC',
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Aire y aceite',
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'alimentacion' => [
+                    'value' => 'Inyección electrónica de combustible',
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Chacomer - Motocicleta Sport Yamaha FZ-25 ABS',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor (Chacomer) product page',
+                    'note' => 'Chacomer FZ-25 ABS — retailer/distributor page',
                 ],
                 [
-                    'label' => 'Yamaha Paraguay - Motos',
+                    'label' => 'Yamaha Paraguay',
                     'url' => 'https://yamaha.com.py/motos/?orderby=price-desc&product_count=36',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Brand PY site',
+                    'note' => 'Yamaha Paraguay - Motos — Brand PY site',
                 ],
             ],
         ],
@@ -2308,7 +1906,7 @@ return [
                 'cc' => [
                     'value' => 321,
                     'source' => [
-                        'label' => 'Obedira - Chacomer presenta la Nueva Yamaha MT-03',
+                        'label' => 'Obedira',
                         'url' => 'https://www.obedira.com.py/chacomer-presenta-la-nueva-yamaha-mt-03/',
                     ],
                     'accessed' => '2026-09-30',
@@ -2338,7 +1936,7 @@ return [
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
-                    'value' => 'Electrico',
+                    'value' => 'Eléctrico',
                     'source' => [
                         'label' => 'Obedira',
                         'url' => 'https://www.obedira.com.py/chacomer-presenta-la-nueva-yamaha-mt-03/',
@@ -2384,7 +1982,7 @@ return [
                     'currency' => 'USD',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer - Moto Yamaha MT-03 ABS Negro',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/5901387an-moto-yamaha-mt-03-abs-negro.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2393,25 +1991,25 @@ return [
             'versions' => ['MT-03 ABS'],
             'sources' => [
                 [
-                    'label' => 'Chacomer - Motocicleta Sport Yamaha MT-03',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-sport-yamaha-mt-03.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor (Chacomer) product page',
+                    'note' => 'Chacomer - Motocicleta Sport Yamaha MT-03 — Distributor (Chacomer) product page',
                 ],
                 [
-                    'label' => 'Obedira - Chacomer presenta la Nueva Yamaha MT-03',
+                    'label' => 'Obedira',
                     'url' => 'https://www.obedira.com.py/chacomer-presenta-la-nueva-yamaha-mt-03/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press',
+                    'note' => 'Obedira - Chacomer presenta la Nueva Yamaha MT-03 — Paraguayan press',
                 ],
                 [
-                    'label' => 'Infonegocios - Nueva Yamaha MT-03 en Paraguay',
+                    'label' => 'InfoNegocios',
                     'url' => 'https://infonegocios.com.py/conosur/nueva-yamaha-mt-03-en-paraguay-destacan-su-diseno-agresivo-e-innovaciones-tecnologicas',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press',
+                    'note' => 'Infonegocios - Nueva Yamaha MT-03 en Paraguay — Paraguayan press',
                 ],
             ],
         ],
@@ -2420,14 +2018,77 @@ return [
             'name' => 'MT-07',
             'slug' => 'mt-07',
             'category' => 'naked',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 689,
+                    'source' => [
+                        'label' => 'Yamaha Motor Paraguay',
+                        'url' => 'http://www.yamaha-motor.com.py/producto/23/mt-07',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '73.7 Hp (55.0 kW) a 9000 rpm',
+                    'source' => [
+                        'label' => 'Yamaha Motor Paraguay',
+                        'url' => 'http://www.yamaha-motor.com.py/producto/23/mt-07',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'torque' => [
+                    'value' => '68.0 Nm (6.9 kgf.m) a 6500 rpm',
+                    'source' => [
+                        'label' => 'Yamaha Motor Paraguay',
+                        'url' => 'http://www.yamaha-motor.com.py/producto/23/mt-07',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'transmision' => [
+                    'value' => 'Toma constante, 6 velocidades',
+                    'source' => [
+                        'label' => 'Yamaha Motor Paraguay',
+                        'url' => 'http://www.yamaha-motor.com.py/producto/23/mt-07',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'arranque' => [
+                    'value' => 'Eléctrico',
+                    'source' => [
+                        'label' => 'Yamaha Motor Paraguay',
+                        'url' => 'http://www.yamaha-motor.com.py/producto/23/mt-07',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'alimentacion' => [
+                    'value' => 'Inyección de combustible',
+                    'source' => [
+                        'label' => 'Yamaha Motor Paraguay',
+                        'url' => 'http://www.yamaha-motor.com.py/producto/23/mt-07',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [
+                [
+                    'value' => 11870,
+                    'currency' => 'USD',
+                    'condition' => '0km',
+                    'source' => ['label' => 'Chacomer', 'url' => 'https://www.chacomer.com.py/moto-yamaha-mt-07-abs-azul.html'],
+                    'accessed' => '2026-09-30',
+                ],
+                [
+                    'value' => 11627,
+                    'currency' => 'USD',
+                    'condition' => '0km',
+                    'source' => ['label' => 'Chacomer', 'url' => 'https://www.chacomer.com.py/moto-yamaha-mt-07-abs-plata.html'],
+                    'accessed' => '2026-09-30',
+                ],
                 [
                     'value' => 11900,
                     'currency' => 'USD',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Yamaha Paraguay - Motos',
+                        'label' => 'Yamaha Paraguay',
                         'url' => 'https://yamaha.com.py/motos/?orderby=price-desc&product_count=36',
                     ],
                     'accessed' => '2026-09-30',
@@ -2436,18 +2097,25 @@ return [
             'versions' => ['MT-07 ABS'],
             'sources' => [
                 [
-                    'label' => 'Chacomer - Motocicleta Sport Yamaha MT-07 ABS',
+                    'label' => 'Yamaha Motor Paraguay',
+                    'url' => 'http://www.yamaha-motor.com.py/producto/23/mt-07',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Yamaha Motor Paraguay MT-07 — distributor brand site',
+                ],
+                [
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-sport-yamaha-mt-07-abs.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor (Chacomer) product page',
+                    'note' => 'Chacomer - Motocicleta Sport Yamaha MT-07 ABS — Distributor (Chacomer) product page',
                 ],
                 [
-                    'label' => 'Yamaha Paraguay - Motos',
+                    'label' => 'Yamaha Paraguay',
                     'url' => 'https://yamaha.com.py/motos/?orderby=price-desc&product_count=36',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Brand PY site',
+                    'note' => 'Yamaha Paraguay - Motos — Brand PY site',
                 ],
             ],
         ],
@@ -2456,14 +2124,45 @@ return [
             'name' => 'MT-09',
             'slug' => 'mt-09',
             'category' => 'naked',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 847,
+                    'source' => ['label' => 'Yamaha Motor Paraguay', 'url' => 'http://yamaha-motor.com.py/producto/15/mt-09'],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '84,6 kW (115PS) @ 10.000 rpm',
+                    'source' => ['label' => 'Yamaha Motor Paraguay', 'url' => 'http://yamaha-motor.com.py/producto/15/mt-09'],
+                    'accessed' => '2026-09-30',
+                ],
+                'torque' => [
+                    'value' => '87,5 Nm (8,9 kg-m) @ 8.500 rpm',
+                    'source' => ['label' => 'Yamaha Motor Paraguay', 'url' => 'http://yamaha-motor.com.py/producto/15/mt-09'],
+                    'accessed' => '2026-09-30',
+                ],
+                'transmision' => [
+                    'value' => '6 velocidades',
+                    'source' => ['label' => 'Yamaha Motor Paraguay', 'url' => 'http://yamaha-motor.com.py/producto/15/mt-09'],
+                    'accessed' => '2026-09-30',
+                ],
+                'arranque' => [
+                    'value' => 'Eléctrico',
+                    'source' => ['label' => 'Yamaha Motor Paraguay', 'url' => 'http://yamaha-motor.com.py/producto/15/mt-09'],
+                    'accessed' => '2026-09-30',
+                ],
+                'alimentacion' => [
+                    'value' => 'Inyección de combustible',
+                    'source' => ['label' => 'Yamaha Motor Paraguay', 'url' => 'http://yamaha-motor.com.py/producto/15/mt-09'],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [
                 [
                     'value' => 14900,
                     'currency' => 'USD',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer - Moto Yamaha MT-09 ABS Negro',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/moto/moto-yamaha-mt-09-abs-negro.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2472,17 +2171,24 @@ return [
             'versions' => ['MT-09 ABS'],
             'sources' => [
                 [
-                    'label' => 'Chacomer - Moto Yamaha MT-09 ABS Negro',
+                    'label' => 'Yamaha Motor Paraguay',
+                    'url' => 'http://yamaha-motor.com.py/producto/15/mt-09',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Yamaha Motor Paraguay MT-09 — distributor brand site',
+                ],
+                [
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/moto/moto-yamaha-mt-09-abs-negro.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor (Chacomer) product page',
+                    'note' => 'Chacomer - Moto Yamaha MT-09 ABS Negro — Distributor (Chacomer) product page',
                 ],
             ],
         ],
         'yamaha/tenere-700' => [
             'brand' => 'yamaha',
-            'name' => 'Tenere 700',
+            'name' => 'Ténéré 700',
             'slug' => 'tenere-700',
             'category' => 'touring',
             'specs' => [],
@@ -2492,7 +2198,17 @@ return [
                     'currency' => 'USD',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer - Yamaha XTZ690 (Tenere 700) Azul',
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-yamaha-xtz690-tenere-700-blanco.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                [
+                    'value' => 16300,
+                    'currency' => 'USD',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-yamaha-xtz690-tenere-700-azul.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2501,18 +2217,18 @@ return [
             'versions' => ['XTZ690 Tenere 700'],
             'sources' => [
                 [
-                    'label' => 'Chacomer - Yamaha XTZ690 (Tenere 700) Azul',
-                    'url' => 'https://www.chacomer.com.py/motocicleta-yamaha-xtz690-tenere-700-azul.html',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Distributor (Chacomer) product page',
-                ],
-                [
-                    'label' => 'Chacomer - Yamaha XTZ690 (Tenere 700) Blanco',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-yamaha-xtz690-tenere-700-blanco.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor (Chacomer) product page',
+                    'note' => 'Chacomer Ténéré 700 — retailer/distributor page',
+                ],
+                [
+                    'label' => 'Chacomer',
+                    'url' => 'https://www.chacomer.com.py/motocicleta-yamaha-xtz690-tenere-700-azul.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Chacomer - Yamaha XTZ690 (Tenere 700) Azul — Distributor (Chacomer) product page',
                 ],
             ],
         ],
@@ -2521,16 +2237,76 @@ return [
             'name' => 'XTZ 125',
             'slug' => 'xtz-125',
             'category' => 'enduro-cross',
-            'specs' => [],
-            'prices' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 123,
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz125.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'transmision' => [
+                    'value' => '5 velocidades',
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz125.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'tanque' => [
+                    'value' => '10,6 L',
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz125.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'peso' => [
+                    'value' => '114 kg',
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz125.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'motor' => [
+                    'value' => 'Monocilíndrico, 4T, SOHC',
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz125.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Aire',
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz125.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'prices' => [
+                [
+                    'value' => 21210000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz125.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Chacomer - Motocicleta Trail Yamaha XTZ125',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz125.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor (Chacomer) product page',
+                    'note' => 'Chacomer XTZ125 — retailer/distributor page',
                 ],
             ],
         ],
@@ -2539,14 +2315,65 @@ return [
             'name' => 'XTZ 150',
             'slug' => 'xtz-150',
             'category' => 'enduro-cross',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 149,
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/xtz-150/'],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '12.3 Hp a 7500 rpm',
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/xtz-150/'],
+                    'accessed' => '2026-09-30',
+                ],
+                'torque' => [
+                    'value' => '13.1 Nm a 6000 rpm',
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/xtz-150/'],
+                    'accessed' => '2026-09-30',
+                ],
+                'tanque' => [
+                    'value' => '12 L',
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/xtz-150/'],
+                    'accessed' => '2026-09-30',
+                ],
+                'peso' => [
+                    'value' => '131 kg',
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/xtz-150/'],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Aire',
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/xtz-150/'],
+                    'accessed' => '2026-09-30',
+                ],
+                'alimentacion' => [
+                    'value' => 'Inyección electrónica',
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/xtz-150/'],
+                    'accessed' => '2026-09-30',
+                ],
+                'altura_asiento' => [
+                    'value' => '835 mm',
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/xtz-150/'],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [
                 [
                     'value' => 25000000,
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer - Motocicleta Trail Yamaha XTZ150',
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz150.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                [
+                    'value' => 25000000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz150.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2555,18 +2382,25 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Chacomer - Motocicleta Trail Yamaha XTZ150',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz150.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor (Chacomer) product page',
+                    'note' => 'Chacomer XTZ150 — retailer/official distributor page',
                 ],
                 [
-                    'label' => 'Yamaha Motor Paraguay - xtz-150',
+                    'label' => 'Classic Motos',
+                    'url' => 'https://www.classicmotos.com.py/producto/xtz-150/',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Classic Motos XTZ 150 — retailer specs',
+                ],
+                [
+                    'label' => 'Yamaha Motor Paraguay',
                     'url' => 'http://yamaha-motor.com.py/producto/51/xtz-150',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Brand PY site; result listed but specs in summary not attributable to it, so dropped',
+                    'note' => 'Yamaha Motor Paraguay - xtz-150 — Brand PY site; result listed but specs in summary not attributable to it, so dropped',
                 ],
             ],
         ],
@@ -2576,51 +2410,81 @@ return [
             'slug' => 'xtz-250',
             'category' => 'enduro-cross',
             'specs' => [],
-            'prices' => [
-                [
-                    'value' => 39643695,
-                    'currency' => 'PYG',
-                    'condition' => '0km',
-                    'source' => [
-                        'label' => 'Chacomer - Motocicleta Enduro Yamaha XTZ 250',
-                        'url' => 'https://www.chacomer.com.py/motocicleta-enduro-yamaha-xtz-250.html',
-                    ],
-                    'accessed' => '2026-09-30',
-                ],
-            ],
+            'prices' => [],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Chacomer - Motocicleta Enduro Yamaha XTZ 250',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-enduro-yamaha-xtz-250.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor (Chacomer) product page',
+                    'note' => 'Chacomer - Motocicleta Enduro Yamaha XTZ 250 — Distributor (Chacomer) product page',
                 ],
                 [
-                    'label' => 'Yamaha Motor Paraguay - xtz-250',
+                    'label' => 'Yamaha Motor Paraguay',
                     'url' => 'http://yamaha-motor.com.py/producto/34/xtz-250',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Brand PY site page exists',
+                    'note' => 'Yamaha Motor Paraguay - xtz-250 — Brand PY site page exists',
                 ],
             ],
         ],
         'yamaha/ybr-125e' => [
             'brand' => 'yamaha',
-            'name' => 'YBR 125E',
+            'name' => 'YBR125E',
             'slug' => 'ybr-125e',
             'category' => 'naked',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 124,
+                    'source' => [
+                        'label' => 'Yamaha Motor Paraguay',
+                        'url' => 'http://yamaha-motor.com.py/producto/52/ybr-125-e',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '9.5 Hp a 7800 rpm',
+                    'source' => [
+                        'label' => 'Yamaha Motor Paraguay',
+                        'url' => 'http://yamaha-motor.com.py/producto/52/ybr-125-e',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'torque' => [
+                    'value' => '10.1 Nm a 6000 rpm',
+                    'source' => [
+                        'label' => 'Yamaha Motor Paraguay',
+                        'url' => 'http://yamaha-motor.com.py/producto/52/ybr-125-e',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'transmision' => [
+                    'value' => '5 velocidades, toma constante',
+                    'source' => [
+                        'label' => 'Yamaha Motor Paraguay',
+                        'url' => 'http://yamaha-motor.com.py/producto/52/ybr-125-e',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'tanque' => [
+                    'value' => '12 L',
+                    'source' => [
+                        'label' => 'Yamaha Motor Paraguay',
+                        'url' => 'http://yamaha-motor.com.py/producto/52/ybr-125-e',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Yamaha Motor Paraguay - ybr-125-e',
+                    'label' => 'Yamaha Motor Paraguay',
                     'url' => 'http://yamaha-motor.com.py/producto/52/ybr-125-e',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Brand PY site product page',
+                    'note' => 'Yamaha Motor Paraguay YBR 125 E — distributor brand site',
                 ],
             ],
         ],
@@ -2633,7 +2497,7 @@ return [
                 'cc' => [
                     'value' => 123,
                     'source' => [
-                        'label' => 'Chacomer - YBR125Z',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2641,7 +2505,7 @@ return [
                 'potencia' => [
                     'value' => '10.7 bHP',
                     'source' => [
-                        'label' => 'Chacomer - YBR125Z',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2649,15 +2513,15 @@ return [
                 'transmision' => [
                     'value' => 'Mecanica',
                     'source' => [
-                        'label' => 'Chacomer - YBR125Z',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html',
                     ],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
-                    'value' => 'Electrico',
+                    'value' => 'Eléctrico',
                     'source' => [
-                        'label' => 'Chacomer - YBR125Z',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2665,7 +2529,7 @@ return [
                 'freno_del' => [
                     'value' => 'Disco 130 mm',
                     'source' => [
-                        'label' => 'Chacomer - YBR125Z',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2673,7 +2537,7 @@ return [
                 'freno_tras' => [
                     'value' => 'Disco 130 mm',
                     'source' => [
-                        'label' => 'Chacomer - YBR125Z',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2681,7 +2545,7 @@ return [
                 'tanque' => [
                     'value' => '14 L',
                     'source' => [
-                        'label' => 'Chacomer - YBR125Z',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2689,7 +2553,7 @@ return [
                 'motor' => [
                     'value' => 'Monocilindrico, 4 tiempos, 2 valvulas, SOHC',
                     'source' => [
-                        'label' => 'Chacomer - YBR125Z',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2697,7 +2561,7 @@ return [
                 'refrigeracion' => [
                     'value' => 'Aire',
                     'source' => [
-                        'label' => 'Chacomer - YBR125Z',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2709,7 +2573,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer - YBR125Z',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2718,18 +2582,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Chacomer - Motocicleta Utilitaria Yamaha YBR125Z',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor (Chacomer) product page',
+                    'note' => 'Chacomer - Motocicleta Utilitaria Yamaha YBR125Z — Distributor (Chacomer) product page',
                 ],
                 [
-                    'label' => 'Yamaha Motor Paraguay - ybr-125-z',
+                    'label' => 'Yamaha Motor Paraguay',
                     'url' => 'http://yamaha-motor.com.py/producto/4/ybr-125-z',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Brand PY site',
+                    'note' => 'Yamaha Motor Paraguay - ybr-125-z — Brand PY site',
                 ],
             ],
         ],
@@ -2742,7 +2606,7 @@ return [
                 'cc' => [
                     'value' => 110,
                     'source' => [
-                        'label' => 'Chacomer - YC-Z 110',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-yc-z-110.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2750,7 +2614,7 @@ return [
                 'potencia' => [
                     'value' => '7.3 HP',
                     'source' => [
-                        'label' => 'Chacomer - YC-Z 110',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-yc-z-110.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2758,7 +2622,7 @@ return [
                 'transmision' => [
                     'value' => 'Mecanica',
                     'source' => [
-                        'label' => 'Chacomer - YC-Z 110',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-yc-z-110.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2766,7 +2630,7 @@ return [
                 'tanque' => [
                     'value' => '7.2 L',
                     'source' => [
-                        'label' => 'Chacomer - YC-Z 110',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-yc-z-110.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2774,7 +2638,7 @@ return [
                 'refrigeracion' => [
                     'value' => 'Aire',
                     'source' => [
-                        'label' => 'Chacomer - YC-Z 110',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-yc-z-110.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2782,7 +2646,7 @@ return [
                 'alimentacion' => [
                     'value' => 'Carburador',
                     'source' => [
-                        'label' => 'Chacomer - YC-Z 110',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-yc-z-110.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2794,7 +2658,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer - YC-Z 110',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-yc-z-110.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -2803,11 +2667,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Chacomer - Motocicleta Utilitaria Yamaha YC-Z 110',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-yc-z-110.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor (Chacomer) product page',
+                    'note' => 'Chacomer - Motocicleta Utilitaria Yamaha YC-Z 110 — Distributor (Chacomer) product page',
                 ],
             ],
         ],
@@ -2819,47 +2683,47 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 644,
-                    'source' => ['label' => 'suzukimotos.com.py DR650', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '43 HP',
-                    'source' => ['label' => 'suzukimotos.com.py DR650', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => '5 velocidades',
-                    'source' => ['label' => 'suzukimotos.com.py DR650', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
-                    'value' => 'Electrico',
-                    'source' => ['label' => 'suzukimotos.com.py DR650', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
+                    'value' => 'Eléctrico',
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '12 L',
-                    'source' => ['label' => 'suzukimotos.com.py DR650', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '166 kg',
-                    'source' => ['label' => 'suzukimotos.com.py DR650', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => 'Monocilindrico 4 tiempos SOHC',
-                    'source' => ['label' => 'suzukimotos.com.py DR650', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
                     'accessed' => '2026-09-30',
                 ],
                 'refrigeracion' => [
                     'value' => 'Aire y aceite',
-                    'source' => ['label' => 'suzukimotos.com.py DR650', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
                     'accessed' => '2026-09-30',
                 ],
                 'alimentacion' => [
                     'value' => 'Carburador',
-                    'source' => ['label' => 'suzukimotos.com.py DR650', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -2868,32 +2732,32 @@ return [
                     'value' => 8990,
                     'currency' => 'USD',
                     'condition' => '0km',
-                    'source' => ['label' => 'suzukimotos.com.py DR650', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/dr650'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'suzukimotos.com.py DR650',
+                    'label' => 'Suzuki Motos Paraguay',
                     'url' => 'https://suzukimotos.com.py/modelo/dr650',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Brand PY site',
+                    'note' => 'suzukimotos.com.py DR650 — Brand PY site',
                 ],
                 [
-                    'label' => 'ABC Color - Suzuki Motos regresa a Paraguay con Chacomer',
+                    'label' => 'ABC Color',
                     'url' => 'https://www.abc.com.py/empresariales/2025/01/14/suzuki-motos-regresa-a-paraguay-con-chacomer/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press naming model as launch lineup',
+                    'note' => 'ABC Color - Suzuki Motos regresa a Paraguay con Chacomer — Paraguayan press naming model as launch lineup',
                 ],
                 [
-                    'label' => 'Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos',
+                    'label' => 'Última Hora',
                     'url' => 'https://www.ultimahora.com/motos-suzuki-llegan-a-paraguay-con-variados-modelos',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press',
+                    'note' => 'Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos — Paraguayan press',
                 ],
             ],
         ],
@@ -2905,35 +2769,32 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 155,
-                    'source' => [
-                        'label' => 'suzuki.com.py / suzukimotos.com.py Gixxer 150',
-                        'url' => 'https://suzukimotos.com.py/modelo/gixxer-150',
-                    ],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => '5 velocidades',
-                    'source' => ['label' => 'Suzuki PY Gixxer 150', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-150'],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
-                    'value' => 'Electrico y pedal',
-                    'source' => ['label' => 'Suzuki PY Gixxer 150', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-150'],
+                    'value' => 'Eléctrico y pedal',
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '12 L',
-                    'source' => ['label' => 'Suzuki PY Gixxer 150', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-150'],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'refrigeracion' => [
                     'value' => 'Aire',
-                    'source' => ['label' => 'Suzuki PY Gixxer 150', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-150'],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'alimentacion' => [
                     'value' => 'Inyeccion',
-                    'source' => ['label' => 'Suzuki PY Gixxer 150', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-150'],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-150'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -2942,42 +2803,39 @@ return [
                     'value' => 17899000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'suzukimotos.com.py Gixxer 150',
-                        'url' => 'https://suzukimotos.com.py/modelo/gixxer-150',
-                    ],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-150'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'suzukimotos.com.py GIXXER 150',
+                    'label' => 'Suzuki Motos Paraguay',
                     'url' => 'https://suzukimotos.com.py/modelo/gixxer-150',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Brand PY site',
+                    'note' => 'suzukimotos.com.py GIXXER 150 — Brand PY site',
                 ],
                 [
-                    'label' => 'suzuki.com.py Gixxer DXA 150',
+                    'label' => 'Suzuki Paraguay',
                     'url' => 'https://www.suzuki.com.py/moto/gixxer-dxa-150/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Brand PY site',
+                    'note' => 'suzuki.com.py Gixxer DXA 150 — Brand PY site',
                 ],
                 [
-                    'label' => 'ABC Color - Suzuki Motos regresa a Paraguay con Chacomer',
+                    'label' => 'ABC Color',
                     'url' => 'https://www.abc.com.py/empresariales/2025/01/14/suzuki-motos-regresa-a-paraguay-con-chacomer/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press naming model as launch lineup',
+                    'note' => 'ABC Color - Suzuki Motos regresa a Paraguay con Chacomer — Paraguayan press naming model as launch lineup',
                 ],
                 [
-                    'label' => 'Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos',
+                    'label' => 'Última Hora',
                     'url' => 'https://www.ultimahora.com/motos-suzuki-llegan-a-paraguay-con-variados-modelos',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press',
+                    'note' => 'Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos — Paraguayan press',
                 ],
             ],
         ],
@@ -2989,50 +2847,32 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 249,
-                    'source' => [
-                        'label' => 'suzukimotos.com.py Gixxer 250',
-                        'url' => 'https://suzukimotos.com.py/modelo/gixxer-250',
-                    ],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-250'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => '6 velocidades',
-                    'source' => [
-                        'label' => 'suzukimotos.com.py Gixxer 250',
-                        'url' => 'https://suzukimotos.com.py/modelo/gixxer-250',
-                    ],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-250'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
-                    'value' => 'Electrico',
-                    'source' => [
-                        'label' => 'suzukimotos.com.py Gixxer 250',
-                        'url' => 'https://suzukimotos.com.py/modelo/gixxer-250',
-                    ],
+                    'value' => 'Eléctrico',
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-250'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '12 L',
-                    'source' => [
-                        'label' => 'suzukimotos.com.py Gixxer 250',
-                        'url' => 'https://suzukimotos.com.py/modelo/gixxer-250',
-                    ],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-250'],
                     'accessed' => '2026-09-30',
                 ],
                 'refrigeracion' => [
                     'value' => 'Aceite',
-                    'source' => [
-                        'label' => 'suzukimotos.com.py Gixxer 250',
-                        'url' => 'https://suzukimotos.com.py/modelo/gixxer-250',
-                    ],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-250'],
                     'accessed' => '2026-09-30',
                 ],
                 'alimentacion' => [
                     'value' => 'Inyeccion electronica',
-                    'source' => [
-                        'label' => 'suzukimotos.com.py Gixxer 250',
-                        'url' => 'https://suzukimotos.com.py/modelo/gixxer-250',
-                    ],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-250'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -3041,21 +2881,18 @@ return [
                     'value' => 27170000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'suzukimotos.com.py Gixxer 250',
-                        'url' => 'https://suzukimotos.com.py/modelo/gixxer-250',
-                    ],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/gixxer-250'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'suzukimotos.com.py GIXXER 250',
+                    'label' => 'Suzuki Motos Paraguay',
                     'url' => 'https://suzukimotos.com.py/modelo/gixxer-250',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Brand PY site',
+                    'note' => 'suzukimotos.com.py GIXXER 250 — Brand PY site',
                 ],
             ],
         ],
@@ -3064,14 +2901,31 @@ return [
             'name' => 'V-Strom 1050',
             'slug' => 'v-strom-1050',
             'category' => 'touring',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 1037,
+                    'source' => [
+                        'label' => 'Suzuki Motos Paraguay',
+                        'url' => 'https://suzukimotos.com.py/modelo/v-strom-1-050de',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'motor' => [
+                    'value' => '4 tiempos, 2 cilindros en V a 90°, DOHC',
+                    'source' => [
+                        'label' => 'Suzuki Motos Paraguay',
+                        'url' => 'https://suzukimotos.com.py/modelo/v-strom-1-050de',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [
                 [
                     'value' => 16990,
                     'currency' => 'USD',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'suzukimotos.com.py V-STROM 1.050DE',
+                        'label' => 'Suzuki Motos Paraguay',
                         'url' => 'https://suzukimotos.com.py/modelo/v-strom-1-050de',
                     ],
                     'accessed' => '2026-09-30',
@@ -3080,25 +2934,25 @@ return [
             'versions' => ['V-Strom 1050DE'],
             'sources' => [
                 [
-                    'label' => 'suzukimotos.com.py V-STROM 1.050DE',
+                    'label' => 'Suzuki Motos Paraguay',
                     'url' => 'https://suzukimotos.com.py/modelo/v-strom-1-050de',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Brand PY site',
+                    'note' => 'Suzuki Motos Chacomer - V-Strom 1050 — distributor brand site',
                 ],
                 [
-                    'label' => 'ABC Color - Suzuki Motos regresa a Paraguay con Chacomer',
+                    'label' => 'ABC Color',
                     'url' => 'https://www.abc.com.py/empresariales/2025/01/14/suzuki-motos-regresa-a-paraguay-con-chacomer/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press naming model as launch lineup',
+                    'note' => 'ABC Color - Suzuki Motos regresa a Paraguay con Chacomer — Paraguayan press naming model as launch lineup',
                 ],
                 [
-                    'label' => 'Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos',
+                    'label' => 'Última Hora',
                     'url' => 'https://www.ultimahora.com/motos-suzuki-llegan-a-paraguay-con-variados-modelos',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press',
+                    'note' => 'Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos — Paraguayan press',
                 ],
             ],
         ],
@@ -3110,42 +2964,27 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 249,
-                    'source' => [
-                        'label' => 'suzukimotos.com.py V-STROM 250SX',
-                        'url' => 'https://suzukimotos.com.py/modelo/v-strom-250sx',
-                    ],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/v-strom-250sx'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
-                    'value' => 'Electrico',
-                    'source' => [
-                        'label' => 'suzukimotos.com.py V-STROM 250SX',
-                        'url' => 'https://suzukimotos.com.py/modelo/v-strom-250sx',
-                    ],
+                    'value' => 'Eléctrico',
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/v-strom-250sx'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '12 L',
-                    'source' => [
-                        'label' => 'suzukimotos.com.py V-STROM 250SX',
-                        'url' => 'https://suzukimotos.com.py/modelo/v-strom-250sx',
-                    ],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/v-strom-250sx'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '167 kg',
-                    'source' => [
-                        'label' => 'suzukimotos.com.py V-STROM 250SX',
-                        'url' => 'https://suzukimotos.com.py/modelo/v-strom-250sx',
-                    ],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/v-strom-250sx'],
                     'accessed' => '2026-09-30',
                 ],
                 'altura_asiento' => [
                     'value' => '835 mm',
-                    'source' => [
-                        'label' => 'suzukimotos.com.py V-STROM 250SX',
-                        'url' => 'https://suzukimotos.com.py/modelo/v-strom-250sx',
-                    ],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/v-strom-250sx'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -3154,35 +2993,32 @@ return [
                     'value' => 4990,
                     'currency' => 'USD',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'suzukimotos.com.py V-STROM 250SX',
-                        'url' => 'https://suzukimotos.com.py/modelo/v-strom-250sx',
-                    ],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/v-strom-250sx'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => ['V-Strom 250SX'],
             'sources' => [
                 [
-                    'label' => 'suzukimotos.com.py V-STROM 250SX',
+                    'label' => 'Suzuki Motos Paraguay',
                     'url' => 'https://suzukimotos.com.py/modelo/v-strom-250sx',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Brand PY site',
+                    'note' => 'suzukimotos.com.py V-STROM 250SX — Brand PY site',
                 ],
                 [
-                    'label' => 'ABC Color - Suzuki Motos regresa a Paraguay con Chacomer',
+                    'label' => 'ABC Color',
                     'url' => 'https://www.abc.com.py/empresariales/2025/01/14/suzuki-motos-regresa-a-paraguay-con-chacomer/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press naming model as launch lineup',
+                    'note' => 'ABC Color - Suzuki Motos regresa a Paraguay con Chacomer — Paraguayan press naming model as launch lineup',
                 ],
                 [
-                    'label' => 'Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos',
+                    'label' => 'Última Hora',
                     'url' => 'https://www.ultimahora.com/motos-suzuki-llegan-a-paraguay-con-variados-modelos',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press',
+                    'note' => 'Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos — Paraguayan press',
                 ],
             ],
         ],
@@ -3191,41 +3027,54 @@ return [
             'name' => 'V-Strom 650',
             'slug' => 'v-strom-650',
             'category' => 'touring',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 645,
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/v-strom-650xt'],
+                    'accessed' => '2026-09-30',
+                ],
+                'tanque' => [
+                    'value' => '20 L',
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/v-strom-650xt'],
+                    'accessed' => '2026-09-30',
+                ],
+                'motor' => [
+                    'value' => '4 tiempos, 2 cilindros en V a 90°, DOHC',
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/v-strom-650xt'],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [
                 [
                     'value' => 10990,
                     'currency' => 'USD',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'suzukimotos.com.py V-Strom 650/XT',
-                        'url' => 'https://suzukimotos.com.py/modelo/v-strom-650xt',
-                    ],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/v-strom-650xt'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => ['V-Strom 650XT'],
             'sources' => [
                 [
-                    'label' => 'suzukimotos.com.py V-STROM 650XT',
+                    'label' => 'Suzuki Motos Paraguay',
                     'url' => 'https://suzukimotos.com.py/modelo/v-strom-650xt',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Brand PY site',
+                    'note' => 'Suzuki Motos Chacomer - V-Strom 650 — distributor brand site',
                 ],
                 [
-                    'label' => 'ABC Color - Suzuki Motos regresa a Paraguay con Chacomer',
+                    'label' => 'ABC Color',
                     'url' => 'https://www.abc.com.py/empresariales/2025/01/14/suzuki-motos-regresa-a-paraguay-con-chacomer/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press naming model as launch lineup',
+                    'note' => 'ABC Color - Suzuki Motos regresa a Paraguay con Chacomer — Paraguayan press naming model as launch lineup',
                 ],
                 [
-                    'label' => 'Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos',
+                    'label' => 'Última Hora',
                     'url' => 'https://www.ultimahora.com/motos-suzuki-llegan-a-paraguay-con-variados-modelos',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press',
+                    'note' => 'Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos — Paraguayan press',
                 ],
             ],
         ],
@@ -3234,41 +3083,44 @@ return [
             'name' => 'V-Strom 800',
             'slug' => 'v-strom-800',
             'category' => 'touring',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 776,
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/v-strom-800de'],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [
                 [
                     'value' => 13990,
                     'currency' => 'USD',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'suzukimotos.com.py V-STROM 800DE',
-                        'url' => 'https://suzukimotos.com.py/modelo/v-strom-800de',
-                    ],
+                    'source' => ['label' => 'Suzuki Motos Paraguay', 'url' => 'https://suzukimotos.com.py/modelo/v-strom-800de'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => ['V-Strom 800DE'],
             'sources' => [
                 [
-                    'label' => 'suzukimotos.com.py V-STROM 800DE',
+                    'label' => 'Suzuki Motos Paraguay',
                     'url' => 'https://suzukimotos.com.py/modelo/v-strom-800de',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Brand PY site',
+                    'note' => 'Suzuki Motos Chacomer - V-Strom 800 — distributor brand site',
                 ],
                 [
-                    'label' => 'ABC Color - Suzuki Motos regresa a Paraguay con Chacomer',
+                    'label' => 'ABC Color',
                     'url' => 'https://www.abc.com.py/empresariales/2025/01/14/suzuki-motos-regresa-a-paraguay-con-chacomer/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press naming model as launch lineup',
+                    'note' => 'ABC Color - Suzuki Motos regresa a Paraguay con Chacomer — Paraguayan press naming model as launch lineup',
                 ],
                 [
-                    'label' => 'Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos',
+                    'label' => 'Última Hora',
                     'url' => 'https://www.ultimahora.com/motos-suzuki-llegan-a-paraguay-con-variados-modelos',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Paraguayan press',
+                    'note' => 'Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos — Paraguayan press',
                 ],
             ],
         ],
@@ -3277,22 +3129,57 @@ return [
             'name' => 'Boxer 150',
             'slug' => 'boxer-150',
             'category' => 'naked',
-            'specs' => [],
-            'prices' => [],
+            'specs' => [
+                'motor' => [
+                    'value' => '144,8 cc',
+                    'source' => [
+                        'label' => 'Tupi',
+                        'url' => 'https://cde.tupi.com.py/producto/MKP096380/MOTO-BAJAJ-BOXER-150-COLOR-ROJO-',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'prices' => [
+                [
+                    'value' => 7489000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Tupi',
+                        'url' => 'https://www.tupi.com.py/producto/MKP096379/MOTO-BAJAJ-BOXER-150-COLOR-NEGRO-Y-GRIS-',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'La Nación - Moto Boxer 150 ya está disponible en el mercado',
+                    'label' => 'La Nación',
                     'url' => 'https://www.lanacion.com.py/negocios_edicion_impresa/2019/06/15/moto-boxer-150-ya-esta-disponible-en-el-mercado/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official distributor AMS; colours red/blue/white/black; warranty 20,000 km / 12 months. Price is 2019-era, cuota from Gs. 299.000 not a price.',
+                    'note' => 'La Nación - Moto Boxer 150 ya está disponible en el mercado — Official distributor AMS; colours red/blue/white/black; warranty 20,000 km / 12 months. Price is 2019-era, cuota from Gs. 299.000 not a price.',
                 ],
                 [
-                    'label' => 'Infonegocios - AMS apunta a vender 1.000 Boxer 150',
+                    'label' => 'InfoNegocios',
                     'url' => 'https://infonegocios.com.py/infomotor/este-ano-ams-apunta-a-vender-1-000-unidades-de-la-boxer-150-su-modelo-mas-rentable',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
+                    'note' => 'Infonegocios - AMS apunta a vender 1.000 Boxer 150',
+                ],
+                [
+                    'label' => 'Tupi',
+                    'url' => 'https://www.tupi.com.py/producto/MKP096379/MOTO-BAJAJ-BOXER-150-COLOR-NEGRO-Y-GRIS-',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Tupi Boxer 150 negro y gris — retailer page; promo price Gs. 7.311.000 also shown',
+                ],
+                [
+                    'label' => 'Tupi',
+                    'url' => 'https://cde.tupi.com.py/producto/MKP096380/MOTO-BAJAJ-BOXER-150-COLOR-ROJO-',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Tupi Boxer 150 rojo — retailer page',
                 ],
             ],
         ],
@@ -3306,11 +3193,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'La Nación - Bajaj llegó al Paraguay',
+                    'label' => 'La Nación',
                     'url' => 'https://www.lanacion.com.py/negocios_edicion_impresa/2019/01/12/bajaj-llego-al-paraguay-y-busca-ser-lider-en-el-segmento-de-motos/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Dominar named as launch model; US$ 4.575 historical launch price.',
+                    'note' => 'La Nación - Bajaj llegó al Paraguay — Dominar named as launch model; US$ 4.575 historical launch price.',
+                ],
+                [
+                    'label' => 'InfoNegocios',
+                    'url' => 'https://infonegocios.com.py/infomotor/bajaj-espera-obtener-el-30-del-mercado-paraguayo',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Infonegocios - Bajaj espera obtener el 30% del mercado paraguayo — press; 2019 launch price US$ 4.575 mentioned in search summary, not current so not recorded as price',
                 ],
             ],
         ],
@@ -3324,11 +3218,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'La Nación - Bajaj llegó al Paraguay',
+                    'label' => 'La Nación',
                     'url' => 'https://www.lanacion.com.py/negocios_edicion_impresa/2019/01/12/bajaj-llego-al-paraguay-y-busca-ser-lider-en-el-segmento-de-motos/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Launch models: Dominar, Rouser NS 200, Boxer. Price US$ 2,999 is 2019 launch, likely stale.',
+                    'note' => 'La Nación - Bajaj llegó al Paraguay — Launch models: Dominar, Rouser NS 200, Boxer. Price US$ 2,999 is 2019 launch, likely stale.',
+                ],
+                [
+                    'label' => 'Diario HOY',
+                    'url' => 'https://www.hoy.com.py/negocios/bajaj-presento-oficialmente-su-primera-linea-de-motos-en-paraguay',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Diario HOY - Bajaj presentó oficialmente su primera línea de motos en Paraguay — press naming Rouser 200 among initial AMS models (price/specs not shown)',
                 ],
             ],
         ],
@@ -3344,8 +3245,18 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer - TVS moto category',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/catalog/category/view/s/tvs/id/760/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                [
+                    'value' => 14111000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-apache-rtr-160-2v.html',
                     ],
                     'accessed' => '2026-09-30',
                 ],
@@ -3353,17 +3264,25 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Chacomer - TVS moto category',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/catalog/category/view/s/tvs/id/760/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Chacomer is TVS distributor. Category judgement (no PY description retrieved).',
+                    'note' => 'Chacomer - TVS moto category — Chacomer is TVS distributor. Category judgement (no PY description retrieved).',
                 ],
                 [
-                    'label' => 'TVS Motor Paraguay - Apache RTR 160 2V Refresh',
+                    'label' => 'TVS Motor Paraguay',
                     'url' => 'https://paraguay.tvsmotor.com/en/p/our-products/apache-rtr-160-2v-refresh-py',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
+                    'note' => 'TVS Motor Paraguay - Apache RTR 160 2V Refresh',
+                ],
+                [
+                    'label' => 'Chacomer',
+                    'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-apache-rtr-160-2v.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Chacomer Apache RTR 160 2V — retailer/distributor page',
                 ],
             ],
         ],
@@ -3379,7 +3298,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer - TVS moto category',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/catalog/category/view/s/tvs/id/760/',
                     ],
                     'accessed' => '2026-09-30',
@@ -3388,11 +3307,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Chacomer - TVS moto category',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/catalog/category/view/s/tvs/id/760/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Chacomer is TVS distributor. Sold as \'rutera\'.',
+                    'note' => 'Chacomer - TVS moto category — Chacomer is TVS distributor. Sold as \'rutera\'.',
                 ],
             ],
         ],
@@ -3401,14 +3320,31 @@ return [
             'name' => 'HLX 150 F',
             'slug' => 'hlx-150-f',
             'category' => 'naked',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 148,
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-hlx-150-f.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'transmision' => [
+                    'value' => '5 velocidades',
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-hlx-150-f.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [
                 [
                     'value' => 10077000,
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer - Motocicleta rutera TVS HLX 150 F',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-hlx-150-f.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -3417,11 +3353,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Chacomer - Motocicleta rutera TVS HLX 150 F',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-hlx-150-f.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Chacomer is TVS distributor. Titled \'rutera\'.',
+                    'note' => 'Chacomer - Motocicleta rutera TVS HLX 150 F — Chacomer is TVS distributor. Titled \'rutera\'.',
                 ],
             ],
         ],
@@ -3430,14 +3366,39 @@ return [
             'name' => 'Neo NX 110',
             'slug' => 'neo-nx-110',
             'category' => 'cub',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 110,
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-cub-motoneta-tvs-neo-nx-110.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '8.44 Hp',
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-cub-motoneta-tvs-neo-nx-110.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'torque' => [
+                    'value' => '8,5 Nm',
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-cub-motoneta-tvs-neo-nx-110.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [
                 [
                     'value' => 7555000,
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer - Motocicleta cub/motoneta TVS Neo NX 110',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-cub-motoneta-tvs-neo-nx-110.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -3446,17 +3407,25 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Chacomer - Motocicleta cub/motoneta TVS Neo NX 110',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-cub-motoneta-tvs-neo-nx-110.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Chacomer is TVS distributor. Titled \'cub/motoneta\'.',
+                    'note' => 'Chacomer - Motocicleta cub/motoneta TVS Neo NX 110 — Chacomer is TVS distributor. Titled \'cub/motoneta\'.',
                 ],
                 [
-                    'label' => 'Tupi - Moto TVS Neo NX 110 Negro',
+                    'label' => 'Tupi',
                     'url' => 'https://www.tupi.com.py/producto/MKP052189/MOTO-TVS-NEO-NX-110-NEGRO-',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
+                    'note' => 'Tupi - Moto TVS Neo NX 110 Negro',
+                ],
+                [
+                    'label' => 'TVS Motor Paraguay',
+                    'url' => 'https://paraguay.tvsmotor.com/en/p/our-products/neo-nx-py',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'TVS Motor Paraguay Neo NX — brand page',
                 ],
             ],
         ],
@@ -3469,7 +3438,7 @@ return [
                 'cc' => [
                     'value' => 125,
                     'source' => [
-                        'label' => 'Chacomer - Motocicleta rutera TVS Raider 125',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -3477,7 +3446,7 @@ return [
                 'potencia' => [
                     'value' => '12.73 HP',
                     'source' => [
-                        'label' => 'Chacomer - Motocicleta rutera TVS Raider 125',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -3485,7 +3454,7 @@ return [
                 'transmision' => [
                     'value' => 'Mecánico 5 velocidades',
                     'source' => [
-                        'label' => 'Chacomer - Motocicleta rutera TVS Raider 125',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -3493,7 +3462,7 @@ return [
                 'freno_del' => [
                     'value' => 'Disco 240 mm, pinza flotante 2 émbolos',
                     'source' => [
-                        'label' => 'Chacomer - Motocicleta rutera TVS Raider 125',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -3501,7 +3470,7 @@ return [
                 'freno_tras' => [
                     'value' => 'Tambor 130 SYNCRO SBT',
                     'source' => [
-                        'label' => 'Chacomer - Motocicleta rutera TVS Raider 125',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -3509,7 +3478,7 @@ return [
                 'tanque' => [
                     'value' => '10 L',
                     'source' => [
-                        'label' => 'Chacomer - Motocicleta rutera TVS Raider 125',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -3517,7 +3486,7 @@ return [
                 'refrigeracion' => [
                     'value' => 'Aire',
                     'source' => [
-                        'label' => 'Chacomer - Motocicleta rutera TVS Raider 125',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -3525,7 +3494,7 @@ return [
                 'altura_asiento' => [
                     'value' => '781 mm',
                     'source' => [
-                        'label' => 'Chacomer - Motocicleta rutera TVS Raider 125',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -3537,7 +3506,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'TUPI - Moto TVS Raider 125 Azul',
+                        'label' => 'Tupi',
                         'url' => 'https://www.tupi.com.py/producto/MKP051982/MOTO-TVS-RAIDER-125-AZUL-',
                     ],
                     'accessed' => '2026-09-30',
@@ -3547,7 +3516,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer - Motocicleta rutera TVS Raider 125',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -3556,23 +3525,25 @@ return [
             'versions' => ['Azul', 'Negro', 'Amarillo'],
             'sources' => [
                 [
-                    'label' => 'TVS Motor Paraguay - Raider 125',
+                    'label' => 'TVS Motor Paraguay',
                     'url' => 'https://paraguay.tvsmotor.com/en/p/our-products/tvs-raider-py',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
+                    'note' => 'TVS Motor Paraguay - Raider 125',
                 ],
                 [
-                    'label' => 'Chacomer - Motocicleta rutera TVS Raider 125',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Chacomer = TVS distributor; spec values differ between sources (Chacomer snippet says carburetor; Tupi says EFI) - alimentacion omitted.',
+                    'note' => 'Chacomer - Motocicleta rutera TVS Raider 125 — Chacomer = TVS distributor; spec values differ between sources (Chacomer snippet says carburetor; Tupi says EFI) - alimentacion omitted.',
                 ],
                 [
-                    'label' => 'Tupi - Moto TVS Raider 125 Azul',
+                    'label' => 'Tupi',
                     'url' => 'https://www.tupi.com.py/producto/MKP051982/MOTO-TVS-RAIDER-125-AZUL-',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
+                    'note' => 'Tupi - Moto TVS Raider 125 Azul',
                 ],
             ],
         ],
@@ -3581,15 +3552,90 @@ return [
             'name' => 'Ronin 225',
             'slug' => 'ronin-225',
             'category' => 'naked',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 225,
+                    'source' => [
+                        'label' => 'TVS Motor Paraguay',
+                        'url' => 'https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '20.1 HP @ 7750 rpm',
+                    'source' => [
+                        'label' => 'TVS Motor Paraguay',
+                        'url' => 'https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'torque' => [
+                    'value' => '19.93 Nm @ 3750 rpm',
+                    'source' => [
+                        'label' => 'TVS Motor Paraguay',
+                        'url' => 'https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'freno_del' => [
+                    'value' => 'Disco 300 mm con ABS de dos canales',
+                    'source' => [
+                        'label' => 'TVS Motor Paraguay',
+                        'url' => 'https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'freno_tras' => [
+                    'value' => 'Disco 240 mm',
+                    'source' => [
+                        'label' => 'TVS Motor Paraguay',
+                        'url' => 'https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Aceite',
+                    'source' => [
+                        'label' => 'TVS Motor Paraguay',
+                        'url' => 'https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'neumatico_del' => [
+                    'value' => '110/70-17 sin cámara',
+                    'source' => [
+                        'label' => 'TVS Motor Paraguay',
+                        'url' => 'https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'neumatico_tras' => [
+                    'value' => '130/70-17 sin cámara',
+                    'source' => [
+                        'label' => 'TVS Motor Paraguay',
+                        'url' => 'https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [
                 [
                     'value' => 26203000,
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer - TVS moto category',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/catalog/category/view/s/tvs/id/760/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                [
+                    'value' => 26203000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-ronin-225.html',
                     ],
                     'accessed' => '2026-09-30',
                 ],
@@ -3597,18 +3643,32 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Chacomer - TVS moto category',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/catalog/category/view/s/tvs/id/760/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Chacomer is TVS distributor. Neo-retro.',
+                    'note' => 'Chacomer - TVS moto category — Chacomer is TVS distributor. Neo-retro.',
                 ],
                 [
-                    'label' => 'Tupi - Moto TVS Ronin 225 Nimbus Gris',
+                    'label' => 'Tupi',
                     'url' => 'https://www.tupi.com.py/producto/MKP052232/MOTO-TVS-RONIN-225-NIMBUS-GRIS-',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Described as neo-retro',
+                    'note' => 'Tupi - Moto TVS Ronin 225 Nimbus Gris — Described as neo-retro',
+                ],
+                [
+                    'label' => 'TVS Motor Paraguay',
+                    'url' => 'https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'TVS Motor Paraguay Ronin — brand page',
+                ],
+                [
+                    'label' => 'Chacomer',
+                    'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-ronin-225.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Chacomer Ronin 225 — retailer/distributor page',
                 ],
             ],
         ],
@@ -3617,14 +3677,31 @@ return [
             'name' => 'Stryker 125',
             'slug' => 'stryker-125',
             'category' => 'naked',
-            'specs' => [],
+            'specs' => [
+                'freno_del' => [
+                    'value' => 'Disco 240 mm',
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-stryker-125.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'freno_tras' => [
+                    'value' => 'Tambor 130 mm',
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-stryker-125.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [
                 [
                     'value' => 10349000,
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer - TVS moto category',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/catalog/category/view/s/tvs/id/760/',
                     ],
                     'accessed' => '2026-09-30',
@@ -3633,11 +3710,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Chacomer - TVS moto category',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/catalog/category/view/s/tvs/id/760/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Chacomer is TVS distributor. Category uncertain.',
+                    'note' => 'Chacomer - TVS moto category — Chacomer is TVS distributor. Category uncertain.',
+                ],
+                [
+                    'label' => 'Chacomer',
+                    'url' => 'https://www.chacomer.com.py/motocicleta-rutera-tvs-stryker-125.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Chacomer Stryker 125 — retailer page',
                 ],
             ],
         ],
@@ -3649,26 +3733,17 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 110,
-                    'source' => [
-                        'label' => 'Kenton BLITZ 110 (SE/DLX+/Automatic)',
-                        'url' => 'https://kenton.com.py/moto/blitz-110-se/',
-                    ],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/blitz-110-se/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '7.5 HP',
-                    'source' => [
-                        'label' => 'Kenton BLITZ 110 (SE/DLX+/Automatic)',
-                        'url' => 'https://kenton.com.py/moto/blitz-110-se/',
-                    ],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/blitz-110-se/'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => 'Motor OHV 110cc con distribución a cadena',
-                    'source' => [
-                        'label' => 'Kenton BLITZ 110 (SE/DLX+/Automatic)',
-                        'url' => 'https://kenton.com.py/moto/blitz-110-se/',
-                    ],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/blitz-110-se/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -3677,48 +3752,39 @@ return [
                     'value' => 6279000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Kenton BLITZ 110 (SE/DLX+/Automatic) SE',
-                        'url' => 'https://kenton.com.py/moto/blitz-110-se/',
-                    ],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/blitz-110-se/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
                     'value' => 6789000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Kenton BLITZ 110 (SE/DLX+/Automatic) DLX +',
-                        'url' => 'https://kenton.com.py/moto/blitz-110-dlx-plus/',
-                    ],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/blitz-110-dlx-plus/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
                     'value' => 7074000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Kenton BLITZ 110 (SE/DLX+/Automatic) Automatic',
-                        'url' => 'https://kenton.com.py/moto/blitz-110-automatic/',
-                    ],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/blitz-110-automatic/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => ['DLX', 'SE', 'Automatic'],
             'sources' => [
                 [
-                    'label' => 'Kenton BLITZ 110 (SE/DLX+/Automatic)',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/blitz-110-se/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton BLITZ 110 (SE/DLX+/Automatic) — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Kenton BLITZ 110 Automatic',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/blitz-110-automatic/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'official',
+                    'note' => 'Kenton BLITZ 110 Automatic — official',
                 ],
             ],
         ],
@@ -3730,7 +3796,7 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 125,
-                    'source' => ['label' => 'Kenton BLITZ 125 SPORT', 'url' => 'https://kenton.com.py/moto/blitz-125-sport/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/blitz-125-sport/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -3739,7 +3805,7 @@ return [
                     'value' => 7513000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton BLITZ 125 SPORT', 'url' => 'https://kenton.com.py/moto/blitz-125-sport/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/blitz-125-sport/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
@@ -3747,7 +3813,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer Kenton Blitz 125 Sport (precio contado)',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-cub-motoneta-kenton-blitz-125-sport.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -3756,18 +3822,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton BLITZ 125 SPORT',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/blitz-125-sport/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton BLITZ 125 SPORT — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Chacomer Kenton Blitz 125 Sport',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-cub-motoneta-kenton-blitz-125-sport.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer',
+                    'note' => 'Chacomer Kenton Blitz 125 Sport — retailer',
                 ],
             ],
         ],
@@ -3779,57 +3845,57 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 125,
-                    'source' => ['label' => 'Kenton Bravo 125', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '8.4 HP',
-                    'source' => ['label' => 'Kenton Bravo 125', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => 'Automática',
-                    'source' => ['label' => 'Kenton Bravo 125', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => ['label' => 'Kenton Bravo 125', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton Bravo 125', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '9.5 litros',
-                    'source' => ['label' => 'Kenton Bravo 125', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => '124.6 cc, monocilíndrico, 4 tiempos, refrigerado por aire',
-                    'source' => ['label' => 'Kenton Bravo 125', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'alimentacion' => [
                     'value' => 'Carburador',
-                    'source' => ['label' => 'Kenton Bravo 125', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_del' => [
                     'value' => '90/90-12',
-                    'source' => ['label' => 'Kenton Bravo 125', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_tras' => [
                     'value' => '3.50-10',
-                    'source' => ['label' => 'Kenton Bravo 125', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'altura_asiento' => [
                     'value' => '770 mm',
-                    'source' => ['label' => 'Kenton Bravo 125', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -3838,25 +3904,25 @@ return [
                     'value' => 8700000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton Bravo 125', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-125/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton Bravo 125',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/bravo-125/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton Bravo 125 — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Chacomer Bravo 125',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-scooter-kenton-bravo-125.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Chacomer product page',
+                    'note' => 'Chacomer Bravo 125 — Chacomer product page',
                 ],
             ],
         ],
@@ -3868,17 +3934,17 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'Kenton Bravo 150', 'url' => 'https://kenton.com.py/moto/bravo-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => 'Automática',
-                    'source' => ['label' => 'Kenton Bravo 150', 'url' => 'https://kenton.com.py/moto/bravo-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '9.5 L',
-                    'source' => ['label' => 'Kenton Bravo 150', 'url' => 'https://kenton.com.py/moto/bravo-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-150/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -3886,11 +3952,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton Bravo 150',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/bravo-150/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton Bravo 150 — Official brand page (kenton.com.py), data from search summary',
                 ],
             ],
         ],
@@ -3902,13 +3968,13 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 200,
-                    'source' => ['label' => 'Kenton BULL 200', 'url' => 'https://kenton.com.py/moto/bull-200/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bull-200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'disco',
                     'source' => [
-                        'label' => 'Chacomer Kenton Bull 200',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-kenton-bull-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -3916,7 +3982,7 @@ return [
                 'freno_tras' => [
                     'value' => 'disco',
                     'source' => [
-                        'label' => 'Chacomer Kenton Bull 200',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-kenton-bull-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -3928,7 +3994,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer Kenton Bull 200',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-kenton-bull-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -3937,18 +4003,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton BULL 200',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/bull-200/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton BULL 200 — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Chacomer Kenton Bull 200',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-kenton-bull-200.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer',
+                    'note' => 'Chacomer Kenton Bull 200 — retailer',
                 ],
             ],
         ],
@@ -3960,57 +4026,57 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 125,
-                    'source' => ['label' => 'Kenton CLASSIC 125', 'url' => 'https://kenton.com.py/moto/classic-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/classic-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '10 HP',
-                    'source' => ['label' => 'Kenton CLASSIC 125', 'url' => 'https://kenton.com.py/moto/classic-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/classic-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => 'Manual',
-                    'source' => ['label' => 'Kenton CLASSIC 125', 'url' => 'https://kenton.com.py/moto/classic-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/classic-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
                     'value' => 'Eléctrico',
-                    'source' => ['label' => 'Kenton CLASSIC 125', 'url' => 'https://kenton.com.py/moto/classic-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/classic-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton CLASSIC 125', 'url' => 'https://kenton.com.py/moto/classic-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/classic-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton CLASSIC 125', 'url' => 'https://kenton.com.py/moto/classic-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/classic-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '9 LITROS',
-                    'source' => ['label' => 'Kenton CLASSIC 125', 'url' => 'https://kenton.com.py/moto/classic-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/classic-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '97 KG',
-                    'source' => ['label' => 'Kenton CLASSIC 125', 'url' => 'https://kenton.com.py/moto/classic-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/classic-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => 'Motor OHV 125cc con distribución a varilla',
-                    'source' => ['label' => 'Kenton CLASSIC 125', 'url' => 'https://kenton.com.py/moto/classic-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/classic-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_del' => [
                     'value' => '2.75-18',
-                    'source' => ['label' => 'Kenton CLASSIC 125', 'url' => 'https://kenton.com.py/moto/classic-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/classic-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_tras' => [
                     'value' => '3.00-18',
-                    'source' => ['label' => 'Kenton CLASSIC 125', 'url' => 'https://kenton.com.py/moto/classic-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/classic-125/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -4019,18 +4085,18 @@ return [
                     'value' => 6505000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton CLASSIC 125', 'url' => 'https://kenton.com.py/moto/classic-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/classic-125/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton CLASSIC 125',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/classic-125/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton CLASSIC 125 — Official brand page (kenton.com.py), data from search summary',
                 ],
             ],
         ],
@@ -4043,7 +4109,7 @@ return [
                 'cc' => [
                     'value' => 150,
                     'source' => [
-                        'label' => 'Chacomer Kenton Classic 150',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-classic-150.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4051,7 +4117,7 @@ return [
                 'potencia' => [
                     'value' => '8.5 KW / 8000 RPM',
                     'source' => [
-                        'label' => 'Chacomer Kenton Classic 150',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-classic-150.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4059,7 +4125,7 @@ return [
                 'arranque' => [
                     'value' => 'Eléctrico/pedal',
                     'source' => [
-                        'label' => 'Chacomer Kenton Classic 150',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-classic-150.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4067,7 +4133,7 @@ return [
                 'tanque' => [
                     'value' => '11 L',
                     'source' => [
-                        'label' => 'Chacomer Kenton Classic 150',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-classic-150.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4075,7 +4141,7 @@ return [
                 'motor' => [
                     'value' => 'OHV 4 tiempos monocilíndrico',
                     'source' => [
-                        'label' => 'Chacomer Kenton Classic 150',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-classic-150.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4083,7 +4149,7 @@ return [
                 'refrigeracion' => [
                     'value' => 'Aire',
                     'source' => [
-                        'label' => 'Chacomer Kenton Classic 150',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-classic-150.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4095,7 +4161,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer Kenton Classic 150',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-classic-150.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4104,11 +4170,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Chacomer Kenton Classic 150',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-classic-150.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Chacomer retailer/maker product page; no price/spec figures seen',
+                    'note' => 'Chacomer Kenton Classic 150 — Chacomer retailer/maker product page; no price/spec figures seen',
                 ],
             ],
         ],
@@ -4120,57 +4186,57 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'Kenton DKR 150', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '11.8 HP',
-                    'source' => ['label' => 'Kenton DKR 150', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => 'Manual',
-                    'source' => ['label' => 'Kenton DKR 150', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
                     'value' => 'Eléctrico',
-                    'source' => ['label' => 'Kenton DKR 150', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => ['label' => 'Kenton DKR 150', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton DKR 150', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '12 LITROS',
-                    'source' => ['label' => 'Kenton DKR 150', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '120 KG',
-                    'source' => ['label' => 'Kenton DKR 150', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => 'Motor OHV 150cc con distribución a cadena',
-                    'source' => ['label' => 'Kenton DKR 150', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_del' => [
                     'value' => '90/90-19',
-                    'source' => ['label' => 'Kenton DKR 150', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_tras' => [
                     'value' => '120/90-17',
-                    'source' => ['label' => 'Kenton DKR 150', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -4179,18 +4245,18 @@ return [
                     'value' => 10939000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton DKR 150', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/dakar-150/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton DKR 150',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/dakar-150/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton DKR 150 — Official brand page (kenton.com.py), data from search summary',
                 ],
             ],
         ],
@@ -4202,13 +4268,13 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 200,
-                    'source' => ['label' => 'Kenton DKR 200', 'url' => 'https://kenton.com.py/moto/dakar-200/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/dakar-200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '18.4 HP',
                     'source' => [
-                        'label' => 'Chacomer Kenton DKR 200',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-dkr-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4216,7 +4282,7 @@ return [
                 'transmision' => [
                     'value' => 'Manual',
                     'source' => [
-                        'label' => 'Chacomer Kenton DKR 200',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-dkr-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4224,7 +4290,7 @@ return [
                 'freno_del' => [
                     'value' => 'disco',
                     'source' => [
-                        'label' => 'Chacomer Kenton DKR 200',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-dkr-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4232,7 +4298,7 @@ return [
                 'freno_tras' => [
                     'value' => 'disco',
                     'source' => [
-                        'label' => 'Chacomer Kenton DKR 200',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-dkr-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4240,7 +4306,7 @@ return [
                 'tanque' => [
                     'value' => '12 L',
                     'source' => [
-                        'label' => 'Chacomer Kenton DKR 200',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-dkr-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4248,7 +4314,7 @@ return [
                 'refrigeracion' => [
                     'value' => 'Aire',
                     'source' => [
-                        'label' => 'Chacomer Kenton DKR 200',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-dkr-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4259,7 +4325,7 @@ return [
                     'value' => 12047000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton DKR 200', 'url' => 'https://kenton.com.py/moto/dakar-200/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/dakar-200/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
@@ -4267,7 +4333,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer Kenton DKR 200',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-dkr-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4276,18 +4342,18 @@ return [
             'versions' => ['DKR 200 Storm (page kenton.com.py/moto/dkr-200-storm/, price not seen)'],
             'sources' => [
                 [
-                    'label' => 'Kenton DKR 200',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/dakar-200/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton DKR 200 — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Chacomer Kenton DKR 200',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-dkr-200.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer',
+                    'note' => 'Chacomer Kenton DKR 200 — retailer',
                 ],
             ],
         ],
@@ -4299,12 +4365,12 @@ return [
             'specs' => [
                 'potencia' => [
                     'value' => '2000 watts',
-                    'source' => ['label' => 'E-KENTON NEXT V1', 'url' => 'https://kenton.com.py/moto/e-kenton-next-v1/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/e-kenton-next-v1/'],
                     'accessed' => '2026-09-30',
                 ],
                 'velocidad_max' => [
                     'value' => '50 km/h',
-                    'source' => ['label' => 'E-KENTON NEXT V1', 'url' => 'https://kenton.com.py/moto/e-kenton-next-v1/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/e-kenton-next-v1/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -4313,7 +4379,7 @@ return [
                     'value' => 7282000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'E-KENTON NEXT V1', 'url' => 'https://kenton.com.py/moto/e-kenton-next-v1/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/e-kenton-next-v1/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
@@ -4321,7 +4387,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer E-Kenton Next V1 (valor mínimo)',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-electrica-kenton-next-v1.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4330,18 +4396,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'E-KENTON NEXT V1',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/e-kenton-next-v1/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'E-KENTON NEXT V1 — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Chacomer E-Kenton Next V1',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-electrica-kenton-next-v1.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer',
+                    'note' => 'Chacomer E-Kenton Next V1 — retailer',
                 ],
             ],
         ],
@@ -4354,7 +4420,7 @@ return [
                 'velocidad_max' => [
                     'value' => '55 km/h',
                     'source' => [
-                        'label' => 'Chacomer E-Kenton Next V3',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-electrica-kenton-next-v3.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4365,7 +4431,7 @@ return [
                     'value' => 8092000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'E-KENTON NEXT V3', 'url' => 'https://kenton.com.py/moto/e-kenton-next-v3/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/e-kenton-next-v3/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
@@ -4373,7 +4439,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer E-Kenton Next V3 (valor mínimo)',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-electrica-kenton-next-v3.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4382,18 +4448,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'E-KENTON NEXT V3',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/e-kenton-next-v3/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'E-KENTON NEXT V3 — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Chacomer E-Kenton Next V3',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-electrica-kenton-next-v3.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer',
+                    'note' => 'Chacomer E-Kenton Next V3 — retailer',
                 ],
             ],
         ],
@@ -4408,7 +4474,7 @@ return [
                     'value' => 8506000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'E-KENTON NEXT V5', 'url' => 'https://kenton.com.py/moto/e-kenton-next-v5/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/e-kenton-next-v5/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
@@ -4416,7 +4482,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer E-Kenton Next V5 (valor mínimo)',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-electrica-kenton-next-v5.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4425,36 +4491,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'E-KENTON NEXT V5',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/e-kenton-next-v5/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'E-KENTON NEXT V5 — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Chacomer E-Kenton Next V5',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-electrica-kenton-next-v5.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer',
-                ],
-            ],
-        ],
-        'kenton/elegance' => [
-            'brand' => 'kenton',
-            'name' => 'Elegance',
-            'slug' => 'elegance',
-            'category' => 'scooter',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Chacomer Kenton Elegance',
-                    'url' => 'https://www.chacomer.com.py/motocicleta-scooter-kenton-elegance.html',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Chacomer retailer/maker product page; no price/spec figures seen',
+                    'note' => 'Chacomer E-Kenton Next V5 — retailer',
                 ],
             ],
         ],
@@ -4466,62 +4514,62 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'Kenton FORZA 150', 'url' => 'https://kenton.com.py/moto/forza-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/forza-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '8.5 kW / 8000 RPM',
-                    'source' => ['label' => 'Kenton FORZA 150', 'url' => 'https://kenton.com.py/moto/forza-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/forza-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => '5 velocidades',
-                    'source' => ['label' => 'Kenton FORZA 150', 'url' => 'https://kenton.com.py/moto/forza-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/forza-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
                     'value' => 'Eléctrico y Pedal',
-                    'source' => ['label' => 'Kenton FORZA 150', 'url' => 'https://kenton.com.py/moto/forza-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/forza-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton FORZA 150', 'url' => 'https://kenton.com.py/moto/forza-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/forza-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton FORZA 150', 'url' => 'https://kenton.com.py/moto/forza-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/forza-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '11 Litros',
-                    'source' => ['label' => 'Kenton FORZA 150', 'url' => 'https://kenton.com.py/moto/forza-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/forza-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '104 KG',
-                    'source' => ['label' => 'Kenton FORZA 150', 'url' => 'https://kenton.com.py/moto/forza-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/forza-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => 'Motor OHV 150cc con distribución a varilla, 4 tiempos, mono cilíndrico, Refrigerado por aire',
-                    'source' => ['label' => 'Kenton FORZA 150', 'url' => 'https://kenton.com.py/moto/forza-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/forza-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'alimentacion' => [
                     'value' => 'Carburador',
-                    'source' => ['label' => 'Kenton FORZA 150', 'url' => 'https://kenton.com.py/moto/forza-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/forza-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_del' => [
                     'value' => '2.75×18',
-                    'source' => ['label' => 'Kenton FORZA 150', 'url' => 'https://kenton.com.py/moto/forza-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/forza-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_tras' => [
                     'value' => '3,00×18',
-                    'source' => ['label' => 'Kenton FORZA 150', 'url' => 'https://kenton.com.py/moto/forza-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/forza-150/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -4530,18 +4578,18 @@ return [
                     'value' => 7489000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton FORZA 150', 'url' => 'https://kenton.com.py/moto/forza-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/forza-150/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton FORZA 150',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/forza-150/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton FORZA 150 — Official brand page (kenton.com.py), data from search summary',
                 ],
             ],
         ],
@@ -4553,7 +4601,7 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 125,
-                    'source' => ['label' => 'Kenton FUSION 125', 'url' => 'https://kenton.com.py/moto/fusion-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/fusion-125/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -4562,7 +4610,7 @@ return [
                     'value' => 7641000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton FUSION 125', 'url' => 'https://kenton.com.py/moto/fusion-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/fusion-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
@@ -4570,7 +4618,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer Kenton Fusion 125',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-cub-motoneta-kenton-fusion-125.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4579,18 +4627,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton FUSION 125',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/fusion-125/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton FUSION 125 — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Chacomer Kenton Fusion 125',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-cub-motoneta-kenton-fusion-125.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer',
+                    'note' => 'Chacomer Kenton Fusion 125 — retailer',
                 ],
             ],
         ],
@@ -4605,28 +4653,25 @@ return [
                     'value' => 7780000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton FUSION 135', 'url' => 'https://kenton.com.py/moto/fusion-135/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/fusion-135/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
                     'value' => 7780000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Kenton Fusion 135 (precio contado)',
-                        'url' => 'https://kenton.com.py/moto/fusion-135/',
-                    ],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/fusion-135/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton FUSION 135',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/fusion-135/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton FUSION 135 — Official brand page (kenton.com.py), data from search summary',
                 ],
             ],
         ],
@@ -4638,13 +4683,13 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 125,
-                    'source' => ['label' => 'Kenton GL 125', 'url' => 'https://kenton.com.py/moto/gl-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => 'Manual 5 velocidades',
                     'source' => [
-                        'label' => 'Chacomer Kenton GL 125',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-gl-125.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4652,7 +4697,7 @@ return [
                 'arranque' => [
                     'value' => 'Eléctrico y pedal',
                     'source' => [
-                        'label' => 'Chacomer Kenton GL 125',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-gl-125.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4660,7 +4705,7 @@ return [
                 'refrigeracion' => [
                     'value' => 'Aire',
                     'source' => [
-                        'label' => 'Chacomer Kenton GL 125',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-gl-125.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4671,7 +4716,7 @@ return [
                     'value' => 6618000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton GL 125', 'url' => 'https://kenton.com.py/moto/gl-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
@@ -4679,7 +4724,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer Kenton GL 125 (valor mínimo)',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-gl-125.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -4688,18 +4733,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton GL 125',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/gl-125/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton GL 125 — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Chacomer Kenton GL 125',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-gl-125.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer',
+                    'note' => 'Chacomer Kenton GL 125 — retailer',
                 ],
             ],
         ],
@@ -4711,52 +4756,52 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'Kenton GL 150', 'url' => 'https://kenton.com.py/moto/gl-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '12 HP',
-                    'source' => ['label' => 'Kenton GL 150', 'url' => 'https://kenton.com.py/moto/gl-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => '5 velocidades con embrague',
-                    'source' => ['label' => 'Kenton GL 150', 'url' => 'https://kenton.com.py/moto/gl-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton GL 150', 'url' => 'https://kenton.com.py/moto/gl-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton GL 150', 'url' => 'https://kenton.com.py/moto/gl-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '13 litros',
-                    'source' => ['label' => 'Kenton GL 150', 'url' => 'https://kenton.com.py/moto/gl-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '97 kg',
-                    'source' => ['label' => 'Kenton GL 150', 'url' => 'https://kenton.com.py/moto/gl-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => '150 cc, 4 tiempos, refrigerado por aire',
-                    'source' => ['label' => 'Kenton GL 150', 'url' => 'https://kenton.com.py/moto/gl-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_del' => [
                     'value' => '2.75-17',
-                    'source' => ['label' => 'Kenton GL 150', 'url' => 'https://kenton.com.py/moto/gl-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_tras' => [
                     'value' => '3.00-18',
-                    'source' => ['label' => 'Kenton GL 150', 'url' => 'https://kenton.com.py/moto/gl-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -4765,18 +4810,18 @@ return [
                     'value' => 7489000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton GL 150', 'url' => 'https://kenton.com.py/moto/gl-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton GL 150',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/gl-150/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton GL 150 — Official brand page (kenton.com.py), data from search summary',
                 ],
             ],
         ],
@@ -4788,67 +4833,67 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'Kenton GL 150 Pro', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '12 HP',
-                    'source' => ['label' => 'Kenton GL 150 Pro', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => 'Manual',
-                    'source' => ['label' => 'Kenton GL 150 Pro', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
                     'value' => 'Eléctrico/Pedal',
-                    'source' => ['label' => 'Kenton GL 150 Pro', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton GL 150 Pro', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton GL 150 Pro', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '13 litros',
-                    'source' => ['label' => 'Kenton GL 150 Pro', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '100 kg',
-                    'source' => ['label' => 'Kenton GL 150 Pro', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => 'Motor OHV 150cc con distribución a varilla, 4 tiempos, monocilíndrico, refrigerado por aire',
-                    'source' => ['label' => 'Kenton GL 150 Pro', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
                     'accessed' => '2026-09-30',
                 ],
                 'alimentacion' => [
                     'value' => 'Carburador',
-                    'source' => ['label' => 'Kenton GL 150 Pro', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_del' => [
                     'value' => '2.75-17',
-                    'source' => ['label' => 'Kenton GL 150 Pro', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_tras' => [
                     'value' => '3.00-18',
-                    'source' => ['label' => 'Kenton GL 150 Pro', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
                     'accessed' => '2026-09-30',
                 ],
                 'altura_asiento' => [
                     'value' => '750 mm',
-                    'source' => ['label' => 'Kenton GL 150 Pro', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -4857,18 +4902,18 @@ return [
                     'value' => 7715000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton GL 150 Pro', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gl-150-pro/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton GL 150 Pro',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/gl-150-pro/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton GL 150 Pro — Official brand page (kenton.com.py), data from search summary',
                 ],
             ],
         ],
@@ -4880,42 +4925,42 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'Kenton GTR 150', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '11.3 HP',
-                    'source' => ['label' => 'Kenton GTR 150', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
                     'value' => 'Eléctrico',
-                    'source' => ['label' => 'Kenton GTR 150', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton GTR 150', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton GTR 150', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '12 litros',
-                    'source' => ['label' => 'Kenton GTR 150', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '116 kg',
-                    'source' => ['label' => 'Kenton GTR 150', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => 'Motor OHV 150cc con distribución a varilla',
-                    'source' => ['label' => 'Kenton GTR 150', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -4924,18 +4969,18 @@ return [
                     'value' => 9063000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton GTR 150', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton GTR 150',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/gtr-150/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton GTR 150 — Official brand page (kenton.com.py), data from search summary',
                 ],
             ],
         ],
@@ -4947,37 +4992,37 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'Kenton GTR 150 LTD', 'url' => 'https://kenton.com.py/moto/gtr-150-ltd/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150-ltd/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '11.3 hp',
-                    'source' => ['label' => 'Kenton GTR 150 LTD', 'url' => 'https://kenton.com.py/moto/gtr-150-ltd/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150-ltd/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => ['label' => 'Kenton GTR 150 LTD', 'url' => 'https://kenton.com.py/moto/gtr-150-ltd/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150-ltd/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton GTR 150 LTD', 'url' => 'https://kenton.com.py/moto/gtr-150-ltd/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150-ltd/'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '15 litros',
-                    'source' => ['label' => 'Kenton GTR 150 LTD', 'url' => 'https://kenton.com.py/moto/gtr-150-ltd/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150-ltd/'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '120 kg',
-                    'source' => ['label' => 'Kenton GTR 150 LTD', 'url' => 'https://kenton.com.py/moto/gtr-150-ltd/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150-ltd/'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => '150 cc, Motor OHV con distribución a varilla, 4 tiempos, mono cilíndrico, refrigeración por aire',
-                    'source' => ['label' => 'Kenton GTR 150 LTD', 'url' => 'https://kenton.com.py/moto/gtr-150-ltd/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150-ltd/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -4986,28 +5031,25 @@ return [
                     'value' => 9556000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton GTR 150 LTD', 'url' => 'https://kenton.com.py/moto/gtr-150-ltd/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150-ltd/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
                     'value' => 9764000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Kenton GTR 150 LTD Black Edition',
-                        'url' => 'https://kenton.com.py/moto/gtr-150-ltd-black-edition/',
-                    ],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-150-ltd-black-edition/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => ['LTD', 'LTD Black Edition'],
             'sources' => [
                 [
-                    'label' => 'Kenton GTR 150 LTD',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/gtr-150-ltd/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton GTR 150 LTD — Official brand page (kenton.com.py), data from search summary',
                 ],
             ],
         ],
@@ -5020,7 +5062,7 @@ return [
                 'cc' => [
                     'value' => 200,
                     'source' => [
-                        'label' => 'Chacomer Kenton GTR 200 LTD',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-rutera-kenton-gtr-200-ltd.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -5028,7 +5070,7 @@ return [
                 'potencia' => [
                     'value' => '13.4 HP',
                     'source' => [
-                        'label' => 'Chacomer Kenton GTR 200 LTD',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-rutera-kenton-gtr-200-ltd.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -5036,7 +5078,7 @@ return [
                 'tanque' => [
                     'value' => '15 L',
                     'source' => [
-                        'label' => 'Chacomer Kenton GTR 200 LTD',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-rutera-kenton-gtr-200-ltd.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -5047,7 +5089,7 @@ return [
                     'value' => 10833000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton GTR 200 LTD', 'url' => 'https://kenton.com.py/moto/gtr-200-ltd/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/gtr-200-ltd/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
@@ -5055,7 +5097,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer Kenton GTR 200 LTD',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-rutera-kenton-gtr-200-ltd.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -5064,36 +5106,18 @@ return [
             'versions' => ['LTD', 'LTD Black Edition (page exists, price not seen)'],
             'sources' => [
                 [
-                    'label' => 'Kenton GTR 200 LTD',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/gtr-200-ltd/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton GTR 200 LTD — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Chacomer Kenton GTR 200 LTD',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-rutera-kenton-gtr-200-ltd.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer',
-                ],
-            ],
-        ],
-        'kenton/joy-110' => [
-            'brand' => 'kenton',
-            'name' => 'Joy 110',
-            'slug' => 'joy-110',
-            'category' => 'cub',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Tupi Moto Kenton Joy 110 Rojo',
-                    'url' => 'https://www.tupi.com.py/producto/MKP053172/MOTO-KENTON-JOY-110-ROJO-',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Chacomer retailer/maker product page; no price/spec figures seen',
+                    'note' => 'Chacomer Kenton GTR 200 LTD — retailer',
                 ],
             ],
         ],
@@ -5105,7 +5129,7 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 200,
-                    'source' => ['label' => 'Kenton QUEST 200', 'url' => 'https://kenton.com.py/moto/quest-200/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/quest-200/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -5114,7 +5138,7 @@ return [
                     'value' => 22600000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton QUEST 200', 'url' => 'https://kenton.com.py/moto/quest-200/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/quest-200/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
@@ -5122,7 +5146,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer Kenton Quest 200',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/cuaciclon-atv-kenton-quest-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -5131,18 +5155,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton QUEST 200',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/quest-200/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton QUEST 200 — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Chacomer Kenton Quest 200',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/cuaciclon-atv-kenton-quest-200.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer',
+                    'note' => 'Chacomer Kenton Quest 200 — retailer',
                 ],
             ],
         ],
@@ -5154,7 +5178,7 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 300,
-                    'source' => ['label' => 'Kenton QUEST 300 4x4', 'url' => 'https://kenton.com.py/moto/quest-300-4x4/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/quest-300-4x4/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -5163,18 +5187,18 @@ return [
                     'value' => 38974000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton QUEST 300 4x4', 'url' => 'https://kenton.com.py/moto/quest-300-4x4/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/quest-300-4x4/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton QUEST 300 4x4',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/quest-300-4x4/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton QUEST 300 4x4 — Official brand page (kenton.com.py), data from search summary',
                 ],
             ],
         ],
@@ -5186,10 +5210,7 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 500,
-                    'source' => [
-                        'label' => 'Kenton QUEST ATV 500 4x4',
-                        'url' => 'https://kenton.com.py/moto/quest-atv-500-4x4/',
-                    ],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/quest-atv-500-4x4/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -5198,21 +5219,18 @@ return [
                     'value' => 47571000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Kenton QUEST ATV 500 4x4',
-                        'url' => 'https://kenton.com.py/moto/quest-atv-500-4x4/',
-                    ],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/quest-atv-500-4x4/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton QUEST ATV 500 4x4',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/quest-atv-500-4x4/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton QUEST ATV 500 4x4 — Official brand page (kenton.com.py), data from search summary',
                 ],
             ],
         ],
@@ -5224,57 +5242,57 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 125,
-                    'source' => ['label' => 'Kenton Quick 125', 'url' => 'https://kenton.com.py/moto/quick-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/quick-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '7.24 HP',
-                    'source' => ['label' => 'Kenton Quick 125', 'url' => 'https://kenton.com.py/moto/quick-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/quick-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => 'Automática CVT',
-                    'source' => ['label' => 'Kenton Quick 125', 'url' => 'https://kenton.com.py/moto/quick-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/quick-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => ['label' => 'Kenton Quick 125', 'url' => 'https://kenton.com.py/moto/quick-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/quick-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton Quick 125', 'url' => 'https://kenton.com.py/moto/quick-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/quick-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '4.5 litros',
-                    'source' => ['label' => 'Kenton Quick 125', 'url' => 'https://kenton.com.py/moto/quick-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/quick-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => 'OHV 125 cc distribución a cadena, 4 tiempos, monocilíndrico, refrigerado por aire',
-                    'source' => ['label' => 'Kenton Quick 125', 'url' => 'https://kenton.com.py/moto/quick-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/quick-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'alimentacion' => [
                     'value' => 'Carburador',
-                    'source' => ['label' => 'Kenton Quick 125', 'url' => 'https://kenton.com.py/moto/quick-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/quick-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_del' => [
                     'value' => '3.50-10',
-                    'source' => ['label' => 'Kenton Quick 125', 'url' => 'https://kenton.com.py/moto/quick-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/quick-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_tras' => [
                     'value' => '3.50-10',
-                    'source' => ['label' => 'Kenton Quick 125', 'url' => 'https://kenton.com.py/moto/quick-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/quick-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 'altura_asiento' => [
                     'value' => '740 mm',
-                    'source' => ['label' => 'Kenton Quick 125', 'url' => 'https://kenton.com.py/moto/quick-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/quick-125/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -5282,11 +5300,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton Quick 125',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/quick-125/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton Quick 125 — Official brand page (kenton.com.py), data from search summary',
                 ],
             ],
         ],
@@ -5298,52 +5316,52 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 170,
-                    'source' => ['label' => 'Kenton Road Power 170', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '13.3 HP',
-                    'source' => ['label' => 'Kenton Road Power 170', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => 'Automática CVT',
-                    'source' => ['label' => 'Kenton Road Power 170', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => ['label' => 'Kenton Road Power 170', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton Road Power 170', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '6.7 litros',
-                    'source' => ['label' => 'Kenton Road Power 170', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
                     'accessed' => '2026-09-30',
                 ],
                 'alimentacion' => [
                     'value' => 'Carburador',
-                    'source' => ['label' => 'Kenton Road Power 170', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_del' => [
                     'value' => '120/70-12',
-                    'source' => ['label' => 'Kenton Road Power 170', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_tras' => [
                     'value' => '120/70-12',
-                    'source' => ['label' => 'Kenton Road Power 170', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
                     'accessed' => '2026-09-30',
                 ],
                 'altura_asiento' => [
                     'value' => '740 mm',
-                    'source' => ['label' => 'Kenton Road Power 170', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -5352,7 +5370,7 @@ return [
                     'value' => 9500000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton Road Power 170', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
@@ -5360,7 +5378,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer Kenton Road Power (valor mínimo)',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-scooter-kenton-road-power.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -5369,18 +5387,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton Road Power 170',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/road-power-170/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton Road Power 170 — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Chacomer Kenton Road Power',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-scooter-kenton-road-power.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer',
+                    'note' => 'Chacomer Kenton Road Power — retailer',
                 ],
             ],
         ],
@@ -5392,57 +5410,57 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 149,
-                    'source' => ['label' => 'Kenton SHARK 150', 'url' => 'https://kenton.com.py/moto/shark-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/shark-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '11.5 HP',
-                    'source' => ['label' => 'Kenton SHARK 150', 'url' => 'https://kenton.com.py/moto/shark-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/shark-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => 'Manual – 5 cambios',
-                    'source' => ['label' => 'Kenton SHARK 150', 'url' => 'https://kenton.com.py/moto/shark-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/shark-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => ['label' => 'Kenton SHARK 150', 'url' => 'https://kenton.com.py/moto/shark-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/shark-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton SHARK 150', 'url' => 'https://kenton.com.py/moto/shark-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/shark-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '12 L',
-                    'source' => ['label' => 'Kenton SHARK 150', 'url' => 'https://kenton.com.py/moto/shark-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/shark-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '110 Kg',
-                    'source' => ['label' => 'Kenton SHARK 150', 'url' => 'https://kenton.com.py/moto/shark-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/shark-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => 'Monocilíndrico, 4 tiempos, refrigeración por aire',
-                    'source' => ['label' => 'Kenton SHARK 150', 'url' => 'https://kenton.com.py/moto/shark-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/shark-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_del' => [
                     'value' => '90/90-19',
-                    'source' => ['label' => 'Kenton SHARK 150', 'url' => 'https://kenton.com.py/moto/shark-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/shark-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_tras' => [
                     'value' => '110/90-17',
-                    'source' => ['label' => 'Kenton SHARK 150', 'url' => 'https://kenton.com.py/moto/shark-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/shark-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'altura_asiento' => [
                     'value' => '860 mm',
-                    'source' => ['label' => 'Kenton SHARK 150', 'url' => 'https://kenton.com.py/moto/shark-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/shark-150/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -5451,18 +5469,18 @@ return [
                     'value' => 9981000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton SHARK 150', 'url' => 'https://kenton.com.py/moto/shark-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/shark-150/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton SHARK 150',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/shark-150/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton SHARK 150 — Official brand page (kenton.com.py), data from search summary',
                 ],
             ],
         ],
@@ -5474,13 +5492,13 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 200,
-                    'source' => ['label' => 'Kenton SHARK 200', 'url' => 'https://kenton.com.py/moto/shark-200/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/shark-200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '13.6 HP',
                     'source' => [
-                        'label' => 'Chacomer Kenton Shark 200',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-shark-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -5488,7 +5506,7 @@ return [
                 'arranque' => [
                     'value' => 'eléctrico/pedal',
                     'source' => [
-                        'label' => 'Chacomer Kenton Shark 200',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-shark-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -5496,7 +5514,7 @@ return [
                 'freno_del' => [
                     'value' => 'disco',
                     'source' => [
-                        'label' => 'Chacomer Kenton Shark 200',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-shark-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -5504,7 +5522,7 @@ return [
                 'freno_tras' => [
                     'value' => 'tambor',
                     'source' => [
-                        'label' => 'Chacomer Kenton Shark 200',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-shark-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -5512,7 +5530,7 @@ return [
                 'tanque' => [
                     'value' => '12 L',
                     'source' => [
-                        'label' => 'Chacomer Kenton Shark 200',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-shark-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -5520,7 +5538,7 @@ return [
                 'altura_asiento' => [
                     'value' => '860 mm',
                     'source' => [
-                        'label' => 'Chacomer Kenton Shark 200',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-shark-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -5532,7 +5550,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer Kenton Shark 200 (precio de contado)',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-shark-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -5541,18 +5559,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton SHARK 200',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/shark-200/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton SHARK 200 — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Chacomer Kenton Shark 200',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-shark-200.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer',
+                    'note' => 'Chacomer Kenton Shark 200 — retailer',
                 ],
             ],
         ],
@@ -5564,62 +5582,62 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'Kenton SKUA 150', 'url' => 'https://kenton.com.py/moto/skua-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/skua-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '11 HP',
-                    'source' => ['label' => 'Kenton SKUA 150', 'url' => 'https://kenton.com.py/moto/skua-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/skua-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => 'Manual – 5 Cambios',
-                    'source' => ['label' => 'Kenton SKUA 150', 'url' => 'https://kenton.com.py/moto/skua-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/skua-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton SKUA 150', 'url' => 'https://kenton.com.py/moto/skua-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/skua-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => ['label' => 'Kenton SKUA 150', 'url' => 'https://kenton.com.py/moto/skua-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/skua-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '12 litros',
-                    'source' => ['label' => 'Kenton SKUA 150', 'url' => 'https://kenton.com.py/moto/skua-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/skua-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '115kg',
-                    'source' => ['label' => 'Kenton SKUA 150', 'url' => 'https://kenton.com.py/moto/skua-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/skua-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => 'Monocilíndrico, 4 tiempos, refrigeración por aire',
-                    'source' => ['label' => 'Kenton SKUA 150', 'url' => 'https://kenton.com.py/moto/skua-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/skua-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'alimentacion' => [
                     'value' => 'Carburador',
-                    'source' => ['label' => 'Kenton SKUA 150', 'url' => 'https://kenton.com.py/moto/skua-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/skua-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_del' => [
                     'value' => '2.75 – 21',
-                    'source' => ['label' => 'Kenton SKUA 150', 'url' => 'https://kenton.com.py/moto/skua-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/skua-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_tras' => [
                     'value' => '4.60 – 18',
-                    'source' => ['label' => 'Kenton SKUA 150', 'url' => 'https://kenton.com.py/moto/skua-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/skua-150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'altura_asiento' => [
                     'value' => '898mm',
-                    'source' => ['label' => 'Kenton SKUA 150', 'url' => 'https://kenton.com.py/moto/skua-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/skua-150/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -5628,42 +5646,18 @@ return [
                     'value' => 9189000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton SKUA 150', 'url' => 'https://kenton.com.py/moto/skua-150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/skua-150/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton SKUA 150',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/skua-150/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
-                ],
-            ],
-        ],
-        'kenton/spark-125' => [
-            'brand' => 'kenton',
-            'name' => 'Spark 125',
-            'slug' => 'spark-125',
-            'category' => 'scooter',
-            'specs' => [
-                'cc' => [
-                    'value' => 125,
-                    'source' => ['label' => 'Kenton SPARK 125', 'url' => 'https://kenton.com.py/moto/spark-125/'],
-                    'accessed' => '2026-09-30',
-                ],
-            ],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Kenton SPARK 125',
-                    'url' => 'https://kenton.com.py/moto/spark-125/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton SKUA 150 — Official brand page (kenton.com.py), data from search summary',
                 ],
             ],
         ],
@@ -5675,52 +5669,52 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'Kenton SPARK 150', 'url' => 'https://kenton.com.py/moto/spark150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/spark150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '10.5 HP',
-                    'source' => ['label' => 'Kenton SPARK 150', 'url' => 'https://kenton.com.py/moto/spark150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/spark150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => 'Manual',
-                    'source' => ['label' => 'Kenton SPARK 150', 'url' => 'https://kenton.com.py/moto/spark150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/spark150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
                     'value' => 'Eléctrico',
-                    'source' => ['label' => 'Kenton SPARK 150', 'url' => 'https://kenton.com.py/moto/spark150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/spark150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => ['label' => 'Kenton SPARK 150', 'url' => 'https://kenton.com.py/moto/spark150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/spark150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Disco',
-                    'source' => ['label' => 'Kenton SPARK 150', 'url' => 'https://kenton.com.py/moto/spark150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/spark150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '14.5 litros',
-                    'source' => ['label' => 'Kenton SPARK 150', 'url' => 'https://kenton.com.py/moto/spark150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/spark150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'alimentacion' => [
                     'value' => 'Carburador',
-                    'source' => ['label' => 'Kenton SPARK 150', 'url' => 'https://kenton.com.py/moto/spark150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/spark150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_del' => [
                     'value' => '120/70-12',
-                    'source' => ['label' => 'Kenton SPARK 150', 'url' => 'https://kenton.com.py/moto/spark150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/spark150/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_tras' => [
                     'value' => '130/70-12',
-                    'source' => ['label' => 'Kenton SPARK 150', 'url' => 'https://kenton.com.py/moto/spark150/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/spark150/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -5728,18 +5722,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton SPARK 150',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/spark150/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton SPARK 150 — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Chacomer Spark 150',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-spark-150.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Chacomer product page',
+                    'note' => 'Chacomer Spark 150 — Chacomer product page',
                 ],
             ],
         ],
@@ -5751,106 +5745,67 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 200,
-                    'source' => [
-                        'label' => 'Classic Motos Stratta 200',
-                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/stratta-200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '15 HP',
-                    'source' => [
-                        'label' => 'Classic Motos Stratta 200',
-                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/stratta-200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => 'Manual 6 velocidades',
-                    'source' => [
-                        'label' => 'Classic Motos Stratta 200',
-                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/stratta-200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
                     'value' => 'Eléctrico',
-                    'source' => [
-                        'label' => 'Classic Motos Stratta 200',
-                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/stratta-200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'disco',
-                    'source' => [
-                        'label' => 'Classic Motos Stratta 200',
-                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/stratta-200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'disco',
-                    'source' => [
-                        'label' => 'Classic Motos Stratta 200',
-                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/stratta-200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '13 L',
-                    'source' => [
-                        'label' => 'Classic Motos Stratta 200',
-                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/stratta-200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '140 kg',
-                    'source' => [
-                        'label' => 'Classic Motos Stratta 200',
-                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/stratta-200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'refrigeracion' => [
                     'value' => 'Aire',
-                    'source' => [
-                        'label' => 'Classic Motos Stratta 200',
-                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/stratta-200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'alimentacion' => [
                     'value' => 'Carburador',
-                    'source' => [
-                        'label' => 'Classic Motos Stratta 200',
-                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/stratta-200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_del' => [
                     'value' => '100/80-17',
-                    'source' => [
-                        'label' => 'Classic Motos Stratta 200',
-                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/stratta-200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'neumatico_tras' => [
                     'value' => '130/80-17',
-                    'source' => [
-                        'label' => 'Classic Motos Stratta 200',
-                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/stratta-200/'],
                     'accessed' => '2026-09-30',
                 ],
                 'altura_asiento' => [
                     'value' => '765 mm',
-                    'source' => [
-                        'label' => 'Classic Motos Stratta 200',
-                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
-                    ],
+                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/stratta-200/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -5860,7 +5815,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer Kenton Stratta 200 (valor mínimo contado)',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-stratta-200.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -5869,25 +5824,25 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton Stratta 200',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/stratta-200/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'official Kenton page',
+                    'note' => 'Kenton Stratta 200 — official Kenton page',
                 ],
                 [
-                    'label' => 'Chacomer Kenton Stratta 200',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-stratta-200.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer; listed as Kenton brand',
+                    'note' => 'Chacomer Kenton Stratta 200 — retailer; listed as Kenton brand',
                 ],
                 [
-                    'label' => 'Classic Motos Stratta 200',
+                    'label' => 'Classic Motos',
                     'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer spec source',
+                    'note' => 'Classic Motos Stratta 200 — retailer spec source',
                 ],
             ],
         ],
@@ -5899,7 +5854,7 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 125,
-                    'source' => ['label' => 'Kenton Symphony 125S', 'url' => 'https://kenton.com.py/moto/symphony-125s/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/symphony-125s/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -5908,18 +5863,18 @@ return [
                     'value' => 12500000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton Symphony 125S', 'url' => 'https://kenton.com.py/moto/symphony-125s/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/symphony-125s/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton Symphony 125S',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/symphony-125s/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton Symphony 125S — Official brand page (kenton.com.py), data from search summary',
                 ],
             ],
         ],
@@ -5931,10 +5886,7 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => [
-                        'label' => 'Kenton TRANSPORTER 150 HD',
-                        'url' => 'https://kenton.com.py/moto/transporter-150-hd/',
-                    ],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/transporter-150-hd/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -5943,10 +5895,7 @@ return [
                     'value' => 17984000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Kenton TRANSPORTER 150 HD',
-                        'url' => 'https://kenton.com.py/moto/transporter-150-hd/',
-                    ],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/transporter-150-hd/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
@@ -5954,7 +5903,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer Kenton Transporter 150 HD',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/triciclo-motocarga-kenton-transporter-150-hd.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -5963,18 +5912,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton TRANSPORTER 150 HD',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/transporter-150-hd/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton TRANSPORTER 150 HD — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Chacomer Kenton Transporter 150 HD',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/triciclo-motocarga-kenton-transporter-150-hd.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer',
+                    'note' => 'Chacomer Kenton Transporter 150 HD — retailer',
                 ],
             ],
         ],
@@ -5986,7 +5935,7 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 180,
-                    'source' => ['label' => 'Kenton TRANSPORTER 180', 'url' => 'https://kenton.com.py/familia/motocargas/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/familia/motocargas/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -5995,18 +5944,18 @@ return [
                     'value' => 18880000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton TRANSPORTER 180', 'url' => 'https://kenton.com.py/familia/motocargas/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/familia/motocargas/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton TRANSPORTER 180',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/familia/motocargas/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton TRANSPORTER 180 — Official brand page (kenton.com.py), data from search summary',
                 ],
             ],
         ],
@@ -6018,10 +5967,7 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 210,
-                    'source' => [
-                        'label' => 'Kenton TRANSPORTER 210 HD',
-                        'url' => 'https://kenton.com.py/moto/transporter-210-hd/',
-                    ],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/transporter-210-hd/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -6030,10 +5976,7 @@ return [
                     'value' => 22330000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Kenton TRANSPORTER 210 HD',
-                        'url' => 'https://kenton.com.py/moto/transporter-210-hd/',
-                    ],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/transporter-210-hd/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
@@ -6041,7 +5984,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Chacomer Kenton Transporter 210 HD',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/triciclo-motocarga-kenton-transporter-210-hd.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -6050,18 +5993,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton TRANSPORTER 210 HD',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/transporter-210-hd/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton TRANSPORTER 210 HD — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Chacomer Kenton Transporter 210 HD',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/triciclo-motocarga-kenton-transporter-210-hd.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'retailer',
+                    'note' => 'Chacomer Kenton Transporter 210 HD — retailer',
                 ],
             ],
         ],
@@ -6073,7 +6016,7 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 125,
-                    'source' => ['label' => 'Kenton VOLKANO 125', 'url' => 'https://kenton.com.py/moto/volkano-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/volkano-125/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -6082,7 +6025,7 @@ return [
                     'value' => 11202000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton VOLKANO 125', 'url' => 'https://kenton.com.py/moto/volkano-125/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/volkano-125/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
@@ -6090,7 +6033,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Volkano 125 (precio contado)',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/cuaciclon-atv-kenton-volkano-125.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -6099,17 +6042,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton VOLKANO 125',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/volkano-125/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton VOLKANO 125 — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Volkano 125',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/cuaciclon-atv-kenton-volkano-125.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
+                    'note' => 'Volkano 125',
                 ],
             ],
         ],
@@ -6121,7 +6065,7 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'Kenton VOLKANO 150 OFF ROAD', 'url' => 'https://kenton.com.py/familia/atv-cuaci/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/familia/atv-cuaci/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -6130,34 +6074,32 @@ return [
                     'value' => 16900000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton VOLKANO 150 OFF ROAD', 'url' => 'https://kenton.com.py/familia/atv-cuaci/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/familia/atv-cuaci/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
                     'value' => 16900000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Volkano 150 Off Road (precio contado)',
-                        'url' => 'https://kenton.com.py/moto/volkano-150-off-road/',
-                    ],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/volkano-150-off-road/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton VOLKANO 150 OFF ROAD',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/familia/atv-cuaci/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton VOLKANO 150 OFF ROAD — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Volkano 150 Off Road',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/moto/volkano-150-off-road/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
+                    'note' => 'Volkano 150 Off Road',
                 ],
             ],
         ],
@@ -6169,7 +6111,7 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 250,
-                    'source' => ['label' => 'Kenton VOLKANO 250 OFF ROAD', 'url' => 'https://kenton.com.py/familia/atv-cuaci/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/familia/atv-cuaci/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -6178,7 +6120,7 @@ return [
                     'value' => 18685000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Kenton VOLKANO 250 OFF ROAD', 'url' => 'https://kenton.com.py/familia/atv-cuaci/'],
+                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/familia/atv-cuaci/'],
                     'accessed' => '2026-09-30',
                 ],
                 [
@@ -6186,7 +6128,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Volkano 250 Off Road (precio contado)',
+                        'label' => 'Chacomer',
                         'url' => 'https://www.chacomer.com.py/cuaciclon-atv-kenton-volkano-250-off-road.html',
                     ],
                     'accessed' => '2026-09-30',
@@ -6195,131 +6137,18 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Kenton VOLKANO 250 OFF ROAD',
+                    'label' => 'Kenton',
                     'url' => 'https://kenton.com.py/familia/atv-cuaci/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Official brand page (kenton.com.py), data from search summary',
+                    'note' => 'Kenton VOLKANO 250 OFF ROAD — Official brand page (kenton.com.py), data from search summary',
                 ],
                 [
-                    'label' => 'Volkano 250 Off Road',
+                    'label' => 'Chacomer',
                     'url' => 'https://www.chacomer.com.py/cuaciclon-atv-kenton-volkano-250-off-road.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                ],
-            ],
-        ],
-        'royal-enfield/bear-650' => [
-            'brand' => 'royal-enfield',
-            'name' => 'Bear 650',
-            'slug' => 'bear-650',
-            'category' => 'naked',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Royal Enfield Paraguay - catálogo de motos',
-                    'url' => 'https://royalenfieldpy.com/motos/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Listed in official PY catalogue per search result; Reimpex is distributor. Category is judgement.',
-                ],
-            ],
-        ],
-        'royal-enfield/classic-350' => [
-            'brand' => 'royal-enfield',
-            'name' => 'Classic 350',
-            'slug' => 'classic-350',
-            'category' => 'custom-chopper',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Royal Enfield Paraguay - catálogo de motos',
-                    'url' => 'https://royalenfieldpy.com/motos/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Listed in official PY catalogue per search result; Reimpex is distributor. Category is judgement.',
-                ],
-                [
-                    'label' => 'Royal Enfield Paraguay - Classic 350',
-                    'url' => 'https://royalenfieldpy.com/motos/classic-350/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                ],
-            ],
-        ],
-        'royal-enfield/himalayan-450' => [
-            'brand' => 'royal-enfield',
-            'name' => 'Himalayan 450',
-            'slug' => 'himalayan-450',
-            'category' => 'touring',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Royal Enfield Paraguay - catálogo de motos',
-                    'url' => 'https://royalenfieldpy.com/motos/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Listed in official PY catalogue per search result; Reimpex is distributor. Category is judgement.',
-                ],
-            ],
-        ],
-        'royal-enfield/meteor-350' => [
-            'brand' => 'royal-enfield',
-            'name' => 'Meteor 350',
-            'slug' => 'meteor-350',
-            'category' => 'custom-chopper',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Royal Enfield Paraguay - catálogo de motos',
-                    'url' => 'https://royalenfieldpy.com/motos/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Listed in official PY catalogue per search result; Reimpex is distributor. Category is judgement.',
-                ],
-            ],
-        ],
-        'royal-enfield/shotgun-650' => [
-            'brand' => 'royal-enfield',
-            'name' => 'Shotgun 650',
-            'slug' => 'shotgun-650',
-            'category' => 'custom-chopper',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Royal Enfield Paraguay - catálogo de motos',
-                    'url' => 'https://royalenfieldpy.com/motos/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Listed in official PY catalogue per search result; Reimpex is distributor. Category is judgement.',
-                ],
-            ],
-        ],
-        'royal-enfield/super-meteor-650' => [
-            'brand' => 'royal-enfield',
-            'name' => 'Super Meteor 650',
-            'slug' => 'super-meteor-650',
-            'category' => 'custom-chopper',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Royal Enfield Paraguay - catálogo de motos',
-                    'url' => 'https://royalenfieldpy.com/motos/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Listed in official PY catalogue per search result; Reimpex is distributor. Category is judgement.',
+                    'note' => 'Volkano 250 Off Road',
                 ],
             ],
         ],
@@ -6328,16 +6157,64 @@ return [
             'name' => 'G 310 GS',
             'slug' => 'g-310-gs',
             'category' => 'touring',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 313,
+                    'source' => [
+                        'label' => 'BMW Motorrad Paraguay',
+                        'url' => 'https://www.bmw-motorrad.com.py/es/models/adventure/g310gs/technicaldata.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '34 HP (25 kW) a 9.500 rpm',
+                    'source' => [
+                        'label' => 'BMW Motorrad Paraguay',
+                        'url' => 'https://www.bmw-motorrad.com.py/es/models/adventure/g310gs/technicaldata.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'transmision' => [
+                    'value' => '6 velocidades',
+                    'source' => [
+                        'label' => 'BMW Motorrad Paraguay',
+                        'url' => 'https://www.bmw-motorrad.com.py/es/models/adventure/g310gs/technicaldata.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'motor' => [
+                    'value' => 'Un cilindro, cuatro tiempos, 4 válvulas, dos árboles de levas',
+                    'source' => [
+                        'label' => 'BMW Motorrad Paraguay',
+                        'url' => 'https://www.bmw-motorrad.com.py/es/models/adventure/g310gs/technicaldata.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Agua',
+                    'source' => [
+                        'label' => 'BMW Motorrad Paraguay',
+                        'url' => 'https://www.bmw-motorrad.com.py/es/models/adventure/g310gs/technicaldata.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'La Nación - BMW Motorrad Paraguay lanzó la nueva G 310 GS',
+                    'label' => 'La Nación',
                     'url' => 'https://www.lanacion.com.py/negocios_edicion_impresa/2018/03/26/bmw-motorrad-paraguay-lanzo-la-nueva-g-310-gs/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Press article naming model as launched in Paraguay.',
+                    'note' => 'La Nación - BMW Motorrad Paraguay lanzó la nueva G 310 GS — Press article naming model as launched in Paraguay.',
+                ],
+                [
+                    'label' => 'BMW Motorrad Paraguay',
+                    'url' => 'https://www.bmw-motorrad.com.py/es/models/adventure/g310gs/technicaldata.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'BMW Motorrad Paraguay G 310 GS datos técnicos — distributor brand site',
                 ],
             ],
         ],
@@ -6346,16 +6223,56 @@ return [
             'name' => 'G 310 R',
             'slug' => 'g-310-r',
             'category' => 'naked',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 313,
+                    'source' => [
+                        'label' => 'BMW Motorrad Paraguay',
+                        'url' => 'https://www.bmw-motorrad.com.py/es/models/roadster/g310r/technicaldata.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '34 HP (25 kW) a 9.500 rpm',
+                    'source' => [
+                        'label' => 'BMW Motorrad Paraguay',
+                        'url' => 'https://www.bmw-motorrad.com.py/es/models/roadster/g310r/technicaldata.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'motor' => [
+                    'value' => 'Un cilindro, cuatro tiempos, 4 válvulas, dos árboles de levas',
+                    'source' => [
+                        'label' => 'BMW Motorrad Paraguay',
+                        'url' => 'https://www.bmw-motorrad.com.py/es/models/roadster/g310r/technicaldata.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Agua',
+                    'source' => [
+                        'label' => 'BMW Motorrad Paraguay',
+                        'url' => 'https://www.bmw-motorrad.com.py/es/models/roadster/g310r/technicaldata.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Infonegocios - BMW Motorrad Paraguay presentó la nueva G 310 R',
+                    'label' => 'InfoNegocios',
                     'url' => 'https://infonegocios.com.py/infomotor/bmw-motorrad-paraguay-presento-la-nueva-g-310-r-la-mas-joven-de-la-familia',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Press article naming model as launched in Paraguay.',
+                    'note' => 'Infonegocios - BMW Motorrad Paraguay presentó la nueva G 310 R — Press article naming model as launched in Paraguay.',
+                ],
+                [
+                    'label' => 'BMW Motorrad Paraguay',
+                    'url' => 'https://www.bmw-motorrad.com.py/es/models/roadster/g310r/technicaldata.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'BMW Motorrad Paraguay G 310 R datos técnicos — distributor brand site',
                 ],
             ],
         ],
@@ -6364,34 +6281,48 @@ return [
             'name' => 'R 1300 GS',
             'slug' => 'r-1300-gs',
             'category' => 'touring',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 1300,
+                    'source' => [
+                        'label' => 'ABC Color',
+                        'url' => 'https://www.abc.com.py/empresariales/2024/03/26/la-nueva-y-potente-bmw-r-1300-gs-ya-esta-en-paraguay/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '145 HP a 7.750 rpm',
+                    'source' => [
+                        'label' => 'ABC Color',
+                        'url' => 'https://www.abc.com.py/empresariales/2024/03/26/la-nueva-y-potente-bmw-r-1300-gs-ya-esta-en-paraguay/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'torque' => [
+                    'value' => '149 Nm a 6.500 rpm',
+                    'source' => [
+                        'label' => 'ABC Color',
+                        'url' => 'https://www.abc.com.py/empresariales/2024/03/26/la-nueva-y-potente-bmw-r-1300-gs-ya-esta-en-paraguay/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'ABC Color - La nueva BMW R 1300 GS ya está en Paraguay',
+                    'label' => 'ABC Color',
                     'url' => 'https://www.abc.com.py/empresariales/2024/03/26/la-nueva-y-potente-bmw-r-1300-gs-ya-esta-en-paraguay/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Press article naming model as launched in Paraguay.',
+                    'note' => 'ABC Color - La nueva BMW R 1300 GS ya está en Paraguay — Press article naming model as launched in Paraguay.',
                 ],
-            ],
-        ],
-        'benelli/752s' => [
-            'brand' => 'benelli',
-            'name' => '752S',
-            'slug' => '752s',
-            'category' => 'naked',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
                 [
-                    'label' => 'Inverfin - Motos Benelli',
-                    'url' => 'https://inverfin.com.py/collections/benelli',
+                    'label' => 'BMW Motorrad Paraguay',
+                    'url' => 'https://www.bmw-motorrad.com.py/es/models/adventure/r1300gs.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor collection lists 752S (plus TNT and Leoncino lines, not itemised).',
+                    'note' => 'BMW Motorrad Paraguay R 1300 GS — brand page',
                 ],
             ],
         ],
@@ -6400,70 +6331,83 @@ return [
             'name' => '450MT',
             'slug' => '450mt',
             'category' => 'touring',
-            'specs' => [],
+            'specs' => [
+                'potencia' => [
+                    'value' => '44 CV',
+                    'source' => ['label' => 'CFMoto Paraguay', 'url' => 'https://www.cfmoto.com.py/producto.php?prod=450mt'],
+                    'accessed' => '2026-09-30',
+                ],
+                'motor' => [
+                    'value' => 'Dos cilindros, 449,5 cc, refrigeración líquida',
+                    'source' => ['label' => 'CFMoto Paraguay', 'url' => 'https://www.cfmoto.com.py/producto.php?prod=450mt'],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Líquida',
+                    'source' => ['label' => 'CFMoto Paraguay', 'url' => 'https://www.cfmoto.com.py/producto.php?prod=450mt'],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'CFMOTO Paraguay - 450MT',
+                    'label' => 'CFMoto Paraguay',
                     'url' => 'https://www.cfmoto.com.py/producto.php?prod=450mt',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Brand PY site product page.',
+                    'note' => 'CFMOTO Paraguay - 450MT — Brand PY site product page.',
                 ],
-            ],
-        ],
-        'ducati/desertx' => [
-            'brand' => 'ducati',
-            'name' => 'DesertX',
-            'slug' => 'desertx',
-            'category' => 'touring',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
                 [
-                    'label' => 'Infonegocios - Ducati acelera en Paraguay',
-                    'url' => 'https://infonegocios.com.py/conosur/ducati-acelera-en-paraguay-imag-registra-un-centenar-de-motocicletas-vendidas-desde-el-2020',
+                    'label' => 'Classic Motos',
+                    'url' => 'https://www.classicmotos.com.py/producto/mt450/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Names Multistrada, Scrambler, Desert X as popular in Paraguay; family names, exact variants unknown.',
+                    'note' => 'Classic Motos MT450 — retailer page',
                 ],
             ],
         ],
-        'ducati/multistrada' => [
-            'brand' => 'ducati',
-            'name' => 'Multistrada',
-            'slug' => 'multistrada',
-            'category' => 'touring',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Infonegocios - Ducati acelera en Paraguay',
-                    'url' => 'https://infonegocios.com.py/conosur/ducati-acelera-en-paraguay-imag-registra-un-centenar-de-motocicletas-vendidas-desde-el-2020',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Names Multistrada, Scrambler, Desert X as popular in Paraguay; family names, exact variants unknown.',
-                ],
-            ],
-        ],
-        'ducati/scrambler' => [
-            'brand' => 'ducati',
-            'name' => 'Scrambler',
-            'slug' => 'scrambler',
+        'triumph/speed-400' => [
+            'brand' => 'triumph',
+            'name' => 'Speed 400',
+            'slug' => 'speed-400',
             'category' => 'naked',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 398,
+                    'source' => ['label' => 'Mecauto', 'url' => 'https://mecauto.com.py/triumph/speed400/'],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '40 hp',
+                    'source' => ['label' => 'Mecauto', 'url' => 'https://mecauto.com.py/triumph/speed400/'],
+                    'accessed' => '2026-09-30',
+                ],
+                'torque' => [
+                    'value' => '37.5 Nm',
+                    'source' => ['label' => 'Mecauto', 'url' => 'https://mecauto.com.py/triumph/speed400/'],
+                    'accessed' => '2026-09-30',
+                ],
+                'transmision' => [
+                    'value' => '6 velocidades',
+                    'source' => ['label' => 'Mecauto', 'url' => 'https://mecauto.com.py/triumph/speed400/'],
+                    'accessed' => '2026-09-30',
+                ],
+                'motor' => [
+                    'value' => 'DOHC 4 tiempos monocilíndrico',
+                    'source' => ['label' => 'Mecauto', 'url' => 'https://mecauto.com.py/triumph/speed400/'],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Infonegocios - Ducati acelera en Paraguay',
-                    'url' => 'https://infonegocios.com.py/conosur/ducati-acelera-en-paraguay-imag-registra-un-centenar-de-motocicletas-vendidas-desde-el-2020',
+                    'label' => 'Mecauto',
+                    'url' => 'https://mecauto.com.py/triumph/speed400/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Names Multistrada, Scrambler, Desert X as popular in Paraguay; family names, exact variants unknown.',
+                    'note' => 'Mecauto Triumph Speed 400 — distributor page',
                 ],
             ],
         ],
@@ -6475,66 +6419,42 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 125,
-                    'source' => [
-                        'label' => 'Inverfin - Mawi 125',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-mawi-125',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-mawi-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '8.84 HP',
-                    'source' => [
-                        'label' => 'Inverfin - Mawi 125',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-mawi-125',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-mawi-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => 'CVT',
-                    'source' => [
-                        'label' => 'Inverfin - Mawi 125',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-mawi-125',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-mawi-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
                     'value' => 'Eléctrico y a pedal',
-                    'source' => [
-                        'label' => 'Inverfin - Mawi 125',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-mawi-125',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-mawi-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => [
-                        'label' => 'Inverfin - Mawi 125',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-mawi-125',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-mawi-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
-                    'value' => '4.3 liters',
-                    'source' => [
-                        'label' => 'Inverfin - Mawi 125',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-mawi-125',
-                    ],
+                    'value' => '4.3 litros',
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-mawi-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => 'OHC 4 tiempos 125cc',
-                    'source' => [
-                        'label' => 'Inverfin - Mawi 125',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-mawi-125',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-mawi-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'refrigeracion' => [
                     'value' => 'Aire',
-                    'source' => [
-                        'label' => 'Inverfin - Mawi 125',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-mawi-125',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-mawi-125'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -6542,11 +6462,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Inverfin - Mawi 125',
+                    'label' => 'Inverfin',
                     'url' => 'https://inverfin.com.py/products/moto-taiga-mawi-125',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Product page by Inverfin, Taiga\'s owner/distributor (Inverfin created Taiga per ABC Color) (two different cash prices across listings in snippet: dropped)',
+                    'note' => 'Inverfin - Mawi 125 — Product page by Inverfin, Taiga\'s owner/distributor (Inverfin created Taiga per ABC Color) (two different cash prices across listings in snippet: dropped)',
                 ],
             ],
         ],
@@ -6559,7 +6479,7 @@ return [
                 'cc' => [
                     'value' => 200,
                     'source' => [
-                        'label' => 'Gonzalez Gimenez - Motocarro Taiga TL200ZH-3 2024',
+                        'label' => 'Gonzalez Gimenez',
                         'url' => 'https://www.gonzalezgimenez.com.py/producto/6974/motocarro-taiga-tl200zh-3-2024-stecho',
                     ],
                     'accessed' => '2026-09-30',
@@ -6567,7 +6487,7 @@ return [
                 'potencia' => [
                     'value' => '14 HP',
                     'source' => [
-                        'label' => 'Gonzalez Gimenez - Motocarro Taiga TL200ZH-3 2024',
+                        'label' => 'Gonzalez Gimenez',
                         'url' => 'https://www.gonzalezgimenez.com.py/producto/6974/motocarro-taiga-tl200zh-3-2024-stecho',
                     ],
                     'accessed' => '2026-09-30',
@@ -6575,7 +6495,7 @@ return [
                 'transmision' => [
                     'value' => '5 cambios con embrague y reversa, cardán',
                     'source' => [
-                        'label' => 'Gonzalez Gimenez - Motocarro Taiga TL200ZH-3 2024',
+                        'label' => 'Gonzalez Gimenez',
                         'url' => 'https://www.gonzalezgimenez.com.py/producto/6974/motocarro-taiga-tl200zh-3-2024-stecho',
                     ],
                     'accessed' => '2026-09-30',
@@ -6583,7 +6503,7 @@ return [
                 'arranque' => [
                     'value' => 'Eléctrico y a pedal',
                     'source' => [
-                        'label' => 'Gonzalez Gimenez - Motocarro Taiga TL200ZH-3 2024',
+                        'label' => 'Gonzalez Gimenez',
                         'url' => 'https://www.gonzalezgimenez.com.py/producto/6974/motocarro-taiga-tl200zh-3-2024-stecho',
                     ],
                     'accessed' => '2026-09-30',
@@ -6591,17 +6511,14 @@ return [
                 'motor' => [
                     'value' => 'OHV 200 CC 4 tiempos',
                     'source' => [
-                        'label' => 'Gonzalez Gimenez - Motocarro Taiga TL200ZH-3 2024',
+                        'label' => 'Gonzalez Gimenez',
                         'url' => 'https://www.gonzalezgimenez.com.py/producto/6974/motocarro-taiga-tl200zh-3-2024-stecho',
                     ],
                     'accessed' => '2026-09-30',
                 ],
                 'refrigeracion' => [
                     'value' => 'Aire',
-                    'source' => [
-                        'label' => 'Inverfin Triciclo Taiga TL200ZH-3 Techo',
-                        'url' => 'https://inverfin.com.py/products/99991627493312',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/99991627493312'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -6611,7 +6528,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Motocarro Taiga TL200ZH-3 2024 Negro C/Techo Metal',
+                        'label' => 'Gonzalez Gimenez',
                         'url' => 'https://www.gonzalezgimenez.com.py/producto/6973/motocarro-taiga-tl200zh-3-2024-negro-ctecho-metal',
                     ],
                     'accessed' => '2026-09-30',
@@ -6620,34 +6537,32 @@ return [
                     'value' => 16810000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Inverfin Triciclo Taiga TL200ZH-3 Techo (con techo)',
-                        'url' => 'https://inverfin.com.py/products/99991627493312',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/99991627493312'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => ['Con techo metal', 'Sin techo'],
             'sources' => [
                 [
-                    'label' => 'Gonzalez Gimenez - Motocarro Taiga TL200ZH-3 2024',
+                    'label' => 'Gonzalez Gimenez',
                     'url' => 'https://www.gonzalezgimenez.com.py/producto/6974/motocarro-taiga-tl200zh-3-2024-stecho',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Retailer evidence; capacidad de carga 500 kg',
+                    'note' => 'Gonzalez Gimenez - Motocarro Taiga TL200ZH-3 2024 — Retailer evidence; capacidad de carga 500 kg',
                 ],
                 [
-                    'label' => 'Inverfin - Triciclo de carga TL200ZH-3 2024',
+                    'label' => 'Inverfin',
                     'url' => 'https://inverfin.com.py/products/99991627493308',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Distributor listing (snippet price Gs. 16.318.000 contado, regular 19.900.000; not recorded as price due to ambiguity between listings)',
+                    'note' => 'Inverfin - Triciclo de carga TL200ZH-3 2024 — Distributor listing (snippet price Gs. 16.318.000 contado, regular 19.900.000; not recorded as price due to ambiguity between listings)',
                 ],
                 [
-                    'label' => 'Inverfin Triciclo Taiga TL200ZH-3 Techo',
+                    'label' => 'Inverfin',
                     'url' => 'https://inverfin.com.py/products/99991627493312',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
+                    'note' => 'Inverfin Triciclo Taiga TL200ZH-3 Techo',
                 ],
             ],
         ],
@@ -6659,82 +6574,52 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 223,
-                    'source' => [
-                        'label' => 'Inverfin - Rally 250',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '17,7 HP',
-                    'source' => [
-                        'label' => 'Inverfin - Rally 250',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => '6 cambios con embrague',
-                    'source' => [
-                        'label' => 'Inverfin - Rally 250',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => [
-                        'label' => 'Inverfin - Rally 250',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Disco',
-                    'source' => [
-                        'label' => 'Inverfin - Rally 250',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '14 LTS',
-                    'source' => [
-                        'label' => 'Inverfin - Rally 250',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '135 KG ± 5',
-                    'source' => [
-                        'label' => 'Inverfin - Rally 250',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => 'OHC 250 cc 4 tiempos',
-                    'source' => [
-                        'label' => 'Inverfin - Rally 250',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250'],
                     'accessed' => '2026-09-30',
                 ],
                 'refrigeracion' => [
                     'value' => 'Aire con radiador de aceite',
-                    'source' => [
-                        'label' => 'Inverfin - Rally 250',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250'],
                     'accessed' => '2026-09-30',
                 ],
                 'altura_asiento' => [
                     'value' => '835 MM',
-                    'source' => [
-                        'label' => 'Inverfin - Rally 250',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -6743,21 +6628,18 @@ return [
                     'value' => 12750000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Inverfin - Rally 250',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Inverfin - Rally 250',
+                    'label' => 'Inverfin',
                     'url' => 'https://inverfin.com.py/products/moto-taiga-rally-250',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Product page by Inverfin, Taiga\'s owner/distributor (Inverfin created Taiga per ABC Color) (snippet lists both \'250 cc\' and \'Cilindrada: 223 CC\'; 223 kept as published under Cilindrada)',
+                    'note' => 'Inverfin - Rally 250 — Product page by Inverfin, Taiga\'s owner/distributor (Inverfin created Taiga per ABC Color) (snippet lists both \'250 cc\' and \'Cilindrada: 223 CC\'; 223 kept as published under Cilindrada)',
                 ],
             ],
         ],
@@ -6769,74 +6651,47 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => [
-                        'label' => 'Inverfin - TL150 CR1',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '11 HP',
-                    'source' => [
-                        'label' => 'Inverfin - TL150 CR1',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => '5 velocidades manual con embrague',
-                    'source' => [
-                        'label' => 'Inverfin - TL150 CR1',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
                     'value' => 'Eléctrico y a pedal',
-                    'source' => [
-                        'label' => 'Inverfin - TL150 CR1',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => [
-                        'label' => 'Inverfin - TL150 CR1',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => [
-                        'label' => 'Inverfin - TL150 CR1',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
-                    'value' => '14 liters',
-                    'source' => [
-                        'label' => 'Inverfin - TL150 CR1',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024',
-                    ],
+                    'value' => '14 litros',
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => 'OHV 150 cc 4 tiempos',
-                    'source' => [
-                        'label' => 'Inverfin - TL150 CR1',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024'],
                     'accessed' => '2026-09-30',
                 ],
                 'refrigeracion' => [
                     'value' => 'Aire',
-                    'source' => [
-                        'label' => 'Inverfin - TL150 CR1',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -6844,11 +6699,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Inverfin - TL150 CR1',
+                    'label' => 'Inverfin',
                     'url' => 'https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Product page by Inverfin, Taiga\'s owner/distributor (Inverfin created Taiga per ABC Color) (price in snippet ambiguous: dropped)',
+                    'note' => 'Inverfin - TL150 CR1 — Product page by Inverfin, Taiga\'s owner/distributor (Inverfin created Taiga per ABC Color) (price in snippet ambiguous: dropped)',
                 ],
             ],
         ],
@@ -6861,7 +6716,7 @@ return [
                 'cc' => [
                     'value' => 200,
                     'source' => [
-                        'label' => 'Inverfin - TL200 Eclipse Pro Gen1',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1',
                     ],
                     'accessed' => '2026-09-30',
@@ -6869,7 +6724,7 @@ return [
                 'potencia' => [
                     'value' => '13,41 HP',
                     'source' => [
-                        'label' => 'Inverfin - TL200 Eclipse Pro Gen1',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1',
                     ],
                     'accessed' => '2026-09-30',
@@ -6877,7 +6732,7 @@ return [
                 'transmision' => [
                     'value' => '6 velocidades',
                     'source' => [
-                        'label' => 'Inverfin - TL200 Eclipse Pro Gen1',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1',
                     ],
                     'accessed' => '2026-09-30',
@@ -6885,7 +6740,7 @@ return [
                 'arranque' => [
                     'value' => 'Eléctrico y a pedal',
                     'source' => [
-                        'label' => 'Inverfin - TL200 Eclipse Pro Gen1',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1',
                     ],
                     'accessed' => '2026-09-30',
@@ -6893,7 +6748,7 @@ return [
                 'freno_del' => [
                     'value' => 'Disco',
                     'source' => [
-                        'label' => 'Inverfin - TL200 Eclipse Pro Gen1',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1',
                     ],
                     'accessed' => '2026-09-30',
@@ -6901,7 +6756,7 @@ return [
                 'freno_tras' => [
                     'value' => 'Tambor',
                     'source' => [
-                        'label' => 'Inverfin - TL200 Eclipse Pro Gen1',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1',
                     ],
                     'accessed' => '2026-09-30',
@@ -6909,7 +6764,7 @@ return [
                 'tanque' => [
                     'value' => '13 LTS',
                     'source' => [
-                        'label' => 'Inverfin - TL200 Eclipse Pro Gen1',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1',
                     ],
                     'accessed' => '2026-09-30',
@@ -6917,7 +6772,7 @@ return [
                 'motor' => [
                     'value' => 'OHV 200 CC 4 tiempos balanceado',
                     'source' => [
-                        'label' => 'Inverfin - TL200 Eclipse Pro Gen1',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1',
                     ],
                     'accessed' => '2026-09-30',
@@ -6925,7 +6780,7 @@ return [
                 'refrigeracion' => [
                     'value' => 'Aire',
                     'source' => [
-                        'label' => 'Inverfin - TL200 Eclipse Pro Gen1',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1',
                     ],
                     'accessed' => '2026-09-30',
@@ -6937,7 +6792,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Inverfin - TL200 Eclipse Pro Gen1',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1',
                     ],
                     'accessed' => '2026-09-30',
@@ -6946,11 +6801,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Inverfin - TL200 Eclipse Pro Gen1',
+                    'label' => 'Inverfin',
                     'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Product page by Inverfin, Taiga\'s owner/distributor (Inverfin created Taiga per ABC Color)',
+                    'note' => 'Inverfin - TL200 Eclipse Pro Gen1 — Product page by Inverfin, Taiga\'s owner/distributor (Inverfin created Taiga per ABC Color)',
                 ],
             ],
         ],
@@ -6962,74 +6817,47 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 200,
-                    'source' => [
-                        'label' => 'Inverfin - TL200 Rally',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '14 HP',
-                    'source' => [
-                        'label' => 'Inverfin - TL200 Rally',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => '5 cambios con embrague',
-                    'source' => [
-                        'label' => 'Inverfin - TL200 Rally',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
                     'value' => 'Eléctrico y a pedal',
-                    'source' => [
-                        'label' => 'Inverfin - TL200 Rally',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => [
-                        'label' => 'Inverfin - TL200 Rally',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Disco',
-                    'source' => [
-                        'label' => 'Inverfin - TL200 Rally',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '11 litros',
-                    'source' => [
-                        'label' => 'Inverfin - TL200 Rally',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => 'OHV 200 c.c.',
-                    'source' => [
-                        'label' => 'Inverfin - TL200 Rally',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024'],
                     'accessed' => '2026-09-30',
                 ],
                 'refrigeracion' => [
                     'value' => 'Aire',
-                    'source' => [
-                        'label' => 'Inverfin - TL200 Rally',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -7038,21 +6866,18 @@ return [
                     'value' => 11950000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Inverfin - TL200 Rally',
-                        'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024',
-                    ],
+                    'source' => ['label' => 'Inverfin', 'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Inverfin - TL200 Rally',
+                    'label' => 'Inverfin',
                     'url' => 'https://inverfin.com.py/products/moto-taiga-tl200-rally-2024',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Product page by Inverfin, Taiga\'s owner/distributor (Inverfin created Taiga per ABC Color)',
+                    'note' => 'Inverfin - TL200 Rally — Product page by Inverfin, Taiga\'s owner/distributor (Inverfin created Taiga per ABC Color)',
                 ],
             ],
         ],
@@ -7065,7 +6890,7 @@ return [
                 'cc' => [
                     'value' => 223,
                     'source' => [
-                        'label' => 'Inverfin - TL250 CR5 GT',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024',
                     ],
                     'accessed' => '2026-09-30',
@@ -7073,7 +6898,7 @@ return [
                 'potencia' => [
                     'value' => '17,7 HP',
                     'source' => [
-                        'label' => 'Inverfin - TL250 CR5 GT',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024',
                     ],
                     'accessed' => '2026-09-30',
@@ -7081,7 +6906,7 @@ return [
                 'transmision' => [
                     'value' => '6 velocidades',
                     'source' => [
-                        'label' => 'Inverfin - TL250 CR5 GT',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024',
                     ],
                     'accessed' => '2026-09-30',
@@ -7089,7 +6914,7 @@ return [
                 'arranque' => [
                     'value' => 'Eléctrico',
                     'source' => [
-                        'label' => 'Inverfin - TL250 CR5 GT',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024',
                     ],
                     'accessed' => '2026-09-30',
@@ -7097,7 +6922,7 @@ return [
                 'freno_del' => [
                     'value' => 'Disco',
                     'source' => [
-                        'label' => 'Inverfin - TL250 CR5 GT',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024',
                     ],
                     'accessed' => '2026-09-30',
@@ -7105,7 +6930,7 @@ return [
                 'freno_tras' => [
                     'value' => 'Disco',
                     'source' => [
-                        'label' => 'Inverfin - TL250 CR5 GT',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024',
                     ],
                     'accessed' => '2026-09-30',
@@ -7113,7 +6938,7 @@ return [
                 'tanque' => [
                     'value' => '12 litros',
                     'source' => [
-                        'label' => 'Inverfin - TL250 CR5 GT',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024',
                     ],
                     'accessed' => '2026-09-30',
@@ -7121,7 +6946,7 @@ return [
                 'motor' => [
                     'value' => 'OHC 250 cc 4 tiempos',
                     'source' => [
-                        'label' => 'Inverfin - TL250 CR5 GT',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024',
                     ],
                     'accessed' => '2026-09-30',
@@ -7129,7 +6954,7 @@ return [
                 'refrigeracion' => [
                     'value' => 'Aire con radiador de aceite',
                     'source' => [
-                        'label' => 'Inverfin - TL250 CR5 GT',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024',
                     ],
                     'accessed' => '2026-09-30',
@@ -7141,7 +6966,7 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => [
-                        'label' => 'Inverfin - TL250 CR5 GT',
+                        'label' => 'Inverfin',
                         'url' => 'https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024',
                     ],
                     'accessed' => '2026-09-30',
@@ -7150,29 +6975,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Inverfin - TL250 CR5 GT',
+                    'label' => 'Inverfin',
                     'url' => 'https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Product page by Inverfin, Taiga\'s owner/distributor (Inverfin created Taiga per ABC Color)',
-                ],
-            ],
-        ],
-        'leopard/hb-110-luxury' => [
-            'brand' => 'leopard',
-            'name' => 'HB 110 Luxury',
-            'slug' => 'hb-110-luxury',
-            'category' => 'cub',
-            'specs' => [],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Reimpex Leopard HB 110 Luxury',
-                    'url' => 'https://www.reimpex.com.py/leopard/4/hb-110-luxury',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'official distributor; specs not in snippet',
+                    'note' => 'Inverfin - TL250 CR5 GT — Product page by Inverfin, Taiga\'s owner/distributor (Inverfin created Taiga per ABC Color)',
                 ],
             ],
         ],
@@ -7184,90 +6991,57 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 125,
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB 125 Grand Tour',
-                        'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '7.8 CV',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB 125 Grand Tour',
-                        'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => '4 velocidades semiautomática, cadena',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB 125 Grand Tour',
-                        'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
                     'value' => 'Eléctrico/pedal',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB 125 Grand Tour',
-                        'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB 125 Grand Tour',
-                        'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB 125 Grand Tour',
-                        'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
-                    'value' => '3.5 liters',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB 125 Grand Tour',
-                        'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour',
-                    ],
+                    'value' => '3.5 litros',
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '98 kg',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB 125 Grand Tour',
-                        'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => '4 tiempos',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB 125 Grand Tour',
-                        'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour'],
                     'accessed' => '2026-09-30',
                 ],
                 'refrigeracion' => [
                     'value' => 'Aire',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB 125 Grand Tour',
-                        'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour'],
                     'accessed' => '2026-09-30',
                 ],
                 'alimentacion' => [
                     'value' => 'Carburador',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB 125 Grand Tour',
-                        'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -7275,11 +7049,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Reimpex - Leopard HB 125 Grand Tour',
+                    'label' => 'Reimpex',
                     'url' => 'https://www.reimpex.com.py/leopard/5/hb-125-grand-tour',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Reimpex (Leopard maker/distributor) model page',
+                    'note' => 'Reimpex - Leopard HB 125 Grand Tour — Reimpex (Leopard maker/distributor) model page',
                 ],
             ],
         ],
@@ -7291,90 +7065,57 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 110,
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB1 110',
-                        'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '6.5 HP',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB1 110',
-                        'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => '4 velocidades semiautomática, cadena',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB1 110',
-                        'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
                     'value' => 'Eléctrico/pedal',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB1 110',
-                        'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB1 110',
-                        'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'Tambor',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB1 110',
-                        'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
-                    'value' => '3.5 liters',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB1 110',
-                        'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110',
-                    ],
+                    'value' => '3.5 litros',
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '93 kg',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB1 110',
-                        'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => '4 tiempos',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB1 110',
-                        'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110'],
                     'accessed' => '2026-09-30',
                 ],
                 'refrigeracion' => [
                     'value' => 'Aire',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB1 110',
-                        'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110'],
                     'accessed' => '2026-09-30',
                 ],
                 'alimentacion' => [
                     'value' => 'Carburador',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HB1 110',
-                        'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -7382,11 +7123,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Reimpex - Leopard HB1 110',
+                    'label' => 'Reimpex',
                     'url' => 'https://www.reimpex.com.py/leopard/7/hb1-110',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Reimpex (Leopard maker/distributor) model page',
+                    'note' => 'Reimpex - Leopard HB1 110 — Reimpex (Leopard maker/distributor) model page',
                 ],
             ],
         ],
@@ -7398,17 +7139,17 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 125,
-                    'source' => ['label' => 'Reimpex Leopard HB1 125', 'url' => 'https://www.reimpex.com.py/leopard/12/hb1-125'],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/12/hb1-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => '4 tiempos',
-                    'source' => ['label' => 'Reimpex Leopard HB1 125', 'url' => 'https://www.reimpex.com.py/leopard/12/hb1-125'],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/12/hb1-125'],
                     'accessed' => '2026-09-30',
                 ],
                 'refrigeracion' => [
                     'value' => 'Aire',
-                    'source' => ['label' => 'Reimpex Leopard HB1 125', 'url' => 'https://www.reimpex.com.py/leopard/12/hb1-125'],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/12/hb1-125'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -7416,11 +7157,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Reimpex Leopard HB1 125',
+                    'label' => 'Reimpex',
                     'url' => 'https://www.reimpex.com.py/leopard/12/hb1-125',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'official distributor',
+                    'note' => 'Reimpex Leopard HB1 125 — official distributor',
                 ],
             ],
         ],
@@ -7432,66 +7173,42 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HT 150 BA',
-                        'url' => 'https://www.reimpex.com.py/leopard/8/ht-150-ba',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/8/ht-150-ba'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '10 HP',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HT 150 BA',
-                        'url' => 'https://www.reimpex.com.py/leopard/8/ht-150-ba',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/8/ht-150-ba'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => '5 velocidades, mecánico, cadena',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HT 150 BA',
-                        'url' => 'https://www.reimpex.com.py/leopard/8/ht-150-ba',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/8/ht-150-ba'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
                     'value' => 'Eléctrico/Pedal',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HT 150 BA',
-                        'url' => 'https://www.reimpex.com.py/leopard/8/ht-150-ba',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/8/ht-150-ba'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '12,6 L',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HT 150 BA',
-                        'url' => 'https://www.reimpex.com.py/leopard/8/ht-150-ba',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/8/ht-150-ba'],
                     'accessed' => '2026-09-30',
                 ],
                 'peso' => [
                     'value' => '120 kg',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HT 150 BA',
-                        'url' => 'https://www.reimpex.com.py/leopard/8/ht-150-ba',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/8/ht-150-ba'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => '4 tiempos',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HT 150 BA',
-                        'url' => 'https://www.reimpex.com.py/leopard/8/ht-150-ba',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/8/ht-150-ba'],
                     'accessed' => '2026-09-30',
                 ],
                 'refrigeracion' => [
                     'value' => 'Por aire',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HT 150 BA',
-                        'url' => 'https://www.reimpex.com.py/leopard/8/ht-150-ba',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/8/ht-150-ba'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -7499,11 +7216,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Reimpex - Leopard HT 150 BA',
+                    'label' => 'Reimpex',
                     'url' => 'https://www.reimpex.com.py/leopard/8/ht-150-ba',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Reimpex (Leopard maker/distributor) model page',
+                    'note' => 'Reimpex - Leopard HT 150 BA — Reimpex (Leopard maker/distributor) model page',
                 ],
             ],
         ],
@@ -7515,74 +7232,47 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 200,
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HT 200 BA',
-                        'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '11,4 HP',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HT 200 BA',
-                        'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => '5 cambios',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HT 200 BA',
-                        'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba'],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
                     'value' => 'Eléctrico',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HT 200 BA',
-                        'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_del' => [
                     'value' => 'Disco',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HT 200 BA',
-                        'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba'],
                     'accessed' => '2026-09-30',
                 ],
                 'freno_tras' => [
                     'value' => 'A tambor',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HT 200 BA',
-                        'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '10,6 Litros',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HT 200 BA',
-                        'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => '5 tiempos (as published)',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HT 200 BA',
-                        'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba'],
                     'accessed' => '2026-09-30',
                 ],
                 'refrigeracion' => [
                     'value' => 'Aire',
-                    'source' => [
-                        'label' => 'Reimpex - Leopard HT 200 BA',
-                        'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba',
-                    ],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -7590,11 +7280,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Reimpex - Leopard HT 200 BA',
+                    'label' => 'Reimpex',
                     'url' => 'https://www.reimpex.com.py/leopard/1/ht-200-ba',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Reimpex (Leopard maker/distributor) model page',
+                    'note' => 'Reimpex - Leopard HT 200 BA — Reimpex (Leopard maker/distributor) model page',
                 ],
             ],
         ],
@@ -7606,27 +7296,27 @@ return [
             'specs' => [
                 'cc' => [
                     'value' => 200,
-                    'source' => ['label' => 'Reimpex Leopard KH 200', 'url' => 'https://www.reimpex.com.py/leopard/9/kh-200'],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/9/kh-200'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
                     'value' => '13.8 HP',
-                    'source' => ['label' => 'Reimpex Leopard KH 200', 'url' => 'https://www.reimpex.com.py/leopard/9/kh-200'],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/9/kh-200'],
                     'accessed' => '2026-09-30',
                 ],
                 'transmision' => [
                     'value' => 'Manual 5 velocidades',
-                    'source' => ['label' => 'Reimpex Leopard KH 200', 'url' => 'https://www.reimpex.com.py/leopard/9/kh-200'],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/9/kh-200'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
                     'value' => '4 tiempos monocilíndrico',
-                    'source' => ['label' => 'Reimpex Leopard KH 200', 'url' => 'https://www.reimpex.com.py/leopard/9/kh-200'],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/9/kh-200'],
                     'accessed' => '2026-09-30',
                 ],
                 'refrigeracion' => [
                     'value' => 'Aire',
-                    'source' => ['label' => 'Reimpex Leopard KH 200', 'url' => 'https://www.reimpex.com.py/leopard/9/kh-200'],
+                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/9/kh-200'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -7634,11 +7324,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Reimpex Leopard KH 200',
+                    'label' => 'Reimpex',
                     'url' => 'https://www.reimpex.com.py/leopard/9/kh-200',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'official distributor',
+                    'note' => 'Reimpex Leopard KH 200 — official distributor',
                 ],
             ],
         ],
@@ -7650,12 +7340,12 @@ return [
             'specs' => [
                 'motor' => [
                     'value' => 'BOSCH 3.000 W, batería litio 60V/32Ah',
-                    'source' => ['label' => 'Quantum - TC Wanderer', 'url' => 'https://tuquantum.com.py/producto/tc/'],
+                    'source' => ['label' => 'Quantum Motors', 'url' => 'https://tuquantum.com.py/producto/tc/'],
                     'accessed' => '2026-09-30',
                 ],
                 'velocidad_max' => [
                     'value' => '75 km/h',
-                    'source' => ['label' => 'Quantum - TC Wanderer', 'url' => 'https://tuquantum.com.py/producto/tc/'],
+                    'source' => ['label' => 'Quantum Motors', 'url' => 'https://tuquantum.com.py/producto/tc/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -7664,18 +7354,18 @@ return [
                     'value' => 25500000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Quantum - TC Wanderer', 'url' => 'https://tuquantum.com.py/producto/tc/'],
+                    'source' => ['label' => 'Quantum Motors', 'url' => 'https://tuquantum.com.py/producto/tc/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Quantum - TC Wanderer',
+                    'label' => 'Quantum Motors',
                     'url' => 'https://tuquantum.com.py/producto/tc/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Quantum Paraguayan product page',
+                    'note' => 'Quantum - TC Wanderer — Quantum Paraguayan product page',
                 ],
             ],
         ],
@@ -7687,18 +7377,12 @@ return [
             'specs' => [
                 'motor' => [
                     'value' => '4.100 W, batería litio 60V/32Ah',
-                    'source' => [
-                        'label' => 'Quantum - TC Wanderer Pro',
-                        'url' => 'https://tuquantum.com.py/producto/tc-wanderer-pro/',
-                    ],
+                    'source' => ['label' => 'Quantum Motors', 'url' => 'https://tuquantum.com.py/producto/tc-wanderer-pro/'],
                     'accessed' => '2026-09-30',
                 ],
                 'velocidad_max' => [
                     'value' => '90 km/h',
-                    'source' => [
-                        'label' => 'Quantum - TC Wanderer Pro',
-                        'url' => 'https://tuquantum.com.py/producto/tc-wanderer-pro/',
-                    ],
+                    'source' => ['label' => 'Quantum Motors', 'url' => 'https://tuquantum.com.py/producto/tc-wanderer-pro/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -7707,21 +7391,18 @@ return [
                     'value' => 37000000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => [
-                        'label' => 'Quantum - TC Wanderer Pro',
-                        'url' => 'https://tuquantum.com.py/producto/tc-wanderer-pro/',
-                    ],
+                    'source' => ['label' => 'Quantum Motors', 'url' => 'https://tuquantum.com.py/producto/tc-wanderer-pro/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Quantum - TC Wanderer Pro',
+                    'label' => 'Quantum Motors',
                     'url' => 'https://tuquantum.com.py/producto/tc-wanderer-pro/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Quantum Paraguayan product page',
+                    'note' => 'Quantum - TC Wanderer Pro — Quantum Paraguayan product page',
                 ],
             ],
         ],
@@ -7733,7 +7414,7 @@ return [
             'specs' => [
                 'motor' => [
                     'value' => '1200 W, batería plomo-ácido 60V/20Ah',
-                    'source' => ['label' => 'Quantum - C-UMI', 'url' => 'https://tuquantum.com.py/producto/c-umi/'],
+                    'source' => ['label' => 'Quantum Motors', 'url' => 'https://tuquantum.com.py/producto/c-umi/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -7742,18 +7423,18 @@ return [
                     'value' => 7600000,
                     'currency' => 'PYG',
                     'condition' => '0km',
-                    'source' => ['label' => 'Quantum - C-UMI', 'url' => 'https://tuquantum.com.py/producto/c-umi/'],
+                    'source' => ['label' => 'Quantum Motors', 'url' => 'https://tuquantum.com.py/producto/c-umi/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'Quantum - C-UMI',
+                    'label' => 'Quantum Motors',
                     'url' => 'https://tuquantum.com.py/producto/c-umi/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Quantum Paraguayan product page',
+                    'note' => 'Quantum - C-UMI — Quantum Paraguayan product page',
                 ],
             ],
         ],

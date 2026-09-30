@@ -29,11 +29,54 @@ function slugify(string $s): string
     return trim($s, '-');
 }
 
+// A fact's label is rendered as "Publicado por {label}", so it is the publisher's name, derived from the host —
+// never the free-text label a research note carried (some held figures or English notes).
+// Visible distributor names, cleaned of the research notes some JSON names carried.
+const DISTRIBUTOR_NAMES = [
+    'honda' => 'DIESA S.A.', 'star' => 'Alex S.A.', 'yamaha' => 'Chacomer S.A.E.', 'suzuki' => 'Chacomer S.A.E.',
+    'bajaj' => 'Asunción Motor Sport S.A. (AMS)', 'tvs' => 'Chacomer S.A.E.', 'kenton' => 'Chacomer S.A.E.',
+    'bmw-motorrad' => 'Garden Automotores S.A.', 'cfmoto' => 'IMAG', 'triumph' => 'Mecauto S.A.', 'taiga' => 'Inverfin',
+    'leopard' => 'Reimpex', 'super-soco' => 'Quantum Motors', 'yadea' => 'Quantum Motors',
+    'royal-enfield' => 'Reimpex S.A.', 'ktm' => 'Asunción Motor Sport S.A. (AMS)', 'kawasaki' => 'Metalcar S.A.',
+    'benelli' => 'Inverfin', 'ducati' => 'IMAG S.R.L.', 'voge' => 'Voge Motos Paraguay',
+];
+
+const PUBLISHERS = [
+    'alex.com.py' => 'Alex S.A.', 'tupi.com.py' => 'Tupi', 'clasipar.paraguay.com' => 'Clasipar (aviso de DIESA S.A.)',
+    'hondamotos.com.py' => 'Honda Motos Paraguay', 'infonegocios.com.py' => 'InfoNegocios',
+    'inverfin.com.py' => 'Inverfin', 'kenton.com.py' => 'Kenton', 'lanortena.net.py' => 'La Norteña',
+    'mecauto.com.py' => 'Mecauto', 'paraguay.tvsmotor.com' => 'TVS Motor Paraguay', 'star.com.py' => 'Star',
+    'suzukimotos.com.py' => 'Suzuki Motos Paraguay', 'suzuki.com.py' => 'Suzuki Paraguay',
+    'tuquantum.com.py' => 'Quantum Motors', 'abc.com.py' => 'ABC Color', 'bmw-motorrad.com.py' => 'BMW Motorrad Paraguay',
+    'cfmoto.com.py' => 'CFMoto Paraguay', 'chacomer.com.py' => 'Chacomer', 'classicmotos.com.py' => 'Classic Motos',
+    'gonzalezgimenez.com.py' => 'Gonzalez Gimenez', 'hoy.com.py' => 'Diario HOY', 'lanacion.com.py' => 'La Nación',
+    'obedira.com.py' => 'Obedira', 'reimpex.com.py' => 'Reimpex', 'triumph-motorcycles.co' => 'Triumph Motorcycles',
+    'ultimahora.com' => 'Última Hora', 'yamaha-motor.com.py' => 'Yamaha Motor Paraguay', 'yamaha.com.py' => 'Yamaha Paraguay',
+    'ktm.com.py' => 'KTM Paraguay', 'paraguay.kawasaki-la.com' => 'Kawasaki Paraguay',
+    'harleyparaguay.com' => 'Harley-Davidson Paraguay', 'facebook.com' => 'Facebook', 'voge.com.py' => 'Voge Paraguay',
+    'royalenfieldpy.com' => 'Royal Enfield Paraguay', 'ducati.com.py' => 'Ducati Paraguay',
+];
+
+function publisher(string $url): ?string
+{
+    $host = preg_replace('/^www\./', '', (string) parse_url($url, PHP_URL_HOST));
+    foreach (PUBLISHERS as $h => $name) {
+        if ($host === $h || str_ends_with($host, '.' . $h)) {
+            return $name;
+        }
+    }
+    return null;
+}
+
 function src(array $s): ?array
 {
     $url = trim((string) ($s['url'] ?? ''));
-    $label = trim((string) ($s['label'] ?? ''));
-    if (!preg_match('~^https?://~', $url) || $label === '') {
+    if (!preg_match('~^https?://~', $url)) {
+        return null;
+    }
+    $label = publisher($url);
+    if ($label === null) {
+        fwrite(STDERR, "warn: no publisher name for $url\n");
         return null;
     }
     return ['label' => $label, 'url' => $url];
@@ -67,7 +110,7 @@ foreach ($files as $file) {
         }
         $marcas[$slug] = [
             'name' => (string) $b['name'],
-            'distributor' => ['name' => trim((string) $d['name']), 'source' => $source, 'accessed' => accessed($d)],
+            'distributor' => ['name' => DISTRIBUTOR_NAMES[$slug] ?? trim((string) $d['name']), 'source' => $source, 'accessed' => accessed($d)],
             'sortOrder' => $sortOrder[$slug] ?? $next++,
         ];
     }
@@ -94,7 +137,9 @@ foreach ($files as $file) {
                 $warnings[] = "spec $key.$k dropped: no source";
                 continue;
             }
-            $value = $k === 'cc' ? (int) $f['value'] : trim((string) $f['value']);
+            // Unit words only (English → Spanish); the figure itself is never touched.
+            $value = $k === 'cc' ? (int) $f['value']
+                : preg_replace(['/\\bliters?\\b/i', '/\\bElectrico\\b/'], ['litros', 'Eléctrico'], trim((string) $f['value']));
             $specs[$k] = ['value' => $value, 'source' => $s, 'accessed' => accessed($f)];
         }
         foreach (array_diff(array_keys($m['specs'] ?? []), $specKeys) as $k) {
@@ -118,6 +163,7 @@ foreach ($files as $file) {
             if ($s === null || accessed($x) === null) {
                 continue;
             }
+            $x['note'] = trim(($x['label'] ?? '') . (empty($x['note']) ? '' : ' — ' . $x['note']));
             $s['accessed'] = accessed($x);
             $s['method'] = ($x['method'] ?? '') === 'page' ? 'page' : 'snippet';
             if (!empty($x['note'])) {
@@ -161,10 +207,33 @@ foreach ($modelos as $key => $m) {
         unset($modelos[$key]);
     }
 }
+// PLAN R1: over 120 models, keep the 35 seed models plus those with price + specs; the rest waits in
+// docs/research/proxima-tanda.json ("próxima tanda" in docs/research/catalogo.md).
+$seeds = ['yamaha/xtz-125', 'yamaha/xtz-150', 'yamaha/xtz-250', 'yamaha/ybr-125z', 'yamaha/crypton', 'bajaj/boxer-150',
+    'bajaj/rouser-ns-200', 'bajaj/dominar-400', 'suzuki/v-strom-250', 'suzuki/v-strom-650', 'suzuki/v-strom-800',
+    'suzuki/v-strom-1050', 'suzuki/dr-650', 'suzuki/gixxer-150', 'tvs/raider-125', 'kenton/classic-125', 'kenton/gl-150',
+    'kenton/gl-150-pro', 'kenton/gtr-150', 'kenton/gtr-150-ltd', 'kenton/blitz-110', 'star/star-150', 'star/smx-150',
+    'honda/xr-150', 'honda/wave', 'honda/cg-110', 'honda/navi-110', 'honda/cb1-125', 'honda/xr-190',
+    'honda/xr-250-tornado', 'honda/crf-250f', 'honda/cb-500x', 'honda/rebel-500', 'honda/nx500', 'honda/x-adv-750'];
+$cap = 120;
+$score = fn (array $m): int => ($m['prices'] !== [] ? 100 : 0) + count($m['specs']);
+$rank = array_keys($modelos);
+usort($rank, fn ($a, $b) => [in_array($b, $seeds, true), $score($modelos[$b]), $a]
+    <=> [in_array($a, $seeds, true), $score($modelos[$a]), $b]);
+$deferred = [];
+foreach (array_slice($rank, $cap) as $key) {
+    $deferred[$key] = ['name' => $modelos[$key]['name'], 'category' => $modelos[$key]['category'],
+        'specs' => count($modelos[$key]['specs']), 'prices' => count($modelos[$key]['prices']),
+        'sources' => array_column($modelos[$key]['sources'], 'url')];
+    unset($modelos[$key]);
+}
+ksort($deferred);
+file_put_contents(__DIR__ . '/proxima-tanda.json',
+    json_encode($deferred, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . "\n");
 $withModels = array_unique(array_column($modelos, 'brand'));
 foreach (array_keys($marcas) as $slug) {
     if (!in_array($slug, $withModels, true)) {
-        $warnings[] = "brand $slug left out: distributor sourced but no model with Paraguayan evidence";
+        $warnings[] = "brand $slug left out: no model in this batch (see proxima-tanda.json)";
         unset($marcas[$slug]);
     }
 }

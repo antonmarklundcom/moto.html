@@ -94,20 +94,7 @@
    "slug": "xtz-250",
    "category": "enduro-cross",
    "specs": {},
-   "prices": [
-    {
-     "value": 39643695,
-     "currency": "PYG",
-     "condition": "0km",
-     "seller": "Chacomer S.A.E.",
-     "source": {
-      "label": "Chacomer - Motocicleta Enduro Yamaha XTZ 250",
-      "url": "https://www.chacomer.com.py/motocicleta-enduro-yamaha-xtz-250.html"
-     },
-     "accessed": "2026-09-30",
-     "method": "snippet"
-    }
-   ],
+   "prices": [],
    "versions": [],
    "sources": [
     {
@@ -1313,6 +1300,10 @@
   {
    "what": "yamaha/fz-25 price 27.170.000",
    "reason": "R1 curation: read from a yamaha.com.py listing page and identical to the Suzuki Gixxer 250 price — likely misattributed by the search summary"
+  },
+  {
+   "what": "yamaha/xtz-250 price 39.643.695",
+   "reason": "R1 curation: round 2 got a different chacomer figure on each run (39.226.950 / 40.258.890); none is reliable"
   }
  ],
  "queries": [
