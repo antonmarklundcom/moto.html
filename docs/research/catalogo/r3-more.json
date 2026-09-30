@@ -1,0 +1,990 @@
+{
+ "brands": [
+  {
+   "slug": "buler",
+   "name": "Buler",
+   "distributor": {
+    "name": "Britam S.A. (importer/assembler, San Lorenzo); sold through Bristol",
+    "source": {
+     "label": "Última Hora - Britam se abre camino incursionando en el rubro de motocicletas",
+     "url": "https://www.ultimahora.com/britam-se-abre-camino-incursionando-el-rubro-motocicletas-n3041524"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "Search summary ties Buler arrival in Paraguay to Britam SA (appliance importer; new motorcycle factory in San Lorenzo) per Última Hora and Infonegocios (https://infonegocios.com.py/infomotor/britam-acelera-en-el-mercado-de-las-motocicletas-habilito-nueva-fabrica-y-un-renovado-showroom). Retail via bristol.com.py/buler. Also listed at Bristol, unspecced here: Urban 125, VX 125, Cobra 150/200, Carrera 150/200/GT, Work 150, TRL 150/200, Faiter 200 VX3, Spider 250, Super Sport 200 VX3."
+  }
+ ],
+ "models": [
+  {
+   "brand": "buler",
+   "name": "Cub 110",
+   "slug": "cub-110",
+   "category": "cub",
+   "specs": {
+    "cc": {
+     "value": 110,
+     "source": {
+      "label": "Bristol - Buler Cub 110cc Rayos",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-cub-110cc-rayos-rojo_MBC110CCR_BS10486"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 5669000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Bristol",
+     "source": {
+      "label": "Bristol - Buler Cub 110cc Rayos Rojo",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-cub-110cc-rayos-rojo_MBC110CCR_BS10486"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [
+    "Rayos Rojo",
+    "Rayos Negro",
+    "Rayos Azul"
+   ],
+   "sources": [
+    {
+     "label": "Bristol - Moto Buler Cub 110cc Rayos",
+     "url": "https://www.bristol.com.py/catalogo/moto-buler-cub-110cc-rayos-rojo_MBC110CCR_BS10486",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Bristol (retailer) product page, price 5.669.000 confirmed in two searches"
+    }
+   ]
+  },
+  {
+   "brand": "buler",
+   "name": "Urban 110",
+   "slug": "urban-110",
+   "category": "cub",
+   "specs": {
+    "cc": {
+     "value": 110,
+     "source": {
+      "label": "Bristol - Buler Urban 110CC Rayos",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-urban-110cc-rayos-gris_PBURBAN110_BS3429018"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "90 kg",
+     "source": {
+      "label": "Bristol - Buler Urban 110CC Rayos",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-urban-110cc-rayos-gris_PBURBAN110_BS3429018"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "4 litros",
+     "source": {
+      "label": "Bristol - Buler Urban 110CC Rayos",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-urban-110cc-rayos-gris_PBURBAN110_BS3429018"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Semi automática",
+     "source": {
+      "label": "Bristol - Buler Urban 110CC Rayos",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-urban-110cc-rayos-gris_PBURBAN110_BS3429018"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico y a pedal",
+     "source": {
+      "label": "Bristol - Buler Urban 110CC Rayos",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-urban-110cc-rayos-gris_PBURBAN110_BS3429018"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Tambor",
+     "source": {
+      "label": "Bristol - Buler Urban 110CC Rayos",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-urban-110cc-rayos-gris_PBURBAN110_BS3429018"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Bristol - Buler Urban 110CC Rayos",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-urban-110cc-rayos-gris_PBURBAN110_BS3429018"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "versions": [
+    "Rayos Gris",
+    "Rayos Rojo",
+    "Rayos Negro"
+   ],
+   "sources": [
+    {
+     "label": "Bristol - Moto Buler Urban 110CC Rayos",
+     "url": "https://www.bristol.com.py/catalogo/moto-buler-urban-110cc-rayos-gris_PBURBAN110_BS3429018",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Bristol (retailer) product page, specs agreed in two searches; price not kept (conflicting 5.389.000 vs 8.070.000 across variants)"
+    }
+   ]
+  },
+  {
+   "brand": "buler",
+   "name": "VX Cub 110",
+   "slug": "vx-cub-110",
+   "category": "cub",
+   "specs": {
+    "cc": {
+     "value": 110,
+     "source": {
+      "label": "Bristol - Buler VX Cub 110cc Aleación",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-vx-cub-110cc-aleacion-negro_VXCUB110_BS11664"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 6089000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Bristol",
+     "source": {
+      "label": "Bristol - Buler VX Cub 110cc Aleación Negro",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-vx-cub-110cc-aleacion-negro_VXCUB110_BS11664"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [
+    "Aleación Negro"
+   ],
+   "sources": [
+    {
+     "label": "Bristol - Moto Buler VX Cub 110cc Aleación",
+     "url": "https://www.bristol.com.py/catalogo/moto-buler-vx-cub-110cc-aleacion-negro_VXCUB110_BS11664",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Bristol (retailer) product page, price 6.089.000 confirmed in two searches"
+    }
+   ]
+  },
+  {
+   "brand": "buler",
+   "name": "Cobra 125",
+   "slug": "cobra-125",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "Bristol - Buler Cobra 125cc Rayos",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-cobra-125cc-rayos-rojo_BS121303132_BS12131"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 5754000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Bristol",
+     "source": {
+      "label": "Bristol - Buler Cobra 125cc Rayos Rojo",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-cobra-125cc-rayos-rojo_BS121303132_BS12131"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [
+    "Rayos Rojo",
+    "Rayos Azul"
+   ],
+   "sources": [
+    {
+     "label": "Bristol - Moto Buler Cobra 125cc Rayos",
+     "url": "https://www.bristol.com.py/catalogo/moto-buler-cobra-125cc-rayos-rojo_BS121303132_BS12131",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Bristol (retailer) product page, price 5.754.000 confirmed in two searches"
+    }
+   ]
+  },
+  {
+   "brand": "buler",
+   "name": "Work 125",
+   "slug": "work-125",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "Bristol - Buler Work 125cc Rayos",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-work-125cc-rayos-negro_WORK125CC_BS39955"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 5989000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Bristol",
+     "source": {
+      "label": "Bristol - Buler Work 125cc Rayos Negro",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-work-125cc-rayos-negro_WORK125CC_BS39955"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [
+    "Rayos Negro"
+   ],
+   "sources": [
+    {
+     "label": "Bristol - Moto Buler Work 125cc Rayos",
+     "url": "https://www.bristol.com.py/catalogo/moto-buler-work-125cc-rayos-negro_WORK125CC_BS39955",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Bristol (retailer) product page, described as work/load motorcycle; price 5.989.000 confirmed in two searches"
+    }
+   ]
+  },
+  {
+   "brand": "buler",
+   "name": "Faiter SE 150",
+   "slug": "faiter-se-150",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "Bristol - Buler Faiter SE 150cc",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-faiter-se-150cc-aleacion-negro_FAISE150CC_BS39958"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Bristol - Buler Faiter SE 150cc",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-faiter-se-150cc-aleacion-negro_FAISE150CC_BS39958"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Monocilíndrico 4 tiempos con balanceador de cigüeñal",
+     "source": {
+      "label": "Bristol - Buler Faiter SE 150cc",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-faiter-se-150cc-aleacion-negro_FAISE150CC_BS39958"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 7299000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Bristol",
+     "source": {
+      "label": "Bristol - Buler Faiter SE 150cc Aleación Negro",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-faiter-se-150cc-aleacion-negro_FAISE150CC_BS39958"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [
+    "Aleación Negro"
+   ],
+   "sources": [
+    {
+     "label": "Bristol - Moto Buler Faiter SE 150cc Aleación",
+     "url": "https://www.bristol.com.py/catalogo/moto-buler-faiter-se-150cc-aleacion-negro_FAISE150CC_BS39958",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Bristol (retailer) product page, price 7.299.000 confirmed in two searches"
+    }
+   ]
+  },
+  {
+   "brand": "buler",
+   "name": "Rally 250",
+   "slug": "rally-250",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 250,
+     "source": {
+      "label": "Bristol - Buler Rally 250cc Rayos",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-rally-250cc-rayos-naranja_RALLY250CC_BS3030974"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "13 L",
+     "source": {
+      "label": "Bristol - Buler Rally 250cc Rayos",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-rally-250cc-rayos-naranja_RALLY250CC_BS3030974"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Bristol - Buler Rally 250cc Rayos",
+      "url": "https://www.bristol.com.py/catalogo/moto-buler-rally-250cc-rayos-naranja_RALLY250CC_BS3030974"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "versions": [
+    "Rayos Naranja",
+    "250cc Naranja",
+    "250cc Rojo",
+    "Rayos V4 2026 Naranja"
+   ],
+   "sources": [
+    {
+     "label": "Bristol - Moto Buler Rally 250cc Rayos",
+     "url": "https://www.bristol.com.py/catalogo/moto-buler-rally-250cc-rayos-naranja_RALLY250CC_BS3030974",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Bristol (retailer) product page, tank 13 L and disc brakes agreed in two searches; price not kept (15.399.000 vs 12.749.000 for different listings)"
+    },
+    {
+     "label": "Bristol - Moto Buler Rally 250cc Naranja",
+     "url": "https://www.bristol.com.py/catalogo/moto-buler-rally-250cc-naranja_RALLYVX250GY_BS3462240",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "second Bristol listing, same 13 L tank/disc brakes"
+    }
+   ]
+  },
+  {
+   "brand": "royal-enfield",
+   "slug": "classic-350",
+   "name": "Classic 350",
+   "category": "custom-chopper",
+   "specs": {
+    "potencia": {
+     "value": "14.87 kW @ 6100 RPM",
+     "source": {
+      "label": "Royal Enfield Paraguay - Classic 350",
+      "url": "https://royalenfieldpy.com/motos/classic-350/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Royal Enfield Paraguay - Classic 350",
+     "url": "https://royalenfieldpy.com/motos/classic-350/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official/distributor page via search summary"
+    }
+   ],
+   "notes": "also 20.2 CV @ 6100 in a second search; both consistent"
+  },
+  {
+   "brand": "royal-enfield",
+   "slug": "meteor-350",
+   "name": "Meteor 350",
+   "category": "custom-chopper",
+   "specs": {
+    "cc": {
+     "value": 349,
+     "source": {
+      "label": "Royal Enfield Paraguay - Meteor 350",
+      "url": "https://royalenfieldpy.com/motos/meteor-350/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "SOHC, carrera larga",
+     "source": {
+      "label": "Royal Enfield Paraguay - Meteor 350",
+      "url": "https://royalenfieldpy.com/motos/meteor-350/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire y aceite",
+     "source": {
+      "label": "Royal Enfield Paraguay - Meteor 350",
+      "url": "https://royalenfieldpy.com/motos/meteor-350/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Inyección electrónica",
+     "source": {
+      "label": "Royal Enfield Paraguay - Meteor 350",
+      "url": "https://royalenfieldpy.com/motos/meteor-350/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Royal Enfield Paraguay - Meteor 350",
+     "url": "https://royalenfieldpy.com/motos/meteor-350/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official/distributor page via search summary"
+    }
+   ]
+  },
+  {
+   "brand": "royal-enfield",
+   "slug": "bear-650",
+   "name": "Bear 650",
+   "category": "naked",
+   "specs": {
+    "potencia": {
+     "value": "47 bhp (34,6 kW) a 7250 rpm",
+     "source": {
+      "label": "Royal Enfield Paraguay - Bear 650",
+      "url": "https://royalenfieldpy.com/motos/bear-650/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "torque": {
+     "value": "56,5 Nm a 5150 rpm",
+     "source": {
+      "label": "Royal Enfield Paraguay - Bear 650",
+      "url": "https://royalenfieldpy.com/motos/bear-650/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire y aceite",
+     "source": {
+      "label": "Royal Enfield Paraguay - Bear 650",
+      "url": "https://royalenfieldpy.com/motos/bear-650/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Royal Enfield Paraguay - Bear 650",
+     "url": "https://royalenfieldpy.com/motos/bear-650/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official/distributor page via search summary"
+    }
+   ]
+  },
+  {
+   "brand": "voge",
+   "slug": "ds-900x",
+   "name": "DS 900X",
+   "category": "touring",
+   "specs": {
+    "cc": {
+     "value": 895,
+     "source": {
+      "label": "VOGE Paraguay - DS 900X",
+      "url": "https://voge.com.py/motos/ds-900x/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "96.5 hp",
+     "source": {
+      "label": "VOGE Paraguay - DS 900X",
+      "url": "https://voge.com.py/motos/ds-900x/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "torque": {
+     "value": "95 Nm",
+     "source": {
+      "label": "VOGE Paraguay - DS 900X",
+      "url": "https://voge.com.py/motos/ds-900x/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "VOGE Paraguay - DS 900X",
+     "url": "https://voge.com.py/motos/ds-900x/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official/distributor page via search summary"
+    }
+   ]
+  },
+  {
+   "brand": "triumph",
+   "slug": "scrambler-400x",
+   "name": "Scrambler 400 X",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 398,
+     "source": {
+      "label": "Mecauto - Scrambler 400 X",
+      "url": "https://mecauto.com.py/triumph/scrambler400x/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "40 hp",
+     "source": {
+      "label": "Mecauto - Scrambler 400 X",
+      "url": "https://mecauto.com.py/triumph/scrambler400x/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "torque": {
+     "value": "37.5 Nm",
+     "source": {
+      "label": "Mecauto - Scrambler 400 X",
+      "url": "https://mecauto.com.py/triumph/scrambler400x/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "6 velocidades",
+     "source": {
+      "label": "Mecauto - Scrambler 400 X",
+      "url": "https://mecauto.com.py/triumph/scrambler400x/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Monocilíndrico DOHC 4 tiempos",
+     "source": {
+      "label": "Mecauto - Scrambler 400 X",
+      "url": "https://mecauto.com.py/triumph/scrambler400x/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Mecauto - Scrambler 400 X",
+     "url": "https://mecauto.com.py/triumph/scrambler400x/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official/distributor page via search summary"
+    }
+   ],
+   "notes": "displacement quoted as 398.15 cc"
+  },
+  {
+   "brand": "kawasaki",
+   "slug": "ninja-zx-4r",
+   "name": "Ninja ZX-4R",
+   "category": "deportiva",
+   "specs": {
+    "transmision": {
+     "value": "6 velocidades",
+     "source": {
+      "label": "Kawasaki Paraguay - Ninja ZX-4R ABS",
+      "url": "https://paraguay.kawasaki-la.com/es-la/motocicleta/ninja/supersport/ninja-zx-4r"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Líquida",
+     "source": {
+      "label": "Kawasaki Paraguay - Ninja ZX-4R ABS",
+      "url": "https://paraguay.kawasaki-la.com/es-la/motocicleta/ninja/supersport/ninja-zx-4r"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Kawasaki Paraguay - Ninja ZX-4R ABS",
+     "url": "https://paraguay.kawasaki-la.com/es-la/motocicleta/ninja/supersport/ninja-zx-4r",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official/distributor page via search summary"
+    }
+   ]
+  },
+  {
+   "brand": "honda",
+   "slug": "cb350-hness",
+   "name": "CB350 H'ness",
+   "category": "custom-chopper",
+   "specs": {
+    "cc": {
+     "value": 348,
+     "source": {
+      "label": "Honda Paraguay - H'Ness CB350",
+      "url": "https://hondamotos.com.py/productos/HNess-CB350/54"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "20.8 CV",
+     "source": {
+      "label": "Honda Paraguay - H'Ness CB350",
+      "url": "https://hondamotos.com.py/productos/HNess-CB350/54"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "torque": {
+     "value": "30 Nm",
+     "source": {
+      "label": "Honda Paraguay - H'Ness CB350",
+      "url": "https://hondamotos.com.py/productos/HNess-CB350/54"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Honda Paraguay - H'Ness CB350",
+     "url": "https://hondamotos.com.py/productos/HNess-CB350/54",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official/distributor page via search summary"
+    }
+   ],
+   "notes": "displacement quoted as 348.36 cc"
+  },
+  {
+   "brand": "star",
+   "slug": "xrm-150",
+   "name": "XRM 150",
+   "category": "cub",
+   "specs": {
+    "potencia": {
+     "value": "11,56 HP a 8000 RPM",
+     "source": {
+      "label": "Star - XRM 150",
+      "url": "https://star.com.py/producto/XRM150-CKD/xrm-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "torque": {
+     "value": "9,5 Nm a 6000 RPM",
+     "source": {
+      "label": "Star - XRM 150",
+      "url": "https://star.com.py/producto/XRM150-CKD/xrm-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "5 marchas / manual",
+     "source": {
+      "label": "Star - XRM 150",
+      "url": "https://star.com.py/producto/XRM150-CKD/xrm-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "4 tiempos, monocilíndrico, varilla",
+     "source": {
+      "label": "Star - XRM 150",
+      "url": "https://star.com.py/producto/XRM150-CKD/xrm-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Star - XRM 150",
+      "url": "https://star.com.py/producto/XRM150-CKD/xrm-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Star - XRM 150",
+     "url": "https://star.com.py/producto/XRM150-CKD/xrm-150",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official/distributor page via search summary"
+    }
+   ]
+  },
+  {
+   "brand": "star",
+   "slug": "a1-110",
+   "name": "A1 110",
+   "category": "scooter",
+   "specs": {
+    "potencia": {
+     "value": "6,39 HP a 7500 RPM",
+     "source": {
+      "label": "Star - Motoneta A1 110cc",
+      "url": "https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "torque": {
+     "value": "7 Nm a 5000 RPM",
+     "source": {
+      "label": "Star - Motoneta A1 110cc",
+      "url": "https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "3,5 litros",
+     "source": {
+      "label": "Star - Motoneta A1 110cc",
+      "url": "https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "4 marchas secuencial semiautomática",
+     "source": {
+      "label": "Star - Motoneta A1 110cc",
+      "url": "https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico / pedal",
+     "source": {
+      "label": "Star - Motoneta A1 110cc",
+      "url": "https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Star - Motoneta A1 110cc",
+      "url": "https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Star - Motoneta A1 110cc",
+     "url": "https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official/distributor page via search summary"
+    }
+   ],
+   "notes": "note: category per existing seed (scooter); source describes semi-automatic 4-speed"
+  },
+  {
+   "brand": "star",
+   "slug": "star-200",
+   "name": "Star 200",
+   "category": "naked",
+   "specs": {
+    "potencia": {
+     "value": "13,6 HP a 8000 RPM",
+     "source": {
+      "label": "Star - Star 200",
+      "url": "https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "torque": {
+     "value": "13 Nm a 6500 RPM",
+     "source": {
+      "label": "Star - Star 200",
+      "url": "https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "5 marchas / manual",
+     "source": {
+      "label": "Star - Star 200",
+      "url": "https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "12 litros",
+     "source": {
+      "label": "Star - Star 200",
+      "url": "https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico / pedal",
+     "source": {
+      "label": "Star - Star 200",
+      "url": "https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Star - Star 200",
+      "url": "https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Star - Star 200",
+     "url": "https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official/distributor page via search summary"
+    }
+   ],
+   "notes": "brakes dropped: two searches disagreed (disc/drum vs disc/disc)"
+  },
+  {
+   "brand": "star",
+   "slug": "new-desert-200",
+   "name": "New Desert 200",
+   "category": "enduro-cross",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "Star - New Desert 200",
+     "url": "https://star.com.py/producto/SK200-BR-CKD/new-desert-200cc",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official/distributor page via search summary"
+    }
+   ],
+   "notes": "single search, figures identical to Star 200 engine"
+  }
+ ],
+ "rejected": [
+  {
+   "what": "Buler prices for Urban 110, Rally 250, TRL 150, Spider 250, Cobra 150, Urban 125",
+   "reason": "Only one search or conflicting figures between runs"
+  },
+  {
+   "what": "Buler specs beyond those kept (Rally 16 HP, TRL 12 L, etc.)",
+   "reason": "single-run figures"
+  },
+  {
+   "what": "Royal Enfield 650 (Shotgun, Super Meteor), Himalayan 450 specs/prices; Classic 350 torque/cc",
+   "reason": "summaries gave no model-tied figures or attributed them to sibling models; no Gs prices published in results"
+  },
+  {
+   "what": "Voge 300 DS, 300 Rally, DS 525X, 625 DSX, DS800X Rally",
+   "reason": "summaries returned no specs or prices"
+  },
+  {
+   "what": "Triumph Trident 660, Tiger 900",
+   "reason": "no figures in results; Tiger 900 figures were for Rally Pro/Aragon variants only"
+  },
+  {
+   "what": "Honda CB190R, CB 300 F Twister, XR 300 Tornado, Africa Twin, Transalp",
+   "reason": "no model-tied figures; XR 300 result (293.5 cc DOHC) looked like another model, dropped"
+  },
+  {
+   "what": "Star XPRO 200 specs/prices",
+   "reason": "figures were attributed to Star 200 not XPRO; brakes conflicting"
+  },
+  {
+   "what": "Star 200 price Gs 9.500.000, New Desert 200 ~Gs 5.400.000",
+   "reason": "summary not tied to exact model/URL"
+  },
+  {
+   "what": "Kawasaki ZX-4R tank/weight/torque/price",
+   "reason": "not in results"
+  },
+  {
+   "what": "star/new-desert-200 specs",
+   "reason": "R1 curation: single search, figures identical to Star 200 — attribution not proven"
+  }
+ ],
+ "queries": [
+  "(see transcript) ~45 WebSearch queries with allowed_domains restricted to bristol.com.py, reimpex.com.py, royalenfieldpy.com, voge.com.py, mecauto.com.py, paraguay.kawasaki-la.com, star.com.py/alex.com.py/classicmotos.com.py, hondamotos.com.py and PY press; WebFetch royalenfieldpy.com returned EGRESS_BLOCKED"
+ ]
+}

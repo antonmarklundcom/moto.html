@@ -1,0 +1,452 @@
+{
+    "benelli/752s": {
+        "name": "752S",
+        "category": "naked",
+        "specs": 2,
+        "prices": 0,
+        "sources": [
+            "https://inverfin.com.py/collections/benelli",
+            "https://inverfin.com.py/products/moto-benelli-752s-2023"
+        ]
+    },
+    "bmw-motorrad/g-310-r": {
+        "name": "G 310 R",
+        "category": "naked",
+        "specs": 4,
+        "prices": 0,
+        "sources": [
+            "https://infonegocios.com.py/infomotor/bmw-motorrad-paraguay-presento-la-nueva-g-310-r-la-mas-joven-de-la-familia",
+            "https://www.bmw-motorrad.com.py/es/models/roadster/g310r/technicaldata.html"
+        ]
+    },
+    "bmw-motorrad/r-1300-gs": {
+        "name": "R 1300 GS",
+        "category": "touring",
+        "specs": 3,
+        "prices": 0,
+        "sources": [
+            "https://www.abc.com.py/empresariales/2024/03/26/la-nueva-y-potente-bmw-r-1300-gs-ya-esta-en-paraguay/",
+            "https://www.bmw-motorrad.com.py/es/models/adventure/r1300gs.html"
+        ]
+    },
+    "buler/rally-250": {
+        "name": "Rally 250",
+        "category": "enduro-cross",
+        "specs": 3,
+        "prices": 0,
+        "sources": [
+            "https://www.bristol.com.py/catalogo/moto-buler-rally-250cc-rayos-naranja_RALLY250CC_BS3030974",
+            "https://www.bristol.com.py/catalogo/moto-buler-rally-250cc-naranja_RALLYVX250GY_BS3462240"
+        ]
+    },
+    "cfmoto/450mt": {
+        "name": "450MT",
+        "category": "touring",
+        "specs": 3,
+        "prices": 0,
+        "sources": [
+            "https://www.cfmoto.com.py/producto.php?prod=450mt",
+            "https://www.classicmotos.com.py/producto/mt450/"
+        ]
+    },
+    "ducati/desertx": {
+        "name": "DesertX",
+        "category": "touring",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://infonegocios.com.py/conosur/ducati-acelera-en-paraguay-imag-registra-un-centenar-de-motocicletas-vendidas-desde-el-2020",
+            "https://ducati.com.py/productos/desert-x-52.html"
+        ]
+    },
+    "ducati/multistrada": {
+        "name": "Multistrada",
+        "category": "touring",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://infonegocios.com.py/conosur/ducati-acelera-en-paraguay-imag-registra-un-centenar-de-motocicletas-vendidas-desde-el-2020",
+            "https://ducati.com.py/noticias/nueva-multistrada-v4-16.html"
+        ]
+    },
+    "ducati/scrambler": {
+        "name": "Scrambler",
+        "category": "naked",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://infonegocios.com.py/conosur/ducati-acelera-en-paraguay-imag-registra-un-centenar-de-motocicletas-vendidas-desde-el-2020",
+            "https://ducati.com.py/productos/scrambler-ducati-8.html"
+        ]
+    },
+    "honda/africa-twin": {
+        "name": "Africa Twin",
+        "category": "touring",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://www.abc.com.py/empresariales/2026/04/18/honda-presenta-la-africa-twin-2026-con-diseno-iconico/",
+            "https://hondamotos.com.py/productos/Africa-Twin-Adventure/2"
+        ]
+    },
+    "honda/cb-300f-twister": {
+        "name": "CB 300F Twister",
+        "category": "naked",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://hondamotos.com.py/productos/CB-300-F-TWISTER/52"
+        ]
+    },
+    "honda/cb190r": {
+        "name": "CB190R",
+        "category": "naked",
+        "specs": 1,
+        "prices": 0,
+        "sources": [
+            "https://hondamotos.com.py/uploads/products/31.pdf",
+            "https://www.abc.com.py/empresariales/2025/03/15/diesa-presento-las-nuevas-motos-honda-nx190-y-cb190r-20/"
+        ]
+    },
+    "honda/cb350-hness": {
+        "name": "CB350 H'Ness",
+        "category": "custom-chopper",
+        "specs": 3,
+        "prices": 0,
+        "sources": [
+            "https://www.lanacion.com.py/negocios_edicion_impresa/2024/05/22/diesa-presento-a-la-honda-xl-750-transalp-y-a-la-cb-350-hness/",
+            "https://hondamotos.com.py/productos/HNess-CB350/54"
+        ]
+    },
+    "honda/msx125-grom": {
+        "name": "MSX125 Grom",
+        "category": "naked",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://hondamotos.com.py/productos/CB190R/35"
+        ]
+    },
+    "honda/nc750x": {
+        "name": "NC750X",
+        "category": "touring",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://hondamotos.com.py/productos/CB500X/5"
+        ]
+    },
+    "honda/trx-250": {
+        "name": "TRX 250 4x2",
+        "category": "cuatriciclo",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://hondamotos.com.py/productos/TRX-250-4X2-MANUAL/45"
+        ]
+    },
+    "honda/xl-750-transalp": {
+        "name": "XL 750 Transalp",
+        "category": "touring",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://www.lanacion.com.py/negocios_edicion_impresa/2024/05/22/diesa-presento-a-la-honda-xl-750-transalp-y-a-la-cb-350-hness/"
+        ]
+    },
+    "honda/xr-300-tornado": {
+        "name": "XR 300 Tornado",
+        "category": "enduro-cross",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://www.classicmotos.com.py/producto/xr-300-tornado/"
+        ]
+    },
+    "honda/xr-650l": {
+        "name": "XR 650L",
+        "category": "enduro-cross",
+        "specs": 4,
+        "prices": 0,
+        "sources": [
+            "https://www.classicmotos.com.py/producto/xr-650l/"
+        ]
+    },
+    "kawasaki/ninja-zx-4r": {
+        "name": "Ninja ZX-4R",
+        "category": "deportiva",
+        "specs": 4,
+        "prices": 0,
+        "sources": [
+            "https://paraguay.kawasaki-la.com/es-la/motocicleta/ninja/supersport/ninja-zx-4r"
+        ]
+    },
+    "kenton/bravo-150": {
+        "name": "Bravo 150",
+        "category": "scooter",
+        "specs": 3,
+        "prices": 0,
+        "sources": [
+            "https://kenton.com.py/moto/bravo-150/"
+        ]
+    },
+    "kenton/elegance": {
+        "name": "Elegance",
+        "category": "scooter",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://www.chacomer.com.py/motocicleta-scooter-kenton-elegance.html"
+        ]
+    },
+    "kenton/joy-110": {
+        "name": "Joy 110",
+        "category": "cub",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://www.tupi.com.py/producto/MKP053172/MOTO-KENTON-JOY-110-ROJO-"
+        ]
+    },
+    "kenton/spark-125": {
+        "name": "Spark 125",
+        "category": "scooter",
+        "specs": 1,
+        "prices": 0,
+        "sources": [
+            "https://kenton.com.py/moto/spark-125/"
+        ]
+    },
+    "ktm/790-adventure": {
+        "name": "790 Adventure",
+        "category": "touring",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://infonegocios.com.py/infomotor/1-de-las-10-nuevas-ktm-790-adventure-del-mundo-se-encuentra-disponible-en-paraguay"
+        ]
+    },
+    "leopard/hb-110-luxury": {
+        "name": "HB 110 Luxury",
+        "category": "cub",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://www.reimpex.com.py/leopard/4/hb-110-luxury"
+        ]
+    },
+    "leopard/hb1-125": {
+        "name": "HB1 125",
+        "category": "cub",
+        "specs": 3,
+        "prices": 0,
+        "sources": [
+            "https://www.reimpex.com.py/leopard/12/hb1-125"
+        ]
+    },
+    "royal-enfield/bear-650": {
+        "name": "Bear 650",
+        "category": "naked",
+        "specs": 3,
+        "prices": 0,
+        "sources": [
+            "https://royalenfieldpy.com/motos/",
+            "https://royalenfieldpy.com/motos/bear-650/"
+        ]
+    },
+    "royal-enfield/classic-350": {
+        "name": "Classic 350",
+        "category": "custom-chopper",
+        "specs": 1,
+        "prices": 0,
+        "sources": [
+            "https://royalenfieldpy.com/motos/",
+            "https://royalenfieldpy.com/motos/classic-350/",
+            "https://reimpex.com.py/reimpex/producto/109/classic-350-gun-grey"
+        ]
+    },
+    "royal-enfield/himalayan-450": {
+        "name": "Himalayan 450",
+        "category": "touring",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://royalenfieldpy.com/motos/",
+            "https://www.reimpex.com.py/reimpex/producto/122/himalayan-450-hanle-black"
+        ]
+    },
+    "royal-enfield/meteor-350": {
+        "name": "Meteor 350",
+        "category": "custom-chopper",
+        "specs": 4,
+        "prices": 0,
+        "sources": [
+            "https://royalenfieldpy.com/motos/",
+            "https://royalenfieldpy.com/motos/meteor-350/"
+        ]
+    },
+    "royal-enfield/shotgun-650": {
+        "name": "Shotgun 650",
+        "category": "custom-chopper",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://royalenfieldpy.com/motos/"
+        ]
+    },
+    "royal-enfield/super-meteor-650": {
+        "name": "Super Meteor 650",
+        "category": "custom-chopper",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://royalenfieldpy.com/motos/"
+        ]
+    },
+    "star/new-desert-200": {
+        "name": "New Desert 200",
+        "category": "enduro-cross",
+        "specs": 1,
+        "prices": 0,
+        "sources": [
+            "https://star.com.py/producto/SK200-BR-CKD/new-desert-200cc"
+        ]
+    },
+    "star/super-carga-200": {
+        "name": "Super Carga 200",
+        "category": "motocarro-carga",
+        "specs": 4,
+        "prices": 0,
+        "sources": [
+            "https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga",
+            "https://www.alex.com.py/producto/240/motocarga"
+        ]
+    },
+    "star/tr-5-150": {
+        "name": "TR-5 150",
+        "category": "naked",
+        "specs": 3,
+        "prices": 0,
+        "sources": [
+            "https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc"
+        ]
+    },
+    "star/xpro-150": {
+        "name": "XPro 150",
+        "category": "naked",
+        "specs": 3,
+        "prices": 0,
+        "sources": [
+            "https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc"
+        ]
+    },
+    "star/xpro-200": {
+        "name": "XPro 200",
+        "category": "naked",
+        "specs": 1,
+        "prices": 0,
+        "sources": [
+            "https://star.com.py/producto/XPRO200-R-CKD/xpro-200cc"
+        ]
+    },
+    "triumph/speed-twin": {
+        "name": "Speed Twin",
+        "category": "naked",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://www.mecauto.com.py/triumph/speedtwinn/"
+        ]
+    },
+    "triumph/tiger-1200": {
+        "name": "Tiger 1200",
+        "category": "touring",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://www.mecauto.com.py/triumph/tiger1200/"
+        ]
+    },
+    "triumph/tiger-900": {
+        "name": "Tiger 900",
+        "category": "touring",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://www.mecauto.com.py/triumph/tiger900/"
+        ]
+    },
+    "triumph/trident-660": {
+        "name": "Trident 660",
+        "category": "naked",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://www.mecauto.com.py/triumph/trident660/"
+        ]
+    },
+    "voge/300-ds": {
+        "name": "300 DS",
+        "category": "enduro-cross",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://voge.com.py/motos/300-ds/"
+        ]
+    },
+    "voge/300-rally": {
+        "name": "300 Rally",
+        "category": "enduro-cross",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://voge.com.py/motos/300-rally/"
+        ]
+    },
+    "voge/625-dsx": {
+        "name": "625 DSX",
+        "category": "touring",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://voge.com.py/motos/625-dsx/"
+        ]
+    },
+    "voge/ds-525x": {
+        "name": "DS 525X",
+        "category": "touring",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://voge.com.py/motos/ds-525x/"
+        ]
+    },
+    "voge/ds-900x": {
+        "name": "DS 900X",
+        "category": "touring",
+        "specs": 3,
+        "prices": 0,
+        "sources": [
+            "https://voge.com.py/motos/ds-900x/"
+        ]
+    },
+    "voge/ds800x-rally": {
+        "name": "DS800X Rally",
+        "category": "touring",
+        "specs": 0,
+        "prices": 0,
+        "sources": [
+            "https://voge.com.py/motos/ds800x-rally/"
+        ]
+    },
+    "yamaha/fz-25": {
+        "name": "FZ-25",
+        "category": "naked",
+        "specs": 4,
+        "prices": 0,
+        "sources": [
+            "https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html",
+            "https://yamaha.com.py/motos/?orderby=price-desc&product_count=36"
+        ]
+    }
+}

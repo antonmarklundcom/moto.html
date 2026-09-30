@@ -1,0 +1,188 @@
+{
+ "brands": [],
+ "models": [
+  {
+   "brand": "honda",
+   "slug": "navi-110",
+   "name": "Navi 110",
+   "category": "scooter",
+   "specs": {
+    "cc": {
+     "value": 109,
+     "source": {
+      "label": "Infonegocios - La Navi, una motocicleta de gama media pensada para los jóvenes",
+      "url": "https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "7.92 HP",
+     "source": {
+      "label": "Infonegocios - La Navi, una motocicleta de gama media pensada para los jóvenes",
+      "url": "https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico",
+     "source": {
+      "label": "Infonegocios - La Navi, una motocicleta de gama media pensada para los jóvenes",
+      "url": "https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Automática",
+     "source": {
+      "label": "Infonegocios - La Navi, una motocicleta de gama media pensada para los jóvenes",
+      "url": "https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "99 kg",
+     "source": {
+      "label": "Infonegocios - La Navi, una motocicleta de gama media pensada para los jóvenes",
+      "url": "https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "velocidad_max": {
+     "value": "80 km/h",
+     "source": {
+      "label": "Infonegocios - La Navi, una motocicleta de gama media pensada para los jóvenes",
+      "url": "https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Tambor",
+     "source": {
+      "label": "Infonegocios - La Navi, una motocicleta de gama media pensada para los jóvenes",
+      "url": "https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Infonegocios - La Navi, una motocicleta de gama media pensada para los jóvenes",
+      "url": "https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "12 pulgadas",
+     "source": {
+      "label": "Infonegocios - La Navi, una motocicleta de gama media pensada para los jóvenes",
+      "url": "https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_tras": {
+     "value": "10 pulgadas",
+     "source": {
+      "label": "Infonegocios - La Navi, una motocicleta de gama media pensada para los jóvenes",
+      "url": "https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Infonegocios - La Navi, una motocicleta de gama media pensada para los jóvenes",
+     "url": "https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Press article (Diesa/Honda Paraguay, Navi launch); two searches agree on specs. Cylinder 109,19 cm3."
+    }
+   ],
+   "notes": "Same article prints US$ 1.560 as the Navi price; it is press, not a seller page, so not recorded as a price. Sold out 104 units after launch."
+  },
+  {
+   "brand": "yamaha",
+   "slug": "xtz-250",
+   "name": "XTZ 250",
+   "category": "enduro-cross",
+   "specs": {},
+   "prices": [
+    {
+     "value": 39226950,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Chacomer S.A.E. (distribuidor oficial Yamaha)",
+     "source": {
+      "label": "Chacomer - Motocicleta enduro Yamaha XTZ 250",
+      "url": "https://www.chacomer.com.py/motocicleta-enduro-yamaha-xtz-250.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Chacomer - Motocicleta enduro Yamaha XTZ 250",
+     "url": "https://www.chacomer.com.py/motocicleta-enduro-yamaha-xtz-250.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Three searches return the same minimum cash price Gs. 39.226.950 (page shows a range up to ~51-52M by version/promo); price is the page's minimum."
+    }
+   ]
+  }
+ ],
+ "rejected": [
+  {
+   "what": "yamaha xtz-250 specs (249,45 cc, 20,7 hp, 11 L, torque 2,09 kgf.m)",
+   "reason": "Summary did not tie figures to one yamaha-motor.com.py URL (xtz-250 / xtz-250-lander / xtz250-tenere all listed); second query did not reproduce them"
+  },
+  {
+   "what": "honda rebel-500 471 cc parallel twin DOHC liquid-cooled; nx500 same",
+   "reason": "Summary did not tie figures to one URL; not reproduced with hondamotos-only query"
+  },
+  {
+   "what": "honda x-adv-750 745 cc",
+   "reason": "Single query, not reproduced; cc/transmision already exist"
+  },
+  {
+   "what": "cb-500x, cg-110, crf-250f, dominar-400, rouser-ns-200 specs/prices",
+   "reason": "Searches returned only page titles or unrelated results; hondamotos.com.py and bajaj pages not fetchable (EGRESS_BLOCKED)"
+  },
+  {
+   "what": "navi-110 price US$1.560",
+   "reason": "Press figure, not seller page"
+  }
+ ],
+ "queries": [
+  "Honda NX500 precio Paraguay hondamotos.com.py",
+  "Honda Navi 110 classicmotos precio especificaciones",
+  "Bajaj Dominar 400 Paraguay precio ficha técnica",
+  "Yamaha XTZ 250 Paraguay precio",
+  "MOTOCICLETA ENDURO YAMAHA XTZ 250 chacomer precio contado",
+  "Yamaha XTZ 250 cilindrada potencia tanque yamaha-motor.com.py",
+  "xtz-250 Yamaha Motor Paraguay motor 249,45 cc torque",
+  "Yamaha XTZ 250 precio Gs contado enduro inyección electrónica",
+  "Honda CG 110 Paraguay precio",
+  "Honda CRF 250F Paraguay precio cilindrada",
+  "Honda X-ADV 750 Paraguay motor 745 cc potencia",
+  "Honda Rebel 500 Paraguay Diesa precio motor 471 cc",
+  "Bajaj Rouser NS 200 Paraguay precio",
+  "Honda CB500X NX500 Diesa lanzamiento Paraguay",
+  "X-ADV 750 hondamotos 745 cc",
+  "Rebel 500 hondamotos 471 cc",
+  "La Navi infonegocios specs x3",
+  "NX500 hondamotos 471 cc",
+  "Bajaj Dominar 400 Paraguay AMS 373 cc",
+  "Honda CB500X Paraguay Diesa 471 cc potencia"
+ ]
+}

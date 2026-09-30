@@ -1,0 +1,950 @@
+{
+ "brands": [
+  {
+   "slug": "bajaj",
+   "name": "Bajaj",
+   "distributor": {
+    "name": "Asunción Motor Sport S.A. (AMS, Grupo JBB)",
+    "source": {
+     "label": "La Nación - Bajaj llegó al Paraguay",
+     "url": "https://www.lanacion.com.py/negocios_edicion_impresa/2019/01/12/bajaj-llego-al-paraguay-y-busca-ser-lider-en-el-segmento-de-motos/"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "Exclusive distributor; showroom Av. Madame Lynch 631."
+  },
+  {
+   "slug": "tvs",
+   "name": "TVS",
+   "distributor": {
+    "name": "Chacomer",
+    "source": {
+     "label": "TVS Motor Paraguay (paraguay.tvsmotor.com) / Chacomer contact",
+     "url": "https://paraguay.tvsmotor.com/en/"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "Also sold by Tupi S.A. (retailer)."
+  },
+  {
+   "slug": "royal-enfield",
+   "name": "Royal Enfield",
+   "distributor": {
+    "name": "Reimpex S.A.",
+    "source": {
+     "label": "Royal Enfield Paraguay / Reimpex",
+     "url": "https://reimpex.com.py/reimpex/marca/7/royal-enfield"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": ""
+  },
+  {
+   "slug": "ktm",
+   "name": "KTM",
+   "distributor": {
+    "name": "AMS S.A. (Asunción Motor Sport)",
+    "source": {
+     "label": "KTM Paraguay",
+     "url": "http://ktm.com.py/"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "No 0 km model page/price found; only used classifieds, so no models included."
+  },
+  {
+   "slug": "kawasaki",
+   "name": "Kawasaki",
+   "distributor": {
+    "name": "Metalcar S.A.",
+    "source": {
+     "label": "Kawasaki Paraguay",
+     "url": "https://paraguay.kawasaki-la.com/es-la/"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "Brand site has Ninja lineup page but no model-level data retrieved."
+  },
+  {
+   "slug": "bmw-motorrad",
+   "name": "BMW Motorrad",
+   "distributor": {
+    "name": "Garden Automotores S.A.",
+    "source": {
+     "label": "La Nación - BMW Motorrad Paraguay lanzó la nueva G 310 GS",
+     "url": "https://www.lanacion.com.py/negocios_edicion_impresa/2018/03/26/bmw-motorrad-paraguay-lanzo-la-nueva-g-310-gs/"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": ""
+  },
+  {
+   "slug": "harley-davidson",
+   "name": "Harley-Davidson",
+   "distributor": {
+    "name": "Harley-Davidson Paraguay (concesionario oficial, Av. San Martín 735)",
+    "source": {
+     "label": "Harley Davidson en Paraguay",
+     "url": "https://www.harleyparaguay.com/"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "Distributor legal name not confirmed; no model evidence collected."
+  },
+  {
+   "slug": "benelli",
+   "name": "Benelli",
+   "distributor": {
+    "name": "Inverfin",
+    "source": {
+     "label": "Diario HOY - Benelli llega a Paraguay de la mano de Inverfin",
+     "url": "https://www.hoy.com.py/negocios/marca-italiana-de-motos-benelli-llega-a-paraguay-de-la-mano-de-inverfin/amp"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": ""
+  },
+  {
+   "slug": "cfmoto",
+   "name": "CFMoto",
+   "distributor": {
+    "name": "IMAG",
+    "source": {
+     "label": "CFMOTO Paraguay",
+     "url": "https://www.cfmoto.com.py/motos.php"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": ""
+  },
+  {
+   "slug": "ducati",
+   "name": "Ducati",
+   "distributor": {
+    "name": "IMAG S.R.L.",
+    "source": {
+     "label": "Infonegocios - Ducati acelera en Paraguay",
+     "url": "https://infonegocios.com.py/conosur/ducati-acelera-en-paraguay-imag-registra-un-centenar-de-motocicletas-vendidas-desde-el-2020"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": ""
+  },
+  {
+   "slug": "zontes",
+   "name": "Zontes",
+   "distributor": {
+    "name": "Zontes Motos (official representative, Av. de la Victoria 1778)",
+    "source": {
+     "label": "Zontes Motos Paraguay",
+     "url": "https://www.facebook.com/p/Zontes-Motos-Paraguay-100094651153559/"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "No model evidence collected."
+  },
+  {
+   "slug": "voge",
+   "name": "Voge",
+   "distributor": {
+    "name": "Voge Motos Paraguay",
+    "source": {
+     "label": "VOGE - Paraguay",
+     "url": "https://voge.com.py/"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "No model evidence collected."
+  },
+  {
+   "slug": "triumph",
+   "name": "Triumph",
+   "distributor": {
+    "name": "Martin Arrellaga Mecauto Chapas y Pinturas S.A. (Mecauto)",
+    "source": {
+     "label": "Triumph Motorcycles Paraguay hub",
+     "url": "https://www.triumph-motorcycles.co/triumph-hub-page/paraguay"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "No model evidence collected."
+  }
+ ],
+ "models": [
+  {
+   "brand": "bajaj",
+   "name": "Boxer 150",
+   "slug": "boxer-150",
+   "category": "naked",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "La Nación - Moto Boxer 150 ya está disponible en el mercado",
+     "url": "https://www.lanacion.com.py/negocios_edicion_impresa/2019/06/15/moto-boxer-150-ya-esta-disponible-en-el-mercado/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official distributor AMS; colours red/blue/white/black; warranty 20,000 km / 12 months. Price is 2019-era, cuota from Gs. 299.000 not a price."
+    },
+    {
+     "label": "Infonegocios - AMS apunta a vender 1.000 Boxer 150",
+     "url": "https://infonegocios.com.py/infomotor/este-ano-ams-apunta-a-vender-1-000-unidades-de-la-boxer-150-su-modelo-mas-rentable",
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "cuotas": "Financed by AMS from Gs. 299.000 per installment (La Nación 2019).",
+   "notes": "Described as durable work bike (utilitaria). No Paraguayan spec sheet retrieved."
+  },
+  {
+   "brand": "bajaj",
+   "name": "Rouser NS 200",
+   "slug": "rouser-ns-200",
+   "category": "naked",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "La Nación - Bajaj llegó al Paraguay",
+     "url": "https://www.lanacion.com.py/negocios_edicion_impresa/2019/01/12/bajaj-llego-al-paraguay-y-busca-ser-lider-en-el-segmento-de-motos/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Launch models: Dominar, Rouser NS 200, Boxer. Price US$ 2,999 is 2019 launch, likely stale."
+    }
+   ],
+   "notes": "No Paraguayan spec sheet retrieved; Argentine specs deliberately excluded."
+  },
+  {
+   "brand": "bajaj",
+   "name": "Dominar 400",
+   "slug": "dominar-400",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "La Nación - Bajaj llegó al Paraguay",
+     "url": "https://www.lanacion.com.py/negocios_edicion_impresa/2019/01/12/bajaj-llego-al-paraguay-y-busca-ser-lider-en-el-segmento-de-motos/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Dominar named as launch model; US$ 4.575 historical launch price."
+    }
+   ],
+   "notes": "Category is a judgement (sport-touring); no Paraguayan spec page retrieved."
+  },
+  {
+   "brand": "tvs",
+   "name": "Raider 125",
+   "slug": "raider-125",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "Chacomer - Motocicleta rutera TVS Raider 125",
+      "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "12.73 HP",
+     "source": {
+      "label": "Chacomer - Motocicleta rutera TVS Raider 125",
+      "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Mecánico 5 velocidades",
+     "source": {
+      "label": "Chacomer - Motocicleta rutera TVS Raider 125",
+      "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Chacomer - Motocicleta rutera TVS Raider 125",
+      "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco 240 mm, pinza flotante 2 émbolos",
+     "source": {
+      "label": "Chacomer - Motocicleta rutera TVS Raider 125",
+      "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor 130 SYNCRO SBT",
+     "source": {
+      "label": "Chacomer - Motocicleta rutera TVS Raider 125",
+      "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "10 L",
+     "source": {
+      "label": "Chacomer - Motocicleta rutera TVS Raider 125",
+      "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "altura_asiento": {
+     "value": "781 mm",
+     "source": {
+      "label": "Chacomer - Motocicleta rutera TVS Raider 125",
+      "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 12375000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Tupi S.A. (cash)",
+     "source": {
+      "label": "TUPI - Moto TVS Raider 125 Azul",
+      "url": "https://www.tupi.com.py/producto/MKP051982/MOTO-TVS-RAIDER-125-AZUL-"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    {
+     "value": 12484968,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Chacomer ('valor mínimo')",
+     "source": {
+      "label": "Chacomer - Motocicleta rutera TVS Raider 125",
+      "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [
+    "Azul",
+    "Negro",
+    "Amarillo"
+   ],
+   "sources": [
+    {
+     "label": "TVS Motor Paraguay - Raider 125",
+     "url": "https://paraguay.tvsmotor.com/en/p/our-products/tvs-raider-py",
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    {
+     "label": "Chacomer - Motocicleta rutera TVS Raider 125",
+     "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-raider-125.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Chacomer = TVS distributor; spec values differ between sources (Chacomer snippet says carburetor; Tupi says EFI) - alimentacion omitted."
+    },
+    {
+     "label": "Tupi - Moto TVS Raider 125 Azul",
+     "url": "https://www.tupi.com.py/producto/MKP051982/MOTO-TVS-RAIDER-125-AZUL-",
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "cuotas": "paraguay.tvsmotor.com showed 465,000 Gs (promo; regular 498,000 Gs) - amount not clearly a cash price, treated as installment, not recorded as price.",
+   "notes": "Specs from Paraguayan Chacomer page; snippet states 'rutera'."
+  },
+  {
+   "brand": "tvs",
+   "name": "Apache RTR 160 2V",
+   "slug": "apache-rtr-160-2v",
+   "category": "naked",
+   "specs": {},
+   "prices": [
+    {
+     "value": 14111000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Chacomer ('valor mínimo')",
+     "source": {
+      "label": "Chacomer - TVS moto category",
+      "url": "https://www.chacomer.com.py/catalog/category/view/s/tvs/id/760/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Chacomer - TVS moto category",
+     "url": "https://www.chacomer.com.py/catalog/category/view/s/tvs/id/760/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Chacomer is TVS distributor. Category judgement (no PY description retrieved)."
+    },
+    {
+     "label": "TVS Motor Paraguay - Apache RTR 160 2V Refresh",
+     "url": "https://paraguay.tvsmotor.com/en/p/our-products/apache-rtr-160-2v-refresh-py",
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ]
+  },
+  {
+   "brand": "tvs",
+   "name": "HLX 150",
+   "slug": "hlx-150",
+   "category": "naked",
+   "specs": {},
+   "prices": [
+    {
+     "value": 9402000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Chacomer ('valor mínimo')",
+     "source": {
+      "label": "Chacomer - TVS moto category",
+      "url": "https://www.chacomer.com.py/catalog/category/view/s/tvs/id/760/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Chacomer - TVS moto category",
+     "url": "https://www.chacomer.com.py/catalog/category/view/s/tvs/id/760/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Chacomer is TVS distributor. Sold as 'rutera'."
+    }
+   ]
+  },
+  {
+   "brand": "tvs",
+   "name": "HLX 150 F",
+   "slug": "hlx-150-f",
+   "category": "naked",
+   "specs": {},
+   "prices": [
+    {
+     "value": 10077000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Chacomer ('valor mínimo')",
+     "source": {
+      "label": "Chacomer - Motocicleta rutera TVS HLX 150 F",
+      "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-hlx-150-f.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Chacomer - Motocicleta rutera TVS HLX 150 F",
+     "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-hlx-150-f.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Chacomer is TVS distributor. Titled 'rutera'."
+    }
+   ]
+  },
+  {
+   "brand": "tvs",
+   "name": "Stryker 125",
+   "slug": "stryker-125",
+   "category": "naked",
+   "specs": {},
+   "prices": [
+    {
+     "value": 10349000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Chacomer ('valor mínimo')",
+     "source": {
+      "label": "Chacomer - TVS moto category",
+      "url": "https://www.chacomer.com.py/catalog/category/view/s/tvs/id/760/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Chacomer - TVS moto category",
+     "url": "https://www.chacomer.com.py/catalog/category/view/s/tvs/id/760/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Chacomer is TVS distributor. Category uncertain."
+    }
+   ]
+  },
+  {
+   "brand": "tvs",
+   "name": "Neo NX 110",
+   "slug": "neo-nx-110",
+   "category": "cub",
+   "specs": {},
+   "prices": [
+    {
+     "value": 7555000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Chacomer ('valor mínimo')",
+     "source": {
+      "label": "Chacomer - Motocicleta cub/motoneta TVS Neo NX 110",
+      "url": "https://www.chacomer.com.py/motocicleta-cub-motoneta-tvs-neo-nx-110.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Chacomer - Motocicleta cub/motoneta TVS Neo NX 110",
+     "url": "https://www.chacomer.com.py/motocicleta-cub-motoneta-tvs-neo-nx-110.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Chacomer is TVS distributor. Titled 'cub/motoneta'."
+    },
+    {
+     "label": "Tupi - Moto TVS Neo NX 110 Negro",
+     "url": "https://www.tupi.com.py/producto/MKP052189/MOTO-TVS-NEO-NX-110-NEGRO-",
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ]
+  },
+  {
+   "brand": "tvs",
+   "name": "Ronin 225",
+   "slug": "ronin-225",
+   "category": "naked",
+   "specs": {},
+   "prices": [
+    {
+     "value": 26203000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Chacomer ('valor mínimo')",
+     "source": {
+      "label": "Chacomer - TVS moto category",
+      "url": "https://www.chacomer.com.py/catalog/category/view/s/tvs/id/760/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Chacomer - TVS moto category",
+     "url": "https://www.chacomer.com.py/catalog/category/view/s/tvs/id/760/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Chacomer is TVS distributor. Neo-retro."
+    },
+    {
+     "label": "Tupi - Moto TVS Ronin 225 Nimbus Gris",
+     "url": "https://www.tupi.com.py/producto/MKP052232/MOTO-TVS-RONIN-225-NIMBUS-GRIS-",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Described as neo-retro"
+    }
+   ]
+  },
+  {
+   "brand": "royal-enfield",
+   "name": "Classic 350",
+   "slug": "classic-350",
+   "category": "custom-chopper",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Royal Enfield Paraguay - catálogo de motos",
+     "url": "https://royalenfieldpy.com/motos/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Listed in official PY catalogue per search result; Reimpex is distributor. Category is judgement."
+    },
+    {
+     "label": "Royal Enfield Paraguay - Classic 350",
+     "url": "https://royalenfieldpy.com/motos/classic-350/",
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ]
+  },
+  {
+   "brand": "royal-enfield",
+   "name": "Meteor 350",
+   "slug": "meteor-350",
+   "category": "custom-chopper",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Royal Enfield Paraguay - catálogo de motos",
+     "url": "https://royalenfieldpy.com/motos/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Listed in official PY catalogue per search result; Reimpex is distributor. Category is judgement."
+    }
+   ]
+  },
+  {
+   "brand": "royal-enfield",
+   "name": "Himalayan 450",
+   "slug": "himalayan-450",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Royal Enfield Paraguay - catálogo de motos",
+     "url": "https://royalenfieldpy.com/motos/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Listed in official PY catalogue per search result; Reimpex is distributor. Category is judgement."
+    }
+   ]
+  },
+  {
+   "brand": "royal-enfield",
+   "name": "Bear 650",
+   "slug": "bear-650",
+   "category": "naked",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Royal Enfield Paraguay - catálogo de motos",
+     "url": "https://royalenfieldpy.com/motos/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Listed in official PY catalogue per search result; Reimpex is distributor. Category is judgement."
+    }
+   ]
+  },
+  {
+   "brand": "royal-enfield",
+   "name": "Shotgun 650",
+   "slug": "shotgun-650",
+   "category": "custom-chopper",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Royal Enfield Paraguay - catálogo de motos",
+     "url": "https://royalenfieldpy.com/motos/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Listed in official PY catalogue per search result; Reimpex is distributor. Category is judgement."
+    }
+   ]
+  },
+  {
+   "brand": "royal-enfield",
+   "name": "Super Meteor 650",
+   "slug": "super-meteor-650",
+   "category": "custom-chopper",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Royal Enfield Paraguay - catálogo de motos",
+     "url": "https://royalenfieldpy.com/motos/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Listed in official PY catalogue per search result; Reimpex is distributor. Category is judgement."
+    }
+   ]
+  },
+  {
+   "brand": "bmw-motorrad",
+   "name": "R 1300 GS",
+   "slug": "r-1300-gs",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "ABC Color - La nueva BMW R 1300 GS ya está en Paraguay",
+     "url": "https://www.abc.com.py/empresariales/2024/03/26/la-nueva-y-potente-bmw-r-1300-gs-ya-esta-en-paraguay/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Press article naming model as launched in Paraguay."
+    }
+   ],
+   "notes": "A snippet listed USD starting prices for GS range but its URL was ambiguous (possibly Argentine site), so no price recorded."
+  },
+  {
+   "brand": "bmw-motorrad",
+   "name": "G 310 GS",
+   "slug": "g-310-gs",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "La Nación - BMW Motorrad Paraguay lanzó la nueva G 310 GS",
+     "url": "https://www.lanacion.com.py/negocios_edicion_impresa/2018/03/26/bmw-motorrad-paraguay-lanzo-la-nueva-g-310-gs/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Press article naming model as launched in Paraguay."
+    }
+   ],
+   "notes": "A snippet listed USD starting prices for GS range but its URL was ambiguous (possibly Argentine site), so no price recorded."
+  },
+  {
+   "brand": "bmw-motorrad",
+   "name": "G 310 R",
+   "slug": "g-310-r",
+   "category": "naked",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Infonegocios - BMW Motorrad Paraguay presentó la nueva G 310 R",
+     "url": "https://infonegocios.com.py/infomotor/bmw-motorrad-paraguay-presento-la-nueva-g-310-r-la-mas-joven-de-la-familia",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Press article naming model as launched in Paraguay."
+    }
+   ],
+   "notes": "A snippet listed USD starting prices for GS range but its URL was ambiguous (possibly Argentine site), so no price recorded."
+  },
+  {
+   "brand": "cfmoto",
+   "name": "450MT",
+   "slug": "450mt",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "CFMOTO Paraguay - 450MT",
+     "url": "https://www.cfmoto.com.py/producto.php?prod=450mt",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Brand PY site product page."
+    }
+   ]
+  },
+  {
+   "brand": "ducati",
+   "name": "Multistrada",
+   "slug": "multistrada",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Infonegocios - Ducati acelera en Paraguay",
+     "url": "https://infonegocios.com.py/conosur/ducati-acelera-en-paraguay-imag-registra-un-centenar-de-motocicletas-vendidas-desde-el-2020",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Names Multistrada, Scrambler, Desert X as popular in Paraguay; family names, exact variants unknown."
+    }
+   ]
+  },
+  {
+   "brand": "ducati",
+   "name": "Scrambler",
+   "slug": "scrambler",
+   "category": "naked",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Infonegocios - Ducati acelera en Paraguay",
+     "url": "https://infonegocios.com.py/conosur/ducati-acelera-en-paraguay-imag-registra-un-centenar-de-motocicletas-vendidas-desde-el-2020",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Names Multistrada, Scrambler, Desert X as popular in Paraguay; family names, exact variants unknown."
+    }
+   ]
+  },
+  {
+   "brand": "ducati",
+   "name": "DesertX",
+   "slug": "desertx",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Infonegocios - Ducati acelera en Paraguay",
+     "url": "https://infonegocios.com.py/conosur/ducati-acelera-en-paraguay-imag-registra-un-centenar-de-motocicletas-vendidas-desde-el-2020",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Names Multistrada, Scrambler, Desert X as popular in Paraguay; family names, exact variants unknown."
+    }
+   ]
+  },
+  {
+   "brand": "benelli",
+   "name": "752S",
+   "slug": "752s",
+   "category": "naked",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Inverfin - Motos Benelli",
+     "url": "https://inverfin.com.py/collections/benelli",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor collection lists 752S (plus TNT and Leoncino lines, not itemised)."
+    }
+   ]
+  }
+ ],
+ "rejected": [
+  {
+   "what": "Bajaj Pulsar NS 125/160/200, N160, Dominar 250, Platina, RE motocarro",
+   "reason": "No Paraguayan product page/press found; only Argentine/Peruvian/Colombian/Ecuadorian pages and a Scribd catalog of unclear origin."
+  },
+  {
+   "what": "TVS Ntorq, Apache Sport",
+   "reason": "Not found on Chacomer/Tupi/paraguay.tvsmotor.com results."
+  },
+  {
+   "what": "TVS Apache RTR 160 2V specs",
+   "reason": "Only Indian/Nepali spec pages; left out."
+  },
+  {
+   "what": "Bajaj seed specs (Boxer/Rouser/Dominar)",
+   "reason": "Only Argentine/other-country spec sources found; omitted per rule."
+  },
+  {
+   "what": "KTM models",
+   "reason": "Distributor AMS confirmed but only used-bike classifieds found for models."
+  },
+  {
+   "what": "Kawasaki models",
+   "reason": "Distributor Metalcar confirmed; no model-level data retrieved."
+  },
+  {
+   "what": "Zontes, Voge, Triumph, Harley-Davidson models",
+   "reason": "Brand/distributor confirmed, no model evidence retrieved in time."
+  },
+  {
+   "what": "Husqvarna",
+   "reason": "No Paraguayan distributor found (only one used Vitpilen classified)."
+  },
+  {
+   "what": "Keeway",
+   "reason": "No official Paraguayan distributor found."
+  },
+  {
+   "what": "Hero",
+   "reason": "No Paraguayan distributor or evidence found."
+  },
+  {
+   "what": "Haojue",
+   "reason": "Only retailers (Motos Genesis, Classic Motos) found, no official distributor designation."
+  },
+  {
+   "what": "Motomel, Zanella, Gilera, Corven, Mondial, Italika",
+   "reason": "Only Argentine results; no Paraguayan distributor found."
+  },
+  {
+   "what": "bajaj/boxer-150 prices",
+   "reason": "R1 curation: 2019 launch prices from La Nación — not a current published price; accessed date would present them as fresh (D6)"
+  },
+  {
+   "what": "bajaj/rouser-ns-200 prices",
+   "reason": "R1 curation: 2019 launch prices from La Nación — not a current published price; accessed date would present them as fresh (D6)"
+  },
+  {
+   "what": "bajaj/dominar-400 prices",
+   "reason": "R1 curation: 2019 launch prices from La Nación — not a current published price; accessed date would present them as fresh (D6)"
+  }
+ ],
+ "queries": [
+  "Asunción Motor Sport Bajaj Paraguay Pulsar N160 precio",
+  "Bajaj Boxer 150 Paraguay precio Gs. AMS Asunción Motor Sport",
+  "Bajaj Rouser NS 200 Paraguay precio Gs. ficha técnica",
+  "Bajaj Dominar 400 Paraguay precio Gs.",
+  "TVS Raider 125 Paraguay precio Gs. paraguay.tvsmotor.com",
+  "TVS Paraguay distribuidor oficial motos Apache Ntorq",
+  "paraguay.tvsmotor.com Apache RTR 160 2V specifications",
+  "paraguay.tvsmotor.com TVS Raider 125 specifications",
+  "chacomer.com.py motocicleta TVS precio Gs Ntorq Apache Sport HLX",
+  "tupi.com.py moto TVS",
+  "chacomer.com.py motocicleta rutera TVS Raider 125 ficha técnica",
+  "Bajaj Paraguay Pulsar NS 160 / N160 / Dominar 250 / Platina",
+  "Asunción Motor Sport Bajaj modelos",
+  "Royal Enfield Paraguay distribuidor oficial",
+  "KTM Paraguay distribuidor oficial",
+  "royalenfieldpy.com Classic 350",
+  "ktm.com.py Duke precio",
+  "Husqvarna Paraguay distribuidor",
+  "Kawasaki Paraguay distribuidor",
+  "BMW Motorrad Paraguay distribuidor",
+  "Harley-Davidson Paraguay concesionario",
+  "Benelli Paraguay distribuidor",
+  "Keeway Paraguay distribuidor",
+  "CFMoto Paraguay distribuidor",
+  "Zontes OR Voge Paraguay distribuidor",
+  "Haojue Paraguay distribuidor",
+  "Ducati Paraguay distribuidor",
+  "Triumph Paraguay distribuidor",
+  "Hero MotoCorp Paraguay",
+  "Motomel Zanella Gilera Corven Mondial Italika Paraguay",
+  "Bajaj Pulsar NS 200 / Pulsar 150 Paraguay",
+  "bajaj.com.py motos catálogo",
+  "Bajaj Rouser 200 NS Paraguay lanzamiento",
+  "Royal Enfield Paraguay Reimpex Meteor Himalayan Hunter precio"
+ ]
+}
