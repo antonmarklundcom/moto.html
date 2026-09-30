@@ -15,6 +15,8 @@ Phase rules:
 - Word counts on rendered main content only; `verify` blocks never render; prices > 120 days hidden (D6).
 - `SITE_NOINDEX`: `config.php` then `getenv`; anything but `content`/`false` → `true`. `config.example.php` documents
   that the owner launches with `false` (D12).
+- Deploy is Hostinger Git of the whole repo (PLAN D19): `[DEV]` records load only with `APP_ENV=dev`; add `scripts/` to the
+  `.htaccess` deny list; `deploy/verify-live.sh` checks every denied path returns 403/404.
 - The catalogue loader must work with `content/catalogo.php` missing (R1 may merge after you).
 - Shape gap where a wrong guess forces a rewrite → PLAN §4.4.
 

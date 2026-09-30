@@ -41,6 +41,7 @@ puede saltearse ese tiempo.
 | D15 | Texto legal: ninguna sesión lo escribe. `/terminos` y `/privacidad` copian literal el marcador "Texto en revisión legal" de la app Node y quedan `noindex` hasta que el abogado entregue el texto. | LEGAL §5, §10 |
 | D16 | Diseño mínimo mobile-first: sin imágenes (salvo pedido explícito), fuentes del sistema, sin animaciones. HTML semántico, un solo `h1`, `label` en cada input, foco visible, contraste AA, área táctil ≥ 44 px. Presupuesto: LCP < 2,5 s en móvil, CLS < 0,1, HTML + CSS + JS < 100 KB por página. | ADR-15; SEO §10 |
 | D17 | Proceso: `phased-autonomous-build`, perfil HTML+PHP. Un PR por fase, `./verify.sh` verde antes de cada PR. **Nunca Fable** en fases, subagentes, sesiones lanzadas ni Routines. `antonmarklundcom/moto` es de sólo lectura. | Propietario |
+| D19 | **Deploy por Git de Hostinger** (hPanel → Avanzado → Git, rama `main` → `public_html/`). Todo el repo queda en el servidor, así que el sitio no puede depender del zip: `.htaccess` bloquea `content/`, `lib/`, `docs/`, `prompts/`, `tests/`, `deploy/`, `scripts/`, `logs/`, `.git/`, `*.md` y `config*.php`, y `verify-live.sh` lo comprueba. `config.php` y `logs/` no se versionan: un `git pull` no los toca. El zip queda como alternativa. | Propietario 2026-09-30 |
 | D18 | Una consulta, una página. La ficha técnica, el precio, el consumo, los repuestos y el "qué revisar si es usada" de un modelo viven **en la misma URL del modelo**, en secciones con `id`, y no en subpáginas. Así se concentra la autoridad y la migración no cambia nada. | SEO §2.3, §11 |
 
 ---
@@ -234,7 +235,7 @@ Los 20 pasos del README del template, con estos valores:
    - `source: "site:moto-com-py"` y `fields.tipo_lead`
    - omitir vacíos, sin tag
    - redirección sin JS a `/gracias`
-5. Plantillas `brand`, `model`, `type`, `city`, `comparison`, `guide` (con `group`) y `quiz`, y todas las formas de §2.2, con un registro `[DEV]` cada una que verify recorre y el zip de deploy excluye. Los registros `[DEV]` viven en `content/_dev/*.php` y el cargador los suma sólo fuera del zip. **`content/catalogo.php` es de R1**: F1 no lo crea. Su cargador tolera que falte, y su `[DEV]` va en `content/_dev/catalogo.php`.
+5. Plantillas `brand`, `model`, `type`, `city`, `comparison`, `guide` (con `group`) y `quiz`, y todas las formas de §2.2, con un registro `[DEV]` cada una que verify recorre. Los registros `[DEV]` viven en `content/_dev/*.php` y el cargador los suma **sólo** con `APP_ENV=dev` (lo ponen `router.php` y `verify.sh`). En producción nunca aparecen, se despliegue por zip o por Git (D19). **`content/catalogo.php` es de R1**: F1 no lo crea. Su cargador tolera que falte, y su `[DEV]` va en `content/_dev/catalogo.php`.
 6. SEO técnico de §2.4.
 7. `verify.sh`: reglas de §4.16, coherencia entre meta robots y sitemap, JSON-LD prohibido, los tres modos de `SITE_NOINDEX`, y un POST degradado que escriba `leads.jsonl` con la clave esperada.
 
@@ -297,7 +298,7 @@ Ninguna fase crea una página que no pase el gate de §2.3.
 | Número de WhatsApp | `content/site.php` | los CTA van a `/contacto` |
 | `VENDERCRM_URL` + `VENDERCRM_API_KEY` exclusiva de este sitio | `config.php` | los leads quedan sólo en `logs/leads.jsonl` |
 | Texto legal del abogado | `/terminos`, `/privacidad` | marcador `noindex` |
-| Subida a Hostinger (zip, `config.php`, PHP 8.2 + curl) | hPanel | — |
+| Deploy: hPanel → Avanzado → Git, repo `antonmarklundcom/moto.html`, rama `main`, en `public_html/` vacío (D19); `config.php` a mano; PHP 8.2 + curl | hPanel | — |
 | Resolver pendientes de `docs/verificar.md` cuando quiera sumar datos | `content/*.php` | esos bloques siguen ocultos |
 
 ## 8. Preguntas abiertas
