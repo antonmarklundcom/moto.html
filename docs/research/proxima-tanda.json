@@ -9,6 +9,46 @@
             "https://inverfin.com.py/products/moto-benelli-752s-2023"
         ]
     },
+    "bmw-motorrad/g-310-r": {
+        "name": "G 310 R",
+        "category": "naked",
+        "specs": 4,
+        "prices": 0,
+        "sources": [
+            "https://infonegocios.com.py/infomotor/bmw-motorrad-paraguay-presento-la-nueva-g-310-r-la-mas-joven-de-la-familia",
+            "https://www.bmw-motorrad.com.py/es/models/roadster/g310r/technicaldata.html"
+        ]
+    },
+    "bmw-motorrad/r-1300-gs": {
+        "name": "R 1300 GS",
+        "category": "touring",
+        "specs": 3,
+        "prices": 0,
+        "sources": [
+            "https://www.abc.com.py/empresariales/2024/03/26/la-nueva-y-potente-bmw-r-1300-gs-ya-esta-en-paraguay/",
+            "https://www.bmw-motorrad.com.py/es/models/adventure/r1300gs.html"
+        ]
+    },
+    "buler/rally-250": {
+        "name": "Rally 250",
+        "category": "enduro-cross",
+        "specs": 3,
+        "prices": 0,
+        "sources": [
+            "https://www.bristol.com.py/catalogo/moto-buler-rally-250cc-rayos-naranja_RALLY250CC_BS3030974",
+            "https://www.bristol.com.py/catalogo/moto-buler-rally-250cc-naranja_RALLYVX250GY_BS3462240"
+        ]
+    },
+    "cfmoto/450mt": {
+        "name": "450MT",
+        "category": "touring",
+        "specs": 3,
+        "prices": 0,
+        "sources": [
+            "https://www.cfmoto.com.py/producto.php?prod=450mt",
+            "https://www.classicmotos.com.py/producto/mt450/"
+        ]
+    },
     "ducati/desertx": {
         "name": "DesertX",
         "category": "touring",
@@ -71,10 +111,11 @@
     "honda/cb350-hness": {
         "name": "CB350 H'Ness",
         "category": "custom-chopper",
-        "specs": 0,
+        "specs": 3,
         "prices": 0,
         "sources": [
-            "https://www.lanacion.com.py/negocios_edicion_impresa/2024/05/22/diesa-presento-a-la-honda-xl-750-transalp-y-a-la-cb-350-hness/"
+            "https://www.lanacion.com.py/negocios_edicion_impresa/2024/05/22/diesa-presento-a-la-honda-xl-750-transalp-y-a-la-cb-350-hness/",
+            "https://hondamotos.com.py/productos/HNess-CB350/54"
         ]
     },
     "honda/msx125-grom": {
@@ -122,13 +163,31 @@
             "https://www.classicmotos.com.py/producto/xr-300-tornado/"
         ]
     },
+    "honda/xr-650l": {
+        "name": "XR 650L",
+        "category": "enduro-cross",
+        "specs": 4,
+        "prices": 0,
+        "sources": [
+            "https://www.classicmotos.com.py/producto/xr-650l/"
+        ]
+    },
     "kawasaki/ninja-zx-4r": {
         "name": "Ninja ZX-4R",
         "category": "deportiva",
-        "specs": 2,
+        "specs": 4,
         "prices": 0,
         "sources": [
             "https://paraguay.kawasaki-la.com/es-la/motocicleta/ninja/supersport/ninja-zx-4r"
+        ]
+    },
+    "kenton/bravo-150": {
+        "name": "Bravo 150",
+        "category": "scooter",
+        "specs": 3,
+        "prices": 0,
+        "sources": [
+            "https://kenton.com.py/moto/bravo-150/"
         ]
     },
     "kenton/elegance": {
@@ -176,19 +235,29 @@
             "https://www.reimpex.com.py/leopard/4/hb-110-luxury"
         ]
     },
+    "leopard/hb1-125": {
+        "name": "HB1 125",
+        "category": "cub",
+        "specs": 3,
+        "prices": 0,
+        "sources": [
+            "https://www.reimpex.com.py/leopard/12/hb1-125"
+        ]
+    },
     "royal-enfield/bear-650": {
         "name": "Bear 650",
         "category": "naked",
-        "specs": 0,
+        "specs": 3,
         "prices": 0,
         "sources": [
-            "https://royalenfieldpy.com/motos/"
+            "https://royalenfieldpy.com/motos/",
+            "https://royalenfieldpy.com/motos/bear-650/"
         ]
     },
     "royal-enfield/classic-350": {
         "name": "Classic 350",
         "category": "custom-chopper",
-        "specs": 0,
+        "specs": 1,
         "prices": 0,
         "sources": [
             "https://royalenfieldpy.com/motos/",
@@ -209,10 +278,11 @@
     "royal-enfield/meteor-350": {
         "name": "Meteor 350",
         "category": "custom-chopper",
-        "specs": 0,
+        "specs": 4,
         "prices": 0,
         "sources": [
-            "https://royalenfieldpy.com/motos/"
+            "https://royalenfieldpy.com/motos/",
+            "https://royalenfieldpy.com/motos/meteor-350/"
         ]
     },
     "royal-enfield/shotgun-650": {
@@ -233,15 +303,6 @@
             "https://royalenfieldpy.com/motos/"
         ]
     },
-    "star/a1-110": {
-        "name": "A1 110",
-        "category": "scooter",
-        "specs": 1,
-        "prices": 0,
-        "sources": [
-            "https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc"
-        ]
-    },
     "star/new-desert-200": {
         "name": "New Desert 200",
         "category": "enduro-cross",
@@ -251,13 +312,32 @@
             "https://star.com.py/producto/SK200-BR-CKD/new-desert-200cc"
         ]
     },
-    "star/star-200": {
-        "name": "Star 200",
-        "category": "naked",
-        "specs": 1,
+    "star/super-carga-200": {
+        "name": "Super Carga 200",
+        "category": "motocarro-carga",
+        "specs": 4,
         "prices": 0,
         "sources": [
-            "https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc"
+            "https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga",
+            "https://www.alex.com.py/producto/240/motocarga"
+        ]
+    },
+    "star/tr-5-150": {
+        "name": "TR-5 150",
+        "category": "naked",
+        "specs": 3,
+        "prices": 0,
+        "sources": [
+            "https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc"
+        ]
+    },
+    "star/xpro-150": {
+        "name": "XPro 150",
+        "category": "naked",
+        "specs": 3,
+        "prices": 0,
+        "sources": [
+            "https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc"
         ]
     },
     "star/xpro-200": {
@@ -267,26 +347,6 @@
         "prices": 0,
         "sources": [
             "https://star.com.py/producto/XPRO200-R-CKD/xpro-200cc"
-        ]
-    },
-    "star/xrm-150": {
-        "name": "XRM 150",
-        "category": "cub",
-        "specs": 1,
-        "prices": 0,
-        "sources": [
-            "https://star.com.py/producto/XRM150-CKD/xrm-150",
-            "https://alex.com.py/producto/2329/xrm-150",
-            "https://www.classicmotos.com.py/producto/star-xrm-150/"
-        ]
-    },
-    "triumph/scrambler-400x": {
-        "name": "Scrambler 400X",
-        "category": "enduro-cross",
-        "specs": 0,
-        "prices": 0,
-        "sources": [
-            "https://mecauto.com.py/triumph/scrambler400x/"
         ]
     },
     "triumph/speed-twin": {
@@ -364,7 +424,7 @@
     "voge/ds-900x": {
         "name": "DS 900X",
         "category": "touring",
-        "specs": 0,
+        "specs": 3,
         "prices": 0,
         "sources": [
             "https://voge.com.py/motos/ds-900x/"
@@ -377,6 +437,16 @@
         "prices": 0,
         "sources": [
             "https://voge.com.py/motos/ds800x-rally/"
+        ]
+    },
+    "yamaha/fz-25": {
+        "name": "FZ-25",
+        "category": "naked",
+        "specs": 4,
+        "prices": 0,
+        "sources": [
+            "https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html",
+            "https://yamaha.com.py/motos/?orderby=price-desc&product_count=36"
         ]
     }
 }

@@ -30,29 +30,30 @@ Fase R1 de `PLAN.md` (§1 D4–D7, §2.2, §4.18). Consulta: **2026-09-30** en t
 ## 1. Resultado
 
 **14 marcas, 120 modelos** (los 35 modelos activos de la semilla de `moto`, con sus slugs idénticos, más 85 nuevos).
-83 modelos tienen al menos un precio 0 km publicado; 76 tienen ≥ 3 specs con fuente. 41 modelos más quedaron en la
-**próxima tanda** (§5) por el tope de 120 del prompt. Categorías (slugs de `categories.ts`):
-
-`naked` 45, `enduro-cross` 21, `scooter` 12, `cub` 12, `touring` 11, `cuatriciclo` 7, `electrica` 6, `motocarro-carga` 5, `custom-chopper` 1.
+89 modelos tienen al menos un precio 0 km publicado; 73 tienen ≥ 3 specs con fuente; 703 cifras en total, todas
+hechos con fuente. 48 modelos más quedaron en la **próxima tanda** (§5) por el tope de 120 del prompt. Tres pasadas de
+investigación (§0; la 3ª sumó Buler y cifras para la semilla y la próxima tanda, con cada consulta importante repetida y sólo
+cifras que coincidían). Categorías (slugs de `categories.ts`):
+`naked` 45, `enduro-cross` 21, `cub` 15, `scooter` 12, `touring` 9, `cuatriciclo` 7, `electrica` 6, `motocarro-carga` 4, `custom-chopper` 1.
 
 ## 2. Marcas y distribuidores
 
 | Marca | Distribuidor | Fuente | Modelos | Con precio | Con ≥ 3 specs |
 |---|---|---|---|---|---|
-| Honda (`honda`) | DIESA S.A. | [ABC Color](https://www.abc.com.py/empresariales/2025/03/15/diesa-presento-las-nuevas-motos-honda-nx190-y-cb190r-20/) | 16 | 7 | 6 |
+| Honda (`honda`) | DIESA S.A. | [ABC Color](https://www.abc.com.py/empresariales/2025/03/15/diesa-presento-las-nuevas-motos-honda-nx190-y-cb190r-20/) | 15 | 7 | 6 |
 | Star (`star`) | Alex S.A. | [ABC Color](https://www.abc.com.py/empresariales/2025/07/10/star-la-motocicleta-que-acompana-en-todo-lo-que-uno-se-propone/) | 16 | 9 | 12 |
-| Yamaha (`yamaha`) | Chacomer S.A.E. | [Yamaha Motor Paraguay](http://yamaha-motor.com.py/producto/51/xtz-150) | 12 | 9 | 10 |
+| Yamaha (`yamaha`) | Chacomer S.A.E. | [Yamaha Motor Paraguay](http://yamaha-motor.com.py/producto/51/xtz-150) | 11 | 10 | 9 |
 | Suzuki (`suzuki`) | Chacomer S.A.E. | [ABC Color](https://www.abc.com.py/empresariales/2025/01/14/suzuki-motos-regresa-a-paraguay-con-chacomer/) | 7 | 7 | 5 |
 | Bajaj (`bajaj`) | Asunción Motor Sport S.A. (AMS) | [La Nación](https://www.lanacion.com.py/negocios_edicion_impresa/2019/01/12/bajaj-llego-al-paraguay-y-busca-ser-lider-en-el-segmento-de-motos/) | 3 | 1 | 0 |
 | TVS (`tvs`) | Chacomer S.A.E. | [TVS Motor Paraguay](https://paraguay.tvsmotor.com/en/) | 7 | 7 | 3 |
-| Kenton (`kenton`) | Chacomer S.A.E. | [Chacomer](https://www.chacomer.com.py/moto/kenton.html) | 38 | 35 | 22 |
-| BMW Motorrad (`bmw-motorrad`) | Garden Automotores S.A. | [La Nación](https://www.lanacion.com.py/negocios_edicion_impresa/2018/03/26/bmw-motorrad-paraguay-lanzo-la-nueva-g-310-gs/) | 3 | 0 | 3 |
-| CFMoto (`cfmoto`) | IMAG | [CFMoto Paraguay](https://www.cfmoto.com.py/motos.php) | 1 | 0 | 1 |
-| Triumph (`triumph`) | Mecauto S.A. | [Triumph Motorcycles](https://www.triumph-motorcycles.co/triumph-hub-page/paraguay) | 1 | 0 | 1 |
+| Kenton (`kenton`) | Chacomer S.A.E. | [Chacomer](https://www.chacomer.com.py/moto/kenton.html) | 37 | 35 | 21 |
+| BMW Motorrad (`bmw-motorrad`) | Garden Automotores S.A. | [La Nación](https://www.lanacion.com.py/negocios_edicion_impresa/2018/03/26/bmw-motorrad-paraguay-lanzo-la-nueva-g-310-gs/) | 1 | 0 | 1 |
+| Triumph (`triumph`) | Mecauto S.A. | [Triumph Motorcycles](https://www.triumph-motorcycles.co/triumph-hub-page/paraguay) | 2 | 0 | 2 |
 | Taiga (`taiga`) | Inverfin | [Inverfin](https://inverfin.com.py/collections/taiga) | 7 | 5 | 7 |
-| Leopard (`leopard`) | Reimpex | [Reimpex](https://www.reimpex.com.py/leopard) | 6 | 0 | 6 |
+| Leopard (`leopard`) | Reimpex | [Reimpex](https://www.reimpex.com.py/leopard) | 5 | 0 | 5 |
 | Super Soco (`super-soco`) | Quantum Motors | [InfoNegocios](https://infonegocios.com.py/infomotor/donde-conseguir-motos-electricas-tipo-scooter-en-paraguay-aca-tenes-unas-opciones) | 2 | 2 | 0 |
 | Yadea (`yadea`) | Quantum Motors | [InfoNegocios](https://infonegocios.com.py/infomotor/donde-conseguir-motos-electricas-tipo-scooter-en-paraguay-aca-tenes-unas-opciones) | 1 | 1 | 0 |
+| Buler (`buler`) | Britam S.A. | [Última Hora](https://www.ultimahora.com/britam-se-abre-camino-incursionando-el-rubro-motocicletas-n3041524) | 6 | 5 | 2 |
 
 Notas por marca (del registro de investigación; las cifras de mercado son de la fuente, no verificadas):
 - **Honda:** DIESA S.A. confirmado por prensa (ABC 2025-03-15, La Nación 2025-04-04). `hondamotos.com.py` publica fichas en
@@ -79,7 +80,7 @@ Notas por marca (del registro de investigación; las cifras de mercado son de la
 | `honda/cg-110` | naked | 0 | — |
 | `honda/crf-250f` | enduro-cross | 0 | — |
 | `honda/dio-110` | scooter | 1 | Gs. 10.725.000 (Honda Motos Paraguay) |
-| `honda/navi-110` | scooter | 0 | — |
+| `honda/navi-110` | scooter | 10 | — |
 | `honda/nx190` | enduro-cross | 6 | — |
 | `honda/nx500` | touring | 1 | — |
 | `honda/rebel-500` | custom-chopper | 0 | — |
@@ -88,8 +89,8 @@ Notas por marca (del registro de investigación; las cifras de mercado son de la
 | `honda/xr-150` | enduro-cross | 1 | Gs. 20.267.000 (Honda Motos Paraguay); Gs. 21.500.000 (Classic Motos) |
 | `honda/xr-190` | enduro-cross | 0 | Gs. 26.500.000 (Classic Motos) |
 | `honda/xr-250-tornado` | enduro-cross | 5 | Gs. 49.300.000 (Classic Motos) |
-| `honda/xr-650l` | enduro-cross | 4 | — |
 | `star/150-x` | naked | 2 | Gs. 6.800.000 (Alex S.A.) |
+| `star/a1-110` | scooter | 7 | — |
 | `star/dax-110` | cub | 7 | Gs. 5.400.000 (Alex S.A.) |
 | `star/dax-a-110` | cub | 2 | Gs. 5.900.000 (Alex S.A.) |
 | `star/fxz-150` | naked | 2 | Gs. 9.500.000 (Alex S.A.) |
@@ -101,19 +102,17 @@ Notas por marca (del registro de investigación; las cifras de mercado son de la
 | `star/smx-150` | enduro-cross | 11 | — |
 | `star/star-125` | naked | 5 | Gs. 5.650.000 (Alex S.A.) |
 | `star/star-150` | naked | 8 | Gs. 5.800.000 (Alex S.A.) |
-| `star/super-carga-200` | motocarro-carga | 4 | — |
-| `star/tr-5-150` | naked | 3 | — |
-| `star/xpro-150` | naked | 3 | — |
+| `star/star-200` | naked | 7 | — |
+| `star/xrm-150` | cub | 6 | — |
 | `star/xvr-200` | enduro-cross | 7 | — |
 | `yamaha/crypton` | cub | 6 | Gs. 13.990.000 (Chacomer) |
-| `yamaha/fz-25` | naked | 4 | — |
 | `yamaha/mt-03` | naked | 9 | US$ 7.900 (Chacomer) |
 | `yamaha/mt-07` | naked | 6 | US$ 11.870 (Chacomer); US$ 11.627 (Chacomer); US$ 11.900 (Yamaha Paraguay) |
 | `yamaha/mt-09` | naked | 6 | US$ 14.900 (Chacomer) |
 | `yamaha/tenere-700` | touring | 0 | US$ 16.300 (Chacomer); US$ 16.300 (Chacomer) |
 | `yamaha/xtz-125` | enduro-cross | 6 | Gs. 21.210.000 (Chacomer) |
 | `yamaha/xtz-150` | enduro-cross | 8 | Gs. 25.000.000 (Chacomer); Gs. 25.000.000 (Chacomer) |
-| `yamaha/xtz-250` | enduro-cross | 0 | — |
+| `yamaha/xtz-250` | enduro-cross | 0 | Gs. 39.226.950 (Chacomer) |
 | `yamaha/ybr-125e` | naked | 5 | — |
 | `yamaha/ybr-125z` | naked | 9 | Gs. 16.800.000 (Chacomer) |
 | `yamaha/yc-z-110` | naked | 6 | Gs. 11.500.000 (Chacomer) |
@@ -137,7 +136,6 @@ Notas por marca (del registro de investigación; las cifras de mercado son de la
 | `kenton/blitz-110` | cub | 3 | Gs. 6.279.000 (Kenton); Gs. 6.789.000 (Kenton); Gs. 7.074.000 (Kenton) |
 | `kenton/blitz-125-sport` | cub | 1 | Gs. 7.513.000 (Kenton); Gs. 7.513.000 (Chacomer) |
 | `kenton/bravo-125` | scooter | 11 | Gs. 8.700.000 (Kenton) |
-| `kenton/bravo-150` | scooter | 3 | — |
 | `kenton/bull-200` | cuatriciclo | 3 | Gs. 13.610.000 (Chacomer) |
 | `kenton/classic-125` | naked | 11 | Gs. 6.505.000 (Kenton) |
 | `kenton/classic-150` | naked | 6 | Gs. 6.685.000 (Chacomer) |
@@ -173,9 +171,7 @@ Notas por marca (del registro de investigación; las cifras de mercado son de la
 | `kenton/volkano-150-off-road` | cuatriciclo | 1 | Gs. 16.900.000 (Kenton); Gs. 16.900.000 (Kenton) |
 | `kenton/volkano-250-off-road` | cuatriciclo | 1 | Gs. 18.685.000 (Kenton); Gs. 18.685.000 (Chacomer) |
 | `bmw-motorrad/g-310-gs` | touring | 5 | — |
-| `bmw-motorrad/g-310-r` | naked | 4 | — |
-| `bmw-motorrad/r-1300-gs` | touring | 3 | — |
-| `cfmoto/450mt` | touring | 3 | — |
+| `triumph/scrambler-400x` | enduro-cross | 5 | — |
 | `triumph/speed-400` | naked | 5 | — |
 | `taiga/mawi-125` | scooter | 8 | — |
 | `taiga/motocarro-tl200zh-3` | motocarro-carga | 6 | Gs. 16.810.000 (Gonzalez Gimenez); Gs. 16.810.000 (Inverfin) |
@@ -186,18 +182,22 @@ Notas por marca (del registro de investigación; las cifras de mercado son de la
 | `taiga/tl250-cr5-gt` | enduro-cross | 9 | Gs. 14.995.000 (Inverfin) |
 | `leopard/hb-125-grand-tour` | cub | 11 | — |
 | `leopard/hb1-110` | cub | 11 | — |
-| `leopard/hb1-125` | cub | 3 | — |
 | `leopard/ht-150-ba` | naked | 8 | — |
 | `leopard/ht-200-ba` | naked | 9 | — |
 | `leopard/kh-200` | naked | 5 | — |
 | `super-soco/tc-wanderer` | electrica | 2 | Gs. 25.500.000 (Quantum Motors) |
 | `super-soco/tc-wanderer-pro` | electrica | 2 | Gs. 37.000.000 (Quantum Motors) |
 | `yadea/c-umi` | electrica | 1 | Gs. 7.600.000 (Quantum Motors) |
+| `buler/cobra-125` | naked | 1 | Gs. 5.754.000 (Bristol) |
+| `buler/cub-110` | cub | 1 | Gs. 5.669.000 (Bristol) |
+| `buler/faiter-se-150` | naked | 3 | Gs. 7.299.000 (Bristol) |
+| `buler/urban-110` | cub | 7 | — |
+| `buler/vx-cub-110` | cub | 1 | Gs. 6.089.000 (Bristol) |
+| `buler/work-125` | naked | 1 | Gs. 5.989.000 (Bristol) |
 
-**Modelos semilla que todavía no pasan el gate de modelo** (§2.3: ni 3 specs con fuente ni precio vigente): `honda/cb-500x`,
-`honda/cg-110`, `honda/crf-250f`, `honda/navi-110`, `honda/nx500`, `honda/rebel-500`, `honda/x-adv-750`,
-`yamaha/xtz-250`, `bajaj/dominar-400`, `bajaj/rouser-ns-200`. Siguen en el catálogo (son la semilla, D4), pero B1a/B1b
-no crean su página hasta que aparezcan datos (D13). Son la primera tarea de la próxima sesión con acceso de red.
+**Modelos semilla que todavía no pasan el gate de modelo** (§2.3: ni 3 specs con fuente ni precio vigente):
+`honda/cb-500x`, `honda/cg-110`, `honda/crf-250f`, `honda/nx500`, `honda/rebel-500`, `honda/x-adv-750`, `bajaj/dominar-400`, `bajaj/rouser-ns-200`. Siguen en el catálogo (son la semilla, D4), pero B1a/B1b no crean su página
+hasta que aparezcan datos (D13). Son la primera tarea de la próxima sesión con acceso de red.
 
 ## 4. Lo descartado y por qué
 
@@ -220,13 +220,14 @@ Criterio general: sin fuente paraguaya no hay modelo (D4); sin atribución expl�
 - `taiga/mawi-125 price 5980000` — promotional price (Mawi) or implausible vs. the rest of the Taiga range (TL150 CR1); needs a regular price seen on the page
 - `taiga/tl150-cr1 price 18990000` — promotional price (Mawi) or implausible vs. the rest of the Taiga range (TL150 CR1); needs a regular price seen on the page
 - `leopard/hb1-125 potencia 7.5 HP, transmision 4 velocidades` — snippet mixed HB1 110 and HB1 125
+- `star/new-desert-200 specs` — single search, figures identical to Star 200 — attribution not proven
 - `yamaha/fz-25 price 27.170.000` — read from a yamaha.com.py listing page and identical to the Suzuki Gixxer 250 price — likely misattributed by the search summary
-- `yamaha/xtz-250 price 39.643.695` — round 2 got a different chacomer figure on each run (39.226.950 / 40.258.890); none is reliable
+- `yamaha/xtz-250 price 39.643.695` — round 2 got a different chacomer figure on each run (39.226.950 / 40.258.890); none is reliable — superseded in round 3: r3-seeds.json found Gs. 39.226.950 on three agreeing searches (Chacomer "desde"), which is the price kept
 - `honda/msx125-grom`, `cb650r`, `nc750x` (1ª pasada) — la única evidencia era el resumen de un aviso viejo de DIESA con muchos modelos. En la 2ª pasada Grom y NC750X aparecieron con página propia en `hondamotos.com.py` (título con el modelo exacto) y volvieron; quedaron en la próxima tanda por no tener cifras. CB650R no apareció (la URL `/CB650R/54` es la H'Ness CB350).
 - `honda/africa-twin-adventure` — fusionado en `honda/africa-twin` como versión "Adventure".
-- Marcas con distribuidor pero sin modelo con evidencia: **Harley-Davidson** (sólo un aviso usado), **Zontes** (sólo Facebook). KTM, Kawasaki, Voge, Triumph (salvo Speed 400), Royal Enfield, Ducati y Benelli tienen modelos, pero sin cifras: quedaron en la próxima tanda y su marca sale del catálogo hasta que tengan un modelo.
+- Marcas con distribuidor pero sin modelo con evidencia: **Harley-Davidson** (sólo un aviso usado), **Zontes** (sólo Facebook). KTM, Kawasaki, Voge, Royal Enfield, Ducati, Benelli y CFMoto tienen modelos con evidencia, pero quedaron en la próxima tanda y su marca sale del catálogo hasta que uno de sus modelos entre.
 
-**Descartes de los agentes de investigación** (resumidos del registro):
+**Descartes de los agentes de investigación** (resumidos del registro, en el idioma del registro):
 
 - `Bajaj Pulsar NS 125/160/200, N160, Dominar 250, Platina, RE motocarro` — No Paraguayan product page/press found; only Argentine/Peruvian/Colombian/Ecuadorian pages and a Scribd catalog of unclear origin. (`bajaj-tvs-intl.json`)
 - `TVS Ntorq, Apache Sport` — Not found on Chacomer/Tupi/paraguay.tvsmotor.com results. (`bajaj-tvs-intl.json`)
@@ -270,6 +271,20 @@ Criterio general: sin fuente paraguaya no hay modelo (D4); sin atribución expl�
 - `Kenton Elegance / Joy 110 prices` — snippets inconsistent (399.000 cuota vs 9.990.000; 126.055 for Joy) (`r2-local.json`)
 - `Star NT-A, RX4, TR-5, XPRO 200, New Desert 200, Star 200, A1 110` — snippets returned no specs/prices tied to the model (`r2-local.json`)
 - `Taiga HB/other Leopard KH 200 prices, HB 110 Luxury specs` — not in snippets (`r2-local.json`)
+- `Buler prices for Urban 110, Rally 250, TRL 150, Spider 250, Cobra 150, Urban 125` — Only one search or conflicting figures between runs (`r3-more.json`)
+- `Buler specs beyond those kept (Rally 16 HP, TRL 12 L, etc.)` — single-run figures (`r3-more.json`)
+- `Royal Enfield 650 (Shotgun, Super Meteor), Himalayan 450 specs/prices; Classic 350 torque/cc` — summaries gave no model-tied figures or attributed them to sibling models; no Gs prices published in results (`r3-more.json`)
+- `Voge 300 DS, 300 Rally, DS 525X, 625 DSX, DS800X Rally` — summaries returned no specs or prices (`r3-more.json`)
+- `Triumph Trident 660, Tiger 900` — no figures in results; Tiger 900 figures were for Rally Pro/Aragon variants only (`r3-more.json`)
+- `Honda CB190R, CB 300 F Twister, XR 300 Tornado, Africa Twin, Transalp` — no model-tied figures; XR 300 result (293.5 cc DOHC) looked like another model, dropped (`r3-more.json`)
+- `Star XPRO 200 specs/prices` — figures were attributed to Star 200 not XPRO; brakes conflicting (`r3-more.json`)
+- `Star 200 price Gs 9.500.000, New Desert 200 ~Gs 5.400.000` — summary not tied to exact model/URL (`r3-more.json`)
+- `Kawasaki ZX-4R tank/weight/torque/price` — not in results (`r3-more.json`)
+- `yamaha xtz-250 specs (249,45 cc, 20,7 hp, 11 L, torque 2,09 kgf.m)` — Summary did not tie figures to one yamaha-motor.com.py URL (xtz-250 / xtz-250-lander / xtz250-tenere all listed); second query did not reproduce them (`r3-seeds.json`)
+- `honda rebel-500 471 cc parallel twin DOHC liquid-cooled; nx500 same` — Summary did not tie figures to one URL; not reproduced with hondamotos-only query (`r3-seeds.json`)
+- `honda x-adv-750 745 cc` — Single query, not reproduced; cc/transmision already exist (`r3-seeds.json`)
+- `cb-500x, cg-110, crf-250f, dominar-400, rouser-ns-200 specs/prices` — Searches returned only page titles or unrelated results; hondamotos.com.py and bajaj pages not fetchable (EGRESS_BLOCKED) (`r3-seeds.json`)
+- `navi-110 price US$1.560` — Press figure, not seller page (`r3-seeds.json`)
 - `Yamaha NMAX, XMAX, Aerox, Ray ZR, YZF-R3` — Only Brazil/Colombia/Mexico results; no Paraguayan page found (`yamaha-suzuki.json`)
 - `Yamaha YZF-R6, DT125` — Only Chacomer spare-part listings found, not bikes (`yamaha-suzuki.json`)
 - `Yamaha Fazer/FZ-S, YBR 150, Crux, YZ, Grizzly/Kodiak` — No Paraguayan evidence found in searches (`yamaha-suzuki.json`)
@@ -278,43 +293,51 @@ Criterio general: sin fuente paraguaya no hay modelo (D4); sin atribución expl�
 
 ## 5. Próxima tanda
 
-41 modelos con evidencia de venta en Paraguay pero sin precio y con < 3 specs: quedan fuera por el tope de 120 modelos
-del prompt y porque no pasarían el gate de §2.3. Lista completa con sus fuentes: `docs/research/proxima-tanda.json`
-(la genera el build). Para sumarlos: agregar cifras al JSON de su marca y volver a correr el build.
+48 modelos con evidencia de venta en Paraguay que quedaron fuera por el tope de 120 modelos del prompt (el build
+ordena: semilla primero, después con precio, después por cantidad de specs). Lista completa con sus fuentes:
+`docs/research/proxima-tanda.json` (la genera el build). **16 ya tienen ≥ 3 specs con fuente y pasarían el gate**
+(entran primero si se sube el tope): `bmw-motorrad/g-310-r`, `bmw-motorrad/r-1300-gs`, `buler/rally-250`, `cfmoto/450mt`, `honda/cb350-hness`, `honda/xr-650l`, `kawasaki/ninja-zx-4r`, `kenton/bravo-150`, `leopard/hb1-125`, `royal-enfield/bear-650`, `royal-enfield/meteor-350`, `star/super-carga-200`, `star/tr-5-150`, `star/xpro-150`, `voge/ds-900x`, `yamaha/fz-25`. Para sumar modelos: agregar cifras al JSON de su
+marca y volver a correr el build.
 
 | Modelo | Categoría | Specs | Fuente de inclusión |
 |---|---|---|---|
 | `benelli/752s` | naked | 2 | https://inverfin.com.py/collections/benelli |
+| `bmw-motorrad/g-310-r` | naked | 4 | https://infonegocios.com.py/infomotor/bmw-motorrad-paraguay-presento-la-nueva-g-310-r-la-mas-joven-de-la-familia |
+| `bmw-motorrad/r-1300-gs` | touring | 3 | https://www.abc.com.py/empresariales/2024/03/26/la-nueva-y-potente-bmw-r-1300-gs-ya-esta-en-paraguay/ |
+| `buler/rally-250` | enduro-cross | 3 | https://www.bristol.com.py/catalogo/moto-buler-rally-250cc-rayos-naranja_RALLY250CC_BS3030974 |
+| `cfmoto/450mt` | touring | 3 | https://www.cfmoto.com.py/producto.php?prod=450mt |
 | `ducati/desertx` | touring | 0 | https://infonegocios.com.py/conosur/ducati-acelera-en-paraguay-imag-registra-un-centenar-de-motocicletas-vendidas-desde-el-2020 |
 | `ducati/multistrada` | touring | 0 | https://infonegocios.com.py/conosur/ducati-acelera-en-paraguay-imag-registra-un-centenar-de-motocicletas-vendidas-desde-el-2020 |
 | `ducati/scrambler` | naked | 0 | https://infonegocios.com.py/conosur/ducati-acelera-en-paraguay-imag-registra-un-centenar-de-motocicletas-vendidas-desde-el-2020 |
 | `honda/africa-twin` | touring | 0 | https://www.abc.com.py/empresariales/2026/04/18/honda-presenta-la-africa-twin-2026-con-diseno-iconico/ |
 | `honda/cb-300f-twister` | naked | 0 | https://hondamotos.com.py/productos/CB-300-F-TWISTER/52 |
 | `honda/cb190r` | naked | 1 | https://hondamotos.com.py/uploads/products/31.pdf |
-| `honda/cb350-hness` | custom-chopper | 0 | https://www.lanacion.com.py/negocios_edicion_impresa/2024/05/22/diesa-presento-a-la-honda-xl-750-transalp-y-a-la-cb-350-hness/ |
+| `honda/cb350-hness` | custom-chopper | 3 | https://www.lanacion.com.py/negocios_edicion_impresa/2024/05/22/diesa-presento-a-la-honda-xl-750-transalp-y-a-la-cb-350-hness/ |
 | `honda/msx125-grom` | naked | 0 | https://hondamotos.com.py/productos/CB190R/35 |
 | `honda/nc750x` | touring | 0 | https://hondamotos.com.py/productos/CB500X/5 |
 | `honda/trx-250` | cuatriciclo | 0 | https://hondamotos.com.py/productos/TRX-250-4X2-MANUAL/45 |
 | `honda/xl-750-transalp` | touring | 0 | https://www.lanacion.com.py/negocios_edicion_impresa/2024/05/22/diesa-presento-a-la-honda-xl-750-transalp-y-a-la-cb-350-hness/ |
 | `honda/xr-300-tornado` | enduro-cross | 0 | https://www.classicmotos.com.py/producto/xr-300-tornado/ |
-| `kawasaki/ninja-zx-4r` | deportiva | 2 | https://paraguay.kawasaki-la.com/es-la/motocicleta/ninja/supersport/ninja-zx-4r |
+| `honda/xr-650l` | enduro-cross | 4 | https://www.classicmotos.com.py/producto/xr-650l/ |
+| `kawasaki/ninja-zx-4r` | deportiva | 4 | https://paraguay.kawasaki-la.com/es-la/motocicleta/ninja/supersport/ninja-zx-4r |
+| `kenton/bravo-150` | scooter | 3 | https://kenton.com.py/moto/bravo-150/ |
 | `kenton/elegance` | scooter | 0 | https://www.chacomer.com.py/motocicleta-scooter-kenton-elegance.html |
 | `kenton/joy-110` | cub | 0 | https://www.tupi.com.py/producto/MKP053172/MOTO-KENTON-JOY-110-ROJO- |
 | `kenton/spark-125` | scooter | 1 | https://kenton.com.py/moto/spark-125/ |
 | `ktm/790-adventure` | touring | 0 | https://infonegocios.com.py/infomotor/1-de-las-10-nuevas-ktm-790-adventure-del-mundo-se-encuentra-disponible-en-paraguay |
 | `leopard/hb-110-luxury` | cub | 0 | https://www.reimpex.com.py/leopard/4/hb-110-luxury |
-| `royal-enfield/bear-650` | naked | 0 | https://royalenfieldpy.com/motos/ |
-| `royal-enfield/classic-350` | custom-chopper | 0 | https://royalenfieldpy.com/motos/ |
+| `leopard/hb1-125` | cub | 3 | https://www.reimpex.com.py/leopard/12/hb1-125 |
+| `royal-enfield/bear-650` | naked | 3 | https://royalenfieldpy.com/motos/ |
+| `royal-enfield/classic-350` | custom-chopper | 1 | https://royalenfieldpy.com/motos/ |
 | `royal-enfield/himalayan-450` | touring | 0 | https://royalenfieldpy.com/motos/ |
-| `royal-enfield/meteor-350` | custom-chopper | 0 | https://royalenfieldpy.com/motos/ |
+| `royal-enfield/meteor-350` | custom-chopper | 4 | https://royalenfieldpy.com/motos/ |
 | `royal-enfield/shotgun-650` | custom-chopper | 0 | https://royalenfieldpy.com/motos/ |
 | `royal-enfield/super-meteor-650` | custom-chopper | 0 | https://royalenfieldpy.com/motos/ |
-| `star/a1-110` | scooter | 1 | https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc |
 | `star/new-desert-200` | enduro-cross | 1 | https://star.com.py/producto/SK200-BR-CKD/new-desert-200cc |
-| `star/star-200` | naked | 1 | https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc |
+| `star/super-carga-200` | motocarro-carga | 4 | https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga |
+| `star/tr-5-150` | naked | 3 | https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc |
+| `star/xpro-150` | naked | 3 | https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc |
 | `star/xpro-200` | naked | 1 | https://star.com.py/producto/XPRO200-R-CKD/xpro-200cc |
-| `star/xrm-150` | cub | 1 | https://star.com.py/producto/XRM150-CKD/xrm-150 |
-| `triumph/scrambler-400x` | enduro-cross | 0 | https://mecauto.com.py/triumph/scrambler400x/ |
 | `triumph/speed-twin` | naked | 0 | https://www.mecauto.com.py/triumph/speedtwinn/ |
 | `triumph/tiger-1200` | touring | 0 | https://www.mecauto.com.py/triumph/tiger1200/ |
 | `triumph/tiger-900` | touring | 0 | https://www.mecauto.com.py/triumph/tiger900/ |
@@ -323,12 +346,14 @@ del prompt y porque no pasarían el gate de §2.3. Lista completa con sus fuente
 | `voge/300-rally` | enduro-cross | 0 | https://voge.com.py/motos/300-rally/ |
 | `voge/625-dsx` | touring | 0 | https://voge.com.py/motos/625-dsx/ |
 | `voge/ds-525x` | touring | 0 | https://voge.com.py/motos/ds-525x/ |
-| `voge/ds-900x` | touring | 0 | https://voge.com.py/motos/ds-900x/ |
+| `voge/ds-900x` | touring | 3 | https://voge.com.py/motos/ds-900x/ |
 | `voge/ds800x-rally` | touring | 0 | https://voge.com.py/motos/ds800x-rally/ |
+| `yamaha/fz-25` | naked | 4 | https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html |
 
-Otras pistas no investigadas (sin tiempo en esta fase): **Buler** (Bristol, `bristol.com.py/buler`, 110–250 cc),
-Yadea G5 (Classic Motos), Leopard HB 110 Intelligence, Honda Biz / Pop / PCX / Elite (no hay página en
-`hondamotos.com.py` que los nombre), Bajaj Pulsar 150 (indexado en `bajaj.com.py`), Mitsui, Shineray, Lifan/Kawaki.
+Otras pistas no investigadas: resto de la línea Buler (TRL, Spider, Cobra 150/200, Carrera, Urban 125, Work 150, Faiter 200,
+Super Sport: una sola búsqueda cada una), Yadea G5 (Classic Motos), Leopard HB 110 Intelligence, Honda Biz / Pop / PCX / Elite
+(no hay página en `hondamotos.com.py` que los nombre), Bajaj Pulsar 150 (indexado en `bajaj.com.py`), Mitsui, Shineray,
+Lifan/Kawaki.
 
 ## 6. Cuotas publicadas (sólo como dato para `/motos/en-cuotas`, T1)
 

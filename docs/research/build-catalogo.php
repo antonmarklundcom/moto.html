@@ -38,7 +38,7 @@ const DISTRIBUTOR_NAMES = [
     'bmw-motorrad' => 'Garden Automotores S.A.', 'cfmoto' => 'IMAG', 'triumph' => 'Mecauto S.A.', 'taiga' => 'Inverfin',
     'leopard' => 'Reimpex', 'super-soco' => 'Quantum Motors', 'yadea' => 'Quantum Motors',
     'royal-enfield' => 'Reimpex S.A.', 'ktm' => 'Asunción Motor Sport S.A. (AMS)', 'kawasaki' => 'Metalcar S.A.',
-    'benelli' => 'Inverfin', 'ducati' => 'IMAG S.R.L.', 'voge' => 'Voge Motos Paraguay',
+    'benelli' => 'Inverfin', 'ducati' => 'IMAG S.R.L.', 'voge' => 'Voge Motos Paraguay', 'buler' => 'Britam S.A.',
 ];
 
 const PUBLISHERS = [
@@ -54,7 +54,7 @@ const PUBLISHERS = [
     'ultimahora.com' => 'Última Hora', 'yamaha-motor.com.py' => 'Yamaha Motor Paraguay', 'yamaha.com.py' => 'Yamaha Paraguay',
     'ktm.com.py' => 'KTM Paraguay', 'paraguay.kawasaki-la.com' => 'Kawasaki Paraguay',
     'harleyparaguay.com' => 'Harley-Davidson Paraguay', 'facebook.com' => 'Facebook', 'voge.com.py' => 'Voge Paraguay',
-    'royalenfieldpy.com' => 'Royal Enfield Paraguay', 'ducati.com.py' => 'Ducati Paraguay',
+    'royalenfieldpy.com' => 'Royal Enfield Paraguay', 'ducati.com.py' => 'Ducati Paraguay', 'bristol.com.py' => 'Bristol',
 ];
 
 function publisher(string $url): ?string

@@ -127,15 +127,6 @@ return [
             ],
             'sortOrder' => 103,
         ],
-        'cfmoto' => [
-            'name' => 'CFMoto',
-            'distributor' => [
-                'name' => 'IMAG',
-                'source' => ['label' => 'CFMoto Paraguay', 'url' => 'https://www.cfmoto.com.py/motos.php'],
-                'accessed' => '2026-09-30',
-            ],
-            'sortOrder' => 106,
-        ],
         'triumph' => [
             'name' => 'Triumph',
             'distributor' => [
@@ -189,6 +180,18 @@ return [
                 'accessed' => '2026-09-30',
             ],
             'sortOrder' => 114,
+        ],
+        'buler' => [
+            'name' => 'Buler',
+            'distributor' => [
+                'name' => 'Britam S.A.',
+                'source' => [
+                    'label' => 'Última Hora',
+                    'url' => 'https://www.ultimahora.com/britam-se-abre-camino-incursionando-el-rubro-motocicletas-n3041524',
+                ],
+                'accessed' => '2026-09-30',
+            ],
+            'sortOrder' => 115,
         ],
     ],
     'modelos' => [
@@ -925,45 +928,6 @@ return [
                 ],
             ],
         ],
-        'honda/xr-650l' => [
-            'brand' => 'honda',
-            'name' => 'XR 650L',
-            'slug' => 'xr-650l',
-            'category' => 'enduro-cross',
-            'specs' => [
-                'cc' => [
-                    'value' => 644,
-                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/xr-650l/'],
-                    'accessed' => '2026-09-30',
-                ],
-                'potencia' => [
-                    'value' => '44 HP',
-                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/xr-650l/'],
-                    'accessed' => '2026-09-30',
-                ],
-                'motor' => [
-                    'value' => '4 tiempos SOHC',
-                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/xr-650l/'],
-                    'accessed' => '2026-09-30',
-                ],
-                'refrigeracion' => [
-                    'value' => 'Aire, cárter seco',
-                    'source' => ['label' => 'Classic Motos', 'url' => 'https://www.classicmotos.com.py/producto/xr-650l/'],
-                    'accessed' => '2026-09-30',
-                ],
-            ],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Classic Motos',
-                    'url' => 'https://www.classicmotos.com.py/producto/xr-650l/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Classic Motos XR 650L — retailer evidence',
-                ],
-            ],
-        ],
         'star/150-x' => [
             'brand' => 'star',
             'name' => '150-X',
@@ -1005,6 +969,60 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Alex S.A. 150-X — Distributor catalogue with Gs. price',
+                ],
+            ],
+        ],
+        'star/a1-110' => [
+            'brand' => 'star',
+            'name' => 'A1 110',
+            'slug' => 'a1-110',
+            'category' => 'scooter',
+            'specs' => [
+                'cc' => [
+                    'value' => 110,
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc'],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '6,39 HP a 7500 RPM',
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc'],
+                    'accessed' => '2026-09-30',
+                ],
+                'torque' => [
+                    'value' => '7 Nm a 5000 RPM',
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc'],
+                    'accessed' => '2026-09-30',
+                ],
+                'transmision' => [
+                    'value' => '4 marchas secuencial semiautomática',
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc'],
+                    'accessed' => '2026-09-30',
+                ],
+                'arranque' => [
+                    'value' => 'Eléctrico / pedal',
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc'],
+                    'accessed' => '2026-09-30',
+                ],
+                'tanque' => [
+                    'value' => '3,5 litros',
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc'],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Aire',
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc'],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'prices' => [],
+            'versions' => [],
+            'sources' => [
+                [
+                    'label' => 'Star',
+                    'url' => 'https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'MOTONETA A1 110cc — Official brand page star.com.py',
                 ],
             ],
         ],
@@ -1647,83 +1665,66 @@ return [
                 ],
             ],
         ],
-        'star/super-carga-200' => [
+        'star/star-200' => [
             'brand' => 'star',
-            'name' => 'Super Carga 200',
-            'slug' => 'super-carga-200',
-            'category' => 'motocarro-carga',
+            'name' => 'Star 200',
+            'slug' => 'star-200',
+            'category' => 'naked',
             'specs' => [
                 'cc' => [
                     'value' => 200,
                     'source' => [
                         'label' => 'Star',
-                        'url' => 'https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga',
+                        'url' => 'https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc',
                     ],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
-                    'value' => '14 HP / 7500 RPM',
+                    'value' => '13,6 HP a 8000 RPM',
                     'source' => [
                         'label' => 'Star',
-                        'url' => 'https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga',
+                        'url' => 'https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'torque' => [
+                    'value' => '13 Nm a 6500 RPM',
+                    'source' => [
+                        'label' => 'Star',
+                        'url' => 'https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'transmision' => [
+                    'value' => '5 marchas / manual',
+                    'source' => [
+                        'label' => 'Star',
+                        'url' => 'https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc',
                     ],
                     'accessed' => '2026-09-30',
                 ],
                 'arranque' => [
-                    'value' => 'Eléctrico/pedal',
+                    'value' => 'Eléctrico / pedal',
                     'source' => [
                         'label' => 'Star',
-                        'url' => 'https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga',
+                        'url' => 'https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc',
                     ],
-                    'accessed' => '2026-09-30',
-                ],
-                'motor' => [
-                    'value' => '4 tiempos/monocilíndrico/transmisión por eje/refrigerado por aire',
-                    'source' => [
-                        'label' => 'Star',
-                        'url' => 'https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga',
-                    ],
-                    'accessed' => '2026-09-30',
-                ],
-            ],
-            'prices' => [],
-            'versions' => ['Sin cabina', 'Con cabina'],
-            'sources' => [
-                [
-                    'label' => 'Star',
-                    'url' => 'https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'MOTOCARGA 200cc SUPER CARGA — Official brand page star.com.py',
-                ],
-                [
-                    'label' => 'Alex S.A.',
-                    'url' => 'https://www.alex.com.py/producto/240/motocarga',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Alex S.A. Motocarga — distributor',
-                ],
-            ],
-        ],
-        'star/tr-5-150' => [
-            'brand' => 'star',
-            'name' => 'TR-5 150',
-            'slug' => 'tr-5-150',
-            'category' => 'naked',
-            'specs' => [
-                'cc' => [
-                    'value' => 150,
-                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc'],
-                    'accessed' => '2026-09-30',
-                ],
-                'potencia' => [
-                    'value' => '12,51 HP / 8500 RPM',
-                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc'],
                     'accessed' => '2026-09-30',
                 ],
                 'tanque' => [
                     'value' => '12 litros',
-                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc'],
+                    'source' => [
+                        'label' => 'Star',
+                        'url' => 'https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Aire',
+                    'source' => [
+                        'label' => 'Star',
+                        'url' => 'https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc',
+                    ],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -1732,32 +1733,47 @@ return [
             'sources' => [
                 [
                     'label' => 'Star',
-                    'url' => 'https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc',
+                    'url' => 'https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'TR-5 150cc — Official brand page star.com.py',
+                    'note' => 'STAR 200 — Official brand page star.com.py',
                 ],
             ],
         ],
-        'star/xpro-150' => [
+        'star/xrm-150' => [
             'brand' => 'star',
-            'name' => 'XPro 150',
-            'slug' => 'xpro-150',
-            'category' => 'naked',
+            'name' => 'XRM 150',
+            'slug' => 'xrm-150',
+            'category' => 'cub',
             'specs' => [
                 'cc' => [
                     'value' => 150,
-                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc'],
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/XRM150-CKD/xrm-150'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
-                    'value' => '11,56 HP / 8000 RPM',
-                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc'],
+                    'value' => '11,56 HP a 8000 RPM',
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/XRM150-CKD/xrm-150'],
                     'accessed' => '2026-09-30',
                 ],
-                'tanque' => [
-                    'value' => '14 litros',
-                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc'],
+                'torque' => [
+                    'value' => '9,5 Nm a 6000 RPM',
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/XRM150-CKD/xrm-150'],
+                    'accessed' => '2026-09-30',
+                ],
+                'transmision' => [
+                    'value' => '5 marchas / manual',
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/XRM150-CKD/xrm-150'],
+                    'accessed' => '2026-09-30',
+                ],
+                'motor' => [
+                    'value' => '4 tiempos, monocilíndrico, varilla',
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/XRM150-CKD/xrm-150'],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Aire',
+                    'source' => ['label' => 'Star', 'url' => 'https://star.com.py/producto/XRM150-CKD/xrm-150'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -1766,10 +1782,24 @@ return [
             'sources' => [
                 [
                     'label' => 'Star',
-                    'url' => 'https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc',
+                    'url' => 'https://star.com.py/producto/XRM150-CKD/xrm-150',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'XPRO 150 — Official brand page star.com.py',
+                    'note' => 'Star XRM 150 (star.com.py) — official brand page',
+                ],
+                [
+                    'label' => 'Alex S.A.',
+                    'url' => 'https://alex.com.py/producto/2329/xrm-150',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Alex S.A. XRM 150 — official distributor',
+                ],
+                [
+                    'label' => 'Classic Motos',
+                    'url' => 'https://www.classicmotos.com.py/producto/star-xrm-150/',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Classic Motos Star XRM 150 — retailer',
                 ],
             ],
         ],
@@ -1923,64 +1953,6 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Chacomer - Motocicleta Cub Yamaha Crypton — Distributor (Chacomer) product page',
-                ],
-            ],
-        ],
-        'yamaha/fz-25' => [
-            'brand' => 'yamaha',
-            'name' => 'FZ-25',
-            'slug' => 'fz-25',
-            'category' => 'naked',
-            'specs' => [
-                'cc' => [
-                    'value' => 249,
-                    'source' => [
-                        'label' => 'Chacomer',
-                        'url' => 'https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html',
-                    ],
-                    'accessed' => '2026-09-30',
-                ],
-                'motor' => [
-                    'value' => '4 tiempos SOHC',
-                    'source' => [
-                        'label' => 'Chacomer',
-                        'url' => 'https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html',
-                    ],
-                    'accessed' => '2026-09-30',
-                ],
-                'refrigeracion' => [
-                    'value' => 'Aire y aceite',
-                    'source' => [
-                        'label' => 'Chacomer',
-                        'url' => 'https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html',
-                    ],
-                    'accessed' => '2026-09-30',
-                ],
-                'alimentacion' => [
-                    'value' => 'Inyección electrónica de combustible',
-                    'source' => [
-                        'label' => 'Chacomer',
-                        'url' => 'https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html',
-                    ],
-                    'accessed' => '2026-09-30',
-                ],
-            ],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Chacomer',
-                    'url' => 'https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Chacomer FZ-25 ABS — retailer/distributor page',
-                ],
-                [
-                    'label' => 'Yamaha Paraguay',
-                    'url' => 'https://yamaha.com.py/motos/?orderby=price-desc&product_count=36',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Yamaha Paraguay - Motos — Brand PY site',
                 ],
             ],
         ],
@@ -4022,40 +3994,6 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Chacomer Bravo 125 — Chacomer product page',
-                ],
-            ],
-        ],
-        'kenton/bravo-150' => [
-            'brand' => 'kenton',
-            'name' => 'Bravo 150',
-            'slug' => 'bravo-150',
-            'category' => 'scooter',
-            'specs' => [
-                'cc' => [
-                    'value' => 150,
-                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-150/'],
-                    'accessed' => '2026-09-30',
-                ],
-                'transmision' => [
-                    'value' => 'Automática',
-                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-150/'],
-                    'accessed' => '2026-09-30',
-                ],
-                'tanque' => [
-                    'value' => '9.5 L',
-                    'source' => ['label' => 'Kenton', 'url' => 'https://kenton.com.py/moto/bravo-150/'],
-                    'accessed' => '2026-09-30',
-                ],
-            ],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Kenton',
-                    'url' => 'https://kenton.com.py/moto/bravo-150/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Kenton Bravo 150 — Official brand page (kenton.com.py), data from search summary',
                 ],
             ],
         ],
@@ -6317,133 +6255,35 @@ return [
                 ],
             ],
         ],
-        'bmw-motorrad/g-310-r' => [
-            'brand' => 'bmw-motorrad',
-            'name' => 'G 310 R',
-            'slug' => 'g-310-r',
-            'category' => 'naked',
+        'triumph/scrambler-400x' => [
+            'brand' => 'triumph',
+            'name' => 'Scrambler 400X',
+            'slug' => 'scrambler-400x',
+            'category' => 'enduro-cross',
             'specs' => [
                 'cc' => [
-                    'value' => 313,
-                    'source' => [
-                        'label' => 'BMW Motorrad Paraguay',
-                        'url' => 'https://www.bmw-motorrad.com.py/es/models/roadster/g310r/technicaldata.html',
-                    ],
+                    'value' => 398,
+                    'source' => ['label' => 'Mecauto', 'url' => 'https://mecauto.com.py/triumph/scrambler400x/'],
                     'accessed' => '2026-09-30',
                 ],
                 'potencia' => [
-                    'value' => '34 HP (25 kW) a 9.500 rpm',
-                    'source' => [
-                        'label' => 'BMW Motorrad Paraguay',
-                        'url' => 'https://www.bmw-motorrad.com.py/es/models/roadster/g310r/technicaldata.html',
-                    ],
-                    'accessed' => '2026-09-30',
-                ],
-                'motor' => [
-                    'value' => 'Un cilindro, cuatro tiempos, 4 válvulas, dos árboles de levas',
-                    'source' => [
-                        'label' => 'BMW Motorrad Paraguay',
-                        'url' => 'https://www.bmw-motorrad.com.py/es/models/roadster/g310r/technicaldata.html',
-                    ],
-                    'accessed' => '2026-09-30',
-                ],
-                'refrigeracion' => [
-                    'value' => 'Agua',
-                    'source' => [
-                        'label' => 'BMW Motorrad Paraguay',
-                        'url' => 'https://www.bmw-motorrad.com.py/es/models/roadster/g310r/technicaldata.html',
-                    ],
-                    'accessed' => '2026-09-30',
-                ],
-            ],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'InfoNegocios',
-                    'url' => 'https://infonegocios.com.py/infomotor/bmw-motorrad-paraguay-presento-la-nueva-g-310-r-la-mas-joven-de-la-familia',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Infonegocios - BMW Motorrad Paraguay presentó la nueva G 310 R — Press article naming model as launched in Paraguay.',
-                ],
-                [
-                    'label' => 'BMW Motorrad Paraguay',
-                    'url' => 'https://www.bmw-motorrad.com.py/es/models/roadster/g310r/technicaldata.html',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'BMW Motorrad Paraguay G 310 R datos técnicos — distributor brand site',
-                ],
-            ],
-        ],
-        'bmw-motorrad/r-1300-gs' => [
-            'brand' => 'bmw-motorrad',
-            'name' => 'R 1300 GS',
-            'slug' => 'r-1300-gs',
-            'category' => 'touring',
-            'specs' => [
-                'cc' => [
-                    'value' => 1300,
-                    'source' => [
-                        'label' => 'ABC Color',
-                        'url' => 'https://www.abc.com.py/empresariales/2024/03/26/la-nueva-y-potente-bmw-r-1300-gs-ya-esta-en-paraguay/',
-                    ],
-                    'accessed' => '2026-09-30',
-                ],
-                'potencia' => [
-                    'value' => '145 HP a 7.750 rpm',
-                    'source' => [
-                        'label' => 'ABC Color',
-                        'url' => 'https://www.abc.com.py/empresariales/2024/03/26/la-nueva-y-potente-bmw-r-1300-gs-ya-esta-en-paraguay/',
-                    ],
+                    'value' => '40 hp',
+                    'source' => ['label' => 'Mecauto', 'url' => 'https://mecauto.com.py/triumph/scrambler400x/'],
                     'accessed' => '2026-09-30',
                 ],
                 'torque' => [
-                    'value' => '149 Nm a 6.500 rpm',
-                    'source' => [
-                        'label' => 'ABC Color',
-                        'url' => 'https://www.abc.com.py/empresariales/2024/03/26/la-nueva-y-potente-bmw-r-1300-gs-ya-esta-en-paraguay/',
-                    ],
+                    'value' => '37.5 Nm',
+                    'source' => ['label' => 'Mecauto', 'url' => 'https://mecauto.com.py/triumph/scrambler400x/'],
                     'accessed' => '2026-09-30',
                 ],
-            ],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'ABC Color',
-                    'url' => 'https://www.abc.com.py/empresariales/2024/03/26/la-nueva-y-potente-bmw-r-1300-gs-ya-esta-en-paraguay/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'ABC Color - La nueva BMW R 1300 GS ya está en Paraguay — Press article naming model as launched in Paraguay.',
-                ],
-                [
-                    'label' => 'BMW Motorrad Paraguay',
-                    'url' => 'https://www.bmw-motorrad.com.py/es/models/adventure/r1300gs.html',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'BMW Motorrad Paraguay R 1300 GS — brand page',
-                ],
-            ],
-        ],
-        'cfmoto/450mt' => [
-            'brand' => 'cfmoto',
-            'name' => '450MT',
-            'slug' => '450mt',
-            'category' => 'touring',
-            'specs' => [
-                'potencia' => [
-                    'value' => '44 CV',
-                    'source' => ['label' => 'CFMoto Paraguay', 'url' => 'https://www.cfmoto.com.py/producto.php?prod=450mt'],
+                'transmision' => [
+                    'value' => '6 velocidades',
+                    'source' => ['label' => 'Mecauto', 'url' => 'https://mecauto.com.py/triumph/scrambler400x/'],
                     'accessed' => '2026-09-30',
                 ],
                 'motor' => [
-                    'value' => 'Dos cilindros, 449,5 cc, refrigeración líquida',
-                    'source' => ['label' => 'CFMoto Paraguay', 'url' => 'https://www.cfmoto.com.py/producto.php?prod=450mt'],
-                    'accessed' => '2026-09-30',
-                ],
-                'refrigeracion' => [
-                    'value' => 'Líquida',
-                    'source' => ['label' => 'CFMoto Paraguay', 'url' => 'https://www.cfmoto.com.py/producto.php?prod=450mt'],
+                    'value' => 'Monocilíndrico DOHC 4 tiempos',
+                    'source' => ['label' => 'Mecauto', 'url' => 'https://mecauto.com.py/triumph/scrambler400x/'],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -6451,18 +6291,11 @@ return [
             'versions' => [],
             'sources' => [
                 [
-                    'label' => 'CFMoto Paraguay',
-                    'url' => 'https://www.cfmoto.com.py/producto.php?prod=450mt',
+                    'label' => 'Mecauto',
+                    'url' => 'https://mecauto.com.py/triumph/scrambler400x/',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'CFMOTO Paraguay - 450MT — Brand PY site product page.',
-                ],
-                [
-                    'label' => 'Classic Motos',
-                    'url' => 'https://www.classicmotos.com.py/producto/mt450/',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Classic Motos MT450 — retailer page',
+                    'note' => 'Mecauto Triumph Scrambler 400X — distributor model page (no figures visible)',
                 ],
             ],
         ],
@@ -7230,40 +7063,6 @@ return [
                 ],
             ],
         ],
-        'leopard/hb1-125' => [
-            'brand' => 'leopard',
-            'name' => 'HB1 125',
-            'slug' => 'hb1-125',
-            'category' => 'cub',
-            'specs' => [
-                'cc' => [
-                    'value' => 125,
-                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/12/hb1-125'],
-                    'accessed' => '2026-09-30',
-                ],
-                'motor' => [
-                    'value' => '4 tiempos',
-                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/12/hb1-125'],
-                    'accessed' => '2026-09-30',
-                ],
-                'refrigeracion' => [
-                    'value' => 'Aire',
-                    'source' => ['label' => 'Reimpex', 'url' => 'https://www.reimpex.com.py/leopard/12/hb1-125'],
-                    'accessed' => '2026-09-30',
-                ],
-            ],
-            'prices' => [],
-            'versions' => [],
-            'sources' => [
-                [
-                    'label' => 'Reimpex',
-                    'url' => 'https://www.reimpex.com.py/leopard/12/hb1-125',
-                    'accessed' => '2026-09-30',
-                    'method' => 'snippet',
-                    'note' => 'Reimpex Leopard HB1 125 — official distributor',
-                ],
-            ],
-        ],
         'leopard/ht-150-ba' => [
             'brand' => 'leopard',
             'name' => 'HT 150 BA',
@@ -7534,6 +7333,287 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Quantum - C-UMI — Quantum Paraguayan product page',
+                ],
+            ],
+        ],
+        'buler/cobra-125' => [
+            'brand' => 'buler',
+            'name' => 'Cobra 125',
+            'slug' => 'cobra-125',
+            'category' => 'naked',
+            'specs' => [
+                'cc' => [
+                    'value' => 125,
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-cobra-125cc-rayos-rojo_BS121303132_BS12131',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'prices' => [
+                [
+                    'value' => 5754000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-cobra-125cc-rayos-rojo_BS121303132_BS12131',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'versions' => ['Rayos Rojo', 'Rayos Azul'],
+            'sources' => [
+                [
+                    'label' => 'Bristol',
+                    'url' => 'https://www.bristol.com.py/catalogo/moto-buler-cobra-125cc-rayos-rojo_BS121303132_BS12131',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Bristol - Moto Buler Cobra 125cc Rayos — Bristol (retailer) product page, price 5.754.000 confirmed in two searches',
+                ],
+            ],
+        ],
+        'buler/cub-110' => [
+            'brand' => 'buler',
+            'name' => 'Cub 110',
+            'slug' => 'cub-110',
+            'category' => 'cub',
+            'specs' => [
+                'cc' => [
+                    'value' => 110,
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-cub-110cc-rayos-rojo_MBC110CCR_BS10486',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'prices' => [
+                [
+                    'value' => 5669000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-cub-110cc-rayos-rojo_MBC110CCR_BS10486',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'versions' => ['Rayos Rojo', 'Rayos Negro', 'Rayos Azul'],
+            'sources' => [
+                [
+                    'label' => 'Bristol',
+                    'url' => 'https://www.bristol.com.py/catalogo/moto-buler-cub-110cc-rayos-rojo_MBC110CCR_BS10486',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Bristol - Moto Buler Cub 110cc Rayos — Bristol (retailer) product page, price 5.669.000 confirmed in two searches',
+                ],
+            ],
+        ],
+        'buler/faiter-se-150' => [
+            'brand' => 'buler',
+            'name' => 'Faiter SE 150',
+            'slug' => 'faiter-se-150',
+            'category' => 'naked',
+            'specs' => [
+                'cc' => [
+                    'value' => 150,
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-faiter-se-150cc-aleacion-negro_FAISE150CC_BS39958',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'freno_del' => [
+                    'value' => 'Disco',
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-faiter-se-150cc-aleacion-negro_FAISE150CC_BS39958',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'motor' => [
+                    'value' => 'Monocilíndrico 4 tiempos con balanceador de cigüeñal',
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-faiter-se-150cc-aleacion-negro_FAISE150CC_BS39958',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'prices' => [
+                [
+                    'value' => 7299000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-faiter-se-150cc-aleacion-negro_FAISE150CC_BS39958',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'versions' => ['Aleación Negro'],
+            'sources' => [
+                [
+                    'label' => 'Bristol',
+                    'url' => 'https://www.bristol.com.py/catalogo/moto-buler-faiter-se-150cc-aleacion-negro_FAISE150CC_BS39958',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Bristol - Moto Buler Faiter SE 150cc Aleación — Bristol (retailer) product page, price 7.299.000 confirmed in two searches',
+                ],
+            ],
+        ],
+        'buler/urban-110' => [
+            'brand' => 'buler',
+            'name' => 'Urban 110',
+            'slug' => 'urban-110',
+            'category' => 'cub',
+            'specs' => [
+                'cc' => [
+                    'value' => 110,
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-urban-110cc-rayos-gris_PBURBAN110_BS3429018',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'transmision' => [
+                    'value' => 'Semi automática',
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-urban-110cc-rayos-gris_PBURBAN110_BS3429018',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'arranque' => [
+                    'value' => 'Eléctrico y a pedal',
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-urban-110cc-rayos-gris_PBURBAN110_BS3429018',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'freno_del' => [
+                    'value' => 'Tambor',
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-urban-110cc-rayos-gris_PBURBAN110_BS3429018',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'freno_tras' => [
+                    'value' => 'Tambor',
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-urban-110cc-rayos-gris_PBURBAN110_BS3429018',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'tanque' => [
+                    'value' => '4 litros',
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-urban-110cc-rayos-gris_PBURBAN110_BS3429018',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'peso' => [
+                    'value' => '90 kg',
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-urban-110cc-rayos-gris_PBURBAN110_BS3429018',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'prices' => [],
+            'versions' => ['Rayos Gris', 'Rayos Rojo', 'Rayos Negro'],
+            'sources' => [
+                [
+                    'label' => 'Bristol',
+                    'url' => 'https://www.bristol.com.py/catalogo/moto-buler-urban-110cc-rayos-gris_PBURBAN110_BS3429018',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Bristol - Moto Buler Urban 110CC Rayos — Bristol (retailer) product page, specs agreed in two searches; price not kept (conflicting 5.389.000 vs 8.070.000 across variants)',
+                ],
+            ],
+        ],
+        'buler/vx-cub-110' => [
+            'brand' => 'buler',
+            'name' => 'VX Cub 110',
+            'slug' => 'vx-cub-110',
+            'category' => 'cub',
+            'specs' => [
+                'cc' => [
+                    'value' => 110,
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-vx-cub-110cc-aleacion-negro_VXCUB110_BS11664',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'prices' => [
+                [
+                    'value' => 6089000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-vx-cub-110cc-aleacion-negro_VXCUB110_BS11664',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'versions' => ['Aleación Negro'],
+            'sources' => [
+                [
+                    'label' => 'Bristol',
+                    'url' => 'https://www.bristol.com.py/catalogo/moto-buler-vx-cub-110cc-aleacion-negro_VXCUB110_BS11664',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Bristol - Moto Buler VX Cub 110cc Aleación — Bristol (retailer) product page, price 6.089.000 confirmed in two searches',
+                ],
+            ],
+        ],
+        'buler/work-125' => [
+            'brand' => 'buler',
+            'name' => 'Work 125',
+            'slug' => 'work-125',
+            'category' => 'naked',
+            'specs' => [
+                'cc' => [
+                    'value' => 125,
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-work-125cc-rayos-negro_WORK125CC_BS39955',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'prices' => [
+                [
+                    'value' => 5989000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Bristol',
+                        'url' => 'https://www.bristol.com.py/catalogo/moto-buler-work-125cc-rayos-negro_WORK125CC_BS39955',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'versions' => ['Rayos Negro'],
+            'sources' => [
+                [
+                    'label' => 'Bristol',
+                    'url' => 'https://www.bristol.com.py/catalogo/moto-buler-work-125cc-rayos-negro_WORK125CC_BS39955',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Bristol - Moto Buler Work 125cc Rayos — Bristol (retailer) product page, described as work/load motorcycle; price 5.989.000 confirmed in two searches',
                 ],
             ],
         ],
