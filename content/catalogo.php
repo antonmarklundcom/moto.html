@@ -2058,6 +2058,136 @@ return [
                 ],
             ],
         ],
+        'star/xrm-150' => [
+            'brand' => 'star',
+            'name' => 'XRM 150',
+            'slug' => 'xrm-150',
+            'category' => 'cub',
+            'specs' => [
+                'cc' => [
+                    'value' => 150,
+                    'source' => [
+                        'label' => 'Star XRM 150 (star.com.py)',
+                        'url' => 'https://star.com.py/producto/XRM150-CKD/xrm-150',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'prices' => [],
+            'versions' => [],
+            'sources' => [
+                [
+                    'label' => 'Star XRM 150 (star.com.py)',
+                    'url' => 'https://star.com.py/producto/XRM150-CKD/xrm-150',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'official brand page',
+                ],
+                [
+                    'label' => 'Alex S.A. XRM 150',
+                    'url' => 'https://alex.com.py/producto/2329/xrm-150',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'official distributor',
+                ],
+                [
+                    'label' => 'Classic Motos Star XRM 150',
+                    'url' => 'https://www.classicmotos.com.py/producto/star-xrm-150/',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer',
+                ],
+            ],
+        ],
+        'star/xvr-200' => [
+            'brand' => 'star',
+            'name' => 'XVR 200',
+            'slug' => 'xvr-200',
+            'category' => 'enduro-cross',
+            'specs' => [
+                'cc' => [
+                    'value' => 200,
+                    'source' => [
+                        'label' => 'Classic Motos Star XVR200',
+                        'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '13.7 HP / 8000 RPM',
+                    'source' => [
+                        'label' => 'Classic Motos Star XVR200',
+                        'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'torque' => [
+                    'value' => '13.8 Nm / 6500 RPM',
+                    'source' => [
+                        'label' => 'Classic Motos Star XVR200',
+                        'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'transmision' => [
+                    'value' => 'Manual 5 velocidades',
+                    'source' => [
+                        'label' => 'Classic Motos Star XVR200',
+                        'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'arranque' => [
+                    'value' => 'Eléctrico / pedal',
+                    'source' => [
+                        'label' => 'Classic Motos Star XVR200',
+                        'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'motor' => [
+                    'value' => '4 tiempos monocilíndrico, varilla',
+                    'source' => [
+                        'label' => 'Classic Motos Star XVR200',
+                        'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Aire',
+                    'source' => [
+                        'label' => 'Classic Motos Star XVR200',
+                        'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'prices' => [],
+            'versions' => [],
+            'sources' => [
+                [
+                    'label' => 'Star XVR 200 (star.com.py)',
+                    'url' => 'https://star.com.py/producto/XVR200-CKD/xvr-200',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'official brand page, listed in result',
+                ],
+                [
+                    'label' => 'Alex S.A. XVR 200',
+                    'url' => 'https://alex.com.py/producto/2217/xvr-200',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'official distributor',
+                ],
+                [
+                    'label' => 'Classic Motos Star XVR200',
+                    'url' => 'https://www.classicmotos.com.py/producto/star-xvr200/',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer spec source',
+                ],
+            ],
+        ],
         'yamaha/crypton' => [
             'brand' => 'yamaha',
             'name' => 'Crypton',
@@ -3612,6 +3742,16 @@ return [
                     'source' => ['label' => 'Kenton BLITZ 125 SPORT', 'url' => 'https://kenton.com.py/moto/blitz-125-sport/'],
                     'accessed' => '2026-09-30',
                 ],
+                [
+                    'value' => 7513000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Blitz 125 Sport (precio contado)',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-cub-motoneta-kenton-blitz-125-sport.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
             ],
             'versions' => [],
             'sources' => [
@@ -3621,6 +3761,13 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Official brand page (kenton.com.py), data from search summary',
+                ],
+                [
+                    'label' => 'Chacomer Kenton Blitz 125 Sport',
+                    'url' => 'https://www.chacomer.com.py/motocicleta-cub-motoneta-kenton-blitz-125-sport.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer',
                 ],
             ],
         ],
@@ -3724,6 +3871,16 @@ return [
                     'source' => ['label' => 'Kenton Bravo 150', 'url' => 'https://kenton.com.py/moto/bravo-150/'],
                     'accessed' => '2026-09-30',
                 ],
+                'transmision' => [
+                    'value' => 'Automática',
+                    'source' => ['label' => 'Kenton Bravo 150', 'url' => 'https://kenton.com.py/moto/bravo-150/'],
+                    'accessed' => '2026-09-30',
+                ],
+                'tanque' => [
+                    'value' => '9.5 L',
+                    'source' => ['label' => 'Kenton Bravo 150', 'url' => 'https://kenton.com.py/moto/bravo-150/'],
+                    'accessed' => '2026-09-30',
+                ],
             ],
             'prices' => [],
             'versions' => [],
@@ -3748,8 +3905,35 @@ return [
                     'source' => ['label' => 'Kenton BULL 200', 'url' => 'https://kenton.com.py/moto/bull-200/'],
                     'accessed' => '2026-09-30',
                 ],
+                'freno_del' => [
+                    'value' => 'disco',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Bull 200',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-kenton-bull-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'freno_tras' => [
+                    'value' => 'disco',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Bull 200',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-kenton-bull-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
             ],
-            'prices' => [],
+            'prices' => [
+                [
+                    'value' => 13610000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Bull 200',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-kenton-bull-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'versions' => [],
             'sources' => [
                 [
@@ -3758,6 +3942,13 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Official brand page (kenton.com.py), data from search summary',
+                ],
+                [
+                    'label' => 'Chacomer Kenton Bull 200',
+                    'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-kenton-bull-200.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer',
                 ],
             ],
         ],
@@ -3848,8 +4039,68 @@ return [
             'name' => 'Classic 150',
             'slug' => 'classic-150',
             'category' => 'naked',
-            'specs' => [],
-            'prices' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 150,
+                    'source' => [
+                        'label' => 'Chacomer Kenton Classic 150',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-classic-150.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '8.5 KW / 8000 RPM',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Classic 150',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-classic-150.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'arranque' => [
+                    'value' => 'Eléctrico/pedal',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Classic 150',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-classic-150.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'tanque' => [
+                    'value' => '11 L',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Classic 150',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-classic-150.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'motor' => [
+                    'value' => 'OHV 4 tiempos monocilíndrico',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Classic 150',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-classic-150.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Aire',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Classic 150',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-classic-150.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'prices' => [
+                [
+                    'value' => 6685000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Classic 150',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-classic-150.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'versions' => [],
             'sources' => [
                 [
@@ -3954,6 +4205,54 @@ return [
                     'source' => ['label' => 'Kenton DKR 200', 'url' => 'https://kenton.com.py/moto/dakar-200/'],
                     'accessed' => '2026-09-30',
                 ],
+                'potencia' => [
+                    'value' => '18.4 HP',
+                    'source' => [
+                        'label' => 'Chacomer Kenton DKR 200',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-dkr-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'transmision' => [
+                    'value' => 'Manual',
+                    'source' => [
+                        'label' => 'Chacomer Kenton DKR 200',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-dkr-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'freno_del' => [
+                    'value' => 'disco',
+                    'source' => [
+                        'label' => 'Chacomer Kenton DKR 200',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-dkr-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'freno_tras' => [
+                    'value' => 'disco',
+                    'source' => [
+                        'label' => 'Chacomer Kenton DKR 200',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-dkr-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'tanque' => [
+                    'value' => '12 L',
+                    'source' => [
+                        'label' => 'Chacomer Kenton DKR 200',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-dkr-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Aire',
+                    'source' => [
+                        'label' => 'Chacomer Kenton DKR 200',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-dkr-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
             ],
             'prices' => [
                 [
@@ -3961,6 +4260,16 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => ['label' => 'Kenton DKR 200', 'url' => 'https://kenton.com.py/moto/dakar-200/'],
+                    'accessed' => '2026-09-30',
+                ],
+                [
+                    'value' => 12047000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer Kenton DKR 200',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-dkr-200.html',
+                    ],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -3972,6 +4281,13 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Official brand page (kenton.com.py), data from search summary',
+                ],
+                [
+                    'label' => 'Chacomer Kenton DKR 200',
+                    'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-dkr-200.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer',
                 ],
             ],
         ],
@@ -4000,6 +4316,16 @@ return [
                     'source' => ['label' => 'E-KENTON NEXT V1', 'url' => 'https://kenton.com.py/moto/e-kenton-next-v1/'],
                     'accessed' => '2026-09-30',
                 ],
+                [
+                    'value' => 7282000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer E-Kenton Next V1 (valor mínimo)',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-electrica-kenton-next-v1.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
             ],
             'versions' => [],
             'sources' => [
@@ -4010,6 +4336,13 @@ return [
                     'method' => 'snippet',
                     'note' => 'Official brand page (kenton.com.py), data from search summary',
                 ],
+                [
+                    'label' => 'Chacomer E-Kenton Next V1',
+                    'url' => 'https://www.chacomer.com.py/motocicleta-electrica-kenton-next-v1.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer',
+                ],
             ],
         ],
         'kenton/e-kenton-next-v3' => [
@@ -4017,13 +4350,32 @@ return [
             'name' => 'E-Kenton Next V3',
             'slug' => 'e-kenton-next-v3',
             'category' => 'electrica',
-            'specs' => [],
+            'specs' => [
+                'velocidad_max' => [
+                    'value' => '55 km/h',
+                    'source' => [
+                        'label' => 'Chacomer E-Kenton Next V3',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-electrica-kenton-next-v3.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [
                 [
                     'value' => 8092000,
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => ['label' => 'E-KENTON NEXT V3', 'url' => 'https://kenton.com.py/moto/e-kenton-next-v3/'],
+                    'accessed' => '2026-09-30',
+                ],
+                [
+                    'value' => 8092000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer E-Kenton Next V3 (valor mínimo)',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-electrica-kenton-next-v3.html',
+                    ],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -4035,6 +4387,13 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Official brand page (kenton.com.py), data from search summary',
+                ],
+                [
+                    'label' => 'Chacomer E-Kenton Next V3',
+                    'url' => 'https://www.chacomer.com.py/motocicleta-electrica-kenton-next-v3.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer',
                 ],
             ],
         ],
@@ -4052,6 +4411,16 @@ return [
                     'source' => ['label' => 'E-KENTON NEXT V5', 'url' => 'https://kenton.com.py/moto/e-kenton-next-v5/'],
                     'accessed' => '2026-09-30',
                 ],
+                [
+                    'value' => 8506000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer E-Kenton Next V5 (valor mínimo)',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-electrica-kenton-next-v5.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
             ],
             'versions' => [],
             'sources' => [
@@ -4061,6 +4430,13 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Official brand page (kenton.com.py), data from search summary',
+                ],
+                [
+                    'label' => 'Chacomer E-Kenton Next V5',
+                    'url' => 'https://www.chacomer.com.py/motocicleta-electrica-kenton-next-v5.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer',
                 ],
             ],
         ],
@@ -4189,6 +4565,16 @@ return [
                     'source' => ['label' => 'Kenton FUSION 125', 'url' => 'https://kenton.com.py/moto/fusion-125/'],
                     'accessed' => '2026-09-30',
                 ],
+                [
+                    'value' => 7641000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Fusion 125',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-cub-motoneta-kenton-fusion-125.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
             ],
             'versions' => [],
             'sources' => [
@@ -4198,6 +4584,13 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Official brand page (kenton.com.py), data from search summary',
+                ],
+                [
+                    'label' => 'Chacomer Kenton Fusion 125',
+                    'url' => 'https://www.chacomer.com.py/motocicleta-cub-motoneta-kenton-fusion-125.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer',
                 ],
             ],
         ],
@@ -4213,6 +4606,16 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => ['label' => 'Kenton FUSION 135', 'url' => 'https://kenton.com.py/moto/fusion-135/'],
+                    'accessed' => '2026-09-30',
+                ],
+                [
+                    'value' => 7780000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Kenton Fusion 135 (precio contado)',
+                        'url' => 'https://kenton.com.py/moto/fusion-135/',
+                    ],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -4238,6 +4641,30 @@ return [
                     'source' => ['label' => 'Kenton GL 125', 'url' => 'https://kenton.com.py/moto/gl-125/'],
                     'accessed' => '2026-09-30',
                 ],
+                'transmision' => [
+                    'value' => 'Manual 5 velocidades',
+                    'source' => [
+                        'label' => 'Chacomer Kenton GL 125',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-gl-125.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'arranque' => [
+                    'value' => 'Eléctrico y pedal',
+                    'source' => [
+                        'label' => 'Chacomer Kenton GL 125',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-gl-125.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Aire',
+                    'source' => [
+                        'label' => 'Chacomer Kenton GL 125',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-gl-125.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
             ],
             'prices' => [
                 [
@@ -4245,6 +4672,16 @@ return [
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => ['label' => 'Kenton GL 125', 'url' => 'https://kenton.com.py/moto/gl-125/'],
+                    'accessed' => '2026-09-30',
+                ],
+                [
+                    'value' => 6618000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer Kenton GL 125 (valor mínimo)',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-gl-125.html',
+                    ],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -4256,6 +4693,13 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Official brand page (kenton.com.py), data from search summary',
+                ],
+                [
+                    'label' => 'Chacomer Kenton GL 125',
+                    'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-gl-125.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer',
                 ],
             ],
         ],
@@ -4572,13 +5016,48 @@ return [
             'name' => 'GTR 200 LTD',
             'slug' => 'gtr-200-ltd',
             'category' => 'naked',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 200,
+                    'source' => [
+                        'label' => 'Chacomer Kenton GTR 200 LTD',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-rutera-kenton-gtr-200-ltd.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '13.4 HP',
+                    'source' => [
+                        'label' => 'Chacomer Kenton GTR 200 LTD',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-rutera-kenton-gtr-200-ltd.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'tanque' => [
+                    'value' => '15 L',
+                    'source' => [
+                        'label' => 'Chacomer Kenton GTR 200 LTD',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-rutera-kenton-gtr-200-ltd.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [
                 [
                     'value' => 10833000,
                     'currency' => 'PYG',
                     'condition' => '0km',
                     'source' => ['label' => 'Kenton GTR 200 LTD', 'url' => 'https://kenton.com.py/moto/gtr-200-ltd/'],
+                    'accessed' => '2026-09-30',
+                ],
+                [
+                    'value' => 10833000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer Kenton GTR 200 LTD',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-rutera-kenton-gtr-200-ltd.html',
+                    ],
                     'accessed' => '2026-09-30',
                 ],
             ],
@@ -4590,6 +5069,13 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Official brand page (kenton.com.py), data from search summary',
+                ],
+                [
+                    'label' => 'Chacomer Kenton GTR 200 LTD',
+                    'url' => 'https://www.chacomer.com.py/motocicleta-rutera-kenton-gtr-200-ltd.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer',
                 ],
             ],
         ],
@@ -4631,6 +5117,16 @@ return [
                     'source' => ['label' => 'Kenton QUEST 200', 'url' => 'https://kenton.com.py/moto/quest-200/'],
                     'accessed' => '2026-09-30',
                 ],
+                [
+                    'value' => 22600000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Quest 200',
+                        'url' => 'https://www.chacomer.com.py/cuaciclon-atv-kenton-quest-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
             ],
             'versions' => [],
             'sources' => [
@@ -4640,6 +5136,13 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Official brand page (kenton.com.py), data from search summary',
+                ],
+                [
+                    'label' => 'Chacomer Kenton Quest 200',
+                    'url' => 'https://www.chacomer.com.py/cuaciclon-atv-kenton-quest-200.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer',
                 ],
             ],
         ],
@@ -4852,6 +5355,16 @@ return [
                     'source' => ['label' => 'Kenton Road Power 170', 'url' => 'https://kenton.com.py/moto/road-power-170/'],
                     'accessed' => '2026-09-30',
                 ],
+                [
+                    'value' => 9500000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Road Power (valor mínimo)',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-scooter-kenton-road-power.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
             ],
             'versions' => [],
             'sources' => [
@@ -4861,6 +5374,13 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Official brand page (kenton.com.py), data from search summary',
+                ],
+                [
+                    'label' => 'Chacomer Kenton Road Power',
+                    'url' => 'https://www.chacomer.com.py/motocicleta-scooter-kenton-road-power.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer',
                 ],
             ],
         ],
@@ -4957,8 +5477,67 @@ return [
                     'source' => ['label' => 'Kenton SHARK 200', 'url' => 'https://kenton.com.py/moto/shark-200/'],
                     'accessed' => '2026-09-30',
                 ],
+                'potencia' => [
+                    'value' => '13.6 HP',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Shark 200',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-shark-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'arranque' => [
+                    'value' => 'eléctrico/pedal',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Shark 200',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-shark-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'freno_del' => [
+                    'value' => 'disco',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Shark 200',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-shark-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'freno_tras' => [
+                    'value' => 'tambor',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Shark 200',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-shark-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'tanque' => [
+                    'value' => '12 L',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Shark 200',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-shark-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'altura_asiento' => [
+                    'value' => '860 mm',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Shark 200',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-shark-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
             ],
-            'prices' => [],
+            'prices' => [
+                [
+                    'value' => 10621000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Shark 200 (precio de contado)',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-shark-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'versions' => [],
             'sources' => [
                 [
@@ -4967,6 +5546,13 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Official brand page (kenton.com.py), data from search summary',
+                ],
+                [
+                    'label' => 'Chacomer Kenton Shark 200',
+                    'url' => 'https://www.chacomer.com.py/motocicleta-trail-kenton-shark-200.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer',
                 ],
             ],
         ],
@@ -5069,15 +5655,7 @@ return [
                     'accessed' => '2026-09-30',
                 ],
             ],
-            'prices' => [
-                [
-                    'value' => 15800000,
-                    'currency' => 'PYG',
-                    'condition' => '0km',
-                    'source' => ['label' => 'Kenton SPARK 125', 'url' => 'https://kenton.com.py/moto/spark-125/'],
-                    'accessed' => '2026-09-30',
-                ],
-            ],
+            'prices' => [],
             'versions' => [],
             'sources' => [
                 [
@@ -5146,15 +5724,7 @@ return [
                     'accessed' => '2026-09-30',
                 ],
             ],
-            'prices' => [
-                [
-                    'value' => 16000000,
-                    'currency' => 'PYG',
-                    'condition' => '0km',
-                    'source' => ['label' => 'Kenton SPARK 150', 'url' => 'https://kenton.com.py/moto/spark150/'],
-                    'accessed' => '2026-09-30',
-                ],
-            ],
+            'prices' => [],
             'versions' => [],
             'sources' => [
                 [
@@ -5170,6 +5740,154 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Chacomer product page',
+                ],
+            ],
+        ],
+        'kenton/stratta-200' => [
+            'brand' => 'kenton',
+            'name' => 'Stratta 200',
+            'slug' => 'stratta-200',
+            'category' => 'naked',
+            'specs' => [
+                'cc' => [
+                    'value' => 200,
+                    'source' => [
+                        'label' => 'Classic Motos Stratta 200',
+                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '15 HP',
+                    'source' => [
+                        'label' => 'Classic Motos Stratta 200',
+                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'transmision' => [
+                    'value' => 'Manual 6 velocidades',
+                    'source' => [
+                        'label' => 'Classic Motos Stratta 200',
+                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'arranque' => [
+                    'value' => 'Eléctrico',
+                    'source' => [
+                        'label' => 'Classic Motos Stratta 200',
+                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'freno_del' => [
+                    'value' => 'disco',
+                    'source' => [
+                        'label' => 'Classic Motos Stratta 200',
+                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'freno_tras' => [
+                    'value' => 'disco',
+                    'source' => [
+                        'label' => 'Classic Motos Stratta 200',
+                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'tanque' => [
+                    'value' => '13 L',
+                    'source' => [
+                        'label' => 'Classic Motos Stratta 200',
+                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'peso' => [
+                    'value' => '140 kg',
+                    'source' => [
+                        'label' => 'Classic Motos Stratta 200',
+                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Aire',
+                    'source' => [
+                        'label' => 'Classic Motos Stratta 200',
+                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'alimentacion' => [
+                    'value' => 'Carburador',
+                    'source' => [
+                        'label' => 'Classic Motos Stratta 200',
+                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'neumatico_del' => [
+                    'value' => '100/80-17',
+                    'source' => [
+                        'label' => 'Classic Motos Stratta 200',
+                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'neumatico_tras' => [
+                    'value' => '130/80-17',
+                    'source' => [
+                        'label' => 'Classic Motos Stratta 200',
+                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'altura_asiento' => [
+                    'value' => '765 mm',
+                    'source' => [
+                        'label' => 'Classic Motos Stratta 200',
+                        'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'prices' => [
+                [
+                    'value' => 13350000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Stratta 200 (valor mínimo contado)',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-stratta-200.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'versions' => [],
+            'sources' => [
+                [
+                    'label' => 'Kenton Stratta 200',
+                    'url' => 'https://kenton.com.py/moto/stratta-200/',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'official Kenton page',
+                ],
+                [
+                    'label' => 'Chacomer Kenton Stratta 200',
+                    'url' => 'https://www.chacomer.com.py/motocicleta-utilitaria-kenton-stratta-200.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer; listed as Kenton brand',
+                ],
+                [
+                    'label' => 'Classic Motos Stratta 200',
+                    'url' => 'https://www.classicmotos.com.py/producto/stratta-200/',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer spec source',
                 ],
             ],
         ],
@@ -5231,6 +5949,16 @@ return [
                     ],
                     'accessed' => '2026-09-30',
                 ],
+                [
+                    'value' => 17984000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Transporter 150 HD',
+                        'url' => 'https://www.chacomer.com.py/triciclo-motocarga-kenton-transporter-150-hd.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
             ],
             'versions' => [],
             'sources' => [
@@ -5240,6 +5968,13 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Official brand page (kenton.com.py), data from search summary',
+                ],
+                [
+                    'label' => 'Chacomer Kenton Transporter 150 HD',
+                    'url' => 'https://www.chacomer.com.py/triciclo-motocarga-kenton-transporter-150-hd.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer',
                 ],
             ],
         ],
@@ -5301,6 +6036,16 @@ return [
                     ],
                     'accessed' => '2026-09-30',
                 ],
+                [
+                    'value' => 22330000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer Kenton Transporter 210 HD',
+                        'url' => 'https://www.chacomer.com.py/triciclo-motocarga-kenton-transporter-210-hd.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
             ],
             'versions' => [],
             'sources' => [
@@ -5310,6 +6055,13 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Official brand page (kenton.com.py), data from search summary',
+                ],
+                [
+                    'label' => 'Chacomer Kenton Transporter 210 HD',
+                    'url' => 'https://www.chacomer.com.py/triciclo-motocarga-kenton-transporter-210-hd.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'retailer',
                 ],
             ],
         ],
@@ -5333,6 +6085,16 @@ return [
                     'source' => ['label' => 'Kenton VOLKANO 125', 'url' => 'https://kenton.com.py/moto/volkano-125/'],
                     'accessed' => '2026-09-30',
                 ],
+                [
+                    'value' => 11202000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Volkano 125 (precio contado)',
+                        'url' => 'https://www.chacomer.com.py/cuaciclon-atv-kenton-volkano-125.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
             ],
             'versions' => [],
             'sources' => [
@@ -5342,6 +6104,12 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Official brand page (kenton.com.py), data from search summary',
+                ],
+                [
+                    'label' => 'Volkano 125',
+                    'url' => 'https://www.chacomer.com.py/cuaciclon-atv-kenton-volkano-125.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
                 ],
             ],
         ],
@@ -5365,6 +6133,16 @@ return [
                     'source' => ['label' => 'Kenton VOLKANO 150 OFF ROAD', 'url' => 'https://kenton.com.py/familia/atv-cuaci/'],
                     'accessed' => '2026-09-30',
                 ],
+                [
+                    'value' => 16900000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Volkano 150 Off Road (precio contado)',
+                        'url' => 'https://kenton.com.py/moto/volkano-150-off-road/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
             ],
             'versions' => [],
             'sources' => [
@@ -5374,6 +6152,12 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Official brand page (kenton.com.py), data from search summary',
+                ],
+                [
+                    'label' => 'Volkano 150 Off Road',
+                    'url' => 'https://kenton.com.py/moto/volkano-150-off-road/',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
                 ],
             ],
         ],
@@ -5397,6 +6181,16 @@ return [
                     'source' => ['label' => 'Kenton VOLKANO 250 OFF ROAD', 'url' => 'https://kenton.com.py/familia/atv-cuaci/'],
                     'accessed' => '2026-09-30',
                 ],
+                [
+                    'value' => 18685000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Volkano 250 Off Road (precio contado)',
+                        'url' => 'https://www.chacomer.com.py/cuaciclon-atv-kenton-volkano-250-off-road.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
             ],
             'versions' => [],
             'sources' => [
@@ -5406,6 +6200,12 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Official brand page (kenton.com.py), data from search summary',
+                ],
+                [
+                    'label' => 'Volkano 250 Off Road',
+                    'url' => 'https://www.chacomer.com.py/cuaciclon-atv-kenton-volkano-250-off-road.html',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
                 ],
             ],
         ],
@@ -5796,6 +6596,14 @@ return [
                     ],
                     'accessed' => '2026-09-30',
                 ],
+                'refrigeracion' => [
+                    'value' => 'Aire',
+                    'source' => [
+                        'label' => 'Inverfin Triciclo Taiga TL200ZH-3 Techo',
+                        'url' => 'https://inverfin.com.py/products/99991627493312',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
             ],
             'prices' => [
                 [
@@ -5805,6 +6613,16 @@ return [
                     'source' => [
                         'label' => 'Motocarro Taiga TL200ZH-3 2024 Negro C/Techo Metal',
                         'url' => 'https://www.gonzalezgimenez.com.py/producto/6973/motocarro-taiga-tl200zh-3-2024-negro-ctecho-metal',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                [
+                    'value' => 16810000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Inverfin Triciclo Taiga TL200ZH-3 Techo (con techo)',
+                        'url' => 'https://inverfin.com.py/products/99991627493312',
                     ],
                     'accessed' => '2026-09-30',
                 ],
@@ -5824,6 +6642,12 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Distributor listing (snippet price Gs. 16.318.000 contado, regular 19.900.000; not recorded as price due to ambiguity between listings)',
+                ],
+                [
+                    'label' => 'Inverfin Triciclo Taiga TL200ZH-3 Techo',
+                    'url' => 'https://inverfin.com.py/products/99991627493312',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
                 ],
             ],
         ],
@@ -6334,6 +7158,24 @@ return [
                 ],
             ],
         ],
+        'leopard/hb-110-luxury' => [
+            'brand' => 'leopard',
+            'name' => 'HB 110 Luxury',
+            'slug' => 'hb-110-luxury',
+            'category' => 'cub',
+            'specs' => [],
+            'prices' => [],
+            'versions' => [],
+            'sources' => [
+                [
+                    'label' => 'Reimpex Leopard HB 110 Luxury',
+                    'url' => 'https://www.reimpex.com.py/leopard/4/hb-110-luxury',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'official distributor; specs not in snippet',
+                ],
+            ],
+        ],
         'leopard/hb-125-grand-tour' => [
             'brand' => 'leopard',
             'name' => 'HB 125 Grand Tour',
@@ -6548,6 +7390,40 @@ return [
                 ],
             ],
         ],
+        'leopard/hb1-125' => [
+            'brand' => 'leopard',
+            'name' => 'HB1 125',
+            'slug' => 'hb1-125',
+            'category' => 'cub',
+            'specs' => [
+                'cc' => [
+                    'value' => 125,
+                    'source' => ['label' => 'Reimpex Leopard HB1 125', 'url' => 'https://www.reimpex.com.py/leopard/12/hb1-125'],
+                    'accessed' => '2026-09-30',
+                ],
+                'motor' => [
+                    'value' => '4 tiempos',
+                    'source' => ['label' => 'Reimpex Leopard HB1 125', 'url' => 'https://www.reimpex.com.py/leopard/12/hb1-125'],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Aire',
+                    'source' => ['label' => 'Reimpex Leopard HB1 125', 'url' => 'https://www.reimpex.com.py/leopard/12/hb1-125'],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'prices' => [],
+            'versions' => [],
+            'sources' => [
+                [
+                    'label' => 'Reimpex Leopard HB1 125',
+                    'url' => 'https://www.reimpex.com.py/leopard/12/hb1-125',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'official distributor',
+                ],
+            ],
+        ],
         'leopard/ht-150-ba' => [
             'brand' => 'leopard',
             'name' => 'HT 150 BA',
@@ -6719,6 +7595,50 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Reimpex (Leopard maker/distributor) model page',
+                ],
+            ],
+        ],
+        'leopard/kh-200' => [
+            'brand' => 'leopard',
+            'name' => 'KH 200',
+            'slug' => 'kh-200',
+            'category' => 'naked',
+            'specs' => [
+                'cc' => [
+                    'value' => 200,
+                    'source' => ['label' => 'Reimpex Leopard KH 200', 'url' => 'https://www.reimpex.com.py/leopard/9/kh-200'],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '13.8 HP',
+                    'source' => ['label' => 'Reimpex Leopard KH 200', 'url' => 'https://www.reimpex.com.py/leopard/9/kh-200'],
+                    'accessed' => '2026-09-30',
+                ],
+                'transmision' => [
+                    'value' => 'Manual 5 velocidades',
+                    'source' => ['label' => 'Reimpex Leopard KH 200', 'url' => 'https://www.reimpex.com.py/leopard/9/kh-200'],
+                    'accessed' => '2026-09-30',
+                ],
+                'motor' => [
+                    'value' => '4 tiempos monocilíndrico',
+                    'source' => ['label' => 'Reimpex Leopard KH 200', 'url' => 'https://www.reimpex.com.py/leopard/9/kh-200'],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Aire',
+                    'source' => ['label' => 'Reimpex Leopard KH 200', 'url' => 'https://www.reimpex.com.py/leopard/9/kh-200'],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'prices' => [],
+            'versions' => [],
+            'sources' => [
+                [
+                    'label' => 'Reimpex Leopard KH 200',
+                    'url' => 'https://www.reimpex.com.py/leopard/9/kh-200',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'official distributor',
                 ],
             ],
         ],

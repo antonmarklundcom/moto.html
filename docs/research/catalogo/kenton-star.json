@@ -1090,20 +1090,7 @@
      "method": "snippet"
     }
    },
-   "prices": [
-    {
-     "value": 16000000,
-     "currency": "PYG",
-     "condition": "0km",
-     "seller": "Kenton (Chacomer)",
-     "source": {
-      "label": "Kenton SPARK 150",
-      "url": "https://kenton.com.py/moto/spark150/"
-     },
-     "accessed": "2026-09-30",
-     "method": "snippet"
-    }
-   ],
+   "prices": [],
    "sources": [
     {
      "label": "Kenton SPARK 150",
@@ -1139,20 +1126,7 @@
      "method": "snippet"
     }
    },
-   "prices": [
-    {
-     "value": 15800000,
-     "currency": "PYG",
-     "condition": "0km",
-     "seller": "Kenton (Chacomer)",
-     "source": {
-      "label": "Kenton SPARK 125",
-      "url": "https://kenton.com.py/moto/spark-125/"
-     },
-     "accessed": "2026-09-30",
-     "method": "snippet"
-    }
-   ],
+   "prices": [],
    "sources": [
     {
      "label": "Kenton SPARK 125",
@@ -3973,6 +3947,14 @@
   {
    "what": "kenton/bravo-150 price",
    "reason": "R1 curation: same figure as Bravo 125 in the snippet — likely misattributed"
+  },
+  {
+   "what": "kenton/spark-150 price 16000000",
+   "reason": "R1 curation: about twice the rest of the Kenton 125–150 range and flagged implausible by the round-2 pass; re-check on kenton.com.py"
+  },
+  {
+   "what": "kenton/spark-125 price 15800000",
+   "reason": "R1 curation: about twice the rest of the Kenton 125–150 range and flagged implausible by the round-2 pass; re-check on kenton.com.py"
   }
  ],
  "queries": [
