@@ -1,0 +1,1338 @@
+{
+ "brands": [
+  {
+   "slug": "yamaha",
+   "name": "Yamaha",
+   "distributor": {
+    "name": "Chacomer S.A.E.",
+    "source": {
+     "label": "Yamaha Motor Paraguay | Chacomer S.A.E.",
+     "url": "http://yamaha-motor.com.py/producto/51/xtz-150"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "Official sites yamaha.com.py / yamaha-motor.com.py; sold via chacomer.com.py. Chacomer also represents Kenton."
+  },
+  {
+   "slug": "suzuki",
+   "name": "Suzuki",
+   "distributor": {
+    "name": "Chacomer Automotores (Chacomer S.A.E.)",
+    "source": {
+     "label": "ABC Color - Suzuki Motos regresa a Paraguay con Chacomer",
+     "url": "https://www.abc.com.py/empresariales/2025/01/14/suzuki-motos-regresa-a-paraguay-con-chacomer/"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "Chacomer official representative since Jan 2025; showroom Av. San Martin c/ Lillo. Earlier importer: Censu S.A. (infonegocios.com.py/infomotor/censu-s-a-presento-tres-nuevas-motos-de-suzuki)."
+  }
+ ],
+ "models": [
+  {
+   "brand": "yamaha",
+   "name": "XTZ 150",
+   "slug": "xtz-150",
+   "category": "enduro-cross",
+   "specs": {},
+   "prices": [
+    {
+     "value": 25000000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Chacomer S.A.E.",
+     "source": {
+      "label": "Chacomer - Motocicleta Trail Yamaha XTZ150",
+      "url": "https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz150.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Chacomer - Motocicleta Trail Yamaha XTZ150",
+     "url": "https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz150.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor (Chacomer) product page"
+    },
+    {
+     "label": "Yamaha Motor Paraguay - xtz-150",
+     "url": "http://yamaha-motor.com.py/producto/51/xtz-150",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Brand PY site; result listed but specs in summary not attributable to it, so dropped"
+    }
+   ],
+   "notes": "Price is the 'valor minimo' Chacomer shows. Specs omitted: search summary mixed Paraguayan and foreign (MX/CO) sources."
+  },
+  {
+   "brand": "yamaha",
+   "name": "XTZ 125",
+   "slug": "xtz-125",
+   "category": "enduro-cross",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Chacomer - Motocicleta Trail Yamaha XTZ125",
+     "url": "https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz125.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor (Chacomer) product page"
+    }
+   ],
+   "notes": "Chacomer page exists (trail). Snippet gave inconsistent prices (min 21,210,000 vs white/black 20,200,000) so no price recorded. Specs not from a Paraguayan source."
+  },
+  {
+   "brand": "yamaha",
+   "name": "XTZ 250",
+   "slug": "xtz-250",
+   "category": "enduro-cross",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Chacomer - Motocicleta Enduro Yamaha XTZ 250",
+     "url": "https://www.chacomer.com.py/motocicleta-enduro-yamaha-xtz-250.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor (Chacomer) product page"
+    },
+    {
+     "label": "Yamaha Motor Paraguay - xtz-250",
+     "url": "http://yamaha-motor.com.py/producto/34/xtz-250",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Brand PY site page exists"
+    }
+   ],
+   "notes": "Price = 'valor minimo' in snippet; snippet also listed other figures (39,226,950; 40,411,035; 53,032,455) not attributable to a variant. Specs omitted (snippet aggregated LatAm sources)."
+  },
+  {
+   "brand": "yamaha",
+   "name": "YBR 125Z",
+   "slug": "ybr-125z",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 123,
+     "source": {
+      "label": "Chacomer - YBR125Z",
+      "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "10.7 bHP",
+     "source": {
+      "label": "Chacomer - YBR125Z",
+      "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "14 L",
+     "source": {
+      "label": "Chacomer - YBR125Z",
+      "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Mecanica",
+     "source": {
+      "label": "Chacomer - YBR125Z",
+      "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Electrico",
+     "source": {
+      "label": "Chacomer - YBR125Z",
+      "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco 130 mm",
+     "source": {
+      "label": "Chacomer - YBR125Z",
+      "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Disco 130 mm",
+     "source": {
+      "label": "Chacomer - YBR125Z",
+      "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Monocilindrico, 4 tiempos, 2 valvulas, SOHC",
+     "source": {
+      "label": "Chacomer - YBR125Z",
+      "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Chacomer - YBR125Z",
+      "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 16800000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Chacomer S.A.E.",
+     "source": {
+      "label": "Chacomer - YBR125Z",
+      "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Chacomer - Motocicleta Utilitaria Yamaha YBR125Z",
+     "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-ybr125z.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor (Chacomer) product page"
+    },
+    {
+     "label": "Yamaha Motor Paraguay - ybr-125-z",
+     "url": "http://yamaha-motor.com.py/producto/4/ybr-125-z",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Brand PY site"
+    }
+   ],
+   "notes": "Chacomer classifies as 'utilitaria'."
+  },
+  {
+   "brand": "yamaha",
+   "name": "Crypton",
+   "slug": "crypton",
+   "category": "cub",
+   "specs": {
+    "cc": {
+     "value": 110,
+     "source": {
+      "label": "Chacomer - Motocicleta Cub Yamaha Crypton",
+      "url": "https://www.chacomer.com.py/moto/yamaha.html?cilindrada=110+CC&modelo=CRYPTON"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Monocilindrico, 4 tiempos, 2 valvulas, SOHC",
+     "source": {
+      "label": "Chacomer - Crypton",
+      "url": "https://www.chacomer.com.py/moto-yamaha-t110c-crypton-negro.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Chacomer - Crypton",
+      "url": "https://www.chacomer.com.py/moto-yamaha-t110c-crypton-negro.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Semiautomatica",
+     "source": {
+      "label": "Chacomer - Crypton",
+      "url": "https://www.chacomer.com.py/moto-yamaha-t110c-crypton-negro.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Carburador",
+     "source": {
+      "label": "Chacomer - Crypton",
+      "url": "https://www.chacomer.com.py/moto-yamaha-t110c-crypton-negro.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "70/90 R17",
+     "source": {
+      "label": "Chacomer - Crypton",
+      "url": "https://www.chacomer.com.py/moto-yamaha-t110c-crypton-negro.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 13990000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Chacomer S.A.E.",
+     "source": {
+      "label": "Chacomer - Moto Yamaha T110C Crypton Negro",
+      "url": "https://www.chacomer.com.py/moto-yamaha-t110c-crypton-negro.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [
+    "T110C Crypton"
+   ],
+   "sources": [
+    {
+     "label": "Chacomer - Moto Yamaha T110C Crypton Negro",
+     "url": "https://www.chacomer.com.py/moto-yamaha-t110c-crypton-negro.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor (Chacomer) product page"
+    },
+    {
+     "label": "Chacomer - Motocicleta Cub Yamaha Crypton",
+     "url": "https://www.chacomer.com.py/motocicleta-cub-yamaha-crypton.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor (Chacomer) product page"
+    }
+   ],
+   "notes": "Price snippet mentions free pickup included."
+  },
+  {
+   "brand": "yamaha",
+   "name": "YC-Z 110",
+   "slug": "yc-z-110",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 110,
+     "source": {
+      "label": "Chacomer - YC-Z 110",
+      "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-yc-z-110.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "7.3 HP",
+     "source": {
+      "label": "Chacomer - YC-Z 110",
+      "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-yc-z-110.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "7.2 L",
+     "source": {
+      "label": "Chacomer - YC-Z 110",
+      "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-yc-z-110.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Mecanica",
+     "source": {
+      "label": "Chacomer - YC-Z 110",
+      "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-yc-z-110.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Carburador",
+     "source": {
+      "label": "Chacomer - YC-Z 110",
+      "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-yc-z-110.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Chacomer - YC-Z 110",
+      "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-yc-z-110.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 11500000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Chacomer S.A.E.",
+     "source": {
+      "label": "Chacomer - YC-Z 110",
+      "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-yc-z-110.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Chacomer - Motocicleta Utilitaria Yamaha YC-Z 110",
+     "url": "https://www.chacomer.com.py/motocicleta-utilitaria-yamaha-yc-z-110.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor (Chacomer) product page"
+    }
+   ],
+   "cuotas": "Chacomer: 3 to 36 cuotas available (amount not stated).",
+   "notes": "Price is 'valor minimo' shown by Chacomer. Whether price snippet belongs to YC-Z 110 is per search summary of chacomer.com.py."
+  },
+  {
+   "brand": "yamaha",
+   "name": "YBR 125E",
+   "slug": "ybr-125e",
+   "category": "naked",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Yamaha Motor Paraguay - ybr-125-e",
+     "url": "http://yamaha-motor.com.py/producto/52/ybr-125-e",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Brand PY site product page"
+    }
+   ],
+   "notes": "Only page existence confirmed; no figures."
+  },
+  {
+   "brand": "yamaha",
+   "name": "FZ-25 ABS",
+   "slug": "fz-25",
+   "category": "naked",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Chacomer - Motocicleta Sport Yamaha FZ-25 ABS",
+     "url": "https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor (Chacomer) product page"
+    },
+    {
+     "label": "Yamaha Paraguay - Motos",
+     "url": "https://yamaha.com.py/motos/?orderby=price-desc&product_count=36",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Brand PY site"
+    }
+   ],
+   "cuotas": "Yamaha PY site: cuota Gs. 1.115.000 (per snippet).",
+   "notes": "Cash price from snippet attributed to official Yamaha Paraguay; the Chacomer listing snippet showed an implausible PYG 126,300 which was dropped."
+  },
+  {
+   "brand": "yamaha",
+   "name": "MT-03",
+   "slug": "mt-03",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 321,
+     "source": {
+      "label": "Obedira - Chacomer presenta la Nueva Yamaha MT-03",
+      "url": "https://www.obedira.com.py/chacomer-presenta-la-nueva-yamaha-mt-03/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "41.4 HP a 10,750 RPM",
+     "source": {
+      "label": "Obedira",
+      "url": "https://www.obedira.com.py/chacomer-presenta-la-nueva-yamaha-mt-03/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "torque": {
+     "value": "29.66 NM a 9,000 RPM",
+     "source": {
+      "label": "Obedira",
+      "url": "https://www.obedira.com.py/chacomer-presenta-la-nueva-yamaha-mt-03/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "14 L",
+     "source": {
+      "label": "Obedira",
+      "url": "https://www.obedira.com.py/chacomer-presenta-la-nueva-yamaha-mt-03/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Manual 6 velocidades",
+     "source": {
+      "label": "Obedira",
+      "url": "https://www.obedira.com.py/chacomer-presenta-la-nueva-yamaha-mt-03/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Electrico",
+     "source": {
+      "label": "Obedira",
+      "url": "https://www.obedira.com.py/chacomer-presenta-la-nueva-yamaha-mt-03/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "4 tiempos DOHC bicilindrico, 4 valvulas",
+     "source": {
+      "label": "Obedira",
+      "url": "https://www.obedira.com.py/chacomer-presenta-la-nueva-yamaha-mt-03/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Liquida",
+     "source": {
+      "label": "Obedira",
+      "url": "https://www.obedira.com.py/chacomer-presenta-la-nueva-yamaha-mt-03/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Inyeccion",
+     "source": {
+      "label": "Obedira",
+      "url": "https://www.obedira.com.py/chacomer-presenta-la-nueva-yamaha-mt-03/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 7900,
+     "currency": "USD",
+     "condition": "0km",
+     "seller": "Chacomer S.A.E.",
+     "source": {
+      "label": "Chacomer - Moto Yamaha MT-03 ABS Negro",
+      "url": "https://www.chacomer.com.py/5901387an-moto-yamaha-mt-03-abs-negro.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [
+    "MT-03 ABS"
+   ],
+   "sources": [
+    {
+     "label": "Chacomer - Motocicleta Sport Yamaha MT-03",
+     "url": "https://www.chacomer.com.py/motocicleta-sport-yamaha-mt-03.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor (Chacomer) product page"
+    },
+    {
+     "label": "Obedira - Chacomer presenta la Nueva Yamaha MT-03",
+     "url": "https://www.obedira.com.py/chacomer-presenta-la-nueva-yamaha-mt-03/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press"
+    },
+    {
+     "label": "Infonegocios - Nueva Yamaha MT-03 en Paraguay",
+     "url": "https://infonegocios.com.py/conosur/nueva-yamaha-mt-03-en-paraguay-destacan-su-diseno-agresivo-e-innovaciones-tecnologicas",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press"
+    }
+   ],
+   "cuotas": "Obedira: financing from USD 228.53 (cuota).",
+   "years": "2026 (new generation launched Dec 2025)"
+  },
+  {
+   "brand": "yamaha",
+   "name": "MT-07",
+   "slug": "mt-07",
+   "category": "naked",
+   "specs": {},
+   "prices": [
+    {
+     "value": 11900,
+     "currency": "USD",
+     "condition": "0km",
+     "seller": "Yamaha Motor Paraguay",
+     "source": {
+      "label": "Yamaha Paraguay - Motos",
+      "url": "https://yamaha.com.py/motos/?orderby=price-desc&product_count=36"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [
+    "MT-07 ABS"
+   ],
+   "sources": [
+    {
+     "label": "Chacomer - Motocicleta Sport Yamaha MT-07 ABS",
+     "url": "https://www.chacomer.com.py/motocicleta-sport-yamaha-mt-07-abs.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor (Chacomer) product page"
+    },
+    {
+     "label": "Yamaha Paraguay - Motos",
+     "url": "https://yamaha.com.py/motos/?orderby=price-desc&product_count=36",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Brand PY site"
+    }
+   ],
+   "notes": "USD 11,900 is cash ('contado') price per snippet."
+  },
+  {
+   "brand": "yamaha",
+   "name": "MT-09",
+   "slug": "mt-09",
+   "category": "naked",
+   "specs": {},
+   "prices": [
+    {
+     "value": 14900,
+     "currency": "USD",
+     "condition": "0km",
+     "seller": "Chacomer S.A.E.",
+     "source": {
+      "label": "Chacomer - Moto Yamaha MT-09 ABS Negro",
+      "url": "https://www.chacomer.com.py/moto/moto-yamaha-mt-09-abs-negro.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [
+    "MT-09 ABS"
+   ],
+   "sources": [
+    {
+     "label": "Chacomer - Moto Yamaha MT-09 ABS Negro",
+     "url": "https://www.chacomer.com.py/moto/moto-yamaha-mt-09-abs-negro.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor (Chacomer) product page"
+    }
+   ],
+   "notes": "Listed out of stock at time of snippet. Silver variant snippet showed 14,049 (inconsistent), not recorded."
+  },
+  {
+   "brand": "yamaha",
+   "name": "Tenere 700",
+   "slug": "tenere-700",
+   "category": "touring",
+   "specs": {},
+   "prices": [
+    {
+     "value": 16300,
+     "currency": "USD",
+     "condition": "0km",
+     "seller": "Chacomer S.A.E.",
+     "source": {
+      "label": "Chacomer - Yamaha XTZ690 (Tenere 700) Azul",
+      "url": "https://www.chacomer.com.py/motocicleta-yamaha-xtz690-tenere-700-azul.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [
+    "XTZ690 Tenere 700"
+   ],
+   "sources": [
+    {
+     "label": "Chacomer - Yamaha XTZ690 (Tenere 700) Azul",
+     "url": "https://www.chacomer.com.py/motocicleta-yamaha-xtz690-tenere-700-azul.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor (Chacomer) product page"
+    },
+    {
+     "label": "Chacomer - Yamaha XTZ690 (Tenere 700) Blanco",
+     "url": "https://www.chacomer.com.py/motocicleta-yamaha-xtz690-tenere-700-blanco.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor (Chacomer) product page"
+    }
+   ],
+   "notes": "White variant snippet showed 16,393 (possibly typo), not recorded."
+  },
+  {
+   "brand": "suzuki",
+   "name": "V-Strom 250",
+   "slug": "v-strom-250",
+   "category": "touring",
+   "specs": {
+    "cc": {
+     "value": 249,
+     "source": {
+      "label": "suzukimotos.com.py V-STROM 250SX",
+      "url": "https://suzukimotos.com.py/modelo/v-strom-250sx"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "12 L",
+     "source": {
+      "label": "suzukimotos.com.py V-STROM 250SX",
+      "url": "https://suzukimotos.com.py/modelo/v-strom-250sx"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Electrico",
+     "source": {
+      "label": "suzukimotos.com.py V-STROM 250SX",
+      "url": "https://suzukimotos.com.py/modelo/v-strom-250sx"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "altura_asiento": {
+     "value": "835 mm",
+     "source": {
+      "label": "suzukimotos.com.py V-STROM 250SX",
+      "url": "https://suzukimotos.com.py/modelo/v-strom-250sx"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "167 kg",
+     "source": {
+      "label": "suzukimotos.com.py V-STROM 250SX",
+      "url": "https://suzukimotos.com.py/modelo/v-strom-250sx"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 4990,
+     "currency": "USD",
+     "condition": "0km",
+     "seller": "Suzuki Motos Paraguay (Chacomer Automotores)",
+     "source": {
+      "label": "suzukimotos.com.py V-STROM 250SX",
+      "url": "https://suzukimotos.com.py/modelo/v-strom-250sx"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [
+    "V-Strom 250SX"
+   ],
+   "sources": [
+    {
+     "label": "suzukimotos.com.py V-STROM 250SX",
+     "url": "https://suzukimotos.com.py/modelo/v-strom-250sx",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Brand PY site"
+    },
+    {
+     "label": "ABC Color - Suzuki Motos regresa a Paraguay con Chacomer",
+     "url": "https://www.abc.com.py/empresariales/2025/01/14/suzuki-motos-regresa-a-paraguay-con-chacomer/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press naming model as launch lineup"
+    },
+    {
+     "label": "Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos",
+     "url": "https://www.ultimahora.com/motos-suzuki-llegan-a-paraguay-con-variados-modelos",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press"
+    }
+   ],
+   "cuotas": "From USD 158 (cuotas), same page."
+  },
+  {
+   "brand": "suzuki",
+   "name": "V-Strom 650",
+   "slug": "v-strom-650",
+   "category": "touring",
+   "specs": {},
+   "prices": [
+    {
+     "value": 10990,
+     "currency": "USD",
+     "condition": "0km",
+     "seller": "Suzuki Motos Paraguay (Chacomer Automotores)",
+     "source": {
+      "label": "suzukimotos.com.py V-Strom 650/XT",
+      "url": "https://suzukimotos.com.py/modelo/v-strom-650xt"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [
+    "V-Strom 650XT"
+   ],
+   "sources": [
+    {
+     "label": "suzukimotos.com.py V-STROM 650XT",
+     "url": "https://suzukimotos.com.py/modelo/v-strom-650xt",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Brand PY site"
+    },
+    {
+     "label": "ABC Color - Suzuki Motos regresa a Paraguay con Chacomer",
+     "url": "https://www.abc.com.py/empresariales/2025/01/14/suzuki-motos-regresa-a-paraguay-con-chacomer/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press naming model as launch lineup"
+    },
+    {
+     "label": "Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos",
+     "url": "https://www.ultimahora.com/motos-suzuki-llegan-a-paraguay-con-variados-modelos",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press"
+    }
+   ],
+   "cuotas": "From USD 349.",
+   "notes": "Specs omitted: only non-Paraguayan sources returned."
+  },
+  {
+   "brand": "suzuki",
+   "name": "V-Strom 800",
+   "slug": "v-strom-800",
+   "category": "touring",
+   "specs": {},
+   "prices": [
+    {
+     "value": 13990,
+     "currency": "USD",
+     "condition": "0km",
+     "seller": "Suzuki Motos Paraguay (Chacomer Automotores)",
+     "source": {
+      "label": "suzukimotos.com.py V-STROM 800DE",
+      "url": "https://suzukimotos.com.py/modelo/v-strom-800de"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [
+    "V-Strom 800DE"
+   ],
+   "sources": [
+    {
+     "label": "suzukimotos.com.py V-STROM 800DE",
+     "url": "https://suzukimotos.com.py/modelo/v-strom-800de",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Brand PY site"
+    },
+    {
+     "label": "ABC Color - Suzuki Motos regresa a Paraguay con Chacomer",
+     "url": "https://www.abc.com.py/empresariales/2025/01/14/suzuki-motos-regresa-a-paraguay-con-chacomer/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press naming model as launch lineup"
+    },
+    {
+     "label": "Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos",
+     "url": "https://www.ultimahora.com/motos-suzuki-llegan-a-paraguay-con-variados-modelos",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press"
+    }
+   ],
+   "cuotas": "From USD 444."
+  },
+  {
+   "brand": "suzuki",
+   "name": "V-Strom 1050",
+   "slug": "v-strom-1050",
+   "category": "touring",
+   "specs": {},
+   "prices": [
+    {
+     "value": 16990,
+     "currency": "USD",
+     "condition": "0km",
+     "seller": "Suzuki Motos Paraguay (Chacomer Automotores)",
+     "source": {
+      "label": "suzukimotos.com.py V-STROM 1.050DE",
+      "url": "https://suzukimotos.com.py/modelo/v-strom-1-050de"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [
+    "V-Strom 1050DE"
+   ],
+   "sources": [
+    {
+     "label": "suzukimotos.com.py V-STROM 1.050DE",
+     "url": "https://suzukimotos.com.py/modelo/v-strom-1-050de",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Brand PY site"
+    },
+    {
+     "label": "ABC Color - Suzuki Motos regresa a Paraguay con Chacomer",
+     "url": "https://www.abc.com.py/empresariales/2025/01/14/suzuki-motos-regresa-a-paraguay-con-chacomer/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press naming model as launch lineup"
+    },
+    {
+     "label": "Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos",
+     "url": "https://www.ultimahora.com/motos-suzuki-llegan-a-paraguay-con-variados-modelos",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press"
+    }
+   ],
+   "cuotas": "From USD 539."
+  },
+  {
+   "brand": "suzuki",
+   "name": "DR 650",
+   "slug": "dr-650",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 644,
+     "source": {
+      "label": "suzukimotos.com.py DR650",
+      "url": "https://suzukimotos.com.py/modelo/dr650"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "43 HP",
+     "source": {
+      "label": "suzukimotos.com.py DR650",
+      "url": "https://suzukimotos.com.py/modelo/dr650"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "166 kg",
+     "source": {
+      "label": "suzukimotos.com.py DR650",
+      "url": "https://suzukimotos.com.py/modelo/dr650"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "12 L",
+     "source": {
+      "label": "suzukimotos.com.py DR650",
+      "url": "https://suzukimotos.com.py/modelo/dr650"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "5 velocidades",
+     "source": {
+      "label": "suzukimotos.com.py DR650",
+      "url": "https://suzukimotos.com.py/modelo/dr650"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Electrico",
+     "source": {
+      "label": "suzukimotos.com.py DR650",
+      "url": "https://suzukimotos.com.py/modelo/dr650"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire y aceite",
+     "source": {
+      "label": "suzukimotos.com.py DR650",
+      "url": "https://suzukimotos.com.py/modelo/dr650"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Carburador",
+     "source": {
+      "label": "suzukimotos.com.py DR650",
+      "url": "https://suzukimotos.com.py/modelo/dr650"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Monocilindrico 4 tiempos SOHC",
+     "source": {
+      "label": "suzukimotos.com.py DR650",
+      "url": "https://suzukimotos.com.py/modelo/dr650"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 8990,
+     "currency": "USD",
+     "condition": "0km",
+     "seller": "Suzuki Motos Paraguay (Chacomer Automotores)",
+     "source": {
+      "label": "suzukimotos.com.py DR650",
+      "url": "https://suzukimotos.com.py/modelo/dr650"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "suzukimotos.com.py DR650",
+     "url": "https://suzukimotos.com.py/modelo/dr650",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Brand PY site"
+    },
+    {
+     "label": "ABC Color - Suzuki Motos regresa a Paraguay con Chacomer",
+     "url": "https://www.abc.com.py/empresariales/2025/01/14/suzuki-motos-regresa-a-paraguay-con-chacomer/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press naming model as launch lineup"
+    },
+    {
+     "label": "Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos",
+     "url": "https://www.ultimahora.com/motos-suzuki-llegan-a-paraguay-con-variados-modelos",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press"
+    }
+   ],
+   "cuotas": "From USD 285."
+  },
+  {
+   "brand": "suzuki",
+   "name": "Gixxer 150",
+   "slug": "gixxer-150",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 155,
+     "source": {
+      "label": "suzuki.com.py / suzukimotos.com.py Gixxer 150",
+      "url": "https://suzukimotos.com.py/modelo/gixxer-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "5 velocidades",
+     "source": {
+      "label": "Suzuki PY Gixxer 150",
+      "url": "https://suzukimotos.com.py/modelo/gixxer-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Inyeccion",
+     "source": {
+      "label": "Suzuki PY Gixxer 150",
+      "url": "https://suzukimotos.com.py/modelo/gixxer-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Suzuki PY Gixxer 150",
+      "url": "https://suzukimotos.com.py/modelo/gixxer-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "12 L",
+     "source": {
+      "label": "Suzuki PY Gixxer 150",
+      "url": "https://suzukimotos.com.py/modelo/gixxer-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Electrico y pedal",
+     "source": {
+      "label": "Suzuki PY Gixxer 150",
+      "url": "https://suzukimotos.com.py/modelo/gixxer-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 17899000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Suzuki Motos Paraguay (Chacomer Automotores)",
+     "source": {
+      "label": "suzukimotos.com.py Gixxer 150",
+      "url": "https://suzukimotos.com.py/modelo/gixxer-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "suzukimotos.com.py GIXXER 150",
+     "url": "https://suzukimotos.com.py/modelo/gixxer-150",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Brand PY site"
+    },
+    {
+     "label": "suzuki.com.py Gixxer DXA 150",
+     "url": "https://www.suzuki.com.py/moto/gixxer-dxa-150/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Brand PY site"
+    },
+    {
+     "label": "ABC Color - Suzuki Motos regresa a Paraguay con Chacomer",
+     "url": "https://www.abc.com.py/empresariales/2025/01/14/suzuki-motos-regresa-a-paraguay-con-chacomer/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press naming model as launch lineup"
+    },
+    {
+     "label": "Ultima Hora - Motos Suzuki llegan a Paraguay con variados modelos",
+     "url": "https://www.ultimahora.com/motos-suzuki-llegan-a-paraguay-con-variados-modelos",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press"
+    }
+   ],
+   "cuotas": "From Gs. 685,000 per month.",
+   "notes": "Snippet credited suzuki.com.py for figures; also a DXA 150 page exists."
+  },
+  {
+   "brand": "suzuki",
+   "name": "Gixxer 250",
+   "slug": "gixxer-250",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 249,
+     "source": {
+      "label": "suzukimotos.com.py Gixxer 250",
+      "url": "https://suzukimotos.com.py/modelo/gixxer-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "6 velocidades",
+     "source": {
+      "label": "suzukimotos.com.py Gixxer 250",
+      "url": "https://suzukimotos.com.py/modelo/gixxer-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "12 L",
+     "source": {
+      "label": "suzukimotos.com.py Gixxer 250",
+      "url": "https://suzukimotos.com.py/modelo/gixxer-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Electrico",
+     "source": {
+      "label": "suzukimotos.com.py Gixxer 250",
+      "url": "https://suzukimotos.com.py/modelo/gixxer-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aceite",
+     "source": {
+      "label": "suzukimotos.com.py Gixxer 250",
+      "url": "https://suzukimotos.com.py/modelo/gixxer-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Inyeccion electronica",
+     "source": {
+      "label": "suzukimotos.com.py Gixxer 250",
+      "url": "https://suzukimotos.com.py/modelo/gixxer-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 27170000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Suzuki Motos Paraguay (Chacomer Automotores)",
+     "source": {
+      "label": "suzukimotos.com.py Gixxer 250",
+      "url": "https://suzukimotos.com.py/modelo/gixxer-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "suzukimotos.com.py GIXXER 250",
+     "url": "https://suzukimotos.com.py/modelo/gixxer-250",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Brand PY site"
+    }
+   ],
+   "cuotas": "From Gs. 1,040,000 per month."
+  }
+ ],
+ "rejected": [
+  {
+   "what": "Yamaha NMAX, XMAX, Aerox, Ray ZR, YZF-R3",
+   "reason": "Only Brazil/Colombia/Mexico results; no Paraguayan page found"
+  },
+  {
+   "what": "Yamaha YZF-R6, DT125",
+   "reason": "Only Chacomer spare-part listings found, not bikes"
+  },
+  {
+   "what": "Yamaha Fazer/FZ-S, YBR 150, Crux, YZ, Grizzly/Kodiak",
+   "reason": "No Paraguayan evidence found in searches"
+  },
+  {
+   "what": "Suzuki GN 125, EN 125, Burgman, GSX-8S, Hayabusa, AX 100",
+   "reason": "No Paraguayan evidence found (GN125 only Peru)"
+  },
+  {
+   "what": "XTZ 150 specs, V-Strom 650 specs, XTZ 250 specs, XTZ 125 specs",
+   "reason": "Snippets aggregated non-Paraguayan sources; dropped per bar"
+  },
+  {
+   "what": "yamaha/fz-25 price 27.170.000",
+   "reason": "R1 curation: read from a yamaha.com.py listing page and identical to the Suzuki Gixxer 250 price — likely misattributed by the search summary"
+  },
+  {
+   "what": "yamaha/xtz-250 price 39.643.695",
+   "reason": "R1 curation: round 2 got a different chacomer figure on each run (39.226.950 / 40.258.890); none is reliable — superseded in round 3: r3-seeds.json found Gs. 39.226.950 on three agreeing searches (Chacomer \"desde\"), which is the price kept"
+  }
+ ],
+ "queries": [
+  "yamaha.com.py XTZ 150 ficha técnica precio Chacomer",
+  "chacomer.com.py motocicleta yamaha xtz150 ficha técnica",
+  "Chacomer Yamaha motos catálogo modelos precio Gs.",
+  "Suzuki Motos regresa a Paraguay con Chacomer",
+  "chacomer.com.py Suzuki V-Strom 250 moto precio",
+  "chacomer.com.py Suzuki Gixxer 150 moto precio ficha",
+  "chacomer.com.py Yamaha YBR 125Z moto",
+  "chacomer.com.py Yamaha Crypton moto precio",
+  "chacomer.com.py Yamaha XTZ 250 moto precio",
+  "chacomer.com.py Yamaha MT-03 MT-07 moto 0km precio",
+  "yamaha.com.py motos listado precios FZ Fazer NMAX XMAX Aerox R3 Ray ZR",
+  "chacomer.com.py motocicleta yamaha FZ 25 FZ-S Fazer 150 precio",
+  "chacomer.com.py yamaha NMAX XMAX Aerox scooter precio",
+  "chacomer.com.py yamaha R3 Tenere 700 MT-09 precio moto",
+  "suzukimotos.com.py modelos GN 125 V-Strom 650 DR 650 Burgman GSX-8S precio",
+  "Motos Suzuki llegan a Paraguay con variados modelos Última Hora",
+  "suzukimotos.com.py V-STROM 1.050DE contado cuotas USD",
+  "suzukimotos.com.py GIXXER 250 contado cuotas",
+  "suzukimotos.com.py modelo v-strom-650xt ficha técnica motor potencia",
+  "suzukimotos.com.py modelo DR650 motor cilindrada potencia peso tanque",
+  "chacomer.com.py motocicleta yamaha XTZ125 precio",
+  "chacomer.com.py yamaha YZF-R3 OR Ray ZR OR FZ-S OR YBR 150 OR YC-Z motocicleta",
+  "yamaha-motor.com.py producto xtz-250 cilindrada potencia peso tanque",
+  "yamaha-motor.com.py producto xtz-125 ficha técnica",
+  "yamaha.com.py MT-03 cilindrada potencia precio contado cuotas",
+  "Chacomer presenta la Nueva Yamaha MT-03 obedira",
+  "WebFetch www.yamaha.com.py (EGRESS_BLOCKED)"
+ ]
+}

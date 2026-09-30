@@ -17,6 +17,9 @@
 
 declare(strict_types=1);
 
+/** Units for spec keys whose value the catalogue stores as a bare number. */
+const SPEC_UNITS = ['cc' => 'cc'];
+
 /** Days a published price stays visible after it was consulted (D6). */
 const PRICE_MAX_AGE_DAYS = 120;
 
@@ -116,7 +119,8 @@ function fact_age_days(array $fact, ?string $today = null): ?int
  */
 function price_is_current(mixed $fact, ?string $today = null): bool
 {
-    if (!is_array($fact) || !is_numeric($fact['value'] ?? null) || (int) $fact['value'] <= 0) {
+    if (!is_array($fact) || !is_numeric($fact['value'] ?? null) || (int) $fact['value'] <= 0
+        || !in_array(strtoupper((string) ($fact['currency'] ?? 'PYG')), ['PYG', 'USD'], true)) {
         return false;
     }
     $age = fact_age_days($fact, $today);
@@ -132,9 +136,12 @@ function price_is_current(mixed $fact, ?string $today = null): bool
  * The display text of a fact's value: numbers get the market's thousands
  * separator and the optional unit; strings are shown as written.
  */
-function fact_value_text(array $fact): string
+function fact_value_text(array $fact, ?string $specKey = null): string
 {
     $value = $fact['value'];
+    if (!isset($fact['unit']) && $specKey !== null && (is_int($value) || is_float($value))) {
+        $fact['unit'] = SPEC_UNITS[$specKey] ?? null;          // R1 stores cc as a bare int
+    }
     if (is_int($value) || is_float($value)) {
         $text = number_format((float) $value, is_float($value) && floor($value) != $value ? 1 : 0, ',', '.');
     } else {
@@ -159,12 +166,26 @@ function spec_label(string $key): string
 }
 
 /**
+ * A price as text in its own currency: "Gs. 12.500.000" (fmt_money, D9) or
+ * "US$ 3.990" for the few distributors that publish in dollars.
+ */
+function price_text(array $fact): string
+{
+    $currency = strtoupper((string) ($fact['currency'] ?? 'PYG'));
+
+    return $currency === 'USD'
+        ? 'US$ ' . number_format((float) $fact['value'], 0, ',', '.')
+        : fmt_money((int) $fact['value']);
+}
+
+/**
  * Render one fact through partials/fact.php and return the HTML. '' when the
  * fact is incomplete (or an expired price): a missing fact shows nothing.
  *
- *   $kind  'spec' (value + source + date) or 'price' (D6 wording)
+ *   $kind     'spec' (value + source + date) or 'price' (D6 wording)
+ *   $specKey  the catalogue spec key, for a unit a bare number lacks (cc)
  */
-function fact_html(mixed $fact, string $kind = 'spec'): string
+function fact_html(mixed $fact, string $kind = 'spec', ?string $specKey = null): string
 {
     if ($kind === 'price' ? !price_is_current($fact) : !fact_ok($fact)) {
         return '';
@@ -173,6 +194,7 @@ function fact_html(mixed $fact, string $kind = 'spec'): string
     ob_start();
     $factItem = $fact;
     $factKind = $kind;
+    $factSpec = $specKey;
     require ROOT_DIR . '/partials/fact.php';
 
     return (string) ob_get_clean();

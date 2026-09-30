@@ -22,7 +22,7 @@ $prices = modelo_current_prices($key);
 
 /* Consumption, top speed and range get their own section (PLAN §2.1): they
    are separate searches ("{modelo} consumo"). */
-$usageKeys  = ['consumo', 'velocidad_maxima', 'autonomia'];
+$usageKeys  = ['consumo', 'velocidad_max', 'velocidad_maxima', 'autonomia'];
 $usage      = array_intersect_key($specs, array_flip($usageKeys));
 $fichaSpecs = array_diff_key($specs, $usage);
 
@@ -56,7 +56,7 @@ foreach (['ficha' => [ui('model.specs'), $fichaSpecs], 'consumo' => [ui('model.c
     <table class="data-table spec-table">
       <tbody>
         <?php foreach ($rows as $specKey => $fact): ?>
-          <tr><th scope="row"><?= e(spec_label((string) $specKey)) ?></th><td><?= fact_html($fact) ?></td></tr>
+          <tr><th scope="row"><?= e(spec_label((string) $specKey)) ?></th><td><?= fact_html($fact, 'spec', (string) $specKey) ?></td></tr>
         <?php endforeach; ?>
       </tbody>
     </table>

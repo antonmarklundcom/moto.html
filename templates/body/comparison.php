@@ -35,7 +35,7 @@ $rows = comparison_rows($key);
       <thead><tr><th scope="col"><?= e(ui('compare.spec')) ?></th><th scope="col"><?= e(modelo_name($a)) ?></th><th scope="col"><?= e(modelo_name($b)) ?></th></tr></thead>
       <tbody>
         <?php foreach ($rows as $spec => [$fa, $fb]): ?>
-          <tr><th scope="row"><?= e(spec_label((string) $spec)) ?></th><td><?= fact_html($fa) ?></td><td><?= fact_html($fb) ?></td></tr>
+          <tr><th scope="row"><?= e(spec_label((string) $spec)) ?></th><td><?= fact_html($fa, 'spec', (string) $spec) ?></td><td><?= fact_html($fb, 'spec', (string) $spec) ?></td></tr>
         <?php endforeach; ?>
       </tbody>
     </table>

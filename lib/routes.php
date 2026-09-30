@@ -17,8 +17,10 @@
  *   never       content/pages.php with gate => 'never' (/gracias, legal)
  *
  * In production a route is served by its route file, <path>/index.php, three
- * lines long (bootstrap, $key, the template). [DEV] routes have no route
- * file: router.php renders them with render_route() when APP_ENV=dev.
+ * lines long (bootstrap, $key, the template), and a content record without a
+ * route file is not a route at all (not in the sitemap, links to it render
+ * as text). [DEV] routes have no route file: router.php renders them with
+ * render_route() when APP_ENV=dev.
  */
 
 declare(strict_types=1);
@@ -141,6 +143,13 @@ function route_index(): array
 
     $routes = [];
     $add = static function (string $path, string $type, string $key, bool $dev) use (&$routes): void {
+        /* A content record is a page only once its route file exists: the
+           catalogue lists every model R1 found, but a model page exists from the
+           day B1 writes motos/{marca}/{modelo}/index.php (D13: phases do not
+           create pages that fail the gate). [DEV] records need no file. */
+        if (!$dev && $type !== 'static' && $type !== 'never' && !is_file(ROOT_DIR . $path . '/index.php')) {
+            return;
+        }
         $routes[$path] = ['path' => $path, 'type' => $type, 'key' => $key, 'dev' => $dev];
     };
 

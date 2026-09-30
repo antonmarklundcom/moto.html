@@ -1,0 +1,3968 @@
+{
+ "brands": [
+  {
+   "slug": "kenton",
+   "name": "Kenton",
+   "distributor": {
+    "name": "Chacomer S.A. (maker/brand owner, Paraguay)",
+    "source": {
+     "label": "Kenton brand produced by Chacomer since 1991 - Chacomer / Revista Plus",
+     "url": "https://www.chacomer.com.py/moto/kenton.html"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "Brand manufactured by Chacomer in Paraguay; also sold via Tupi, Classic Motos, Show, La Norteña."
+  },
+  {
+   "slug": "star",
+   "name": "Star",
+   "distributor": {
+    "name": "Alex S.A. (brand owner/assembler, Paraguay)",
+    "source": {
+     "label": "STAR - ABC Color",
+     "url": "https://www.abc.com.py/empresariales/2025/07/10/star-la-motocicleta-que-acompana-en-todo-lo-que-uno-se-propone/"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "Local assembly since 2002; categories cobrador, motoneta, pistera, trail, carga."
+  }
+ ],
+ "models": [
+  {
+   "brand": "kenton",
+   "name": "Classic 125",
+   "slug": "classic-125",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "Kenton CLASSIC 125",
+      "url": "https://kenton.com.py/moto/classic-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Motor OHV 125cc con distribución a varilla",
+     "source": {
+      "label": "Kenton CLASSIC 125",
+      "url": "https://kenton.com.py/moto/classic-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Manual",
+     "source": {
+      "label": "Kenton CLASSIC 125",
+      "url": "https://kenton.com.py/moto/classic-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton CLASSIC 125",
+      "url": "https://kenton.com.py/moto/classic-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton CLASSIC 125",
+      "url": "https://kenton.com.py/moto/classic-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "10 HP",
+     "source": {
+      "label": "Kenton CLASSIC 125",
+      "url": "https://kenton.com.py/moto/classic-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "9 LITROS",
+     "source": {
+      "label": "Kenton CLASSIC 125",
+      "url": "https://kenton.com.py/moto/classic-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico",
+     "source": {
+      "label": "Kenton CLASSIC 125",
+      "url": "https://kenton.com.py/moto/classic-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "97 KG",
+     "source": {
+      "label": "Kenton CLASSIC 125",
+      "url": "https://kenton.com.py/moto/classic-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "2.75-18",
+     "source": {
+      "label": "Kenton CLASSIC 125",
+      "url": "https://kenton.com.py/moto/classic-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_tras": {
+     "value": "3.00-18",
+     "source": {
+      "label": "Kenton CLASSIC 125",
+      "url": "https://kenton.com.py/moto/classic-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 6505000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton CLASSIC 125",
+      "url": "https://kenton.com.py/moto/classic-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton CLASSIC 125",
+     "url": "https://kenton.com.py/moto/classic-125/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 279.000 (source: https://kenton.com.py/moto/classic-125/)"
+  },
+  {
+   "brand": "kenton",
+   "name": "GL 150",
+   "slug": "gl-150",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "Kenton GL 150",
+      "url": "https://kenton.com.py/moto/gl-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "150 cc, 4 tiempos, refrigerado por aire",
+     "source": {
+      "label": "Kenton GL 150",
+      "url": "https://kenton.com.py/moto/gl-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "5 velocidades con embrague",
+     "source": {
+      "label": "Kenton GL 150",
+      "url": "https://kenton.com.py/moto/gl-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "12 HP",
+     "source": {
+      "label": "Kenton GL 150",
+      "url": "https://kenton.com.py/moto/gl-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "13 litros",
+     "source": {
+      "label": "Kenton GL 150",
+      "url": "https://kenton.com.py/moto/gl-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "97 kg",
+     "source": {
+      "label": "Kenton GL 150",
+      "url": "https://kenton.com.py/moto/gl-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton GL 150",
+      "url": "https://kenton.com.py/moto/gl-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton GL 150",
+      "url": "https://kenton.com.py/moto/gl-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "2.75-17",
+     "source": {
+      "label": "Kenton GL 150",
+      "url": "https://kenton.com.py/moto/gl-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_tras": {
+     "value": "3.00-18",
+     "source": {
+      "label": "Kenton GL 150",
+      "url": "https://kenton.com.py/moto/gl-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 7489000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton GL 150",
+      "url": "https://kenton.com.py/moto/gl-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton GL 150",
+     "url": "https://kenton.com.py/moto/gl-150/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 299.000 (source: https://kenton.com.py/moto/gl-150/)"
+  },
+  {
+   "brand": "kenton",
+   "name": "GL 150 Pro",
+   "slug": "gl-150-pro",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "Kenton GL 150 Pro",
+      "url": "https://kenton.com.py/moto/gl-150-pro/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Motor OHV 150cc con distribución a varilla, 4 tiempos, monocilíndrico, refrigerado por aire",
+     "source": {
+      "label": "Kenton GL 150 Pro",
+      "url": "https://kenton.com.py/moto/gl-150-pro/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Manual",
+     "source": {
+      "label": "Kenton GL 150 Pro",
+      "url": "https://kenton.com.py/moto/gl-150-pro/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Carburador",
+     "source": {
+      "label": "Kenton GL 150 Pro",
+      "url": "https://kenton.com.py/moto/gl-150-pro/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "2.75-17",
+     "source": {
+      "label": "Kenton GL 150 Pro",
+      "url": "https://kenton.com.py/moto/gl-150-pro/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_tras": {
+     "value": "3.00-18",
+     "source": {
+      "label": "Kenton GL 150 Pro",
+      "url": "https://kenton.com.py/moto/gl-150-pro/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton GL 150 Pro",
+      "url": "https://kenton.com.py/moto/gl-150-pro/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton GL 150 Pro",
+      "url": "https://kenton.com.py/moto/gl-150-pro/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "100 kg",
+     "source": {
+      "label": "Kenton GL 150 Pro",
+      "url": "https://kenton.com.py/moto/gl-150-pro/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "altura_asiento": {
+     "value": "750 mm",
+     "source": {
+      "label": "Kenton GL 150 Pro",
+      "url": "https://kenton.com.py/moto/gl-150-pro/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "13 litros",
+     "source": {
+      "label": "Kenton GL 150 Pro",
+      "url": "https://kenton.com.py/moto/gl-150-pro/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico/Pedal",
+     "source": {
+      "label": "Kenton GL 150 Pro",
+      "url": "https://kenton.com.py/moto/gl-150-pro/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "12 HP",
+     "source": {
+      "label": "Kenton GL 150 Pro",
+      "url": "https://kenton.com.py/moto/gl-150-pro/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 7715000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton GL 150 Pro",
+      "url": "https://kenton.com.py/moto/gl-150-pro/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton GL 150 Pro",
+     "url": "https://kenton.com.py/moto/gl-150-pro/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 279.000 (source: https://kenton.com.py/moto/gl-150-pro/)"
+  },
+  {
+   "brand": "kenton",
+   "name": "GTR 150",
+   "slug": "gtr-150",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "Kenton GTR 150",
+      "url": "https://kenton.com.py/moto/gtr-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Motor OHV 150cc con distribución a varilla",
+     "source": {
+      "label": "Kenton GTR 150",
+      "url": "https://kenton.com.py/moto/gtr-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "11.3 HP",
+     "source": {
+      "label": "Kenton GTR 150",
+      "url": "https://kenton.com.py/moto/gtr-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "12 litros",
+     "source": {
+      "label": "Kenton GTR 150",
+      "url": "https://kenton.com.py/moto/gtr-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "116 kg",
+     "source": {
+      "label": "Kenton GTR 150",
+      "url": "https://kenton.com.py/moto/gtr-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico",
+     "source": {
+      "label": "Kenton GTR 150",
+      "url": "https://kenton.com.py/moto/gtr-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton GTR 150",
+      "url": "https://kenton.com.py/moto/gtr-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton GTR 150",
+      "url": "https://kenton.com.py/moto/gtr-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 9063000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton GTR 150",
+      "url": "https://kenton.com.py/moto/gtr-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton GTR 150",
+     "url": "https://kenton.com.py/moto/gtr-150/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 359.000 (source: https://kenton.com.py/moto/gtr-150/)"
+  },
+  {
+   "brand": "kenton",
+   "name": "GTR 150 LTD",
+   "slug": "gtr-150-ltd",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "Kenton GTR 150 LTD",
+      "url": "https://kenton.com.py/moto/gtr-150-ltd/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "150 cc, Motor OHV con distribución a varilla, 4 tiempos, mono cilíndrico, refrigeración por aire",
+     "source": {
+      "label": "Kenton GTR 150 LTD",
+      "url": "https://kenton.com.py/moto/gtr-150-ltd/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "11.3 hp",
+     "source": {
+      "label": "Kenton GTR 150 LTD",
+      "url": "https://kenton.com.py/moto/gtr-150-ltd/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "15 litros",
+     "source": {
+      "label": "Kenton GTR 150 LTD",
+      "url": "https://kenton.com.py/moto/gtr-150-ltd/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "120 kg",
+     "source": {
+      "label": "Kenton GTR 150 LTD",
+      "url": "https://kenton.com.py/moto/gtr-150-ltd/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Kenton GTR 150 LTD",
+      "url": "https://kenton.com.py/moto/gtr-150-ltd/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton GTR 150 LTD",
+      "url": "https://kenton.com.py/moto/gtr-150-ltd/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 9556000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton GTR 150 LTD",
+      "url": "https://kenton.com.py/moto/gtr-150-ltd/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    {
+     "value": 9764000,
+     "currency": "PYG",
+     "condition": "0km - Black Edition",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton GTR 150 LTD Black Edition",
+      "url": "https://kenton.com.py/moto/gtr-150-ltd-black-edition/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton GTR 150 LTD",
+     "url": "https://kenton.com.py/moto/gtr-150-ltd/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 409.000 (source: https://kenton.com.py/moto/gtr-150-ltd/)",
+   "versions": [
+    "LTD",
+    "LTD Black Edition"
+   ]
+  },
+  {
+   "brand": "kenton",
+   "name": "GTR 200 LTD",
+   "slug": "gtr-200-ltd",
+   "category": "naked",
+   "specs": {},
+   "prices": [
+    {
+     "value": 10833000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton GTR 200 LTD",
+      "url": "https://kenton.com.py/moto/gtr-200-ltd/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton GTR 200 LTD",
+     "url": "https://kenton.com.py/moto/gtr-200-ltd/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 459.000 (source: https://kenton.com.py/moto/gtr-200-ltd/)",
+   "versions": [
+    "LTD",
+    "LTD Black Edition (page exists, price not seen)"
+   ]
+  },
+  {
+   "brand": "kenton",
+   "name": "Blitz 110",
+   "slug": "blitz-110",
+   "category": "cub",
+   "specs": {
+    "cc": {
+     "value": 110,
+     "source": {
+      "label": "Kenton BLITZ 110 (SE/DLX+/Automatic)",
+      "url": "https://kenton.com.py/moto/blitz-110-se/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "7.5 HP",
+     "source": {
+      "label": "Kenton BLITZ 110 (SE/DLX+/Automatic)",
+      "url": "https://kenton.com.py/moto/blitz-110-se/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Motor OHV 110cc con distribución a cadena",
+     "source": {
+      "label": "Kenton BLITZ 110 (SE/DLX+/Automatic)",
+      "url": "https://kenton.com.py/moto/blitz-110-se/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 6279000,
+     "currency": "PYG",
+     "condition": "0km - SE",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton BLITZ 110 (SE/DLX+/Automatic) SE",
+      "url": "https://kenton.com.py/moto/blitz-110-se/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    {
+     "value": 6789000,
+     "currency": "PYG",
+     "condition": "0km - DLX +",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton BLITZ 110 (SE/DLX+/Automatic) DLX +",
+      "url": "https://kenton.com.py/moto/blitz-110-dlx-plus/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    {
+     "value": 7074000,
+     "currency": "PYG",
+     "condition": "0km - Automatic",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton BLITZ 110 (SE/DLX+/Automatic) Automatic",
+      "url": "https://kenton.com.py/moto/blitz-110-automatic/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton BLITZ 110 (SE/DLX+/Automatic)",
+     "url": "https://kenton.com.py/moto/blitz-110-se/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    },
+    {
+     "label": "Kenton BLITZ 110 Automatic",
+     "url": "https://kenton.com.py/moto/blitz-110-automatic/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official"
+    }
+   ],
+   "versions": [
+    "DLX",
+    "SE",
+    "Automatic"
+   ],
+   "notes": "Version specs: Automatic: caja Automática, neum. 2.50-17, freno del. Disco, tras. Tambor, tanque 4 litros, altura asiento 880 mm. SE: Semi automático, peso 90 kg, tanque 4 litros (snippets from kenton.com.py/moto/blitz-110-automatic/ and blitz-110-se/)."
+  },
+  {
+   "brand": "kenton",
+   "name": "Blitz 125 Sport",
+   "slug": "blitz-125-sport",
+   "category": "cub",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "Kenton BLITZ 125 SPORT",
+      "url": "https://kenton.com.py/moto/blitz-125-sport/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 7513000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton BLITZ 125 SPORT",
+      "url": "https://kenton.com.py/moto/blitz-125-sport/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton BLITZ 125 SPORT",
+     "url": "https://kenton.com.py/moto/blitz-125-sport/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 339.000 (source: https://kenton.com.py/moto/blitz-125-sport/)"
+  },
+  {
+   "brand": "kenton",
+   "name": "DKR 150",
+   "slug": "dkr-150",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "Kenton DKR 150",
+      "url": "https://kenton.com.py/moto/dakar-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Motor OHV 150cc con distribución a cadena",
+     "source": {
+      "label": "Kenton DKR 150",
+      "url": "https://kenton.com.py/moto/dakar-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Manual",
+     "source": {
+      "label": "Kenton DKR 150",
+      "url": "https://kenton.com.py/moto/dakar-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "90/90-19",
+     "source": {
+      "label": "Kenton DKR 150",
+      "url": "https://kenton.com.py/moto/dakar-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_tras": {
+     "value": "120/90-17",
+     "source": {
+      "label": "Kenton DKR 150",
+      "url": "https://kenton.com.py/moto/dakar-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Kenton DKR 150",
+      "url": "https://kenton.com.py/moto/dakar-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton DKR 150",
+      "url": "https://kenton.com.py/moto/dakar-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "11.8 HP",
+     "source": {
+      "label": "Kenton DKR 150",
+      "url": "https://kenton.com.py/moto/dakar-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "12 LITROS",
+     "source": {
+      "label": "Kenton DKR 150",
+      "url": "https://kenton.com.py/moto/dakar-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico",
+     "source": {
+      "label": "Kenton DKR 150",
+      "url": "https://kenton.com.py/moto/dakar-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "120 KG",
+     "source": {
+      "label": "Kenton DKR 150",
+      "url": "https://kenton.com.py/moto/dakar-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 10939000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton DKR 150",
+      "url": "https://kenton.com.py/moto/dakar-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton DKR 150",
+     "url": "https://kenton.com.py/moto/dakar-150/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 499.000 (source: https://kenton.com.py/moto/dakar-150/)"
+  },
+  {
+   "brand": "kenton",
+   "name": "DKR 200",
+   "slug": "dkr-200",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 200,
+     "source": {
+      "label": "Kenton DKR 200",
+      "url": "https://kenton.com.py/moto/dakar-200/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 12047000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton DKR 200",
+      "url": "https://kenton.com.py/moto/dakar-200/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton DKR 200",
+     "url": "https://kenton.com.py/moto/dakar-200/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 549.000 (source: https://kenton.com.py/moto/dakar-200/)",
+   "versions": [
+    "DKR 200 Storm (page kenton.com.py/moto/dkr-200-storm/, price not seen)"
+   ]
+  },
+  {
+   "brand": "kenton",
+   "name": "Spark 150",
+   "slug": "spark-150",
+   "category": "scooter",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "Kenton SPARK 150",
+      "url": "https://kenton.com.py/moto/spark150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "10.5 HP",
+     "source": {
+      "label": "Kenton SPARK 150",
+      "url": "https://kenton.com.py/moto/spark150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Carburador",
+     "source": {
+      "label": "Kenton SPARK 150",
+      "url": "https://kenton.com.py/moto/spark150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Manual",
+     "source": {
+      "label": "Kenton SPARK 150",
+      "url": "https://kenton.com.py/moto/spark150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "14.5 litros",
+     "source": {
+      "label": "Kenton SPARK 150",
+      "url": "https://kenton.com.py/moto/spark150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Kenton SPARK 150",
+      "url": "https://kenton.com.py/moto/spark150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Disco",
+     "source": {
+      "label": "Kenton SPARK 150",
+      "url": "https://kenton.com.py/moto/spark150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "120/70-12",
+     "source": {
+      "label": "Kenton SPARK 150",
+      "url": "https://kenton.com.py/moto/spark150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_tras": {
+     "value": "130/70-12",
+     "source": {
+      "label": "Kenton SPARK 150",
+      "url": "https://kenton.com.py/moto/spark150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico",
+     "source": {
+      "label": "Kenton SPARK 150",
+      "url": "https://kenton.com.py/moto/spark150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Kenton SPARK 150",
+     "url": "https://kenton.com.py/moto/spark150/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    },
+    {
+     "label": "Chacomer Spark 150",
+     "url": "https://www.chacomer.com.py/motocicleta-utilitaria-kenton-spark-150.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Chacomer product page"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 575.000 (source: https://kenton.com.py/moto/spark150/)",
+   "notes": "Specs from Chacomer product page (chacomer.com.py/motocicleta-utilitaria-kenton-spark-150.html, Chacomer is the Kenton maker); tagged utilitaria there but 12-inch step-through style; category chosen scooter by tyre/format - review."
+  },
+  {
+   "brand": "kenton",
+   "name": "Spark 125",
+   "slug": "spark-125",
+   "category": "scooter",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "Kenton SPARK 125",
+      "url": "https://kenton.com.py/moto/spark-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Kenton SPARK 125",
+     "url": "https://kenton.com.py/moto/spark-125/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 565.000 (source: https://kenton.com.py/moto/spark-125/)",
+   "notes": "Chacomer lists it as 'utilitaria' (chacomer.com.py/motocicleta-utilitaria-kenton-spark-125.html); category to review."
+  },
+  {
+   "brand": "kenton",
+   "name": "Forza 150",
+   "slug": "forza-150",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "Kenton FORZA 150",
+      "url": "https://kenton.com.py/moto/forza-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Motor OHV 150cc con distribución a varilla, 4 tiempos, mono cilíndrico, Refrigerado por aire",
+     "source": {
+      "label": "Kenton FORZA 150",
+      "url": "https://kenton.com.py/moto/forza-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "5 velocidades",
+     "source": {
+      "label": "Kenton FORZA 150",
+      "url": "https://kenton.com.py/moto/forza-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "8.5 kW / 8000 RPM",
+     "source": {
+      "label": "Kenton FORZA 150",
+      "url": "https://kenton.com.py/moto/forza-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Carburador",
+     "source": {
+      "label": "Kenton FORZA 150",
+      "url": "https://kenton.com.py/moto/forza-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "11 Litros",
+     "source": {
+      "label": "Kenton FORZA 150",
+      "url": "https://kenton.com.py/moto/forza-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "2.75×18",
+     "source": {
+      "label": "Kenton FORZA 150",
+      "url": "https://kenton.com.py/moto/forza-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_tras": {
+     "value": "3,00×18",
+     "source": {
+      "label": "Kenton FORZA 150",
+      "url": "https://kenton.com.py/moto/forza-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton FORZA 150",
+      "url": "https://kenton.com.py/moto/forza-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton FORZA 150",
+      "url": "https://kenton.com.py/moto/forza-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico y Pedal",
+     "source": {
+      "label": "Kenton FORZA 150",
+      "url": "https://kenton.com.py/moto/forza-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "104 KG",
+     "source": {
+      "label": "Kenton FORZA 150",
+      "url": "https://kenton.com.py/moto/forza-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 7489000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton FORZA 150",
+      "url": "https://kenton.com.py/moto/forza-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton FORZA 150",
+     "url": "https://kenton.com.py/moto/forza-150/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ]
+  },
+  {
+   "brand": "kenton",
+   "name": "Bravo 150",
+   "slug": "bravo-150",
+   "category": "scooter",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "Kenton Bravo 150",
+      "url": "https://kenton.com.py/moto/bravo-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Kenton Bravo 150",
+     "url": "https://kenton.com.py/moto/bravo-150/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 345.000 (source: https://kenton.com.py/moto/bravo-150/)",
+   "notes": "Snippet listed same price as Bravo 125; verify."
+  },
+  {
+   "brand": "kenton",
+   "name": "Bravo 125",
+   "slug": "bravo-125",
+   "category": "scooter",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "Kenton Bravo 125",
+      "url": "https://kenton.com.py/moto/bravo-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "124.6 cc, monocilíndrico, 4 tiempos, refrigerado por aire",
+     "source": {
+      "label": "Kenton Bravo 125",
+      "url": "https://kenton.com.py/moto/bravo-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Automática",
+     "source": {
+      "label": "Kenton Bravo 125",
+      "url": "https://kenton.com.py/moto/bravo-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Carburador",
+     "source": {
+      "label": "Kenton Bravo 125",
+      "url": "https://kenton.com.py/moto/bravo-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "90/90-12",
+     "source": {
+      "label": "Kenton Bravo 125",
+      "url": "https://kenton.com.py/moto/bravo-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_tras": {
+     "value": "3.50-10",
+     "source": {
+      "label": "Kenton Bravo 125",
+      "url": "https://kenton.com.py/moto/bravo-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Kenton Bravo 125",
+      "url": "https://kenton.com.py/moto/bravo-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton Bravo 125",
+      "url": "https://kenton.com.py/moto/bravo-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "8.4 HP",
+     "source": {
+      "label": "Kenton Bravo 125",
+      "url": "https://kenton.com.py/moto/bravo-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "9.5 litros",
+     "source": {
+      "label": "Kenton Bravo 125",
+      "url": "https://kenton.com.py/moto/bravo-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "altura_asiento": {
+     "value": "770 mm",
+     "source": {
+      "label": "Kenton Bravo 125",
+      "url": "https://kenton.com.py/moto/bravo-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 8700000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton Bravo 125",
+      "url": "https://kenton.com.py/moto/bravo-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton Bravo 125",
+     "url": "https://kenton.com.py/moto/bravo-125/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    },
+    {
+     "label": "Chacomer Bravo 125",
+     "url": "https://www.chacomer.com.py/motocicleta-scooter-kenton-bravo-125.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Chacomer product page"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 345.000 (source: https://kenton.com.py/moto/bravo-125/)"
+  },
+  {
+   "brand": "kenton",
+   "name": "Quick 125",
+   "slug": "quick-125",
+   "category": "scooter",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "Kenton Quick 125",
+      "url": "https://kenton.com.py/moto/quick-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "OHV 125 cc distribución a cadena, 4 tiempos, monocilíndrico, refrigerado por aire",
+     "source": {
+      "label": "Kenton Quick 125",
+      "url": "https://kenton.com.py/moto/quick-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Automática CVT",
+     "source": {
+      "label": "Kenton Quick 125",
+      "url": "https://kenton.com.py/moto/quick-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Carburador",
+     "source": {
+      "label": "Kenton Quick 125",
+      "url": "https://kenton.com.py/moto/quick-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "3.50-10",
+     "source": {
+      "label": "Kenton Quick 125",
+      "url": "https://kenton.com.py/moto/quick-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_tras": {
+     "value": "3.50-10",
+     "source": {
+      "label": "Kenton Quick 125",
+      "url": "https://kenton.com.py/moto/quick-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Kenton Quick 125",
+      "url": "https://kenton.com.py/moto/quick-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton Quick 125",
+      "url": "https://kenton.com.py/moto/quick-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "7.24 HP",
+     "source": {
+      "label": "Kenton Quick 125",
+      "url": "https://kenton.com.py/moto/quick-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "4.5 litros",
+     "source": {
+      "label": "Kenton Quick 125",
+      "url": "https://kenton.com.py/moto/quick-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "altura_asiento": {
+     "value": "740 mm",
+     "source": {
+      "label": "Kenton Quick 125",
+      "url": "https://kenton.com.py/moto/quick-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Kenton Quick 125",
+     "url": "https://kenton.com.py/moto/quick-125/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ]
+  },
+  {
+   "brand": "kenton",
+   "name": "Road Power 170",
+   "slug": "road-power-170",
+   "category": "scooter",
+   "specs": {
+    "cc": {
+     "value": 170,
+     "source": {
+      "label": "Kenton Road Power 170",
+      "url": "https://kenton.com.py/moto/road-power-170/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Automática CVT",
+     "source": {
+      "label": "Kenton Road Power 170",
+      "url": "https://kenton.com.py/moto/road-power-170/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Carburador",
+     "source": {
+      "label": "Kenton Road Power 170",
+      "url": "https://kenton.com.py/moto/road-power-170/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "120/70-12",
+     "source": {
+      "label": "Kenton Road Power 170",
+      "url": "https://kenton.com.py/moto/road-power-170/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_tras": {
+     "value": "120/70-12",
+     "source": {
+      "label": "Kenton Road Power 170",
+      "url": "https://kenton.com.py/moto/road-power-170/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Kenton Road Power 170",
+      "url": "https://kenton.com.py/moto/road-power-170/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton Road Power 170",
+      "url": "https://kenton.com.py/moto/road-power-170/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "13.3 HP",
+     "source": {
+      "label": "Kenton Road Power 170",
+      "url": "https://kenton.com.py/moto/road-power-170/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "6.7 litros",
+     "source": {
+      "label": "Kenton Road Power 170",
+      "url": "https://kenton.com.py/moto/road-power-170/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "altura_asiento": {
+     "value": "740 mm",
+     "source": {
+      "label": "Kenton Road Power 170",
+      "url": "https://kenton.com.py/moto/road-power-170/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 9500000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton Road Power 170",
+      "url": "https://kenton.com.py/moto/road-power-170/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton Road Power 170",
+     "url": "https://kenton.com.py/moto/road-power-170/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 339.000 (source: https://kenton.com.py/moto/road-power-170/)"
+  },
+  {
+   "brand": "kenton",
+   "name": "Symphony 125S",
+   "slug": "symphony-125s",
+   "category": "scooter",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "Kenton Symphony 125S",
+      "url": "https://kenton.com.py/moto/symphony-125s/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 12500000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton Symphony 125S",
+      "url": "https://kenton.com.py/moto/symphony-125s/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton Symphony 125S",
+     "url": "https://kenton.com.py/moto/symphony-125s/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ]
+  },
+  {
+   "brand": "kenton",
+   "name": "Fusion 125",
+   "slug": "fusion-125",
+   "category": "cub",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "Kenton FUSION 125",
+      "url": "https://kenton.com.py/moto/fusion-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 7641000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton FUSION 125",
+      "url": "https://kenton.com.py/moto/fusion-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton FUSION 125",
+     "url": "https://kenton.com.py/moto/fusion-125/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "notes": "Listed under Kenton CUB/Motonetas family"
+  },
+  {
+   "brand": "kenton",
+   "name": "Fusion 135",
+   "slug": "fusion-135",
+   "category": "cub",
+   "specs": {},
+   "prices": [
+    {
+     "value": 7780000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton FUSION 135",
+      "url": "https://kenton.com.py/moto/fusion-135/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton FUSION 135",
+     "url": "https://kenton.com.py/moto/fusion-135/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 349.000 (source: https://kenton.com.py/moto/fusion-135/)"
+  },
+  {
+   "brand": "kenton",
+   "name": "GL 125",
+   "slug": "gl-125",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "Kenton GL 125",
+      "url": "https://kenton.com.py/moto/gl-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 6618000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton GL 125",
+      "url": "https://kenton.com.py/moto/gl-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton GL 125",
+     "url": "https://kenton.com.py/moto/gl-125/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ]
+  },
+  {
+   "brand": "kenton",
+   "name": "Skua 150",
+   "slug": "skua-150",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "Kenton SKUA 150",
+      "url": "https://kenton.com.py/moto/skua-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Monocilíndrico, 4 tiempos, refrigeración por aire",
+     "source": {
+      "label": "Kenton SKUA 150",
+      "url": "https://kenton.com.py/moto/skua-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Manual – 5 Cambios",
+     "source": {
+      "label": "Kenton SKUA 150",
+      "url": "https://kenton.com.py/moto/skua-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Carburador",
+     "source": {
+      "label": "Kenton SKUA 150",
+      "url": "https://kenton.com.py/moto/skua-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "2.75 – 21",
+     "source": {
+      "label": "Kenton SKUA 150",
+      "url": "https://kenton.com.py/moto/skua-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_tras": {
+     "value": "4.60 – 18",
+     "source": {
+      "label": "Kenton SKUA 150",
+      "url": "https://kenton.com.py/moto/skua-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton SKUA 150",
+      "url": "https://kenton.com.py/moto/skua-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton SKUA 150",
+      "url": "https://kenton.com.py/moto/skua-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "11 HP",
+     "source": {
+      "label": "Kenton SKUA 150",
+      "url": "https://kenton.com.py/moto/skua-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "12 litros",
+     "source": {
+      "label": "Kenton SKUA 150",
+      "url": "https://kenton.com.py/moto/skua-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "115kg",
+     "source": {
+      "label": "Kenton SKUA 150",
+      "url": "https://kenton.com.py/moto/skua-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "altura_asiento": {
+     "value": "898mm",
+     "source": {
+      "label": "Kenton SKUA 150",
+      "url": "https://kenton.com.py/moto/skua-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 9189000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton SKUA 150",
+      "url": "https://kenton.com.py/moto/skua-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton SKUA 150",
+     "url": "https://kenton.com.py/moto/skua-150/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ]
+  },
+  {
+   "brand": "kenton",
+   "name": "Shark 150",
+   "slug": "shark-150",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 149,
+     "source": {
+      "label": "Kenton SHARK 150",
+      "url": "https://kenton.com.py/moto/shark-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Monocilíndrico, 4 tiempos, refrigeración por aire",
+     "source": {
+      "label": "Kenton SHARK 150",
+      "url": "https://kenton.com.py/moto/shark-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Manual – 5 cambios",
+     "source": {
+      "label": "Kenton SHARK 150",
+      "url": "https://kenton.com.py/moto/shark-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "90/90-19",
+     "source": {
+      "label": "Kenton SHARK 150",
+      "url": "https://kenton.com.py/moto/shark-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_tras": {
+     "value": "110/90-17",
+     "source": {
+      "label": "Kenton SHARK 150",
+      "url": "https://kenton.com.py/moto/shark-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Kenton SHARK 150",
+      "url": "https://kenton.com.py/moto/shark-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Kenton SHARK 150",
+      "url": "https://kenton.com.py/moto/shark-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "11.5 HP",
+     "source": {
+      "label": "Kenton SHARK 150",
+      "url": "https://kenton.com.py/moto/shark-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "12 L",
+     "source": {
+      "label": "Kenton SHARK 150",
+      "url": "https://kenton.com.py/moto/shark-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "110 Kg",
+     "source": {
+      "label": "Kenton SHARK 150",
+      "url": "https://kenton.com.py/moto/shark-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "altura_asiento": {
+     "value": "860 mm",
+     "source": {
+      "label": "Kenton SHARK 150",
+      "url": "https://kenton.com.py/moto/shark-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 9981000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton SHARK 150",
+      "url": "https://kenton.com.py/moto/shark-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton SHARK 150",
+     "url": "https://kenton.com.py/moto/shark-150/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "notes": "Published displacement 149.4 cc (integer rounded to 149)."
+  },
+  {
+   "brand": "kenton",
+   "name": "Shark 200",
+   "slug": "shark-200",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 200,
+     "source": {
+      "label": "Kenton SHARK 200",
+      "url": "https://kenton.com.py/moto/shark-200/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Kenton SHARK 200",
+     "url": "https://kenton.com.py/moto/shark-200/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "notes": "Page exists at kenton.com.py/moto/shark-200/; price/specs not obtained."
+  },
+  {
+   "brand": "kenton",
+   "name": "Volkano 125",
+   "slug": "volkano-125",
+   "category": "cuatriciclo",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "Kenton VOLKANO 125",
+      "url": "https://kenton.com.py/moto/volkano-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 11202000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton VOLKANO 125",
+      "url": "https://kenton.com.py/moto/volkano-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton VOLKANO 125",
+     "url": "https://kenton.com.py/moto/volkano-125/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "notes": "Listed in Kenton ATV/CUACI family."
+  },
+  {
+   "brand": "kenton",
+   "name": "Volkano 150 Off Road",
+   "slug": "volkano-150-off-road",
+   "category": "cuatriciclo",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "Kenton VOLKANO 150 OFF ROAD",
+      "url": "https://kenton.com.py/familia/atv-cuaci/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 16900000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton VOLKANO 150 OFF ROAD",
+      "url": "https://kenton.com.py/familia/atv-cuaci/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton VOLKANO 150 OFF ROAD",
+     "url": "https://kenton.com.py/familia/atv-cuaci/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "notes": "Price from kenton.com.py ATV/CUACI family listing snippet; URL slug assumed from family page https://kenton.com.py/familia/atv-cuaci/"
+  },
+  {
+   "brand": "kenton",
+   "name": "Volkano 250 Off Road",
+   "slug": "volkano-250-off-road",
+   "category": "cuatriciclo",
+   "specs": {
+    "cc": {
+     "value": 250,
+     "source": {
+      "label": "Kenton VOLKANO 250 OFF ROAD",
+      "url": "https://kenton.com.py/familia/atv-cuaci/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 18685000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton VOLKANO 250 OFF ROAD",
+      "url": "https://kenton.com.py/familia/atv-cuaci/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton VOLKANO 250 OFF ROAD",
+     "url": "https://kenton.com.py/familia/atv-cuaci/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ]
+  },
+  {
+   "brand": "kenton",
+   "name": "Quest 200",
+   "slug": "quest-200",
+   "category": "cuatriciclo",
+   "specs": {
+    "cc": {
+     "value": 200,
+     "source": {
+      "label": "Kenton QUEST 200",
+      "url": "https://kenton.com.py/moto/quest-200/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 22600000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton QUEST 200",
+      "url": "https://kenton.com.py/moto/quest-200/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton QUEST 200",
+     "url": "https://kenton.com.py/moto/quest-200/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ]
+  },
+  {
+   "brand": "kenton",
+   "name": "Quest 300 4x4",
+   "slug": "quest-300-4x4",
+   "category": "cuatriciclo",
+   "specs": {
+    "cc": {
+     "value": 300,
+     "source": {
+      "label": "Kenton QUEST 300 4x4",
+      "url": "https://kenton.com.py/moto/quest-300-4x4/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 38974000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton QUEST 300 4x4",
+      "url": "https://kenton.com.py/moto/quest-300-4x4/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton QUEST 300 4x4",
+     "url": "https://kenton.com.py/moto/quest-300-4x4/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ]
+  },
+  {
+   "brand": "kenton",
+   "name": "Quest ATV 500 4x4",
+   "slug": "quest-atv-500-4x4",
+   "category": "cuatriciclo",
+   "specs": {
+    "cc": {
+     "value": 500,
+     "source": {
+      "label": "Kenton QUEST ATV 500 4x4",
+      "url": "https://kenton.com.py/moto/quest-atv-500-4x4/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 47571000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton QUEST ATV 500 4x4",
+      "url": "https://kenton.com.py/moto/quest-atv-500-4x4/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton QUEST ATV 500 4x4",
+     "url": "https://kenton.com.py/moto/quest-atv-500-4x4/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ]
+  },
+  {
+   "brand": "kenton",
+   "name": "Bull 200",
+   "slug": "bull-200",
+   "category": "cuatriciclo",
+   "specs": {
+    "cc": {
+     "value": 200,
+     "source": {
+      "label": "Kenton BULL 200",
+      "url": "https://kenton.com.py/moto/bull-200/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Kenton BULL 200",
+     "url": "https://kenton.com.py/moto/bull-200/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "notes": "Listed in ATV/CUACI search results; price not obtained."
+  },
+  {
+   "brand": "kenton",
+   "name": "Transporter 150 HD",
+   "slug": "transporter-150-hd",
+   "category": "motocarro-carga",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "Kenton TRANSPORTER 150 HD",
+      "url": "https://kenton.com.py/moto/transporter-150-hd/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 17984000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton TRANSPORTER 150 HD",
+      "url": "https://kenton.com.py/moto/transporter-150-hd/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton TRANSPORTER 150 HD",
+     "url": "https://kenton.com.py/moto/transporter-150-hd/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 845.000 (source: https://kenton.com.py/moto/transporter-150-hd/)"
+  },
+  {
+   "brand": "kenton",
+   "name": "Transporter 180",
+   "slug": "transporter-180",
+   "category": "motocarro-carga",
+   "specs": {
+    "cc": {
+     "value": 180,
+     "source": {
+      "label": "Kenton TRANSPORTER 180",
+      "url": "https://kenton.com.py/familia/motocargas/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 18880000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton TRANSPORTER 180",
+      "url": "https://kenton.com.py/familia/motocargas/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton TRANSPORTER 180",
+     "url": "https://kenton.com.py/familia/motocargas/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 931.000 (source: https://kenton.com.py/familia/motocargas/)"
+  },
+  {
+   "brand": "kenton",
+   "name": "Transporter 210 HD",
+   "slug": "transporter-210-hd",
+   "category": "motocarro-carga",
+   "specs": {
+    "cc": {
+     "value": 210,
+     "source": {
+      "label": "Kenton TRANSPORTER 210 HD",
+      "url": "https://kenton.com.py/moto/transporter-210-hd/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 22330000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "Kenton TRANSPORTER 210 HD",
+      "url": "https://kenton.com.py/moto/transporter-210-hd/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Kenton TRANSPORTER 210 HD",
+     "url": "https://kenton.com.py/moto/transporter-210-hd/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 1.049.000 (source: https://kenton.com.py/moto/transporter-210-hd/)"
+  },
+  {
+   "brand": "kenton",
+   "name": "E-Kenton Next V1",
+   "slug": "e-kenton-next-v1",
+   "category": "electrica",
+   "specs": {
+    "potencia": {
+     "value": "2000 watts",
+     "source": {
+      "label": "E-KENTON NEXT V1",
+      "url": "https://kenton.com.py/moto/e-kenton-next-v1/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "velocidad_max": {
+     "value": "50 km/h",
+     "source": {
+      "label": "E-KENTON NEXT V1",
+      "url": "https://kenton.com.py/moto/e-kenton-next-v1/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 7282000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "E-KENTON NEXT V1",
+      "url": "https://kenton.com.py/moto/e-kenton-next-v1/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "E-KENTON NEXT V1",
+     "url": "https://kenton.com.py/moto/e-kenton-next-v1/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 212.000 (source: https://kenton.com.py/moto/e-kenton-next-v1/)",
+   "notes": "Battery 60V 20Ah lead-acid, autonomía 40 km (table) / 45 km (description), carga 8 h, source kenton.com.py/moto/e-kenton-next-v1/"
+  },
+  {
+   "brand": "kenton",
+   "name": "E-Kenton Next V3",
+   "slug": "e-kenton-next-v3",
+   "category": "electrica",
+   "specs": {},
+   "prices": [
+    {
+     "value": 8092000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "E-KENTON NEXT V3",
+      "url": "https://kenton.com.py/moto/e-kenton-next-v3/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "E-KENTON NEXT V3",
+     "url": "https://kenton.com.py/moto/e-kenton-next-v3/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 235.000 (source: https://kenton.com.py/moto/e-kenton-next-v3/)"
+  },
+  {
+   "brand": "kenton",
+   "name": "E-Kenton Next V5",
+   "slug": "e-kenton-next-v5",
+   "category": "electrica",
+   "specs": {},
+   "prices": [
+    {
+     "value": 8506000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Kenton (Chacomer)",
+     "source": {
+      "label": "E-KENTON NEXT V5",
+      "url": "https://kenton.com.py/moto/e-kenton-next-v5/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "E-KENTON NEXT V5",
+     "url": "https://kenton.com.py/moto/e-kenton-next-v5/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page (kenton.com.py), data from search summary"
+    }
+   ],
+   "cuotas": "Cuotas desde Gs. 245.000 (source: https://kenton.com.py/moto/e-kenton-next-v5/)"
+  },
+  {
+   "brand": "kenton",
+   "name": "Classic 150",
+   "slug": "classic-150",
+   "category": "naked",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "Chacomer Kenton Classic 150",
+     "url": "https://www.chacomer.com.py/motocicleta-utilitaria-kenton-classic-150.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Chacomer retailer/maker product page; no price/spec figures seen"
+    }
+   ],
+   "notes": "Chacomer product page; not on kenton.com.py in search."
+  },
+  {
+   "brand": "kenton",
+   "name": "Elegance",
+   "slug": "elegance",
+   "category": "scooter",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "Chacomer Kenton Elegance",
+     "url": "https://www.chacomer.com.py/motocicleta-scooter-kenton-elegance.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Chacomer retailer/maker product page; no price/spec figures seen"
+    }
+   ],
+   "notes": "Chacomer product page only."
+  },
+  {
+   "brand": "kenton",
+   "name": "Joy 110",
+   "slug": "joy-110",
+   "category": "cub",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "Tupi Moto Kenton Joy 110 Rojo",
+     "url": "https://www.tupi.com.py/producto/MKP053172/MOTO-KENTON-JOY-110-ROJO-",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Chacomer retailer/maker product page; no price/spec figures seen"
+    }
+   ],
+   "notes": "Tupi retailer page (title only)."
+  },
+  {
+   "brand": "star",
+   "name": "Star 150",
+   "slug": "star-150",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "STAR 150",
+      "url": "https://star.com.py/producto/SK150-CG-CKD/star-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "11,56 HP / 8000 RPM",
+     "source": {
+      "label": "STAR 150",
+      "url": "https://star.com.py/producto/SK150-CG-CKD/star-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Tambor",
+     "source": {
+      "label": "STAR 150",
+      "url": "https://star.com.py/producto/SK150-CG-CKD/star-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "STAR 150",
+      "url": "https://star.com.py/producto/SK150-CG-CKD/star-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "110 kg",
+     "source": {
+      "label": "STAR 150",
+      "url": "https://star.com.py/producto/SK150-CG-CKD/star-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "11 litros",
+     "source": {
+      "label": "STAR 150",
+      "url": "https://star.com.py/producto/SK150-CG-CKD/star-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "altura_asiento": {
+     "value": "760 mm",
+     "source": {
+      "label": "STAR 150",
+      "url": "https://star.com.py/producto/SK150-CG-CKD/star-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "4 tiempos, monocilíndrico",
+     "source": {
+      "label": "STAR 150",
+      "url": "https://star.com.py/producto/SK150-CG-CKD/star-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 5800000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Alex S.A. (alex.com.py)",
+     "source": {
+      "label": "Alex S.A. Star 150",
+      "url": "https://www.alex.com.py/producto/257/star-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "STAR 150",
+     "url": "https://star.com.py/producto/SK150-CG-CKD/star-150",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    },
+    {
+     "label": "Alex S.A. Star 150",
+     "url": "https://www.alex.com.py/producto/257/star-150",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor catalogue with Gs. price"
+    }
+   ]
+  },
+  {
+   "brand": "star",
+   "name": "SMX 150",
+   "slug": "smx-150",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "SMX 150cc",
+      "url": "https://star.com.py/producto/SMX150-CKD/smx-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "11 HP / 8500 RPM",
+     "source": {
+      "label": "SMX 150cc",
+      "url": "https://star.com.py/producto/SMX150-CKD/smx-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "4 tiempos, monocilíndrico, refrigerado por aire, 2 válvulas",
+     "source": {
+      "label": "SMX 150cc",
+      "url": "https://star.com.py/producto/SMX150-CKD/smx-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Manual 5 velocidades",
+     "source": {
+      "label": "SMX 150cc",
+      "url": "https://star.com.py/producto/SMX150-CKD/smx-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico / Pedal",
+     "source": {
+      "label": "SMX 150cc",
+      "url": "https://star.com.py/producto/SMX150-CKD/smx-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "SMX 150cc",
+      "url": "https://star.com.py/producto/SMX150-CKD/smx-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "SMX 150cc",
+      "url": "https://star.com.py/producto/SMX150-CKD/smx-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "90/90-19",
+     "source": {
+      "label": "SMX 150cc",
+      "url": "https://star.com.py/producto/SMX150-CKD/smx-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_tras": {
+     "value": "110/90-17",
+     "source": {
+      "label": "SMX 150cc",
+      "url": "https://star.com.py/producto/SMX150-CKD/smx-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "12 litros",
+     "source": {
+      "label": "SMX 150cc",
+      "url": "https://star.com.py/producto/SMX150-CKD/smx-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "110 kg",
+     "source": {
+      "label": "SMX 150cc",
+      "url": "https://star.com.py/producto/SMX150-CKD/smx-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "SMX 150cc",
+     "url": "https://star.com.py/producto/SMX150-CKD/smx-150cc",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    }
+   ],
+   "notes": "Trail/supermotard-style, listed in star.com.py Trail category."
+  },
+  {
+   "brand": "star",
+   "name": "150-X",
+   "slug": "150-x",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "150-X",
+      "url": "https://star.com.py/producto/SK150-X-CKD/150-x"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "11,56 HP / 8000 RPM",
+     "source": {
+      "label": "150-X",
+      "url": "https://star.com.py/producto/SK150-X-CKD/150-x"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 6800000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Alex S.A. (alex.com.py)",
+     "source": {
+      "label": "Alex S.A. 150-X",
+      "url": "https://www.alex.com.py/producto/258/150-x"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "150-X",
+     "url": "https://star.com.py/producto/SK150-X-CKD/150-x",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    },
+    {
+     "label": "Alex S.A. 150-X",
+     "url": "https://www.alex.com.py/producto/258/150-x",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor catalogue with Gs. price"
+    }
+   ]
+  },
+  {
+   "brand": "star",
+   "name": "FXZ 150",
+   "slug": "fxz-150",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "FXZ 150",
+      "url": "https://star.com.py/producto/SK150-FXZ-CKD/fxz-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "12,78 HP / 8500 RPM",
+     "source": {
+      "label": "FXZ 150",
+      "url": "https://star.com.py/producto/SK150-FXZ-CKD/fxz-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 9500000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Alex S.A. (alex.com.py)",
+     "source": {
+      "label": "Alex S.A. FXZ 150",
+      "url": "https://alex.com.py/producto/263/motocicleta-fxz-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "FXZ 150",
+     "url": "https://star.com.py/producto/SK150-FXZ-CKD/fxz-150cc",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    },
+    {
+     "label": "Alex S.A. FXZ 150",
+     "url": "https://alex.com.py/producto/263/motocicleta-fxz-150cc",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor catalogue with Gs. price"
+    }
+   ]
+  },
+  {
+   "brand": "star",
+   "name": "New Desert 150",
+   "slug": "new-desert-150",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "NEW DESERT 150",
+      "url": "https://star.com.py/producto/SK150BR-NEW-CKD/new-desert-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "11 HP / 8500 RPM",
+     "source": {
+      "label": "NEW DESERT 150",
+      "url": "https://star.com.py/producto/SK150BR-NEW-CKD/new-desert-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 8500000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Alex S.A. (alex.com.py)",
+     "source": {
+      "label": "Alex S.A. New Desert 150",
+      "url": "https://www.alex.com.py/producto/264/new-desert-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "NEW DESERT 150",
+     "url": "https://star.com.py/producto/SK150BR-NEW-CKD/new-desert-150",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    },
+    {
+     "label": "Alex S.A. New Desert 150",
+     "url": "https://www.alex.com.py/producto/264/new-desert-150cc",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor catalogue with Gs. price"
+    }
+   ]
+  },
+  {
+   "brand": "star",
+   "name": "New Desert 200",
+   "slug": "new-desert-200",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 200,
+     "source": {
+      "label": "NEW DESERT 200",
+      "url": "https://star.com.py/producto/SK200-BR-CKD/new-desert-200cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "NEW DESERT 200",
+     "url": "https://star.com.py/producto/SK200-BR-CKD/new-desert-200cc",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    }
+   ]
+  },
+  {
+   "brand": "star",
+   "name": "NT-A 150",
+   "slug": "nt-a-150",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "NT-A 150cc",
+      "url": "https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "11 HP / 8500 RPM",
+     "source": {
+      "label": "NT-A 150cc",
+      "url": "https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "NT-A 150cc",
+      "url": "https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "NT-A 150cc",
+      "url": "https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "14 litros",
+     "source": {
+      "label": "NT-A 150cc",
+      "url": "https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "2.75×18",
+     "source": {
+      "label": "NT-A 150cc",
+      "url": "https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_tras": {
+     "value": "90/90×18",
+     "source": {
+      "label": "NT-A 150cc",
+      "url": "https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "NT-A 150cc",
+     "url": "https://star.com.py/producto/SK150NT-A-CKD/nt-a-150cc",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    }
+   ]
+  },
+  {
+   "brand": "star",
+   "name": "TR-5 150",
+   "slug": "tr-5-150",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "TR-5 150cc",
+      "url": "https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "12,51 HP / 8500 RPM",
+     "source": {
+      "label": "TR-5 150cc",
+      "url": "https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "12 litros",
+     "source": {
+      "label": "TR-5 150cc",
+      "url": "https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "TR-5 150cc",
+     "url": "https://star.com.py/producto/SK150GY-5-CKD/tr-5-150cc",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    }
+   ]
+  },
+  {
+   "brand": "star",
+   "name": "RX4 150",
+   "slug": "rx4-150",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "RX4 150",
+      "url": "https://star.com.py/producto/SK150-RX4-CKD/rx4-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "11 HP",
+     "source": {
+      "label": "RX4 150",
+      "url": "https://star.com.py/producto/SK150-RX4-CKD/rx4-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "torque": {
+     "value": "9.8 Nm",
+     "source": {
+      "label": "RX4 150",
+      "url": "https://star.com.py/producto/SK150-RX4-CKD/rx4-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "RX4 150",
+      "url": "https://star.com.py/producto/SK150-RX4-CKD/rx4-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "RX4 150",
+      "url": "https://star.com.py/producto/SK150-RX4-CKD/rx4-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "15 litros",
+     "source": {
+      "label": "RX4 150",
+      "url": "https://star.com.py/producto/SK150-RX4-CKD/rx4-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "2.75x18",
+     "source": {
+      "label": "RX4 150",
+      "url": "https://star.com.py/producto/SK150-RX4-CKD/rx4-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_tras": {
+     "value": "3.00 x18",
+     "source": {
+      "label": "RX4 150",
+      "url": "https://star.com.py/producto/SK150-RX4-CKD/rx4-150"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "RX4 150",
+     "url": "https://star.com.py/producto/SK150-RX4-CKD/rx4-150",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    }
+   ]
+  },
+  {
+   "brand": "star",
+   "name": "XPro 150",
+   "slug": "xpro-150",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "XPRO 150",
+      "url": "https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "11,56 HP / 8000 RPM",
+     "source": {
+      "label": "XPRO 150",
+      "url": "https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "14 litros",
+     "source": {
+      "label": "XPRO 150",
+      "url": "https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "XPRO 150",
+     "url": "https://star.com.py/producto/XPRO150-R-CKD/xpro-150cc",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    }
+   ]
+  },
+  {
+   "brand": "star",
+   "name": "XPro 200",
+   "slug": "xpro-200",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 200,
+     "source": {
+      "label": "XPRO 200cc",
+      "url": "https://star.com.py/producto/XPRO200-R-CKD/xpro-200cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "XPRO 200cc",
+     "url": "https://star.com.py/producto/XPRO200-R-CKD/xpro-200cc",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    }
+   ]
+  },
+  {
+   "brand": "star",
+   "name": "Star 125",
+   "slug": "star-125",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "STAR 125",
+      "url": "https://star.com.py/producto/SK125-5-CKD/star-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "10,34 HP / 8000 RPM",
+     "source": {
+      "label": "STAR 125",
+      "url": "https://star.com.py/producto/SK125-5-CKD/star-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Tambor",
+     "source": {
+      "label": "STAR 125",
+      "url": "https://star.com.py/producto/SK125-5-CKD/star-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "STAR 125",
+      "url": "https://star.com.py/producto/SK125-5-CKD/star-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "11 litros",
+     "source": {
+      "label": "STAR 125",
+      "url": "https://star.com.py/producto/SK125-5-CKD/star-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 5650000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Alex S.A. (alex.com.py)",
+     "source": {
+      "label": "Alex S.A. Star 125",
+      "url": "https://www.alex.com.py/producto/256/star-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "STAR 125",
+     "url": "https://star.com.py/producto/SK125-5-CKD/star-125",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    },
+    {
+     "label": "Alex S.A. Star 125",
+     "url": "https://www.alex.com.py/producto/256/star-125",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor catalogue with Gs. price"
+    }
+   ]
+  },
+  {
+   "brand": "star",
+   "name": "Star 200",
+   "slug": "star-200",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 200,
+     "source": {
+      "label": "STAR 200",
+      "url": "https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "STAR 200",
+     "url": "https://star.com.py/producto/STAR200-CKD/motocicleta-star-200-200cc",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    }
+   ]
+  },
+  {
+   "brand": "star",
+   "name": "Magic 125",
+   "slug": "magic-125",
+   "category": "scooter",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "MAGIC 125",
+      "url": "https://star.com.py/producto/SK125-MAGIC-CKD/magic-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "7,3 HP / 7500 RPM",
+     "source": {
+      "label": "MAGIC 125",
+      "url": "https://star.com.py/producto/SK125-MAGIC-CKD/magic-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "MAGIC 125",
+      "url": "https://star.com.py/producto/SK125-MAGIC-CKD/magic-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "MAGIC 125",
+      "url": "https://star.com.py/producto/SK125-MAGIC-CKD/magic-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "4 litros",
+     "source": {
+      "label": "MAGIC 125",
+      "url": "https://star.com.py/producto/SK125-MAGIC-CKD/magic-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 6900000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Alex S.A. (alex.com.py)",
+     "source": {
+      "label": "Alex S.A. Magic 125",
+      "url": "https://www.alex.com.py/producto/255/magic-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "MAGIC 125",
+     "url": "https://star.com.py/producto/SK125-MAGIC-CKD/magic-125",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    },
+    {
+     "label": "Alex S.A. Magic 125",
+     "url": "https://www.alex.com.py/producto/255/magic-125",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor catalogue with Gs. price"
+    }
+   ],
+   "notes": "Step-through semi-automatic (motoneta) per star.com.py categories; category review."
+  },
+  {
+   "brand": "star",
+   "name": "Genius 125",
+   "slug": "genius-125",
+   "category": "scooter",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "GENIUS 125",
+      "url": "https://star.com.py/producto/SK125GENIUS-CKD/genius-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "7,3 HP / 7500 RPM",
+     "source": {
+      "label": "GENIUS 125",
+      "url": "https://star.com.py/producto/SK125GENIUS-CKD/genius-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "GENIUS 125",
+      "url": "https://star.com.py/producto/SK125GENIUS-CKD/genius-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "GENIUS 125",
+      "url": "https://star.com.py/producto/SK125GENIUS-CKD/genius-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "4 litros",
+     "source": {
+      "label": "GENIUS 125",
+      "url": "https://star.com.py/producto/SK125GENIUS-CKD/genius-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 6600000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Alex S.A. (alex.com.py)",
+     "source": {
+      "label": "Alex S.A. Genius 125",
+      "url": "https://www.alex.com.py/producto/254/genius-125cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "GENIUS 125",
+     "url": "https://star.com.py/producto/SK125GENIUS-CKD/genius-125",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    },
+    {
+     "label": "Alex S.A. Genius 125",
+     "url": "https://www.alex.com.py/producto/254/genius-125cc",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor catalogue with Gs. price"
+    }
+   ]
+  },
+  {
+   "brand": "star",
+   "name": "Dax 110",
+   "slug": "dax-110",
+   "category": "cub",
+   "specs": {
+    "cc": {
+     "value": 110,
+     "source": {
+      "label": "DAX 110",
+      "url": "https://star.com.py/producto/SK110-DAX-CKD/dax-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico / Pedal",
+     "source": {
+      "label": "DAX 110",
+      "url": "https://star.com.py/producto/SK110-DAX-CKD/dax-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Tambor",
+     "source": {
+      "label": "DAX 110",
+      "url": "https://star.com.py/producto/SK110-DAX-CKD/dax-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "DAX 110",
+      "url": "https://star.com.py/producto/SK110-DAX-CKD/dax-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "3,5 litros",
+     "source": {
+      "label": "DAX 110",
+      "url": "https://star.com.py/producto/SK110-DAX-CKD/dax-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "altura_asiento": {
+     "value": "740 mm",
+     "source": {
+      "label": "DAX 110",
+      "url": "https://star.com.py/producto/SK110-DAX-CKD/dax-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "100 kg",
+     "source": {
+      "label": "DAX 110",
+      "url": "https://star.com.py/producto/SK110-DAX-CKD/dax-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 5400000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Alex S.A. (alex.com.py)",
+     "source": {
+      "label": "Alex S.A. Dax 110",
+      "url": "https://www.alex.com.py/producto/252/dax-110cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "DAX 110",
+     "url": "https://star.com.py/producto/SK110-DAX-CKD/dax-110",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    },
+    {
+     "label": "Alex S.A. Dax 110",
+     "url": "https://www.alex.com.py/producto/252/dax-110cc",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor catalogue with Gs. price"
+    }
+   ],
+   "notes": "Star describes as motoneta."
+  },
+  {
+   "brand": "star",
+   "name": "Dax-A 110",
+   "slug": "dax-a-110",
+   "category": "cub",
+   "specs": {
+    "cc": {
+     "value": 110,
+     "source": {
+      "label": "DAX-A 110",
+      "url": "https://star.com.py/producto/SK110DAX-A-CKD/dax-a-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "DAX-A 110",
+      "url": "https://star.com.py/producto/SK110DAX-A-CKD/dax-a-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 5900000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Alex S.A. (alex.com.py)",
+     "source": {
+      "label": "Alex S.A. Dax-A 110",
+      "url": "https://www.alex.com.py/producto/253/dax-a-110cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "DAX-A 110",
+     "url": "https://star.com.py/producto/SK110DAX-A-CKD/dax-a-110",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    },
+    {
+     "label": "Alex S.A. Dax-A 110",
+     "url": "https://www.alex.com.py/producto/253/dax-a-110cc",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor catalogue with Gs. price"
+    }
+   ]
+  },
+  {
+   "brand": "star",
+   "name": "A1 110",
+   "slug": "a1-110",
+   "category": "scooter",
+   "specs": {
+    "cc": {
+     "value": 110,
+     "source": {
+      "label": "MOTONETA A1 110cc",
+      "url": "https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "MOTONETA A1 110cc",
+     "url": "https://star.com.py/producto/SK110-A1-CKD/motoneta-a1-110cc",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    }
+   ],
+   "notes": "Described as semi-automatic motoneta."
+  },
+  {
+   "brand": "star",
+   "name": "Super Carga 200",
+   "slug": "super-carga-200",
+   "category": "motocarro-carga",
+   "specs": {
+    "cc": {
+     "value": 200,
+     "source": {
+      "label": "MOTOCARGA 200cc SUPER CARGA",
+      "url": "https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "14 HP / 7500 RPM",
+     "source": {
+      "label": "MOTOCARGA 200cc SUPER CARGA",
+      "url": "https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico/pedal",
+     "source": {
+      "label": "MOTOCARGA 200cc SUPER CARGA",
+      "url": "https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "4 tiempos/monocilíndrico/transmisión por eje/refrigerado por aire",
+     "source": {
+      "label": "MOTOCARGA 200cc SUPER CARGA",
+      "url": "https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "MOTOCARGA 200cc SUPER CARGA",
+     "url": "https://star.com.py/producto/SKCARGA200-CKD/motocarga-200cc-super-carga",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Official brand page star.com.py"
+    },
+    {
+     "label": "Alex S.A. Motocarga",
+     "url": "https://www.alex.com.py/producto/240/motocarga",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor"
+    }
+   ],
+   "notes": "Carga max 350 kg. Also version Con Cabina (SKCRGA200-C-CKD).",
+   "versions": [
+    "Sin cabina",
+    "Con cabina"
+   ]
+  }
+ ],
+ "rejected": [
+  {
+   "what": "Star NK 150, SK 110",
+   "reason": "No product page found in search results under those names."
+  },
+  {
+   "what": "Kenton Warrior, TR, Speed, Cargo",
+   "reason": "No Paraguayan evidence found for those names."
+  },
+  {
+   "what": "kenton/bravo-150 price",
+   "reason": "R1 curation: same figure as Bravo 125 in the snippet — likely misattributed"
+  },
+  {
+   "what": "kenton/spark-150 price 16000000",
+   "reason": "R1 curation: about twice the rest of the Kenton 125–150 range and flagged implausible by the round-2 pass; re-check on kenton.com.py"
+  },
+  {
+   "what": "kenton/spark-125 price 15800000",
+   "reason": "R1 curation: about twice the rest of the Kenton 125–150 range and flagged implausible by the round-2 pass; re-check on kenton.com.py"
+  }
+ ],
+ "queries": [
+  "site:kenton.com.py GL 150 moto",
+  "site:kenton.com.py (various models per family)",
+  "site:star.com.py Star 150/SMX/110/carga",
+  "site:alex.com.py motos Star precio",
+  "Kenton Chacomer abc",
+  "chacomer Kenton Spark 150"
+ ]
+}

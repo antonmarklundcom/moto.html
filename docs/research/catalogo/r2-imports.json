@@ -1,0 +1,1734 @@
+{
+ "brands": [
+  {
+   "slug": "ktm",
+   "name": "KTM",
+   "distributor": {
+    "name": "AMS S.A. (Asunción Motor Sport)",
+    "source": {
+     "label": "KTM Paraguay",
+     "url": "http://ktm.com.py/"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "No 0 km model page/price found; only used classifieds, so no models included."
+  },
+  {
+   "slug": "kawasaki",
+   "name": "Kawasaki",
+   "distributor": {
+    "name": "Metalcar S.A.",
+    "source": {
+     "label": "Kawasaki Paraguay",
+     "url": "https://paraguay.kawasaki-la.com/es-la/"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "Brand site has Ninja lineup page but no model-level data retrieved."
+  },
+  {
+   "slug": "voge",
+   "name": "Voge",
+   "distributor": {
+    "name": "Voge Motos Paraguay",
+    "source": {
+     "label": "VOGE - Paraguay",
+     "url": "https://voge.com.py/"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "No model evidence collected."
+  },
+  {
+   "slug": "triumph",
+   "name": "Triumph",
+   "distributor": {
+    "name": "Martin Arrellaga Mecauto Chapas y Pinturas S.A. (Mecauto)",
+    "source": {
+     "label": "Triumph Motorcycles Paraguay hub",
+     "url": "https://www.triumph-motorcycles.co/triumph-hub-page/paraguay"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "No model evidence collected."
+  }
+ ],
+ "models": [
+  {
+   "brand": "yamaha",
+   "name": "XTZ 150",
+   "slug": "xtz-150",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 149,
+     "source": {
+      "label": "Classic Motos - XTZ 150",
+      "url": "https://www.classicmotos.com.py/producto/xtz-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "12.3 Hp a 7500 rpm",
+     "source": {
+      "label": "Classic Motos - XTZ 150",
+      "url": "https://www.classicmotos.com.py/producto/xtz-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "torque": {
+     "value": "13.1 Nm a 6000 rpm",
+     "source": {
+      "label": "Classic Motos - XTZ 150",
+      "url": "https://www.classicmotos.com.py/producto/xtz-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "131 kg",
+     "source": {
+      "label": "Classic Motos - XTZ 150",
+      "url": "https://www.classicmotos.com.py/producto/xtz-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "altura_asiento": {
+     "value": "835 mm",
+     "source": {
+      "label": "Classic Motos - XTZ 150",
+      "url": "https://www.classicmotos.com.py/producto/xtz-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "12 L",
+     "source": {
+      "label": "Classic Motos - XTZ 150",
+      "url": "https://www.classicmotos.com.py/producto/xtz-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Inyección electrónica",
+     "source": {
+      "label": "Classic Motos - XTZ 150",
+      "url": "https://www.classicmotos.com.py/producto/xtz-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Classic Motos - XTZ 150",
+      "url": "https://www.classicmotos.com.py/producto/xtz-150/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 25000000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Chacomer",
+     "source": {
+      "label": "Chacomer - Moto trail Yamaha XTZ150",
+      "url": "https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz150.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Chacomer XTZ150",
+     "url": "https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz150.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer/official distributor page"
+    },
+    {
+     "label": "Classic Motos XTZ 150",
+     "url": "https://www.classicmotos.com.py/producto/xtz-150/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer specs"
+    }
+   ]
+  },
+  {
+   "brand": "yamaha",
+   "name": "MT-07",
+   "slug": "mt-07",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 689,
+     "source": {
+      "label": "Yamaha Motor Paraguay - MT-07",
+      "url": "http://www.yamaha-motor.com.py/producto/23/mt-07"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "73.7 Hp (55.0 kW) a 9000 rpm",
+     "source": {
+      "label": "Yamaha Motor Paraguay - MT-07",
+      "url": "http://www.yamaha-motor.com.py/producto/23/mt-07"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "torque": {
+     "value": "68.0 Nm (6.9 kgf.m) a 6500 rpm",
+     "source": {
+      "label": "Yamaha Motor Paraguay - MT-07",
+      "url": "http://www.yamaha-motor.com.py/producto/23/mt-07"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Toma constante, 6 velocidades",
+     "source": {
+      "label": "Yamaha Motor Paraguay - MT-07",
+      "url": "http://www.yamaha-motor.com.py/producto/23/mt-07"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico",
+     "source": {
+      "label": "Yamaha Motor Paraguay - MT-07",
+      "url": "http://www.yamaha-motor.com.py/producto/23/mt-07"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Inyección de combustible",
+     "source": {
+      "label": "Yamaha Motor Paraguay - MT-07",
+      "url": "http://www.yamaha-motor.com.py/producto/23/mt-07"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 11870,
+     "currency": "USD",
+     "condition": "0km",
+     "seller": "Chacomer",
+     "source": {
+      "label": "Chacomer - MT-07 ABS azul",
+      "url": "https://www.chacomer.com.py/moto-yamaha-mt-07-abs-azul.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    {
+     "value": 11627,
+     "currency": "USD",
+     "condition": "0km",
+     "seller": "Chacomer",
+     "source": {
+      "label": "Chacomer - MT-07 ABS plata",
+      "url": "https://www.chacomer.com.py/moto-yamaha-mt-07-abs-plata.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Yamaha Motor Paraguay MT-07",
+     "url": "http://www.yamaha-motor.com.py/producto/23/mt-07",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor brand site"
+    }
+   ]
+  },
+  {
+   "brand": "yamaha",
+   "name": "MT-09",
+   "slug": "mt-09",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 847,
+     "source": {
+      "label": "Yamaha Motor Paraguay - MT-09",
+      "url": "http://yamaha-motor.com.py/producto/15/mt-09"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "84,6 kW (115PS) @ 10.000 rpm",
+     "source": {
+      "label": "Yamaha Motor Paraguay - MT-09",
+      "url": "http://yamaha-motor.com.py/producto/15/mt-09"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "torque": {
+     "value": "87,5 Nm (8,9 kg-m) @ 8.500 rpm",
+     "source": {
+      "label": "Yamaha Motor Paraguay - MT-09",
+      "url": "http://yamaha-motor.com.py/producto/15/mt-09"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "6 velocidades",
+     "source": {
+      "label": "Yamaha Motor Paraguay - MT-09",
+      "url": "http://yamaha-motor.com.py/producto/15/mt-09"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico",
+     "source": {
+      "label": "Yamaha Motor Paraguay - MT-09",
+      "url": "http://yamaha-motor.com.py/producto/15/mt-09"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Inyección de combustible",
+     "source": {
+      "label": "Yamaha Motor Paraguay - MT-09",
+      "url": "http://yamaha-motor.com.py/producto/15/mt-09"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Yamaha Motor Paraguay MT-09",
+     "url": "http://yamaha-motor.com.py/producto/15/mt-09",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor brand site"
+    }
+   ]
+  },
+  {
+   "brand": "yamaha",
+   "name": "Ténéré 700",
+   "slug": "tenere-700",
+   "category": "touring",
+   "specs": {},
+   "prices": [
+    {
+     "value": 16300,
+     "currency": "USD",
+     "condition": "0km",
+     "seller": "Chacomer",
+     "source": {
+      "label": "Chacomer - Yamaha XTZ690 (Tenere 700) blanco",
+      "url": "https://www.chacomer.com.py/motocicleta-yamaha-xtz690-tenere-700-blanco.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Chacomer Ténéré 700",
+     "url": "https://www.chacomer.com.py/motocicleta-yamaha-xtz690-tenere-700-blanco.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer/distributor page"
+    }
+   ]
+  },
+  {
+   "brand": "yamaha",
+   "name": "FZ-25",
+   "slug": "fz-25",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 249,
+     "source": {
+      "label": "Chacomer - FZ-25 ABS",
+      "url": "https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "4 tiempos SOHC",
+     "source": {
+      "label": "Chacomer - FZ-25 ABS",
+      "url": "https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire y aceite",
+     "source": {
+      "label": "Chacomer - FZ-25 ABS",
+      "url": "https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Inyección electrónica de combustible",
+     "source": {
+      "label": "Chacomer - FZ-25 ABS",
+      "url": "https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Chacomer FZ-25 ABS",
+     "url": "https://www.chacomer.com.py/motocicleta-sport-yamaha-fz-25-abs.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer/distributor page"
+    }
+   ]
+  },
+  {
+   "brand": "yamaha",
+   "name": "XTZ 125",
+   "slug": "xtz-125",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 123,
+     "source": {
+      "label": "Chacomer - XTZ125",
+      "url": "https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "10,6 L",
+     "source": {
+      "label": "Chacomer - XTZ125",
+      "url": "https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "114 kg",
+     "source": {
+      "label": "Chacomer - XTZ125",
+      "url": "https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "5 velocidades",
+     "source": {
+      "label": "Chacomer - XTZ125",
+      "url": "https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Chacomer - XTZ125",
+      "url": "https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Monocilíndrico, 4T, SOHC",
+     "source": {
+      "label": "Chacomer - XTZ125",
+      "url": "https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 21210000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Chacomer",
+     "source": {
+      "label": "Chacomer - XTZ125",
+      "url": "https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Chacomer XTZ125",
+     "url": "https://www.chacomer.com.py/motocicleta-trail-yamaha-xtz125.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer/distributor page"
+    }
+   ]
+  },
+  {
+   "brand": "yamaha",
+   "name": "YBR125E",
+   "slug": "ybr-125e",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 124,
+     "source": {
+      "label": "Yamaha Motor Paraguay - YBR 125 E",
+      "url": "http://yamaha-motor.com.py/producto/52/ybr-125-e"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "9.5 Hp a 7800 rpm",
+     "source": {
+      "label": "Yamaha Motor Paraguay - YBR 125 E",
+      "url": "http://yamaha-motor.com.py/producto/52/ybr-125-e"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "torque": {
+     "value": "10.1 Nm a 6000 rpm",
+     "source": {
+      "label": "Yamaha Motor Paraguay - YBR 125 E",
+      "url": "http://yamaha-motor.com.py/producto/52/ybr-125-e"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "12 L",
+     "source": {
+      "label": "Yamaha Motor Paraguay - YBR 125 E",
+      "url": "http://yamaha-motor.com.py/producto/52/ybr-125-e"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "5 velocidades, toma constante",
+     "source": {
+      "label": "Yamaha Motor Paraguay - YBR 125 E",
+      "url": "http://yamaha-motor.com.py/producto/52/ybr-125-e"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Yamaha Motor Paraguay YBR 125 E",
+     "url": "http://yamaha-motor.com.py/producto/52/ybr-125-e",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor brand site"
+    }
+   ]
+  },
+  {
+   "brand": "suzuki",
+   "name": "V-Strom 650",
+   "slug": "v-strom-650",
+   "category": "touring",
+   "specs": {
+    "cc": {
+     "value": 645,
+     "source": {
+      "label": "Suzuki Motos Chacomer Automotores - V-Strom 650",
+      "url": "https://suzukimotos.com.py/modelo/v-strom-650xt"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "20 L",
+     "source": {
+      "label": "Suzuki Motos Chacomer Automotores - V-Strom 650",
+      "url": "https://suzukimotos.com.py/modelo/v-strom-650xt"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "4 tiempos, 2 cilindros en V a 90°, DOHC",
+     "source": {
+      "label": "Suzuki Motos Chacomer Automotores - V-Strom 650",
+      "url": "https://suzukimotos.com.py/modelo/v-strom-650xt"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Suzuki Motos Chacomer - V-Strom 650",
+     "url": "https://suzukimotos.com.py/modelo/v-strom-650xt",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor brand site"
+    }
+   ]
+  },
+  {
+   "brand": "suzuki",
+   "name": "V-Strom 800",
+   "slug": "v-strom-800",
+   "category": "touring",
+   "specs": {
+    "cc": {
+     "value": 776,
+     "source": {
+      "label": "Suzuki Motos Chacomer Automotores - V-Strom 800",
+      "url": "https://suzukimotos.com.py/modelo/v-strom-800de"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Suzuki Motos Chacomer - V-Strom 800",
+     "url": "https://suzukimotos.com.py/modelo/v-strom-800de",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor brand site"
+    }
+   ]
+  },
+  {
+   "brand": "suzuki",
+   "name": "V-Strom 1050",
+   "slug": "v-strom-1050",
+   "category": "touring",
+   "specs": {
+    "cc": {
+     "value": 1037,
+     "source": {
+      "label": "Suzuki Motos Chacomer Automotores - V-Strom 1050",
+      "url": "https://suzukimotos.com.py/modelo/v-strom-1-050de"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "4 tiempos, 2 cilindros en V a 90°, DOHC",
+     "source": {
+      "label": "Suzuki Motos Chacomer Automotores - V-Strom 1050",
+      "url": "https://suzukimotos.com.py/modelo/v-strom-1-050de"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Suzuki Motos Chacomer - V-Strom 1050",
+     "url": "https://suzukimotos.com.py/modelo/v-strom-1-050de",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor brand site"
+    }
+   ]
+  },
+  {
+   "brand": "bajaj",
+   "name": "Boxer 150",
+   "slug": "boxer-150",
+   "category": "naked",
+   "specs": {
+    "motor": {
+     "value": "144,8 cc",
+     "source": {
+      "label": "Tupi - Moto Bajaj Boxer 150",
+      "url": "https://cde.tupi.com.py/producto/MKP096380/MOTO-BAJAJ-BOXER-150-COLOR-ROJO-"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 7489000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Tupi S.A.",
+     "source": {
+      "label": "Tupi - Moto Bajaj Boxer 150 negro y gris (oferta Gs. 7.311.000)",
+      "url": "https://www.tupi.com.py/producto/MKP096379/MOTO-BAJAJ-BOXER-150-COLOR-NEGRO-Y-GRIS-"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Tupi Boxer 150 negro y gris",
+     "url": "https://www.tupi.com.py/producto/MKP096379/MOTO-BAJAJ-BOXER-150-COLOR-NEGRO-Y-GRIS-",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer page; promo price Gs. 7.311.000 also shown"
+    },
+    {
+     "label": "Tupi Boxer 150 rojo",
+     "url": "https://cde.tupi.com.py/producto/MKP096380/MOTO-BAJAJ-BOXER-150-COLOR-ROJO-",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer page"
+    },
+    {
+     "label": "La Nación - Moto Boxer 150 ya está disponible",
+     "url": "https://www.lanacion.com.py/negocios_edicion_impresa/2019/06/15/moto-boxer-150-ya-esta-disponible-en-el-mercado/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "press"
+    }
+   ]
+  },
+  {
+   "brand": "bajaj",
+   "name": "Rouser NS 200",
+   "slug": "rouser-ns-200",
+   "category": "naked",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "Diario HOY - Bajaj presentó oficialmente su primera línea de motos en Paraguay",
+     "url": "https://www.hoy.com.py/negocios/bajaj-presento-oficialmente-su-primera-linea-de-motos-en-paraguay",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "press naming Rouser 200 among initial AMS models (price/specs not shown)"
+    }
+   ]
+  },
+  {
+   "brand": "bajaj",
+   "name": "Dominar 400",
+   "slug": "dominar-400",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "Infonegocios - Bajaj espera obtener el 30% del mercado paraguayo",
+     "url": "https://infonegocios.com.py/infomotor/bajaj-espera-obtener-el-30-del-mercado-paraguayo",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "press; 2019 launch price US$ 4.575 mentioned in search summary, not current so not recorded as price"
+    }
+   ]
+  },
+  {
+   "brand": "tvs",
+   "name": "Ronin 225",
+   "slug": "ronin-225",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 225,
+     "source": {
+      "label": "TVS Motor Paraguay - Ronin",
+      "url": "https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "20.1 HP @ 7750 rpm",
+     "source": {
+      "label": "TVS Motor Paraguay - Ronin",
+      "url": "https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "torque": {
+     "value": "19.93 Nm @ 3750 rpm",
+     "source": {
+      "label": "TVS Motor Paraguay - Ronin",
+      "url": "https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aceite",
+     "source": {
+      "label": "TVS Motor Paraguay - Ronin",
+      "url": "https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Disco 240 mm",
+     "source": {
+      "label": "TVS Motor Paraguay - Ronin",
+      "url": "https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "110/70-17 sin cámara",
+     "source": {
+      "label": "TVS Motor Paraguay - Ronin",
+      "url": "https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_tras": {
+     "value": "130/70-17 sin cámara",
+     "source": {
+      "label": "TVS Motor Paraguay - Ronin",
+      "url": "https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco 300 mm con ABS de dos canales",
+     "source": {
+      "label": "TVS Motor Paraguay - Ronin",
+      "url": "https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 26203000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Chacomer",
+     "source": {
+      "label": "Chacomer - Motocicleta rutera TVS Ronin 225",
+      "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-ronin-225.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "TVS Motor Paraguay Ronin",
+     "url": "https://paraguay.tvsmotor.com/en/p/our-products/tvs-ronin-py",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "brand page"
+    },
+    {
+     "label": "Chacomer Ronin 225",
+     "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-ronin-225.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer/distributor page"
+    }
+   ]
+  },
+  {
+   "brand": "tvs",
+   "name": "Apache RTR 160 2V",
+   "slug": "apache-rtr-160-2v",
+   "category": "naked",
+   "specs": {},
+   "prices": [
+    {
+     "value": 14111000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Chacomer",
+     "source": {
+      "label": "Chacomer - TVS Apache RTR 160 2V",
+      "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-apache-rtr-160-2v.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Chacomer Apache RTR 160 2V",
+     "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-apache-rtr-160-2v.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer/distributor page"
+    },
+    {
+     "label": "TVS Motor Paraguay Apache RTR 160 2V Refresh",
+     "url": "https://paraguay.tvsmotor.com/en/p/our-products/apache-rtr-160-2v-refresh-py",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "brand page"
+    }
+   ]
+  },
+  {
+   "brand": "tvs",
+   "name": "Neo NX 110",
+   "slug": "neo-nx-110",
+   "category": "cub",
+   "specs": {
+    "potencia": {
+     "value": "8.44 Hp",
+     "source": {
+      "label": "Chacomer - TVS Neo NX 110",
+      "url": "https://www.chacomer.com.py/motocicleta-cub-motoneta-tvs-neo-nx-110.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "torque": {
+     "value": "8,5 Nm",
+     "source": {
+      "label": "Chacomer - TVS Neo NX 110",
+      "url": "https://www.chacomer.com.py/motocicleta-cub-motoneta-tvs-neo-nx-110.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "cc": {
+     "value": 110,
+     "source": {
+      "label": "Chacomer - TVS Neo NX 110 (109,7 cc)",
+      "url": "https://www.chacomer.com.py/motocicleta-cub-motoneta-tvs-neo-nx-110.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Chacomer Neo NX 110",
+     "url": "https://www.chacomer.com.py/motocicleta-cub-motoneta-tvs-neo-nx-110.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer page"
+    },
+    {
+     "label": "TVS Motor Paraguay Neo NX",
+     "url": "https://paraguay.tvsmotor.com/en/p/our-products/neo-nx-py",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "brand page"
+    }
+   ]
+  },
+  {
+   "brand": "tvs",
+   "name": "Stryker 125",
+   "slug": "stryker-125",
+   "category": "naked",
+   "specs": {
+    "freno_del": {
+     "value": "Disco 240 mm",
+     "source": {
+      "label": "Chacomer - TVS Stryker 125",
+      "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-stryker-125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor 130 mm",
+     "source": {
+      "label": "Chacomer - TVS Stryker 125",
+      "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-stryker-125.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Chacomer Stryker 125",
+     "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-stryker-125.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer page"
+    }
+   ]
+  },
+  {
+   "brand": "tvs",
+   "name": "HLX 150 F",
+   "slug": "hlx-150-f",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 148,
+     "source": {
+      "label": "Chacomer - TVS HLX 150 F",
+      "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-hlx-150-f.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "5 velocidades",
+     "source": {
+      "label": "Chacomer - TVS HLX 150 F",
+      "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-hlx-150-f.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Chacomer HLX 150 F",
+     "url": "https://www.chacomer.com.py/motocicleta-rutera-tvs-hlx-150-f.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer page"
+    }
+   ]
+  },
+  {
+   "brand": "bmw-motorrad",
+   "name": "G 310 GS",
+   "slug": "g-310-gs",
+   "category": "touring",
+   "specs": {
+    "cc": {
+     "value": 313,
+     "source": {
+      "label": "BMW Motorrad Paraguay - G 310 GS datos técnicos",
+      "url": "https://www.bmw-motorrad.com.py/es/models/adventure/g310gs/technicaldata.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "34 HP (25 kW) a 9.500 rpm",
+     "source": {
+      "label": "BMW Motorrad Paraguay - G 310 GS datos técnicos",
+      "url": "https://www.bmw-motorrad.com.py/es/models/adventure/g310gs/technicaldata.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Agua",
+     "source": {
+      "label": "BMW Motorrad Paraguay - G 310 GS datos técnicos",
+      "url": "https://www.bmw-motorrad.com.py/es/models/adventure/g310gs/technicaldata.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Un cilindro, cuatro tiempos, 4 válvulas, dos árboles de levas",
+     "source": {
+      "label": "BMW Motorrad Paraguay - G 310 GS datos técnicos",
+      "url": "https://www.bmw-motorrad.com.py/es/models/adventure/g310gs/technicaldata.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "6 velocidades",
+     "source": {
+      "label": "BMW Motorrad Paraguay - G 310 GS datos técnicos",
+      "url": "https://www.bmw-motorrad.com.py/es/models/adventure/g310gs/technicaldata.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "BMW Motorrad Paraguay G 310 GS datos técnicos",
+     "url": "https://www.bmw-motorrad.com.py/es/models/adventure/g310gs/technicaldata.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor brand site"
+    }
+   ]
+  },
+  {
+   "brand": "bmw-motorrad",
+   "name": "G 310 R",
+   "slug": "g-310-r",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 313,
+     "source": {
+      "label": "BMW Motorrad Paraguay - G 310 R datos técnicos",
+      "url": "https://www.bmw-motorrad.com.py/es/models/roadster/g310r/technicaldata.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "34 HP (25 kW) a 9.500 rpm",
+     "source": {
+      "label": "BMW Motorrad Paraguay - G 310 R datos técnicos",
+      "url": "https://www.bmw-motorrad.com.py/es/models/roadster/g310r/technicaldata.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Agua",
+     "source": {
+      "label": "BMW Motorrad Paraguay - G 310 R datos técnicos",
+      "url": "https://www.bmw-motorrad.com.py/es/models/roadster/g310r/technicaldata.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Un cilindro, cuatro tiempos, 4 válvulas, dos árboles de levas",
+     "source": {
+      "label": "BMW Motorrad Paraguay - G 310 R datos técnicos",
+      "url": "https://www.bmw-motorrad.com.py/es/models/roadster/g310r/technicaldata.html"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "BMW Motorrad Paraguay G 310 R datos técnicos",
+     "url": "https://www.bmw-motorrad.com.py/es/models/roadster/g310r/technicaldata.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor brand site"
+    }
+   ]
+  },
+  {
+   "brand": "bmw-motorrad",
+   "name": "R 1300 GS",
+   "slug": "r-1300-gs",
+   "category": "touring",
+   "specs": {
+    "cc": {
+     "value": 1300,
+     "source": {
+      "label": "ABC Color - La nueva BMW R 1300 GS ya está en Paraguay",
+      "url": "https://www.abc.com.py/empresariales/2024/03/26/la-nueva-y-potente-bmw-r-1300-gs-ya-esta-en-paraguay/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "145 HP a 7.750 rpm",
+     "source": {
+      "label": "ABC Color - La nueva BMW R 1300 GS ya está en Paraguay",
+      "url": "https://www.abc.com.py/empresariales/2024/03/26/la-nueva-y-potente-bmw-r-1300-gs-ya-esta-en-paraguay/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "torque": {
+     "value": "149 Nm a 6.500 rpm",
+     "source": {
+      "label": "ABC Color - La nueva BMW R 1300 GS ya está en Paraguay",
+      "url": "https://www.abc.com.py/empresariales/2024/03/26/la-nueva-y-potente-bmw-r-1300-gs-ya-esta-en-paraguay/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "ABC Color R 1300 GS",
+     "url": "https://www.abc.com.py/empresariales/2024/03/26/la-nueva-y-potente-bmw-r-1300-gs-ya-esta-en-paraguay/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "press March 2024 launch price; may be outdated"
+    },
+    {
+     "label": "BMW Motorrad Paraguay R 1300 GS",
+     "url": "https://www.bmw-motorrad.com.py/es/models/adventure/r1300gs.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "brand page"
+    }
+   ]
+  },
+  {
+   "brand": "ducati",
+   "name": "DesertX",
+   "slug": "desertx",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "Ducati Paraguay Desert X",
+     "url": "https://ducati.com.py/productos/desert-x-52.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor model page"
+    }
+   ]
+  },
+  {
+   "brand": "ducati",
+   "name": "Scrambler",
+   "slug": "scrambler",
+   "category": "naked",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "Ducati Paraguay Scrambler",
+     "url": "https://ducati.com.py/productos/scrambler-ducati-8.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor model page"
+    }
+   ]
+  },
+  {
+   "brand": "ducati",
+   "name": "Multistrada",
+   "slug": "multistrada",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "Ducati Paraguay Nueva Multistrada V4",
+     "url": "https://ducati.com.py/noticias/nueva-multistrada-v4-16.html",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor page"
+    }
+   ]
+  },
+  {
+   "brand": "royal-enfield",
+   "name": "Classic 350",
+   "slug": "classic-350",
+   "category": "custom-chopper",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "Reimpex Classic 350 Gun Grey",
+     "url": "https://reimpex.com.py/reimpex/producto/109/classic-350-gun-grey",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor product page (no figures visible)"
+    }
+   ]
+  },
+  {
+   "brand": "royal-enfield",
+   "name": "Himalayan 450",
+   "slug": "himalayan-450",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "Reimpex Himalayan 450 Hanle Black",
+     "url": "https://www.reimpex.com.py/reimpex/producto/122/himalayan-450-hanle-black",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor product page (no figures visible)"
+    }
+   ]
+  },
+  {
+   "brand": "benelli",
+   "name": "752S",
+   "slug": "752s",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 754,
+     "source": {
+      "label": "Inverfin - Benelli 752S 2023 (Naked deportiva 754cc)",
+      "url": "https://inverfin.com.py/products/moto-benelli-752s-2023"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Brembo",
+     "source": {
+      "label": "Inverfin - Benelli 752S",
+      "url": "https://inverfin.com.py/products/moto-benelli-752s-2023"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Inverfin Benelli 752S",
+     "url": "https://inverfin.com.py/products/moto-benelli-752s-2023",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor page; price Gs. 5.980.000 in snippet looked implausible, not recorded"
+    }
+   ]
+  },
+  {
+   "brand": "cfmoto",
+   "name": "450MT",
+   "slug": "450mt",
+   "category": "touring",
+   "specs": {
+    "potencia": {
+     "value": "44 CV",
+     "source": {
+      "label": "CFMOTO Paraguay - 450MT",
+      "url": "https://www.cfmoto.com.py/producto.php?prod=450mt"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Dos cilindros, 449,5 cc, refrigeración líquida",
+     "source": {
+      "label": "CFMOTO Paraguay - 450MT",
+      "url": "https://www.cfmoto.com.py/producto.php?prod=450mt"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Líquida",
+     "source": {
+      "label": "CFMOTO Paraguay - 450MT",
+      "url": "https://www.cfmoto.com.py/producto.php?prod=450mt"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "CFMOTO Paraguay 450MT",
+     "url": "https://www.cfmoto.com.py/producto.php?prod=450mt",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "brand site"
+    },
+    {
+     "label": "Classic Motos MT450",
+     "url": "https://www.classicmotos.com.py/producto/mt450/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer page"
+    }
+   ]
+  },
+  {
+   "brand": "ktm",
+   "name": "790 Adventure",
+   "slug": "790-adventure",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "Infonegocios - 1 de las 10 nuevas KTM 790 Adventure...",
+     "url": "https://infonegocios.com.py/infomotor/1-de-las-10-nuevas-ktm-790-adventure-del-mundo-se-encuentra-disponible-en-paraguay",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "press: AMS 2019; launch prices USD 18.700 (S)/19.900 (R) not current, not recorded"
+    }
+   ]
+  },
+  {
+   "brand": "kawasaki",
+   "name": "Ninja ZX-4R",
+   "slug": "ninja-zx-4r",
+   "category": "deportiva",
+   "specs": {
+    "cc": {
+     "value": 399,
+     "source": {
+      "label": "Kawasaki Paraguay - Ninja ZX-4R ABS",
+      "url": "https://paraguay.kawasaki-la.com/es-la/motocicleta/ninja/supersport/ninja-zx-4r"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "Cuatro cilindros en línea",
+     "source": {
+      "label": "Kawasaki Paraguay - Ninja ZX-4R ABS",
+      "url": "https://paraguay.kawasaki-la.com/es-la/motocicleta/ninja/supersport/ninja-zx-4r"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Kawasaki Paraguay Ninja ZX-4R ABS",
+     "url": "https://paraguay.kawasaki-la.com/es-la/motocicleta/ninja/supersport/ninja-zx-4r",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "brand Paraguay page"
+    }
+   ]
+  },
+  {
+   "brand": "voge",
+   "name": "300 DS",
+   "slug": "300-ds",
+   "category": "enduro-cross",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "VOGE Paraguay 300 DS",
+     "url": "https://voge.com.py/motos/300-ds/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "brand Paraguay model page (no figures visible)"
+    }
+   ]
+  },
+  {
+   "brand": "voge",
+   "name": "300 Rally",
+   "slug": "300-rally",
+   "category": "enduro-cross",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "VOGE Paraguay 300 Rally",
+     "url": "https://voge.com.py/motos/300-rally/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "brand Paraguay model page (no figures visible)"
+    }
+   ]
+  },
+  {
+   "brand": "voge",
+   "name": "DS 525X",
+   "slug": "ds-525x",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "VOGE Paraguay DS 525X",
+     "url": "https://voge.com.py/motos/ds-525x/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "brand Paraguay model page (no figures visible)"
+    }
+   ]
+  },
+  {
+   "brand": "voge",
+   "name": "625 DSX",
+   "slug": "625-dsx",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "VOGE Paraguay 625 DSX",
+     "url": "https://voge.com.py/motos/625-dsx/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "brand Paraguay model page (no figures visible)"
+    }
+   ]
+  },
+  {
+   "brand": "voge",
+   "name": "DS 900X",
+   "slug": "ds-900x",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "VOGE Paraguay DS 900X",
+     "url": "https://voge.com.py/motos/ds-900x/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "brand Paraguay model page (no figures visible)"
+    }
+   ]
+  },
+  {
+   "brand": "voge",
+   "name": "DS800X Rally",
+   "slug": "ds800x-rally",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "VOGE Paraguay DS800X Rally",
+     "url": "https://voge.com.py/motos/ds800x-rally/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "brand Paraguay model page (no figures visible)"
+    }
+   ]
+  },
+  {
+   "brand": "triumph",
+   "name": "Speed 400",
+   "slug": "speed-400",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 398,
+     "source": {
+      "label": "Mecauto - Triumph Speed 400 (398.15 cc)",
+      "url": "https://mecauto.com.py/triumph/speed400/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "40 hp",
+     "source": {
+      "label": "Mecauto - Triumph Speed 400",
+      "url": "https://mecauto.com.py/triumph/speed400/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "torque": {
+     "value": "37.5 Nm",
+     "source": {
+      "label": "Mecauto - Triumph Speed 400",
+      "url": "https://mecauto.com.py/triumph/speed400/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "6 velocidades",
+     "source": {
+      "label": "Mecauto - Triumph Speed 400",
+      "url": "https://mecauto.com.py/triumph/speed400/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "DOHC 4 tiempos monocilíndrico",
+     "source": {
+      "label": "Mecauto - Triumph Speed 400",
+      "url": "https://mecauto.com.py/triumph/speed400/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "sources": [
+    {
+     "label": "Mecauto Triumph Speed 400",
+     "url": "https://mecauto.com.py/triumph/speed400/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor page"
+    }
+   ]
+  },
+  {
+   "brand": "triumph",
+   "name": "Scrambler 400X",
+   "slug": "scrambler-400x",
+   "category": "enduro-cross",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "Mecauto Triumph Scrambler 400X",
+     "url": "https://mecauto.com.py/triumph/scrambler400x/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor model page (no figures visible)"
+    }
+   ]
+  },
+  {
+   "brand": "triumph",
+   "name": "Trident 660",
+   "slug": "trident-660",
+   "category": "naked",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "Mecauto Triumph Trident 660",
+     "url": "https://www.mecauto.com.py/triumph/trident660/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor model page (no figures visible)"
+    }
+   ]
+  },
+  {
+   "brand": "triumph",
+   "name": "Tiger 900",
+   "slug": "tiger-900",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "Mecauto Triumph Tiger 900",
+     "url": "https://www.mecauto.com.py/triumph/tiger900/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor model page (no figures visible)"
+    }
+   ]
+  },
+  {
+   "brand": "triumph",
+   "name": "Tiger 1200",
+   "slug": "tiger-1200",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "Mecauto Triumph Tiger 1200",
+     "url": "https://www.mecauto.com.py/triumph/tiger1200/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor model page (no figures visible)"
+    }
+   ]
+  },
+  {
+   "brand": "triumph",
+   "name": "Speed Twin",
+   "slug": "speed-twin",
+   "category": "naked",
+   "specs": {},
+   "prices": [],
+   "sources": [
+    {
+     "label": "Mecauto Triumph Speed Twin",
+     "url": "https://www.mecauto.com.py/triumph/speedtwinn/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor model page (no figures visible)"
+    }
+   ]
+  }
+ ],
+ "rejected": [
+  {
+   "what": "Harley-Davidson models",
+   "reason": "harleyparaguay.com product found (Road Glide 2020) is a used-bike listing; no 0 km model page found"
+  },
+  {
+   "what": "Zontes models",
+   "reason": "no Paraguayan page naming a model found"
+  },
+  {
+   "what": "Benelli 752S price Gs. 5.980.000",
+   "reason": "implausible vs 'habitual' Gs. 8.193.000 in snippet, likely installment/promo artefact"
+  },
+  {
+   "what": "Chacomer prices for TVS HLX 150 F, Stryker 125, Neo NX 110; XTZ 250",
+   "reason": "snippets gave conflicting values across repeated queries"
+  },
+  {
+   "what": "Yamaha MT-07 'US$ 341', YBR125E 'Gs 376.000', Suzuki V-Strom 650 'PYG 450.500'",
+   "reason": "clearly not bike prices (accessory/installment artefacts)"
+  },
+  {
+   "what": "Bajaj Boxer 150 price Gs. 13.100.000",
+   "reason": "conflicted with Tupi product page value 7.489.000; used the latter"
+  },
+  {
+   "what": "Bajaj Dominar 400 / Rouser NS 200 specs and current price; bajaj.com.py pages",
+   "reason": "bajaj.com.py only indexes Pulsar 150; no figures found"
+  },
+  {
+   "what": "Suzuki V-Strom prices, potencia",
+   "reason": "suzukimotos.com.py pages/PDFs not readable through search"
+  },
+  {
+   "what": "Royal Enfield, Ducati specs/prices",
+   "reason": "reimpex/ducati.com.py snippets showed no figures"
+  },
+  {
+   "what": "yamaha/fz-25 price 27170000",
+   "reason": "R1 curation: FZ-25 figure equals the Gixxer 250 price to the guaraní (misattribution suspected); R 1300 GS \"desde\" figure is from a March 2024 launch article, not a current price"
+  },
+  {
+   "what": "bmw-motorrad/r-1300-gs price 27990",
+   "reason": "R1 curation: FZ-25 figure equals the Gixxer 250 price to the guaraní (misattribution suspected); R 1300 GS \"desde\" figure is from a March 2024 launch article, not a current price"
+  }
+ ],
+ "queries": [
+  "(see run: ~60 WebSearch queries with Paraguayan allowed_domains; WebFetch blocked by DNS)"
+ ]
+}

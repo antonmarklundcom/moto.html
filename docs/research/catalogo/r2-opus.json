@@ -1,0 +1,37 @@
+{
+ "brands": [],
+ "models": [
+  {
+   "brand": "honda",
+   "slug": "cb190r",
+   "name": "CB190R",
+   "category": "naked",
+   "specs": {
+    "potencia": {
+     "value": "12,2 kW (16,6 PS) a 8.500 rpm",
+     "source": {
+      "label": "Honda Paraguay — ficha CB190R (PDF)",
+      "url": "https://hondamotos.com.py/uploads/products/31.pdf"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "sources": [
+    {
+     "label": "Honda Paraguay — ficha CB190R (PDF)",
+     "url": "https://hondamotos.com.py/uploads/products/31.pdf",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "search summary attributed the figure explicitly to this hondamotos.com.py PDF"
+    }
+   ]
+  }
+ ],
+ "rejected": [],
+ "queries": [
+  "hondamotos.com.py productos CB190R ficha técnica potencia",
+  "hondamotos.com.py NX190 ficha técnica (figures not attributable to the .py URL — unused)",
+  "Honda CG 110 ficha técnica (only Ecuador/Bolivia/Honduras results — unused)"
+ ]
+}

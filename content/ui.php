@@ -347,6 +347,7 @@ return [
         'peso'             => 'Peso',
         'altura_asiento'   => 'Altura del asiento',
         'consumo'          => 'Consumo',
+        'velocidad_max'    => 'Velocidad máxima',
         'velocidad_maxima' => 'Velocidad máxima',
         'autonomia'        => 'Autonomía',
         'bateria'          => 'Batería',

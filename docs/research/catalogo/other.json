@@ -1,0 +1,1427 @@
+{
+ "brands": [
+  {
+   "slug": "taiga",
+   "name": "Taiga",
+   "distributor": {
+    "name": "Inverfin",
+    "source": {
+     "label": "Inverfin - Motocicletas Taiga",
+     "url": "https://inverfin.com.py/collections/taiga"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "ABC Color (snippet): 'En 2005 Inverfin creó y desarrolló la marca Taiga; en 2008 inauguró la planta ensambladora en Luque' (https://www.abc.com.py/nacionales/2020/09/03/la-moto-taiga-cumple-sus-15-anos/ and search summary). Search summary attributed to press: Taiga, Kenton and Leopard dominate the market; ~98% of motos sold locally are nationally made (source's own figure; original article not opened - abc.com.py 2026/03/04 'Industria de escala: más de un millón de motos circulan en Paraguay'). Inverfin prices are cash ('contado') promo prices."
+  },
+  {
+   "slug": "leopard",
+   "name": "Leopard",
+   "distributor": {
+    "name": "Reimpex",
+    "source": {
+     "label": "Reimpex - Leopard",
+     "url": "https://www.reimpex.com.py/leopard"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "ABC Color (snippet): Grupo Reimpex has Leopard as its flagship brand; assembly in Luque. Also cited as one of the dominant brands with Taiga and Kenton (source's own statement via search summary). Other Leopard models on Reimpex site not recorded: HB 110 Luxury, HB 110 Intelligence, HB1 125, KH 200."
+  },
+  {
+   "slug": "super-soco",
+   "name": "Super Soco",
+   "distributor": {
+    "name": "Quantum Motors (Industrias Quantum Motors S.A.)",
+    "source": {
+     "label": "Infonegocios - Dónde conseguir motos eléctricas en Paraguay",
+     "url": "https://infonegocios.com.py/infomotor/donde-conseguir-motos-electricas-tipo-scooter-en-paraguay-aca-tenes-unas-opciones"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "Infonegocios (snippet): four brands sell electric motos in Paraguay; Quantum sells Super Soco under license."
+  },
+  {
+   "slug": "yadea",
+   "name": "Yadea",
+   "distributor": {
+    "name": "Quantum Motors (Industrias Quantum Motors S.A.)",
+    "source": {
+     "label": "Infonegocios - Dónde conseguir motos eléctricas en Paraguay",
+     "url": "https://infonegocios.com.py/infomotor/donde-conseguir-motos-electricas-tipo-scooter-en-paraguay-aca-tenes-unas-opciones"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "Quantum (tuquantum.com.py) lists Yadea; Infonegocios says Yadea present in Paraguay (Z3 flagship, 2.5 kW, 120 km range - source's own figures, no price found)."
+  }
+ ],
+ "models": [
+  {
+   "brand": "taiga",
+   "name": "TL200 Rally",
+   "slug": "tl200-rally",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 200,
+     "source": {
+      "label": "Inverfin - TL200 Rally",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-rally-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "14 HP",
+     "source": {
+      "label": "Inverfin - TL200 Rally",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-rally-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "5 cambios con embrague",
+     "source": {
+      "label": "Inverfin - TL200 Rally",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-rally-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico y a pedal",
+     "source": {
+      "label": "Inverfin - TL200 Rally",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-rally-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Inverfin - TL200 Rally",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-rally-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Disco",
+     "source": {
+      "label": "Inverfin - TL200 Rally",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-rally-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "11 litros",
+     "source": {
+      "label": "Inverfin - TL200 Rally",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-rally-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "OHV 200 c.c.",
+     "source": {
+      "label": "Inverfin - TL200 Rally",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-rally-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Inverfin - TL200 Rally",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-rally-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 11950000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Inverfin (Taiga)",
+     "source": {
+      "label": "Inverfin - TL200 Rally",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-rally-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Inverfin - TL200 Rally",
+     "url": "https://inverfin.com.py/products/moto-taiga-tl200-rally-2024",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Product page by Inverfin, Taiga's owner/distributor (Inverfin created Taiga per ABC Color)"
+    }
+   ]
+  },
+  {
+   "brand": "taiga",
+   "name": "Rally 250",
+   "slug": "rally-250",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 223,
+     "source": {
+      "label": "Inverfin - Rally 250",
+      "url": "https://inverfin.com.py/products/moto-taiga-rally-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "17,7 HP",
+     "source": {
+      "label": "Inverfin - Rally 250",
+      "url": "https://inverfin.com.py/products/moto-taiga-rally-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "6 cambios con embrague",
+     "source": {
+      "label": "Inverfin - Rally 250",
+      "url": "https://inverfin.com.py/products/moto-taiga-rally-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Inverfin - Rally 250",
+      "url": "https://inverfin.com.py/products/moto-taiga-rally-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Disco",
+     "source": {
+      "label": "Inverfin - Rally 250",
+      "url": "https://inverfin.com.py/products/moto-taiga-rally-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "14 LTS",
+     "source": {
+      "label": "Inverfin - Rally 250",
+      "url": "https://inverfin.com.py/products/moto-taiga-rally-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "135 KG ± 5",
+     "source": {
+      "label": "Inverfin - Rally 250",
+      "url": "https://inverfin.com.py/products/moto-taiga-rally-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "altura_asiento": {
+     "value": "835 MM",
+     "source": {
+      "label": "Inverfin - Rally 250",
+      "url": "https://inverfin.com.py/products/moto-taiga-rally-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "OHC 250 cc 4 tiempos",
+     "source": {
+      "label": "Inverfin - Rally 250",
+      "url": "https://inverfin.com.py/products/moto-taiga-rally-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire con radiador de aceite",
+     "source": {
+      "label": "Inverfin - Rally 250",
+      "url": "https://inverfin.com.py/products/moto-taiga-rally-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 12750000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Inverfin (Taiga)",
+     "source": {
+      "label": "Inverfin - Rally 250",
+      "url": "https://inverfin.com.py/products/moto-taiga-rally-250"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Inverfin - Rally 250",
+     "url": "https://inverfin.com.py/products/moto-taiga-rally-250",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Product page by Inverfin, Taiga's owner/distributor (Inverfin created Taiga per ABC Color) (snippet lists both '250 cc' and 'Cilindrada: 223 CC'; 223 kept as published under Cilindrada)"
+    }
+   ]
+  },
+  {
+   "brand": "taiga",
+   "name": "TL250 CR5 GT",
+   "slug": "tl250-cr5-gt",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 223,
+     "source": {
+      "label": "Inverfin - TL250 CR5 GT",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "17,7 HP",
+     "source": {
+      "label": "Inverfin - TL250 CR5 GT",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "6 velocidades",
+     "source": {
+      "label": "Inverfin - TL250 CR5 GT",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico",
+     "source": {
+      "label": "Inverfin - TL250 CR5 GT",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Inverfin - TL250 CR5 GT",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Disco",
+     "source": {
+      "label": "Inverfin - TL250 CR5 GT",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "12 litros",
+     "source": {
+      "label": "Inverfin - TL250 CR5 GT",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "OHC 250 cc 4 tiempos",
+     "source": {
+      "label": "Inverfin - TL250 CR5 GT",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire con radiador de aceite",
+     "source": {
+      "label": "Inverfin - TL250 CR5 GT",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 14995000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Inverfin (Taiga)",
+     "source": {
+      "label": "Inverfin - TL250 CR5 GT",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Inverfin - TL250 CR5 GT",
+     "url": "https://inverfin.com.py/products/moto-taiga-tl-250-cr5-gt2024",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Product page by Inverfin, Taiga's owner/distributor (Inverfin created Taiga per ABC Color)"
+    }
+   ]
+  },
+  {
+   "brand": "taiga",
+   "name": "TL200 Eclipse Pro Gen1",
+   "slug": "tl200-eclipse-pro-gen1",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 200,
+     "source": {
+      "label": "Inverfin - TL200 Eclipse Pro Gen1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "13,41 HP",
+     "source": {
+      "label": "Inverfin - TL200 Eclipse Pro Gen1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "6 velocidades",
+     "source": {
+      "label": "Inverfin - TL200 Eclipse Pro Gen1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico y a pedal",
+     "source": {
+      "label": "Inverfin - TL200 Eclipse Pro Gen1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Inverfin - TL200 Eclipse Pro Gen1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Inverfin - TL200 Eclipse Pro Gen1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "13 LTS",
+     "source": {
+      "label": "Inverfin - TL200 Eclipse Pro Gen1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "OHV 200 CC 4 tiempos balanceado",
+     "source": {
+      "label": "Inverfin - TL200 Eclipse Pro Gen1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Inverfin - TL200 Eclipse Pro Gen1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 8364000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Inverfin (Taiga)",
+     "source": {
+      "label": "Inverfin - TL200 Eclipse Pro Gen1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Inverfin - TL200 Eclipse Pro Gen1",
+     "url": "https://inverfin.com.py/products/moto-taiga-tl200-eclipse-pro-gen1",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Product page by Inverfin, Taiga's owner/distributor (Inverfin created Taiga per ABC Color)"
+    }
+   ]
+  },
+  {
+   "brand": "taiga",
+   "name": "TL150 CR1",
+   "slug": "tl150-cr1",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "Inverfin - TL150 CR1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "11 HP",
+     "source": {
+      "label": "Inverfin - TL150 CR1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "5 velocidades manual con embrague",
+     "source": {
+      "label": "Inverfin - TL150 CR1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico y a pedal",
+     "source": {
+      "label": "Inverfin - TL150 CR1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Inverfin - TL150 CR1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Inverfin - TL150 CR1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "14 liters",
+     "source": {
+      "label": "Inverfin - TL150 CR1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "OHV 150 cc 4 tiempos",
+     "source": {
+      "label": "Inverfin - TL150 CR1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Inverfin - TL150 CR1",
+      "url": "https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Inverfin - TL150 CR1",
+     "url": "https://inverfin.com.py/products/moto-taiga-tl-150-cr1-2024",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Product page by Inverfin, Taiga's owner/distributor (Inverfin created Taiga per ABC Color) (price in snippet ambiguous: dropped)"
+    }
+   ]
+  },
+  {
+   "brand": "taiga",
+   "name": "Mawi 125",
+   "slug": "mawi-125",
+   "category": "scooter",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "Inverfin - Mawi 125",
+      "url": "https://inverfin.com.py/products/moto-taiga-mawi-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "8.84 HP",
+     "source": {
+      "label": "Inverfin - Mawi 125",
+      "url": "https://inverfin.com.py/products/moto-taiga-mawi-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "CVT",
+     "source": {
+      "label": "Inverfin - Mawi 125",
+      "url": "https://inverfin.com.py/products/moto-taiga-mawi-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico y a pedal",
+     "source": {
+      "label": "Inverfin - Mawi 125",
+      "url": "https://inverfin.com.py/products/moto-taiga-mawi-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Inverfin - Mawi 125",
+      "url": "https://inverfin.com.py/products/moto-taiga-mawi-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "4.3 liters",
+     "source": {
+      "label": "Inverfin - Mawi 125",
+      "url": "https://inverfin.com.py/products/moto-taiga-mawi-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "OHC 4 tiempos 125cc",
+     "source": {
+      "label": "Inverfin - Mawi 125",
+      "url": "https://inverfin.com.py/products/moto-taiga-mawi-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Inverfin - Mawi 125",
+      "url": "https://inverfin.com.py/products/moto-taiga-mawi-125"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Inverfin - Mawi 125",
+     "url": "https://inverfin.com.py/products/moto-taiga-mawi-125",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Product page by Inverfin, Taiga's owner/distributor (Inverfin created Taiga per ABC Color) (two different cash prices across listings in snippet: dropped)"
+    }
+   ]
+  },
+  {
+   "brand": "taiga",
+   "name": "Motocarro TL200ZH-3",
+   "slug": "motocarro-tl200zh-3",
+   "category": "motocarro-carga",
+   "specs": {
+    "cc": {
+     "value": 200,
+     "source": {
+      "label": "Gonzalez Gimenez - Motocarro Taiga TL200ZH-3 2024",
+      "url": "https://www.gonzalezgimenez.com.py/producto/6974/motocarro-taiga-tl200zh-3-2024-stecho"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "14 HP",
+     "source": {
+      "label": "Gonzalez Gimenez - Motocarro Taiga TL200ZH-3 2024",
+      "url": "https://www.gonzalezgimenez.com.py/producto/6974/motocarro-taiga-tl200zh-3-2024-stecho"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "5 cambios con embrague y reversa, cardán",
+     "source": {
+      "label": "Gonzalez Gimenez - Motocarro Taiga TL200ZH-3 2024",
+      "url": "https://www.gonzalezgimenez.com.py/producto/6974/motocarro-taiga-tl200zh-3-2024-stecho"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico y a pedal",
+     "source": {
+      "label": "Gonzalez Gimenez - Motocarro Taiga TL200ZH-3 2024",
+      "url": "https://www.gonzalezgimenez.com.py/producto/6974/motocarro-taiga-tl200zh-3-2024-stecho"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "OHV 200 CC 4 tiempos",
+     "source": {
+      "label": "Gonzalez Gimenez - Motocarro Taiga TL200ZH-3 2024",
+      "url": "https://www.gonzalezgimenez.com.py/producto/6974/motocarro-taiga-tl200zh-3-2024-stecho"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 16810000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Gonzalez Gimenez (retailer)",
+     "source": {
+      "label": "Motocarro Taiga TL200ZH-3 2024 Negro C/Techo Metal",
+      "url": "https://www.gonzalezgimenez.com.py/producto/6973/motocarro-taiga-tl200zh-3-2024-negro-ctecho-metal"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [
+    "Con techo metal",
+    "Sin techo"
+   ],
+   "sources": [
+    {
+     "label": "Gonzalez Gimenez - Motocarro Taiga TL200ZH-3 2024",
+     "url": "https://www.gonzalezgimenez.com.py/producto/6974/motocarro-taiga-tl200zh-3-2024-stecho",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Retailer evidence; capacidad de carga 500 kg"
+    },
+    {
+     "label": "Inverfin - Triciclo de carga TL200ZH-3 2024",
+     "url": "https://inverfin.com.py/products/99991627493308",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Distributor listing (snippet price Gs. 16.318.000 contado, regular 19.900.000; not recorded as price due to ambiguity between listings)"
+    }
+   ],
+   "notes": "Carga 500 kg per retailer snippet. Inverfin also lists TL150 ZH-3 triciclo (Gs. 15.010.000 per snippet, not recorded)."
+  },
+  {
+   "brand": "leopard",
+   "name": "HT 150 BA",
+   "slug": "ht-150-ba",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "Reimpex - Leopard HT 150 BA",
+      "url": "https://www.reimpex.com.py/leopard/8/ht-150-ba"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "10 HP",
+     "source": {
+      "label": "Reimpex - Leopard HT 150 BA",
+      "url": "https://www.reimpex.com.py/leopard/8/ht-150-ba"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "5 velocidades, mecánico, cadena",
+     "source": {
+      "label": "Reimpex - Leopard HT 150 BA",
+      "url": "https://www.reimpex.com.py/leopard/8/ht-150-ba"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico/Pedal",
+     "source": {
+      "label": "Reimpex - Leopard HT 150 BA",
+      "url": "https://www.reimpex.com.py/leopard/8/ht-150-ba"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "120 kg",
+     "source": {
+      "label": "Reimpex - Leopard HT 150 BA",
+      "url": "https://www.reimpex.com.py/leopard/8/ht-150-ba"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "12,6 L",
+     "source": {
+      "label": "Reimpex - Leopard HT 150 BA",
+      "url": "https://www.reimpex.com.py/leopard/8/ht-150-ba"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Por aire",
+     "source": {
+      "label": "Reimpex - Leopard HT 150 BA",
+      "url": "https://www.reimpex.com.py/leopard/8/ht-150-ba"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "4 tiempos",
+     "source": {
+      "label": "Reimpex - Leopard HT 150 BA",
+      "url": "https://www.reimpex.com.py/leopard/8/ht-150-ba"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Reimpex - Leopard HT 150 BA",
+     "url": "https://www.reimpex.com.py/leopard/8/ht-150-ba",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Reimpex (Leopard maker/distributor) model page"
+    }
+   ],
+   "notes": "No qualifying Gs. 0km price found; public ads seen only as installment/promo in non-qualifying sources."
+  },
+  {
+   "brand": "leopard",
+   "name": "HT 200 BA",
+   "slug": "ht-200-ba",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 200,
+     "source": {
+      "label": "Reimpex - Leopard HT 200 BA",
+      "url": "https://www.reimpex.com.py/leopard/1/ht-200-ba"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "11,4 HP",
+     "source": {
+      "label": "Reimpex - Leopard HT 200 BA",
+      "url": "https://www.reimpex.com.py/leopard/1/ht-200-ba"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "5 cambios",
+     "source": {
+      "label": "Reimpex - Leopard HT 200 BA",
+      "url": "https://www.reimpex.com.py/leopard/1/ht-200-ba"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico",
+     "source": {
+      "label": "Reimpex - Leopard HT 200 BA",
+      "url": "https://www.reimpex.com.py/leopard/1/ht-200-ba"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Reimpex - Leopard HT 200 BA",
+      "url": "https://www.reimpex.com.py/leopard/1/ht-200-ba"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "A tambor",
+     "source": {
+      "label": "Reimpex - Leopard HT 200 BA",
+      "url": "https://www.reimpex.com.py/leopard/1/ht-200-ba"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "10,6 Litros",
+     "source": {
+      "label": "Reimpex - Leopard HT 200 BA",
+      "url": "https://www.reimpex.com.py/leopard/1/ht-200-ba"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Reimpex - Leopard HT 200 BA",
+      "url": "https://www.reimpex.com.py/leopard/1/ht-200-ba"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "5 tiempos (as published)",
+     "source": {
+      "label": "Reimpex - Leopard HT 200 BA",
+      "url": "https://www.reimpex.com.py/leopard/1/ht-200-ba"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Reimpex - Leopard HT 200 BA",
+     "url": "https://www.reimpex.com.py/leopard/1/ht-200-ba",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Reimpex (Leopard maker/distributor) model page"
+    }
+   ],
+   "notes": "No qualifying Gs. 0km price found; public ads seen only as installment/promo in non-qualifying sources."
+  },
+  {
+   "brand": "leopard",
+   "name": "HB 125 Grand Tour",
+   "slug": "hb-125-grand-tour",
+   "category": "cub",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "Reimpex - Leopard HB 125 Grand Tour",
+      "url": "https://www.reimpex.com.py/leopard/5/hb-125-grand-tour"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "7.8 CV",
+     "source": {
+      "label": "Reimpex - Leopard HB 125 Grand Tour",
+      "url": "https://www.reimpex.com.py/leopard/5/hb-125-grand-tour"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "4 velocidades semiautomática, cadena",
+     "source": {
+      "label": "Reimpex - Leopard HB 125 Grand Tour",
+      "url": "https://www.reimpex.com.py/leopard/5/hb-125-grand-tour"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico/pedal",
+     "source": {
+      "label": "Reimpex - Leopard HB 125 Grand Tour",
+      "url": "https://www.reimpex.com.py/leopard/5/hb-125-grand-tour"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Reimpex - Leopard HB 125 Grand Tour",
+      "url": "https://www.reimpex.com.py/leopard/5/hb-125-grand-tour"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Reimpex - Leopard HB 125 Grand Tour",
+      "url": "https://www.reimpex.com.py/leopard/5/hb-125-grand-tour"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "3.5 liters",
+     "source": {
+      "label": "Reimpex - Leopard HB 125 Grand Tour",
+      "url": "https://www.reimpex.com.py/leopard/5/hb-125-grand-tour"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "98 kg",
+     "source": {
+      "label": "Reimpex - Leopard HB 125 Grand Tour",
+      "url": "https://www.reimpex.com.py/leopard/5/hb-125-grand-tour"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Reimpex - Leopard HB 125 Grand Tour",
+      "url": "https://www.reimpex.com.py/leopard/5/hb-125-grand-tour"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Carburador",
+     "source": {
+      "label": "Reimpex - Leopard HB 125 Grand Tour",
+      "url": "https://www.reimpex.com.py/leopard/5/hb-125-grand-tour"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "4 tiempos",
+     "source": {
+      "label": "Reimpex - Leopard HB 125 Grand Tour",
+      "url": "https://www.reimpex.com.py/leopard/5/hb-125-grand-tour"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Reimpex - Leopard HB 125 Grand Tour",
+     "url": "https://www.reimpex.com.py/leopard/5/hb-125-grand-tour",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Reimpex (Leopard maker/distributor) model page"
+    }
+   ],
+   "notes": "No qualifying Gs. 0km price found; public ads seen only as installment/promo in non-qualifying sources."
+  },
+  {
+   "brand": "leopard",
+   "name": "HB1 110",
+   "slug": "hb1-110",
+   "category": "cub",
+   "specs": {
+    "cc": {
+     "value": 110,
+     "source": {
+      "label": "Reimpex - Leopard HB1 110",
+      "url": "https://www.reimpex.com.py/leopard/7/hb1-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "6.5 HP",
+     "source": {
+      "label": "Reimpex - Leopard HB1 110",
+      "url": "https://www.reimpex.com.py/leopard/7/hb1-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "4 velocidades semiautomática, cadena",
+     "source": {
+      "label": "Reimpex - Leopard HB1 110",
+      "url": "https://www.reimpex.com.py/leopard/7/hb1-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico/pedal",
+     "source": {
+      "label": "Reimpex - Leopard HB1 110",
+      "url": "https://www.reimpex.com.py/leopard/7/hb1-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Reimpex - Leopard HB1 110",
+      "url": "https://www.reimpex.com.py/leopard/7/hb1-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Reimpex - Leopard HB1 110",
+      "url": "https://www.reimpex.com.py/leopard/7/hb1-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "3.5 liters",
+     "source": {
+      "label": "Reimpex - Leopard HB1 110",
+      "url": "https://www.reimpex.com.py/leopard/7/hb1-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "93 kg",
+     "source": {
+      "label": "Reimpex - Leopard HB1 110",
+      "url": "https://www.reimpex.com.py/leopard/7/hb1-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Reimpex - Leopard HB1 110",
+      "url": "https://www.reimpex.com.py/leopard/7/hb1-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "alimentacion": {
+     "value": "Carburador",
+     "source": {
+      "label": "Reimpex - Leopard HB1 110",
+      "url": "https://www.reimpex.com.py/leopard/7/hb1-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "4 tiempos",
+     "source": {
+      "label": "Reimpex - Leopard HB1 110",
+      "url": "https://www.reimpex.com.py/leopard/7/hb1-110"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Reimpex - Leopard HB1 110",
+     "url": "https://www.reimpex.com.py/leopard/7/hb1-110",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Reimpex (Leopard maker/distributor) model page"
+    }
+   ],
+   "notes": "No qualifying Gs. 0km price found; public ads seen only as installment/promo in non-qualifying sources."
+  },
+  {
+   "brand": "super-soco",
+   "name": "TC Wanderer",
+   "slug": "tc-wanderer",
+   "category": "electrica",
+   "specs": {
+    "velocidad_max": {
+     "value": "75 km/h",
+     "source": {
+      "label": "Quantum - TC Wanderer",
+      "url": "https://tuquantum.com.py/producto/tc/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "BOSCH 3.000 W, batería litio 60V/32Ah",
+     "source": {
+      "label": "Quantum - TC Wanderer",
+      "url": "https://tuquantum.com.py/producto/tc/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 25500000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Quantum (tuquantum.com.py)",
+     "source": {
+      "label": "Quantum - TC Wanderer",
+      "url": "https://tuquantum.com.py/producto/tc/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Quantum - TC Wanderer",
+     "url": "https://tuquantum.com.py/producto/tc/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Quantum Paraguayan product page"
+    }
+   ]
+  },
+  {
+   "brand": "super-soco",
+   "name": "TC Wanderer Pro",
+   "slug": "tc-wanderer-pro",
+   "category": "electrica",
+   "specs": {
+    "velocidad_max": {
+     "value": "90 km/h",
+     "source": {
+      "label": "Quantum - TC Wanderer Pro",
+      "url": "https://tuquantum.com.py/producto/tc-wanderer-pro/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "motor": {
+     "value": "4.100 W, batería litio 60V/32Ah",
+     "source": {
+      "label": "Quantum - TC Wanderer Pro",
+      "url": "https://tuquantum.com.py/producto/tc-wanderer-pro/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 37000000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Quantum (tuquantum.com.py)",
+     "source": {
+      "label": "Quantum - TC Wanderer Pro",
+      "url": "https://tuquantum.com.py/producto/tc-wanderer-pro/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Quantum - TC Wanderer Pro",
+     "url": "https://tuquantum.com.py/producto/tc-wanderer-pro/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Quantum Paraguayan product page"
+    }
+   ]
+  },
+  {
+   "brand": "yadea",
+   "name": "C-UMI",
+   "slug": "c-umi",
+   "category": "electrica",
+   "specs": {
+    "motor": {
+     "value": "1200 W, batería plomo-ácido 60V/20Ah",
+     "source": {
+      "label": "Quantum - C-UMI",
+      "url": "https://tuquantum.com.py/producto/c-umi/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 7600000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Quantum (tuquantum.com.py)",
+     "source": {
+      "label": "Quantum - C-UMI",
+      "url": "https://tuquantum.com.py/producto/c-umi/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Quantum - C-UMI",
+     "url": "https://tuquantum.com.py/producto/c-umi/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Quantum Paraguayan product page"
+    }
+   ]
+  }
+ ],
+ "rejected": [
+  {
+   "what": "Radam",
+   "reason": "Press (ABC, Ultima Hora) confirms local assembler Metalúrgica Fernández (Capiatá) but no official distributor page or model page found; model names only seen in classifieds"
+  },
+  {
+   "what": "Sunra",
+   "reason": "Snippet said distributed by Import Center in Paraguay but no Paraguayan source page found"
+  },
+  {
+   "what": "Mondial, Mitsui, Buler, Kawaki/Lifan, Shineray, Jincheng, Winner, Daelim, Sundown, Dayun, Luojia, Nakamura, Yumbo, Rouser, Niu",
+   "reason": "Not investigated beyond Mondial (no Paraguayan distributor found); no Paraguayan evidence gathered in this round"
+  },
+  {
+   "what": "Cuatriciclos (Hisun, Ventura, Kymco)",
+   "reason": "Only Argentine Mercado Libre listings found; no Paraguayan source"
+  },
+  {
+   "what": "Leopard HT 150 price Gs. 4.800.000 / cuotas 449.000",
+   "reason": "From TikTok/classified-type sources, not qualifying; HT 150 also not priced by Reimpex"
+  },
+  {
+   "what": "Taiga Mawi 125 and TL150 CR1 prices",
+   "reason": "Ambiguous/conflicting figures in snippets; dropped"
+  }
+ ],
+ "queries": [
+  "ranking marcas de motos más vendidas Paraguay 2025",
+  "Leopard motos Paraguay distribuidor modelos precio",
+  "Mondial motos Paraguay distribuidor",
+  "Taiga motos Paraguay distribuidor modelos precio Gs",
+  "site:abc.com.py motos Leopard Taiga Kenton ensambladoras Paraguay mercado",
+  "inverfin.com.py Moto Taiga Rally 250 precio ficha técnica cilindrada",
+  "inverfin.com.py Moto Taiga TL200 Rally 2024 especificaciones",
+  "reimpex.com.py Leopard HT 150 ficha técnica motor cc",
+  "reimpex.com.py Leopard HT 200 BA especificaciones",
+  "reimpex.com.py Leopard HB 125 Grand Tour HB1 110 especificaciones",
+  "Leopard moto HT 150 precio contado Gs. tienda Paraguay 0km",
+  "inverfin.com.py Moto Taiga TL 150 CR1 precio especificaciones",
+  "Radam motos Paraguay distribuidor modelos",
+  "motos eléctricas Paraguay Yadea OR Sunra OR Niu OR Super Soco distribuidor Asunción",
+  "motocarro triciclo de carga Paraguay 0km precio Gs. Taiga OR Leopard OR Star carga",
+  "cuatriciclo Paraguay 0km distribuidor precio Gs. tienda",
+  "gonzalezgimenez.com.py Motocarro Taiga TL200ZH-3 2024 precio especificaciones",
+  "inverfin.com.py Moto Taiga Mawi 125 especificaciones precio",
+  "Sunra Import Center Paraguay moto eléctrica precio",
+  "infonegocios dónde conseguir motos eléctricas tipo scooter en Paraguay",
+  "tuquantum.com.py Super Soco TC precio especificaciones",
+  "tuquantum.com.py Yadea moto eléctrica precio Gs.",
+  "inverfin.com.py Moto Taiga TL250 CR5 GT 2024 especificaciones",
+  "inverfin.com.py Taiga TL200 Eclipse Pro Gen1 especificaciones precio",
+  "WebFetch abc.com.py 2026/03/04 article (EGRESS_BLOCKED)"
+ ]
+}

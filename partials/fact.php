@@ -7,6 +7,7 @@
  *
  *   $factItem  array   a hecho con fuente (lib/facts.php)
  *   $factKind  string  'spec' | 'price'
+ *   $factSpec  ?string the spec key (a unit for a bare number)
  *
  * Every figure in guaraníes on the site renders inside a [data-fact] element;
  * verify.sh fails on a "Gs." anywhere else.
@@ -19,14 +20,14 @@ $factDate   = fmt_date_short((string) $factItem['accessed']);
 ?>
 <?php if ($factKind === 'price'): ?>
 <span class="fact fact--price" data-fact="price">
-  <strong class="fact__value"><?= e(fmt_money((int) $factItem['value'])) ?></strong><?php if (!empty($factItem['version'])): ?> <span class="fact__note">(<?= e((string) $factItem['version']) ?>)</span><?php endif; ?>
+  <strong class="fact__value"><?= e(price_text($factItem)) ?></strong><?php if (!empty($factItem['version'])): ?> <span class="fact__note">(<?= e((string) $factItem['version']) ?>)</span><?php endif; ?>
   <span class="fact__src"><?= e(ui('facts.price_by')) ?> <a href="<?= e($factSource['url']) ?>" rel="nofollow noopener"><?= e($factSource['label']) ?></a> — <?= e(ui('facts.accessed')) ?> <?= e($factDate) ?></span>
 </span>
 <?php else: ?>
 <span class="fact" data-fact="spec">
-  <span class="fact__value"><?= e(fact_value_text($factItem)) ?></span><?php if (!empty($factItem['note'])): ?> <span class="fact__note">(<?= e((string) $factItem['note']) ?>)</span><?php endif; ?>
+  <span class="fact__value"><?= e(fact_value_text($factItem, $factSpec ?? null)) ?></span><?php if (!empty($factItem['note'])): ?> <span class="fact__note">(<?= e((string) $factItem['note']) ?>)</span><?php endif; ?>
   <span class="fact__src">(<a href="<?= e($factSource['url']) ?>" rel="nofollow noopener"><?= e($factSource['label']) ?></a>, <?= e(ui('facts.accessed')) ?> <?= e($factDate) ?>)</span>
 </span>
 <?php endif; ?>
 <?php
-unset($factSource, $factDate);
+unset($factSource, $factDate, $factSpec);
