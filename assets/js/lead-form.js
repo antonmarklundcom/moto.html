@@ -2,8 +2,7 @@
  * Upgrades the lead form from a full page POST to an inline success message.
  *
  * Without this file the form still works: enviar.php answers a normal POST with
- * a redirect to /contacto/?enviado=1&s=<slug>, which renders the same
- * per-service thank-you server-side. Everything here is an enhancement, so any
+ * a 303 to /gracias, which renders the same thank-you server-side. Everything here is an enhancement, so any
  * failure falls back to submitting the form the ordinary way.
  *
  * The thank-you and the conversion event both come
@@ -89,7 +88,7 @@
             throw new Error(data && data.error ? data.error : "failed");
           }
           form.querySelectorAll("input:not([type=hidden]), textarea").forEach(function (field) {
-            if (field.type === "radio") {
+            if (field.type === "radio" || field.type === "checkbox") {
               field.checked = false;
             } else {
               field.value = "";
