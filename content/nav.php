@@ -1,79 +1,34 @@
 <?php
 /**
- * The header and footer link trees. Navigation is data, not markup:
- * partials/header.php and partials/footer.php render whatever this file returns,
- * and a content phase adds tools, guides or legal pages by extending the arrays
- * here rather than editing the partials. An empty list renders nothing at all.
- *
- * Service links are derived from content/services.php, so a service added there
- * appears in the mega-menu and the footer automatically.
+ * The header and footer link trees (paths without trailing slash, D3).
+ * partials/header.php and partials/footer.php render whatever this returns,
+ * skipping any link whose page does not pass the indexing gate (PLAN §2.3.3)
+ * — so a section can be listed here before its pages exist or pass, and it
+ * appears on its own the day they do.
  */
 
 declare(strict_types=1);
 
-$services = content('services');
-$clusters = content('ui')['clusters'];
-
-/** Services grouped by cluster, in the order content/ui.php lists the clusters. */
-$byCluster = [];
-foreach ($clusters as $key => $label) {
-    $byCluster[$key] = ['label' => $label, 'items' => []];
-}
-foreach ($services as $slug => $service) {
-    $cluster = $service['cluster'];
-    if (!isset($byCluster[$cluster])) {
-        continue;
-    }
-    $byCluster[$cluster]['items'][] = [
-        'label'  => $service['navLabel'],
-        'path'   => $service['path'],
-        'slug'   => $slug,
-        'parent' => $service['parent'] ?? null,
-    ];
-}
-
-/** Flat list of all services, for the footer column. */
-$allServices = [];
-foreach ($byCluster as $cluster) {
-    foreach ($cluster['items'] as $item) {
-        $allServices[] = $item;
-    }
-}
-
 return [
-    // Header bar, left to right. Sections are added by the phases that build them.
+    // Header bar, left to right.
     'primary' => [
-        ['label' => ui('nav.guides'),  'path' => '/guias/'],
-        ['label' => ui('nav.contact'), 'path' => '/contacto/'],
+        ['label' => 'Motos',            'path' => '/motos'],
+        ['label' => 'En cuotas',        'path' => '/motos/en-cuotas'],
+        ['label' => ui('nav.guides'),   'path' => '/guias'],
+        ['label' => ui('nav.contact'),  'path' => '/contacto'],
     ],
 
-    // The clusters inside the services mega-menu. This site has no services.
-    'mega' => $byCluster,
-
-    // Footer column 2.
-    'services' => [],   // T0's only record is the /contacto/ lead source
-
-    // Footer column 3.
+    // Footer column.
     'firm' => [
-        ['label' => ui('nav.guides'),  'path' => '/guias/'],
-        ['label' => ui('nav.contact'), 'path' => '/contacto/'],
+        ['label' => 'Motos',                     'path' => '/motos'],
+        ['label' => ui('nav.guides'),            'path' => '/guias'],
+        ['label' => 'Para marcas y comercios',   'path' => '/para-marcas-y-comercios'],
+        ['label' => ui('nav.contact'),           'path' => '/contacto'],
     ],
-
-    // One entry per content/tools.php record, in the same order.
-    'tools' => array_map(
-        static fn (array $tool): array => ['label' => $tool['navLabel'], 'path' => $tool['path']],
-        content('tools')
-    ),
-
-    // One entry per content/guias.php record, in the same order.
-    'guias' => array_map(
-        static fn (array $guide): array => ['label' => $guide['navLabel'], 'path' => $guide['path']],
-        content('guias')
-    ),
 
     'legal' => [
-        ['label' => ui('nav.privacy'), 'path' => '/privacidad/'],
-        ['label' => ui('nav.terms'),   'path' => '/terminos/'],
+        ['label' => ui('nav.privacy'), 'path' => '/privacidad'],
+        ['label' => ui('nav.terms'),   'path' => '/terminos'],
     ],
 
     // Rendered only when content/site.php has social URLs.

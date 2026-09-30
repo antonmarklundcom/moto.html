@@ -6,7 +6,7 @@
  * nothing breaks or leaks before the tags are configured.
  *
  * The id arrives from PHP as <body data-ga4="G-XXXX"> (empty until config.php
- * sets GA4_ID). Wires whatsapp_click on every wa.me link and phone_click on
+ * sets GA4_ID). Wires whatsapp_click on every /ir/wa/ link (PLAN D10) and phone_click on
  * every tel: link. Tool pages add tool_used; the lead form adds lead_submit.
  *
  * whatsapp_click carries the `service` the link is for,
@@ -53,7 +53,7 @@
       }
       var href = link.getAttribute("href") || "";
 
-      if (href.indexOf("wa.me") !== -1 || href.indexOf("api.whatsapp.com") !== -1) {
+      if (href.indexOf("/ir/wa/") === 0) {
         track("whatsapp_click", context(link));
       } else if (href.indexOf("tel:") === 0) {
         track("phone_click", context(link));

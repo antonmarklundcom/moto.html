@@ -7,7 +7,7 @@
  *   Market.id           'py'
  *   Market.currency     'PYG'
  *   Market.locale       'es-PY'
- *   Market.fmtMoney(n)  → '₲ 1.500.000'
+ *   Market.fmtMoney(n)  → 'Gs. 1.500.000'
  *   Market.validateTaxId(id)      → boolean
  *   Market.taxIdCheckDigit(base)  → number
  *   Market.table(name)  reference tables, mirroring market_table() in PHP
@@ -20,14 +20,14 @@
   // Intl's { style: "currency", currency: "PYG" } is not used here: its symbol
   // depends on the browser's ICU data, which renders "Gs." instead of "₲" in
   // several runtimes (Node's bundled ICU among them) — inconsistent with
-  // fmt_money() in lib/market/py.php, which always emits the literal "₲ "
-  // prefix. Formatting only the grouping and prepending "₲ " ourselves keeps
+  // fmt_money() in lib/market/py.php, which always emits the literal "Gs. "
+  // prefix. Formatting only the grouping and prepending "Gs. " ourselves keeps
   // the client and the server byte-for-byte identical.
   var groups = new Intl.NumberFormat("es-PY", { maximumFractionDigits: 0 });
 
-  /** Whole guaraníes, es-PY: ₲ 1.500.000. Never decimals. */
+  /** Whole guaraníes, es-PY: Gs. 1.500.000. Never decimals. */
   function fmtMoney(amount) {
-    return "₲ " + groups.format(Math.round(Number(amount) || 0));
+    return "Gs. " + groups.format(Math.round(Number(amount) || 0));
   }
 
   /**

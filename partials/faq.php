@@ -1,30 +1,30 @@
 <?php
 /**
- * FAQ block from [['q' => ..., 'a' => ...], ...]. Native <details>, so it works
- * without JS and is keyboard-operable for free.
+ * FAQ block. Native <details>, so it works without JS.
  *
- * The caller also puts the same array in $page['faq'] so lib/seo.php emits the
- * matching FAQPage JSON-LD — the two must always come from one source.
- *
- *   $faqItems  array   required
- *   $faqTitle  string  heading, defaults to ui('service.faq')
+ *   $faqItems  array   raw faq entries; verify blocks and incomplete entries
+ *                      are dropped by visible_faq() — the same function that
+ *                      feeds FAQPage JSON-LD, so the two cannot drift
+ *   $faqTitle  string  heading, defaults to ui('page.faq')
+ *   $faqId     string  section id, defaults to 'preguntas'
  */
 
 declare(strict_types=1);
 
-$faqItems = $faqItems ?? [];
-if ($faqItems === []) {
-    return;
-}
-$faqTitle = $faqTitle ?? ui('service.faq');
+$faqVisible = visible_faq((array) ($faqItems ?? []));
+if ($faqVisible !== []):
 ?>
-<h2><?= e($faqTitle) ?></h2>
-<div class="faq mt-4">
-  <?php foreach ($faqItems as $faqItem): ?>
-    <?php if (empty($faqItem['q']) || empty($faqItem['a'])) { continue; } ?>
-    <details>
-      <summary><?= e($faqItem['q']) ?></summary>
-      <p><?= e($faqItem['a']) ?></p>
-    </details>
-  <?php endforeach; ?>
-</div>
+<section class="faq-block" id="<?= e($faqId ?? 'preguntas') ?>">
+  <h2><?= e($faqTitle ?? ui('page.faq')) ?></h2>
+  <div class="faq mt-4">
+    <?php foreach ($faqVisible as $faqItem): ?>
+      <details>
+        <summary><?= e($faqItem['q']) ?></summary>
+        <p><?= inline($faqItem['a']) ?></p>
+      </details>
+    <?php endforeach; ?>
+  </div>
+</section>
+<?php
+endif;
+unset($faqItems, $faqTitle, $faqId, $faqVisible, $faqItem);

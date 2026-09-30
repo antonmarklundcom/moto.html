@@ -1,7 +1,7 @@
 <?php
 /**
  * Escaping, URL and formatting helpers. Every value that reaches the page goes
- * through e().
+ * through e() — or through inline(), which escapes first.
  */
 
 declare(strict_types=1);
@@ -16,7 +16,7 @@ function e(?string $value): string
 
 /**
  * The site origin without a trailing slash. Falls back to the current request
- * host so local preview and the staging subdomain work with no config.php.
+ * host so local preview and a staging subdomain work with no config.php.
  */
 function site_origin(): string
 {
@@ -25,24 +25,36 @@ function site_origin(): string
         return rtrim($configured, '/');
     }
 
-    $https  = ($_SERVER['HTTPS'] ?? '') === 'on' || ($_SERVER['SERVER_PORT'] ?? '') === '443';
-    $host   = $_SERVER['HTTP_HOST'] ?? (string) site('domain');
+    $https = ($_SERVER['HTTPS'] ?? '') === 'on' || ($_SERVER['SERVER_PORT'] ?? '') === '443';
+    $host  = $_SERVER['HTTP_HOST'] ?? (string) site('domain');
 
     return ($https ? 'https://' : 'http://') . $host;
 }
 
 /**
- * Absolute URL for a site-root-relative path. Used for canonical, OG and the
- * sitemap; in-page links use the bare path.
+ * Normalise a site path: leading slash, no trailing slash (PLAN D3), no query.
  */
-function url(string $path = '/'): string
+function clean_path(string $path): string
 {
-    return site_origin() . '/' . ltrim($path, '/');
+    $path = (string) parse_url($path, PHP_URL_PATH);
+    $path = '/' . trim($path, '/');
+
+    return $path;
 }
 
 /**
- * Asset path with a cache-busting stamp taken from the file's mtime, so a
- * changed CSS or JS file is picked up without touching the filename.
+ * Absolute URL for a site path. Used for canonical, OG and the sitemap;
+ * in-page links use the bare path.
+ */
+function url(string $path = '/'): string
+{
+    $path = clean_path($path);
+
+    return site_origin() . ($path === '/' ? '/' : $path);
+}
+
+/**
+ * Asset path with a cache-busting stamp taken from the file's mtime.
  */
 function asset(string $path): string
 {
@@ -64,12 +76,7 @@ function site(?string $key = null)
 }
 
 /**
- * A UI string from content/ui.php — every visible label on the site lives
- * there, so a new site translates it once. Dot notation reaches into nested
- * groups: ui('form.submit').
- *
- * A second language is an additive file (content/ui.<lang>.php) plus a page
- * that selects it; nothing in this function has to change to allow that.
+ * A UI string from content/ui.php. Dot notation reaches into nested groups.
  */
 function ui(string $key, string $default = ''): string
 {
@@ -85,41 +92,11 @@ function ui(string $key, string $default = ''): string
 }
 
 /**
- * All services keyed by slug, or one service record.
- */
-function services(?string $slug = null): ?array
-{
-    $services = content('services');
-
-    return $slug === null ? $services : ($services[$slug] ?? null);
-}
-
-/**
- * Path of the services hub — '/servicios/' unless content/site.php sets
- * 'servicesHub' (e.g. '/productos/' for a store). The hub's route directory
- * must match: move servicios/index.php to the new path.
- */
-function services_hub_path(): string
-{
-    $hub = site('servicesHub');
-
-    return is_string($hub) && $hub !== '' ? $hub : '/servicios/';
-}
-
-/**
  * A static page record from content/pages.php, keyed by path.
  */
 function page_meta(string $path): array
 {
-    return content('pages')[$path] ?? [];
-}
-
-/**
- * Cluster labels keyed by cluster id, in menu order.
- */
-function clusters(): array
-{
-    return content('ui')['clusters'];
+    return content('pages')[clean_path($path)] ?? content('pages')[$path] ?? [];
 }
 
 /**
@@ -133,7 +110,63 @@ function nav(?string $key = null)
 }
 
 /**
- * Digits-only phone, suitable for wa.me and tel:.
+ * True when $path is the page currently being rendered (aria-current).
+ */
+function is_current(string $path, string $currentPath): bool
+{
+    return clean_path($path) === clean_path($currentPath);
+}
+
+/**
+ * A date as d/m/aaaa (PLAN D6: "consultado el 30/9/2026").
+ */
+function fmt_date_short(string $isoDate): string
+{
+    $d = DateTimeImmutable::createFromFormat('!Y-m-d', $isoDate);
+
+    return $d === false ? $isoDate : $d->format('j/n/Y');
+}
+
+/**
+ * Inline text: escaped, then two pieces of markup and nothing else —
+ * [texto](/ruta) or [texto](https://…) for links, **texto** for emphasis.
+ * Content files keep prose readable and ported guides keep their links.
+ * An internal link to a page that does not exist (yet) renders as its text:
+ * see link_live().
+ *
+ * A stray "[VERIFICAR…]" marker is cut out, never printed (D14): the content
+ * should carry it as a ['verify' => …] block, and this is the safety net.
+ */
+function inline(string $text): string
+{
+    $text = preg_replace('/\s*\[VERIFICAR[^\]]*\]/iu', '', $text) ?? $text;
+    $html = e($text);
+
+    $html = preg_replace_callback(
+        '/\[([^\]]+)\]\(((?:\/|https?:\/\/)[^)\s]*)\)/u',
+        static function (array $m): string {
+            $href     = html_entity_decode($m[2], ENT_QUOTES, 'UTF-8');
+            $external = str_starts_with($href, 'http');
+            if (!$external) {
+                $parts = explode('#', $href, 2);
+                if (!link_live($parts[0])) {
+                    return $m[1];               // not built yet: text now, a link later
+                }
+                $href = clean_path($parts[0]) . (isset($parts[1]) ? '#' . $parts[1] : '');
+            }
+
+            return '<a href="' . e($href) . '"' . ($external ? ' rel="noopener"' : '') . '>' . $m[1] . '</a>';
+        },
+        $html
+    ) ?? $html;
+
+    return preg_replace('/\*\*(.+?)\*\*/u', '<strong>$1</strong>', $html) ?? $html;
+}
+
+/* ---------------------------------------------------------------- phones --- */
+
+/**
+ * Digits only.
  */
 function phone_digits(?string $phone): string
 {
@@ -141,206 +174,82 @@ function phone_digits(?string $phone): string
 }
 
 /**
- * wa.me deep link with a prefilled message, or null when no WhatsApp number is
- * configured yet. Callers fall back to /contacto/.
+ * A Paraguayan phone in E.164 (+595…), or null when it cannot be one (D9,
+ * D11). Accepts what people type: 0981 123 456, 981123456, +595 981 123456,
+ * 595981123456, 021 123 456.
  */
-function whatsapp_link(?string $text = null): ?string
+function phone_e164(?string $phone): ?string
 {
-    $number = phone_digits(site('whatsapp'));
-    if ($number === '') {
+    $raw    = trim((string) $phone);
+    $digits = phone_digits($raw);
+
+    if (str_starts_with($raw, '+') && !str_starts_with($digits, '595')) {
+        return strlen($digits) >= 8 && strlen($digits) <= 15 ? '+' . $digits : null;   // foreign number
+    }
+    if (str_starts_with($digits, '00595')) {
+        $digits = substr($digits, 2);
+    }
+    if (str_starts_with($digits, '595')) {
+        $national = substr($digits, 3);
+    } elseif (str_starts_with($digits, '0')) {
+        $national = substr($digits, 1);
+    } else {
+        $national = $digits;
+    }
+
+    /* Paraguayan national numbers are 8–9 digits (mobile 9XX XXX XXX,
+       Asunción 21 XXX XXX); anything else is not a number we can call back. */
+    if (strlen($national) < 7 || strlen($national) > 10) {
         return null;
     }
 
-    $link = 'https://wa.me/' . $number;
-    if ($text !== null && $text !== '') {
-        $link .= '?text=' . rawurlencode($text);
-    }
-
-    return $link;
+    return '+595' . $national;
 }
 
-/**
- * Where the primary "contact us" action points: WhatsApp when a number exists,
- * the contact page until then.
- */
-function contact_link(?string $text = null): string
-{
-    return whatsapp_link($text) ?? '/contacto/';
-}
+/* -------------------------------------------------------------- WhatsApp --- */
 
 /**
- * True when $path is the page currently being rendered — used for aria-current
- * in the nav.
- */
-function is_current(string $path, string $currentPath): bool
-{
-    return rtrim($path, '/') === rtrim($currentPath, '/');
-}
-
-/* ------------------------------------------------------------------ leads --
-   The lead value model. content/lead-values.php is the single source for tiers,
-   Ads conversion values, WhatsApp prefills and thank-you text; nothing below
-   hardcodes any of them. */
-
-/**
- * One resolved lead-value record for a service or tool slug, or the neutral
- * default when the slug is unknown (an article, a legal page, /nosotros/).
+ * The href of every WhatsApp CTA on the site (PLAN D10, ADR-07): the tracked
+ * redirect /ir/wa/general, which logs the click and answers 302 to wa.me.
+ * wa.me itself never appears in the HTML.
  *
- * Service and tool slugs share one namespace here — they do not collide, and a
- * caller that only knows "the page's slug" should not have to know which kind
- * of page it is looking at.
- */
-function lead_value(?string $slug = null): array
-{
-    $model = content('lead-values');
-
-    $record = $model['services'][$slug ?? ''] ?? $model['tools'][$slug ?? ''] ?? null;
-    if ($record === null) {
-        return $model['default'] + ['slug' => null];
-    }
-
-    return $record + ['slug' => $slug];
-}
-
-/**
- * The record a "¿Qué necesita?" chip maps to: a /contacto/ or homepage lead has
- * no service page behind it, so it takes the tier of its chip and borrows that
- * chip's service copy.
- */
-function lead_value_for_need(string $need): array
-{
-    $model = content('lead-values');
-    $chip  = $model['needs'][$need] ?? null;
-
-    if ($chip === null) {
-        return lead_value(null);
-    }
-
-    $record = $chip['service'] !== null ? lead_value($chip['service']) : $model['default'] + ['slug' => null];
-
-    /* The chip's own tier and tag win — the chip is what the visitor told us. */
-    return ['tier' => $chip['tier'], 'crmTag' => $chip['crmTag'], 'need' => $need] + $record;
-}
-
-/**
- * The Google Ads conversion value for a tier, in guaraníes. An optimisation
- * proxy, not a revenue estimate.
- */
-function lead_tier_value(string $tier): int
-{
-    return (int) (content('lead-values')['tierValues'][$tier] ?? 0);
-}
-
-/**
- * The human label for a `need` key: a form chip first, then the extra labels in
- * content/lead-values.php for needs with no chip of their own.
- */
-function lead_need_label(string $need): string
-{
-    return ui('needs.' . $need)
-        ?: (string) (content('lead-values')['needLabels'][$need] ?? $need);
-}
-
-/**
- * The lead source slug of the page being rendered, or null when it has none.
+ *   $texto  the prefilled message; names what the visitor was reading about
+ *   $desde  the page the click came from; defaults to the page being rendered
  *
- * A page may name itself with $page['leadSlug'] (templates/service.php,
- * templates/tool.php and templates/article.php do); otherwise its path is
- * matched against the service and tool records, so a route joins the model by
- * existing rather than by being registered twice.
+ * Null when no WhatsApp number is configured: callers fall back to
+ * /contacto (PLAN §4.5) — contact_href() does exactly that.
  */
-function current_lead_slug(?array $page = null): ?string
+function wa_href(string $texto, ?string $desde = null): ?string
 {
-    $page = $page ?? ($GLOBALS['page'] ?? []);
-
-    if (!empty($page['leadSlug'])) {
-        return (string) $page['leadSlug'];
-    }
-
-    $path = rtrim((string) ($page['path'] ?? ''), '/');
-    if ($path === '') {
+    if (wa_number() === null) {
         return null;
     }
 
-    foreach ([services(), content('tools')] as $records) {
-        foreach ($records as $slug => $record) {
-            if (rtrim((string) ($record['path'] ?? ''), '/') === $path) {
-                return (string) $slug;
-            }
-        }
-    }
+    $desde = $desde ?? (string) ($GLOBALS['page']['path'] ?? '/');
 
-    return null;
+    return '/ir/wa/general?' . http_build_query(
+        ['texto' => mb_substr($texto, 0, 300), 'desde' => clean_path($desde)],
+        '',
+        '&',
+        PHP_QUERY_RFC3986
+    );
 }
 
 /**
- * The wa.me prefill for the page being rendered . EVERY WhatsApp
- * link on the site goes through this — header pill, floating button, mobile
- * bar, homepage, hub, CTA band, tool CTAs — so a message always names the
- * service the visitor was reading about and never the button's own label.
+ * wa_href(), or /contacto while there is no number.
  */
-function whatsapp_text_for_page(?array $page = null): string
+function contact_href(string $texto, ?string $desde = null): string
 {
-    return (string) lead_value(current_lead_slug($page))['whatsappText'];
+    return wa_href($texto, $desde) ?? '/contacto';
 }
 
 /**
- * The WhatsApp menu options : the current page's service first
- * and pre-highlighted, then the priority services, then the "other" option.
- * Duplicates are dropped, so the current page's service is listed once.
- *
- * Each entry: slug, label, text (the prefill), link (wa.me or null), current.
+ * The WhatsApp number as wa.me wants it (digits, country code first), or
+ * null. Only /ir/wa/general and wa_href() read it.
  */
-function whatsapp_menu(?array $page = null): array
+function wa_number(): ?string
 {
-    $model   = content('lead-values');
-    $current = current_lead_slug($page);
-    $slugs   = array_values(array_unique(array_filter(
-        array_merge([$current], $model['whatsappMenu'])
-    )));
+    $e164 = phone_e164((string) site('whatsapp'));
 
-    $options = [];
-    foreach ($slugs as $slug) {
-        $record = lead_value($slug);
-        if ($record['slug'] === null) {
-            continue;   // a page that named a slug the model does not know
-        }
-        $options[] = [
-            'slug'    => $slug,
-            'label'   => lead_label($slug),
-            'text'    => $record['whatsappText'],
-            'link'    => whatsapp_link($record['whatsappText']),
-            'current' => $slug === $current,
-        ];
-    }
-
-    /* "Otra consulta" always closes the menu: the visitor who wants none of the
-       above still gets a message that says something. */
-    $options[] = [
-        'slug'    => '',
-        'label'   => ui('whatsapp.other'),
-        'text'    => $model['default']['whatsappText'],
-        'link'    => whatsapp_link($model['default']['whatsappText']),
-        'current' => false,
-    ];
-
-    return $options;
-}
-
-/**
- * The short human name a source goes by — in the WhatsApp menu and in the CRM's
- * `servicio` field. content/lead-values.php owns it, because a page title is
- * often frozen for SEO and too terse to read as a menu option; a service
- * without a menuLabel falls back to its navLabel.
- */
-function lead_label(string $slug): string
-{
-    $record = lead_value($slug);
-    if (!empty($record['menuLabel'])) {
-        return (string) $record['menuLabel'];
-    }
-
-    $page = services($slug) ?? content('tools')[$slug] ?? null;
-
-    return (string) ($page['navLabel'] ?? $page['title'] ?? $slug);
+    return $e164 === null ? null : ltrim($e164, '+');
 }

@@ -54,7 +54,7 @@ function market_country(): string
  */
 function fmt_money(int $amount): string
 {
-    return '₲ ' . number_format($amount, 0, ',', '.');
+    return 'Gs. ' . number_format($amount, 0, ',', '.');   // PLAN D9: "Gs. 12.500.000"
 }
 
 /**

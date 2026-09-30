@@ -1,8 +1,8 @@
 <?php
 /**
- * 404 page. Reached through the ErrorDocument directive in .htaccess (and the
- * equivalent branch in router.php), so it is also included directly by
- * templates/service.php for an unknown slug — hence the guard on ROOT_DIR.
+ * 404 page. Reached through ErrorDocument in .htaccess (and the matching
+ * branch in router.php), and included by a template when its record does not
+ * exist — hence the guard on ROOT_DIR.
  */
 
 if (!defined('ROOT_DIR')) {
@@ -30,19 +30,8 @@ require ROOT_DIR . '/partials/header.php';
       <div class="page-hero__inner">
         <h1><?= e(ui('error404.title')) ?></h1>
         <p class="lead"><?= e(ui('error404.lead')) ?></p>
+        <p><a href="/guias"><?= e(ui('nav.guides')) ?> →</a></p>
       </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <?php
-      /* The first few services, whatever they are on this site. */
-      $gridSlugs    = array_slice(array_keys(services()), 0, 6);
-      $gridNumbered = false;
-      require ROOT_DIR . '/partials/service-card-grid.php';
-      ?>
-      <p class="mt-4"><a href="<?= e(services_hub_path()) ?>"><?= e(ui('nav.all_services')) ?> →</a></p>
     </div>
   </section>
 </main>

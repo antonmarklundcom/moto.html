@@ -1,58 +1,58 @@
 <?php
 /**
- * Head metadata and JSON-LD. partials/head.php renders whatever these return;
- * pages only ever populate the $page array.
+ * Head metadata and JSON-LD (PLAN §2.4). partials/head.php renders whatever
+ * these return; pages only populate the $page array.
  *
  * $page keys (all optional except title and path):
- *   title        string  page title without the site suffix, <= 42 chars
- *   description  string  meta description, 120-155 chars
- *   path         string  '/servicios/x/' — canonical path, always trailing slash
- *   ogImage      string  path or absolute URL; defaults to the site OG image
- *   ogType       string  'website' (default) or 'article'
- *   noindex      bool    emit robots noindex
- *   breadcrumbs  array   [['label' => 'Services', 'path' => '/servicios/'], ...]
- *                        without the home crumb — jsonld_breadcrumbs() prepends it
- *   faq          array   [['q' => ..., 'a' => ...], ...] → FAQPage
- *   article      array   ['headline','datePublished','dateModified','image']
- *   jsonld       array   extra raw JSON-LD blocks
+ *   title         string  page title; the ' | moto.com.py' suffix is added only
+ *                         while the whole <title> stays <= 60 characters
+ *   description   string  meta description, 120–160 characters, unique site-wide
+ *   path          string  '/motos/honda' — canonical path, NO trailing slash (D3)
+ *   ogImage       string  path or absolute URL; defaults to the site OG image
+ *   ogType        string  'website' (default) or 'article'
+ *   noindex       bool    force noindex (the gate decides everything else)
+ *   breadcrumbs   array   [['label' => …, 'path' => …], …] without Inicio →
+ *                         visible trail AND BreadcrumbList
+ *   faq           array   visible_faq() output → FAQPage (only real, visible FAQ)
+ *   article       array   ['headline','datePublished','dateModified'] → Article
+ *   leadSlug      string  the lead source (content/lead-values.php)
+ *   whatsappText  string  the WhatsApp prefill naming what the page is about
+ *
+ * Never emitted, anywhere (D5; verify.sh fails on them): AggregateRating,
+ * Review, ratingValue, Product/Offer, priceValidUntil. We sell nothing and have
+ * no reviews.
  */
 
 declare(strict_types=1);
 
-/**
- * The title suffix every page carries: ' | <site name>', from content/site.php.
- * Nothing in this repository hardcodes a business name.
- */
-function seo_title_suffix(): string
-{
-    $name = trim((string) (site('name') ?? ''));
-
-    return $name === '' ? '' : ' | ' . $name;
-}
+const TITLE_MAX = 60;
 
 /**
- * The full <title>: the page's own title plus the site suffix, unless the page
- * already carries the site name.
+ * The full <title>: the page's title plus ' | <site name>' when that still
+ * fits in TITLE_MAX characters.
  */
 function seo_title(array $page): string
 {
-    $title  = trim((string) ($page['title'] ?? ''));
-    $name   = trim((string) (site('name') ?? ''));
-    $suffix = seo_title_suffix();
+    $title = trim((string) ($page['title'] ?? ''));
+    $name  = trim((string) (site('name') ?? ''));
 
     if ($title === '') {
         return $name;
     }
+    if ($name === '' || str_contains($title, $name)) {
+        return $title;
+    }
+    $full = $title . ' | ' . $name;
 
-    return ($name !== '' && str_contains($title, $name)) ? $title : $title . $suffix;
+    return mb_strlen($full) <= TITLE_MAX ? $full : $title;
 }
 
 /**
- * Canonical URL for the page.
+ * Canonical URL: always the clean URL, whatever query string arrived.
  */
 function seo_canonical(array $page): string
 {
-    return url($page['path'] ?? '/');
+    return url((string) ($page['path'] ?? '/'));
 }
 
 /**
@@ -62,12 +62,12 @@ function seo_og_image(array $page): string
 {
     $image = $page['ogImage'] ?? '/assets/img/og-default.png';
 
-    return str_starts_with($image, 'http') ? $image : url($image);
+    return str_starts_with($image, 'http') ? $image : site_origin() . $image;
 }
 
 /**
- * Encode a JSON-LD block for a <script> tag. Slashes and unicode stay readable;
- * `<` is escaped so the payload can never close the script element early.
+ * Encode a JSON-LD block for a <script> tag; `<` is escaped so the payload can
+ * never close the script element.
  */
 function json_ld(array $data): string
 {
@@ -78,62 +78,56 @@ function json_ld(array $data): string
 }
 
 /**
- * The business itself, from content/site.php. Fields the site has not supplied are
- * omitted rather than guessed, so the block stays truthful as it fills in.
+ * The organisation, from content/site.php. Unsupplied fields are omitted.
  */
 function jsonld_organization(): array
 {
-    /* The schema.org type is a site fact, not a code fact: a law firm is a
-       LegalService, a plumber a Plumber. content/site.php names it. */
     $types = array_values(array_filter((array) site('schemaType')));
 
     $data = [
-        '@context'   => 'https://schema.org',
-        '@type'      => $types !== [] ? $types : ['LocalBusiness'],
-        '@id'        => url('/') . '#organization',
-        'name'       => (string) site('name'),
-        'url'        => url('/'),
-        'image'      => url('/assets/img/og-default.png'),
-        'areaServed' => ['@type' => 'Country', 'name' => site('country') ?? market_country()],
+        '@context' => 'https://schema.org',
+        '@type'    => $types !== [] ? $types : ['Organization'],
+        '@id'      => url('/') . '#organization',
+        'name'     => (string) site('name'),
+        'url'      => url('/'),
+        'logo'     => site_origin() . '/assets/img/favicon.svg',
     ];
 
     if (site('description')) {
         $data['description'] = site('description');
     }
-    if (site('phone')) {
-        $data['telephone'] = site('phone');
-    }
     if (site('email')) {
         $data['email'] = site('email');
     }
-    if (site('foundedYear')) {
-        $data['foundingDate'] = (string) site('foundedYear');
+    if (site('phone')) {
+        $data['telephone'] = site('phone');
     }
-
-    $address = array_filter([
-        'streetAddress'   => site('street'),
-        'addressLocality' => site('city'),
-        'addressCountry'  => site('country'),
-    ]);
-    if ($address !== []) {
-        $data['address'] = ['@type' => 'PostalAddress'] + $address;
-    }
-
     $socials = array_values(array_filter((array) site('socials')));
     if ($socials !== []) {
         $data['sameAs'] = $socials;
-    }
-
-    $hours = site('openingHours');
-    if (is_array($hours) && $hours !== []) {
-        $data['openingHoursSpecification'] = $hours;
     }
 
     return $data;
 }
 
 /**
- * BreadcrumbList, always rooted at the home page. Returns null when there are no crumbs.
+ * The site itself. No SearchAction: the site has no search.
+ */
+function jsonld_website(): array
+{
+    return [
+        '@context'   => 'https://schema.org',
+        '@type'      => 'WebSite',
+        '@id'        => url('/') . '#website',
+        'name'       => (string) site('name'),
+        'url'        => url('/'),
+        'inLanguage' => market_locale(),
+        'publisher'  => ['@id' => url('/') . '#organization'],
+    ];
+}
+
+/**
+ * BreadcrumbList, rooted at the home page. null without crumbs.
  */
 function jsonld_breadcrumbs(array $crumbs): ?array
 {
@@ -143,7 +137,6 @@ function jsonld_breadcrumbs(array $crumbs): ?array
 
     $items = [];
     $all   = array_merge([['label' => ui('nav.home', 'Inicio'), 'path' => '/']], $crumbs);
-
     foreach ($all as $i => $crumb) {
         $items[] = [
             '@type'    => 'ListItem',
@@ -153,47 +146,28 @@ function jsonld_breadcrumbs(array $crumbs): ?array
         ];
     }
 
-    return [
-        '@context'        => 'https://schema.org',
-        '@type'           => 'BreadcrumbList',
-        'itemListElement' => $items,
-    ];
+    return ['@context' => 'https://schema.org', '@type' => 'BreadcrumbList', 'itemListElement' => $items];
 }
 
 /**
- * FAQPage from [['q' => ..., 'a' => ...], ...].
+ * FAQPage from visible_faq() output — only questions the page shows.
  */
 function jsonld_faq(array $faq): ?array
 {
-    if ($faq === []) {
-        return null;
-    }
-
     $items = [];
-    foreach ($faq as $entry) {
-        if (empty($entry['q']) || empty($entry['a'])) {
-            continue;
-        }
+    foreach (visible_faq($faq) as $entry) {
         $items[] = [
             '@type'          => 'Question',
             'name'           => $entry['q'],
-            'acceptedAnswer' => ['@type' => 'Answer', 'text' => $entry['a']],
+            'acceptedAnswer' => ['@type' => 'Answer', 'text' => strip_tags(inline($entry['a']))],
         ];
     }
 
-    if ($items === []) {
-        return null;
-    }
-
-    return [
-        '@context'   => 'https://schema.org',
-        '@type'      => 'FAQPage',
-        'mainEntity' => $items,
-    ];
+    return $items === [] ? null : ['@context' => 'https://schema.org', '@type' => 'FAQPage', 'mainEntity' => $items];
 }
 
 /**
- * Article, for blog posts.
+ * Article, for guides and comparisons.
  */
 function jsonld_article(array $article, array $page): ?array
 {
@@ -204,13 +178,13 @@ function jsonld_article(array $article, array $page): ?array
     $data = [
         '@context'         => 'https://schema.org',
         '@type'            => 'Article',
-        'headline'         => $article['headline'] ?? ($page['title'] ?? ''),
+        'headline'         => mb_substr((string) ($article['headline'] ?? $page['title'] ?? ''), 0, 110),
         'mainEntityOfPage' => seo_canonical($page),
-        'author'           => ['@type' => 'Organization', 'name' => (string) site('name')],
+        'author'           => ['@type' => 'Organization', 'name' => (string) site('name'), 'url' => url('/')],
         'publisher'        => ['@id' => url('/') . '#organization'],
         'image'            => seo_og_image($page),
+        'inLanguage'       => market_locale(),
     ];
-
     foreach (['datePublished', 'dateModified', 'description'] as $key) {
         if (!empty($article[$key])) {
             $data[$key] = $article[$key];
@@ -221,11 +195,11 @@ function jsonld_article(array $article, array $page): ?array
 }
 
 /**
- * Every JSON-LD block this page should emit, in order.
+ * Every JSON-LD block the page emits, in order.
  */
 function seo_jsonld(array $page): array
 {
-    $blocks = [jsonld_organization()];
+    $blocks = [jsonld_organization(), jsonld_website()];
 
     foreach ([
         jsonld_breadcrumbs($page['breadcrumbs'] ?? []),
@@ -237,9 +211,26 @@ function seo_jsonld(array $page): array
         }
     }
 
-    foreach ($page['jsonld'] ?? [] as $extra) {
-        $blocks[] = $extra;
+    return $blocks;
+}
+
+/**
+ * A description of 120–160 characters from a preferred text and a fallback
+ * built from the record: the preferred one if it fits, else the fallback cut
+ * at a word boundary. Templates use it so a record without its own
+ * description still gets a unique, well-sized one.
+ */
+function seo_description(?string $preferred, string $fallback): string
+{
+    $preferred = trim((string) $preferred);
+    if ($preferred !== '' && mb_strlen($preferred) >= 120 && mb_strlen($preferred) <= 160) {
+        return $preferred;
+    }
+    $text = $preferred !== '' ? $preferred : $fallback;
+    if (mb_strlen($text) > 160) {
+        $cut  = mb_substr($text, 0, 157);
+        $text = rtrim(mb_substr($cut, 0, (int) mb_strrpos($cut, ' ')), ' ,;:.') . '…';
     }
 
-    return $blocks;
+    return $text;
 }

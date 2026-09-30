@@ -1,68 +1,46 @@
 <?php
 /**
- * The lead value model. ONE record per source — every service slug, every tool
- * slug, every "¿qué necesita?" chip — plus the neutral default for pages that
- * are none of those.
+ * The lead model (PLAN D11). ONE record per lead source, plus the neutral
+ * default. enviar.php, /gracias, the forms and every WhatsApp CTA read it
+ * through lib/leads.php; nothing else decides a lead's type, tier or copy.
  *
- * Nothing else on the site decides a tier, a conversion value or a WhatsApp
- * prefill: pages read this through lib/helpers.php's lead_value() and
- * whatsapp_text_for_page(), so retuning the model after a few weeks of GA4 data
- * is one edit here and no page changes.
+ *   sources[slug]   a lead source. A page names its source with 'leadSlug'
+ *                   (content/pages.php or the template's $page), a form with
+ *                   $formSource. Record keys:
+ *     leadType      'consulta' | 'comercial' — sent as fields.tipo_lead and part
+ *                   of the idempotency key. Resolved SERVER-SIDE from the slug:
+ *                   a posted type is never read
+ *     menuLabel     short name in the WhatsApp menu and in fields.origen
+ *     need          chip key in content/ui.php 'needs'
+ *     tier          'A' | 'B' | 'C' — the Ads bidding proxy (tierValues)
+ *     whatsappText  the WhatsApp prefill (a model page overrides it with the
+ *                   model's own text)
+ *     nextStep      string[] shown after submit, on the form and on /gracias
+ *     nextLink      ?['path' => …, 'label' => …]
+ *   needs[chip]     ['tier' => …, 'source' => slug|null] for each form chip
+ *   whatsappMenu    source slugs offered in the WhatsApp menu after the page's own
  *
- * Record shape (every key required unless noted):
- *
- *   menuLabel     string   the short human name this source goes by in the
- *                          WhatsApp menu and in the CRM's `servicio` field. Page
- *                          titles are often frozen for SEO and too terse to read
- *                          as a menu option, which is why this exists
- *   need          string   key into ui('needs') — the chip this source maps to,
- *                          or a key in 'needLabels' below for sources with no
- *                          chip of their own
- *   tier          string   'A' | 'B' | 'C' — how much this source is worth
- *   whatsappText  string   the wa.me prefill. Names the service the visitor was
- *                          reading about — never a generic "consulta gratis"
- *   nextStep      string[] 2–3 lines shown after submit: what to have ready.
- *                          This is the second touch; it is worth reading
- *   crmTag        string   lands on the VenderCRM timeline as fields.etiqueta —
- *                          see the note on tags in enviar.php
- *   nextLink      ?array   optional ['path' => ..., 'label' => ...] tool or guide
- *                          offered alongside the thank-you text. The path must
- *                          resolve to a real route file; verify.sh checks it
- *
- * Adding a source: add a record keyed by its slug. Pages resolve by slug, so a
- * new guide or segment page joins the model by adding a key here.
+ * Never a tag, pipeline, stage or owner (D11): routing lives in the CRM.
+ * Phases add sources at the end of 'sources'.
  */
 
 declare(strict_types=1);
 
-/* The Google Ads conversion value per tier, in whole units of the market's
-   currency (content/site.php 'market'). These are OPTIMISATION PROXIES, not
-   revenue estimates: they exist so smart bidding favours a retainer lead over a
-   calculator lead by roughly 10:1. Retune the ratio here, and re-scale the
-   numbers when the site's market — and therefore its currency — changes. */
-$tierValues = [
-    'A' => 50000,
-    'B' => 20000,
-    'C' => 5000,
-];
-
-/* Labels for `need` keys that are not one of the form chips, so the CRM reads a
-   sentence instead of a raw key. */
-$needLabels = [
-];
-
 return [
 
-    'tierValues' => $tierValues,
-    'needLabels' => $needLabels,
+    /* Ads conversion value per tier, in guaraníes. Bidding proxies, not revenue. */
+    'tierValues' => [
+        'A' => 50000,
+        'B' => 20000,
+        'C' => 5000,
+    ],
 
-    /* Which services the WhatsApp menu offers, in order, after the current
-       page's own service. Keep it short: four is plenty. */
+    'needLabels' => [],
+
     'whatsappMenu' => ['consulta'],
 
-    /* The record for a page that names no service: an article without one, a
-       legal page, the homepage. Never null — every form resolves to something. */
     'default' => [
+        'leadType'     => 'consulta',
         'menuLabel'    => 'Consulta sobre motos',
         'need'         => 'consulta',
         'tier'         => 'C',
@@ -71,13 +49,12 @@ return [
             'Te respondemos dentro del siguiente día hábil.',
             'Tené a mano el modelo que te interesa, si ya lo elegiste.',
         ],
-        'crmTag'       => 'consulta-general',
         'nextLink'     => null,
     ],
 
-    /* One record per key in content/services.php. */
-    'services' => [
+    'sources' => [
         'consulta' => [
+            'leadType'     => 'consulta',
             'menuLabel'    => 'Consulta sobre motos',
             'need'         => 'consulta',
             'tier'         => 'B',
@@ -86,19 +63,24 @@ return [
                 'Te respondemos dentro del siguiente día hábil.',
                 'Tené a mano el modelo que te interesa, si ya lo elegiste.',
             ],
-            'crmTag'       => 'consulta',
+            'nextLink'     => null,
+        ],
+        'comercial' => [
+            'leadType'     => 'comercial',
+            'menuLabel'    => 'Marcas y comercios',
+            'need'         => 'otro',
+            'tier'         => 'A',
+            'whatsappText' => 'Hola, les escribo por una marca o un comercio de motos.',
+            'nextStep'     => [
+                'Te respondemos dentro del siguiente día hábil.',
+                'Si podés, contanos qué marca o comercio representás.',
+            ],
             'nextLink'     => null,
         ],
     ],
 
-    /* One record per key in content/tools.php. This site has none. */
-    'tools' => [],
-
-    /* One record per chip in content/ui.php 'needs'. A lead from a page with no
-       service of its own takes the tier of the chip the visitor picked. The
-       single lead source for now is `consulta` (PLAN D11). */
     'needs' => [
-        'consulta' => ['tier' => 'B', 'crmTag' => 'consulta', 'service' => 'consulta'],
-        'otro'     => ['tier' => 'C', 'crmTag' => 'consulta-general', 'service' => null],
+        'consulta' => ['tier' => 'B', 'source' => 'consulta'],
+        'otro'     => ['tier' => 'C', 'source' => null],
     ],
 ];

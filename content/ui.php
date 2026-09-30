@@ -306,4 +306,98 @@ return [
         'rights'  => 'Todos los derechos reservados.',
         'contact' => 'Contacto',
     ],
+
+    /* == F1 == Strings for the foundation's partials and templates. New
+       top-level groups only: re-declaring an existing group would replace it. */
+
+    'form_extra' => [
+        'cuotas' => 'Me interesa comprarla en cuotas',
+    ],
+
+    // partials/fact.php — the wording of D6 is fixed: "Precio publicado por
+    // {fuente} — consultado el {d/m/aaaa}".
+    'facts' => [
+        'price_by' => 'Precio publicado por',
+        'accessed' => 'consultado el',
+        'sources'  => 'Fuentes',
+    ],
+
+    'page' => [
+        'toc'     => 'En esta página',
+        'faq'     => 'Preguntas frecuentes',
+        'updated' => 'Actualizado el',
+    ],
+
+    // Labels of catalogue spec keys (content/catalogo.php specs{}). A key not
+    // listed here renders as its own name, made readable.
+    'specs' => [
+        'cc'               => 'Cilindrada',
+        'motor'            => 'Motor',
+        'potencia'         => 'Potencia',
+        'torque'           => 'Torque',
+        'transmision'      => 'Transmisión',
+        'arranque'         => 'Arranque',
+        'alimentacion'     => 'Alimentación',
+        'refrigeracion'    => 'Refrigeración',
+        'freno_del'        => 'Freno delantero',
+        'freno_tras'       => 'Freno trasero',
+        'neumatico_del'    => 'Neumático delantero',
+        'neumatico_tras'   => 'Neumático trasero',
+        'tanque'           => 'Tanque de combustible',
+        'peso'             => 'Peso',
+        'altura_asiento'   => 'Altura del asiento',
+        'consumo'          => 'Consumo',
+        'velocidad_maxima' => 'Velocidad máxima',
+        'autonomia'        => 'Autonomía',
+        'bateria'          => 'Batería',
+        'carga_util'       => 'Carga útil',
+    ],
+
+    'brand' => [
+        'h1'          => 'Motos %s en Paraguay',
+        'distributor' => 'Distribuidor en Paraguay',
+        'models'      => 'Modelos de %s',
+        'no_models'   => 'Todavía no cargamos modelos de esta marca.',
+    ],
+
+    'model' => [
+        'h1'           => '%s: precio en Paraguay y ficha técnica',
+        'price'        => 'Precio',
+        'no_price'     => 'No encontramos un precio publicado vigente. Consultá el precio actual con el distribuidor.',
+        'specs'        => 'Ficha técnica',
+        'consumption'  => 'Consumo y velocidad',
+        'maintenance'  => 'Mantenimiento',
+        'parts'        => 'Repuestos comunes',
+        'used'         => 'Qué revisar si es usada',
+        'versions'     => 'Versiones',
+        'category'     => 'Tipo',
+        'years'        => 'Años',
+        'brand_link'   => 'Todos los modelos de %s',
+        'whatsapp'     => 'Hola, quiero consultar por la %s.',
+    ],
+
+    'hubs' => [
+        'models' => 'Modelos',
+        'guides' => 'Guías relacionadas',
+    ],
+
+    'compare' => [
+        'h1'        => '%s vs %s',
+        'criterion' => 'Cómo comparamos',
+        'table'     => 'Ficha lado a lado',
+        'spec'      => 'Dato',
+        'models'    => 'Ver cada modelo',
+    ],
+
+    'quiz' => [
+        'title'   => 'Practicá con las preguntas',
+        'answer'  => 'Ver la respuesta',
+        'correct' => 'Respuesta correcta:',
+        'source'  => 'Fuente de las preguntas:',
+    ],
+
+    'gracias' => [
+        'lead' => 'Te respondemos por WhatsApp o por teléfono. Mientras tanto, podés seguir leyendo.',
+        'back' => 'Ver las guías',
+    ],
 ];

@@ -1,48 +1,71 @@
 # Apache configuration for Hostinger shared hosting.
 #
+# The whole repository is deployed by Hostinger Git (PLAN D19), so everything
+# that is not a page is denied here, and deploy/verify-live.sh checks it.
+#
 # router.php mirrors every routing rule in this file so that `php -S` behaves
 # like production and verify.sh can assert the same status codes locally. Change
-# one, change the other.
+# one, change the other — and the expected statuses in deploy/routes.php.
+#
+# URLs have NO trailing slash (PLAN D3): /motos/honda is canonical, /motos/honda/
+# answers 301 to it. Every page is still a directory with an index.php; the
+# rewrite below serves it without the slash, so DirectorySlash must be off.
 
 Options -Indexes
-DirectoryIndex index.php index.html
+DirectoryIndex index.php
+DirectorySlash Off
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
-  # --- legacy URLs --------------------------------------------------------
-  # A rebuild of an existing site adds its 410s and redirects here — and the
-  # matching branches in router.php, and the expected statuses in
-  # deploy/routes.php. Kept as a worked pattern:
-  #
-  #   RewriteRule ^hello-world/?$ - [G,L]
-  #   RewriteCond %{QUERY_STRING} ^page_id=3$
-  #   RewriteRule ^$ /privacidad/? [R=301,L]
-  #   RewriteRule ^wp-sitemap\.xml$ /sitemap.xml [R=301,L]
+  # --- internals: never readable over HTTP (D19) ---------------------------
+  RewriteRule ^(content|lib|partials|templates|docs|prompts|tests|deploy|scripts|logs|dist|node_modules)(/|$) - [R=404,L]
+  RewriteRule (^|/)\.(?!well-known/) - [R=404,L]
 
-  # --- generated text endpoints -------------------------------------------
+  # --- canonical host: HTTPS, and www → apex -------------------------------
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+  RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1)(:\d+)?$
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+  # --- legacy URLs ----------------------------------------------------------
+  # A published URL never changes (D2). If one ever has to, its 301 or 410 goes
+  # here, in router.php and in deploy/routes.php. Pattern:
+  #   RewriteRule ^old-path$ /new-path [R=301,L]
+  #   RewriteRule ^gone-path$ - [G,L]
+
+  # --- generated text endpoints --------------------------------------------
   RewriteRule ^sitemap\.xml$ /sitemap.php [L]
   RewriteRule ^robots\.txt$  /robots.php  [L]
 
-  # --- trailing slash -----------------------------------------------------
-  # Every page URL is a directory, so /contacto → /contacto/ (301, once).
+  # --- no trailing slash (D3) ----------------------------------------------
+  # /motos/ → /motos, and /guias/index.php → /guias. The query string is kept.
+  RewriteCond %{THE_REQUEST} \s/+(.+?)/index\.php[\s?] [NC]
+  RewriteRule ^ /%1 [R=301,L]
+  RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
+  RewriteRule ^ / [R=301,L]
+  RewriteCond %{REQUEST_URI} ^/(.+)/+$
+  RewriteRule ^ /%1 [R=301,L]
+
+  # --- a page is a directory with an index.php -----------------------------
   RewriteCond %{REQUEST_FILENAME} -d
-  RewriteCond %{REQUEST_URI} !/$
-  RewriteRule ^(.*)$ /$1/ [R=301,L]
+  RewriteCond %{REQUEST_FILENAME}/index.php -f
+  RewriteRule ^(.+)$ /$1/index.php [L]
 </IfModule>
 
 ErrorDocument 404 /404.php
 
-# --- keep the application's internals off the web ------------------------
-RedirectMatch 404 ^/(content|lib|partials|templates|docs|prompts|tests|deploy)(/|$)
-RedirectMatch 404 ^/logs(/|$)
-RedirectMatch 404 ^/\.git(/|$)
+# --- belt and braces for the internals (if mod_rewrite is ever off) --------
+RedirectMatch 404 ^/(content|lib|partials|templates|docs|prompts|tests|deploy|scripts|logs|dist)(/|$)
+RedirectMatch 404 ^/\.(?!well-known/)
 
 <FilesMatch "^(config|config\.example)\.php$">
   Require all denied
 </FilesMatch>
 
-<FilesMatch "\.(md|sh|json|lock|ya?ml|log|dc\.html)$">
+<FilesMatch "\.(md|sh|json|jsonl|lock|ya?ml|log|mjs|dist|example)$">
   Require all denied
 </FilesMatch>
 
@@ -60,23 +83,15 @@ RedirectMatch 404 ^/\.git(/|$)
   ExpiresByType text/html                 "access plus 0 seconds"
   ExpiresByType text/css                  "access plus 1 year"
   ExpiresByType application/javascript    "access plus 1 year"
-  ExpiresByType font/woff2                "access plus 1 year"
   ExpiresByType image/svg+xml             "access plus 1 month"
-  ExpiresByType image/webp                "access plus 1 month"
-  ExpiresByType image/avif                "access plus 1 month"
   ExpiresByType image/png                 "access plus 1 month"
-  ExpiresByType image/jpeg                "access plus 1 month"
 </IfModule>
 
 <IfModule mod_headers.c>
-  <FilesMatch "\.(css|js|woff2|svg|png|jpe?g|webp|avif)$">
+  <FilesMatch "\.(css|js|svg|png)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
   Header always set X-Content-Type-Options "nosniff"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set X-Frame-Options "SAMEORIGIN"
-</IfModule>
-
-<IfModule mod_mime.c>
-  AddType font/woff2 .woff2
 </IfModule>

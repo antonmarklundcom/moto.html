@@ -1,33 +1,22 @@
 <?php
 /**
  * Contact: the business's own details (only the ones content/site.php actually
- * has) plus the lead form.
- *
- * It is also where the no-JS form path lands: enviar.php redirects to
- * /contacto/?enviado=1&s=<slug>, and the thank-you rendered here comes from the
- * same content/lead-values.php record the inline success state uses — one copy
- * of the text, two ways in.
+ * has) plus the lead form. A no-JS lead lands on /gracias; a rejected one
+ * (no valid phone) comes back here with ?error=1.
  */
 
 require __DIR__ . '/../lib/bootstrap.php';
 
-$meta = page_meta('/contacto/');
+$meta = page_meta('/contacto');
 $page = [
     'title'       => $meta['title'],
     'description' => $meta['description'],
-    'path'        => '/contacto/',
-    'breadcrumbs' => [['label' => ui('nav.contact'), 'path' => '/contacto/']],
+    'path'        => '/contacto',
+    'leadSlug'    => 'consulta',
+    'breadcrumbs' => [['label' => ui('nav.contact'), 'path' => '/contacto']],
 ];
 
-/* The no-JS thank-you. `s` names the service the lead came from; an unknown
-   slug falls back to the model's neutral default rather than 404ing someone who
-   has just given us their phone number. */
-$sent      = isset($_GET['enviado']);
-$sentSlug  = isset($_GET['s']) && is_string($_GET['s']) ? substr($_GET['s'], 0, 80) : '';
-$sentLead  = $sentSlug !== '' ? lead_value($sentSlug) : lead_value(null);
-$hasError  = isset($_GET['error']);
-
-$contactWhatsapp = whatsapp_link(whatsapp_text_for_page());
+$hasError = isset($_GET['error']);
 
 require ROOT_DIR . '/partials/head.php';
 require ROOT_DIR . '/partials/header.php';
@@ -49,12 +38,7 @@ require ROOT_DIR . '/partials/header.php';
     <div class="container split split--top">
 
       <div class="stack">
-        <?php if ($sent): ?>
-          <?php
-            $thanksLead = $sentLead;
-            require ROOT_DIR . '/partials/lead-thanks.php';
-          ?>
-        <?php elseif ($hasError): ?>
+        <?php if ($hasError): ?>
           <p class="form-status form-status--error" role="alert">
             <strong><?= e(ui('form.error_title')) ?></strong>
             <?= e(ui('form.error_text')) ?>
@@ -88,9 +72,10 @@ require ROOT_DIR . '/partials/header.php';
           <?php endif; ?>
         </ul>
 
+        <?php $contactWhatsapp = wa_href(whatsapp_text_for_page()); ?>
         <?php if ($contactWhatsapp !== null): ?>
           <div class="btn-row">
-            <a class="btn btn--whatsapp" href="<?= e($contactWhatsapp) ?>" rel="noopener">
+            <a class="btn btn--whatsapp" href="<?= e($contactWhatsapp) ?>" rel="nofollow">
               <?= e(ui('cta.whatsapp_long')) ?>
             </a>
           </div>
