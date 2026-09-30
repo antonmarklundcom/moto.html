@@ -1303,7 +1303,7 @@
   },
   {
    "what": "yamaha/xtz-250 price 39.643.695",
-   "reason": "R1 curation: round 2 got a different chacomer figure on each run (39.226.950 / 40.258.890); none is reliable"
+   "reason": "R1 curation: round 2 got a different chacomer figure on each run (39.226.950 / 40.258.890); none is reliable — superseded in round 3: r3-seeds.json found Gs. 39.226.950 on three agreeing searches (Chacomer \"desde\"), which is the price kept"
   }
  ],
  "queries": [

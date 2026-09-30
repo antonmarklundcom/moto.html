@@ -442,7 +442,88 @@ return [
             'name' => 'Navi 110',
             'slug' => 'navi-110',
             'category' => 'scooter',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 109,
+                    'source' => [
+                        'label' => 'InfoNegocios',
+                        'url' => 'https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '7.92 HP',
+                    'source' => [
+                        'label' => 'InfoNegocios',
+                        'url' => 'https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'transmision' => [
+                    'value' => 'Automática',
+                    'source' => [
+                        'label' => 'InfoNegocios',
+                        'url' => 'https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'arranque' => [
+                    'value' => 'Eléctrico',
+                    'source' => [
+                        'label' => 'InfoNegocios',
+                        'url' => 'https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'freno_del' => [
+                    'value' => 'Tambor',
+                    'source' => [
+                        'label' => 'InfoNegocios',
+                        'url' => 'https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'freno_tras' => [
+                    'value' => 'Tambor',
+                    'source' => [
+                        'label' => 'InfoNegocios',
+                        'url' => 'https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'peso' => [
+                    'value' => '99 kg',
+                    'source' => [
+                        'label' => 'InfoNegocios',
+                        'url' => 'https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'velocidad_max' => [
+                    'value' => '80 km/h',
+                    'source' => [
+                        'label' => 'InfoNegocios',
+                        'url' => 'https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'neumatico_del' => [
+                    'value' => '12 pulgadas',
+                    'source' => [
+                        'label' => 'InfoNegocios',
+                        'url' => 'https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'neumatico_tras' => [
+                    'value' => '10 pulgadas',
+                    'source' => [
+                        'label' => 'InfoNegocios',
+                        'url' => 'https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [],
             'versions' => [],
             'sources' => [
@@ -452,6 +533,13 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Clasipar ad by DIESA S.A. (lists CG 110, CB1 125, Navi 110, CB160, XR150, Africa, XR190, CB190R, Tornado 250, Grom, CB 500X, CB650R, NC750X, CRF1100, CRF250F) — distributor ad (criterion a); model list taken from search summary',
+                ],
+                [
+                    'label' => 'InfoNegocios',
+                    'url' => 'https://infonegocios.com.py/infomotor/la-navi-una-motocicleta-de-gama-media-pensada-para-los-jovenes',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                    'note' => 'Infonegocios - La Navi, una motocicleta de gama media pensada para los jóvenes — Press article (Diesa/Honda Paraguay, Navi launch); two searches agree on specs. Cylinder 109,19 cm3.',
                 ],
             ],
         ],
@@ -2410,7 +2498,18 @@ return [
             'slug' => 'xtz-250',
             'category' => 'enduro-cross',
             'specs' => [],
-            'prices' => [],
+            'prices' => [
+                [
+                    'value' => 39226950,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => [
+                        'label' => 'Chacomer',
+                        'url' => 'https://www.chacomer.com.py/motocicleta-enduro-yamaha-xtz-250.html',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'versions' => [],
             'sources' => [
                 [
@@ -2418,7 +2517,7 @@ return [
                     'url' => 'https://www.chacomer.com.py/motocicleta-enduro-yamaha-xtz-250.html',
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
-                    'note' => 'Chacomer - Motocicleta Enduro Yamaha XTZ 250 — Distributor (Chacomer) product page',
+                    'note' => 'Chacomer - Motocicleta enduro Yamaha XTZ 250 — Three searches return the same minimum cash price Gs. 39.226.950 (page shows a range up to ~51-52M by version/promo); price is the page\'s minimum.',
                 ],
                 [
                     'label' => 'Yamaha Motor Paraguay',
