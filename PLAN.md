@@ -187,6 +187,8 @@ calculadoras de cuota, planes de precio para comercios.
 17. **Fan-out:** con N ≥ 4 páginas de la misma forma se construye primero un ejemplar y se revisa; el resto se reparte en subagentes Sonnet en paralelo (`fable-directs-sonnet-builds` §Fan-out). Un verify y un PR.
 18. **Investigación:** el entorno puede no abrir páginas directo (así pasó en `moto`, `docs/research/catalog.md` §0). Se usa `WebSearch`/`WebFetch` y se registra qué se leyó y cómo. Si una cifra aparece sólo en un snippet de búsqueda, se cita igual con esa aclaración en `sources`. Sin fuente, no hay cifra.
 
+19. **Acceso a `moto`:** una sesión lanzada arranca sólo con este repo. Si el prompt nombra archivos de `antonmarklundcom/moto`, el primer paso es la herramienta `add_repo` de claude-code-remote (owner `antonmarklundcom`, repo `moto`, access `read`) y clonarlo al lado. No se le pregunta al propietario; nunca se escribe en `moto`.
+
 ---
 
 ## 5. Fases
