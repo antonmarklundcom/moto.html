@@ -1,21 +1,21 @@
-# Phase L — Link pass. Sonnet session. Runs after B1, B2, B3 are merged (spawned by the watcher).
+# Phase L — Link pass. Sonnet session. After every lane 2 PR is merged (spawned by the watcher).
 
-Read ONLY: this file, `PLAN.md` §1, §2, §4, §6.L, the phase table, §9, and `docs/log/{T1,B1,B2,B3}.md`.
+Read ONLY: this file, `PLAN.md` §1, §2, §4, §6 (L), §7, the phase table, §9, and every `docs/log/*.md` of lane 2.
 
 Owns: cross-link keys in `content/*.php` (`related`, `links`, `guides`), `content/nav.php`, `KNOWN-ISSUES.md`,
-`docs/closing-report.md`, `docs/log/L.md`, and the cross-cutting lines queued in `docs/decisions-needed.md`.
+`docs/closing-report.md`, `docs/verificar.md` (ordering only), `docs/log/L.md`.
 
-Budget: one session, ≤ 60 min.
+Budget: ≤ 60 min.
 
 Phase rules:
-- Branch `phase/L`. Guide ↔ brand hub ↔ `/motos/en-cuotas` links with descriptive anchors; every guide ≥ 2 internal
-  links; no main-nav links to pages that are `noindex` by threshold (SEO §8).
-- Run verify under all three `SITE_NOINDEX` modes and record which URLs each mode puts in the sitemap.
-- `docs/closing-report.md`: every page waiting for owner review (path, open `[VERIFICAR]` count), the §7 checklist,
-  and the Hostinger upload steps from the template README.
+- Branch `phase/L`. Links: model ↔ type ↔ comparisons ↔ repair guides ↔ brand ↔ trámites, descriptive anchors; no nav
+  links to `noindex` pages.
+- Verify under all three `SITE_NOINDEX` modes; record sitemap URL counts per mode in the closing report.
+- `docs/closing-report.md`: pages built per group, pending `verify` items by page, the §7 checklist, upload + Search
+  Console steps (submit sitemap on day one).
 
 Exit: verify green (3 modes); closing report committed; PR merged.
 
 ## After this phase
-Disable the watcher Routine (`update_trigger enabled=false`, or `delete_trigger` if this session was not started by it),
-then STOP with the closing report. Spawn nothing.
+Disable the watcher Routine (`update_trigger enabled=false`, or `delete_trigger` if not started by it), then STOP with the
+closing report. Spawn nothing.
