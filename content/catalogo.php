@@ -136,24 +136,6 @@ return [
             ],
             'sortOrder' => 100,
         ],
-        'ktm' => [
-            'name' => 'KTM',
-            'distributor' => [
-                'name' => 'AMS S.A. (Asunción Motor Sport)',
-                'source' => ['label' => 'KTM Paraguay', 'url' => 'http://ktm.com.py/'],
-                'accessed' => '2026-09-30',
-            ],
-            'sortOrder' => 101,
-        ],
-        'kawasaki' => [
-            'name' => 'Kawasaki',
-            'distributor' => [
-                'name' => 'Metalcar S.A.',
-                'source' => ['label' => 'Kawasaki Paraguay', 'url' => 'https://paraguay.kawasaki-la.com/es-la/'],
-                'accessed' => '2026-09-30',
-            ],
-            'sortOrder' => 102,
-        ],
         'bmw-motorrad' => [
             'name' => 'BMW Motorrad',
             'distributor' => [
@@ -165,15 +147,6 @@ return [
                 'accessed' => '2026-09-30',
             ],
             'sortOrder' => 103,
-        ],
-        'harley-davidson' => [
-            'name' => 'Harley-Davidson',
-            'distributor' => [
-                'name' => 'Harley-Davidson Paraguay (concesionario oficial, Av. San Martín 735)',
-                'source' => ['label' => 'Harley Davidson en Paraguay', 'url' => 'https://www.harleyparaguay.com/'],
-                'accessed' => '2026-09-30',
-            ],
-            'sortOrder' => 104,
         ],
         'benelli' => [
             'name' => 'Benelli',
@@ -207,39 +180,6 @@ return [
                 'accessed' => '2026-09-30',
             ],
             'sortOrder' => 107,
-        ],
-        'zontes' => [
-            'name' => 'Zontes',
-            'distributor' => [
-                'name' => 'Zontes Motos (official representative, Av. de la Victoria 1778)',
-                'source' => [
-                    'label' => 'Zontes Motos Paraguay',
-                    'url' => 'https://www.facebook.com/p/Zontes-Motos-Paraguay-100094651153559/',
-                ],
-                'accessed' => '2026-09-30',
-            ],
-            'sortOrder' => 108,
-        ],
-        'voge' => [
-            'name' => 'Voge',
-            'distributor' => [
-                'name' => 'Voge Motos Paraguay',
-                'source' => ['label' => 'VOGE - Paraguay', 'url' => 'https://voge.com.py/'],
-                'accessed' => '2026-09-30',
-            ],
-            'sortOrder' => 109,
-        ],
-        'triumph' => [
-            'name' => 'Triumph',
-            'distributor' => [
-                'name' => 'Martin Arrellaga Mecauto Chapas y Pinturas S.A. (Mecauto)',
-                'source' => [
-                    'label' => 'Triumph Motorcycles Paraguay hub',
-                    'url' => 'https://www.triumph-motorcycles.co/triumph-hub-page/paraguay',
-                ],
-                'accessed' => '2026-09-30',
-            ],
-            'sortOrder' => 110,
         ],
         'taiga' => [
             'name' => 'Taiga',
@@ -2023,18 +1963,7 @@ return [
             'slug' => 'fz-25',
             'category' => 'naked',
             'specs' => [],
-            'prices' => [
-                [
-                    'value' => 27170000,
-                    'currency' => 'PYG',
-                    'condition' => '0km',
-                    'source' => [
-                        'label' => 'Yamaha Paraguay - Motos',
-                        'url' => 'https://yamaha.com.py/motos/?orderby=price-desc&product_count=36',
-                    ],
-                    'accessed' => '2026-09-30',
-                ],
-            ],
+            'prices' => [],
             'versions' => [],
             'sources' => [
                 [

@@ -457,20 +457,7 @@
    "slug": "fz-25",
    "category": "naked",
    "specs": {},
-   "prices": [
-    {
-     "value": 27170000,
-     "currency": "PYG",
-     "condition": "0km",
-     "seller": "Yamaha Motor Paraguay",
-     "source": {
-      "label": "Yamaha Paraguay - Motos",
-      "url": "https://yamaha.com.py/motos/?orderby=price-desc&product_count=36"
-     },
-     "accessed": "2026-09-30",
-     "method": "snippet"
-    }
-   ],
+   "prices": [],
    "versions": [],
    "sources": [
     {
@@ -1322,6 +1309,10 @@
   {
    "what": "XTZ 150 specs, V-Strom 650 specs, XTZ 250 specs, XTZ 125 specs",
    "reason": "Snippets aggregated non-Paraguayan sources; dropped per bar"
+  },
+  {
+   "what": "yamaha/fz-25 price 27.170.000",
+   "reason": "R1 curation: read from a yamaha.com.py listing page and identical to the Suzuki Gixxer 250 price — likely misattributed by the search summary"
   }
  ],
  "queries": [

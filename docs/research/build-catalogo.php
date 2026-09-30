@@ -63,8 +63,7 @@ foreach ($files as $file) {
             continue;
         }
         if (isset($marcas[$slug])) {
-            $warnings[] = "brand $slug duplicated in " . basename($file);
-            continue;
+            continue; // first research file that sourced the distributor wins
         }
         $marcas[$slug] = [
             'name' => (string) $b['name'],
@@ -131,7 +130,17 @@ foreach ($files as $file) {
             continue;
         }
         if (isset($modelos[$key])) {
-            $warnings[] = "model $key duplicated in " . basename($file);
+            // A later research pass (r2-*.json) deepens a model: keep existing facts, add missing ones.
+            $modelos[$key]['specs'] += $specs;
+            $modelos[$key]['prices'] = array_merge($modelos[$key]['prices'], $prices);
+            $modelos[$key]['versions'] = array_values(array_unique(array_merge($modelos[$key]['versions'],
+                array_map('strval', $m['versions'] ?? []))));
+            $seen = array_column($modelos[$key]['sources'], 'url');
+            foreach ($sources as $s) {
+                if (!in_array($s['url'], $seen, true)) {
+                    $modelos[$key]['sources'][] = $s;
+                }
+            }
             continue;
         }
         $row = ['brand' => $brand, 'name' => (string) $m['name'], 'slug' => $slug, 'category' => $m['category']];
@@ -152,6 +161,17 @@ foreach ($modelos as $key => $m) {
         unset($modelos[$key]);
     }
 }
+$withModels = array_unique(array_column($modelos, 'brand'));
+foreach (array_keys($marcas) as $slug) {
+    if (!in_array($slug, $withModels, true)) {
+        $warnings[] = "brand $slug left out: distributor sourced but no model with Paraguayan evidence";
+        unset($marcas[$slug]);
+    }
+}
+foreach ($modelos as &$row) {
+    $row['specs'] = array_merge(array_intersect_key(array_flip($specKeys), $row['specs']), $row['specs']);
+}
+unset($row);
 uasort($marcas, fn ($a, $b) => $a['sortOrder'] <=> $b['sortOrder']);
 uksort($modelos, function ($a, $b) use ($marcas, $modelos) {
     return [$marcas[$modelos[$a]['brand']]['sortOrder'], $a] <=> [$marcas[$modelos[$b]['brand']]['sortOrder'], $b];
