@@ -4,8 +4,8 @@
  * in partials/ or templates/ contains a visible word; they all read from here,
  * so translating the site is this one file plus content/*.
  *
- * The strings below are neutral Spanish (formal "usted"), matching the 'py'
- * market the example content uses. A Swedish site rewrites this file in
+ * The strings below are Paraguayan Spanish with voseo (PLAN D9), matching the
+ * 'py' market. A Swedish site rewrites this file in
  * Swedish and sets 'market' => 'se' in content/site.php; no code changes.
  *
  * Nothing here may name a month, a year, a price or a client: strings must stay
@@ -19,14 +19,12 @@ return [
     // Cluster labels, in the order the mega-menu and the services hub use them.
     // A cluster key is referenced by every service record ('cluster' => ...).
     'clusters' => [
-        'principal'  => 'Servicios principales',
-        'adicional'  => 'Servicios adicionales',
+        'motos' => 'Motos',
     ],
 
     // One line under each cluster heading on the services hub. Keyed by cluster id.
     'cluster_leads' => [
-        'principal' => 'Lo que hacemos todos los meses para la mayoría de nuestros clientes.',
-        'adicional' => 'Trabajos puntuales que se contratan cuando hacen falta.',
+        'motos' => 'Modelos y marcas con fuente y fecha de consulta.',
     ],
 
     'nav' => [
@@ -45,51 +43,51 @@ return [
         'open_menu'    => 'Abrir el menú',
         'close_menu'   => 'Cerrar el menú',
         'skip'         => 'Ir al contenido principal',
-        'firm'         => 'La empresa',
-        'all_services' => 'Ver todos los servicios',
+        'firm'         => 'moto.com.py',
+        'all_services' => 'Ver las motos',
     ],
 
     'cta' => [
-        'quote'         => 'Pedir presupuesto',
+        'quote'         => 'Enviar consulta',
         'whatsapp'      => 'WhatsApp',
         'whatsapp_long' => 'Escribir por WhatsApp',
-        'consult'       => 'Solicitar una consulta',
-        'contact'       => 'Contactar',
-        'see_included'  => 'Ver qué incluye',
-        'talk'          => 'Hablar con nosotros',
+        'consult'       => 'Enviar consulta',
+        'contact'       => 'Escribinos',
+        'see_included'  => 'Ver el detalle',
+        'talk'          => 'Escribinos',
     ],
 
     // The WhatsApp menu. These are BUTTON LABELS only — the message that
     // actually reaches WhatsApp always comes from content/lead-values.php and
     // names a service, never a generic "consulta gratis".
     'whatsapp' => [
-        'menu_title' => '¿Sobre qué quiere escribirnos?',
-        'menu_note'  => 'Abrimos WhatsApp con el mensaje ya escrito. Puede cambiarlo antes de enviarlo.',
+        'menu_title' => '¿Sobre qué querés escribirnos?',
+        'menu_note'  => 'Abrimos WhatsApp con el mensaje ya escrito. Podés cambiarlo antes de enviarlo.',
         'other'      => 'Otra consulta',
-        'this_page'  => 'Lo que está viendo',
+        'this_page'  => 'Lo que estás viendo',
         'open_menu'  => 'Abrir opciones de WhatsApp',
         'close_menu' => 'Cerrar',
     ],
 
     'home' => [
-        'eyebrow'   => 'Tomamos nuevos clientes',
-        'h1_lead'   => 'El titular de la portada va acá, ',
-        'h1_accent' => 'con la promesa al final.',
-        'lead'      => 'Una o dos líneas que explican qué hace el negocio, para quién y qué '
-                     . 'gana el cliente. Sin adjetivos que no se puedan sostener.',
+        'eyebrow'   => 'Motos en Paraguay',
+        'h1_lead'   => 'Todo sobre motos en Paraguay, ',
+        'h1_accent' => 'con fuente y fecha.',
+        'lead'      => 'Modelos, precios publicados por sus fuentes, guías de compra, reparación '
+                     . 'y trámites. Consultá por WhatsApp lo que no encuentres.',
 
-        'services_eyebrow' => 'Servicios',
-        'services_title'   => 'Lo que hacemos',
-        'services_lead'    => 'Contrate lo que necesita hoy y sume servicios cuando haga falta.',
+        'services_eyebrow' => 'Motos',
+        'services_title'   => 'Marcas y modelos',
+        'services_lead'    => 'Encontrá la marca y el modelo que te interesan.',
 
-        'unsure_title' => '¿No sabe qué necesita?',
-        'unsure_text'  => 'Cuéntenos su situación y le decimos qué corresponde, sin costo.',
+        'unsure_title' => '¿No sabés qué moto elegir?',
+        'unsure_text'  => 'Contanos para qué la vas a usar y te orientamos.',
     ],
 
     // The panel at the foot of the homepage hero. Labels only: no amounts, no
     // dates, no percentages, no client name — see partials/status-panel.php.
     'panel' => [
-        'title' => 'Su trabajo del mes, a la vista',
+        'title' => 'Lo que encontrás acá',
         'badge' => 'Al día',
         'tiles' => [
             ['label' => 'Primer entregable',  'value' => 'Listo'],
@@ -97,7 +95,7 @@ return [
             ['label' => 'Tercer entregable',  'value' => 'En curso'],
         ],
         'foot'  => 'Próximo paso acordado',
-        'note'  => 'Ejemplo del informe mensual',
+        'note'  => 'Con fuente y fecha de consulta',
     ],
 
     // The "quiénes somos" band on the homepage. Every line here is a commitment
@@ -105,15 +103,14 @@ return [
     // need the owner's confirmation and belong in content/site.php.
     'about' => [
         'eyebrow' => 'Quiénes somos',
-        'title'   => 'Una frase sobre cómo trabajamos y en qué se nota.',
-        'text'    => 'Dos o tres oraciones sobre el equipo, el proceso y el tipo de cliente que '
-                   . 'atiende. Concreto y verificable: qué hace, con qué frecuencia y qué recibe '
-                   . 'el cliente.',
+        'title'   => 'Información con fuente, sin inventos.',
+        'text'    => 'Cada precio y cada dato técnico dice quién lo publicó y cuándo lo '
+                   . 'consultamos. Lo que no tiene fuente, no lo mostramos.',
         // Shown while content/site.php has no credentials[] of its own.
         'credentials' => [
-            'Una persona asignada a su cuenta, no una mesa de entrada',
-            'Alcance y precio acordados por escrito antes de empezar',
-            'Respuesta dentro del siguiente día hábil',
+            'Precios publicados por una fuente real, con fecha de consulta',
+            'Sin reseñas ni rankings inventados',
+            'Te respondemos dentro del siguiente día hábil',
         ],
         'badge_note'     => 'de experiencia',
         'badge_fallback' => 'Equipo propio',
@@ -121,24 +118,24 @@ return [
 
     // The four-step "cómo trabajamos" block, reused on service pages.
     'process' => [
-        'eyebrow' => 'Cómo trabajamos',
-        'title'   => 'De la primera conversación al primer entregable, con fechas acordadas.',
+        'eyebrow' => 'Cómo lo hacemos',
+        'title'   => 'De la fuente a la página, sin saltos.',
         'steps'   => [
             [
                 'title' => 'Conversación inicial',
-                'text'  => 'Media hora para entender qué necesita y en qué situación está hoy.',
+                'text'  => 'Buscamos el dato en el aviso del distribuidor o en la página de la marca.',
             ],
             [
                 'title' => 'Propuesta por escrito',
-                'text'  => 'Alcance detallado y precio, con lo que está incluido y lo que no.',
+                'text'  => 'Anotamos la fuente y la fecha en que lo consultamos.',
             ],
             [
                 'title' => 'Puesta en marcha',
-                'text'  => 'Recibimos la información, ordenamos lo pendiente y arrancamos.',
+                'text'  => 'Lo publicamos tal cual, sin estimar nada por nuestra cuenta.',
             ],
             [
                 'title' => 'Seguimiento',
-                'text'  => 'Una persona asignada y un informe en lenguaje claro.',
+                'text'  => 'Si un dato vence, lo ocultamos hasta volver a verificarlo.',
             ],
         ],
     ],
@@ -146,77 +143,74 @@ return [
     // Rendered in place of the testimonials band while content/site.php has
     // none. Sectors, not clients: nothing to verify.
     'industries' => [
-        'eyebrow' => 'Rubros',
-        'title'   => 'Rubros que atendemos',
-        'lead'    => 'Cada rubro tiene sus propias trampas. Estos son los que trabajamos.',
+        'eyebrow' => 'Tipos',
+        'title'   => 'Tipos de moto',
+        'lead'    => 'Elegí según para qué la vas a usar.',
         // Each item is either a plain string or ['label' => ..., 'path' => ...]
         // pointing at a segment page in content/segmentos.php.
-        'items'   => [
-            ['label' => 'Rubro de ejemplo', 'path' => '/segmentos/rubro-ejemplo/'],
-        ],
+        'items'   => [],
     ],
 
     // The band renders only when content/site.php has testimonials.
     'testimonials' => [
         'eyebrow' => 'Casos',
-        'title'   => 'Lo que dicen nuestros clientes',
+        'title'   => 'Lo que dicen quienes nos escriben',
     ],
 
     'services_hub' => [
-        'eyebrow'      => 'Servicios',
-        'title'        => 'Todo lo que hacemos, en un solo lugar.',
-        'lead'         => 'Contrate lo que necesita hoy y sume servicios cuando haga falta.',
-        'unsure_title' => '¿No sabe qué necesita?',
-        'unsure_text'  => 'Cuéntenos su caso y le decimos qué servicios le corresponden.',
+        'eyebrow'      => 'Motos',
+        'title'        => 'Todas las motos, en un solo lugar.',
+        'lead'         => 'Encontrá la marca y el modelo que te interesan.',
+        'unsure_title' => '¿No sabés qué moto elegir?',
+        'unsure_text'  => 'Contanos para qué la vas a usar y te orientamos.',
         'unsure_cta'   => 'Escribirnos',
     ],
 
     'cta_band' => [
-        'eyebrow' => 'Solicitar consulta',
-        'title'   => 'Empecemos con una conversación de 30 minutos.',
-        'lead'    => 'Sin costo y sin compromiso. Le respondemos con una propuesta concreta.',
+        'eyebrow' => 'Consultá',
+        'title'   => '¿Buscás una moto? Escribinos.',
+        'lead'    => 'Sin costo y sin compromiso. Te respondemos dentro del siguiente día hábil.',
     ],
 
     'form' => [
-        'legend'          => 'Solicitar una consulta',
+        'legend'          => 'Enviar consulta',
         'name'            => 'Nombre',
-        'company'         => 'Empresa o rubro',
+        'company'         => 'Empresa (opcional)',
         'phone'           => 'WhatsApp o teléfono',
         'phone_hint'      => 'Ej.: 0981 123 456',
         'email'           => 'Correo (opcional)',
         'need'            => '¿Qué necesita?',
-        'message'         => 'Cuéntenos brevemente',
-        'message_hint'    => 'Su situación actual, en dos líneas…',
-        'submit'          => 'Solicitar una consulta',
+        'message'         => 'Contanos brevemente',
+        'message_hint'    => 'Qué moto te interesa o qué querés saber…',
+        'submit'          => 'Enviar consulta',
         'sending'         => 'Enviando…',
-        'privacy_note'    => 'Usamos sus datos solo para responderle. Ver la política de privacidad.',
-        'success_title'   => 'Recibimos su consulta.',
-        'success_text'    => 'Le respondemos dentro del siguiente día hábil. Si prefiere, escríbanos ahora.',
+        'privacy_note'    => 'Usamos tus datos solo para responderte. Ver la política de privacidad.',
+        'success_title'   => 'Recibimos tu consulta.',
+        'success_text'    => 'Te respondemos dentro del siguiente día hábil. Si preferís, escribinos ahora.',
         'error_title'     => 'No pudimos enviar el formulario.',
-        'error_text'      => 'Vuelva a intentarlo en un momento o escríbanos directamente.',
-        'error_phone'     => 'Necesitamos un teléfono o WhatsApp válido para responderle.',
+        'error_text'      => 'Volvé a intentarlo en un momento o escribinos directamente.',
+        'error_phone'     => 'Necesitamos un teléfono o WhatsApp válido para responderte.',
         'required'        => 'obligatorio',
         'thanks_next'     => 'Qué sigue',
-        'thanks_whatsapp' => 'Si prefiere no esperar, escríbanos ahora por WhatsApp.',
-        'remind_title'    => 'Que le avisemos antes de cada vencimiento',
-        'remind_text'     => 'Le anotamos su caso y le escribimos por WhatsApp unos días antes.',
-        'remind_phone'    => 'Su WhatsApp',
+        'thanks_whatsapp' => 'Si preferís no esperar, escribinos ahora por WhatsApp.',
+        'remind_title'    => 'Que te avisemos antes de cada vencimiento',
+        'remind_text'     => 'Anotamos tu caso y te escribimos por WhatsApp unos días antes.',
+        'remind_phone'    => 'Tu WhatsApp',
         'remind_submit'   => 'Quiero que me recuerden',
-        'remind_ok'       => 'Anotado. Le escribimos antes del próximo vencimiento.',
+        'remind_ok'       => 'Anotado. Te escribimos antes del próximo vencimiento.',
     ],
 
     // The chip selector in the lead form. Every key here needs a matching entry
     // in content/lead-values.php's 'needs' — verify.sh checks that.
     'needs' => [
-        'servicio' => 'Un servicio puntual',
-        'mensual'  => 'Trabajo mensual',
-        'otro'     => 'Otro',
+        'consulta' => 'Quiero consultar por una moto',
+        'otro'     => 'Otra consulta',
     ],
 
     'contact' => [
         'eyebrow' => 'Contacto',
-        'title'   => 'Hablemos de su caso.',
-        'lead'    => 'Escríbanos por WhatsApp o déjenos sus datos y le respondemos dentro '
+        'title'   => 'Hablemos de tu moto.',
+        'lead'    => 'Escribinos por WhatsApp o dejanos tus datos y te respondemos dentro '
                    . 'del siguiente día hábil.',
         'address' => 'Dirección',
         'hours'   => 'Horario',
@@ -224,33 +218,32 @@ return [
         'email'   => 'Correo',
         'expect'  => 'Qué pasa después',
         'steps'   => [
-            'Le respondemos dentro del siguiente día hábil.',
-            'Coordinamos una llamada de 30 minutos, sin costo ni compromiso.',
-            'Recibe una propuesta con el alcance y el precio por escrito.',
+            'Te respondemos dentro del siguiente día hábil.',
+            'Te contamos lo que sabemos, con la fuente de cada dato.',
+            'Si hace falta, te indicamos dónde consultar el precio vigente.',
         ],
     ],
 
     'service' => [
         'includes'     => 'Qué incluye',
         'excludes'     => 'Qué no incluye',
-        'we_need'      => 'Qué necesitamos de usted',
+        'we_need'      => 'Qué necesitamos de vos',
         'benefits'     => 'Beneficios',
         'faq'          => 'Preguntas frecuentes',
         'related'      => 'Servicios relacionados',
         'guides'       => 'Guía relacionada',
         'articles'     => 'Artículo relacionado',
-        'form_eyebrow' => 'Presupuesto',
-        'form_lead'    => 'Déjenos sus datos y le respondemos con una propuesta concreta, '
-                        . 'sin costo y sin compromiso.',
+        'form_eyebrow' => 'Consulta',
+        'form_lead'    => 'Dejanos tus datos y te respondemos, sin costo y sin compromiso.',
         'breadcrumb'   => 'Ruta de navegación',
     ],
 
     // Segment landing pages (content/segmentos.php).
     'segment' => [
-        'traps_title'  => 'Los errores que más le cuestan en su rubro',
-        'bundle_title' => 'Lo que armamos para su rubro',
-        'form_eyebrow' => 'Presupuesto para su rubro',
-        'form_lead'    => 'Cuéntenos su rubro y su volumen; le respondemos con una propuesta concreta.',
+        'traps_title'  => 'Los errores que más cuestan',
+        'bundle_title' => 'Lo que te conviene ver',
+        'form_eyebrow' => 'Consulta',
+        'form_lead'    => 'Contanos qué necesitás y te respondemos.',
     ],
 
     // Shared microcopy across the tool pages. Calculator-specific labels live in
@@ -261,19 +254,19 @@ return [
         'calculate'       => 'Calcular',
         'result_title'    => 'Resultado',
         'use_result'      => 'Usar este resultado en el formulario',
-        'need_js'         => 'Esta calculadora necesita JavaScript activado en su navegador.',
+        'need_js'         => 'Esta herramienta necesita JavaScript activado en tu navegador.',
         'restart'         => 'Volver a empezar',
     ],
 
     // Shared microcopy across the guide pages.
     'guide' => [
         'reviewed_prefix'       => 'Revisado el',
-        'orientativo'           => 'Es una guía general: para su caso puntual, confírmelo con nosotros.',
-        'delegate_eyebrow'      => 'Delegarlo',
-        'delegate_title'        => '¿Prefiere que lo hagamos nosotros?',
-        'delegate_lead'         => 'Le respondemos dentro del siguiente día hábil con los pasos exactos '
-                                 . 'para su caso.',
-        'delegate_form_heading' => 'Pedir que nos encarguemos',
+        'orientativo'           => 'Es una guía general: para tu caso puntual, confirmalo con nosotros.',
+        'delegate_eyebrow'      => 'Consultanos',
+        'delegate_title'        => '¿Necesitás ayuda con esto?',
+        'delegate_lead'         => 'Te respondemos dentro del siguiente día hábil con lo que sepamos '
+                                 . 'de tu caso.',
+        'delegate_form_heading' => 'Enviar consulta',
         'related'               => 'Otras guías',
     ],
 
@@ -293,14 +286,14 @@ return [
     'pricing' => [
         'quote'    => 'A cotizar',
         'per_month' => 'por mes',
-        'cta'      => 'Pedir presupuesto',
-        'note'     => 'Los planes se ajustan al volumen real; el precio final se acuerda por escrito.',
+        'cta'      => 'Enviar consulta',
+        'note'     => 'Consultá el precio vigente con la fuente.',
     ],
 
     'placeholder' => [
         // Shown on a stub page until the phase that owns it writes the content.
         'notice' => 'Estamos preparando esta página.',
-        'action' => 'Mientras tanto, escríbanos y le respondemos por WhatsApp.',
+        'action' => 'Mientras tanto, escribinos y te respondemos por WhatsApp.',
     ],
 
     'error404' => [
@@ -309,7 +302,7 @@ return [
     ],
 
     'footer' => [
-        'blurb'   => 'Una línea sobre el negocio y a quién atiende.',
+        'blurb'   => 'Motos en Paraguay: modelos, precios con fuente, guías y trámites.',
         'rights'  => 'Todos los derechos reservados.',
         'contact' => 'Contacto',
     ],

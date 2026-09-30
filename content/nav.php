@@ -41,27 +41,21 @@ foreach ($byCluster as $cluster) {
 }
 
 return [
-    // Header bar, left to right. 'mega' opens the services panel.
+    // Header bar, left to right. Sections are added by the phases that build them.
     'primary' => [
-        ['label' => ui('nav.services'), 'path' => services_hub_path(), 'mega' => true],
-        ['label' => ui('nav.pricing'),  'path' => '/precios/'],
-        ['label' => ui('nav.tools'),    'path' => '/herramientas/'],
-        ['label' => ui('nav.guides'),   'path' => '/guias/'],
-        ['label' => ui('nav.blog'),     'path' => '/blog/'],
-        ['label' => ui('nav.contact'),  'path' => '/contacto/'],
+        ['label' => ui('nav.guides'),  'path' => '/guias/'],
+        ['label' => ui('nav.contact'), 'path' => '/contacto/'],
     ],
 
-    // The clusters inside the services mega-menu.
+    // The clusters inside the services mega-menu. This site has no services.
     'mega' => $byCluster,
 
     // Footer column 2.
-    'services' => $allServices,
+    'services' => [],   // T0's only record is the /contacto/ lead source
 
-    // Footer column 3. Tools are appended from the 'tools' key below.
+    // Footer column 3.
     'firm' => [
-        ['label' => ui('nav.pricing'), 'path' => '/precios/'],
         ['label' => ui('nav.guides'),  'path' => '/guias/'],
-        ['label' => ui('nav.blog'),    'path' => '/blog/'],
         ['label' => ui('nav.contact'), 'path' => '/contacto/'],
     ],
 

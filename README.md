@@ -29,73 +29,12 @@ What is here:
 
 ---
 
-## Start a new site (T0)
+## Estado del sitio
 
-Twenty steps, each a command or a file edit. At the end `./verify.sh` is green and the first PR
-is open. Budget: about 30 minutes.
-
-1. **Create the repo.** GitHub → *Use this template* → *Create a new repository*. Then
-   `git clone <your-new-repo> && cd <repo>`.
-2. **Baseline.** `./verify.sh` — it must print `PASS` before you change anything. If it does
-   not, fix that first; every later step trusts this gate.
-3. **Branch.** `git checkout -b t0-adopt`.
-4. **Identity.** Edit `content/site.php`: `name`, `domain`, `slug` (lower-case, names the deploy
-   zip), `market` (`py` or `se`), `servicesHub` (`/servicios/` by default; a store can use
-   `/productos/` — then move `servicios/index.php` and its `content/pages.php` key to match), `schemaType` (the schema.org type of the business, e.g.
-   `['LegalService']`), `description`. Leave every contact and address value `null` until the
-   owner confirms it — the site degrades on purpose.
-5. **Language and labels.** Edit `content/ui.php`: every visible word on the site is here. For a
-   Swedish site, translate the whole file. Set the `clusters` you actually have, and the `needs`
-   chips the lead form should offer (3–6 is plenty).
-6. **Static pages.** Edit `content/pages.php`: title, description, `h1` and `lead` for `/`,
-   `/servicios/`, `/precios/`, `/herramientas/`, `/guias/`, `/blog/`, `/contacto/`,
-   `/privacidad/`, `/terminos/` and `/404`. Write the real legal text into the `sections` of the
-   two legal pages. Delete the entry — and its route directory — of any section this site will
-   not have.
-7. **Services.** Write your services into `content/services.php`, keyed by slug, following the
-   header comment. Give each one a `path` under `/servicios/<slug>/`.
-8. **Lead values.** Add a matching record for every service (and later every tool) in
-   `content/lead-values.php`: `menuLabel`, `need`, `tier`, `whatsappText`, `nextStep`, `crmTag`.
-   Then point `whatsappMenu` and each `needs` chip's `service` at your own slugs, and re-scale
-   `tierValues` to this market's currency. `verify.sh` fails on any slug that does not exist.
-9. **Route files.** For each service: `mkdir -p servicios/<slug>` and copy
-   `servicios/servicio-ejemplo/index.php` into it, changing the `$slug` line. Same pattern for
-   tools (`templates/tool.php`), guides (`templates/guide.php`), segment pages
-   (`templates/segment.php`) and articles (`templates/article.php`).
-10. **Delete the example content.** `grep -rn "'example' => true" content/` lists every seed
-    record — delete them all, then delete their route directories and the example calculator:
-    `rm -rf servicios/servicio-ejemplo herramientas/herramienta-ejemplo guias/guia-ejemplo
-    blog/articulo-ejemplo segmentos/rubro-ejemplo assets/js/tools/herramienta-ejemplo.js`.
-    Also empty `ui.industries.items`. Re-run `./verify.sh`: it will name anything still pointing
-    at a deleted slug — typically `whatsappMenu` and the `needs` chips from step 8.
-11. **Pricing.** Edit `content/precios.php`, or delete the `/precios/` page (its entry in
-    `content/pages.php`, the `precios/` directory and its two nav lines in `content/nav.php`).
-12. **Navigation.** Edit `content/nav.php` so the header and footer name only the sections that
-    exist. Service, tool and guide links are derived — you do not list them by hand.
-13. **Theme.** Replace the values in the `:root { … }` tokens block at the top of
-    `assets/css/site.css` — palette, type scale, radii, spacing — with the ones from this site's
-    design canvas. Change nothing below that block; every component reads tokens only. Keep
-    `--accent-text` readable on both `--bg` and `--surface` (AA, 4.5:1) rather than reusing
-    `--accent`.
-14. **Fonts.** Replace the two families in `assets/fonts/`, update the `@font-face` rules and the
-    `--font-display` / `--font-body` tokens in `assets/css/site.css`, and the two `<link
-    rel="preload">` lines in `partials/head.php`. Then `./deploy/subset-fonts.sh` (needs
-    `pyftsubset`), editing its `LATIN_EXT` list for this market's currency symbol.
-15. **Brand images.** Replace `assets/img/favicon.svg` and `assets/img/og-default.png` (1200×630).
-    Both ship as neutral placeholders.
-16. **Regenerate the minified CSS.** `node deploy/minify-css.mjs` — the deploy zip ships
-    `site.min.css` in place of the source.
-17. **Look at it.** `php -S localhost:8080 router.php` and click through `/`, one service, one
-    article, one tool, one guide, one segment page, `/contacto/` and a URL that does not exist.
-18. **Gate.** `./verify.sh` — green.
-19. **Deploy artifact.** `./deploy/make-zip.sh` then
-    `./verify.sh --root dist/<slug>-<date>` — green on the artifact too.
-20. **Ship it.** `git add -A && git commit && git push -u origin t0-adopt`, open the PR, merge it
-    when CI is green.
-
-Everything after T0 — the homepage from the design canvas, the service copy, the blog, the
-tools — is phase work. See the `phased-autonomous-build` skill; `prompts/_lane2-phase.template.md`
-is the phase-prompt skeleton and `prompts/_watcher.md` is the supervision Routine.
+moto.com.py se construye por fases desde este template (ver `PLAN.md` y `prompts/`). T0 (adoptar el
+template) está hecha: identidad en `content/site.php`, `ui.php` en voseo, fuentes del sistema, paleta
+de alto contraste y sin contenido de ejemplo. `/terminos` y `/privacidad` son marcadores `noindex`.
+El resto lo construyen las fases siguientes; el detalle de cada una está en `docs/log/`.
 
 ---
 
