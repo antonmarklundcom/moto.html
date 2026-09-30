@@ -28,8 +28,8 @@ declare(strict_types=1);
 return [
     '/' => [
         'title'       => 'Inicio',
-        'description' => 'Página de ejemplo del template: reemplace este texto por lo que hace el '
-                       . 'negocio, para quién y en qué ciudad, en 120–155 caracteres.',
+        'description' => 'Motos en Paraguay: modelos, precios publicados por fuentes reales, guías de '
+                       . 'compra, reparación y trámites. Consultá por WhatsApp.',
         'h1'          => '',
         'lead'        => '',
         'stub'        => false,
@@ -37,65 +37,21 @@ return [
         'priority'    => '1.0',
     ],
 
-    '/servicios/' => [
-        'title'       => 'Servicios',
-        'description' => 'Todos los servicios del negocio en una sola página, agrupados por tipo, '
-                       . 'con el detalle de qué incluye cada uno.',
-        'h1'          => '',
-        'lead'        => '',
-        'stub'        => false,
-        'changefreq'  => 'monthly',
-        'priority'    => '0.9',
-    ],
-
-    '/precios/' => [
-        'title'       => 'Precios y planes',
-        'description' => 'Los planes disponibles, con el alcance de cada uno y un presupuesto a '
-                       . 'medida cuando el caso no entra en ninguno.',
-        'h1'          => 'Precios',
-        'lead'        => 'El alcance se define por escrito antes de empezar.',
-        'stub'        => false,
-        'changefreq'  => 'monthly',
-        'priority'    => '0.7',
-    ],
-
-    '/herramientas/' => [
-        'title'       => 'Herramientas',
-        'description' => 'Calculadoras gratuitas para resolver las cuentas que más nos preguntan, '
-                       . 'con el detalle de cómo se calcula cada una.',
-        'h1'          => 'Herramientas',
-        'lead'        => 'Calculadoras gratuitas para las cuentas más frecuentes.',
-        'stub'        => false,
-        'changefreq'  => 'monthly',
-        'priority'    => '0.7',
-    ],
-
     '/guias/' => [
         'title'       => 'Guías',
-        'description' => 'Guías paso a paso de los trámites y procesos que más nos consultan, '
-                       . 'escritas para hacerlas uno mismo.',
+        'description' => 'Guías para comprar, mantener y arreglar tu moto en Paraguay, y para hacer '
+                       . 'los trámites del registro y la chapa, paso a paso.',
         'h1'          => 'Guías',
-        'lead'        => 'Cómo hacer, paso a paso, lo que más nos preguntan.',
+        'lead'        => 'Cómo comprar, mantener y arreglar tu moto, paso a paso.',
         'stub'        => false,
         'changefreq'  => 'monthly',
         'priority'    => '0.7',
-    ],
-
-    '/blog/' => [
-        'title'       => 'Blog',
-        'description' => 'Artículos prácticos sobre el rubro, escritos por el equipo y '
-                       . 'actualizados cuando cambia algo que importa.',
-        'h1'          => 'Blog',
-        'lead'        => 'Artículos prácticos sobre el rubro.',
-        'stub'        => false,
-        'changefreq'  => 'weekly',
-        'priority'    => '0.6',
     ],
 
     '/contacto/' => [
         'title'       => 'Contacto',
-        'description' => 'Escríbanos por WhatsApp o déjenos sus datos: le respondemos dentro del '
-                       . 'siguiente día hábil con una propuesta concreta.',
+        'description' => 'Escribinos por WhatsApp o dejanos tus datos: te respondemos dentro del '
+                       . 'siguiente día hábil.',
         'h1'          => '',
         'lead'        => '',
         'stub'        => false,
@@ -103,75 +59,40 @@ return [
         'priority'    => '0.8',
     ],
 
+    /* Marcador literal (PLAN D15): ninguna sesión escribe texto legal. Queda
+       noindex y fuera del sitemap hasta que el abogado entregue el texto. */
     '/privacidad/' => [
         'title'       => 'Política de privacidad',
-        'description' => 'Cómo tratamos los datos personales que nos deja en el formulario y cómo '
-                       . 'puede pedir su acceso, corrección o eliminación.',
+        'description' => 'Política de privacidad de moto.com.py. El texto está en revisión legal.',
         'h1'          => 'Política de privacidad',
-        'lead'        => 'Cómo tratamos los datos personales que nos confía.',
-        'sections'    => [
-            [
-                'h2'   => 'Qué datos recogemos',
-                'body' => [
-                    'Reemplace este texto. Recogemos únicamente los datos que usted escribe en el '
-                        . 'formulario de contacto —nombre, teléfono, correo y el mensaje— más los '
-                        . 'parámetros de campaña que trae el enlace por el que llegó.',
-                ],
-            ],
-            [
-                'h2'   => 'Para qué los usamos',
-                'body' => [
-                    'Reemplace este texto. Usamos sus datos para responderle y para llevar el '
-                        . 'seguimiento de su consulta. No los vendemos ni los cedemos a terceros '
-                        . 'ajenos a la prestación del servicio.',
-                ],
-            ],
-            [
-                'h2'   => 'Sus derechos',
-                'body' => [
-                    'Reemplace este texto por la vía de contacto real para pedir el acceso, la '
-                        . 'corrección o la eliminación de sus datos.',
-                ],
-            ],
-        ],
+        'lead'        => 'Texto en revisión legal. Lo publicamos apenas esté listo.',
+        'sections'    => [],
         'stub'        => false,
+        'noindex'     => true,
         'changefreq'  => 'yearly',
-        'priority'    => '0.3',
+        'priority'    => '0.1',
     ],
 
+    /* Marcador literal (PLAN D15): ninguna sesión escribe texto legal. Queda
+       noindex y fuera del sitemap hasta que el abogado entregue el texto. */
     '/terminos/' => [
-        'title'       => 'Términos de servicio',
-        'description' => 'Las condiciones bajo las que prestamos nuestros servicios: alcance, '
-                       . 'plazos y responsabilidades de cada parte.',
-        'h1'          => 'Términos de servicio',
-        'lead'        => 'Condiciones bajo las que prestamos nuestros servicios.',
-        'sections'    => [
-            [
-                'h2'   => 'Alcance',
-                'body' => [
-                    'Reemplace este texto por el alcance real: qué se contrata, qué queda fuera y '
-                        . 'cómo se acuerda cualquier trabajo adicional.',
-                ],
-            ],
-            [
-                'h2'   => 'Plazos y responsabilidades',
-                'body' => [
-                    'Reemplace este texto por los plazos reales y por lo que necesita de parte del '
-                        . 'cliente para poder cumplirlos.',
-                ],
-            ],
-        ],
+        'title'       => 'Términos y condiciones',
+        'description' => 'Términos y condiciones de moto.com.py. El texto está en revisión legal.',
+        'h1'          => 'Términos y condiciones',
+        'lead'        => 'Texto en revisión legal. Lo publicamos apenas esté listo.',
+        'sections'    => [],
         'stub'        => false,
+        'noindex'     => true,
         'changefreq'  => 'yearly',
-        'priority'    => '0.3',
+        'priority'    => '0.1',
     ],
 
     // Served by 404.php, not by a route file: it has no URL of its own, so it
     // is excluded from the sitemap and from the route contract.
     '/404' => [
         'title'       => 'Página no encontrada',
-        'description' => 'No encontramos la página que buscaba. Vea nuestros servicios o '
-                       . 'escríbanos y le indicamos dónde está lo que necesita.',
+        'description' => 'No encontramos la página que buscabas. Mirá las guías o escribinos y te '
+                       . 'indicamos dónde está lo que necesitás.',
         'h1'          => 'No encontramos esta página',
         'lead'        => '',
         'stub'        => false,

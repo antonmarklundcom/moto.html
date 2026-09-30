@@ -27,57 +27,8 @@
  *                             from this one slug
  *   toolLink         ?array   ['path' => ..., 'label' => ..., 'text' => ...]
  *   related          string[] 2–3 sibling guide slugs
- *   example          bool     seed record only — see content/services.php
  */
 
 declare(strict_types=1);
 
-return [
-
-    'guia-ejemplo' => [
-        'example' => true,
-        'path'            => '/guias/guia-ejemplo/',
-        'title'           => 'Guía de ejemplo',
-        'navLabel'        => 'Guía de ejemplo',
-        'seoTitle'        => 'Guía de ejemplo paso a paso',
-        'metaDescription' => 'Guía de ejemplo: los pasos numerados, el JSON-LD HowTo y la caja para '
-                           . 'delegar el trámite, todo desde un solo registro de contenido.',
-        'lastReviewed'    => '2026-09-04',
-        'hero' => [
-            'eyebrow' => 'Guías',
-            'h1'      => 'Cómo hacer el trámite de ejemplo, paso a paso',
-            'lead'    => 'Una línea que dice para quién es la guía y qué va a lograr al terminarla.',
-        ],
-        'intro' => [
-            'Dos párrafos que sitúan el trámite: quién lo necesita, cuándo y qué hace falta tener '
-                . 'a mano antes de empezar.',
-        ],
-        'steps' => [
-            [
-                'title' => 'Primer paso',
-                'body'  => ['Qué hacer, en una o dos oraciones concretas.'],
-            ],
-            [
-                'title' => 'Segundo paso',
-                'body'  => ['Qué hacer, en una o dos oraciones concretas.'],
-            ],
-            [
-                'title' => 'Tercer paso',
-                'body'  => ['Qué hacer, en una o dos oraciones concretas.'],
-            ],
-        ],
-        'faq' => [
-            [
-                'q' => '¿Cuánto demora el trámite?',
-                'a' => 'Una respuesta concreta, o el rango real si depende del caso.',
-            ],
-        ],
-        'relatedService' => 'servicio-ejemplo',
-        'toolLink'       => [
-            'path'  => '/herramientas/herramienta-ejemplo/',
-            'label' => 'Calcule usted mismo',
-            'text'  => 'La calculadora de ejemplo hace la cuenta que esta guía explica.',
-        ],
-        'related' => [],
-    ],
-];
+return [];

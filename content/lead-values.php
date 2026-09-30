@@ -41,15 +41,14 @@ declare(strict_types=1);
    calculator lead by roughly 10:1. Retune the ratio here, and re-scale the
    numbers when the site's market — and therefore its currency — changes. */
 $tierValues = [
-    'A' => 1000000,
-    'B' => 400000,
-    'C' => 100000,
+    'A' => 50000,
+    'B' => 20000,
+    'C' => 5000,
 ];
 
 /* Labels for `need` keys that are not one of the form chips, so the CRM reads a
    sentence instead of a raw key. */
 $needLabels = [
-    'recordatorio' => 'Recordatorio de vencimientos',
 ];
 
 return [
@@ -59,68 +58,47 @@ return [
 
     /* Which services the WhatsApp menu offers, in order, after the current
        page's own service. Keep it short: four is plenty. */
-    'whatsappMenu' => ['servicio-ejemplo'],
+    'whatsappMenu' => ['consulta'],
 
     /* The record for a page that names no service: an article without one, a
        legal page, the homepage. Never null — every form resolves to something. */
     'default' => [
-        'menuLabel'    => 'Consulta general',
-        'need'         => 'otro',
+        'menuLabel'    => 'Consulta sobre motos',
+        'need'         => 'consulta',
         'tier'         => 'C',
-        'whatsappText' => 'Hola, quisiera hacer una consulta.',
+        'whatsappText' => 'Hola, quiero consultar por una moto.',
         'nextStep'     => [
-            'Le respondemos dentro del siguiente día hábil.',
-            'Tenga a mano una descripción breve de su situación.',
+            'Te respondemos dentro del siguiente día hábil.',
+            'Tené a mano el modelo que te interesa, si ya lo elegiste.',
         ],
         'crmTag'       => 'consulta-general',
         'nextLink'     => null,
     ],
 
-    /* One record per key in content/services.php. verify.sh fails when a service
-       has none — an untagged lead is a lead nobody can route. */
+    /* One record per key in content/services.php. */
     'services' => [
-        'servicio-ejemplo' => [
-            'example' => true,
-            'menuLabel'    => 'Servicio de ejemplo',
-            'need'         => 'servicio',
-            'tier'         => 'A',
-            'whatsappText' => 'Hola, quisiera consultar por el servicio de ejemplo.',
+        'consulta' => [
+            'menuLabel'    => 'Consulta sobre motos',
+            'need'         => 'consulta',
+            'tier'         => 'B',
+            'whatsappText' => 'Hola, quiero consultar por una moto.',
             'nextStep'     => [
-                'Le respondemos dentro del siguiente día hábil.',
-                'Tenga a mano la documentación que pedimos en "qué necesitamos de usted".',
+                'Te respondemos dentro del siguiente día hábil.',
+                'Tené a mano el modelo que te interesa, si ya lo elegiste.',
             ],
-            'crmTag'       => 'servicio-ejemplo',
-            'nextLink'     => [
-                'path'  => '/herramientas/herramienta-ejemplo/',
-                'label' => 'Mientras tanto, haga la cuenta',
-            ],
-        ],
-    ],
-
-    /* One record per key in content/tools.php. A calculator lead is worth less
-       than a service lead — that is the whole point of tiering them. */
-    'tools' => [
-        'herramienta-ejemplo' => [
-            'example' => true,
-            'menuLabel'    => 'Calculadora de ejemplo',
-            'need'         => 'servicio',
-            'tier'         => 'C',
-            'whatsappText' => 'Hola, usé la calculadora de ejemplo y quisiera confirmar el resultado.',
-            'nextStep'     => [
-                'Le respondemos dentro del siguiente día hábil.',
-                'Guarde el resultado que calculó: se lo revisamos con usted.',
-            ],
-            'crmTag'       => 'herramienta-ejemplo',
+            'crmTag'       => 'consulta',
             'nextLink'     => null,
         ],
     ],
 
+    /* One record per key in content/tools.php. This site has none. */
+    'tools' => [],
+
     /* One record per chip in content/ui.php 'needs'. A lead from a page with no
-       service of its own takes the tier of the chip the visitor picked, and
-       borrows that chip's service copy when it names one. */
+       service of its own takes the tier of the chip the visitor picked. The
+       single lead source for now is `consulta` (PLAN D11). */
     'needs' => [
-        'servicio' => ['tier' => 'B', 'crmTag' => 'servicio-puntual', 'service' => 'servicio-ejemplo'],
-        'mensual'  => ['tier' => 'A', 'crmTag' => 'trabajo-mensual',  'service' => 'servicio-ejemplo'],
+        'consulta' => ['tier' => 'B', 'crmTag' => 'consulta', 'service' => 'consulta'],
         'otro'     => ['tier' => 'C', 'crmTag' => 'consulta-general', 'service' => null],
     ],
 ];

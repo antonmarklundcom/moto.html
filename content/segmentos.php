@@ -24,7 +24,6 @@
  *                             content/services.php's 'sections'
  *   weNeed           string[] "qué necesitamos de usted" checklist
  *   faq              array    [['q' => ..., 'a' => ...], ...], 3–5 items
- *   example          bool     seed record only — see content/services.php
  *
  * Adding a segment: add a record here and a 3-line route file. deploy/routes.php
  * and sitemap.php already read this file, so the new page joins the route
@@ -33,38 +32,4 @@
 
 declare(strict_types=1);
 
-return [
-
-    'rubro-ejemplo' => [
-        'example' => true,
-        'path'            => '/segmentos/rubro-ejemplo/',
-        'navLabel'        => 'Rubro de ejemplo',
-        'seoTitle'        => 'Servicios para el rubro de ejemplo',
-        'metaDescription' => 'Página de segmento de ejemplo: las trampas del rubro, el paquete de '
-                           . 'servicios que le armamos y el formulario ya preseleccionado.',
-        'hero' => [
-            'eyebrow' => 'Para su rubro',
-            'h1'      => 'Servicios para el rubro de ejemplo',
-            'lead'    => 'Una línea que demuestra que conoce el rubro: el problema que sufren todos '
-                       . 'los negocios de este tipo.',
-        ],
-        'leadSlug' => 'servicio-ejemplo',
-        'bundle'   => ['servicio-ejemplo'],
-        'traps'    => [
-            [
-                'title' => 'El error típico del rubro',
-                'text'  => 'Qué sale mal, por qué pasa y qué cuesta cuando pasa.',
-            ],
-        ],
-        'sections' => [],
-        'weNeed'   => [
-            'Lo que necesitamos para armar el presupuesto',
-        ],
-        'faq' => [
-            [
-                'q' => '¿Trabajan con negocios de mi tamaño?',
-                'a' => 'Una respuesta concreta sobre el tipo de cliente que atiende el negocio.',
-            ],
-        ],
-    ],
-];
+return [];

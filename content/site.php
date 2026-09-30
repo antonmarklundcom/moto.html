@@ -9,19 +9,19 @@
  * partial that would show it hides instead or falls back to neutral phrasing.
  * Never a placeholder number, never an invented address.
  *
- * THIS FILE IS EXAMPLE DATA. Step 2 of "Start a new site (T0)" in README.md
- * replaces every value below with the real business.
+ * Values below are moto.com.py's; contact facts stay null until the owner
+ * confirms them (PLAN §7).
  */
 
 declare(strict_types=1);
 
 return [
     // --- identity -----------------------------------------------------------
-    'name'   => 'Ejemplo S.A.',
+    'name'   => 'moto.com.py',
     // Bare hostname, no scheme: the wordmark and robots.txt print it.
-    'domain' => 'ejemplo.com.py',
+    'domain' => 'moto.com.py',
     // Lower-case, filename-safe: names the deploy zip (dist/<slug>-DATE.zip).
-    'slug'   => 'ejemplo',
+    'slug'   => 'moto-com-py',
 
     // Which lib/market/<market>.php + assets/js/market/<market>.js pair loads:
     // money formatting, tax-id validation, long dates, VAT rates and the legal
@@ -31,7 +31,7 @@ return [
     // schema.org types for the organisation block, most specific first. See
     // https://schema.org/LocalBusiness for the list ('LegalService',
     // 'Plumber', 'Dentist', 'AccountingService', …).
-    'schemaType' => ['LocalBusiness'],
+    'schemaType' => ['Organization'],
 
     // Path of the services hub. '/servicios/' by default; a store can use
     // '/productos/'. Move the servicios/ route directory and its
@@ -39,8 +39,8 @@ return [
     'servicesHub' => '/servicios/',
 
     'legalName'   => null,                       // registered legal name
-    'description' => 'Empresa de ejemplo: reemplace este texto por lo que hace el negocio, '
-                   . 'en una frase que un cliente reconozca.',
+    'description' => 'Motos en Paraguay: modelos, precios publicados por fuentes reales, guías de '
+                   . 'compra, reparación y trámites. Consultá por WhatsApp.',
 
     // --- contact ------------------------------------------------------------
     // 'phone' and 'whatsapp' in international form, e.g. '+595 981 123 456'.
