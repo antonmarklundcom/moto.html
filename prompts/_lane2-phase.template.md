@@ -2,11 +2,11 @@
 
 <!--
   Copy this file to prompts/<lane>-<n>-<slug>.md and fill in every <angle-bracket> slot.
-  Keep the finished prompt under ~35 lines: the detail belongs in plan.md, this file points at it.
+  Keep the finished prompt under ~35 lines: the detail belongs in PLAN.md, this file points at it.
   Delete this comment.
 -->
 
-Read ONLY: this file, `plan.md` §1 (decisions already made), §4 (autonomy protocol),
+Read ONLY: this file, `PLAN.md` §1 (decisions already made), §4 (autonomy protocol),
 §<own plan sections>, the phase table and §9's index, and `docs/log/<dep>.md` for each phase in
 Depends on: <ids, or "none — lane 1 is merged">. Do not read the rest of the plan, the other phases'
 logs, or KNOWN-ISSUES.md. Execute under the autonomy protocol §4. Build nothing outside the plan.

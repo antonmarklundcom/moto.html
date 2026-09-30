@@ -12,7 +12,7 @@ Routine. You supervise a running build; you never take part in it.
 - You finish within a few minutes. If something needs longer, it is not watcher work.
 
 ## 1. Read the state (nothing else)
-- `plan.md`: the phase table (id, lane, model, prompt file, Owns, Depends on) and §9's build-log index.
+- `PLAN.md`: the phase table (id, lane, model, prompt file, Owns, Depends on) and §9's build-log index.
 - `git`: `main`'s log, and for each phase branch `phase/<id>` its last commit date.
 - The repository's open and merged pull requests, and their CI status.
 - `docs/decisions-needed.md`, if it exists.
@@ -39,8 +39,8 @@ Routine. You supervise a running build; you never take part in it.
 ## 4. Self-limit
 Keep a firing count in `docs/log/_watcher.md` (append one line per firing: timestamp, what you found,
 what you did — this is the one file you may write). After **10 firings**, if the build is still not
-finished: notify Anton that the watcher is disabling itself and why, delete the Routine
-(`delete_trigger`), and end.
+finished: notify Anton that the watcher is disabling itself and why, disable the Routine
+(`update_trigger` with `enabled: false` — a session the Routine started cannot delete it), and end.
 
 The link pass deletes this Routine when it finishes normally, so a completed build stops the watcher
 without a tenth firing.

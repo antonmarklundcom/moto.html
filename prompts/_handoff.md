@@ -7,12 +7,12 @@ Hand off ONLY when all four gates pass:
    touched what ships) on main, ONE adversarial re-read of your own merged diff, findings fixed in
    ONE follow-up commit. No second round.
 4. `docs/log/<phase>.md` written (≤ 12 lines "Built", ≤ 8 "Decisions", ≤ 8 "Known issues", one
-   "Verification:" line) and its index line added to plan.md §9. Committed and pushed.
+   "Verification:" line) and its index line added to PLAN.md §9. Committed and pushed.
 
 Then spawn the next phase as a NEW session with the claude-code-remote `create_session` tool:
 `source_url` = this repository's URL (so the session starts with the repo attached instead of
 "default"), `title` = `<repo> — Phase <id> <name> (<Model>)`, inherit environment and permission
-mode (never `plan`), `model` = the next phase's model from the plan.md phase table (Opus or Sonnet
+mode (never `plan`), `model` = the next phase's model from the PLAN.md phase table (Opus or Sonnet
 only — NEVER Fable, see plan §4.8). Always pass `model` explicitly as the current model id of that
 family (look it up in the `claude-api` skill; `create_session` otherwise inherits the caller's
 model, which is wrong at a model switch). `prompt` exactly:
