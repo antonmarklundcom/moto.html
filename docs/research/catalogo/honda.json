@@ -1,0 +1,840 @@
+{
+ "brands": [
+  {
+   "slug": "honda",
+   "name": "Honda",
+   "distributor": {
+    "name": "DIESA S.A.",
+    "source": {
+     "label": "La Nación / ABC: DIESA presents Honda models, exclusive importer",
+     "url": "https://www.abc.com.py/empresariales/2025/03/15/diesa-presento-las-nuevas-motos-honda-nx190-y-cb190r-20/"
+    },
+    "accessed": "2026-09-30",
+    "method": "snippet"
+   },
+   "notes": "Official site hondamotos.com.py. WebFetch blocked; all facts from WebSearch snippets."
+  }
+ ],
+ "models": [
+  {
+   "brand": "honda",
+   "name": "XR 150L",
+   "slug": "xr-150",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 150,
+     "source": {
+      "label": "Classic Motos XR150L (summary: 4 tiempos, 150 cc, trail)",
+      "url": "https://www.classicmotos.com.py/producto/honda-xr150l/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 20267000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Honda Paraguay (official site)",
+     "source": {
+      "label": "Honda Paraguay XR150L",
+      "url": "https://hondamotos.com.py/productos/XR150L/13"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    {
+     "value": 21500000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Classic Motos",
+     "source": {
+      "label": "Classic Motos XR150L",
+      "url": "https://www.classicmotos.com.py/producto/honda-xr150l/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Honda Paraguay XR150L",
+     "url": "https://hondamotos.com.py/productos/XR150L/13",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official Honda Paraguay (DIESA) page, seen in search results"
+    },
+    {
+     "label": "Classic Motos XR150L",
+     "url": "https://www.classicmotos.com.py/producto/honda-xr150l/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer evidence"
+    }
+   ],
+   "cuotas": "DIESA S.A. financing from Gs. 684.000/month (search summary, DIESA ad; installment only, not a price)"
+  },
+  {
+   "brand": "honda",
+   "name": "Wave 110S",
+   "slug": "wave",
+   "category": "cub",
+   "specs": {
+    "cc": {
+     "value": 110,
+     "source": {
+      "label": "Classic Motos Wave 110S",
+      "url": "https://www.classicmotos.com.py/producto/honda-wave-110s/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "Semiautomática 4 velocidades",
+     "source": {
+      "label": "Classic Motos Wave 110S",
+      "url": "https://www.classicmotos.com.py/producto/honda-wave-110s/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Classic Motos Wave 110S",
+      "url": "https://www.classicmotos.com.py/producto/honda-wave-110s/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "arranque": {
+     "value": "Eléctrico y pedal",
+     "source": {
+      "label": "Classic Motos Wave 110S",
+      "url": "https://www.classicmotos.com.py/producto/honda-wave-110s/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 16150000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Classic Motos",
+     "source": {
+      "label": "Classic Motos Wave 110S",
+      "url": "https://www.classicmotos.com.py/producto/honda-wave-110s/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Honda Paraguay Wave 110S",
+     "url": "https://hondamotos.com.py/productos/WAVE110S/29",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official Honda Paraguay (DIESA) page, seen in search results"
+    },
+    {
+     "label": "Classic Motos Wave 110S",
+     "url": "https://www.classicmotos.com.py/producto/honda-wave-110s/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer evidence"
+    }
+   ]
+  },
+  {
+   "brand": "honda",
+   "name": "CG 110",
+   "slug": "cg-110",
+   "category": "naked",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Clasipar ad by DIESA S.A. (lists CG 110, CB1 125, Navi 110, CB160, XR150, Africa, XR190, CB190R, Tornado 250, Grom, CB 500X, CB650R, NC750X, CRF1100, CRF250F)",
+     "url": "https://clasipar.paraguay.com/motor/motos/no-te-quedes-sin-tu-moto-honda-diesa-cg-110-cb1-125-navi-110-cb160-xr150-africa-1100-92967",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor ad (criterion a); model list taken from search summary"
+    }
+   ],
+   "notes": "Only distributor ad listing; no spec/price page found.",
+   "cuotas": "DIESA ad: financing from Gs. 308.000 (installment only)"
+  },
+  {
+   "brand": "honda",
+   "name": "Navi 110",
+   "slug": "navi-110",
+   "category": "scooter",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Clasipar ad by DIESA S.A. (lists CG 110, CB1 125, Navi 110, CB160, XR150, Africa, XR190, CB190R, Tornado 250, Grom, CB 500X, CB650R, NC750X, CRF1100, CRF250F)",
+     "url": "https://clasipar.paraguay.com/motor/motos/no-te-quedes-sin-tu-moto-honda-diesa-cg-110-cb1-125-navi-110-cb160-xr150-africa-1100-92967",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor ad (criterion a); model list taken from search summary"
+    }
+   ],
+   "notes": "Only distributor ad listing; no spec/price page found.",
+   "cuotas": "DIESA ad: financing from Gs. 389.000 (installment only)"
+  },
+  {
+   "brand": "honda",
+   "name": "CB1 125",
+   "slug": "cb1-125",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 125,
+     "source": {
+      "label": "Honda CB1 125 ficha PDF",
+      "url": "https://hondamotos.com.py/uploads/products/30.pdf"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "potencia": {
+     "value": "10.1 hp @ 8,500 rpm",
+     "source": {
+      "label": "Honda CB1 125 ficha PDF",
+      "url": "https://hondamotos.com.py/uploads/products/30.pdf"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "tanque": {
+     "value": "10 L",
+     "source": {
+      "label": "Honda CB1 125 ficha PDF",
+      "url": "https://hondamotos.com.py/uploads/products/30.pdf"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "peso": {
+     "value": "128 kg",
+     "source": {
+      "label": "Honda CB1 125 ficha PDF",
+      "url": "https://hondamotos.com.py/uploads/products/30.pdf"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "4 velocidades",
+     "source": {
+      "label": "Honda CB1 125 ficha PDF",
+      "url": "https://hondamotos.com.py/uploads/products/30.pdf"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Honda CB1 125 ficha PDF",
+      "url": "https://hondamotos.com.py/uploads/products/30.pdf"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_del": {
+     "value": "80/100-18",
+     "source": {
+      "label": "Honda CB1 125 ficha PDF",
+      "url": "https://hondamotos.com.py/uploads/products/30.pdf"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "neumatico_tras": {
+     "value": "90/90-18",
+     "source": {
+      "label": "Honda CB1 125 ficha PDF",
+      "url": "https://hondamotos.com.py/uploads/products/30.pdf"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 13950000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Classic Motos",
+     "source": {
+      "label": "Classic Motos CB1 125",
+      "url": "https://www.classicmotos.com.py/producto/honda-cb1-125/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Honda CB1 125 ficha (hondamotos.com.py)",
+     "url": "https://hondamotos.com.py/uploads/products/30.pdf",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official Honda Paraguay (DIESA) page, seen in search results"
+    },
+    {
+     "label": "Classic Motos CB1 125",
+     "url": "https://www.classicmotos.com.py/producto/honda-cb1-125/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer evidence"
+    },
+    {
+     "label": "La Norteña CB1 125",
+     "url": "https://lanortena.net.py/prod/honda-cb1-125/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer page"
+    }
+   ],
+   "cuotas": "DIESA ad: financing from Gs. 452.000 (installment only)"
+  },
+  {
+   "brand": "honda",
+   "name": "XR 190L",
+   "slug": "xr-190",
+   "category": "enduro-cross",
+   "specs": {},
+   "prices": [
+    {
+     "value": 26500000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Classic Motos",
+     "source": {
+      "label": "Classic Motos XR190L",
+      "url": "https://www.classicmotos.com.py/producto/honda-xr190l/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Honda Paraguay XR190L",
+     "url": "https://hondamotos.com.py/productos/XR190L/12",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official Honda Paraguay (DIESA) page, seen in search results"
+    },
+    {
+     "label": "Classic Motos XR190L",
+     "url": "https://www.classicmotos.com.py/producto/honda-xr190l/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer evidence"
+    }
+   ]
+  },
+  {
+   "brand": "honda",
+   "name": "XR 250 Tornado",
+   "slug": "xr-250-tornado",
+   "category": "enduro-cross",
+   "specs": {
+    "cc": {
+     "value": 249,
+     "source": {
+      "label": "Classic Motos XR 250 Tornado",
+      "url": "https://www.classicmotos.com.py/producto/xr-250-tornado/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "transmision": {
+     "value": "6 velocidades",
+     "source": {
+      "label": "Classic Motos XR 250 Tornado",
+      "url": "https://www.classicmotos.com.py/producto/xr-250-tornado/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "refrigeracion": {
+     "value": "Aire",
+     "source": {
+      "label": "Classic Motos XR 250 Tornado",
+      "url": "https://www.classicmotos.com.py/producto/xr-250-tornado/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 49300000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Classic Motos",
+     "source": {
+      "label": "Classic Motos XR 250 Tornado",
+      "url": "https://www.classicmotos.com.py/producto/xr-250-tornado/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Honda Paraguay XR 250 Tornado",
+     "url": "https://hondamotos.com.py/productos/XR-250-TORNADO/10",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official Honda Paraguay (DIESA) page, seen in search results"
+    },
+    {
+     "label": "Classic Motos XR 250 Tornado",
+     "url": "https://www.classicmotos.com.py/producto/xr-250-tornado/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer evidence"
+    }
+   ]
+  },
+  {
+   "brand": "honda",
+   "name": "CRF 250F",
+   "slug": "crf-250f",
+   "category": "enduro-cross",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Clasipar ad by DIESA S.A. (lists CG 110, CB1 125, Navi 110, CB160, XR150, Africa, XR190, CB190R, Tornado 250, Grom, CB 500X, CB650R, NC750X, CRF1100, CRF250F)",
+     "url": "https://clasipar.paraguay.com/motor/motos/no-te-quedes-sin-tu-moto-honda-diesa-cg-110-cb1-125-navi-110-cb160-xr150-africa-1100-92967",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor ad (criterion a); model list taken from search summary"
+    }
+   ],
+   "notes": "Only distributor ad listing."
+  },
+  {
+   "brand": "honda",
+   "name": "CB 500X",
+   "slug": "cb-500x",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Clasipar ad by DIESA S.A. (lists CG 110, CB1 125, Navi 110, CB160, XR150, Africa, XR190, CB190R, Tornado 250, Grom, CB 500X, CB650R, NC750X, CRF1100, CRF250F)",
+     "url": "https://clasipar.paraguay.com/motor/motos/no-te-quedes-sin-tu-moto-honda-diesa-cg-110-cb1-125-navi-110-cb160-xr150-africa-1100-92967",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor ad (criterion a); model list taken from search summary"
+    }
+   ],
+   "notes": "hondamotos slug CB500X/5 is titled 'NC750X'; treat as uncertain mapping."
+  },
+  {
+   "brand": "honda",
+   "name": "Rebel 500",
+   "slug": "rebel-500",
+   "category": "custom-chopper",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "ABC Color: Lanzan Honda Rebel 500, NX500 y X-ADV 750",
+     "url": "https://www.abc.com.py/empresariales/2025/04/12/lanzan-honda-rebel-500-nx500-y-x-adv-750/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press naming model as launched by DIESA"
+    },
+    {
+     "label": "La Nación: Diesa presentó Rebel 500, NX500 y X-ADV 750",
+     "url": "https://www.lanacion.com.py/negocios/2025/04/04/diesa-presento-las-nuevas-motocicletas-rebel-500-nx500-y-x-adv-750/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press naming model as launched by DIESA"
+    }
+   ],
+   "notes": "A search showed Gs 38.737.215-43.903.038 for 'Rebel 500 2026' but source not confirmed Paraguayan 0km retailer (marketbook.com.py listing); not recorded as price."
+  },
+  {
+   "brand": "honda",
+   "name": "NX500",
+   "slug": "nx500",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "ABC Color: Lanzan Honda Rebel 500, NX500 y X-ADV 750",
+     "url": "https://www.abc.com.py/empresariales/2025/04/12/lanzan-honda-rebel-500-nx500-y-x-adv-750/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press naming model as launched by DIESA"
+    },
+    {
+     "label": "La Nación",
+     "url": "https://www.lanacion.com.py/negocios/2025/04/04/diesa-presento-las-nuevas-motocicletas-rebel-500-nx500-y-x-adv-750/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press naming model as launched by DIESA"
+    }
+   ]
+  },
+  {
+   "brand": "honda",
+   "name": "X-ADV 750",
+   "slug": "x-adv-750",
+   "category": "scooter",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "ABC Color: Lanzan Honda Rebel 500, NX500 y X-ADV 750",
+     "url": "https://www.abc.com.py/empresariales/2025/04/12/lanzan-honda-rebel-500-nx500-y-x-adv-750/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press naming model as launched by DIESA"
+    },
+    {
+     "label": "La Nación",
+     "url": "https://www.lanacion.com.py/negocios/2025/04/04/diesa-presento-las-nuevas-motocicletas-rebel-500-nx500-y-x-adv-750/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press naming model as launched by DIESA"
+    }
+   ],
+   "notes": "Maxi-scooter/adventure per press."
+  },
+  {
+   "brand": "honda",
+   "name": "CB160F",
+   "slug": "cb160f",
+   "category": "naked",
+   "specs": {
+    "cc": {
+     "value": 162,
+     "source": {
+      "label": "Classic Motos CB160-F (summary: 162.71 cc)",
+      "url": "https://www.classicmotos.com.py/producto/honda-cb160-f/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "velocidad_max": {
+     "value": "110 km/h",
+     "source": {
+      "label": "Classic Motos CB160-F",
+      "url": "https://www.classicmotos.com.py/producto/honda-cb160-f/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_del": {
+     "value": "Disco",
+     "source": {
+      "label": "Classic Motos CB160-F",
+      "url": "https://www.classicmotos.com.py/producto/honda-cb160-f/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    },
+    "freno_tras": {
+     "value": "Tambor",
+     "source": {
+      "label": "Classic Motos CB160-F",
+      "url": "https://www.classicmotos.com.py/producto/honda-cb160-f/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   },
+   "prices": [
+    {
+     "value": 19105000,
+     "currency": "PYG",
+     "condition": "0km",
+     "seller": "Classic Motos",
+     "source": {
+      "label": "Classic Motos CB160-F",
+      "url": "https://www.classicmotos.com.py/producto/honda-cb160-f/"
+     },
+     "accessed": "2026-09-30",
+     "method": "snippet"
+    }
+   ],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Classic Motos CB160-F",
+     "url": "https://www.classicmotos.com.py/producto/honda-cb160-f/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer evidence"
+    },
+    {
+     "label": "Clasipar ad by DIESA S.A. (lists CG 110, CB1 125, Navi 110, CB160, XR150, Africa, XR190, CB190R, Tornado 250, Grom, CB 500X, CB650R, NC750X, CRF1100, CRF250F)",
+     "url": "https://clasipar.paraguay.com/motor/motos/no-te-quedes-sin-tu-moto-honda-diesa-cg-110-cb1-125-navi-110-cb160-xr150-africa-1100-92967",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "distributor ad (criterion a); model list taken from search summary"
+    }
+   ],
+   "notes": "cc published as 162.71; stored as integer 162 (rounded from published figure)."
+  },
+  {
+   "brand": "honda",
+   "name": "CB190R",
+   "slug": "cb190r",
+   "category": "naked",
+   "specs": {},
+   "prices": [],
+   "versions": [
+    "CB190R 2.0"
+   ],
+   "sources": [
+    {
+     "label": "Honda CB190R ficha (hondamotos.com.py)",
+     "url": "https://hondamotos.com.py/uploads/products/31.pdf",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official Honda Paraguay (DIESA) page, seen in search results"
+    },
+    {
+     "label": "ABC Color: Diesa presentó NX190 y CB190R 2.0",
+     "url": "https://www.abc.com.py/empresariales/2025/03/15/diesa-presento-las-nuevas-motos-honda-nx190-y-cb190r-20/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press naming model as launched by DIESA"
+    }
+   ]
+  },
+  {
+   "brand": "honda",
+   "name": "NX190",
+   "slug": "nx190",
+   "category": "enduro-cross",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Honda Paraguay NX190",
+     "url": "https://hondamotos.com.py/productos/NX190/58",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official Honda Paraguay (DIESA) page, seen in search results"
+    },
+    {
+     "label": "ABC Color",
+     "url": "https://www.abc.com.py/empresariales/2025/03/15/diesa-presento-las-nuevas-motos-honda-nx190-y-cb190r-20/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press naming model as launched by DIESA"
+    }
+   ]
+  },
+  {
+   "brand": "honda",
+   "name": "Africa Twin",
+   "slug": "africa-twin",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "versions": [
+    "Africa Twin 2026"
+   ],
+   "sources": [
+    {
+     "label": "ABC Color: Honda presenta la Africa Twin 2026",
+     "url": "https://www.abc.com.py/empresariales/2026/04/18/honda-presenta-la-africa-twin-2026-con-diseno-iconico/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press naming model as launched by DIESA"
+    }
+   ]
+  },
+  {
+   "brand": "honda",
+   "name": "XL 750 Transalp",
+   "slug": "xl-750-transalp",
+   "category": "touring",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "La Nación: Diesa presentó XL 750 Transalp y CB 350 H'ness",
+     "url": "https://www.lanacion.com.py/negocios_edicion_impresa/2024/05/22/diesa-presento-a-la-honda-xl-750-transalp-y-a-la-cb-350-hness/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press naming model as launched by DIESA"
+    }
+   ]
+  },
+  {
+   "brand": "honda",
+   "name": "CB350 H'Ness",
+   "slug": "cb350-hness",
+   "category": "custom-chopper",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "La Nación",
+     "url": "https://www.lanacion.com.py/negocios_edicion_impresa/2024/05/22/diesa-presento-a-la-honda-xl-750-transalp-y-a-la-cb-350-hness/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "Paraguayan press naming model as launched by DIESA"
+    }
+   ],
+   "notes": "Category per general knowledge of retro roadster; not from source."
+  },
+  {
+   "brand": "honda",
+   "name": "CB 300F Twister",
+   "slug": "cb-300f-twister",
+   "category": "naked",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Honda Paraguay CB 300 F Twister",
+     "url": "https://hondamotos.com.py/productos/CB-300-F-TWISTER/52",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official Honda Paraguay (DIESA) page, seen in search results"
+    }
+   ]
+  },
+  {
+   "brand": "honda",
+   "name": "XR 300 Tornado",
+   "slug": "xr-300-tornado",
+   "category": "enduro-cross",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Classic Motos XR 300 Tornado",
+     "url": "https://www.classicmotos.com.py/producto/xr-300-tornado/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer evidence"
+    }
+   ]
+  },
+  {
+   "brand": "honda",
+   "name": "XR 650L",
+   "slug": "xr-650l",
+   "category": "enduro-cross",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Classic Motos XR 650L",
+     "url": "https://www.classicmotos.com.py/producto/xr-650l/",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "retailer evidence"
+    }
+   ]
+  },
+  {
+   "brand": "honda",
+   "name": "TRX 250 4x2",
+   "slug": "trx-250",
+   "category": "cuatriciclo",
+   "specs": {},
+   "prices": [],
+   "versions": [],
+   "sources": [
+    {
+     "label": "Honda Paraguay TRX 250 4X2 manual",
+     "url": "https://hondamotos.com.py/productos/TRX-250-4X2-MANUAL/45",
+     "accessed": "2026-09-30",
+     "method": "snippet",
+     "note": "official Honda Paraguay (DIESA) page, seen in search results"
+    }
+   ]
+  }
+ ],
+ "rejected": [
+  {
+   "what": "cg-150-titan",
+   "reason": "No Paraguayan evidence; only Brazil/Argentina pages and a generic TikTok/MercadoLibre result"
+  },
+  {
+   "what": "cb-125 (seed)",
+   "reason": "Covered by cb1-125; no separate Paraguayan CB 125 evidence"
+  },
+  {
+   "what": "CBR 500R, CBR 1000, CRF1100L (as separate entries)",
+   "reason": "Named only in DIESA clasipar ad summary; CRF1100 = Africa Twin covered; CBR models not verified"
+  },
+  {
+   "what": "Specs for most models",
+   "reason": "Search summaries mixed regional sources; omitted rather than guess"
+  },
+  {
+   "what": "Rebel 500 price Gs 38.7-43.9M",
+   "reason": "from marketbook.com.py listing summary, not clearly 0km official"
+  },
+  {
+   "what": "honda/msx125-grom",
+   "reason": "R1 curation: only evidence is the summary of an old multi-model DIESA ad (#92967) or a hondamotos.com.py URL whose title names another model; moved to próxima tanda"
+  },
+  {
+   "what": "honda/cb650r",
+   "reason": "R1 curation: only evidence is the summary of an old multi-model DIESA ad (#92967) or a hondamotos.com.py URL whose title names another model; moved to próxima tanda"
+  },
+  {
+   "what": "honda/nc750x",
+   "reason": "R1 curation: only evidence is the summary of an old multi-model DIESA ad (#92967) or a hondamotos.com.py URL whose title names another model; moved to próxima tanda"
+  }
+ ],
+ "queries": [
+  "Honda XR 150L Paraguay DIESA precio Gs.",
+  "hondamotos.com.py productos XR150L ...",
+  "hondamotos.com.py Wave 110S/CG 110/Navi 110/CB 125/XR 190L",
+  "Honda Paraguay motos productos (allowed hondamotos.com.py)",
+  "Honda motos Paraguay precio Gs. 0km (classicmotos)",
+  "Honda moto DIESA lanzamiento Paraguay (press)",
+  "per-model searches on hondamotos.com.py/classicmotos.com.py",
+  "Honda Rebel 500 NX500 X-ADV 750 precio Paraguay",
+  "Diesa Honda NX190 CB190R 2.0 precio",
+  "Honda Africa Twin 2026 Paraguay",
+  "Transalp / H'ness Paraguay",
+  "classicmotos prices XR190L, Wave, CB1 125, CB160-F, XR250 Tornado",
+  "CG 150 Titan / CG 110 / Navi / CRF 250F Paraguay Diesa"
+ ]
+}
