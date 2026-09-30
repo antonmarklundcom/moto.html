@@ -17,6 +17,10 @@ only — NEVER Fable, see plan §4.8). Always pass `model` explicitly as the cur
 family (look it up in the `claude-api` skill; `create_session` otherwise inherits the caller's
 model, which is wrong at a model switch). `prompt` exactly:
 `Read prompts/<next-file>.md in this repo and execute it.`
+Every phase that reads `antonmarklundcom/moto` (read-only source docs): the spawned session starts with only this
+repo. Its first step is the claude-code-remote `add_repo` tool (owner `antonmarklundcom`, repo `moto`, access `read`),
+then clone it next to this repo. Never ask the user for this and never write to `moto`.
+
 Then end with a short phase report (PR link, what exists now, deviations).
 
 Who spawns what:
