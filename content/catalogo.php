@@ -232,7 +232,7 @@ return [
             'category' => 'touring',
             'specs' => [],
             'prices' => [],
-            'versions' => ['Africa Twin 2026'],
+            'versions' => ['Africa Twin 2026', 'Adventure'],
             'sources' => [
                 [
                     'label' => 'ABC Color: Honda presenta la Africa Twin 2026',
@@ -240,6 +240,12 @@ return [
                     'accessed' => '2026-09-30',
                     'method' => 'snippet',
                     'note' => 'Paraguayan press naming model as launched by DIESA',
+                ],
+                [
+                    'label' => 'Honda Paraguay Africa Twin Adventure',
+                    'url' => 'https://hondamotos.com.py/productos/Africa-Twin-Adventure/2',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
                 ],
             ],
         ],
@@ -461,7 +467,16 @@ return [
             'name' => 'CB190R',
             'slug' => 'cb190r',
             'category' => 'naked',
-            'specs' => [],
+            'specs' => [
+                'potencia' => [
+                    'value' => '12,2 kW (16,6 PS) a 8.500 rpm',
+                    'source' => [
+                        'label' => 'Honda Paraguay — ficha CB190R (PDF)',
+                        'url' => 'https://hondamotos.com.py/uploads/products/31.pdf',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [],
             'versions' => ['CB190R 2.0'],
             'sources' => [
@@ -535,6 +550,54 @@ return [
                 ],
             ],
         ],
+        'honda/dio-110' => [
+            'brand' => 'honda',
+            'name' => 'DIO 110',
+            'slug' => 'dio-110',
+            'category' => 'scooter',
+            'specs' => [
+                'arranque' => [
+                    'value' => 'Eléctrico',
+                    'source' => ['label' => 'Honda Paraguay DIO 110', 'url' => 'https://hondamotos.com.py/productos/DIO-110/51'],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'prices' => [
+                [
+                    'value' => 10725000,
+                    'currency' => 'PYG',
+                    'condition' => '0km',
+                    'source' => ['label' => 'Honda Paraguay DIO 110', 'url' => 'https://hondamotos.com.py/productos/DIO-110/51'],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
+            'versions' => [],
+            'sources' => [
+                [
+                    'label' => 'Honda Paraguay DIO 110',
+                    'url' => 'https://hondamotos.com.py/productos/DIO-110/51',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                ],
+            ],
+        ],
+        'honda/msx125-grom' => [
+            'brand' => 'honda',
+            'name' => 'MSX125 Grom',
+            'slug' => 'msx125-grom',
+            'category' => 'naked',
+            'specs' => [],
+            'prices' => [],
+            'versions' => [],
+            'sources' => [
+                [
+                    'label' => 'Honda Paraguay MSX125 GROM',
+                    'url' => 'https://hondamotos.com.py/productos/CB190R/35',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                ],
+            ],
+        ],
         'honda/navi-110' => [
             'brand' => 'honda',
             'name' => 'Navi 110',
@@ -553,12 +616,60 @@ return [
                 ],
             ],
         ],
+        'honda/nc750x' => [
+            'brand' => 'honda',
+            'name' => 'NC750X',
+            'slug' => 'nc750x',
+            'category' => 'touring',
+            'specs' => [],
+            'prices' => [],
+            'versions' => [],
+            'sources' => [
+                [
+                    'label' => 'Honda Paraguay NC750X',
+                    'url' => 'https://hondamotos.com.py/productos/CB500X/5',
+                    'accessed' => '2026-09-30',
+                    'method' => 'snippet',
+                ],
+            ],
+        ],
         'honda/nx190' => [
             'brand' => 'honda',
             'name' => 'NX190',
             'slug' => 'nx190',
             'category' => 'enduro-cross',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 184,
+                    'source' => ['label' => 'Honda Paraguay NX190', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
+                    'accessed' => '2026-09-30',
+                ],
+                'freno_del' => [
+                    'value' => 'Disco',
+                    'source' => ['label' => 'Honda Paraguay NX190', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
+                    'accessed' => '2026-09-30',
+                ],
+                'freno_tras' => [
+                    'value' => 'Disco',
+                    'source' => ['label' => 'Honda Paraguay NX190', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
+                    'accessed' => '2026-09-30',
+                ],
+                'tanque' => [
+                    'value' => '12 L',
+                    'source' => ['label' => 'Honda Paraguay NX190', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
+                    'accessed' => '2026-09-30',
+                ],
+                'motor' => [
+                    'value' => 'Monocilíndrico',
+                    'source' => ['label' => 'Honda Paraguay NX190', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
+                    'accessed' => '2026-09-30',
+                ],
+                'alimentacion' => [
+                    'value' => 'Inyección electrónica PGM-FI',
+                    'source' => ['label' => 'Honda Paraguay NX190', 'url' => 'https://hondamotos.com.py/productos/NX190/58'],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [],
             'versions' => [],
             'sources' => [
@@ -583,7 +694,16 @@ return [
             'name' => 'NX500',
             'slug' => 'nx500',
             'category' => 'touring',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 471,
+                    'source' => [
+                        'label' => 'La Nación: Diesa presentó Rebel 500, NX500 y X-ADV 750',
+                        'url' => 'https://www.lanacion.com.py/negocios/2025/04/04/diesa-presento-las-nuevas-motocicletas-rebel-500-nx500-y-x-adv-750/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [],
             'versions' => [],
             'sources' => [
@@ -720,7 +840,24 @@ return [
             'name' => 'X-ADV 750',
             'slug' => 'x-adv-750',
             'category' => 'scooter',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 745,
+                    'source' => [
+                        'label' => 'La Nación: Diesa presentó Rebel 500, NX500 y X-ADV 750',
+                        'url' => 'https://www.lanacion.com.py/negocios/2025/04/04/diesa-presento-las-nuevas-motocicletas-rebel-500-nx500-y-x-adv-750/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'transmision' => [
+                    'value' => 'Automática DCT de doble embrague',
+                    'source' => [
+                        'label' => 'La Nación: Diesa presentó Rebel 500, NX500 y X-ADV 750',
+                        'url' => 'https://www.lanacion.com.py/negocios/2025/04/04/diesa-presento-las-nuevas-motocicletas-rebel-500-nx500-y-x-adv-750/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [],
             'versions' => [],
             'sources' => [
@@ -860,6 +997,22 @@ return [
                     ],
                     'accessed' => '2026-09-30',
                 ],
+                'potencia' => [
+                    'value' => '22.98 hp a 7500 rpm',
+                    'source' => [
+                        'label' => 'Classic Motos XR 250 Tornado',
+                        'url' => 'https://www.classicmotos.com.py/producto/xr-250-tornado/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'torque' => [
+                    'value' => '23.73 Nm a 6000 rpm',
+                    'source' => [
+                        'label' => 'Classic Motos XR 250 Tornado',
+                        'url' => 'https://www.classicmotos.com.py/producto/xr-250-tornado/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
                 'transmision' => [
                     'value' => '6 velocidades',
                     'source' => [
@@ -930,7 +1083,40 @@ return [
             'name' => 'XR 650L',
             'slug' => 'xr-650l',
             'category' => 'enduro-cross',
-            'specs' => [],
+            'specs' => [
+                'cc' => [
+                    'value' => 644,
+                    'source' => [
+                        'label' => 'Classic Motos XR 650L',
+                        'url' => 'https://www.classicmotos.com.py/producto/xr-650l/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'potencia' => [
+                    'value' => '44 HP',
+                    'source' => [
+                        'label' => 'Classic Motos XR 650L',
+                        'url' => 'https://www.classicmotos.com.py/producto/xr-650l/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'motor' => [
+                    'value' => '4 tiempos SOHC',
+                    'source' => [
+                        'label' => 'Classic Motos XR 650L',
+                        'url' => 'https://www.classicmotos.com.py/producto/xr-650l/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+                'refrigeracion' => [
+                    'value' => 'Aire, cárter seco',
+                    'source' => [
+                        'label' => 'Classic Motos XR 650L',
+                        'url' => 'https://www.classicmotos.com.py/producto/xr-650l/',
+                    ],
+                    'accessed' => '2026-09-30',
+                ],
+            ],
             'prices' => [],
             'versions' => [],
             'sources' => [
