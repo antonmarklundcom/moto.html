@@ -32,7 +32,7 @@ $waBot   = $waUa === '' || preg_match('/bot|crawl|spider|slurp|preview|facebooke
 $waNum   = wa_number();
 
 try {
-    $waDir = ROOT_DIR . '/logs';
+    $waDir = logs_dir();
     if (is_dir($waDir) || @mkdir($waDir, 0775, true)) {
         @file_put_contents($waDir . '/wa-clicks.jsonl', json_encode([
             'at'       => gmdate('c'),

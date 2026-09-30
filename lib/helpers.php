@@ -253,3 +253,15 @@ function wa_number(): ?string
 
     return $e164 === null ? null : ltrim($e164, '+');
 }
+
+/**
+ * Where leads, CRM deliveries and WhatsApp clicks are appended: logs/ (never
+ * versioned, denied over HTTP). APP_LOG_DIR overrides it so verify.sh never
+ * touches a real log.
+ */
+function logs_dir(): string
+{
+    $override = getenv('APP_LOG_DIR');
+
+    return is_string($override) && $override !== '' ? rtrim($override, '/') : ROOT_DIR . '/logs';
+}

@@ -91,7 +91,7 @@ function client_ip(): string
  */
 function rate_limited(string $ip): bool
 {
-    $dir = ROOT_DIR . '/logs/rate';
+    $dir = logs_dir() . '/rate';
     if (!is_dir($dir) && !@mkdir($dir, 0775, true) && !is_dir($dir)) {
         return false;
     }
@@ -127,7 +127,7 @@ function rate_limited(string $ip): bool
  */
 function append_log(string $file, array $line): bool
 {
-    $dir = ROOT_DIR . '/logs';
+    $dir = logs_dir();
     if (!is_dir($dir) && !@mkdir($dir, 0775, true) && !is_dir($dir)) {
         return false;
     }
