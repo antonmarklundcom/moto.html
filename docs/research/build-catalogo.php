@@ -68,6 +68,20 @@ function publisher(string $url): ?string
     return null;
 }
 
+// Trim names only: research notes in parentheses and colour words are not versions.
+function versions(array $in): array
+{
+    $colours = '/\\s*\\b(rojo|azul|negro|gris|blanco|plata|amarillo|verde|naranja)\\b/iu';
+    $out = [];
+    foreach ($in as $v) {
+        $v = trim(preg_replace(['/\\s*\\(.*?\\)/', $colours], '', (string) $v));
+        if ($v !== '' && !in_array($v, $out, true)) {
+            $out[] = $v;
+        }
+    }
+    return $out;
+}
+
 function src(array $s): ?array
 {
     $url = trim((string) ($s['url'] ?? ''));
@@ -179,8 +193,7 @@ foreach ($files as $file) {
             // A later research pass (r2-*.json) deepens a model: keep existing facts, add missing ones.
             $modelos[$key]['specs'] += $specs;
             $modelos[$key]['prices'] = array_merge($modelos[$key]['prices'], $prices);
-            $modelos[$key]['versions'] = array_values(array_unique(array_merge($modelos[$key]['versions'],
-                array_map('strval', $m['versions'] ?? []))));
+            $modelos[$key]['versions'] = versions(array_merge($modelos[$key]['versions'], $m['versions'] ?? []));
             $seen = array_column($modelos[$key]['sources'], 'url');
             foreach ($sources as $s) {
                 if (!in_array($s['url'], $seen, true)) {
@@ -190,12 +203,12 @@ foreach ($files as $file) {
             continue;
         }
         $row = ['brand' => $brand, 'name' => (string) $m['name'], 'slug' => $slug, 'category' => $m['category']];
-        if (!empty($m['years'])) {
-            $row['years'] = (string) $m['years'];
+        if (!empty($m['years']) && preg_match('/^\\d{4}(?:[–-]\\d{4})?/', (string) $m['years'], $y)) {
+            $row['years'] = $y[0];
         }
         $row['specs'] = $specs;
         $row['prices'] = $prices;
-        $row['versions'] = array_values(array_map('strval', $m['versions'] ?? []));
+        $row['versions'] = versions($m['versions'] ?? []);
         $row['sources'] = $sources;
         $modelos[$key] = $row;
     }

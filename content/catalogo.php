@@ -1961,7 +1961,7 @@ return [
             'name' => 'MT-03',
             'slug' => 'mt-03',
             'category' => 'naked',
-            'years' => '2026 (new generation launched Dec 2025)',
+            'years' => '2026',
             'specs' => [
                 'cc' => [
                     'value' => 321,
@@ -3593,7 +3593,7 @@ return [
                     'accessed' => '2026-09-30',
                 ],
             ],
-            'versions' => ['Azul', 'Negro', 'Amarillo'],
+            'versions' => [],
             'sources' => [
                 [
                     'label' => 'TVS Motor Paraguay',
@@ -4376,7 +4376,7 @@ return [
                     'accessed' => '2026-09-30',
                 ],
             ],
-            'versions' => ['DKR 200 Storm (page kenton.com.py/moto/dkr-200-storm/, price not seen)'],
+            'versions' => ['DKR 200 Storm'],
             'sources' => [
                 [
                     'label' => 'Kenton',
@@ -5140,7 +5140,7 @@ return [
                     'accessed' => '2026-09-30',
                 ],
             ],
-            'versions' => ['LTD', 'LTD Black Edition (page exists, price not seen)'],
+            'versions' => ['LTD', 'LTD Black Edition'],
             'sources' => [
                 [
                     'label' => 'Kenton',
@@ -7363,7 +7363,7 @@ return [
                     'accessed' => '2026-09-30',
                 ],
             ],
-            'versions' => ['Rayos Rojo', 'Rayos Azul'],
+            'versions' => ['Rayos'],
             'sources' => [
                 [
                     'label' => 'Bristol',
@@ -7401,7 +7401,7 @@ return [
                     'accessed' => '2026-09-30',
                 ],
             ],
-            'versions' => ['Rayos Rojo', 'Rayos Negro', 'Rayos Azul'],
+            'versions' => ['Rayos'],
             'sources' => [
                 [
                     'label' => 'Bristol',
@@ -7455,7 +7455,7 @@ return [
                     'accessed' => '2026-09-30',
                 ],
             ],
-            'versions' => ['Aleación Negro'],
+            'versions' => ['Aleación'],
             'sources' => [
                 [
                     'label' => 'Bristol',
@@ -7530,7 +7530,7 @@ return [
                 ],
             ],
             'prices' => [],
-            'versions' => ['Rayos Gris', 'Rayos Rojo', 'Rayos Negro'],
+            'versions' => ['Rayos'],
             'sources' => [
                 [
                     'label' => 'Bristol',
@@ -7568,7 +7568,7 @@ return [
                     'accessed' => '2026-09-30',
                 ],
             ],
-            'versions' => ['Aleación Negro'],
+            'versions' => ['Aleación'],
             'sources' => [
                 [
                     'label' => 'Bristol',
@@ -7606,7 +7606,7 @@ return [
                     'accessed' => '2026-09-30',
                 ],
             ],
-            'versions' => ['Rayos Negro'],
+            'versions' => ['Rayos'],
             'sources' => [
                 [
                     'label' => 'Bristol',
