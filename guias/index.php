@@ -32,24 +32,52 @@ require ROOT_DIR . '/partials/header.php';
   <section class="section">
     <div class="container">
       <?php
-      /* Only guides that pass the indexing gate are listed (PLAN §2.3.3). */
-      $listGuides = array_filter(
-          content('guias'),
-          static fn ($g, $slug) => is_array($g) && gate_passes(path_guide((string) $slug)),
-          ARRAY_FILTER_USE_BOTH
-      );
+      /* Only pages that pass the indexing gate are listed (PLAN §2.3.3), grouped
+         by 'group'. Guides come from content/guias.php, comparisons from
+         content/comparativas.php; new records appear with no edit here. */
+      $groupInfo = (array) (page_meta('/motos')['guideGroups'] ?? []);
+      $groupInfo['comparativa'] = ['label' => 'Comparativas', 'text' => 'Dos modelos del mismo segmento, lado a lado y con la fuente de cada dato.'];
+      $byGroup = [];
+      foreach (content('guias') as $listSlug => $listGuide) {
+          if (is_array($listGuide) && gate_passes(path_guide((string) $listSlug))) {
+              $byGroup[(string) ($listGuide['group'] ?? 'compra')][] = [
+                  'path' => path_guide((string) $listSlug),
+                  'name' => (string) ($listGuide['navLabel'] ?? $listGuide['title'] ?? $listSlug),
+                  'text' => (string) ($listGuide['metaDescription'] ?? ''),
+              ];
+          }
+      }
+      foreach (content('comparativas') as $listSlug => $listCmp) {
+          if (is_array($listCmp) && gate_passes(path_comparison((string) $listSlug))) {
+              $byGroup['comparativa'][] = ['path' => path_comparison((string) $listSlug), 'name' => comparison_title((string) $listSlug), 'text' => ''];
+          }
+      }
       ?>
-      <?php if ($listGuides === []): ?>
+      <?php if ($byGroup === []): ?>
         <p class="lead"><?= e(ui('hub.empty')) ?></p>
       <?php else: ?>
-        <div class="grid grid--3">
-          <?php foreach ($listGuides as $listSlug => $listGuide): ?>
-            <a class="card card--link" href="<?= e(path_guide((string) $listSlug)) ?>">
-              <h2 class="card-title"><?= e($listGuide['navLabel']) ?></h2>
-              <p class="card__text"><?= e($listGuide['metaDescription']) ?></p>
-            </a>
+        <ul class="link-list">
+          <?php foreach ($groupInfo as $groupKey => $group): ?>
+            <?php if (isset($byGroup[$groupKey])): ?>
+              <li><a href="#<?= e($groupKey) ?>"><?= e($group['label']) ?></a></li>
+            <?php endif; ?>
           <?php endforeach; ?>
-        </div>
+        </ul>
+        <?php foreach ($groupInfo as $groupKey => $group): ?>
+          <?php if (!isset($byGroup[$groupKey])) { continue; } ?>
+          <section class="stack" id="<?= e($groupKey) ?>">
+            <h2 class="d2"><?= e($group['label']) ?></h2>
+            <p class="lead"><?= e($group['text']) ?></p>
+            <div class="grid grid--3">
+              <?php foreach ($byGroup[$groupKey] as $item): ?>
+                <a class="card card--link" href="<?= e($item['path']) ?>">
+                  <h3 class="card-title"><?= e($item['name']) ?></h3>
+                  <?php if ($item['text'] !== ''): ?><p class="card__text"><?= e($item['text']) ?></p><?php endif; ?>
+                </a>
+              <?php endforeach; ?>
+            </div>
+          </section>
+        <?php endforeach; ?>
       <?php endif; ?>
     </div>
   </section>
