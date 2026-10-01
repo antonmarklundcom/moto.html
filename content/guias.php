@@ -1976,39 +1976,55 @@ return [
         $desde   = $fechas === [] ? '' : min($fechas);
         $hasta   = $fechas === [] ? '' : max($fechas);
         $updated = $hasta !== '' ? $hasta : '2026-10-01';
-        $enUsd   = count(array_filter($precios, static fn (array $r): bool => strtoupper((string) ($r['fact']['currency'] ?? 'PYG')) === 'USD'));
-        $modelosConPrecio = count(array_unique(array_column($precios, 'key')));
-        $marcasConPrecio  = count(array_unique(array_column($precios, 'marca')));
-        $rango = $precios === [] ? '' : ($desde === $hasta
-            ? 'consultados el ' . fmt_date_long($desde)
-            : 'consultados entre el ' . fmt_date_long($desde) . ' y el ' . fmt_date_long($hasta));
+        /* One row per model: its lowest current price in guaraníes (the page must stay under the 100 KB budget). */
+        $tabla = [];
+        foreach ($precios as $r) {
+            if (strtoupper((string) ($r['fact']['currency'] ?? 'PYG')) === 'PYG'
+                && (!isset($tabla[$r['key']]) || (int) $r['fact']['value'] < (int) $tabla[$r['key']]['fact']['value'])) {
+                $tabla[$r['key']] = $r;
+            }
+        }
+        /* At most 10 models per brand, the ones with the lowest published price: the full table would break the 100 KB page budget (D16). */
+        $porMarca = 10;
+        $enTabla  = [];
+        foreach (array_keys($marcas) as $slugMarca) {
+            $deMarca = array_values(array_filter($tabla, static fn (array $r): bool => $r['marca'] === $slugMarca));
+            usort($deMarca, static fn (array $a, array $b): int => [(int) $a['fact']['value'], $a['name']] <=> [(int) $b['fact']['value'], $b['name']]);
+            foreach (array_slice($deMarca, 0, $porMarca) as $r) {
+                $enTabla[$r['key']] = $r;
+            }
+        }
+        $fueraDeTabla = count($tabla) - count($enTabla);
+        $soloUsd = count(array_diff(array_unique(array_column($precios, 'key')), array_keys($tabla)));
+        $fechasTabla = array_map(static fn (array $r): string => (string) $r['fact']['accessed'], $enTabla);
+        $modelosConPrecio = count($enTabla);
+        $marcasConPrecio  = count(array_unique(array_column($enTabla, 'marca')));
+        $rango = $enTabla === [] ? '' : (min($fechasTabla) === max($fechasTabla)
+            ? 'consultados el ' . fmt_date_long(min($fechasTabla))
+            : 'consultados entre el ' . fmt_date_long(min($fechasTabla)) . ' y el ' . fmt_date_long(max($fechasTabla)));
 
         /* ---------- precios-de-motos-0-km-en-paraguay ---------- */
         $secciones = [
             ['h2' => 'Qué entra en esta lista y qué no', 'id' => 'criterio', 'body' => [
-                'El criterio es uno solo y es explícito: entra un precio si lo publicó el distribuidor oficial, la marca o un comercio paraguayo de motos 0 km, y si lo consultamos en los últimos 120 días. Cada fila es un aviso distinto de una fuente, con su enlace y la fecha en que lo vimos. Si un mismo modelo aparece dos veces, es porque dos fuentes (o dos versiones del mismo modelo) publicaron precios diferentes.',
+                'El criterio es uno solo y es explícito: entra un precio si lo publicó el distribuidor oficial, la marca o un comercio paraguayo de motos 0 km, y si lo consultamos en los últimos 120 días. Cada fila es un modelo con su precio publicado, el enlace a la fuente y la fecha en que lo vimos. Si un modelo tiene varios precios publicados (por ejemplo, por versión o por comercio), mostramos el más bajo. Para que la página cargue rápido en el celular, de cada marca mostramos hasta 10 modelos, los de precio publicado más bajo; el precio de los demás está en la página de cada modelo.',
                 'Lo que nunca hacemos es estimar. Si ninguna fuente publicó el precio de un modelo, el modelo no figura en la tabla: preferimos un hueco a un número inventado. Tampoco sumamos descuentos, promociones ni cuotas, porque cambian de un día para el otro y dependen de cada comercio.',
                 ['list' => [
                     '**Precio publicado:** el que figura en la página de la fuente al momento de la consulta, en la moneda en que lo publica.',
                     '**Fecha de consulta:** el día en que lo leímos. Un precio al que le pasaron 120 días desde la consulta se oculta solo hasta que lo volvemos a verificar.',
-                    '**Dólares:** algunos distribuidores publican en US$. Los mostramos como los publican, sin convertir, porque no usamos un tipo de cambio inventado.',
+                    '**Guaraníes:** esta tabla muestra sólo precios publicados en guaraníes. Algunos distribuidores publican en dólares: no los convertimos, porque no usamos un tipo de cambio inventado, y esos precios están en la página de cada modelo.',
                 ]],
             ]],
         ];
         foreach ($marcas as $slug => $marca) {
-            $filas = array_values(array_filter($precios, static fn (array $r): bool => $r['marca'] === $slug));
+            $filas = array_values(array_filter($enTabla, static fn (array $r): bool => $r['marca'] === $slug));
             if ($filas === []) {
                 continue;
             }
-            usort($filas, static fn (array $a, array $b): int => [$a['name'], (string) ($a['fact']['currency'] ?? ''), (int) $a['fact']['value']]
-                                                            <=> [$b['name'], (string) ($b['fact']['currency'] ?? ''), (int) $b['fact']['value']]);
+            usort($filas, static fn (array $a, array $b): int => $a['name'] <=> $b['name']);
             $cuerpo = [];
-            if (!empty($marca['distributor']['name'])) {
-                $cuerpo[] = ['fact' => ['value' => $marca['distributor']['name'], 'source' => $marca['distributor']['source'] ?? null, 'accessed' => $marca['distributor']['accessed'] ?? null], 'label' => 'Distribuidor oficial'];
-            }
             $cuerpo[] = ['table' => [
-                'head' => ['Modelo', 'Tipo', 'Precio publicado'],
-                'rows' => array_map(static fn (array $r): array => ['[' . $r['name'] . '](/motos/' . $r['key'] . ')', $r['tipo'], $r['fact']], $filas),
+                'head' => ['Modelo', 'Precio publicado'],
+                'rows' => array_map(static fn (array $r): array => ['[' . $r['name'] . '](/motos/' . $r['key'] . ')', $r['fact']], $filas),
             ], 'caption' => 'Precios 0 km publicados de ' . $marca['name']];
             $secciones[] = ['h2' => 'Precios publicados de ' . $marca['name'], 'id' => 'precios-' . $slug, 'body' => $cuerpo];
         }
@@ -2022,10 +2038,11 @@ return [
             'Si buscás un modelo que no está, entrá a su página dentro de [motos por marca y tipo](/motos) para ver qué datos con fuente tenemos, o consultá por WhatsApp en el botón de abajo.',
         ]];
 
-        $precios_resumen = $precios === []
+        $precios_resumen = $enTabla === []
             ? ['Por ahora no hay precios 0 km vigentes en la lista: se ocultan solos cuando pasan los 120 días desde la consulta, hasta que se vuelven a verificar.']
-            : ['Hoy la lista reúne ' . count($precios) . ' precios 0 km publicados de ' . $modelosConPrecio . ' modelos y ' . $marcasConPrecio . ' marcas, ' . $rango . '.'
-               . ($enUsd > 0 ? ' ' . $enUsd . ' de ellos están publicados en dólares y se muestran sin convertir.' : '')];
+            : ['Hoy la tabla reúne el precio 0 km en guaraníes publicado de ' . $modelosConPrecio . ' modelos de ' . $marcasConPrecio . ' marcas, ' . $rango . '.'
+               . ($fueraDeTabla > 0 ? ' Otros ' . $fueraDeTabla . ' modelos con precio publicado en guaraníes no entran en la tabla por el tope de 10 por marca.' : '')
+               . ($soloUsd > 0 ? ' ' . $soloUsd . ' modelos publican sólo en dólares: su precio está en la página de cada modelo, sin convertir.' : '')];
         $precios_guia = [
             'group'           => 'precios',
             'title'           => 'Precios de motos 0 km en Paraguay, publicados con fuente y fecha',
@@ -2047,7 +2064,7 @@ return [
             'sections'        => $secciones,
             'faq'             => [
                 ['q' => '¿Estos precios son los que voy a pagar?', 'a' => 'No necesariamente. Son los precios que publicó cada fuente el día que los consultamos. Antes de comprar, confirmá con el comercio qué incluye el precio, si cambia según la forma de pago y si sigue vigente.'],
-                ['q' => '¿Por qué hay precios en dólares?', 'a' => 'Porque algunos distribuidores publican sus precios en US$. Los mostramos en la moneda en que los publican, sin convertirlos a guaraníes.'],
+                ['q' => '¿Y los precios que se publican en dólares?', 'a' => 'Porque algunos distribuidores publican sus precios en US$. No los convertimos a guaraníes: en esta tabla sólo hay precios publicados en guaraníes, y los de dólares están en la página de cada modelo.'],
                 ['q' => '¿Por qué mi modelo no aparece?', 'a' => 'Porque no encontramos un precio publicado por una fuente verificable, o porque el que teníamos venció. No estimamos precios: sólo mostramos los que publicó una fuente.'],
             ],
             'links'           => [
@@ -3931,6 +3948,19 @@ return [
                         '**Rodamientos de rueda en mal estado** que giran con resistencia.',
                         '**Exceso de carga** o un acompañante pesado.',
                     ]],
+                ],
+            ],
+            [
+                'h2' => 'Cuándo se nota y qué sugiere',
+                'id' => 'cuando-se-nota',
+                'body' => [
+                    ['list' => [
+                        '**Sólo en subidas o con carga:** suele ser embrague que patina, cadena gastada o filtro de aire tapado, porque son los momentos en que el motor se exige más.',
+                        '**Siempre, en cualquier situación:** apunta a mezcla, bujía, nafta o un motor con desgaste.',
+                        '**Sólo en caliente:** sospechá recalentamiento o un componente eléctrico que falla con la temperatura.',
+                        '**De golpe, después de lavarla o de la lluvia:** probablemente haya humedad en el sistema eléctrico o agua en la nafta.',
+                    ]],
+                    'Este dato vale oro para el mecánico, así que anotalo antes de ir.',
                 ],
             ],
             [

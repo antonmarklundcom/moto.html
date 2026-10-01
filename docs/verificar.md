@@ -63,6 +63,8 @@ Ninguno se muestra en el sitio (PLAN D14). Para resolver uno: reemplazá el bloq
 | `guias.moto-despues-de-la-lluvia.intro.1` | Recomendaciones del fabricante sobre lavado y sellado eléctrico por modelo: confirmar en el manual del propietario. |
 | `guias.guardar-la-moto-mucho-tiempo.intro.2` | Procedimiento de almacenamiento prolongado del fabricante (nafta, batería, cilindros) por modelo: confirmar en el manual del propietario. |
 | `guias.moto-se-apaga-sola.intro.1` | Régimen de ralentí y procedimiento de regulación por modelo: confirmar en el manual del propietario. |
+| `guias.moto-pierde-potencia.intro.1` | Potencia declarada por el fabricante para cada modelo (sólo con fuente): confirmar en la ficha oficial; en el catálogo se muestra únicamente la que tiene fuente. |
+| `guias.cubiertas-de-moto-cuando-cambiarlas.intro.2` | Medida de cubiertas delantera y trasera por modelo y profundidad mínima de dibujo exigida por la normativa paraguaya: confirmar en el manual del propietario y en la norma vigente de tránsito. |
 | `guias.registro-de-conducir-para-moto.intro.2` | confirmar en la ANTSV si el registro de motociclista ya se emite con el formato nacional unificado y qué municipios lo emiten; fuente: antsv.gov.py |
 | `guias.registro-de-conducir-para-moto.sections.1.body.3` | costo vigente de la licencia nueva de motociclista en Asunción, con los derechos de examen; fuente: Municipalidad de Asunción, tarifario vigente |
 | `guias.examen-teorico-registro-de-conducir.sections.1.body.1` | material de estudio oficial para el examen teórico (manual o cuestionario) publicado por la ANTSV o por la municipalidad; fuente: antsv.gov.py y sitios municipales |
