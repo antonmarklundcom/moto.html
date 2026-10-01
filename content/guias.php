@@ -2708,6 +2708,193 @@ return [
         'quiz' => null,
         'sources' => [],
     ],
+    'carburador-sucio-sintomas' => [
+        'group' => 'reparacion',
+        'title' => 'Carburador sucio: síntomas y qué hacer',
+        'navLabel' => 'Carburador sucio',
+        'seoTitle' => 'Carburador sucio: síntomas y qué hacer',
+        'metaDescription' => 'Carburador sucio en la moto: síntomas típicos (tirones, ralentí inestable, mala arrancada), causas, qué podés hacer y cuándo ir al taller.',
+        'query' => 'carburador sucio síntomas moto',
+        'published' => '2026-10-01',
+        'updated' => '2026-10-01',
+        'hero' => [
+            'h1' => 'Carburador sucio: síntomas y qué hacer',
+            'lead' => 'Si tu moto es a carburador y tironea, se apaga o cuesta arrancar, la suciedad en los conductos es una de las primeras sospechas.',
+        ],
+        'intro' => [
+            'El carburador mezcla aire y nafta en la proporción justa antes de mandarla al motor. Tiene conductos muy finos, y basta una partícula de suciedad, un poco de agua o nafta vieja convertida en barniz para que la mezcla salga mal. Es muy común en motos que estuvieron paradas, que cargan nafta de mala calidad o que andan por calles polvorientas. Las motos de inyección electrónica no tienen carburador, pero el principio es parecido con sus inyectores y filtros.',
+            'Para saber si tu moto tiene carburador o inyección, mirá la ficha técnica. En el catálogo, por ejemplo, la Yamaha Crypton y la Yamaha YC Z 110 figuran con alimentación a carburador, mientras que otras como la Yamaha MT-07 figuran con inyección; consultá siempre la ficha de tu modelo en [motos por marca](/motos).',
+            ['verify' => 'Alimentación (carburador o inyección) y ajustes de ralentí y de tornillo de mezcla de cada modelo: confirmar en el manual del propietario.'],
+        ],
+        'sections' => [
+            [
+                'h2' => 'Síntomas más comunes',
+                'id' => 'sintomas',
+                'body' => [
+                    ['list' => [
+                        'Cuesta arrancar, sobre todo en frío, o arranca y se apaga enseguida.',
+                        'El ralentí es inestable: sube y baja o se ahoga al parar.',
+                        'Tironea o titubea al acelerar.',
+                        'Pierde fuerza y no responde como antes (ver [moto pierde potencia](/guias/moto-pierde-potencia)).',
+                        'Gasta más nafta o huele a combustible sin quemar.',
+                        'Largas explosiones o "petardeos" por el escape al soltar el acelerador.',
+                    ]],
+                    'Varios de estos síntomas también los provoca una bujía gastada, un filtro de aire tapado o una toma de aire por una junta rota. Por eso conviene descartar lo simple antes de abrir el carburador.',
+                ],
+            ],
+            [
+                'h2' => 'Causas probables',
+                'id' => 'causas',
+                'body' => [
+                    ['list' => [
+                        '**Nafta vieja.** Con el tiempo, parte de la nafta se evapora y deja un residuo pegajoso que tapa los surtidores.',
+                        '**Agua o suciedad en el tanque**, que llega al carburador (ver [moto después de la lluvia](/guias/moto-despues-de-la-lluvia)).',
+                        '**Filtro de aire en mal estado**, que deja pasar polvo o limita el aire.',
+                        '**Moto parada por mucho tiempo** sin vaciar el carburador (ver [guardar la moto mucho tiempo](/guias/guardar-la-moto-mucho-tiempo)).',
+                        '**Ajustes movidos** del ralentí o de la mezcla.',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Qué podés hacer vos',
+                'id' => 'vos',
+                'body' => [
+                    ['ol' => [
+                        'Revisá la bujía (ver [bujía de moto](/guias/bujia-de-moto)): si está negra o mojada, la mezcla está mal.',
+                        'Mirá el filtro de aire: si está tapado de polvo, limpialo o cambialo según indique el manual.',
+                        'Usá nafta de una estación que te dé confianza y no dejes la moto con el tanque casi vacío por mucho tiempo.',
+                        'Si la moto estuvo parada, vaciá la nafta vieja del tanque y del carburador (el manual indica el tornillo de drenaje) y cargá nafta fresca.',
+                        'Algunos talleres recomiendan un aditivo limpiador de sistema de combustible. Preguntá en el taller si conviene en tu moto.',
+                    ]],
+                    'Evitá desarmar y regular el carburador sin experiencia: tiene surtidores diminutos que se dañan fácil, y una mala regulación puede empeorar el problema o recalentar el motor.',
+                ],
+            ],
+            [
+                'h2' => 'Cuándo llevarla al taller',
+                'id' => 'taller',
+                'body' => [
+                    'La limpieza completa de un carburador implica desmontarlo, desarmarlo, limpiar cada conducto, cambiar juntas si hace falta y volver a sincronizarlo. Es trabajo de taller. Consultá cuando:',
+                    ['list' => [
+                        'Revisaste bujía, filtro y nafta y el problema sigue.',
+                        'Hay pérdida de nafta por el carburador o por el tanque.',
+                        'La moto se apaga sola con frecuencia (ver [la moto se apaga sola](/guias/moto-se-apaga-sola)).',
+                        'No arranca ni con nafta nueva (ver [moto no arranca](/guias/moto-no-arranca)).',
+                    ]],
+                    'Pedí presupuesto antes de empezar. No damos precios porque cambian según el modelo y el taller.',
+                ],
+            ],
+            [
+                'h2' => 'Nota de seguridad',
+                'id' => 'seguridad',
+                'body' => [
+                    ['note' => 'La nafta es inflamable y sus vapores son nocivos. Trabajá al aire libre, sin chispas, cigarrillos ni calentadores cerca, y con el motor frío. Recogé la nafta que drenes en un recipiente adecuado y no la tires al suelo ni a un desagüe. Si hay pérdida de combustible, no arranques la moto.'],
+                ],
+            ],
+        ],
+        'faq' => [
+            ['q' => '¿Cómo sé si mi moto tiene carburador?', 'a' => 'Mirá la ficha técnica o el manual. Si tiene inyección electrónica, figura así, y las motos antiguas o más simples suelen tener carburador.'],
+            ['q' => '¿Un limpiador de carburador de aerosol alcanza?', 'a' => 'A veces alivia los síntomas, pero si hay suciedad en los surtidores hace falta limpiarlos bien en el taller.'],
+        ],
+        'links' => [
+            ['path' => '/motos', 'label' => 'Motos por marca y tipo'],
+        ],
+        'related' => ['moto-no-arranca', 'moto-se-apaga-sola', 'moto-pierde-potencia', 'moto-gasta-mucha-nafta'],
+        'quiz' => null,
+        'sources' => [],
+    ],
+    'moto-recalienta' => [
+        'group' => 'reparacion',
+        'title' => 'Moto que recalienta: causas y qué hacer',
+        'navLabel' => 'Moto recalienta',
+        'seoTitle' => 'Moto que recalienta: causas y qué hacer',
+        'metaDescription' => 'Qué hacer si tu moto se calienta de más: cómo actuar en el momento, causas (aceite, refrigeración, mezcla, calor) y cuándo llevarla al taller.',
+        'query' => 'moto recalienta',
+        'published' => '2026-10-01',
+        'updated' => '2026-10-01',
+        'hero' => [
+            'h1' => 'Moto que recalienta: causas y qué hacer',
+            'lead' => 'Un motor muy caliente puede dañarse en pocos minutos. Primero frená con calma; después buscá la causa.',
+        ],
+        'intro' => [
+            'Con el calor de Paraguay y el tránsito lento, el recalentamiento es una consulta frecuente. Señales típicas: olor a quemado, el motor pierde fuerza o suena distinto, la luz o el indicador de temperatura se encienden (en las motos que lo tienen), o hay vapor. Hay motos refrigeradas por aire, por aire y aceite o por líquido: según el catálogo, algunas figuran de un tipo y otras de otro, y cada una tiene sus puntos de revisión. Mirá la ficha de la tuya.',
+            ['verify' => 'Tipo de refrigeración, tipo y nivel de refrigerante y temperatura de funcionamiento de cada modelo: confirmar en el manual del propietario o en la ficha del fabricante.'],
+        ],
+        'sections' => [
+            [
+                'h2' => 'Qué hacer en el momento',
+                'id' => 'en-el-momento',
+                'body' => [
+                    ['ol' => [
+                        'Salí del tránsito con cuidado y detenete en un lugar seguro.',
+                        'Apagá el motor. No lo dejes al ralentí "para que se enfríe": en una moto sin ventilador eso lo empeora.',
+                        'Esperá a que se enfríe del todo antes de tocar nada. Puede llevar un buen rato.',
+                        'Mirá si hay pérdidas de aceite o de líquido debajo de la moto.',
+                        'Si tu moto es refrigerada por líquido y el depósito está bajo, completá con el refrigerante que indica el manual, **sólo con el motor frío**.',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Causas más comunes',
+                'id' => 'causas',
+                'body' => [
+                    ['list' => [
+                        '**Poco aceite o aceite degradado.** En motos refrigeradas por aire, el aceite ayuda a sacar calor. Mirá [cada cuánto cambiar el aceite](/guias/cada-cuanto-cambiar-el-aceite-de-la-moto).',
+                        '**Falta de refrigerante o pérdida**, en las motos refrigeradas por líquido; también un ventilador que no arranca o un radiador tapado de barro.',
+                        '**Mezcla pobre**: carburador sucio o una entrada de aire que no debería (ver [carburador sucio](/guias/carburador-sucio-sintomas)).',
+                        '**Ralentí largo con calor y poco aire**, como cuando quedás parado en el tránsito.',
+                        '**Carga excesiva** o manejar a muy altas revoluciones mucho tiempo.',
+                        '**Frenos o embrague arrastrando**, que generan fricción y calor.',
+                        '**Aletas del motor cubiertas de barro** o suciedad, que impiden que el aire enfríe.',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Qué podés revisar vos',
+                'id' => 'revisar',
+                'body' => [
+                    'Con el motor frío: el nivel de aceite; el nivel de refrigerante si tu moto lo lleva; que el radiador y las aletas no estén tapados; que el ventilador gire cuando el motor se calienta (si tiene) y que las mangueras no tengan pérdidas. Mirá también si la moto arrastra el freno o si el embrague patina (ver [embrague de moto](/guias/embrague-de-moto)).',
+                    'No hay que abrir la tapa del radiador con el motor caliente: el líquido sale a presión y quema.',
+                ],
+            ],
+            [
+                'h2' => 'Cómo prevenirlo',
+                'id' => 'prevenir',
+                'body' => [
+                    ['list' => [
+                        'Hacé el service como indica el manual, con aceite de la especificación correcta.',
+                        'Evitá el ralentí prolongado: apagá el motor si vas a quedar parado mucho rato.',
+                        'Limpiá las aletas o el radiador después del barro.',
+                        'En días de mucho calor, llevá un poco más de atención al nivel de aceite y refrigerante.',
+                        'Revisá la mezcla: un motor con la mezcla pobre se calienta más.',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Cuándo ir al taller',
+                'id' => 'taller',
+                'body' => [
+                    'Llevala si recalienta más de una vez, si perdés refrigerante o aceite, si el ventilador no funciona, si el motor sigue con olor a quemado después de enfriarse o si hay ruidos metálicos. Seguir andando con un motor recalentado puede deformar la tapa de cilindros o trabar el pistón, y esa reparación sale mucho más cara que revisarla a tiempo. Un [service de moto](/guias/service-de-moto-que-incluye) completo ayuda a detectar el problema antes.',
+                ],
+            ],
+            [
+                'h2' => 'Nota de seguridad',
+                'id' => 'seguridad',
+                'body' => [
+                    ['note' => 'No abras la tapa del radiador ni el depósito con el motor caliente, y no tires agua fría sobre un motor muy caliente: puede agrietarlo. El silenciador y el motor queman: esperá a que enfríen antes de tocarlos.'],
+                ],
+            ],
+        ],
+        'faq' => [
+            ['q' => '¿Puedo seguir hasta el taller si recalienta?', 'a' => 'Mejor no. Si el motor está muy caliente, apagalo, dejalo enfriar y revisá lo básico. Si el problema sigue, llamá a un transporte.'],
+            ['q' => '¿Las motos refrigeradas por aire recalientan más?', 'a' => 'Dependen más del flujo de aire y del aceite, así que sufren más en el tránsito lento y con calor. Cuidar el aceite y las aletas ayuda.'],
+        ],
+        'links' => [
+            ['path' => '/motos', 'label' => 'Motos por marca y tipo'],
+        ],
+        'related' => ['cada-cuanto-cambiar-el-aceite-de-la-moto', 'carburador-sucio-sintomas', 'embrague-de-moto'],
+        'quiz' => null,
+        'sources' => [],
+    ],
     /* == /B4 == */
     /* == B5 == */
     'registro-de-conducir-para-moto' => [

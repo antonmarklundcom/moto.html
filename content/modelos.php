@@ -95,6 +95,614 @@ return [
       ),
       'updated' => '2026-10-01',
     ),
+    'honda/cb160f' => array (
+      'intro' => 
+      array (
+        0 => 'Si buscás datos de la Honda CB160F, esta página te ahorra vueltas: se trata de una moto naked, es decir, de las que no llevan carenado completo de 162 cc. Abajo tenés el precio publicado (si hay uno vigente), la ficha técnica, consejos de mantenimiento y una lista de qué revisar si la encontrás usada.',
+        1 => 'Con fuente tenemos, además de la cilindrada, freno delantero, freno trasero y velocidad máxima. El precio 0 km que figura abajo lo publicó Classic Motos, y se muestra con la fecha de consulta. Es un precio publicado, no una oferta nuestra, y puede haber cambiado: confirmalo con el comercio.',
+        2 => 'No vendemos motos ni las probamos: si querés consultar disponibilidad, colores o formas de pago, escribinos por WhatsApp con el botón de la página y el mensaje ya sale con el nombre del modelo. En Paraguay la marca la distribuye DIESA S.A. según la fuente citada en [la página de la marca](/motos/honda).',
+        3 => 'Si todavía estás comparando, mirá también [Honda CB1 125](/motos/honda/cb1-125), [Honda XR 250 Tornado](/motos/honda/xr-250-tornado) y [Honda DIO 110](/motos/honda/dio-110).',
+      ),
+      'mantenimiento' => 
+      array (
+        0 => 'Para una moto naked como la Honda CB160F, lo que más se nota es la rutina corta: mirar el nivel de aceite seguido, limpiar y lubricar la cadena después de lluvia o tierra, y no dejar que el filtro de aire se tape. Es mantenimiento que muchos hacen en casa y otros dejan en el taller de confianza.',
+        1 => 'Al menos uno de los frenos es a tambor según la ficha: se revisan las zapatas y el ajuste del juego de la palanca o del pedal.',
+        2 => 'Con freno a disco, según la ficha, el control es sobre el espesor de las pastillas y el nivel y la limpieza del líquido de frenos (ver [las pastillas de freno](/guias/pastillas-de-freno-moto)).',
+        3 => 'Los intervalos exactos (cada cuántos kilómetros va el aceite, el filtro o la bujía) los fija el manual del propietario de la moto, y todavía no tenemos ese manual citado, así que no los inventamos. Mientras tanto, mirá [qué incluye un service](/guias/service-de-moto-que-incluye), [cada cuánto cambiar el aceite](/guias/cada-cuanto-cambiar-el-aceite-de-la-moto) y [cuánto cuesta mantener una moto](/guias/cuanto-cuesta-mantener-una-moto).',
+        4 => 
+        array (
+          'verify' => 'Intervalos de service de Honda CB160F (aceite, filtros, bujía, transmisión): tomar del manual del propietario o de la ficha del distribuidor oficial.',
+        ),
+      ),
+      'repuestos' => 
+      array (
+        0 => 'Los repuestos que se gastan primero son siempre los mismos, y conviene saber cuáles antes de que fallen en la Honda CB160F:',
+        1 => 
+        array (
+          'list' => 
+          array (
+            0 => 'Cables de embrague y de acelerador.',
+            1 => 'Lámparas y luces de giro, que se rompen con facilidad si la moto se cae.',
+            2 => 'Espejos y palancas, que son lo primero que se golpea en una caída.',
+            3 => 'Kit de arrastre (cadena, piñón y corona).',
+            4 => 'Zapatas o pastillas de freno, según el freno que lleve cada rueda.',
+            5 => 'Filtro de aire y filtro de aceite.',
+          ),
+        ),
+        2 => 'Pedí el repuesto con el nombre completo del modelo y el año, y fijate si es original o alternativo. La disponibilidad por zona y el precio los confirma el comercio o el taller, no nosotros: no publicamos precios de repuestos sin fuente.',
+      ),
+      'revisarUsada' => 
+      array (
+        0 => 'Antes de comprar Honda CB160F usada, no te apures: revisá, preguntá y comparalo con lo que publica el comercio oficial. Algunos puntos para mirar:',
+        1 => 
+        array (
+          'ol' => 
+          array (
+            0 => 'Revisá que los frenos frenen parejo y que las cubiertas no estén cuarteadas.',
+            1 => 'Fijate en las palancas, el manubrio y los espejos: un golpe de caída suele dejar marcas.',
+            2 => 'Comprobá que las luces, las luces de giro y la bocina funcionen.',
+            3 => 'Mirá el tanque por dentro, si podés: óxido o suciedad hablan del cuidado que tuvo.',
+            4 => 'Fijate que la moto no se tuerza al soltar el manubrio en marcha lenta.',
+            5 => 'Mirá la cadena y el piñón: juego excesivo o dientes afilados indican poco cuidado.',
+          ),
+        ),
+        2 => 'Hay más puntos en la guía de [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada). Para no caer en estafas, leé también [cómo comprar una usada sin que te estafen](/guias/como-comprar-una-moto-usada-sin-que-te-estafen), y tené a mano [los papeles de una moto al día](/guias/papeles-de-una-moto-al-dia) y [cómo transferir una moto](/guias/como-transferir-una-moto-en-paraguay). Si podés, llevá a un mecánico de confianza.',
+      ),
+      'faq' => 
+      array (
+        0 => 
+        array (
+          'q' => '¿Cuánto sale la Honda CB160F en Paraguay?',
+          'a' => 'El precio que publicó una fuente real figura en la sección de precio de esta página, con quién lo publicó (Classic Motos) y la fecha de consulta. Es un precio publicado, no una oferta nuestra: confirmalo con el comercio antes de decidir.',
+        ),
+        1 => 
+        array (
+          'q' => '¿Qué cilindrada tiene la Honda CB160F?',
+          'a' => 'Según la ficha técnica de esta página, tiene 162 cc. En la tabla de arriba figura cada dato con su fuente y la fecha de consulta.',
+        ),
+        2 => 
+        array (
+          'q' => '¿Quién distribuye Honda en Paraguay?',
+          'a' => 'Según la fuente que citamos en la página de la marca, el distribuidor es DIESA S.A.. La red de venta puede cambiar, así que confirmalo con el comercio.',
+        ),
+        3 => 
+        array (
+          'q' => '¿Qué tengo que revisar si compro la Honda CB160F usada?',
+          'a' => 'Los papeles al día, el estado de la transmisión, los frenos, las cubiertas y si hay pérdidas de aceite o golpes de caída. Tenés la lista completa en la sección de arriba y en la guía sobre qué revisar antes de comprar una moto usada.',
+        ),
+      ),
+      'updated' => '2026-10-01',
+    ),
+    'honda/dio-110' => array (
+      'intro' => 
+      array (
+        0 => 'Si buscás datos de el Honda DIO 110, esta página te ahorra vueltas: se trata de un scooter. Abajo tenés el precio publicado (si hay uno vigente), la ficha técnica, consejos de mantenimiento y una lista de qué revisar si la encontrás usada.',
+        1 => 'Con fuente tenemos tipo de arranque. El precio 0 km que figura abajo lo publicó Honda Motos Paraguay, y se muestra con la fecha de consulta. Es un precio publicado, no una oferta nuestra, y puede haber cambiado: confirmalo con el comercio.',
+        2 => 'No vendemos motos ni las probamos: si querés consultar disponibilidad, colores o formas de pago, escribinos por WhatsApp con el botón de la página y el mensaje ya sale con el nombre del modelo. En Paraguay la marca la distribuye DIESA S.A. según la fuente citada en [la página de la marca](/motos/honda).',
+        3 => 'Si todavía estás comparando, mirá también [Honda Navi 110](/motos/honda/navi-110), [Honda CB160F](/motos/honda/cb160f) y [Honda NX190](/motos/honda/nx190).',
+      ),
+      'mantenimiento' => 
+      array (
+        0 => 'Un scooter como el Honda DIO 110 no lleva cadena: tiene una transmisión automática que también se desgasta y que el taller debe revisar en cada service. Fuera de eso, cuidá el aceite, el filtro de aire, la bujía, los frenos y las cubiertas, que en ruedas chicas se gastan rápido.',
+        1 => 'Los intervalos exactos (cada cuántos kilómetros va el aceite, el filtro o la bujía) los fija el manual del propietario de la moto, y todavía no tenemos ese manual citado, así que no los inventamos. Mientras tanto, mirá [qué incluye un service](/guias/service-de-moto-que-incluye), [cada cuánto cambiar el aceite](/guias/cada-cuanto-cambiar-el-aceite-de-la-moto) y [cuánto cuesta mantener una moto](/guias/cuanto-cuesta-mantener-una-moto).',
+        2 => 
+        array (
+          'verify' => 'Intervalos de service de Honda DIO 110 (aceite, filtros, bujía, transmisión): tomar del manual del propietario o de la ficha del distribuidor oficial.',
+        ),
+      ),
+      'repuestos' => 
+      array (
+        0 => 'Los repuestos que se gastan primero son siempre los mismos, y conviene saber cuáles antes de que fallen en el Honda DIO 110:',
+        1 => 
+        array (
+          'list' => 
+          array (
+            0 => 'Cubiertas, en la medida que indique el manual del modelo o el comercio, que en scooter se gastan más rápido.',
+            1 => 'Cable del acelerador.',
+            2 => 'Lámparas y luces de giro.',
+            3 => 'Espejos y carenados, que son lo primero que se rompe en una caída.',
+            4 => 'Correa de transmisión y rodillos del variador, según el modelo.',
+            5 => 'Pastillas o zapatas de freno.',
+          ),
+        ),
+        2 => 'Pedí el repuesto con el nombre completo del modelo y el año, y fijate si es original o alternativo. La disponibilidad por zona y el precio los confirma el comercio o el taller, no nosotros: no publicamos precios de repuestos sin fuente.',
+      ),
+      'revisarUsada' => 
+      array (
+        0 => 'Para un Honda DIO 110 usado, estos puntos te evitan sorpresas:',
+        1 => 
+        array (
+          'ol' => 
+          array (
+            0 => 'Comprobá luces, luces de giro, bocina y el asiento con su cierre.',
+            1 => 'Revisá el escape y que no haya humo azul o blanco al acelerar.',
+            2 => 'Pedí que la arranquen en frío y escuchá la transmisión automática: tirones o vibraciones al acelerar son mala señal.',
+            3 => 'Revisá las cubiertas, que en ruedas chicas se gastan rápido, y los frenos.',
+            4 => 'Buscá golpes en los carenados y en el piso, y roturas en los plásticos.',
+            5 => 'Fijate que la batería arranque sin problemas y que el motor de arranque responda.',
+          ),
+        ),
+        2 => 'Hay más puntos en la guía de [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada). Para no caer en estafas, leé también [cómo comprar una usada sin que te estafen](/guias/como-comprar-una-moto-usada-sin-que-te-estafen), y tené a mano [los papeles de una moto al día](/guias/papeles-de-una-moto-al-dia) y [cómo transferir una moto](/guias/como-transferir-una-moto-en-paraguay). Si podés, llevá a un mecánico de confianza.',
+      ),
+      'faq' => 
+      array (
+        0 => 
+        array (
+          'q' => '¿Cuánto sale el Honda DIO 110 en Paraguay?',
+          'a' => 'El precio que publicó una fuente real figura en la sección de precio de esta página, con quién lo publicó (Honda Motos Paraguay) y la fecha de consulta. Es un precio publicado, no una oferta nuestra: confirmalo con el comercio antes de decidir.',
+        ),
+        1 => 
+        array (
+          'q' => '¿Dónde veo la ficha técnica de el Honda DIO 110?',
+          'a' => 'En la tabla de ficha técnica de esta página, con la fuente y la fecha de consulta de cada dato. Los datos que no tienen fuente no se muestran.',
+        ),
+        2 => 
+        array (
+          'q' => '¿Quién distribuye Honda en Paraguay?',
+          'a' => 'Según la fuente que citamos en la página de la marca, el distribuidor es DIESA S.A.. La red de venta puede cambiar, así que confirmalo con el comercio.',
+        ),
+        3 => 
+        array (
+          'q' => '¿Qué tengo que revisar si compro el Honda DIO 110 usado?',
+          'a' => 'Los papeles al día, el estado de la transmisión, los frenos, las cubiertas y si hay pérdidas de aceite o golpes de caída. Tenés la lista completa en la sección de arriba y en la guía sobre qué revisar antes de comprar una moto usada.',
+        ),
+      ),
+      'updated' => '2026-10-01',
+    ),
+    'honda/navi-110' => array (
+      'intro' => 
+      array (
+        0 => 'Si buscás datos de el Honda Navi 110, esta página te ahorra vueltas: se trata de un scooter de 109 cc. Abajo tenés el precio publicado (si hay uno vigente), la ficha técnica, consejos de mantenimiento y una lista de qué revisar si la encontrás usada.',
+        1 => 'Con fuente tenemos, además de la cilindrada, potencia, transmisión, tipo de arranque, freno delantero, freno trasero y peso. Todavía no hay un precio vigente publicado por una fuente, y no lo calculamos por nuestra cuenta.',
+        2 => 'No vendemos motos ni las probamos: si querés consultar disponibilidad, colores o formas de pago, escribinos por WhatsApp con el botón de la página y el mensaje ya sale con el nombre del modelo. En Paraguay la marca la distribuye DIESA S.A. según la fuente citada en [la página de la marca](/motos/honda).',
+        3 => 'Si todavía estás comparando, mirá también [Honda DIO 110](/motos/honda/dio-110), [Honda NX190](/motos/honda/nx190) y [Honda Wave 110S](/motos/honda/wave).',
+      ),
+      'mantenimiento' => 
+      array (
+        0 => 'Un scooter como el Honda Navi 110 no lleva cadena: tiene una transmisión automática que también se desgasta y que el taller debe revisar en cada service. Fuera de eso, cuidá el aceite, el filtro de aire, la bujía, los frenos y las cubiertas, que en ruedas chicas se gastan rápido.',
+        1 => 'Al menos uno de los frenos es a tambor según la ficha: se revisan las zapatas y el ajuste del juego de la palanca o del pedal.',
+        2 => 'Los intervalos exactos (cada cuántos kilómetros va el aceite, el filtro o la bujía) los fija el manual del propietario de la moto, y todavía no tenemos ese manual citado, así que no los inventamos. Mientras tanto, mirá [qué incluye un service](/guias/service-de-moto-que-incluye), [cada cuánto cambiar el aceite](/guias/cada-cuanto-cambiar-el-aceite-de-la-moto) y [cuánto cuesta mantener una moto](/guias/cuanto-cuesta-mantener-una-moto).',
+        3 => 
+        array (
+          'verify' => 'Intervalos de service de Honda Navi 110 (aceite, filtros, bujía, transmisión): tomar del manual del propietario o de la ficha del distribuidor oficial.',
+        ),
+      ),
+      'repuestos' => 
+      array (
+        0 => 'Los repuestos que se gastan primero son siempre los mismos, y conviene saber cuáles antes de que fallen en el Honda Navi 110:',
+        1 => 
+        array (
+          'list' => 
+          array (
+            0 => 'Zapatas o pastillas de freno, según el freno que lleve cada rueda.',
+            1 => 'Filtro de aire y filtro de aceite.',
+            2 => 'Bujía y batería.',
+            3 => 'Cubiertas, en la medida que figura en la ficha técnica, que en scooter se gastan más rápido.',
+            4 => 'Cable del acelerador.',
+          ),
+        ),
+        2 => 'Pedí el repuesto con el nombre completo del modelo y el año, y fijate si es original o alternativo. La disponibilidad por zona y el precio los confirma el comercio o el taller, no nosotros: no publicamos precios de repuestos sin fuente.',
+      ),
+      'revisarUsada' => 
+      array (
+        0 => 'Si encontrás Honda Navi 110 usado, desconfiá del precio demasiado bueno y revisá con calma antes de mover plata. Una lista corta para empezar:',
+        1 => 
+        array (
+          'ol' => 
+          array (
+            0 => 'Revisá el escape y que no haya humo azul o blanco al acelerar.',
+            1 => 'Pedí que la arranquen en frío y escuchá la transmisión automática: tirones o vibraciones al acelerar son mala señal.',
+            2 => 'Revisá las cubiertas, que en ruedas chicas se gastan rápido, y los frenos.',
+            3 => 'Buscá golpes en los carenados y en el piso, y roturas en los plásticos.',
+            4 => 'Fijate que la batería arranque sin problemas y que el motor de arranque responda.',
+          ),
+        ),
+        2 => 'Hay más puntos en la guía de [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada). Para no caer en estafas, leé también [cómo comprar una usada sin que te estafen](/guias/como-comprar-una-moto-usada-sin-que-te-estafen), y tené a mano [los papeles de una moto al día](/guias/papeles-de-una-moto-al-dia) y [cómo transferir una moto](/guias/como-transferir-una-moto-en-paraguay). Si podés, llevá a un mecánico de confianza.',
+      ),
+      'faq' => 
+      array (
+        0 => 
+        array (
+          'q' => '¿Cuánto sale el Honda Navi 110 en Paraguay?',
+          'a' => 'Todavía no hay un precio vigente publicado por una fuente real, y no lo estimamos nosotros. Escribinos por WhatsApp o consultá con el distribuidor, DIESA S.A., para saber el precio actual.',
+        ),
+        1 => 
+        array (
+          'q' => '¿Qué cilindrada tiene el Honda Navi 110?',
+          'a' => 'Según la ficha técnica de esta página, tiene 109 cc. En la tabla de arriba figura cada dato con su fuente y la fecha de consulta.',
+        ),
+        2 => 
+        array (
+          'q' => '¿Quién distribuye Honda en Paraguay?',
+          'a' => 'Según la fuente que citamos en la página de la marca, el distribuidor es DIESA S.A.. La red de venta puede cambiar, así que confirmalo con el comercio.',
+        ),
+        3 => 
+        array (
+          'q' => '¿Qué tengo que revisar si compro el Honda Navi 110 usado?',
+          'a' => 'Los papeles al día, el estado de la transmisión, los frenos, las cubiertas y si hay pérdidas de aceite o golpes de caída. Tenés la lista completa en la sección de arriba y en la guía sobre qué revisar antes de comprar una moto usada.',
+        ),
+      ),
+      'updated' => '2026-10-01',
+    ),
+    'honda/nx190' => array (
+      'intro' => 
+      array (
+        0 => 'La Honda NX190 es una moto de tipo enduro o cross de 184 cc que figura en nuestro catálogo de motos que se consiguen en Paraguay. Acá reunimos su ficha técnica con la fuente de cada dato, el precio cuando una fuente real lo publicó y lo que conviene saber antes de preguntar por ella.',
+        1 => 'Con fuente tenemos, además de la cilindrada, freno delantero, freno trasero, tanque de combustible, tipo de motor y alimentación. Todavía no hay un precio vigente publicado por una fuente, y no lo calculamos por nuestra cuenta.',
+        2 => 'No vendemos motos ni las probamos: si querés consultar disponibilidad, colores o formas de pago, escribinos por WhatsApp con el botón de la página y el mensaje ya sale con el nombre del modelo. En Paraguay la marca la distribuye DIESA S.A. según la fuente citada en [la página de la marca](/motos/honda).',
+        3 => 'Si todavía estás comparando, mirá también [Honda XR 150L](/motos/honda/xr-150), [Honda XR 190L](/motos/honda/xr-190) y [Honda Navi 110](/motos/honda/navi-110).',
+      ),
+      'mantenimiento' => 
+      array (
+        0 => 'Una moto de tipo enduro o cross como la Honda NX190 sufre más que una de calle: polvo en el filtro de aire, barro en la cadena y golpes en la suspensión. Después de salir a tierra o de una lluvia, lavala, secala y revisá cadena, filtro de aire y tornillos flojos.',
+        1 => 'La alimentación es por inyección electrónica: es poco lo que se hace en casa, pero conviene cargar combustible de buena calidad y llevarla a un taller que pueda leer el sistema si se enciende alguna luz de falla.',
+        2 => 'Con freno a disco, según la ficha, el control es sobre el espesor de las pastillas y el nivel y la limpieza del líquido de frenos (ver [las pastillas de freno](/guias/pastillas-de-freno-moto)).',
+        3 => 'Los intervalos exactos (cada cuántos kilómetros va el aceite, el filtro o la bujía) los fija el manual del propietario de la moto, y todavía no tenemos ese manual citado, así que no los inventamos. Mientras tanto, mirá [qué incluye un service](/guias/service-de-moto-que-incluye), [cada cuánto cambiar el aceite](/guias/cada-cuanto-cambiar-el-aceite-de-la-moto) y [cuánto cuesta mantener una moto](/guias/cuanto-cuesta-mantener-una-moto).',
+        4 => 
+        array (
+          'verify' => 'Intervalos de service de Honda NX190 (aceite, filtros, bujía, transmisión): tomar del manual del propietario o de la ficha del distribuidor oficial.',
+        ),
+      ),
+      'repuestos' => 
+      array (
+        0 => 'Los repuestos que se gastan primero son siempre los mismos, y conviene saber cuáles antes de que fallen en la Honda NX190:',
+        1 => 
+        array (
+          'list' => 
+          array (
+            0 => 'Cubiertas, en la medida que indique el manual del modelo o el comercio.',
+            1 => 'Palancas de freno y de embrague de repuesto.',
+            2 => 'Retenes y aceite de la horquilla, según el manual.',
+            3 => 'Protectores y manoplas.',
+            4 => 'Kit de arrastre (cadena, piñón y corona), de lo más exigido en tierra.',
+          ),
+        ),
+        2 => 'Pedí el repuesto con el nombre completo del modelo y el año, y fijate si es original o alternativo. La disponibilidad por zona y el precio los confirma el comercio o el taller, no nosotros: no publicamos precios de repuestos sin fuente.',
+      ),
+      'revisarUsada' => 
+      array (
+        0 => 'Si encontrás Honda NX190 usada, desconfiá del precio demasiado bueno y revisá con calma antes de mover plata. Una lista corta para empezar:',
+        1 => 
+        array (
+          'ol' => 
+          array (
+            0 => 'Revisá la cadena, el piñón y la corona.',
+            1 => 'Escuchá el motor en frío y en caliente, y fijate si humea o pierde aceite.',
+            2 => 'Pedí los papeles al día y compará los números de chasis y de motor.',
+            3 => 'Preguntá si se usó en competencia o en trabajo de campo.',
+            4 => 'Revisá la suspensión y las botellas de la horquilla: pérdidas de aceite son frecuentes en motos que salieron a tierra.',
+          ),
+        ),
+        2 => 'Hay más puntos en la guía de [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada). Para no caer en estafas, leé también [cómo comprar una usada sin que te estafen](/guias/como-comprar-una-moto-usada-sin-que-te-estafen), y tené a mano [los papeles de una moto al día](/guias/papeles-de-una-moto-al-dia) y [cómo transferir una moto](/guias/como-transferir-una-moto-en-paraguay). Si podés, llevá a un mecánico de confianza.',
+      ),
+      'faq' => 
+      array (
+        0 => 
+        array (
+          'q' => '¿Cuánto sale la Honda NX190 en Paraguay?',
+          'a' => 'Todavía no hay un precio vigente publicado por una fuente real, y no lo estimamos nosotros. Escribinos por WhatsApp o consultá con el distribuidor, DIESA S.A., para saber el precio actual.',
+        ),
+        1 => 
+        array (
+          'q' => '¿Qué cilindrada tiene la Honda NX190?',
+          'a' => 'Según la ficha técnica de esta página, tiene 184 cc. En la tabla de arriba figura cada dato con su fuente y la fecha de consulta.',
+        ),
+        2 => 
+        array (
+          'q' => '¿Quién distribuye Honda en Paraguay?',
+          'a' => 'Según la fuente que citamos en la página de la marca, el distribuidor es DIESA S.A.. La red de venta puede cambiar, así que confirmalo con el comercio.',
+        ),
+        3 => 
+        array (
+          'q' => '¿Qué tengo que revisar si compro la Honda NX190 usada?',
+          'a' => 'Los papeles al día, el estado de la transmisión, los frenos, las cubiertas y si hay pérdidas de aceite o golpes de caída. Tenés la lista completa en la sección de arriba y en la guía sobre qué revisar antes de comprar una moto usada.',
+        ),
+      ),
+      'updated' => '2026-10-01',
+    ),
+    'honda/wave' => array (
+      'intro' => 
+      array (
+        0 => 'Si buscás datos de la Honda Wave 110S, esta página te ahorra vueltas: se trata de una moto de tipo cub de 110 cc. Abajo tenés el precio publicado (si hay uno vigente), la ficha técnica, consejos de mantenimiento y una lista de qué revisar si la encontrás usada.',
+        1 => 'Con fuente tenemos, además de la cilindrada, transmisión, tipo de arranque y refrigeración. El precio 0 km que figura abajo lo publicó Classic Motos, y se muestra con la fecha de consulta. Es un precio publicado, no una oferta nuestra, y puede haber cambiado: confirmalo con el comercio.',
+        2 => 'No vendemos motos ni las probamos: si querés consultar disponibilidad, colores o formas de pago, escribinos por WhatsApp con el botón de la página y el mensaje ya sale con el nombre del modelo. En Paraguay la marca la distribuye DIESA S.A. según la fuente citada en [la página de la marca](/motos/honda).',
+        3 => 'Si todavía estás comparando, mirá también [Honda CB160F](/motos/honda/cb160f), [Honda DIO 110](/motos/honda/dio-110) y [Honda Navi 110](/motos/honda/navi-110).',
+      ),
+      'mantenimiento' => 
+      array (
+        0 => 'Las motos tipo cub, como la Honda Wave 110S, se destacan por tener una mecánica simple, y eso se traduce en un mantenimiento sencillo: aceite a tiempo, filtro de aire limpio, bujía, cadena tensada y lubricada, y frenos al día. Si la usás para trabajar todos los días, no te saltees el service.',
+        1 => 'Según la ficha, el motor se refrigera por aire: sin radiador ni líquido, pero con una exigencia mayor en el calor y en el tránsito lento, así que mirá el nivel de aceite más seguido en el verano.',
+        2 => 'Los intervalos exactos (cada cuántos kilómetros va el aceite, el filtro o la bujía) los fija el manual del propietario de la moto, y todavía no tenemos ese manual citado, así que no los inventamos. Mientras tanto, mirá [qué incluye un service](/guias/service-de-moto-que-incluye), [cada cuánto cambiar el aceite](/guias/cada-cuanto-cambiar-el-aceite-de-la-moto) y [cuánto cuesta mantener una moto](/guias/cuanto-cuesta-mantener-una-moto).',
+        3 => 
+        array (
+          'verify' => 'Intervalos de service de Honda Wave 110S (aceite, filtros, bujía, transmisión): tomar del manual del propietario o de la ficha del distribuidor oficial.',
+        ),
+      ),
+      'repuestos' => 
+      array (
+        0 => 'Los repuestos que se gastan primero son siempre los mismos, y conviene saber cuáles antes de que fallen en la Honda Wave 110S:',
+        1 => 
+        array (
+          'list' => 
+          array (
+            0 => 'Kit de arrastre (cadena, piñón y corona).',
+            1 => 'Pastillas o zapatas de freno.',
+            2 => 'Filtro de aire y filtro de aceite.',
+            3 => 'Bujía y batería.',
+            4 => 'Cubiertas, en la medida que indique el manual del modelo o el comercio.',
+            5 => 'Cables de embrague y de acelerador.',
+          ),
+        ),
+        2 => 'Pedí el repuesto con el nombre completo del modelo y el año, y fijate si es original o alternativo. La disponibilidad por zona y el precio los confirma el comercio o el taller, no nosotros: no publicamos precios de repuestos sin fuente.',
+      ),
+      'revisarUsada' => 
+      array (
+        0 => 'Si encontrás Honda Wave 110S usada, desconfiá del precio demasiado bueno y revisá con calma antes de mover plata. Una lista corta para empezar:',
+        1 => 
+        array (
+          'ol' => 
+          array (
+            0 => 'Comprobá luces, luces de giro y bocina.',
+            1 => 'Preguntá si se usó para reparto o carga, y cuántos dueños tuvo.',
+            2 => 'Mirá la cadena y el piñón: son lo primero que se gasta en una moto de trabajo.',
+            3 => 'Pedí que la arranquen en frío y escuchá ruidos del motor.',
+            4 => 'Probá que los cambios entren suaves y que el embrague no patine.',
+            5 => 'Revisá frenos y cubiertas: una moto de trabajo suele tener muchos kilómetros.',
+          ),
+        ),
+        2 => 'Hay más puntos en la guía de [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada). Para no caer en estafas, leé también [cómo comprar una usada sin que te estafen](/guias/como-comprar-una-moto-usada-sin-que-te-estafen), y tené a mano [los papeles de una moto al día](/guias/papeles-de-una-moto-al-dia) y [cómo transferir una moto](/guias/como-transferir-una-moto-en-paraguay). Si podés, llevá a un mecánico de confianza.',
+      ),
+      'faq' => 
+      array (
+        0 => 
+        array (
+          'q' => '¿Cuánto sale la Honda Wave 110S en Paraguay?',
+          'a' => 'El precio que publicó una fuente real figura en la sección de precio de esta página, con quién lo publicó (Classic Motos) y la fecha de consulta. Es un precio publicado, no una oferta nuestra: confirmalo con el comercio antes de decidir.',
+        ),
+        1 => 
+        array (
+          'q' => '¿Qué cilindrada tiene la Honda Wave 110S?',
+          'a' => 'Según la ficha técnica de esta página, tiene 110 cc. En la tabla de arriba figura cada dato con su fuente y la fecha de consulta.',
+        ),
+        2 => 
+        array (
+          'q' => '¿Quién distribuye Honda en Paraguay?',
+          'a' => 'Según la fuente que citamos en la página de la marca, el distribuidor es DIESA S.A.. La red de venta puede cambiar, así que confirmalo con el comercio.',
+        ),
+        3 => 
+        array (
+          'q' => '¿Qué tengo que revisar si compro la Honda Wave 110S usada?',
+          'a' => 'Los papeles al día, el estado de la transmisión, los frenos, las cubiertas y si hay pérdidas de aceite o golpes de caída. Tenés la lista completa en la sección de arriba y en la guía sobre qué revisar antes de comprar una moto usada.',
+        ),
+      ),
+      'updated' => '2026-10-01',
+    ),
+    'honda/xr-150' => array (
+      'intro' => 
+      array (
+        0 => 'La Honda XR 150L es una moto de tipo enduro o cross de 150 cc que figura en nuestro catálogo de motos que se consiguen en Paraguay. Acá reunimos su ficha técnica con la fuente de cada dato, el precio cuando una fuente real lo publicó y lo que conviene saber antes de preguntar por ella.',
+        1 => 'De la ficha técnica sólo tenemos con fuente la cilindrada, así que no completamos el resto con suposiciones. El precio 0 km que figura abajo lo publicó Honda Motos Paraguay y Classic Motos, y se muestra con la fecha de consulta. Es un precio publicado, no una oferta nuestra, y puede haber cambiado: confirmalo con el comercio.',
+        2 => 'No vendemos motos ni las probamos: si querés consultar disponibilidad, colores o formas de pago, escribinos por WhatsApp con el botón de la página y el mensaje ya sale con el nombre del modelo. En Paraguay la marca la distribuye DIESA S.A. según la fuente citada en [la página de la marca](/motos/honda).',
+        3 => 'Si todavía estás comparando, mirá también [Honda NX190](/motos/honda/nx190), [Honda XR 190L](/motos/honda/xr-190) y [Honda Wave 110S](/motos/honda/wave).',
+      ),
+      'mantenimiento' => 
+      array (
+        0 => 'Una moto de tipo enduro o cross como la Honda XR 150L sufre más que una de calle: polvo en el filtro de aire, barro en la cadena y golpes en la suspensión. Después de salir a tierra o de una lluvia, lavala, secala y revisá cadena, filtro de aire y tornillos flojos.',
+        1 => 'Los intervalos exactos (cada cuántos kilómetros va el aceite, el filtro o la bujía) los fija el manual del propietario de la moto, y todavía no tenemos ese manual citado, así que no los inventamos. Mientras tanto, mirá [qué incluye un service](/guias/service-de-moto-que-incluye), [cada cuánto cambiar el aceite](/guias/cada-cuanto-cambiar-el-aceite-de-la-moto) y [cuánto cuesta mantener una moto](/guias/cuanto-cuesta-mantener-una-moto).',
+        2 => 
+        array (
+          'verify' => 'Intervalos de service de Honda XR 150L (aceite, filtros, bujía, transmisión): tomar del manual del propietario o de la ficha del distribuidor oficial.',
+        ),
+      ),
+      'repuestos' => 
+      array (
+        0 => 'Los repuestos que se gastan primero son siempre los mismos, y conviene saber cuáles antes de que fallen en la Honda XR 150L:',
+        1 => 
+        array (
+          'list' => 
+          array (
+            0 => 'Retenes y aceite de la horquilla, según el manual.',
+            1 => 'Protectores y manoplas.',
+            2 => 'Kit de arrastre (cadena, piñón y corona), de lo más exigido en tierra.',
+            3 => 'Pastillas o zapatas de freno.',
+            4 => 'Filtro de aire, que se cambia con más frecuencia si salís a caminos de tierra.',
+            5 => 'Filtro de aceite y bujía.',
+          ),
+        ),
+        2 => 'Pedí el repuesto con el nombre completo del modelo y el año, y fijate si es original o alternativo. La disponibilidad por zona y el precio los confirma el comercio o el taller, no nosotros: no publicamos precios de repuestos sin fuente.',
+      ),
+      'revisarUsada' => 
+      array (
+        0 => 'Antes de comprar Honda XR 150L usada, no te apures: revisá, preguntá y comparalo con lo que publica el comercio oficial. Algunos puntos para mirar:',
+        1 => 
+        array (
+          'ol' => 
+          array (
+            0 => 'Buscá torceduras en el manubrio, el cuadro y las llantas, señales de caídas fuertes.',
+            1 => 'Mirá el filtro de aire: si está sucio o roto, el motor pudo haber tragado polvo.',
+            2 => 'Probá que los frenos frenen parejo y que las cubiertas tengan taco.',
+            3 => 'Revisá la cadena, el piñón y la corona.',
+            4 => 'Escuchá el motor en frío y en caliente, y fijate si humea o pierde aceite.',
+          ),
+        ),
+        2 => 'Hay más puntos en la guía de [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada). Para no caer en estafas, leé también [cómo comprar una usada sin que te estafen](/guias/como-comprar-una-moto-usada-sin-que-te-estafen), y tené a mano [los papeles de una moto al día](/guias/papeles-de-una-moto-al-dia) y [cómo transferir una moto](/guias/como-transferir-una-moto-en-paraguay). Si podés, llevá a un mecánico de confianza.',
+      ),
+      'faq' => 
+      array (
+        0 => 
+        array (
+          'q' => '¿Cuánto sale la Honda XR 150L en Paraguay?',
+          'a' => 'El precio que publicó una fuente real figura en la sección de precio de esta página, con quién lo publicó (Honda Motos Paraguay y Classic Motos) y la fecha de consulta. Es un precio publicado, no una oferta nuestra: confirmalo con el comercio antes de decidir.',
+        ),
+        1 => 
+        array (
+          'q' => '¿Qué cilindrada tiene la Honda XR 150L?',
+          'a' => 'Según la ficha técnica de esta página, tiene 150 cc. En la tabla de arriba figura cada dato con su fuente y la fecha de consulta.',
+        ),
+        2 => 
+        array (
+          'q' => '¿Quién distribuye Honda en Paraguay?',
+          'a' => 'Según la fuente que citamos en la página de la marca, el distribuidor es DIESA S.A.. La red de venta puede cambiar, así que confirmalo con el comercio.',
+        ),
+        3 => 
+        array (
+          'q' => '¿Qué tengo que revisar si compro la Honda XR 150L usada?',
+          'a' => 'Los papeles al día, el estado de la transmisión, los frenos, las cubiertas y si hay pérdidas de aceite o golpes de caída. Tenés la lista completa en la sección de arriba y en la guía sobre qué revisar antes de comprar una moto usada.',
+        ),
+      ),
+      'updated' => '2026-10-01',
+    ),
+    'honda/xr-190' => array (
+      'intro' => 
+      array (
+        0 => 'La Honda XR 190L es una moto de tipo enduro o cross que figura en nuestro catálogo de motos que se consiguen en Paraguay. Acá reunimos su ficha técnica con la fuente de cada dato, el precio cuando una fuente real lo publicó y lo que conviene saber antes de preguntar por ella.',
+        1 => 'De la ficha técnica todavía no tenemos datos con fuente, así que no los completamos con suposiciones. El precio 0 km que figura abajo lo publicó Classic Motos, y se muestra con la fecha de consulta. Es un precio publicado, no una oferta nuestra, y puede haber cambiado: confirmalo con el comercio.',
+        2 => 'No vendemos motos ni las probamos: si querés consultar disponibilidad, colores o formas de pago, escribinos por WhatsApp con el botón de la página y el mensaje ya sale con el nombre del modelo. En Paraguay la marca la distribuye DIESA S.A. según la fuente citada en [la página de la marca](/motos/honda).',
+        3 => 'Si todavía estás comparando, mirá también [Honda NX190](/motos/honda/nx190), [Honda XR 150L](/motos/honda/xr-150) y [Honda CB160F](/motos/honda/cb160f).',
+      ),
+      'mantenimiento' => 
+      array (
+        0 => 'Una moto de tipo enduro o cross como la Honda XR 190L sufre más que una de calle: polvo en el filtro de aire, barro en la cadena y golpes en la suspensión. Después de salir a tierra o de una lluvia, lavala, secala y revisá cadena, filtro de aire y tornillos flojos.',
+        1 => 'Los intervalos exactos (cada cuántos kilómetros va el aceite, el filtro o la bujía) los fija el manual del propietario de la moto, y todavía no tenemos ese manual citado, así que no los inventamos. Mientras tanto, mirá [qué incluye un service](/guias/service-de-moto-que-incluye), [cada cuánto cambiar el aceite](/guias/cada-cuanto-cambiar-el-aceite-de-la-moto) y [cuánto cuesta mantener una moto](/guias/cuanto-cuesta-mantener-una-moto).',
+        2 => 
+        array (
+          'verify' => 'Intervalos de service de Honda XR 190L (aceite, filtros, bujía, transmisión): tomar del manual del propietario o de la ficha del distribuidor oficial.',
+        ),
+      ),
+      'repuestos' => 
+      array (
+        0 => 'Los repuestos que se gastan primero son siempre los mismos, y conviene saber cuáles antes de que fallen en la Honda XR 190L:',
+        1 => 
+        array (
+          'list' => 
+          array (
+            0 => 'Palancas de freno y de embrague de repuesto.',
+            1 => 'Retenes y aceite de la horquilla, según el manual.',
+            2 => 'Protectores y manoplas.',
+            3 => 'Kit de arrastre (cadena, piñón y corona), de lo más exigido en tierra.',
+            4 => 'Pastillas o zapatas de freno.',
+            5 => 'Filtro de aire, que se cambia con más frecuencia si salís a caminos de tierra.',
+          ),
+        ),
+        2 => 'Pedí el repuesto con el nombre completo del modelo y el año, y fijate si es original o alternativo. La disponibilidad por zona y el precio los confirma el comercio o el taller, no nosotros: no publicamos precios de repuestos sin fuente.',
+      ),
+      'revisarUsada' => 
+      array (
+        0 => 'Antes de comprar Honda XR 190L usada, no te apures: revisá, preguntá y comparalo con lo que publica el comercio oficial. Algunos puntos para mirar:',
+        1 => 
+        array (
+          'ol' => 
+          array (
+            0 => 'Probá que los frenos frenen parejo y que las cubiertas tengan taco.',
+            1 => 'Revisá la cadena, el piñón y la corona.',
+            2 => 'Escuchá el motor en frío y en caliente, y fijate si humea o pierde aceite.',
+            3 => 'Pedí los papeles al día y compará los números de chasis y de motor.',
+            4 => 'Preguntá si se usó en competencia o en trabajo de campo.',
+          ),
+        ),
+        2 => 'Hay más puntos en la guía de [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada). Para no caer en estafas, leé también [cómo comprar una usada sin que te estafen](/guias/como-comprar-una-moto-usada-sin-que-te-estafen), y tené a mano [los papeles de una moto al día](/guias/papeles-de-una-moto-al-dia) y [cómo transferir una moto](/guias/como-transferir-una-moto-en-paraguay). Si podés, llevá a un mecánico de confianza.',
+      ),
+      'faq' => 
+      array (
+        0 => 
+        array (
+          'q' => '¿Cuánto sale la Honda XR 190L en Paraguay?',
+          'a' => 'El precio que publicó una fuente real figura en la sección de precio de esta página, con quién lo publicó (Classic Motos) y la fecha de consulta. Es un precio publicado, no una oferta nuestra: confirmalo con el comercio antes de decidir.',
+        ),
+        1 => 
+        array (
+          'q' => '¿Dónde veo la ficha técnica de la Honda XR 190L?',
+          'a' => 'En la tabla de ficha técnica de esta página, con la fuente y la fecha de consulta de cada dato. Los datos que no tienen fuente no se muestran.',
+        ),
+        2 => 
+        array (
+          'q' => '¿Quién distribuye Honda en Paraguay?',
+          'a' => 'Según la fuente que citamos en la página de la marca, el distribuidor es DIESA S.A.. La red de venta puede cambiar, así que confirmalo con el comercio.',
+        ),
+        3 => 
+        array (
+          'q' => '¿Qué tengo que revisar si compro la Honda XR 190L usada?',
+          'a' => 'Los papeles al día, el estado de la transmisión, los frenos, las cubiertas y si hay pérdidas de aceite o golpes de caída. Tenés la lista completa en la sección de arriba y en la guía sobre qué revisar antes de comprar una moto usada.',
+        ),
+      ),
+      'updated' => '2026-10-01',
+    ),
+    'honda/xr-250-tornado' => array (
+      'intro' => 
+      array (
+        0 => 'Si estás mirando la Honda XR 250 Tornado, esta página junta lo que se sabe de ella: es una moto de tipo enduro o cross de 249 cc, tiene ficha técnica con fuente y, cuando existe, el precio publicado por un comercio paraguayo. Todo lo demás es orientación práctica para comprar y mantener.',
+        1 => 'Con fuente tenemos, además de la cilindrada, potencia, torque, transmisión y refrigeración. El precio 0 km que figura abajo lo publicó Classic Motos, y se muestra con la fecha de consulta. Es un precio publicado, no una oferta nuestra, y puede haber cambiado: confirmalo con el comercio.',
+        2 => 'No vendemos motos ni las probamos: si querés consultar disponibilidad, colores o formas de pago, escribinos por WhatsApp con el botón de la página y el mensaje ya sale con el nombre del modelo. En Paraguay la marca la distribuye DIESA S.A. según la fuente citada en [la página de la marca](/motos/honda).',
+        3 => 'Si todavía estás comparando, mirá también [Honda XR 150L](/motos/honda/xr-150), [Honda XR 190L](/motos/honda/xr-190) y [Honda CB1 125](/motos/honda/cb1-125).',
+      ),
+      'mantenimiento' => 
+      array (
+        0 => 'Si la Honda XR 250 Tornado sale a caminos de tierra, el mantenimiento tiene que ser más estricto: filtro de aire limpio (el polvo entra por ahí), cadena lubricada, frenos sin barro, y aceite al día. La suspensión y las cubiertas también se revisan más seguido.',
+        1 => 'Según la ficha, el motor se refrigera por aire: sin radiador ni líquido, pero con una exigencia mayor en el calor y en el tránsito lento, así que mirá el nivel de aceite más seguido en el verano.',
+        2 => 'Los intervalos exactos (cada cuántos kilómetros va el aceite, el filtro o la bujía) los fija el manual del propietario de la moto, y todavía no tenemos ese manual citado, así que no los inventamos. Mientras tanto, mirá [qué incluye un service](/guias/service-de-moto-que-incluye), [cada cuánto cambiar el aceite](/guias/cada-cuanto-cambiar-el-aceite-de-la-moto) y [cuánto cuesta mantener una moto](/guias/cuanto-cuesta-mantener-una-moto).',
+        3 => 
+        array (
+          'verify' => 'Intervalos de service de Honda XR 250 Tornado (aceite, filtros, bujía, transmisión): tomar del manual del propietario o de la ficha del distribuidor oficial.',
+        ),
+      ),
+      'repuestos' => 
+      array (
+        0 => 'Los repuestos que se gastan primero son siempre los mismos, y conviene saber cuáles antes de que fallen en la Honda XR 250 Tornado:',
+        1 => 
+        array (
+          'list' => 
+          array (
+            0 => 'Filtro de aceite y bujía.',
+            1 => 'Cubiertas, en la medida que indique el manual del modelo o el comercio.',
+            2 => 'Palancas de freno y de embrague de repuesto.',
+            3 => 'Retenes y aceite de la horquilla, según el manual.',
+            4 => 'Protectores y manoplas.',
+          ),
+        ),
+        2 => 'Pedí el repuesto con el nombre completo del modelo y el año, y fijate si es original o alternativo. La disponibilidad por zona y el precio los confirma el comercio o el taller, no nosotros: no publicamos precios de repuestos sin fuente.',
+      ),
+      'revisarUsada' => 
+      array (
+        0 => 'Para una Honda XR 250 Tornado usada, estos puntos te evitan sorpresas:',
+        1 => 
+        array (
+          'ol' => 
+          array (
+            0 => 'Revisá la cadena, el piñón y la corona.',
+            1 => 'Escuchá el motor en frío y en caliente, y fijate si humea o pierde aceite.',
+            2 => 'Pedí los papeles al día y compará los números de chasis y de motor.',
+            3 => 'Preguntá si se usó en competencia o en trabajo de campo.',
+            4 => 'Revisá la suspensión y las botellas de la horquilla: pérdidas de aceite son frecuentes en motos que salieron a tierra.',
+            5 => 'Buscá torceduras en el manubrio, el cuadro y las llantas, señales de caídas fuertes.',
+          ),
+        ),
+        2 => 'Hay más puntos en la guía de [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada). Para no caer en estafas, leé también [cómo comprar una usada sin que te estafen](/guias/como-comprar-una-moto-usada-sin-que-te-estafen), y tené a mano [los papeles de una moto al día](/guias/papeles-de-una-moto-al-dia) y [cómo transferir una moto](/guias/como-transferir-una-moto-en-paraguay). Si podés, llevá a un mecánico de confianza.',
+      ),
+      'faq' => 
+      array (
+        0 => 
+        array (
+          'q' => '¿Cuánto sale la Honda XR 250 Tornado en Paraguay?',
+          'a' => 'El precio que publicó una fuente real figura en la sección de precio de esta página, con quién lo publicó (Classic Motos) y la fecha de consulta. Es un precio publicado, no una oferta nuestra: confirmalo con el comercio antes de decidir.',
+        ),
+        1 => 
+        array (
+          'q' => '¿Qué cilindrada tiene la Honda XR 250 Tornado?',
+          'a' => 'Según la ficha técnica de esta página, tiene 249 cc. En la tabla de arriba figura cada dato con su fuente y la fecha de consulta.',
+        ),
+        2 => 
+        array (
+          'q' => '¿Quién distribuye Honda en Paraguay?',
+          'a' => 'Según la fuente que citamos en la página de la marca, el distribuidor es DIESA S.A.. La red de venta puede cambiar, así que confirmalo con el comercio.',
+        ),
+        3 => 
+        array (
+          'q' => '¿Qué tengo que revisar si compro la Honda XR 250 Tornado usada?',
+          'a' => 'Los papeles al día, el estado de la transmisión, los frenos, las cubiertas y si hay pérdidas de aceite o golpes de caída. Tenés la lista completa en la sección de arriba y en la guía sobre qué revisar antes de comprar una moto usada.',
+        ),
+      ),
+      'updated' => '2026-10-01',
+    ),
     /* == /B1a == */
     /* == B1b == */
     'bmw-motorrad/g-310-gs' => [
