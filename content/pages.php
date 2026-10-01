@@ -89,4 +89,27 @@ return [
         'lead'        => '',
         'gate'        => 'never',
     ],
+    /* == B3 == */
+    '/para-marcas-y-comercios' => [
+        'title'       => 'Para marcas y comercios',
+        'description' => 'Si representás una marca, un distribuidor o un comercio de motos en Paraguay, '
+                       . 'escribinos: estamos arrancando y queremos conversar con vos.',
+        'h1'          => 'Para marcas y comercios',
+        'lead'        => 'Estamos arrancando y queremos conversar con quienes venden motos en Paraguay.',
+        'leadSlug'    => 'comercial',
+        'sections'    => [
+            ['h2' => 'Qué es moto.com.py', 'body' => [
+                'moto.com.py es un sitio informativo sobre motos en Paraguay: guías de compra, mantenimiento y trámites, y fichas de modelos con datos de fuentes públicas.',
+                'Todavía no vendemos motos ni tenemos planes comerciales. Por eso no publicamos precios ni cifras de visitas: preferimos conversar primero.',
+            ]],
+            ['h2' => 'Para quién es esta página', 'body' => [
+                'Para marcas, distribuidores, concesionarias, talleres y financieras que quieran que su información llegue bien a quien busca una moto.',
+                'Si algún dato nuestro sobre tu marca o tus modelos está desactualizado, también escribinos y lo revisamos con la fuente que nos indiques.',
+            ]],
+            ['h2' => 'Cómo seguimos', 'body' => [
+                'Completá el formulario o escribinos por WhatsApp. Contanos qué marca o comercio representás y qué querés conversar. Te respondemos dentro del siguiente día hábil.',
+            ]],
+        ],
+        'updated'     => '2026-10-01',
+    ],
 ];
