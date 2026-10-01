@@ -1300,7 +1300,7 @@ return [
                 'h2' => 'Motos en cuotas: cómo funcionan la entrega y las cuotas',
                 'id' => 'motos-en-cuotas-como-funcionan-la-entrega-y-las-',
                 'body' => [
-                    'Los comercios suelen pedir una entrega y financiar el resto en cuotas. La entrega se paga al principio; las cuotas, cada mes durante el plazo acordado. En las publicaciones lo vas a ver escrito así: *Entrega Gs. X + N cuotas de Gs. Y*.',
+                    'Los comercios suelen pedir una entrega y financiar el resto en cuotas. La entrega se paga al principio; las cuotas, cada mes durante el plazo acordado. En las publicaciones lo vas a ver escrito así: Entrega X + N cuotas de Y.',
                     'Preguntá quién te financia: si el crédito lo da el mismo comercio o una financiera o un banco con el que trabaja. Es importante porque con esa empresa vas a firmar el contrato y a ella le vas a pagar las cuotas.',
                     'Preguntá también si la moto va a quedar con alguna garantía a favor de quien te financia mientras pagás (por ejemplo, una prenda), qué significa eso si querés venderla o transferirla antes de terminar, y quién paga ese trámite.',
                 ],
@@ -1331,7 +1331,7 @@ return [
                     '**Total en cuotas = entrega + (valor de la cuota × cantidad de cuotas)**',
                     'Después comparalo con el precio al contado de la misma moto:',
                     '**Costo de financiarla = total en cuotas − precio al contado**',
-                    'Por ejemplo, si una moto cuesta *P* al contado y te ofrecen una entrega *E* más *N* cuotas de *C*, pagás en total *E + C × N*. Si eso es mayor que *P*, la diferencia es lo que te cuesta financiarla.',
+                    'Por ejemplo, si una moto cuesta P al contado y te ofrecen una entrega E más N cuotas de C, pagás en total E + C × N. Si eso es mayor que P, la diferencia es lo que te cuesta financiarla.',
                     'Tené en cuenta:',
                     [
                         'list' => [
@@ -1794,6 +1794,15 @@ return [
                 ],
             ],
             [
+                'h2' => 'Cómo ordenar el trámite',
+                'id' => 'como-ordenar-el-tramite',
+                'body' => [
+                    'Armá una carpeta, de papel o en el celular, con todo lo del trámite: fotos de los papeles que te mostró el vendedor, copia de la compraventa, los comprobantes de cada pago y el nombre de quien te atendió en cada oficina. Si algo sale mal, esa carpeta es lo que te permite explicar qué pasó y cuándo.',
+                    'Hacé las preguntas por escrito siempre que se pueda y guardá las respuestas. Si alguien te dice un monto o un plazo de palabra, pedí que te lo confirmen en un comprobante, y desconfiá de quien te ofrece arreglar el trámite por fuera de la oficina a cambio de un pago extra.',
+                    'No avances un paso si el anterior quedó dudoso: es más fácil frenar antes de pagar que reclamar después. Si necesitás una mano, un escribano o un gestor de confianza puede ordenarte los papeles; pedile que te detalle por escrito qué hace y cuánto cobra.',
+                ],
+            ],
+            [
                 'h2' => 'Señales para no seguir',
                 'id' => 'senales-para-no-seguir',
                 'body' => [
@@ -1848,6 +1857,312 @@ return [
     ],
     /* B2:ported:end */
     /* B2:new:start */
+    'como-comprar-tu-primera-moto' => [
+        'group'           => 'compra',
+        'title'           => 'Cómo comprar tu primera moto en Paraguay, paso a paso',
+        'navLabel'        => 'Cómo comprar tu primera moto',
+        'seoTitle'        => 'Cómo comprar tu primera moto en Paraguay',
+        'metaDescription' => 'Tu primera moto en Paraguay, paso a paso: para qué la querés, 0 km o usada, presupuesto completo, cuotas, papeles y qué hacer antes de pagar.',
+        'query'           => 'como comprar mi primera moto',
+        'published'       => '2026-10-01',
+        'updated'         => '2026-10-01',
+        'hero'            => [
+            'h1'   => 'Cómo comprar tu primera moto en Paraguay, paso a paso',
+            'lead' => 'Un orden para decidir sin apuro: primero el uso y el presupuesto, después el modelo, y recién al final la plata.',
+        ],
+        'intro'           => [
+            'Comprar la primera moto se siente como una sola decisión, pero en realidad son varias, y el error más común es resolverlas en el orden equivocado: enamorarse de un modelo y recién después preguntarse si alcanza, si hay repuestos o si los papeles están bien. Esta guía te propone el orden contrario. Va de lo que más pesa a lo que menos, y en cada paso te manda a la guía que lo desarrolla, para que acá no repitamos lo que ya está explicado en detalle.',
+            'No encontrás acá una recomendación de modelo ni un número mágico. No manejamos las motos ni vendemos nada, así que lo que te damos son preguntas para hacerte, criterios para comparar y los lugares donde ver datos con fuente y fecha. La decisión final es tuya, y mejor si la tomás con calma.',
+        ],
+        'sections'        => [
+            ['h2' => 'Primero: para qué la querés', 'id' => 'para-que', 'body' => [
+                'Escribí en una hoja los trayectos reales de una semana normal: de dónde a dónde, cuántos kilómetros más o menos, si hay tierra o lluvia en el camino, si llevás a alguien, si cargás una mochila o una caja. Esa lista vale más que cualquier ficha técnica, porque te dice qué necesitás de la moto y no qué te gustaría que fuera.',
+                ['list' => [
+                    '**Ciudad y trayectos cortos:** lo que importa es que sea liviana, fácil de estacionar y que consiga repuestos cualquier taller.',
+                    '**Ruta o distancias largas:** pensá en comodidad, en el viento y en cuánto te exige el motor a velocidad sostenida.',
+                    '**Trabajo o delivery:** la moto es una herramienta y cada día parada es plata que no entra. Leé la guía de [qué moto conviene para trabajar](/guias/que-moto-conviene-para-trabajar).',
+                    '**Caminos de tierra:** altura, suspensión y cubiertas pesan más que la potencia.',
+                ]],
+                'Con el uso claro, la pregunta de la cilindrada se acomoda sola. Si dudás entre una chica y una mediana, tenés los criterios en [125, 150 o 200 cc: cuál te sirve](/guias/125-150-o-200-cc-cual-elegir).',
+            ]],
+            ['h2' => 'Segundo: 0 km o usada', 'id' => 'cero-km-o-usada', 'body' => [
+                'Es la bifurcación más grande del camino, y no hay una respuesta correcta para todos. Una 0 km te da una moto sin historia, con papeles que arma el comercio y, según el caso, con garantía. Una usada te puede dar más moto por la misma plata, pero te pide que sepas revisarla o que lleves a alguien que sepa.',
+                'Antes de decidir, leé [moto 0 km o usada: qué conviene según tu caso](/guias/moto-0-km-o-usada). Si ya sabés que vas por una usada, saltá directo a [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada), que es un checklist para llevar impreso o en el celular.',
+                ['note' => 'Si es tu primera moto y no tenés a nadie de confianza que entienda de mecánica, una usada sin revisar es la combinación que más suele salir cara.'],
+            ]],
+            ['h2' => 'Tercero: el presupuesto completo', 'id' => 'presupuesto', 'body' => [
+                'El precio de la moto es sólo la entrada. Después vienen los gastos que se repiten todos los meses y los que llegan de golpe. Hacé una lista con cada uno y poné al lado cuánto te cuesta a vos, con precios que consigas en tu ciudad. En [cuánto cuesta mantener una moto por mes](/guias/cuanto-cuesta-mantener-una-moto) está el método, rubro por rubro.',
+                ['list' => [
+                    'Combustible, según los kilómetros que anotaste en el primer paso.',
+                    'Service y repuestos de desgaste: cadena, cubiertas, frenos.',
+                    'Habilitación municipal y seguro: preguntá qué corresponde en tu caso en [seguro contra terceros para motos](/guias/seguro-contra-terceros-para-motos).',
+                    'Casco y equipo para vos, y para el acompañante si lo hay.',
+                    'La cuota, si comprás en cuotas.',
+                ]],
+                'Una regla práctica: si la cuenta sólo cierra en un mes bueno, no cierra. Armala pensando en el mes más flojo del año.',
+            ]],
+            ['h2' => 'Cuarto: si vas a comprar en cuotas', 'id' => 'cuotas', 'body' => [
+                'Comprar en cuotas no es malo ni bueno: es una forma de pago con un costo. Lo que tenés que lograr es ver ese costo con números. Pedí siempre la entrega, la cantidad de cuotas, el valor de cada una y el total, y compará ese total con el precio al contado. La diferencia es lo que pagás por financiar.',
+                'La guía de [comprar una moto en cuotas en Paraguay](/guias/comprar-moto-en-cuotas-en-paraguay) explica cómo leer un plan y qué preguntar antes de firmar. Desconfiá de cualquiera que te pida plata adelantada para aprobar un crédito.',
+            ]],
+            ['h2' => 'Quinto: elegí tres modelos y compará con datos', 'id' => 'comparar', 'body' => [
+                'Con uso, tipo, presupuesto y forma de pago definidos, ahora sí: elegí tres modelos como máximo. Más que eso, te paralizás. Para cada uno juntá la ficha técnica del fabricante, el precio publicado por una fuente y la respuesta a tres preguntas locales: si hay repuestos en tu ciudad, si hay un taller que lo conozca y si se revende con facilidad.',
+                'Para ver precios de 0 km publicados por distribuidores, con la fuente y la fecha en que los consultamos, usá [precios de motos 0 km en Paraguay](/guias/precios-de-motos-0-km-en-paraguay). Si el criterio es gastar lo menos posible, mirá [motos baratas en Paraguay](/guias/motos-baratas-en-paraguay), que explica qué quiere decir barata y qué deja afuera ese criterio. También podés recorrer las [motos por marca y por tipo](/motos).',
+            ]],
+            ['h2' => 'Sexto: la compra', 'id' => 'compra', 'body' => [
+                'Si es 0 km, pedí por escrito lo que te prometan: qué incluye el precio, qué garantía hay y qué pide para mantenerse vigente. Guardá la factura con el resto de los papeles.',
+                'Si es usada, la plata sale al final, nunca antes de ver la moto y los papeles. Entender los documentos te protege de la mayoría de los problemas, y por eso conviene leer [qué papeles tiene que tener una moto al día](/guias/papeles-de-una-moto-al-dia) y [cómo transferir una moto en Paraguay](/guias/como-transferir-una-moto-en-paraguay) antes de ir a ver la primera. Y para no caer en los engaños típicos, [cómo comprar una moto usada sin que te estafen](/guias/como-comprar-una-moto-usada-sin-que-te-estafen).',
+            ]],
+            ['h2' => 'Antes de salir manejando', 'id' => 'antes-de-salir', 'body' => [
+                'Con la moto ya tuya, no arranques por la avenida más transitada. Practicá primero en un lugar tranquilo: frenadas, giros lentos, arranque en subida. Un casco que te quede bien y esté en buen estado es parte de la compra, no un extra. Y confirmá en la oficina que corresponda qué registro y qué papeles necesitás para la moto que elegiste: lo mejor es averiguarlo antes de pagar, no después.',
+                ['verify' => 'Registro de conducir exigido según cilindrada de la moto y plazo para inscribir la moto a nombre del comprador: confirmar en la ANTSV o el Registro de Automotores, con fecha, antes de afirmarlo (lo cubre la fase B5)'],
+            ]],
+            ['h2' => 'Errores típicos de la primera compra', 'id' => 'errores', 'body' => [
+                ['list' => [
+                    'Elegir por la estética o por lo que tiene el amigo, sin mirar el uso propio.',
+                    'Mirar sólo la cuota y no el total que vas a pagar.',
+                    'Comprar una usada con apuro porque el precio es muy bueno.',
+                    'Dejar para después los papeles o el seguro.',
+                    'No averiguar si hay repuestos y taller para ese modelo en tu ciudad.',
+                    'Gastar todo en la moto y llegar sin plata para el casco y el primer service.',
+                ]],
+            ]],
+        ],
+        'faq'             => [
+            ['q' => '¿Me conviene una moto 0 km o una usada para empezar?', 'a' => 'Depende de tu presupuesto y de si podés revisar una usada con alguien que entienda. Si no tenés a nadie de confianza y la cuenta da, la 0 km te ahorra riesgos. La guía de moto 0 km o usada te deja los criterios para decidir.'],
+            ['q' => '¿Cuánta plata tengo que tener para empezar?', 'a' => 'No te podemos dar un número confiable: depende de la moto, de si pagás al contado o en cuotas y de tus gastos fijos. Sumá el precio o la entrega, el seguro, la habilitación, el casco y el primer service, con precios de tu ciudad.'],
+            ['q' => '¿Cuántos modelos tengo que comparar?', 'a' => 'Con tres alcanza. Para cada uno mirá la ficha técnica del fabricante, el precio publicado por una fuente, los repuestos de tu ciudad y si hay un taller que lo conozca.'],
+            ['q' => '¿Qué es lo primero que tengo que hacer?', 'a' => 'Anotar para qué la vas a usar: trayectos, distancias, carga y camino. Con eso definido, la cilindrada, el tipo y el presupuesto se ordenan solos.'],
+        ],
+        'links'           => [
+            ['path' => '/motos', 'label' => 'Motos por marca y por tipo'],
+            ['path' => '/motos/en-cuotas', 'label' => 'Motos en cuotas: cómo funcionan'],
+        ],
+        'related'         => ['moto-0-km-o-usada', '125-150-o-200-cc-cual-elegir', 'comprar-moto-en-cuotas-en-paraguay'],
+        'quiz'            => null,
+        'sources'         => [],
+    ],
+    ...(static function (): array {
+        $catalogo = content('catalogo');
+        $tipos = [
+            'scooter' => 'Scooter', 'naked' => 'Naked', 'cub' => 'Cub', 'enduro-cross' => 'Enduro y cross',
+            'touring' => 'Touring', 'deportiva' => 'Deportiva', 'custom-chopper' => 'Custom',
+            'motocarro-carga' => 'Motocarro de carga', 'electrica' => 'Eléctrica', 'cuatriciclo' => 'Cuatriciclo',
+        ];
+        $marcas = array_filter((array) ($catalogo['marcas'] ?? []), 'is_array');
+        uasort($marcas, static fn (array $a, array $b): int => [(int) ($a['sortOrder'] ?? 999), (string) ($a['name'] ?? '')]
+                                                         <=> [(int) ($b['sortOrder'] ?? 999), (string) ($b['name'] ?? '')]);
+
+        /* Every 0 km price still inside its 120 days (D6), one entry per published price. */
+        $precios = [];
+        foreach ((array) ($catalogo['modelos'] ?? []) as $key => $m) {
+            if (!is_array($m) || !isset($marcas[$m['brand'] ?? ''])) {
+                continue;
+            }
+            foreach ((array) ($m['prices'] ?? []) as $p) {
+                if (is_array($p) && ($p['condition'] ?? '0km') === '0km' && price_is_current($p)) {
+                    $precios[] = [
+                        'marca' => (string) $m['brand'],
+                        'key'   => (string) $key,
+                        'name'  => trim($marcas[$m['brand']]['name'] . ' ' . ($m['name'] ?? '')),
+                        'tipo'  => $tipos[$m['category'] ?? ''] ?? '',
+                        'cat'   => (string) ($m['category'] ?? ''),
+                        'fact'  => $p,
+                    ];
+                }
+            }
+        }
+        $fechas  = array_map(static fn (array $r): string => (string) $r['fact']['accessed'], $precios);
+        $desde   = $fechas === [] ? '' : min($fechas);
+        $hasta   = $fechas === [] ? '' : max($fechas);
+        $updated = $hasta !== '' ? $hasta : '2026-10-01';
+        $enUsd   = count(array_filter($precios, static fn (array $r): bool => strtoupper((string) ($r['fact']['currency'] ?? 'PYG')) === 'USD'));
+        $modelosConPrecio = count(array_unique(array_column($precios, 'key')));
+        $marcasConPrecio  = count(array_unique(array_column($precios, 'marca')));
+        $rango = $precios === [] ? '' : ($desde === $hasta
+            ? 'consultados el ' . fmt_date_long($desde)
+            : 'consultados entre el ' . fmt_date_long($desde) . ' y el ' . fmt_date_long($hasta));
+
+        /* ---------- precios-de-motos-0-km-en-paraguay ---------- */
+        $secciones = [
+            ['h2' => 'Qué entra en esta lista y qué no', 'id' => 'criterio', 'body' => [
+                'El criterio es uno solo y es explícito: entra un precio si lo publicó el distribuidor oficial, la marca o un comercio paraguayo de motos 0 km, y si lo consultamos en los últimos 120 días. Cada fila es un aviso distinto de una fuente, con su enlace y la fecha en que lo vimos. Si un mismo modelo aparece dos veces, es porque dos fuentes (o dos versiones del mismo modelo) publicaron precios diferentes.',
+                'Lo que nunca hacemos es estimar. Si ninguna fuente publicó el precio de un modelo, el modelo no figura en la tabla: preferimos un hueco a un número inventado. Tampoco sumamos descuentos, promociones ni cuotas, porque cambian de un día para el otro y dependen de cada comercio.',
+                ['list' => [
+                    '**Precio publicado:** el que figura en la página de la fuente al momento de la consulta, en la moneda en que lo publica.',
+                    '**Fecha de consulta:** el día en que lo leímos. Un precio al que le pasaron 120 días desde la consulta se oculta solo hasta que lo volvemos a verificar.',
+                    '**Dólares:** algunos distribuidores publican en US$. Los mostramos como los publican, sin convertir, porque no usamos un tipo de cambio inventado.',
+                ]],
+            ]],
+        ];
+        foreach ($marcas as $slug => $marca) {
+            $filas = array_values(array_filter($precios, static fn (array $r): bool => $r['marca'] === $slug));
+            if ($filas === []) {
+                continue;
+            }
+            usort($filas, static fn (array $a, array $b): int => [$a['name'], (string) ($a['fact']['currency'] ?? ''), (int) $a['fact']['value']]
+                                                            <=> [$b['name'], (string) ($b['fact']['currency'] ?? ''), (int) $b['fact']['value']]);
+            $cuerpo = [];
+            if (!empty($marca['distributor']['name'])) {
+                $cuerpo[] = ['fact' => ['value' => $marca['distributor']['name'], 'source' => $marca['distributor']['source'] ?? null, 'accessed' => $marca['distributor']['accessed'] ?? null], 'label' => 'Distribuidor oficial'];
+            }
+            $cuerpo[] = ['table' => [
+                'head' => ['Modelo', 'Tipo', 'Precio publicado'],
+                'rows' => array_map(static fn (array $r): array => ['[' . $r['name'] . '](/motos/' . $r['key'] . ')', $r['tipo'], $r['fact']], $filas),
+            ], 'caption' => 'Precios 0 km publicados de ' . $marca['name']];
+            $secciones[] = ['h2' => 'Precios publicados de ' . $marca['name'], 'id' => 'precios-' . $slug, 'body' => $cuerpo];
+        }
+        $secciones[] = ['h2' => 'Cómo usar esta lista para decidir', 'id' => 'como-usarla', 'body' => [
+            'Usá la tabla como punto de partida, no como veredicto. Un precio publicado en la página de un distribuidor no es lo que vas a pagar al final: preguntá qué incluye, si el valor cambia por la forma de pago y desde cuándo está vigente. Anotá el modelo, la fuente y la fecha, y confirmalo por WhatsApp o en el local antes de mover un peso.',
+            'Si comparás dos motos, compará en la misma moneda y con el mismo criterio: la misma versión, el mismo año y sin sumar accesorios a una sola. Si te interesa pagar en cuotas, la cuenta se hace sobre el total, no sobre la cuota: lo explicamos en [comprar una moto en cuotas en Paraguay](/guias/comprar-moto-en-cuotas-en-paraguay).',
+            'El precio de compra tampoco es el costo de tener la moto. Sumá combustible, service, habilitación y seguro con los números de tu ciudad: el método está en [cuánto cuesta mantener una moto por mes](/guias/cuanto-cuesta-mantener-una-moto). Y si todavía no sabés qué moto te sirve, empezá por [cómo comprar tu primera moto](/guias/como-comprar-tu-primera-moto).',
+        ]];
+        $secciones[] = ['h2' => 'Por qué faltan modelos', 'id' => 'faltantes', 'body' => [
+            'Esta no es una lista de todo lo que se vende en el país. Es la lista de lo que encontramos con precio publicado por una fuente verificable, y por eso hay marcas y modelos del catálogo que no aparecen. Cuando una fuente publique el precio, el modelo se suma; cuando un precio vence sin que lo hayamos vuelto a consultar, sale.',
+            'Si buscás un modelo que no está, entrá a su página dentro de [motos por marca y tipo](/motos) para ver qué datos con fuente tenemos, o consultá por WhatsApp en el botón de abajo.',
+        ]];
+
+        $precios_resumen = $precios === []
+            ? ['Por ahora no hay precios 0 km vigentes en la lista: se ocultan solos cuando pasan los 120 días desde la consulta, hasta que se vuelven a verificar.']
+            : ['Hoy la lista reúne ' . count($precios) . ' precios 0 km publicados de ' . $modelosConPrecio . ' modelos y ' . $marcasConPrecio . ' marcas, ' . $rango . '.'
+               . ($enUsd > 0 ? ' ' . $enUsd . ' de ellos están publicados en dólares y se muestran sin convertir.' : '')];
+        $precios_guia = [
+            'group'           => 'precios',
+            'title'           => 'Precios de motos 0 km en Paraguay, publicados con fuente y fecha',
+            'navLabel'        => 'Precios de motos 0 km en Paraguay',
+            'seoTitle'        => 'Precios de motos 0 km en Paraguay (con fuente)',
+            'metaDescription' => 'Precios de motos 0 km publicados en Paraguay por distribuidores y comercios, con la fuente y la fecha de consulta de cada uno. Sin precios estimados.',
+            'query'           => 'precios de motos 0km paraguay',
+            'published'       => '2026-10-01',
+            'updated'         => $updated,
+            'hero'            => [
+                'h1'   => 'Precios de motos 0 km en Paraguay',
+                'lead' => 'Cada precio de esta lista lo publicó una fuente real. Al lado ves quién lo publicó y cuándo lo consultamos.',
+            ],
+            'intro'           => array_merge([
+                'Buscar el precio de una moto 0 km en Paraguay suele terminar en una consulta por mensaje, porque muchas páginas no muestran el valor. Esta guía junta en un solo lugar los precios que sí están publicados por distribuidores, marcas y comercios, ordenados por marca, para que tengas una referencia antes de ir a preguntar.',
+            ], $precios_resumen, [
+                'Los precios cambian y esta página no los fija: sólo muestra lo que cada fuente publicó el día que lo consultamos. Para decidir una compra, confirmalo con el comercio.',
+            ]),
+            'sections'        => $secciones,
+            'faq'             => [
+                ['q' => '¿Estos precios son los que voy a pagar?', 'a' => 'No necesariamente. Son los precios que publicó cada fuente el día que los consultamos. Antes de comprar, confirmá con el comercio qué incluye el precio, si cambia según la forma de pago y si sigue vigente.'],
+                ['q' => '¿Por qué hay precios en dólares?', 'a' => 'Porque algunos distribuidores publican sus precios en US$. Los mostramos en la moneda en que los publican, sin convertirlos a guaraníes.'],
+                ['q' => '¿Por qué mi modelo no aparece?', 'a' => 'Porque no encontramos un precio publicado por una fuente verificable, o porque el que teníamos venció. No estimamos precios: sólo mostramos los que publicó una fuente.'],
+            ],
+            'links'           => [
+                ['path' => '/motos', 'label' => 'Motos por marca y por tipo'],
+                ['path' => '/guias/motos-baratas-en-paraguay', 'label' => 'Motos baratas en Paraguay: los precios publicados más bajos'],
+            ],
+            'related'         => ['motos-baratas-en-paraguay', 'como-comprar-tu-primera-moto', 'moto-0-km-o-usada'],
+            'quiz'            => null,
+            'sources'         => [],
+        ];
+
+        /* ---------- motos-baratas-en-paraguay ---------- */
+        $limite  = 15;
+        $mejores = [];                                   // model key => its lowest current price in guaraníes
+        foreach ($precios as $r) {
+            if (strtoupper((string) ($r['fact']['currency'] ?? 'PYG')) !== 'PYG') {
+                continue;
+            }
+            if (!isset($mejores[$r['key']]) || (int) $r['fact']['value'] < (int) $mejores[$r['key']]['fact']['value']) {
+                $mejores[$r['key']] = $r;
+            }
+        }
+        $orden = static fn (array $a, array $b): int => [(int) $a['fact']['value'], $a['name']] <=> [(int) $b['fact']['value'], $b['name']];
+        $lista = array_values($mejores);
+        usort($lista, $orden);
+        $fila = static fn (array $r, ?int $puesto): array => array_values(array_filter(
+            [$puesto === null ? null : (string) $puesto, '[' . $r['name'] . '](/motos/' . $r['key'] . ')', $r['tipo'], $r['fact']],
+            static fn ($c): bool => $c !== null
+        ));
+        $baratas = [
+            ['h2' => 'Qué quiere decir barata en esta lista', 'id' => 'criterio', 'body' => [
+                'Barata, acá, quiere decir una sola cosa: precio publicado más bajo. No quiere decir mejor, más durable ni más económica de mantener, y no hacemos esa promesa, porque no tenemos datos con fuente que la respalden.',
+                ['list' => [
+                    '**Sólo 0 km:** no entran usadas.',
+                    '**Sólo guaraníes:** los precios publicados en dólares quedan afuera, porque no los convertimos con un tipo de cambio inventado.',
+                    '**Sólo precios publicados:** los dio un distribuidor, una marca o un comercio paraguayo, y los consultamos en los últimos 120 días. No hay estimaciones.',
+                    '**Un precio por modelo:** si un modelo tiene varios avisos, se muestra el más bajo.',
+                    '**Orden:** del precio más bajo al más alto; si dos empatan, por orden alfabético.',
+                    '**Sin filtro de tipo:** en la tabla general puede aparecer cualquier tipo de vehículo, y la columna Tipo lo aclara.',
+                ]],
+            ]],
+        ];
+        if ($lista !== []) {
+            $baratas[] = ['h2' => 'Los precios 0 km publicados más bajos', 'id' => 'las-mas-bajas', 'body' => [
+                ['table' => [
+                    'head' => ['Puesto', 'Modelo', 'Tipo', 'Precio publicado'],
+                    'rows' => array_map(static fn (array $r, int $i): array => $fila($r, $i + 1), array_slice($lista, 0, $limite), array_keys(array_slice($lista, 0, $limite))),
+                ], 'caption' => 'Los ' . min($limite, count($lista)) . ' precios 0 km en guaraníes más bajos de los que tenemos publicados'],
+            ]];
+        }
+        foreach ($tipos as $cat => $nombre) {
+            $deTipo = array_values(array_filter($lista, static fn (array $r): bool => $r['cat'] === $cat));
+            if ($deTipo === []) {
+                continue;
+            }
+            $baratas[] = ['h2' => 'Las más baratas: ' . mb_strtolower($nombre), 'id' => 'tipo-' . $cat, 'body' => [
+                ['table' => [
+                    'head' => ['Modelo', 'Tipo', 'Precio publicado'],
+                    'rows' => array_map(static fn (array $r): array => $fila($r, null), array_slice($deTipo, 0, 3)),
+                ], 'caption' => 'Los precios 0 km publicados más bajos entre las motos de tipo ' . mb_strtolower($nombre)],
+            ]];
+        }
+        $baratas[] = ['h2' => 'Lo barato también tiene costos: sumá todo', 'id' => 'sumar-todo', 'body' => [
+            'El precio de compra es una parte de lo que cuesta tener una moto. Después vienen combustible, service, repuestos de desgaste, habilitación y seguro, y cada uno depende del modelo y de tu ciudad. No sabemos y no afirmamos que una moto de precio bajo salga más barata por mes: eso se comprueba con datos, no se supone. Hacé la cuenta con los números que consigas, siguiendo [cuánto cuesta mantener una moto por mes](/guias/cuanto-cuesta-mantener-una-moto).',
+            'Si pensás pagarla en cuotas, el precio más bajo no siempre da el plan más conveniente. Compará el total (entrega más todas las cuotas) contra el contado, como se explica en [comprar una moto en cuotas en Paraguay](/guias/comprar-moto-en-cuotas-en-paraguay). Y revisá que la cuota entre en un mes flojo, no sólo en uno bueno.',
+        ]];
+        $baratas[] = ['h2' => 'Nueva barata o usada: cómo pensarlo', 'id' => 'nueva-o-usada', 'body' => [
+            'Cuando el presupuesto aprieta, la alternativa lógica es una usada. Puede ser buena idea, pero cambia las reglas: no hay garantía de comercio, y el riesgo pasa a ser el estado de la moto y sus papeles. Leé [moto 0 km o usada: qué conviene según tu caso](/guias/moto-0-km-o-usada) antes de decidir, y si vas por una usada, llevá el checklist de [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada).',
+            'Desconfiá, además, de los precios que parecen demasiado buenos: en una usada son una de las señales de estafa más comunes. Las señales están en [cómo comprar una moto usada sin que te estafen](/guias/como-comprar-una-moto-usada-sin-que-te-estafen).',
+        ]];
+        $baratas[] = ['h2' => 'Por qué esta lista no cubre todo', 'id' => 'limites', 'body' => [
+            'La tabla se arma a partir del catálogo de este sitio, que sólo incluye modelos con evidencia de venta en Paraguay y precios con fuente. Hay motos que se venden y no figuran porque nadie publicó su precio, o porque el precio publicado venció. Por eso no podemos decir cuál es la moto más barata del país: podemos decir cuál es la más barata entre las que tienen un precio publicado y vigente.',
+            'Si el precio es lo más importante para vos, usá la lista como punto de partida, anotá la fuente de cada precio y consultá en el comercio el valor de hoy, qué incluye y qué plazo tiene. Para ver los precios de todos los modelos ordenados por marca, mirá [precios de motos 0 km en Paraguay](/guias/precios-de-motos-0-km-en-paraguay). Si es tu primera compra, [cómo comprar tu primera moto](/guias/como-comprar-tu-primera-moto) te da un orden para decidir.',
+        ]];
+        $baratas_resumen = $lista === []
+            ? 'Por ahora no hay precios en guaraníes vigentes para armar el ranking: se ocultan solos pasados los 120 días de la consulta y vuelven cuando se re-verifican.'
+            : 'Hoy hay ' . count($lista) . ' modelos con un precio 0 km en guaraníes publicado y vigente, ' . $rango . '.';
+        $baratas_guia = [
+            'group'           => 'precios',
+            'title'           => 'Motos baratas en Paraguay: los precios 0 km publicados más bajos',
+            'navLabel'        => 'Motos baratas en Paraguay',
+            'seoTitle'        => 'Motos baratas en Paraguay: precios 0 km más bajos',
+            'metaDescription' => 'Las motos 0 km más baratas con precio publicado en Paraguay, ordenadas de menor a mayor, con la fuente, la fecha y el criterio explícito de la lista.',
+            'query'           => 'motos baratas paraguay',
+            'published'       => '2026-10-01',
+            'updated'         => $updated,
+            'hero'            => [
+                'h1'   => 'Motos baratas en Paraguay: los precios 0 km publicados más bajos',
+                'lead' => 'Una lista con criterio a la vista: sólo precios publicados por una fuente, 0 km, en guaraníes, ordenados del más bajo al más alto.',
+            ],
+            'intro'           => [
+                'Si buscás una moto barata, lo primero es ponerse de acuerdo en qué quiere decir barata. Esta guía responde con un criterio simple y comprobable: los precios 0 km más bajos que publicó una fuente real, con el enlace y la fecha de cada uno. No hay estimaciones ni precios de oferta que desaparezcan al día siguiente.',
+                $baratas_resumen,
+                'La lista se arma sola a partir del catálogo: cuando se actualiza un precio, cambia la tabla, y cuando un precio vence, sale.',
+            ],
+            'sections'        => $baratas,
+            'faq'             => [
+                ['q' => '¿Cuál es la moto más barata de Paraguay?', 'a' => 'No podemos afirmarlo. La lista ordena los precios 0 km publicados que tenemos, y no cubre todo lo que se vende. Lo que mostramos es el más bajo entre los precios publicados y vigentes.'],
+                ['q' => '¿Barata quiere decir que gasta poco?', 'a' => 'No. El precio de compra y el costo de tener la moto son cosas distintas. Sumá combustible, service, habilitación y seguro con los precios de tu ciudad antes de decidir.'],
+                ['q' => '¿Por qué no aparecen motos usadas?', 'a' => 'Porque esta lista sólo incluye precios 0 km publicados por una fuente. Para las usadas conviene leer cómo revisarlas y cómo comprobar los papeles antes de pagar.'],
+            ],
+            'links'           => [
+                ['path' => '/motos', 'label' => 'Motos por marca y por tipo'],
+                ['path' => '/guias/precios-de-motos-0-km-en-paraguay', 'label' => 'Precios de motos 0 km en Paraguay, por marca'],
+            ],
+            'related'         => ['precios-de-motos-0-km-en-paraguay', 'como-comprar-tu-primera-moto', 'cuanto-cuesta-mantener-una-moto'],
+            'quiz'            => null,
+            'sources'         => [],
+        ];
+
+        return [
+            'precios-de-motos-0-km-en-paraguay' => $precios_guia,
+            'motos-baratas-en-paraguay'         => $baratas_guia,
+        ];
+    })(),
     /* B2:new:end */
     /* == /B2 == */
     /* == B4 == */
@@ -2698,7 +3013,7 @@ return [
             ],
         ],
         'faq' => [
-            ['q' => '¿Cada cuánto hay que medir la presión?', 'a' => 'Con regularidad y antes de viajes largos. Muchos talleres recomiendan hacerlo seguido porque el aire se pierde de a poco, aunque no hay pinchadura.'],
+            ['q' => '¿Cada cuánto hay que medir la presión?', 'a' => 'Con regularidad y antes de viajes largos. Hacelo seguido: el aire se pierde de a poco, aunque no haya pinchadura.'],
             ['q' => '¿Puedo inflar con nitrógeno?', 'a' => 'Se puede, pero no es obligatorio. Lo que importa es mantener la presión del manual.'],
         ],
         'links' => [
@@ -2892,6 +3207,870 @@ return [
             ['path' => '/motos', 'label' => 'Motos por marca y tipo'],
         ],
         'related' => ['cada-cuanto-cambiar-el-aceite-de-la-moto', 'carburador-sucio-sintomas', 'embrague-de-moto'],
+        'quiz' => null,
+        'sources' => [],
+    ],
+    'humo-blanco-o-azul-moto' => [
+        'group' => 'reparacion',
+        'title' => 'Humo blanco o azul en la moto: qué significa',
+        'navLabel' => 'Humo blanco o azul',
+        'seoTitle' => 'Humo blanco o azul en la moto: qué significa',
+        'metaDescription' => 'Humo blanco, azul o negro en el escape de la moto: qué indica cada color, cuándo es normal, qué podés revisar y cuándo ir al taller.',
+        'query' => 'humo blanco moto escape',
+        'published' => '2026-10-01',
+        'updated' => '2026-10-01',
+        'hero' => [
+            'h1' => 'Humo blanco o azul en la moto: qué significa',
+            'lead' => 'El color del humo del escape es una pista. Cada uno apunta a una causa distinta, y no todos son graves.',
+        ],
+        'intro' => [
+            'Un escape sano casi no se ve. Cuando aparece humo, el color ayuda a orientarse: el **azul o grisáceo** suele indicar aceite que se está quemando, el **blanco** puede ser vapor de agua (normal en frío) o algo más serio si no desaparece, y el **negro** señala exceso de combustible. Es una guía orientativa: sólo un mecánico que revise la moto puede confirmar la causa.',
+            ['verify' => 'Consumo de aceite aceptable por modelo y procedimientos de diagnóstico de compresión: confirmar en el manual de servicio del fabricante o con el taller de la marca.'],
+        ],
+        'sections' => [
+            [
+                'h2' => 'Humo blanco',
+                'id' => 'blanco',
+                'body' => [
+                    'Una nube blanca fina al arrancar en una mañana fría o húmeda, que desaparece cuando el motor entra en temperatura, suele ser vapor de agua condensada en el escape. No es un problema. En cambio, si el humo blanco es **espeso, persistente y con olor dulce**, puede indicar que entra líquido refrigerante a la cámara (en motos refrigeradas por líquido, por una junta de culata dañada), y eso necesita taller sin demora.',
+                    'También puede aparecer humo blanco con la moto parada bajo la lluvia o tras lavarla, cuando entra agua al escape. Si dudás, mirá [moto después de la lluvia](/guias/moto-despues-de-la-lluvia).',
+                ],
+            ],
+            [
+                'h2' => 'Humo azul o grisáceo',
+                'id' => 'azul',
+                'body' => [
+                    'Es el típico de aceite quemándose. Las causas más probables:',
+                    ['list' => [
+                        '**Exceso de aceite en el motor.** Si pusiste de más en el último cambio, el nivel sube y se quema. Mirá el nivel como en [cada cuánto cambiar el aceite](/guias/cada-cuanto-cambiar-el-aceite-de-la-moto).',
+                        '**Aros del pistón o guías de válvula gastados**, algo común en motos con mucho uso.',
+                        '**Retenes de válvula en mal estado**: típico humo azul al arrancar o al soltar el acelerador después de una bajada.',
+                        '**Motor de dos tiempos**: el humo azulado es normal en cierta medida porque quema aceite mezclado con la nafta, pero si es excesivo, pedí que revisen la mezcla.',
+                    ]],
+                    'Si además bajó el nivel de aceite entre cambios, hay consumo real y conviene revisarlo.',
+                ],
+            ],
+            [
+                'h2' => 'Humo negro',
+                'id' => 'negro',
+                'body' => [
+                    'Indica que la mezcla tiene más nafta de la que el motor puede quemar. Las causas habituales son el filtro de aire tapado, un carburador sucio o mal regulado, el starter (choke) que queda puesto o, en motos a inyección, un sensor que falla. Probablemente notes que la moto gasta más y la bujía sale negra. Lo vemos en [moto gasta mucha nafta](/guias/moto-gasta-mucha-nafta) y [carburador sucio: síntomas](/guias/carburador-sucio-sintomas).',
+                ],
+            ],
+            [
+                'h2' => 'Qué podés revisar vos',
+                'id' => 'revisar',
+                'body' => [
+                    ['ol' => [
+                        'Mirá el color del humo con la moto caliente y a diferentes revoluciones.',
+                        'Revisá el nivel de aceite, con la moto en plano y frío.',
+                        'Mirá el filtro de aire: si está sucio o aceitoso, limpialo o cambialo.',
+                        'Revisá si hay manchas de aceite o líquido debajo de la moto.',
+                        'Observá si el consumo de aceite sube entre cambios.',
+                    ]],
+                    'No pruebes con aditivos "mágicos" para el humo sin que un mecánico te diga la causa: pueden tapar el síntoma sin resolver nada.',
+                ],
+            ],
+            [
+                'h2' => 'Cuándo ir al taller',
+                'id' => 'taller',
+                'body' => [
+                    'Llevala si el humo azul es constante, si el blanco es espeso y dulce, si el nivel de aceite o de refrigerante baja sin pérdidas visibles, si la moto pierde fuerza o si el humo viene con ruidos metálicos. Un diagnóstico de compresión (prueba que mide cuánta presión retiene el cilindro) ayuda a saber si hay desgaste interno. Pedí presupuesto por escrito y consultá alternativas antes de aceptar una reparación mayor. Para entender qué conviene revisar, un [service de moto](/guias/service-de-moto-que-incluye) completo es un buen punto de partida.',
+                ],
+            ],
+            [
+                'h2' => 'Nota de seguridad',
+                'id' => 'seguridad',
+                'body' => [
+                    ['note' => 'No respires el humo del escape ni pongas la moto en marcha en lugares cerrados: contiene monóxido de carbono. Si el humo viene con olor a quemado o la moto pierde fuerza, apagá y no sigas. El escape y el motor queman.'],
+                ],
+            ],
+        ],
+        'faq' => [
+            ['q' => '¿Es normal que salga humo al arrancar?', 'a' => 'Un poco de vapor blanco en frío, sí. Humo azul o negro persistente, no.'],
+            ['q' => '¿Cuánto cuesta arreglar una moto que quema aceite?', 'a' => 'Depende de la causa y del modelo. Pedí un diagnóstico y un presupuesto detallado al taller.'],
+        ],
+        'links' => [
+            ['path' => '/motos', 'label' => 'Motos por marca y tipo'],
+        ],
+        'related' => ['moto-gasta-mucha-nafta', 'carburador-sucio-sintomas', 'moto-recalienta'],
+        'quiz' => null,
+        'sources' => [],
+    ],
+    'moto-gasta-mucha-nafta' => [
+        'group' => 'reparacion',
+        'title' => 'Mi moto gasta mucha nafta: causas y cómo medir',
+        'navLabel' => 'Gasta mucha nafta',
+        'seoTitle' => 'Mi moto gasta mucha nafta: causas y cómo medirlo',
+        'metaDescription' => 'Tu moto gasta mucha nafta: cómo medir su consumo real, causas frecuentes (filtro, bujía, cubiertas, cadena, manejo) y qué revisar antes del taller.',
+        'query' => 'mi moto gasta mucha nafta',
+        'published' => '2026-10-01',
+        'updated' => '2026-10-01',
+        'hero' => [
+            'h1' => 'Mi moto gasta mucha nafta: causas y cómo medirlo',
+            'lead' => 'Antes de culpar a la moto, medí cuánto consume de verdad. Después, revisá las causas más comunes, que suelen ser baratas de arreglar.',
+        ],
+        'intro' => [
+            'El consumo de combustible depende de la moto, de cómo la manejás, de la carga, del tránsito y del estado de mantenimiento. Las cifras de consumo que publican los fabricantes se miden en condiciones controladas, así que tu consumo real casi siempre difiere. Lo importante es **comparar tu moto consigo misma**: si de pronto gasta más que antes, algo cambió.',
+            ['verify' => 'Consumo declarado por el fabricante de cada modelo (si lo publica con fuente): confirmar en la ficha oficial antes de citar una cifra; el catálogo sólo muestra datos con fuente.'],
+        ],
+        'sections' => [
+            [
+                'h2' => 'Primero, medí tu consumo real',
+                'id' => 'medir',
+                'body' => [
+                    ['ol' => [
+                        'Llená el tanque hasta el tope, siempre en el mismo surtidor y con la moto derecha, y anotá el kilometraje del tablero.',
+                        'Manejá como siempre hasta que necesites cargar de nuevo.',
+                        'Volvé a llenar hasta el tope y anotá cuántos litros entraron.',
+                        'Dividí los kilómetros recorridos por los litros. Ese es tu rendimiento en kilómetros por litro.',
+                        'Repetí varias veces y compará el promedio, no una sola carga.',
+                    ]],
+                    'Anotalo en el celular junto con la fecha. Si baja de golpe, tenés un dato para el mecánico.',
+                ],
+            ],
+            [
+                'h2' => 'Causas frecuentes de un consumo alto',
+                'id' => 'causas',
+                'body' => [
+                    ['list' => [
+                        '**Cubiertas con poco aire.** Aumentan la resistencia al rodar. Controlá la [presión de neumáticos](/guias/presion-de-neumaticos-moto).',
+                        '**Filtro de aire tapado**, que hace que el motor trabaje con una mezcla rica.',
+                        '**Bujía gastada o sucia** (ver [bujía de moto](/guias/bujia-de-moto)).',
+                        '**Cadena seca, floja o muy tensa**, que roba fuerza (ver [cómo tensar la cadena](/guias/como-tensar-la-cadena-de-la-moto)).',
+                        '**Carburador sucio o mal regulado** (ver [carburador sucio: síntomas](/guias/carburador-sucio-sintomas)).',
+                        '**Frenos que arrastran** o un embrague que patina.',
+                        '**Aceite equivocado o degradado**, que aumenta la fricción interna.',
+                        '**Starter puesto de más** en motos con choke manual.',
+                        '**Forma de manejar**: aceleraciones fuertes, marchas muy largas o muy cortas, tránsito con muchas paradas, mucha carga.',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Pérdidas de combustible',
+                'id' => 'perdidas',
+                'body' => [
+                    'Mirá si hay manchas de nafta, olor fuerte o humedad alrededor del tanque, la canilla, las mangueras y el carburador. Una manguera agrietada o un flotante que no cierra pueden perder combustible sin que lo notes. Si ves una pérdida, **no arranques la moto** y llevala al taller.',
+                ],
+            ],
+            [
+                'h2' => 'Qué podés cambiar vos en el manejo',
+                'id' => 'manejo',
+                'body' => [
+                    ['list' => [
+                        'Acelerá y frená con suavidad: anticipate al tránsito.',
+                        'Mantené una marcha acorde a la velocidad, sin llevar el motor muy revolucionado ni muy forzado.',
+                        'Apagá el motor en paradas largas.',
+                        'No andes con peso de más: sacá lo que no necesitás del baúl.',
+                        'Hacé el service a tiempo, con aceite correcto.',
+                    ]],
+                    'Estas costumbres ayudan, aunque no hay cifras garantizadas de cuánto ahorran: depende de tu moto y de tu uso.',
+                ],
+            ],
+            [
+                'h2' => 'Cuándo ir al taller',
+                'id' => 'taller',
+                'body' => [
+                    'Consultá si el consumo subió y ya revisaste presión, filtro, bujía y cadena; si hay humo negro o la moto tironea; si huele a nafta sin quemar; o si hay una pérdida. El taller puede revisar la mezcla, los inyectores (en motos con inyección), el carburador y los sensores. Para tener una idea de cuánto te cuesta tener una moto en total, mirá [cuánto cuesta mantener una moto](/guias/cuanto-cuesta-mantener-una-moto).',
+                ],
+            ],
+            [
+                'h2' => 'Nota de seguridad',
+                'id' => 'seguridad',
+                'body' => [
+                    ['note' => 'No cargues combustible con el motor en marcha ni cerca de fuego, y no fumes en el surtidor. No transportes nafta en envases no aptos. Si olés combustible fuerte o ves una pérdida, no arranques la moto.'],
+                ],
+            ],
+        ],
+        'faq' => [
+            ['q' => '¿Cuántos kilómetros por litro debería hacer mi moto?', 'a' => 'Depende del modelo y del uso. Mejor que una cifra ajena es medir la tuya y comparar contra ella misma.'],
+            ['q' => '¿Cambiar de nafta mejora el consumo?', 'a' => 'Usá la que indica el manual. Una nafta de mala calidad puede ensuciar el sistema, pero no hay una regla que valga para todos los casos.'],
+        ],
+        'links' => [
+            ['path' => '/motos', 'label' => 'Motos por marca y tipo'],
+        ],
+        'related' => ['presion-de-neumaticos-moto', 'bujia-de-moto', 'moto-pierde-potencia'],
+        'quiz' => null,
+        'sources' => [],
+    ],
+    'embrague-de-moto' => [
+        'group' => 'reparacion',
+        'title' => 'Embrague de moto: fallas, ajuste y cuidados',
+        'navLabel' => 'Embrague de moto',
+        'seoTitle' => 'Embrague de moto: síntomas de falla y cuidados',
+        'metaDescription' => 'Embrague de moto: cómo saber si patina o está duro, qué podés ajustar vos (el juego del cable), cómo cuidarlo y cuándo ir al taller.',
+        'query' => 'embrague de moto patina',
+        'published' => '2026-10-01',
+        'updated' => '2026-10-01',
+        'hero' => [
+            'h1' => 'Embrague de moto: síntomas de falla y cuidados',
+            'lead' => 'El embrague conecta y desconecta el motor de la rueda. Si patina, queda duro o no desacopla, hay cosas simples para revisar primero.',
+        ],
+        'intro' => [
+            'El embrague (la palanca del lado izquierdo en las motos con cambios manuales) permite arrancar, cambiar de marcha y frenar sin que el motor se apague. Está formado por discos que se aprietan para transmitir la fuerza. Con el uso se desgastan, y una regulación mal hecha acelera el problema. Las motos automáticas (scooters con transmisión CVT) y las semiautomáticas tienen otros sistemas: lo que sigue aplica sobre todo a las de palanca. Según el catálogo, hay motos de transmisión manual, semiautomática y automática: consultá la tuya en [motos por marca](/motos).',
+            ['verify' => 'Juego libre de la palanca, tipo de embrague y especificación del aceite (norma JASO) por modelo: confirmar en el manual del propietario.'],
+        ],
+        'sections' => [
+            [
+                'h2' => 'Síntomas de problemas',
+                'id' => 'sintomas',
+                'body' => [
+                    ['list' => [
+                        '**Patina**: el motor se revoluciona pero la moto no acelera como debería, sobre todo en subidas o con carga.',
+                        '**Queda duro** de apretar o se traba.',
+                        '**No desacopla del todo**: la moto se mueve o se apaga al poner primera con la palanca apretada, o los cambios entran con golpes.',
+                        '**Vibra o hace ruido** al soltar o apretar la palanca.',
+                        '**Olor a quemado** después de arrancar con carga o en subidas.',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Lo primero que podés revisar: el juego de la palanca',
+                'id' => 'juego',
+                'body' => [
+                    'Muchas motos de palanca permiten regular el juego libre del cable con un tensor en la manija o cerca del motor. Con la moto apagada, apretá la palanca con los dedos: sentís un poco de recorrido sin resistencia (el juego) antes de que empiece a trabajar. El manual dice cuánto tiene que ser. Si el juego es nulo, el embrague queda a medio acoplar y patina; si es excesivo, no desacopla del todo.',
+                    ['ol' => [
+                        'Aflojá la contratuerca del regulador.',
+                        'Girá el regulador de a poco para aumentar o reducir el juego.',
+                        'Volvé a comprobar con los dedos y a apretar la contratuerca.',
+                        'Probá con la moto apagada y después con el motor en marcha y la moto asegurada.',
+                    ]],
+                    'Si tu moto tiene embrague hidráulico, no se regula así: consultá al taller. Un cable agrietado, seco o con la funda dañada también hace la palanca dura: lubricalo o cambialo.',
+                ],
+            ],
+            [
+                'h2' => 'Otras causas',
+                'id' => 'otras',
+                'body' => [
+                    ['list' => [
+                        '**Aceite equivocado** (ver [qué aceite usar en la moto](/guias/que-aceite-usar-en-la-moto)): uno con aditivos antifricción puede hacerlo patinar.',
+                        '**Nivel de aceite muy bajo o muy alto.**',
+                        '**Discos desgastados**, por uso intenso, arrancadas bruscas o carga excesiva.',
+                        '**Resortes cansados** que ya no aprietan lo suficiente.',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Cómo cuidarlo',
+                'id' => 'cuidados',
+                'body' => [
+                    ['list' => [
+                        'Soltá la palanca con suavidad, sin "patinarla" mucho tiempo en subidas.',
+                        'No frenes la moto con el embrague a medias, ni la mantengas sostenida en una pendiente con el embrague.',
+                        'En el semáforo, poné punto muerto si vas a quedar parado mucho rato en lugar de sostener la palanca.',
+                        'Cambiá el aceite como indica el manual y con la especificación correcta.',
+                        'Revisá y lubricá el cable de vez en cuando.',
+                    ]],
+                    'Con delivery, carga o acompañante el embrague trabaja más: prestá atención a los síntomas desde temprano.',
+                ],
+            ],
+            [
+                'h2' => 'Cuándo ir al taller',
+                'id' => 'taller',
+                'body' => [
+                    'Si regulaste el juego y el problema sigue, si hay olor a quemado, si la moto no avanza aunque acelere o si los cambios entran con dificultad, llevala. Cambiar los discos implica abrir la tapa lateral del motor, que lleva aceite y juntas: es un trabajo de taller. Pedí que te muestren los discos viejos y presupuesto. Una buena revisión suele sumarse a un [service de moto](/guias/service-de-moto-que-incluye). Si la moto también pierde fuerza por otras razones, leé [moto pierde potencia](/guias/moto-pierde-potencia).',
+                ],
+            ],
+            [
+                'h2' => 'Nota de seguridad',
+                'id' => 'seguridad',
+                'body' => [
+                    ['note' => 'Un embrague que patina o que no desacopla puede dejarte sin fuerza o hacer que la moto salte hacia adelante. Probá los ajustes con la moto asegurada y con el caballete puesto, y en un lugar despejado. Si dudás, no salgas.'],
+                ],
+            ],
+        ],
+        'faq' => [
+            ['q' => '¿Mi scooter tiene embrague?', 'a' => 'Las scooters automáticas tienen un embrague centrífugo dentro de la transmisión, que no se maneja ni se regula con palanca. Si falla, es trabajo de taller.'],
+            ['q' => '¿Cuánto dura el embrague?', 'a' => 'Depende del uso y de cómo se maneje. No hay una cifra fija: cuidarlo bien lo alarga.'],
+        ],
+        'links' => [
+            ['path' => '/motos', 'label' => 'Motos por marca y tipo'],
+        ],
+        'related' => ['que-aceite-usar-en-la-moto', 'moto-pierde-potencia', 'service-de-moto-que-incluye'],
+        'quiz' => null,
+        'sources' => [],
+    ],
+    'service-de-moto-que-incluye' => [
+        'group' => 'reparacion',
+        'title' => 'Service de moto: qué incluye y cómo prepararlo',
+        'navLabel' => 'Service de moto',
+        'seoTitle' => 'Service de moto: qué incluye y cómo prepararlo',
+        'metaDescription' => 'Qué incluye el service de una moto, cómo saber cuándo toca el tuyo, qué preguntarle al taller y cómo comprobar que hicieron el trabajo.',
+        'query' => 'service de moto qué incluye',
+        'published' => '2026-10-01',
+        'updated' => '2026-10-01',
+        'hero' => [
+            'h1' => 'Service de moto: qué incluye y cómo prepararlo',
+            'lead' => 'Un service es una revisión periódica con cambios y ajustes. Saber qué incluye te ayuda a pedirlo bien y a controlar lo que hicieron.',
+        ],
+        'intro' => [
+            'El service es la revisión que hace un taller cada cierto tiempo o kilometraje para que la moto siga funcionando bien y segura. El contenido exacto lo define el fabricante en el plan de mantenimiento de cada modelo; los talleres suelen ofrecer uno básico y uno más completo. Acá te contamos qué suele revisarse, qué le conviene saber al que lo pide y cómo guardar un registro.',
+            'No incluimos intervalos ni precios. Los intervalos están en el manual; los precios dependen del taller y del modelo, así que pedí un presupuesto por escrito antes de dejar la moto. Para un panorama general de gastos, mirá [cuánto cuesta mantener una moto](/guias/cuanto-cuesta-mantener-una-moto).',
+            ['verify' => 'Plan de mantenimiento (qué se revisa y cada cuánto) de cada modelo del catálogo y condiciones de service de la garantía: confirmar en el manual del propietario y con el distribuidor oficial.'],
+        ],
+        'sections' => [
+            [
+                'h2' => 'Qué suele incluir un service',
+                'id' => 'incluye',
+                'body' => [
+                    ['list' => [
+                        '**Cambio de aceite y, si corresponde, del filtro** (ver [cada cuánto cambiar el aceite](/guias/cada-cuanto-cambiar-el-aceite-de-la-moto)).',
+                        '**Filtro de aire**: limpieza o cambio.',
+                        '**Bujía**: revisión y cambio si hace falta (ver [bujía de moto](/guias/bujia-de-moto)).',
+                        '**Frenos**: pastillas o zapatas, discos, líquido y mangueras (ver [pastillas de freno](/guias/pastillas-de-freno-moto)).',
+                        '**Cadena, piñón y corona**: lubricación, tensión y desgaste (ver [cómo tensar la cadena](/guias/como-tensar-la-cadena-de-la-moto)).',
+                        '**Cubiertas**: presión, desgaste y estado.',
+                        '**Batería y luces**: carga, bornes, lámparas, intermitentes y bocina.',
+                        '**Cables y comandos**: acelerador, embrague, freno trasero.',
+                        '**Suspensión y dirección**: pérdidas, juego, ajuste.',
+                        '**Tornillería general**: control de ajustes con el torque del manual.',
+                        '**Carburador o inyección**: revisión del ralentí y de la mezcla, según el tipo.',
+                    ]],
+                    'Un service completo puede incluir más cosas, como el juego de válvulas, el filtro de combustible o el refrigerante, según el modelo.',
+                ],
+            ],
+            [
+                'h2' => 'Cómo saber cuándo toca',
+                'id' => 'cuando',
+                'body' => [
+                    'Mirá el manual o la libreta de service: indican los kilómetros y los meses entre revisiones. Si la moto es 0 km, la garantía suele exigir realizar los services en el comercio o en un taller autorizado dentro de ciertos plazos; confirmá las condiciones con el vendedor y guardá cada comprobante. Si es usada, preguntá cuándo fue el último service y pedí el comprobante.',
+                ],
+            ],
+            [
+                'h2' => 'Cómo prepararlo',
+                'id' => 'preparar',
+                'body' => [
+                    ['ol' => [
+                        'Hacé una lista de lo que notaste: ruidos, tirones, pérdidas, frenos, consumo.',
+                        'Llevá la libreta o el manual y el último comprobante.',
+                        'Pedí un presupuesto por escrito, con repuestos y mano de obra separados.',
+                        'Preguntá qué repuestos usan y si te muestran las piezas cambiadas.',
+                        'Aclaré que no hagan trabajos extra sin consultarte.',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Cómo comprobar el trabajo',
+                'id' => 'comprobar',
+                'body' => [
+                    ['list' => [
+                        'Pedí la factura o el comprobante con el detalle de lo hecho y el kilometraje.',
+                        'Mirá que el nivel de aceite sea correcto y no haya pérdidas debajo de la moto.',
+                        'Probá frenos, luces, bocina y acelerador antes de irte.',
+                        'Anotá fecha y kilometraje en tu propio registro.',
+                        'Si algo no anda como antes, volvé al taller enseguida, no semanas después.',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Taller oficial o taller de barrio',
+                'id' => 'donde',
+                'body' => [
+                    'Los talleres oficiales de las marcas conocen cada modelo y usan repuestos originales; son lo indicado mientras la moto tenga garantía. Después, muchos dueños eligen un taller de confianza de su zona. Lo importante es que trabaje con la marca de tu moto, consiga los repuestos y dé presupuestos claros. Preguntá a otros dueños de la misma moto. Si tu moto tiene un problema puntual, mirá primero la guía correspondiente, como [mi moto no arranca](/guias/moto-no-arranca).',
+                ],
+            ],
+            [
+                'h2' => 'Nota de seguridad',
+                'id' => 'seguridad',
+                'body' => [
+                    ['note' => 'Después de un service, probá los frenos a baja velocidad antes de salir al tránsito. Si el taller toca frenos, dirección o cubiertas, verificá que quede todo firme. No manejes si algo te parece distinto.'],
+                ],
+            ],
+        ],
+        'faq' => [
+            ['q' => '¿El service es obligatorio?', 'a' => 'Para mantener la garantía de una moto 0 km, normalmente sí, en las condiciones que fije el comercio. Para cualquier moto, hacerlo evita fallas mayores.'],
+            ['q' => '¿Puedo hacerme parte del service yo mismo?', 'a' => 'Algunas tareas simples (revisar presión, lubricar la cadena, mirar niveles) sí. Las que tocan frenos o motor conviene dejarlas al taller.'],
+        ],
+        'links' => [
+            ['path' => '/motos', 'label' => 'Motos por marca y tipo'],
+            ['path' => '/contacto', 'label' => 'Consultanos por una moto'],
+        ],
+        'related' => ['cada-cuanto-cambiar-el-aceite-de-la-moto', 'pastillas-de-freno-moto', 'cubiertas-de-moto-cuando-cambiarlas'],
+        'quiz' => null,
+        'sources' => [],
+    ],
+    'moto-despues-de-la-lluvia' => [
+        'group' => 'reparacion',
+        'title' => 'Moto después de la lluvia: qué revisar',
+        'navLabel' => 'Después de la lluvia',
+        'seoTitle' => 'Moto después de la lluvia: qué revisar y cuidar',
+        'metaDescription' => 'Qué hacer con la moto después de la lluvia o de un lavado: secado, cadena, frenos, bujía y electricidad, y qué pasa si no arranca mojada.',
+        'query' => 'moto después de la lluvia',
+        'published' => '2026-10-01',
+        'updated' => '2026-10-01',
+        'hero' => [
+            'h1' => 'Moto después de la lluvia: qué revisar y cómo cuidarla',
+            'lead' => 'El agua, el barro y la humedad castigan la cadena, los frenos y la electricidad. Unos minutos de cuidado después de mojarte evitan problemas.',
+        ],
+        'intro' => [
+            'En Paraguay llueve fuerte, el barro de las calles de tierra se pega a todo y la humedad se queda en la moto. Un viaje bajo la lluvia o un lavado con agua a presión pueden dejar agua en lugares donde no debería estar: conectores, filtro de aire, tanque, cadena y frenos. La buena noticia es que casi todo se resuelve con secado y limpieza, sin herramientas especiales.',
+            ['verify' => 'Recomendaciones del fabricante sobre lavado y sellado eléctrico por modelo: confirmar en el manual del propietario.'],
+        ],
+        'sections' => [
+            [
+                'h2' => 'Lo primero: secar y limpiar',
+                'id' => 'secar',
+                'body' => [
+                    ['ol' => [
+                        'Sacale el barro grueso con agua a baja presión y un trapo húmedo antes de que se seque.',
+                        'Secá con un trapo limpio: tablero, manijas, conectores visibles, asiento y el área de la bujía.',
+                        'Si vas a lavar, **no apuntes la manguera a presión** al escape, al filtro de aire, al tablero, a los rodamientos, a los conectores ni a la cadena.',
+                        'Dejala secar a la sombra, en un lugar ventilado, no bajo un plástico cerrado que atrape humedad.',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'La cadena',
+                'id' => 'cadena',
+                'body' => [
+                    'El agua y el barro lavan el lubricante de la cadena y la dejan expuesta al óxido. Limpiala con un trapo y un limpiador adecuado, dejala secar y lubricala de nuevo, como en [cómo tensar la cadena de la moto](/guias/como-tensar-la-cadena-de-la-moto). Después, mirá la tensión: con el barro puede cambiar. Si la dejás sin atender, el óxido acorta la vida del [kit de arrastre](/guias/kit-de-arrastre-de-moto).',
+                ],
+            ],
+            [
+                'h2' => 'Los frenos',
+                'id' => 'frenos',
+                'body' => [
+                    'Con agua en discos y pastillas, la frenada es más débil y más larga. Después de mojarte, frená suavemente varias veces a baja velocidad para secarlos. Si el barro se acumuló en la pinza, se desgastan más rápido. Revisá el estado de las pastillas como en [pastillas de freno de moto](/guias/pastillas-de-freno-moto). Si usás freno de tambor, el agua y el barro pueden arrastrar o chillar: si persiste, consultá al taller.',
+                ],
+            ],
+            [
+                'h2' => 'Si no arranca mojada',
+                'id' => 'no-arranca',
+                'body' => [
+                    'Es común. Suele deberse a agua en el capuchón de la bujía o en los conectores, a la bujía mojada o al filtro de aire húmedo. Con el motor frío, sacá el capuchón, secá el conector y la bujía, secá la zona con un trapo y volvé a probar. Si la moto tiene carburador y hay agua en la nafta, el síntoma es tironeo y apagones. Seguí los pasos de [mi moto no arranca](/guias/moto-no-arranca). Si el agua llegó al tanque, no la dejes: pedí que lo vacíen y limpien.',
+                ],
+            ],
+            [
+                'h2' => 'Electricidad y luces',
+                'id' => 'electricidad',
+                'body' => [
+                    ['list' => [
+                        'Mirá que luces, intermitentes y bocina funcionen. Un faro con vapor adentro puede indicar una junta que no sella.',
+                        'Revisá los bornes de la batería: la humedad los sulfata (ver [batería de moto](/guias/bateria-de-moto)).',
+                        'Fijate que no haya agua en los conectores ni cables pelados.',
+                        'Si saltan fusibles seguidos después de mojarte, hay un cortocircuito: llevala al taller.',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Otras zonas que mirar',
+                'id' => 'otras',
+                'body' => [
+                    ['list' => [
+                        '**Cubiertas:** buscá piedras o clavos clavados y revisá la presión (ver [presión de neumáticos de moto](/guias/presion-de-neumaticos-moto)).',
+                        '**Cables de acelerador y embrague:** si se secan o se pegan, lubricalos.',
+                        '**Escape:** que no haya agua dentro; si hay, dejá que salga antes de arrancar.',
+                        '**Asiento:** si quedó empapado, secalo para evitar moho.',
+                        '**Partes metálicas y tornillos:** un poco de protector contra el óxido ayuda en zonas expuestas, sin tocar frenos ni cubiertas.',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Cuándo ir al taller',
+                'id' => 'taller',
+                'body' => [
+                    'Llevala si entró agua al motor (nivel de aceite lechoso), si hay fallas eléctricas que no se van al secar, si los frenos siguen débiles, si ves óxido profundo en piezas importantes o si sospechás de agua en el tanque. Mencionale al mecánico que se mojó: orienta el diagnóstico. Para revisiones periódicas que ayudan a prevenirlo, mirá [service de moto: qué incluye](/guias/service-de-moto-que-incluye).',
+                ],
+            ],
+            [
+                'h2' => 'Nota de seguridad',
+                'id' => 'seguridad',
+                'body' => [
+                    ['note' => 'Con lluvia, el agarre baja y la frenada se alarga: reducí la velocidad y evitá pintura de calle, hojas y tapas metálicas. No cruces calles inundadas si no ves el fondo: el agua puede entrar al escape y al motor. Después de mojarte, probá los frenos antes de acelerar.'],
+                ],
+            ],
+        ],
+        'faq' => [
+            ['q' => '¿Puedo lavar la moto con manguera?', 'a' => 'Sí, con agua a baja presión y evitando conectores, escape, filtro de aire y tablero. Después secá y lubricá la cadena.'],
+            ['q' => '¿Puedo dejar la moto bajo la lluvia?', 'a' => 'No es lo ideal: el agua entra por el tanque y sulfata bornes y conectores. Si no tenés garaje, usá una funda transpirable.'],
+        ],
+        'links' => [
+            ['path' => '/motos', 'label' => 'Motos por marca y tipo'],
+        ],
+        'related' => ['moto-no-arranca', 'como-tensar-la-cadena-de-la-moto', 'pastillas-de-freno-moto'],
+        'quiz' => null,
+        'sources' => [],
+    ],
+    'guardar-la-moto-mucho-tiempo' => [
+        'group' => 'reparacion',
+        'title' => 'Cómo guardar la moto por mucho tiempo',
+        'navLabel' => 'Guardar la moto',
+        'seoTitle' => 'Cómo guardar la moto por mucho tiempo sin dañarla',
+        'metaDescription' => 'Cómo guardar la moto por meses sin que se dañe: nafta, batería, aceite, cubiertas, cadena, lugar y qué revisar antes de volver a usarla.',
+        'query' => 'guardar la moto mucho tiempo',
+        'published' => '2026-10-01',
+        'updated' => '2026-10-01',
+        'hero' => [
+            'h1' => 'Cómo guardar la moto por mucho tiempo sin dañarla',
+            'lead' => 'Una moto parada se descompone sola: la nafta se echa a perder, la batería se descarga y las cubiertas se deforman. Estos pasos lo evitan.',
+        ],
+        'intro' => [
+            'Un viaje largo, una enfermedad, una mudanza o simplemente no usarla por un tiempo: hay muchas razones para dejar la moto parada. El problema es que "dejarla" sin preparación suele terminar en nafta degradada, batería muerta, cubiertas aplastadas, óxido en la cadena y un carburador tapado. Con una hora de trabajo antes de guardarla y otra al volver, te ahorrás un buen susto.',
+            'No ponemos plazos ni cantidades: depende de cuánto tiempo la vas a dejar y del modelo. El manual puede traer una sección de almacenamiento.',
+            ['verify' => 'Procedimiento de almacenamiento prolongado del fabricante (nafta, batería, cilindros) por modelo: confirmar en el manual del propietario.'],
+        ],
+        'sections' => [
+            [
+                'h2' => 'Antes de guardarla',
+                'id' => 'antes',
+                'body' => [
+                    ['ol' => [
+                        '**Lavala y secala bien**, incluyendo la cadena, y lubricala. No guardes la moto sucia: el barro y la humedad corroen.',
+                        '**Aceite:** si falta poco para el cambio, hacelo antes de guardarla. El aceite usado tiene ácidos y residuos que atacan el motor mientras está parada.',
+                        '**Combustible:** hay dos escuelas. Llenar el tanque evita que se oxide por dentro y hace menos espacio para humedad; algunos talleres recomiendan agregar un estabilizador de combustible. Si tu moto es a carburador, preguntá en el taller si conviene vaciarlo (ver [carburador sucio: síntomas](/guias/carburador-sucio-sintomas)).',
+                        '**Batería:** desconectala (primero el negativo) o conectale un cargador de mantenimiento (ver [batería de moto](/guias/bateria-de-moto)). Si la dejás conectada y sin cargar, se descarga y se daña.',
+                        '**Cubiertas:** inflalas a la presión indicada, o un poco más si el manual lo permite, y si podés, apoyá la moto sobre un caballete para que no se deformen o se aplasten.',
+                        '**Escape y admisión:** tapá la salida del escape con un trapo limpio o una bolsa para que no entren insectos ni humedad (acordate de sacarlo después).',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Dónde guardarla',
+                'id' => 'donde',
+                'body' => [
+                    'Elegí un lugar cubierto, seco y ventilado, lejos de la lluvia, el sol directo y el polvo. Una funda transpirable protege sin atrapar humedad; evitá las bolsas plásticas cerradas. Con el calor de Paraguay, un garaje con techo de chapa puede ser muy caluroso: un lugar más fresco es mejor. Y guardala con llave y, si podés, con una traba o candado.',
+                ],
+            ],
+            [
+                'h2' => 'Durante el tiempo parada',
+                'id' => 'durante',
+                'body' => [
+                    ['list' => [
+                        'Si podés, pedile a alguien que la mueva un poco o que gire la rueda cada tanto para que no se asienten las cubiertas.',
+                        'Revisá la batería o el cargador de mantenimiento cada tanto.',
+                        'Mirá que no haya pérdidas de aceite, de nafta ni humedad.',
+                        'No arranques el motor sólo "para que ande un minuto": arrancar sin llevarlo a temperatura genera condensación y no ayuda. Si vas a arrancarla, hacelo para usarla un rato.',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Cuando volvés a usarla',
+                'id' => 'volver',
+                'body' => [
+                    ['ol' => [
+                        'Sacá la funda y el trapo del escape.',
+                        'Revisá la nafta: si estuvo mucho tiempo parada, cambiala por nafta fresca.',
+                        'Reconectá y revisá la batería, y cargala si hace falta.',
+                        'Controlá la presión de las cubiertas y su estado: grietas, deformaciones o resecado indican que hay que cambiarlas (ver [cubiertas de moto: cuándo cambiarlas](/guias/cubiertas-de-moto-cuando-cambiarlas)).',
+                        'Mirá niveles (aceite, líquido de frenos, refrigerante), la cadena y las luces.',
+                        'Probá los frenos y salí despacio al principio.',
+                    ]],
+                    'Si no arranca, seguí [mi moto no arranca](/guias/moto-no-arranca). Un [service de moto](/guias/service-de-moto-que-incluye) al volver ayuda a detectar problemas.',
+                ],
+            ],
+            [
+                'h2' => 'Cuándo ir al taller',
+                'id' => 'taller',
+                'body' => [
+                    'Si la moto estuvo parada por mucho tiempo, es probable que necesite una puesta a punto: carburador, bujía, frenos y cubiertas. Pedí presupuesto antes de empezar. Si la guardaste con nafta y no arranca, no insistas con el botón: se desgasta el motor de arranque y la batería.',
+                ],
+            ],
+            [
+                'h2' => 'Nota de seguridad',
+                'id' => 'seguridad',
+                'body' => [
+                    ['note' => 'No guardes la moto con el tanque abierto ni cerca de estufas, calefones o garrafas, y nunca dentro de la casa con nafta. Evitá guardar bidones de combustible en el mismo lugar. Si vas a vaciar nafta, hacelo al aire libre y sin chispas.'],
+                ],
+            ],
+        ],
+        'faq' => [
+            ['q' => '¿Es mejor guardarla con el tanque lleno o vacío?', 'a' => 'Depende del modelo y del tiempo. Muchos mecánicos prefieren tanque lleno con estabilizador; en motos a carburador, algunos prefieren vaciar el carburador. Consultá al taller de tu marca.'],
+            ['q' => '¿Cuánto tiempo puede estar parada sin problemas?', 'a' => 'No hay un plazo seguro para todas. Cuanto más tiempo, más necesaria es la preparación.'],
+        ],
+        'links' => [
+            ['path' => '/motos', 'label' => 'Motos por marca y tipo'],
+        ],
+        'related' => ['bateria-de-moto', 'moto-no-arranca', 'carburador-sucio-sintomas'],
+        'quiz' => null,
+        'sources' => [],
+    ],
+    'moto-se-apaga-sola' => [
+        'group' => 'reparacion',
+        'title' => 'La moto se apaga sola: causas y qué hacer',
+        'navLabel' => 'Se apaga sola',
+        'seoTitle' => 'La moto se apaga sola: causas y qué revisar',
+        'metaDescription' => 'Tu moto se apaga sola al ralentí, al frenar o al acelerar: causas (nafta, bujía, carburador, ralentí, eléctricas), qué revisar y cuándo llevarla.',
+        'query' => 'moto se apaga sola',
+        'published' => '2026-10-01',
+        'updated' => '2026-10-01',
+        'hero' => [
+            'h1' => 'La moto se apaga sola: causas y qué revisar',
+            'lead' => 'Según cuándo se apague (al ralentí, al acelerar o en marcha), la causa cambia. Fijate en qué situación pasa para acotar el problema.',
+        ],
+        'intro' => [
+            'Que la moto se apague sola es molesto y puede ser peligroso, sobre todo en el tránsito. La clave para diagnosticarlo es **cuándo ocurre**: si sólo al ralentí, si al acelerar, si después de calentarse o de golpe, sin avisar. Cada caso apunta a causas distintas. Esta guía te ordena las posibilidades; la causa exacta la confirma un mecánico.',
+            ['verify' => 'Régimen de ralentí y procedimiento de regulación por modelo: confirmar en el manual del propietario.'],
+        ],
+        'sections' => [
+            [
+                'h2' => 'Se apaga al ralentí o al frenar',
+                'id' => 'ralenti',
+                'body' => [
+                    'Cuando soltás el acelerador y el motor muere, lo más probable es un ralentí mal regulado, un carburador sucio o una entrada de aire que no debería (una junta o manguera agrietada). El starter (choke) mal usado en frío también lo causa. En motos a inyección, puede ser un sensor sucio o un inyector. Revisá [carburador sucio: síntomas](/guias/carburador-sucio-sintomas).',
+                ],
+            ],
+            [
+                'h2' => 'Se apaga al acelerar o con carga',
+                'id' => 'acelerar',
+                'body' => [
+                    ['list' => [
+                        '**Falta de combustible:** la canilla cerrada o en reserva, el tanque casi vacío, el respiradero de la tapa tapado o un filtro de nafta sucio.',
+                        '**Filtro de aire tapado.**',
+                        '**Bujía gastada o sucia** (ver [bujía de moto](/guias/bujia-de-moto)).',
+                        '**Nafta con agua** (ver [moto después de la lluvia](/guias/moto-despues-de-la-lluvia)).',
+                    ]],
+                    'Si además pierde fuerza, leé [moto pierde potencia](/guias/moto-pierde-potencia).',
+                ],
+            ],
+            [
+                'h2' => 'Se apaga de golpe, como si cortaran la llave',
+                'id' => 'de-golpe',
+                'body' => [
+                    'Es típico de una falla eléctrica: un conector flojo, un interruptor de parada que se mueve, un cable pelado, el sensor del caballete o un problema de la batería o del sistema de carga (ver [batería de moto](/guias/bateria-de-moto)). Si ocurre al pasar por un bache, suele ser un contacto flojo. Mirá que el interruptor rojo de parada esté bien y que la batería tenga los bornes firmes.',
+                ],
+            ],
+            [
+                'h2' => 'Se apaga cuando se calienta',
+                'id' => 'caliente',
+                'body' => [
+                    'Si anda bien en frío y falla ya caliente, puede ser recalentamiento (ver [moto recalienta](/guias/moto-recalienta)), una bobina o un módulo electrónico que falla con el calor, o vapor en el circuito de combustible. Lo vas a notar si la moto vuelve a arrancar cuando se enfría. Es un caso para taller.',
+                ],
+            ],
+            [
+                'h2' => 'Qué podés revisar vos',
+                'id' => 'revisar',
+                'body' => [
+                    ['ol' => [
+                        'Nafta en el tanque y llave de combustible abierta.',
+                        'Interruptor de parada y caballete lateral.',
+                        'Bornes de la batería y fusibles.',
+                        'Capuchón y estado de la bujía.',
+                        'Filtro de aire.',
+                        'Si hay un patrón: ¿cuándo se apaga, caliente o frío, con acelerador abierto o cerrado, después de frenar?',
+                    ]],
+                    'Anotá lo que observás: el mecánico lo agradece.',
+                ],
+            ],
+            [
+                'h2' => 'Cuándo ir al taller',
+                'id' => 'taller',
+                'body' => [
+                    'Si se apaga seguido, si no encontraste la causa, si hay olor a quemado o a nafta, o si ocurre a velocidad, no sigas usándola. Un apagón en medio del tránsito es un riesgo: perdés fuerza justo cuando la necesitás para esquivar o salir de un cruce. Llevala a un taller y contale el patrón que anotaste. Si necesitás ayuda para encontrar uno cerca, [escribinos](/contacto).',
+                ],
+            ],
+            [
+                'h2' => 'Nota de seguridad',
+                'id' => 'seguridad',
+                'body' => [
+                    ['note' => 'Si el motor se apaga en marcha, no frenes de golpe: señalizá, apretá el embrague para ir en punto muerto, buscá un lugar seguro a la derecha y frená con suavidad. No intentes arrancar en medio de la calle. No sigas usándola hasta saber la causa.'],
+                ],
+            ],
+        ],
+        'faq' => [
+            ['q' => '¿Por qué se apaga mi moto en los semáforos?', 'a' => 'Lo más común es ralentí bajo o carburador sucio. Se arregla con una limpieza y regulación en el taller.'],
+            ['q' => '¿Se apaga sola por la nafta de la estación?', 'a' => 'Puede pasar si la nafta tiene agua o suciedad. Si ocurre justo después de cargar, contale a la estación y a un mecánico.'],
+        ],
+        'links' => [
+            ['path' => '/motos', 'label' => 'Motos por marca y tipo'],
+        ],
+        'related' => ['moto-no-arranca', 'carburador-sucio-sintomas', 'bateria-de-moto', 'moto-recalienta'],
+        'quiz' => null,
+        'sources' => [],
+    ],
+    'moto-pierde-potencia' => [
+        'group' => 'reparacion',
+        'title' => 'Moto que pierde potencia: causas y qué revisar',
+        'navLabel' => 'Pierde potencia',
+        'seoTitle' => 'Moto que pierde potencia: causas y qué revisar',
+        'metaDescription' => 'Tu moto no acelera como antes o le cuesta subir: causas (filtro, bujía, nafta, embrague, cadena, frenos) y qué revisar antes de ir al taller.',
+        'query' => 'moto pierde potencia',
+        'published' => '2026-10-01',
+        'updated' => '2026-10-01',
+        'hero' => [
+            'h1' => 'Moto que pierde potencia: causas y qué revisar',
+            'lead' => 'Si notás que tu moto responde menos, sube mal las pendientes o no llega a la velocidad de antes, hay un orden lógico para buscar la causa.',
+        ],
+        'intro' => [
+            'Perder potencia casi nunca ocurre de un día para otro: suele ser un desgaste gradual o una pieza que se ensució. Lo primero es distinguir si el problema está en el **motor** (no genera la fuerza), en la **transmisión** (la fuerza se pierde en el camino, por el embrague o la cadena) o en algo que **frena** la moto (frenos que arrastran, cubiertas sin aire). Esta guía sigue ese orden.',
+            ['verify' => 'Potencia declarada por el fabricante para cada modelo (sólo con fuente): confirmar en la ficha oficial; en el catálogo se muestra únicamente la que tiene fuente.'],
+        ],
+        'sections' => [
+            [
+                'h2' => 'Que el motor no genere la fuerza',
+                'id' => 'motor',
+                'body' => [
+                    ['list' => [
+                        '**Filtro de aire tapado**, algo muy común en calles de tierra.',
+                        '**Bujía gastada o sucia** (ver [bujía de moto](/guias/bujia-de-moto)).',
+                        '**Carburador sucio o inyección con problemas** (ver [carburador sucio: síntomas](/guias/carburador-sucio-sintomas)).',
+                        '**Nafta vieja, con agua o de baja calidad.**',
+                        '**Escape tapado** o abollado.',
+                        '**Falta de compresión** por desgaste del motor, que se nota con humo y consumo de aceite (ver [humo blanco o azul](/guias/humo-blanco-o-azul-moto)).',
+                        '**Recalentamiento** (ver [moto recalienta](/guias/moto-recalienta)).',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Que la fuerza se pierda en la transmisión',
+                'id' => 'transmision',
+                'body' => [
+                    ['list' => [
+                        '**Embrague que patina**: el motor se revoluciona y la moto no acelera (ver [embrague de moto](/guias/embrague-de-moto)).',
+                        '**Cadena floja o gastada y kit de arrastre en mal estado** (ver [kit de arrastre](/guias/kit-de-arrastre-de-moto)).',
+                        '**En scooters, correa y variador desgastados**, que patinan o no transmiten bien. Son trabajo de taller.',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Que algo frene la moto',
+                'id' => 'frenos',
+                'body' => [
+                    ['list' => [
+                        '**Freno que arrastra:** la pinza o el tambor quedan trabados y la rueda se calienta. Después de andar, tocá con cuidado el área para ver si está muy caliente.',
+                        '**Cubiertas con poco aire** (ver [presión de neumáticos](/guias/presion-de-neumaticos-moto)).',
+                        '**Rodamientos de rueda en mal estado** que giran con resistencia.',
+                        '**Exceso de carga** o un acompañante pesado.',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Cómo ordenar la búsqueda',
+                'id' => 'orden',
+                'body' => [
+                    ['ol' => [
+                        'Revisá lo barato y simple: nafta, filtro de aire, bujía y presión de cubiertas.',
+                        'Levantá la rueda trasera (si tenés caballete) y girala: tiene que girar libre y sin ruidos ni tirones.',
+                        'Mirá la cadena y su tensión.',
+                        'Probá el embrague: ¿patina al acelerar a fondo en marcha alta?',
+                        'Fijate si el síntoma es en frío o en caliente, en llano o sólo en subidas.',
+                    ]],
+                    'Anotá lo que encuentres: ayuda al taller a decidir.',
+                ],
+            ],
+            [
+                'h2' => 'Cuándo ir al taller',
+                'id' => 'taller',
+                'body' => [
+                    'Si ya revisaste lo básico y la moto sigue sin responder, si hay humo, ruidos del motor, olor a quemado o pérdidas, o si necesitás desarmar carburador, embrague o frenos, llevala. Pedí que te hagan un diagnóstico antes de reparar y que te expliquen qué encontraron. Un [service de moto](/guias/service-de-moto-que-incluye) con revisión de compresión y mezcla suele ubicar el problema.',
+                ],
+            ],
+            [
+                'h2' => 'Nota de seguridad',
+                'id' => 'seguridad',
+                'body' => [
+                    ['note' => 'Una moto con menos fuerza tarda más en adelantar y en salir de un cruce: calculá más distancia. No fuerces el motor en subidas largas con el embrague patinando ni sigas andando si huele a quemado. Con los frenos arrastrando, evitá bajadas largas.'],
+                ],
+            ],
+        ],
+        'faq' => [
+            ['q' => '¿Por qué mi moto va más lenta que antes?', 'a' => 'Lo más común es filtro de aire, bujía, nafta, cadena o cubiertas. Revisalos antes que nada.'],
+            ['q' => '¿Afecta la carga a la potencia?', 'a' => 'Sí: cada moto está pensada para un peso máximo, que figura en el manual. Pasarte exige más al motor y a los frenos.'],
+        ],
+        'links' => [
+            ['path' => '/motos', 'label' => 'Motos por marca y tipo'],
+        ],
+        'related' => ['carburador-sucio-sintomas', 'embrague-de-moto', 'moto-gasta-mucha-nafta'],
+        'quiz' => null,
+        'sources' => [],
+    ],
+    'cubiertas-de-moto-cuando-cambiarlas' => [
+        'group' => 'reparacion',
+        'title' => 'Cubiertas de moto: cuándo cambiarlas',
+        'navLabel' => 'Cubiertas de moto',
+        'seoTitle' => 'Cubiertas de moto: cuándo cambiarlas y cómo elegirlas',
+        'metaDescription' => 'Cubiertas de moto: señales de que hay que cambiarlas (desgaste, grietas, edad), cómo leer la medida y qué tener en cuenta al elegir las nuevas.',
+        'query' => 'cuándo cambiar las cubiertas de la moto',
+        'published' => '2026-10-01',
+        'updated' => '2026-10-01',
+        'hero' => [
+            'h1' => 'Cubiertas de moto: cuándo cambiarlas y cómo elegirlas',
+            'lead' => 'Son lo único que toca el piso. Cambiarlas a tiempo es una de las decisiones de seguridad más importantes de la moto.',
+        ],
+        'intro' => [
+            'Una cubierta no se gasta sólo por los kilómetros: también el sol, el calor, la presión equivocada y la edad la endurecen y la agrietan. Una cubierta gastada o envejecida agarra mal, sobre todo con lluvia o en tierra, y se pincha más fácil. Conviene mirarlas de vez en cuando, junto con la presión (ver [presión de neumáticos de moto](/guias/presion-de-neumaticos-moto)).',
+            'No damos medidas ni profundidades de dibujo mínimas porque dependen del tipo de cubierta y de la ley vigente: consultá el indicador de desgaste de la cubierta, el manual y la normativa aplicable.',
+            ['verify' => 'Medida de cubiertas delantera y trasera por modelo y profundidad mínima de dibujo exigida por la normativa paraguaya: confirmar en el manual del propietario y en la norma vigente de tránsito.'],
+        ],
+        'sections' => [
+            [
+                'h2' => 'Señales de que hay que cambiarlas',
+                'id' => 'senales',
+                'body' => [
+                    ['list' => [
+                        '**El dibujo llegó al indicador de desgaste**, unas marcas que la cubierta trae en el fondo de los surcos. Si el dibujo está a la altura de esas marcas, es hora.',
+                        '**Grietas** en el costado o entre los tacos, signo de goma resecada.',
+                        '**Bultos, cortes o deformaciones** en el costado.',
+                        '**Desgaste dispar**, plano en el centro o muy gastado de un lado.',
+                        '**Pierde aire** aunque no haya clavos visibles.',
+                        '**Edad:** una cubierta guardada o poco usada igual envejece. Muchas llevan grabada la fecha de fabricación en el costado (un código de cuatro números, semana y año); preguntá en la gomería cómo leerlo.',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Cómo leer la medida',
+                'id' => 'medida',
+                'body' => [
+                    'En el costado de la cubierta está grabada su medida, una serie de números y letras. Es la medida que tenés que pedir. No te guíes por la "parecida": una cubierta de otra medida cambia el comportamiento de la moto y puede rozar. La medida original está en el manual. Si querés cambiar el tipo (más agresiva para tierra, por ejemplo), consultá en una gomería o taller de confianza.',
+                ],
+            ],
+            [
+                'h2' => 'Calles de asfalto o de tierra',
+                'id' => 'tipo',
+                'body' => [
+                    'Hay cubiertas para asfalto, para tierra y mixtas. Una cubierta de tacos grandes agarra bien en tierra pero se gasta rápido en asfalto y agarra menos con lluvia. Una de asfalto en tierra suelta resbala. Pensá en dónde andás más y elegí en consecuencia. En el catálogo hay motos de enduro, de calle y de trabajo: mirá las que te interesan en [motos por marca](/motos), y consultá el tipo de cubierta que trae cada una.',
+                ],
+            ],
+            [
+                'h2' => 'Al comprarlas y colocarlas',
+                'id' => 'comprar',
+                'body' => [
+                    ['list' => [
+                        'Comprá en un comercio conocido y revisá la fecha de fabricación.',
+                        'Pedí que las coloquen en una gomería con máquina y equilibrado de la rueda.',
+                        'Cambiá el pico o válvula y revisá los rodamientos de la rueda mientras está desarmada.',
+                        'Confirmá el sentido de rotación (flecha del costado) y la presión al terminar.',
+                        'No pidas precios por mensaje sin la medida exacta: te los darán por modelo, y cambian según marca y gomería.',
+                    ]],
+                    'Las cubiertas nuevas necesitan unos kilómetros de adaptación: salí despacio y evitá frenadas y curvas fuertes al principio.',
+                ],
+            ],
+            [
+                'h2' => 'Cómo hacerlas durar',
+                'id' => 'durar',
+                'body' => [
+                    ['list' => [
+                        'Mantené la presión correcta, siempre en frío.',
+                        'Evitá frenadas bruscas y aceleraciones con patinada.',
+                        'Guardá la moto a la sombra: el sol reseca la goma.',
+                        'Revisá clavos y piedras después de andar por tierra.',
+                        'Si cambiás tu estilo de uso o la carga, ajustá la presión como indique el manual.',
+                    ]],
+                    'Una moto que vibra o se siente rara puede tener un problema de rueda o rodamientos; consultá en un [service de moto](/guias/service-de-moto-que-incluye).',
+                ],
+            ],
+            [
+                'h2' => 'Cuándo ir al taller o la gomería',
+                'id' => 'taller',
+                'body' => [
+                    'Andá si hay un bulto, un corte o una grieta profunda, si la cubierta pierde aire seguido, si el dibujo llegó al indicador, si la llanta está golpeada o si vibra al rodar. Una cubierta con daño en el costado no se repara: se cambia. Si buscás recomendaciones de dónde llevarla, [escribinos](/contacto).',
+                ],
+            ],
+            [
+                'h2' => 'Nota de seguridad',
+                'id' => 'seguridad',
+                'body' => [
+                    ['note' => 'No salgas con cubiertas lisas, con tajos o con bultos, sobre todo con lluvia. Una cubierta nueva tiene menos agarre los primeros kilómetros. Al inflar, no te pongas frente a la cubierta. Una cubierta que revienta en marcha es una de las caídas más graves.'],
+                ],
+            ],
+        ],
+        'faq' => [
+            ['q' => '¿Cada cuántos kilómetros se cambian las cubiertas?', 'a' => 'No hay un número fijo: depende del uso, la carga, la presión y el estado de las calles. Mirá el desgaste y la edad.'],
+            ['q' => '¿Puedo cambiar sólo una cubierta?', 'a' => 'Sí, si la otra está en buen estado. Muchos mecánicos aconsejan que sean de tipo y marca compatibles; consultá en la gomería.'],
+        ],
+        'links' => [
+            ['path' => '/motos', 'label' => 'Motos por marca y tipo'],
+        ],
+        'related' => ['presion-de-neumaticos-moto', 'pastillas-de-freno-moto', 'moto-despues-de-la-lluvia'],
         'quiz' => null,
         'sources' => [],
     ],

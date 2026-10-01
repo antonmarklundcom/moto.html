@@ -24,6 +24,84 @@ declare(strict_types=1);
 
 return [
     /* == B1a == */
+    'bajaj' => array (
+      'description' => 'Motos Bajaj en Paraguay: el modelo del catálogo con ficha y precio publicado, quién distribuyó la marca y cómo elegir según el uso.',
+      'intro' => 
+      array (
+        0 => 'Bajaj tiene tres modelos en nuestro catálogo, y por ahora sólo uno tiene datos suficientes para su propia ficha. Esta página reúne los 3 modelos de Bajaj que figuran en el catálogo, con los datos que publicó una fuente real, cada uno con la fecha en que lo consultamos.',
+        1 => 'No vendemos motos ni inventamos precios: cuando un dato no tiene fuente, no lo mostramos. Lo que hacemos es ordenar lo que se sabe para que llegues a la concesionaria con las preguntas claras. Si querés consultar por un modelo, usá el botón de WhatsApp: el mensaje ya sale con el nombre de la moto.',
+      ),
+      'sections' => 
+      array (
+        0 => 
+        array (
+          'h2' => 'Cómo se organizan los modelos Bajaj del catálogo',
+          'id' => 'tipos',
+          'body' => 
+          array (
+            0 => 'Los modelos de Bajaj del catálogo se reparten en varios tipos. Mirarlos por tipo ayuda a comparar con la misma vara: una moto de trabajo y una de paseo no se juzgan igual.',
+            1 => 
+            array (
+              'list' => 
+              array (
+                0 => '**Naked y de calle:** [Boxer 150](/motos/bajaj/boxer-150), Rouser NS 200.',
+                1 => '**Touring:** Dominar 400.',
+              ),
+            ),
+            2 => 'Los modelos Dominar 400 y Rouser NS 200 figuran en el catálogo, pero todavía no tienen datos suficientes con fuente para una ficha propia. No publicamos una página sin fuentes: cuando las sumemos, aparecen en la lista.',
+          ),
+        ),
+        1 => 
+        array (
+          'h2' => 'Quién distribuye Bajaj en Paraguay y dónde consultar',
+          'id' => 'distribuidor',
+          'body' => 
+          array (
+            0 => 'El distribuidor de Bajaj que figura en nuestra fuente es Asunción Motor Sport S.A. (AMS), y está citado arriba de esta página con su fecha de consulta. La fuente que citamos es una nota de La Nación de 2019 sobre la llegada de Bajaj a Paraguay, que nombra a Asunción Motor Sport S.A. (AMS) como la empresa a cargo. Es una fuente de hace varios años: la distribución puede haber cambiado, y por eso conviene confirmarla con el comercio.',
+            1 => 'Para saber disponibilidad, colores y formas de pago de un modelo, lo más directo es preguntar en una concesionaria o en el distribuidor. Podés escribirnos por WhatsApp para ordenar la consulta, pero el precio final, la entrega y la financiación los define siempre el comercio.',
+            2 => 
+            array (
+              'verify' => 'Distribuidor actual de Bajaj en Paraguay: confirmar en el sitio de la marca o con el comercio, porque la fuente es de 2019.',
+            ),
+            3 => 
+            array (
+              'verify' => 'Sucursales y teléfonos de la red oficial de Bajaj en Paraguay: confirmar en el sitio del distribuidor.',
+            ),
+          ),
+        ),
+        2 => 
+        array (
+          'h2' => 'Qué mirar al elegir una moto Bajaj',
+          'id' => 'elegir',
+          'body' => 
+          array (
+            0 => 'Antes de comparar modelos, definí para qué la vas a usar. Una moto para ir y volver del trabajo en la ciudad se elige distinto que una para salir a caminos de tierra o para trabajar todo el día.',
+            1 => 'Para la ciudad y el uso diario suelen alcanzar las naked: mirá la cilindrada, los frenos y el tipo de arranque, y comprobá que el taller de tu zona conozca el modelo.',
+            2 => 'Las de tipo touring están pensadas para distancias largas: revisá la cilindrada, el tanque y el equipamiento que figura en la ficha, y pensá en el costo de mantenerlas.',
+            3 => 'Si pensás en una usada, leé primero [cómo comprar una moto usada sin que te estafen](/guias/como-comprar-una-moto-usada-sin-que-te-estafen) y [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada). Para decidir la cilindrada, mirá [125, 150 o 200 cc: cuál elegir](/guias/125-150-o-200-cc-cual-elegir), y para cuidar la moto después, [qué incluye un service](/guias/service-de-moto-que-incluye).',
+          ),
+        ),
+      ),
+      'faq' => 
+      array (
+        0 => 
+        array (
+          'q' => '¿Quién distribuye Bajaj en Paraguay?',
+          'a' => 'Según la fuente que citamos arriba, Asunción Motor Sport S.A. (AMS). Confirmalo siempre con la concesionaria, porque la red puede cambiar.',
+        ),
+        1 => 
+        array (
+          'q' => '¿Dónde veo el precio de una moto Bajaj?',
+          'a' => 'En la ficha de cada modelo, en la sección de precio, cuando una fuente real lo publicó. Siempre figura quién lo publicó y la fecha de consulta.',
+        ),
+        2 => 
+        array (
+          'q' => '¿Por qué no todos los modelos Bajaj tienen ficha?',
+          'a' => 'Porque no publicamos una ficha sin datos con fuente. Los modelos sin datos suficientes quedan en la lista, sin enlace, hasta que los sumemos.',
+        ),
+      ),
+      'updated' => '2026-10-01',
+    ),
     'honda' => array (
       'description' => 'Motos Honda en Paraguay: qué modelos del catálogo tienen ficha y precio publicado, quién las distribuye y cómo elegir según el uso.',
       'intro' => 
@@ -50,7 +128,7 @@ return [
                 3 => '**Enduro y cross:** [XR 150L](/motos/honda/xr-150), [XR 190L](/motos/honda/xr-190), [XR 250 Tornado](/motos/honda/xr-250-tornado) y [NX190](/motos/honda/nx190), para caminos de tierra y para el campo.',
               ),
             ),
-            2 => 'Algunos modelos de mayor cilindrada, como la CB 500X, la NX500, la Rebel 500, la CRF 250F y la X-ADV 750, figuran en el catálogo pero todavía no tienen una ficha con datos suficientes. No publicamos una página hasta tener fuentes: apenas las sumemos, aparecen en la lista.',
+            2 => 'Algunos modelos, como la CB 500X, la CG 110, la NX500, la Rebel 500, la CRF 250F y la X-ADV 750, figuran en el catálogo pero todavía no tienen una ficha con datos suficientes. No publicamos una página hasta tener fuentes: apenas las sumemos, aparecen en la lista.',
           ),
         ),
         1 => 
@@ -69,7 +147,7 @@ return [
         ),
         2 => 
         array (
-          'h2' => 'Qué mirar al elegir una Honda',
+          'h2' => 'Qué mirar al elegir una moto Honda',
           'id' => 'elegir',
           'body' => 
           array (
@@ -95,6 +173,390 @@ return [
         array (
           'q' => '¿Por qué no aparecen todos los modelos Honda con ficha?',
           'a' => 'Porque no publicamos una ficha sin datos con fuente. Los modelos sin datos suficientes quedan en la lista, sin enlace, hasta que los sumemos.',
+        ),
+      ),
+      'updated' => '2026-10-01',
+    ),
+    'kenton' => array (
+      'description' => 'Motos Kenton en Paraguay: modelos del catálogo con ficha y precio publicado, quién distribuye la marca y cómo elegir según el uso.',
+      'intro' => 
+      array (
+        0 => 'Kenton es, por lejos, la marca con más modelos en nuestro catálogo: va desde motos de trabajo hasta cuatriciclos, motocarros y eléctricas. Esta página reúne los 37 modelos de Kenton que figuran en el catálogo, con los datos que publicó una fuente real, cada uno con la fecha en que lo consultamos.',
+        1 => 'No vendemos motos ni inventamos precios: cuando un dato no tiene fuente, no lo mostramos. Lo que hacemos es ordenar lo que se sabe para que llegues a la concesionaria con las preguntas claras. Si querés consultar por un modelo, usá el botón de WhatsApp: el mensaje ya sale con el nombre de la moto.',
+      ),
+      'sections' => 
+      array (
+        0 => 
+        array (
+          'h2' => 'Cómo se organizan los modelos Kenton del catálogo',
+          'id' => 'tipos',
+          'body' => 
+          array (
+            0 => 'Los modelos de Kenton del catálogo se reparten en varios tipos. Mirarlos por tipo ayuda a comparar con la misma vara: una moto de trabajo y una de paseo no se juzgan igual.',
+            1 => 
+            array (
+              'list' => 
+              array (
+                0 => '**Naked y de calle:** [Classic 125](/motos/kenton/classic-125), [Classic 150](/motos/kenton/classic-150), [Forza 150](/motos/kenton/forza-150), [GL 125](/motos/kenton/gl-125), [GL 150](/motos/kenton/gl-150), [GL 150 Pro](/motos/kenton/gl-150-pro), [GTR 150](/motos/kenton/gtr-150), [GTR 150 LTD](/motos/kenton/gtr-150-ltd), [GTR 200 LTD](/motos/kenton/gtr-200-ltd), [Stratta 200](/motos/kenton/stratta-200).',
+                1 => '**Scooters:** [Bravo 125](/motos/kenton/bravo-125), [Quick 125](/motos/kenton/quick-125), [Road Power 170](/motos/kenton/road-power-170), [Spark 150](/motos/kenton/spark-150), [Symphony 125S](/motos/kenton/symphony-125s).',
+                2 => '**Cub:** [Blitz 110](/motos/kenton/blitz-110), [Blitz 125 Sport](/motos/kenton/blitz-125-sport), [Fusion 125](/motos/kenton/fusion-125), [Fusion 135](/motos/kenton/fusion-135).',
+                3 => '**Enduro y cross:** [DKR 150](/motos/kenton/dkr-150), [DKR 200](/motos/kenton/dkr-200), [Shark 150](/motos/kenton/shark-150), [Shark 200](/motos/kenton/shark-200), [Skua 150](/motos/kenton/skua-150).',
+                4 => '**Cuatriciclos:** [Bull 200](/motos/kenton/bull-200), [Quest 200](/motos/kenton/quest-200), [Quest 300 4x4](/motos/kenton/quest-300-4x4), [Quest ATV 500 4x4](/motos/kenton/quest-atv-500-4x4), [Volkano 125](/motos/kenton/volkano-125), [Volkano 150 Off Road](/motos/kenton/volkano-150-off-road), [Volkano 250 Off Road](/motos/kenton/volkano-250-off-road).',
+                5 => '**Motocarros de carga:** [Transporter 150 HD](/motos/kenton/transporter-150-hd), [Transporter 180](/motos/kenton/transporter-180), [Transporter 210 HD](/motos/kenton/transporter-210-hd).',
+                6 => '**Eléctricas:** [E-Kenton Next V1](/motos/kenton/e-kenton-next-v1), [E-Kenton Next V3](/motos/kenton/e-kenton-next-v3), [E-Kenton Next V5](/motos/kenton/e-kenton-next-v5).',
+              ),
+            ),
+          ),
+        ),
+        1 => 
+        array (
+          'h2' => 'Quién distribuye Kenton en Paraguay y dónde consultar',
+          'id' => 'distribuidor',
+          'body' => 
+          array (
+            0 => 'El distribuidor de Kenton que figura en nuestra fuente es Chacomer S.A.E., y está citado arriba de esta página con su fecha de consulta. La fuente que citamos es la página de Kenton en el sitio de Chacomer, que figura como distribuidor. Los precios que mostramos en cada ficha figuran con quién los publicó, que en la mayoría de los casos es Kenton o Chacomer, y con su fecha de consulta.',
+            1 => 'Para saber disponibilidad, colores y formas de pago de un modelo, lo más directo es preguntar en una concesionaria o en el distribuidor. Podés escribirnos por WhatsApp para ordenar la consulta, pero el precio final, la entrega y la financiación los define siempre el comercio.',
+            2 => 
+            array (
+              'verify' => 'Sucursales y teléfonos de la red oficial de Kenton en Paraguay: confirmar en el sitio del distribuidor.',
+            ),
+          ),
+        ),
+        2 => 
+        array (
+          'h2' => 'Qué mirar al elegir una moto Kenton',
+          'id' => 'elegir',
+          'body' => 
+          array (
+            0 => 'Antes de comparar modelos, definí para qué la vas a usar. Una moto para ir y volver del trabajo en la ciudad se elige distinto que una para salir a caminos de tierra o para trabajar todo el día.',
+            1 => 'Para la ciudad y el uso diario suelen alcanzar las naked: mirá la cilindrada, los frenos y el tipo de arranque, y comprobá que el taller de tu zona conozca el modelo.',
+            2 => 'Los scooters tienen transmisión automática: son cómodos en el tránsito, pero conviene preguntar por el servicio de la transmisión y por las cubiertas, que en ruedas chicas se gastan más rápido.',
+            3 => 'Las motos tipo cub son las clásicas de trabajo: mecánica simple y repuestos de desgaste fáciles de conseguir. Si las vas a usar todo el día, pesan más el consumo y el mantenimiento que la potencia.',
+            4 => 'Las de tipo enduro o cross se piensan para caminos de tierra y para el campo: fijate en los frenos, la suspensión y las cubiertas, y calculá que el polvo exige cuidar el filtro de aire.',
+            5 => 'Si pensás en una usada, leé primero [cómo comprar una moto usada sin que te estafen](/guias/como-comprar-una-moto-usada-sin-que-te-estafen) y [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada). Para decidir la cilindrada, mirá [125, 150 o 200 cc: cuál elegir](/guias/125-150-o-200-cc-cual-elegir), y para cuidar la moto después, [qué incluye un service](/guias/service-de-moto-que-incluye).',
+          ),
+        ),
+      ),
+      'faq' => 
+      array (
+        0 => 
+        array (
+          'q' => '¿Quién distribuye Kenton en Paraguay?',
+          'a' => 'Según la fuente que citamos arriba, Chacomer S.A.E.. Confirmalo siempre con la concesionaria, porque la red puede cambiar.',
+        ),
+        1 => 
+        array (
+          'q' => '¿Dónde veo el precio de una moto Kenton?',
+          'a' => 'En la ficha de cada modelo, en la sección de precio, cuando una fuente real lo publicó. Siempre figura quién lo publicó y la fecha de consulta.',
+        ),
+        2 => 
+        array (
+          'q' => '¿Por qué no todos los modelos Kenton tienen ficha?',
+          'a' => 'Todos los modelos del catálogo tienen ficha. Si falta algún dato en una, es porque todavía no tiene fuente.',
+        ),
+      ),
+      'updated' => '2026-10-01',
+    ),
+    'star' => array (
+      'description' => 'Motos Star en Paraguay: modelos del catálogo con ficha y precio publicado, quién distribuye la marca y cómo elegir según el uso.',
+      'intro' => 
+      array (
+        0 => 'Star es una de las marcas que más modelos tiene en nuestro catálogo de motos que se consiguen en Paraguay. Esta página reúne los 16 modelos de Star que figuran en el catálogo, con los datos que publicó una fuente real, cada uno con la fecha en que lo consultamos.',
+        1 => 'No vendemos motos ni inventamos precios: cuando un dato no tiene fuente, no lo mostramos. Lo que hacemos es ordenar lo que se sabe para que llegues a la concesionaria con las preguntas claras. Si querés consultar por un modelo, usá el botón de WhatsApp: el mensaje ya sale con el nombre de la moto.',
+      ),
+      'sections' => 
+      array (
+        0 => 
+        array (
+          'h2' => 'Cómo se organizan los modelos Star del catálogo',
+          'id' => 'tipos',
+          'body' => 
+          array (
+            0 => 'Los modelos de Star del catálogo se reparten en varios tipos. Mirarlos por tipo ayuda a comparar con la misma vara: una moto de trabajo y una de paseo no se juzgan igual.',
+            1 => 
+            array (
+              'list' => 
+              array (
+                0 => '**Naked y de calle:** [150-X](/motos/star/150-x), [FXZ 150](/motos/star/fxz-150), [NT-A 150](/motos/star/nt-a-150), [RX4 150](/motos/star/rx4-150), [Star 125](/motos/star/star-125), [Star 150](/motos/star/star-150), [Star 200](/motos/star/star-200).',
+                1 => '**Scooters:** [A1 110](/motos/star/a1-110), [Genius 125](/motos/star/genius-125), [Magic 125](/motos/star/magic-125).',
+                2 => '**Cub:** [Dax 110](/motos/star/dax-110), [Dax-A 110](/motos/star/dax-a-110), [XRM 150](/motos/star/xrm-150).',
+                3 => '**Enduro y cross:** [New Desert 150](/motos/star/new-desert-150), [SMX 150](/motos/star/smx-150), [XVR 200](/motos/star/xvr-200).',
+              ),
+            ),
+          ),
+        ),
+        1 => 
+        array (
+          'h2' => 'Quién distribuye Star en Paraguay y dónde consultar',
+          'id' => 'distribuidor',
+          'body' => 
+          array (
+            0 => 'El distribuidor de Star que figura en nuestra fuente es Alex S.A., y está citado arriba de esta página con su fecha de consulta. La fuente que citamos para la distribución es una nota de ABC Color sobre Star en Paraguay, que nombra a Alex S.A. como distribuidor. Alex S.A. también aparece como publicador de precios de varios modelos de la marca en la sección de precio de cada ficha.',
+            1 => 'Para saber disponibilidad, colores y formas de pago de un modelo, lo más directo es preguntar en una concesionaria o en el distribuidor. Podés escribirnos por WhatsApp para ordenar la consulta, pero el precio final, la entrega y la financiación los define siempre el comercio.',
+            2 => 
+            array (
+              'verify' => 'Sucursales y teléfonos de la red oficial de Star en Paraguay: confirmar en el sitio del distribuidor.',
+            ),
+          ),
+        ),
+        2 => 
+        array (
+          'h2' => 'Qué mirar al elegir una moto Star',
+          'id' => 'elegir',
+          'body' => 
+          array (
+            0 => 'Antes de comparar modelos, definí para qué la vas a usar. Una moto para ir y volver del trabajo en la ciudad se elige distinto que una para salir a caminos de tierra o para trabajar todo el día.',
+            1 => 'Para la ciudad y el uso diario suelen alcanzar las naked: mirá la cilindrada, los frenos y el tipo de arranque, y comprobá que el taller de tu zona conozca el modelo.',
+            2 => 'Los scooters tienen transmisión automática: son cómodos en el tránsito, pero conviene preguntar por el servicio de la transmisión y por las cubiertas, que en ruedas chicas se gastan más rápido.',
+            3 => 'Las motos tipo cub son las clásicas de trabajo: mecánica simple y repuestos de desgaste fáciles de conseguir. Si las vas a usar todo el día, pesan más el consumo y el mantenimiento que la potencia.',
+            4 => 'Las de tipo enduro o cross se piensan para caminos de tierra y para el campo: fijate en los frenos, la suspensión y las cubiertas, y calculá que el polvo exige cuidar el filtro de aire.',
+            5 => 'Si pensás en una usada, leé primero [cómo comprar una moto usada sin que te estafen](/guias/como-comprar-una-moto-usada-sin-que-te-estafen) y [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada). Para decidir la cilindrada, mirá [125, 150 o 200 cc: cuál elegir](/guias/125-150-o-200-cc-cual-elegir), y para cuidar la moto después, [qué incluye un service](/guias/service-de-moto-que-incluye).',
+          ),
+        ),
+      ),
+      'faq' => 
+      array (
+        0 => 
+        array (
+          'q' => '¿Quién distribuye Star en Paraguay?',
+          'a' => 'Según la fuente que citamos arriba, Alex S.A.. Confirmalo siempre con la concesionaria, porque la red puede cambiar.',
+        ),
+        1 => 
+        array (
+          'q' => '¿Dónde veo el precio de una moto Star?',
+          'a' => 'En la ficha de cada modelo, en la sección de precio, cuando una fuente real lo publicó. Siempre figura quién lo publicó y la fecha de consulta.',
+        ),
+        2 => 
+        array (
+          'q' => '¿Por qué no todos los modelos Star tienen ficha?',
+          'a' => 'Todos los modelos del catálogo tienen ficha. Si falta algún dato en una, es porque todavía no tiene fuente.',
+        ),
+      ),
+      'updated' => '2026-10-01',
+    ),
+    'suzuki' => array (
+      'description' => 'Motos Suzuki en Paraguay: modelos del catálogo con ficha y precio publicado, quién distribuye la marca y cómo elegir según el uso.',
+      'intro' => 
+      array (
+        0 => 'Suzuki tiene en nuestro catálogo modelos de calle, de enduro y de tipo touring. Esta página reúne los 7 modelos de Suzuki que figuran en el catálogo, con los datos que publicó una fuente real, cada uno con la fecha en que lo consultamos.',
+        1 => 'No vendemos motos ni inventamos precios: cuando un dato no tiene fuente, no lo mostramos. Lo que hacemos es ordenar lo que se sabe para que llegues a la concesionaria con las preguntas claras. Si querés consultar por un modelo, usá el botón de WhatsApp: el mensaje ya sale con el nombre de la moto.',
+        2 => 'Varios modelos de Suzuki tienen el precio publicado en dólares (US$) y no en guaraníes. Lo mostramos tal como lo publicó la fuente, sin convertirlo, porque el tipo de cambio cambia todos los días.',
+      ),
+      'sections' => 
+      array (
+        0 => 
+        array (
+          'h2' => 'Cómo se organizan los modelos Suzuki del catálogo',
+          'id' => 'tipos',
+          'body' => 
+          array (
+            0 => 'Los modelos de Suzuki del catálogo se reparten en varios tipos. Mirarlos por tipo ayuda a comparar con la misma vara: una moto de trabajo y una de paseo no se juzgan igual.',
+            1 => 
+            array (
+              'list' => 
+              array (
+                0 => '**Naked y de calle:** [Gixxer 150](/motos/suzuki/gixxer-150), [Gixxer 250](/motos/suzuki/gixxer-250).',
+                1 => '**Enduro y cross:** [DR 650](/motos/suzuki/dr-650).',
+                2 => '**Touring:** [V-Strom 1050](/motos/suzuki/v-strom-1050), [V-Strom 250](/motos/suzuki/v-strom-250), [V-Strom 650](/motos/suzuki/v-strom-650), [V-Strom 800](/motos/suzuki/v-strom-800).',
+              ),
+            ),
+          ),
+        ),
+        1 => 
+        array (
+          'h2' => 'Quién distribuye Suzuki en Paraguay y dónde consultar',
+          'id' => 'distribuidor',
+          'body' => 
+          array (
+            0 => 'El distribuidor de Suzuki que figura en nuestra fuente es Chacomer S.A.E., y está citado arriba de esta página con su fecha de consulta. La fuente que citamos es una nota de ABC Color con el título «Suzuki Motos regresa a Paraguay con Chacomer», que nombra a Chacomer S.A.E. como la empresa a cargo de la marca. Como la distribución puede cambiar, confirmá siempre con la concesionaria.',
+            1 => 'Para saber disponibilidad, colores y formas de pago de un modelo, lo más directo es preguntar en una concesionaria o en el distribuidor. Podés escribirnos por WhatsApp para ordenar la consulta, pero el precio final, la entrega y la financiación los define siempre el comercio.',
+            2 => 
+            array (
+              'verify' => 'Sucursales y teléfonos de la red oficial de Suzuki en Paraguay: confirmar en el sitio del distribuidor.',
+            ),
+          ),
+        ),
+        2 => 
+        array (
+          'h2' => 'Qué mirar al elegir una moto Suzuki',
+          'id' => 'elegir',
+          'body' => 
+          array (
+            0 => 'Antes de comparar modelos, definí para qué la vas a usar. Una moto para ir y volver del trabajo en la ciudad se elige distinto que una para salir a caminos de tierra o para trabajar todo el día.',
+            1 => 'Para la ciudad y el uso diario suelen alcanzar las naked: mirá la cilindrada, los frenos y el tipo de arranque, y comprobá que el taller de tu zona conozca el modelo.',
+            2 => 'Las de tipo enduro o cross se piensan para caminos de tierra y para el campo: fijate en los frenos, la suspensión y las cubiertas, y calculá que el polvo exige cuidar el filtro de aire.',
+            3 => 'Las de tipo touring están pensadas para distancias largas: revisá la cilindrada, el tanque y el equipamiento que figura en la ficha, y pensá en el costo de mantenerlas.',
+            4 => 'Si pensás en una usada, leé primero [cómo comprar una moto usada sin que te estafen](/guias/como-comprar-una-moto-usada-sin-que-te-estafen) y [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada). Para decidir la cilindrada, mirá [125, 150 o 200 cc: cuál elegir](/guias/125-150-o-200-cc-cual-elegir), y para cuidar la moto después, [qué incluye un service](/guias/service-de-moto-que-incluye).',
+          ),
+        ),
+      ),
+      'faq' => 
+      array (
+        0 => 
+        array (
+          'q' => '¿Quién distribuye Suzuki en Paraguay?',
+          'a' => 'Según la fuente que citamos arriba, Chacomer S.A.E.. Confirmalo siempre con la concesionaria, porque la red puede cambiar.',
+        ),
+        1 => 
+        array (
+          'q' => '¿Dónde veo el precio de una moto Suzuki?',
+          'a' => 'En la ficha de cada modelo, en la sección de precio, cuando una fuente real lo publicó. Siempre figura quién lo publicó y la fecha de consulta.',
+        ),
+        2 => 
+        array (
+          'q' => '¿Por qué no todos los modelos Suzuki tienen ficha?',
+          'a' => 'Todos los modelos del catálogo tienen ficha. Si falta algún dato en una, es porque todavía no tiene fuente.',
+        ),
+      ),
+      'updated' => '2026-10-01',
+    ),
+    'tvs' => array (
+      'description' => 'Motos TVS en Paraguay: modelos del catálogo con ficha y precio publicado, quién distribuye la marca y cómo elegir según el uso.',
+      'intro' => 
+      array (
+        0 => 'TVS figura en nuestro catálogo con modelos de calle y de tipo cub. Esta página reúne los 7 modelos de TVS que figuran en el catálogo, con los datos que publicó una fuente real, cada uno con la fecha en que lo consultamos.',
+        1 => 'No vendemos motos ni inventamos precios: cuando un dato no tiene fuente, no lo mostramos. Lo que hacemos es ordenar lo que se sabe para que llegues a la concesionaria con las preguntas claras. Si querés consultar por un modelo, usá el botón de WhatsApp: el mensaje ya sale con el nombre de la moto.',
+      ),
+      'sections' => 
+      array (
+        0 => 
+        array (
+          'h2' => 'Cómo se organizan los modelos TVS del catálogo',
+          'id' => 'tipos',
+          'body' => 
+          array (
+            0 => 'Los modelos de TVS del catálogo se reparten en varios tipos. Mirarlos por tipo ayuda a comparar con la misma vara: una moto de trabajo y una de paseo no se juzgan igual.',
+            1 => 
+            array (
+              'list' => 
+              array (
+                0 => '**Naked y de calle:** [Apache RTR 160 2V](/motos/tvs/apache-rtr-160-2v), [HLX 150](/motos/tvs/hlx-150), [HLX 150 F](/motos/tvs/hlx-150-f), [Raider 125](/motos/tvs/raider-125), [Ronin 225](/motos/tvs/ronin-225), [Stryker 125](/motos/tvs/stryker-125).',
+                1 => '**Cub:** [Neo NX 110](/motos/tvs/neo-nx-110).',
+              ),
+            ),
+          ),
+        ),
+        1 => 
+        array (
+          'h2' => 'Quién distribuye TVS en Paraguay y dónde consultar',
+          'id' => 'distribuidor',
+          'body' => 
+          array (
+            0 => 'El distribuidor de TVS que figura en nuestra fuente es Chacomer S.A.E., y está citado arriba de esta página con su fecha de consulta. Según el sitio de TVS Motor Paraguay que citamos, la marca la distribuye Chacomer S.A.E. Mirá la fecha de consulta que figura arriba: es la última vez que lo comprobamos.',
+            1 => 'Para saber disponibilidad, colores y formas de pago de un modelo, lo más directo es preguntar en una concesionaria o en el distribuidor. Podés escribirnos por WhatsApp para ordenar la consulta, pero el precio final, la entrega y la financiación los define siempre el comercio.',
+            2 => 
+            array (
+              'verify' => 'Sucursales y teléfonos de la red oficial de TVS en Paraguay: confirmar en el sitio del distribuidor.',
+            ),
+          ),
+        ),
+        2 => 
+        array (
+          'h2' => 'Qué mirar al elegir una moto TVS',
+          'id' => 'elegir',
+          'body' => 
+          array (
+            0 => 'Antes de comparar modelos, definí para qué la vas a usar. Una moto para ir y volver del trabajo en la ciudad se elige distinto que una para salir a caminos de tierra o para trabajar todo el día.',
+            1 => 'Para la ciudad y el uso diario suelen alcanzar las naked: mirá la cilindrada, los frenos y el tipo de arranque, y comprobá que el taller de tu zona conozca el modelo.',
+            2 => 'Las motos tipo cub son las clásicas de trabajo: mecánica simple y repuestos de desgaste fáciles de conseguir. Si las vas a usar todo el día, pesan más el consumo y el mantenimiento que la potencia.',
+            3 => 'Si pensás en una usada, leé primero [cómo comprar una moto usada sin que te estafen](/guias/como-comprar-una-moto-usada-sin-que-te-estafen) y [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada). Para decidir la cilindrada, mirá [125, 150 o 200 cc: cuál elegir](/guias/125-150-o-200-cc-cual-elegir), y para cuidar la moto después, [qué incluye un service](/guias/service-de-moto-que-incluye).',
+          ),
+        ),
+      ),
+      'faq' => 
+      array (
+        0 => 
+        array (
+          'q' => '¿Quién distribuye TVS en Paraguay?',
+          'a' => 'Según la fuente que citamos arriba, Chacomer S.A.E.. Confirmalo siempre con la concesionaria, porque la red puede cambiar.',
+        ),
+        1 => 
+        array (
+          'q' => '¿Dónde veo el precio de una moto TVS?',
+          'a' => 'En la ficha de cada modelo, en la sección de precio, cuando una fuente real lo publicó. Siempre figura quién lo publicó y la fecha de consulta.',
+        ),
+        2 => 
+        array (
+          'q' => '¿Por qué no todos los modelos TVS tienen ficha?',
+          'a' => 'Todos los modelos del catálogo tienen ficha. Si falta algún dato en una, es porque todavía no tiene fuente.',
+        ),
+      ),
+      'updated' => '2026-10-01',
+    ),
+    'yamaha' => array (
+      'description' => 'Motos Yamaha en Paraguay: modelos del catálogo con ficha y precio publicado, quién distribuye la marca y cómo elegir según el uso.',
+      'intro' => 
+      array (
+        0 => 'Yamaha reúne en nuestro catálogo desde motos de uso diario hasta modelos de mayor cilindrada. Esta página reúne los 11 modelos de Yamaha que figuran en el catálogo, con los datos que publicó una fuente real, cada uno con la fecha en que lo consultamos.',
+        1 => 'No vendemos motos ni inventamos precios: cuando un dato no tiene fuente, no lo mostramos. Lo que hacemos es ordenar lo que se sabe para que llegues a la concesionaria con las preguntas claras. Si querés consultar por un modelo, usá el botón de WhatsApp: el mensaje ya sale con el nombre de la moto.',
+        2 => 'Varios modelos de Yamaha tienen el precio publicado en dólares (US$) y no en guaraníes. Lo mostramos tal como lo publicó la fuente, sin convertirlo, porque el tipo de cambio cambia todos los días.',
+      ),
+      'sections' => 
+      array (
+        0 => 
+        array (
+          'h2' => 'Cómo se organizan los modelos Yamaha del catálogo',
+          'id' => 'tipos',
+          'body' => 
+          array (
+            0 => 'Los modelos de Yamaha del catálogo se reparten en varios tipos. Mirarlos por tipo ayuda a comparar con la misma vara: una moto de trabajo y una de paseo no se juzgan igual.',
+            1 => 
+            array (
+              'list' => 
+              array (
+                0 => '**Naked y de calle:** [MT-03](/motos/yamaha/mt-03), [MT-07](/motos/yamaha/mt-07), [MT-09](/motos/yamaha/mt-09), [YBR125E](/motos/yamaha/ybr-125e), [YBR 125Z](/motos/yamaha/ybr-125z), [YC-Z 110](/motos/yamaha/yc-z-110).',
+                1 => '**Cub:** [Crypton](/motos/yamaha/crypton).',
+                2 => '**Enduro y cross:** [XTZ 125](/motos/yamaha/xtz-125), [XTZ 150](/motos/yamaha/xtz-150), [XTZ 250](/motos/yamaha/xtz-250).',
+                3 => '**Touring:** [Ténéré 700](/motos/yamaha/tenere-700).',
+              ),
+            ),
+          ),
+        ),
+        1 => 
+        array (
+          'h2' => 'Quién distribuye Yamaha en Paraguay y dónde consultar',
+          'id' => 'distribuidor',
+          'body' => 
+          array (
+            0 => 'El distribuidor de Yamaha que figura en nuestra fuente es Chacomer S.A.E., y está citado arriba de esta página con su fecha de consulta. Según la página de Yamaha Motor Paraguay que citamos, la marca la distribuye Chacomer S.A.E. Los precios de cada ficha figuran con quién los publicó y con su fecha de consulta.',
+            1 => 'Para saber disponibilidad, colores y formas de pago de un modelo, lo más directo es preguntar en una concesionaria o en el distribuidor. Podés escribirnos por WhatsApp para ordenar la consulta, pero el precio final, la entrega y la financiación los define siempre el comercio.',
+            2 => 
+            array (
+              'verify' => 'Sucursales y teléfonos de la red oficial de Yamaha en Paraguay: confirmar en el sitio del distribuidor.',
+            ),
+          ),
+        ),
+        2 => 
+        array (
+          'h2' => 'Qué mirar al elegir una moto Yamaha',
+          'id' => 'elegir',
+          'body' => 
+          array (
+            0 => 'Antes de comparar modelos, definí para qué la vas a usar. Una moto para ir y volver del trabajo en la ciudad se elige distinto que una para salir a caminos de tierra o para trabajar todo el día.',
+            1 => 'Para la ciudad y el uso diario suelen alcanzar las naked: mirá la cilindrada, los frenos y el tipo de arranque, y comprobá que el taller de tu zona conozca el modelo.',
+            2 => 'Las motos tipo cub son las clásicas de trabajo: mecánica simple y repuestos de desgaste fáciles de conseguir. Si las vas a usar todo el día, pesan más el consumo y el mantenimiento que la potencia.',
+            3 => 'Las de tipo enduro o cross se piensan para caminos de tierra y para el campo: fijate en los frenos, la suspensión y las cubiertas, y calculá que el polvo exige cuidar el filtro de aire.',
+            4 => 'Las de tipo touring están pensadas para distancias largas: revisá la cilindrada, el tanque y el equipamiento que figura en la ficha, y pensá en el costo de mantenerlas.',
+            5 => 'Si pensás en una usada, leé primero [cómo comprar una moto usada sin que te estafen](/guias/como-comprar-una-moto-usada-sin-que-te-estafen) y [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada). Para decidir la cilindrada, mirá [125, 150 o 200 cc: cuál elegir](/guias/125-150-o-200-cc-cual-elegir), y para cuidar la moto después, [qué incluye un service](/guias/service-de-moto-que-incluye).',
+          ),
+        ),
+      ),
+      'faq' => 
+      array (
+        0 => 
+        array (
+          'q' => '¿Quién distribuye Yamaha en Paraguay?',
+          'a' => 'Según la fuente que citamos arriba, Chacomer S.A.E.. Confirmalo siempre con la concesionaria, porque la red puede cambiar.',
+        ),
+        1 => 
+        array (
+          'q' => '¿Dónde veo el precio de una moto Yamaha?',
+          'a' => 'En la ficha de cada modelo, en la sección de precio, cuando una fuente real lo publicó. Siempre figura quién lo publicó y la fecha de consulta.',
+        ),
+        2 => 
+        array (
+          'q' => '¿Por qué no todos los modelos Yamaha tienen ficha?',
+          'a' => 'Todos los modelos del catálogo tienen ficha. Si falta algún dato en una, es porque todavía no tiene fuente.',
         ),
       ),
       'updated' => '2026-10-01',

@@ -59,6 +59,7 @@ const DATE = '2026-10-01';
 /** [needle, replacement]: exact text, applied to each source line. */
 const FIX_REPLACE = [
     ['donde dice **[VERIFICAR]**, confirmalo', 'confirmalo'],
+    ['*Entrega Gs. X + N cuotas de Gs. Y*', '*Entrega X + N cuotas de Y*'],
     ['Una aclaración antes de empezar: moto.com.py es una plataforma de publicación. Revisamos cada publicación antes de que salga y damos de baja lo que incumple, pero no tenemos las motos, no verificamos su estado mecánico ni a nombre de quién están, y no intermediamos pagos.',
      'Una aclaración antes de empezar: moto.com.py no tiene las motos, no verifica su estado mecánico ni a nombre de quién están, y no interviene en los pagos.'],
     [' En moto.com.py sólo los comercios verificados tienen página propia y sello. El sello quiere decir que verificamos que el comercio existe y que su contacto es real; no que verificamos las motos. Si alguien te dice que es de un comercio, buscalo en la [lista de comercios](/comercios) y escribile al número que figura ahí.',
@@ -89,6 +90,26 @@ const FIX_DROP = [
     'botón **Escribir por WhatsApp** de la publicación',
     'Revisamos cada publicación antes de que salga en el sitio',
     '(/publicar)',
+];
+
+/**
+ * Text added to a ported guide so it clears the §2.3 gate (600 rendered words)
+ * once its [VERIFICAR] details are hidden. Process advice only: no figure, no
+ * requirement and no name of an office. [slug => ['before' => section id, 'section' => section]]
+ */
+const EXTRA_SECTIONS = [
+    'como-transferir-una-moto-en-paraguay' => [
+        'before'  => 'senales-para-no-seguir',
+        'section' => [
+            'h2'   => 'Cómo ordenar el trámite',
+            'id'   => 'como-ordenar-el-tramite',
+            'body' => [
+                'Armá una carpeta, de papel o en el celular, con todo lo del trámite: fotos de los papeles que te mostró el vendedor, copia de la compraventa, los comprobantes de cada pago y el nombre de quien te atendió en cada oficina. Si algo sale mal, esa carpeta es lo que te permite explicar qué pasó y cuándo.',
+                'Hacé las preguntas por escrito siempre que se pueda y guardá las respuestas. Si alguien te dice un monto o un plazo de palabra, pedí que te lo confirmen en un comprobante, y desconfiá de quien te ofrece arreglar el trámite por fuera de la oficina a cambio de un pago extra.',
+                'No avances un paso si el anterior quedó dudoso: es más fácil frenar antes de pagar que reclamar después. Si necesitás una mano, un escribano o un gestor de confianza puede ordenarte los papeles; pedile que te detalle por escrito qué hace y cuánto cobra.',
+            ],
+        ],
+    ],
 ];
 
 /** Link target => new target, or null for "keep the words, drop the link". */
@@ -129,6 +150,11 @@ function fix_line(string $line, array &$log, string $slug): ?string
 
             return null;
         }
+    }
+    $plain = preg_replace('/(?<!\*)\*(?!\*)([^*\n]+?)(?<!\*)\*(?!\*)/u', '$1', $line, -1, $nItalics);
+    if ($nItalics > 0) {
+        $line = (string) $plain;
+        $log[$slug . ' | single-asterisk italics shown as plain text (no italic block)'] = ($log[$slug . ' | single-asterisk italics shown as plain text (no italic block)'] ?? 0) + $nItalics;
     }
     $line = (string) preg_replace_callback('/\[([^\]]+)\]\((\/[^)\s]*)\)/u', static function (array $m) use (&$log, $slug): string {
         $path = $m[2];
@@ -253,6 +279,19 @@ function parse_guide(string $file, array &$log): array
             [$text, $notes] = split_verify($fixed);
             $push(line_blocks($text, $notes, $slug));
         }
+    }
+
+    if (isset(EXTRA_SECTIONS[$slug])) {
+        $extra = EXTRA_SECTIONS[$slug];
+        $at    = count($sections);
+        foreach ($sections as $idx => $sec) {
+            if ($sec['id'] === $extra['before']) {
+                $at = $idx;
+                break;
+            }
+        }
+        array_splice($sections, $at, 0, [$extra['section']]);
+        $log[$slug . ' | added section: ' . $extra['section']['h2']] = 1;
     }
 
     return [$slug, $meta, $intro, $sections];
