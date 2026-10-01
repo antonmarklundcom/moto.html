@@ -100,4 +100,336 @@ return [
       'updated' => '2026-10-01',
     ),
     /* == /B1a == */
+    /* == B1b == */
+    'bmw-motorrad' => [
+        'intro' => [
+            'Esta es la página de **BMW Motorrad** en moto.com.py, el sitio donde juntamos motos que se venden o se vendieron en Paraguay, con datos que tienen fuente y fecha. Acá no vendemos motos ni inventamos precios: mostramos lo que publicó una fuente real y te decimos dónde preguntar el resto.',
+            'El catálogo de BMW Motorrad es corto por ahora. Incluimos sólo los modelos para los que encontramos una fuente que los vincule con el mercado paraguayo, y por eso la lista de abajo es breve. Si buscás otro modelo de la marca, escribinos por WhatsApp con el nombre exacto y lo revisamos.',
+        ],
+        'sections' => [
+            [
+                'h2' => 'Cómo usar esta página',
+                'body' => [
+                    'Arriba ves quién distribuye la marca en Paraguay, con el enlace a la fuente que lo respalda. Abajo está la lista de modelos del catálogo; cada uno tiene su propia página con ficha técnica y, cuando una fuente lo publica, el precio con su fecha de consulta.',
+                    'Los precios de motos de esta gama cambian con el tipo de cambio y con el equipamiento de cada unidad. Por eso nunca tomes un número viejo como definitivo: antes de decidir, pedile al distribuidor una cotización por escrito, con fecha y qué incluye.',
+                ],
+            ],
+            [
+                'h2' => 'Qué preguntar antes de comprar',
+                'body' => [
+                    'Cuando consultes por una moto de una marca importada, conviene tener claras algunas cosas antes de ir al local o escribir. Anotalas y pedí las respuestas por escrito.',
+                    [
+                        'list' => [
+                            'Si la moto está en stock en Paraguay o hay que pedirla, y cuánto tarda.',
+                            'Qué cubre la garantía y en qué talleres se hace el service.',
+                            'Qué documentos entrega el distribuidor y cómo queda la moto para la chapa y la cédula.',
+                            'Cuánto cuesta el primer service y qué repuestos de desgaste tiene el distribuidor en depósito.',
+                            'Si hay una entrega y un plan de cuotas publicado: mirá [motos en cuotas](/motos/en-cuotas) para entender cómo funcionan.',
+                        ],
+                    ],
+                ],
+            ],
+            [
+                'h2' => 'Si buscás una moto usada de esta marca',
+                'body' => [
+                    'Una moto importada usada puede ser una buena compra, pero exige más cuidado con los papeles y con el origen de la unidad. Fijate que los números de chasis y de motor coincidan con la documentación y que el service se haya hecho en un taller que pueda mostrar comprobantes.',
+                    'Para el resto de la revisión, la guía de [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada) te sirve como lista. Y si tenés dudas, escribinos por WhatsApp.',
+                ],
+            ],
+        ],
+        'faq' => [
+            [
+                'q' => '¿Quién distribuye BMW Motorrad en Paraguay?',
+                'a' => 'El distribuidor figura arriba, en esta página, con el enlace a la fuente que lo respalda y la fecha en que la consultamos.',
+            ],
+            [
+                'q' => '¿Por qué hay pocos modelos de BMW Motorrad en el catálogo?',
+                'a' => 'Porque sólo incluimos los modelos que una fuente vincula con el mercado paraguayo. Si falta uno, escribinos por WhatsApp con el nombre y lo revisamos.',
+            ],
+            [
+                'q' => '¿Muestran el precio de las motos de la marca?',
+                'a' => 'Sólo si una fuente real lo publica, con su fecha de consulta. Si no hay precio publicado, preferimos no mostrar ninguno antes que inventarlo.',
+            ],
+        ],
+        'updated' => '2026-10-01',
+    ],
+    'triumph' => [
+        'intro' => [
+            'Esta es la página de **Triumph** en moto.com.py, un sitio que reúne motos de las marcas que se venden en Paraguay, con datos que tienen fuente y fecha. No vendemos motos: te mostramos lo que publicaron fuentes reales y te ayudamos a consultar el resto.',
+            'El catálogo de Triumph incluye por ahora dos modelos de la misma familia de media cilindrada. Los datos salen de las fuentes que citamos en cada página; cuando una fuente no publica un dato, no lo completamos por nuestra cuenta.',
+        ],
+        'sections' => [
+            [
+                'h2' => 'Qué ofrece cada ficha',
+                'body' => [
+                    'Cada modelo tiene su propia página con la ficha técnica y las fuentes de cada dato, el precio publicado cuando una fuente lo da, consejos de mantenimiento sin cifras inventadas, repuestos que conviene tener y una lista de qué revisar si la comprás usada.',
+                    'Las dos motos comparten el motor y gran parte de la ficha, y se diferencian por el tipo de uso para el que fueron pensadas. Leé las dos páginas con calma y fijate en la postura, la altura y el uso que le vas a dar antes de decidir.',
+                ],
+            ],
+            [
+                'h2' => 'Dónde consultar',
+                'body' => [
+                    'El distribuidor de la marca en Paraguay figura arriba, con el enlace a su fuente. Es la primera puerta para confirmar disponibilidad, precio al día, colores, garantía y servicio técnico.',
+                    'Si preferís que te orientemos, escribinos por WhatsApp con el nombre del modelo. No te prometemos nada: te decimos qué datos tenemos y a quién preguntarle lo que falta.',
+                ],
+            ],
+            [
+                'h2' => 'Antes de decidir',
+                'body' => [
+                    'Una moto de esta clase requiere pensar más allá del precio de la moto. Preguntá por el costo del service en el taller oficial, por la disponibilidad de repuestos en el país y por la garantía. Los repuestos de una marca importada pueden tardar más en llegar que los de una moto de uso masivo, y eso pesa si la usás todos los días.',
+                    'Si todavía no tenés claro qué cilindrada o tipo de moto te conviene, mirá la guía de [125, 150 o 200 cc](/guias/125-150-o-200-cc-cual-elegir) y la de [moto 0 km o usada](/guias/moto-0-km-o-usada).',
+                ],
+            ],
+        ],
+        'faq' => [
+            [
+                'q' => '¿Quién distribuye Triumph en Paraguay?',
+                'a' => 'El distribuidor figura arriba, en esta página, con su fuente y la fecha de consulta.',
+            ],
+            [
+                'q' => '¿Qué modelos de Triumph hay en el catálogo?',
+                'a' => 'Los que aparecen en la lista de modelos de esta página. Si falta uno que buscás, escribinos por WhatsApp con el nombre exacto.',
+            ],
+            [
+                'q' => '¿Los precios de Triumph están publicados?',
+                'a' => 'Sólo mostramos un precio si una fuente real lo publica, con fecha. Si no hay uno, consultá el valor al día con el distribuidor.',
+            ],
+        ],
+        'updated' => '2026-10-01',
+    ],
+    'taiga' => [
+        'intro' => [
+            'Esta es la página de **Taiga** en moto.com.py. Reunimos los modelos de la marca que figuran con datos en fuentes paraguayas: ficha técnica, precio publicado cuando existe y consejos para el día a día. No vendemos motos ni armamos precios propios.',
+            'El catálogo de Taiga mezcla motos de uso urbano, modelos de uso mixto para caminos de tierra, un scooter y un motocarro de carga. Cada uno tiene su página, con los datos que pudimos respaldar con una fuente y la fecha de consulta.',
+        ],
+        'sections' => [
+            [
+                'h2' => 'Cómo elegir dentro de la marca',
+                'body' => [
+                    'Antes de mirar el precio, pensá en el uso. Si andás por ciudad con asfalto, un modelo naked o un scooter alcanza. Si hacés caminos de tierra o rutas con baches, conviene uno de uso mixto, con suspensión más larga. Y si necesitás llevar mercadería, el motocarro es otra categoría con otras reglas de mantenimiento.',
+                    'Comparar dos modelos es más fácil si mirás los mismos datos en las dos fichas: cilindrada, potencia, frenos, tanque y transmisión. La guía de [125, 150 o 200 cc](/guias/125-150-o-200-cc-cual-elegir) ayuda a ordenar la decisión.',
+                ],
+            ],
+            [
+                'h2' => 'Dónde consultar',
+                'body' => [
+                    'El distribuidor que figura arriba, con el enlace a su fuente, es el lugar para confirmar si el modelo está disponible, qué colores hay y cuál es el precio al día. Los precios que mostramos son los que una fuente publicó en una fecha concreta, no una promesa.',
+                    'Si querés una mano, escribinos por WhatsApp con el nombre del modelo. Te orientamos sobre qué preguntar y a quién.',
+                ],
+            ],
+            [
+                'h2' => 'Mantenimiento y repuestos',
+                'body' => [
+                    'En cualquier moto que va a trabajar o a rodar por caminos de tierra, el polvo y el calor son los enemigos: filtro de aire, cadena y aceite. Cada página de modelo tiene consejos generales sin cifras inventadas; los intervalos exactos están en el manual de cada modelo.',
+                    'Si estás pensando en usada, mirá la guía de [qué revisar antes de comprar una moto usada](/guias/que-revisar-antes-de-comprar-una-moto-usada) y la de [papeles de una moto al día](/guias/papeles-de-una-moto-al-dia).',
+                ],
+            ],
+        ],
+        'faq' => [
+            [
+                'q' => '¿Quién distribuye Taiga en Paraguay?',
+                'a' => 'El distribuidor figura arriba, en esta página, con el enlace a la fuente y la fecha en que la consultamos.',
+            ],
+            [
+                'q' => '¿Qué tipos de moto tiene Taiga en el catálogo?',
+                'a' => 'Naked para uso diario, modelos de uso mixto para caminos de tierra, un scooter y un motocarro de carga. La lista completa está en esta página.',
+            ],
+            [
+                'q' => '¿Los precios de Taiga son actuales?',
+                'a' => 'Cada precio muestra quién lo publicó y cuándo lo consultamos. Si pasa demasiado tiempo desde esa fecha, el precio se oculta solo hasta que se vuelva a verificar.',
+            ],
+        ],
+        'updated' => '2026-10-01',
+    ],
+    'leopard' => [
+        'intro' => [
+            'Esta es la página de **Leopard** en moto.com.py. Reunimos los modelos de la marca que encontramos con datos en fuentes paraguayas, para que compares fichas técnicas y sepas a quién consultar. No vendemos motos: mostramos lo que publicaron fuentes con nombre.',
+            'El catálogo de Leopard incluye motos tipo cub, para el uso diario y el trabajo, y motos naked de mayor cilindrada. Cada modelo tiene su página con los datos respaldados y consejos de mantenimiento y de compra usada.',
+        ],
+        'sections' => [
+            [
+                'h2' => 'Cub y naked: qué cambia',
+                'body' => [
+                    'Las cub tienen cambios semiautomáticos y no llevan palanca de embrague, y por eso son muy usadas en el trabajo, el reparto y los trayectos cortos. Las naked son motos de cambios manuales, con postura erguida, pensadas para más versatilidad y, en general, más cilindrada.',
+                    'Si todavía dudás entre una y otra, la guía de [qué moto conviene para trabajar](/guias/que-moto-conviene-para-trabajar) te ayuda a ordenar prioridades: costo de uso, carga, distancia diaria y tipo de camino.',
+                ],
+            ],
+            [
+                'h2' => 'Dónde consultar',
+                'body' => [
+                    'El distribuidor figura arriba, con el enlace a la fuente que lo respalda. Con él podés confirmar disponibilidad, colores, garantía y precio al día. Los precios de este sitio salen de fuentes con fecha y no son una oferta.',
+                    'También podés escribirnos por WhatsApp con el nombre del modelo. Te contamos qué datos tenemos y qué te conviene preguntar.',
+                ],
+            ],
+            [
+                'h2' => 'Mantenimiento básico',
+                'body' => [
+                    'En cualquier moto de uso diario, lo que más se nota es la falta de atención a lo simple: aceite, filtro de aire, cadena limpia y tensada, frenos y neumáticos. Con el polvo y el calor, conviene revisar esos puntos más seguido de lo que parece necesario.',
+                    'Las páginas de cada modelo explican qué repuestos conviene tener a mano y qué mirar si la comprás usada; los intervalos exactos los marca el manual de cada modelo. Para calcular el gasto general, mirá [cuánto cuesta mantener una moto](/guias/cuanto-cuesta-mantener-una-moto).',
+                ],
+            ],
+        ],
+        'faq' => [
+            [
+                'q' => '¿Quién distribuye Leopard en Paraguay?',
+                'a' => 'El distribuidor figura arriba, en esta página, con su fuente y la fecha de consulta.',
+            ],
+            [
+                'q' => '¿Qué diferencia hay entre una cub y una naked?',
+                'a' => 'La cub tiene cambios semiautomáticos, sin palanca de embrague. La naked tiene cambios manuales con embrague y suele tener más cilindrada.',
+            ],
+            [
+                'q' => '¿Hay precios publicados de Leopard?',
+                'a' => 'Sólo mostramos un precio si una fuente real lo publica con fecha. Si no figura en la ficha, consultá el valor al día con el distribuidor.',
+            ],
+        ],
+        'updated' => '2026-10-01',
+    ],
+    'super-soco' => [
+        'intro' => [
+            'Esta es la página de **Super Soco** en moto.com.py. La marca fabrica motos eléctricas, y en el catálogo figuran los modelos que tienen precio publicado por una fuente en Paraguay. No vendemos motos: mostramos lo que publicó la fuente y te contamos qué mirar antes de comprar una eléctrica.',
+            'Una moto eléctrica funciona distinto de una a nafta: no tiene tanque ni bujía, la energía sale de una batería que se carga en un enchufe, y el mantenimiento del motor es mucho menor. A cambio, la batería es la pieza que más pesa en la decisión.',
+        ],
+        'sections' => [
+            [
+                'h2' => 'Qué mirar en una moto eléctrica',
+                'body' => [
+                    'Antes de comparar precios, mirá estos puntos. Son los que más cambian la experiencia diaria y los que menos se notan en una foto.',
+                    [
+                        'list' => [
+                            'La batería: tipo, capacidad y cuánto cuesta reemplazarla cuando se gasta.',
+                            'El tiempo de carga y dónde vas a cargarla: en casa, en el trabajo o en la calle.',
+                            'La garantía de la batería y del motor, que conviene pedir por escrito.',
+                            'El servicio técnico en el país: quién la repara y con qué repuestos.',
+                            'Si el modelo es para ciudad o también para ruta: la velocidad que publica la fuente está en la ficha de cada uno.',
+                        ],
+                    ],
+                ],
+            ],
+            [
+                'h2' => 'Dónde consultar',
+                'body' => [
+                    'El distribuidor que figura arriba, con la fuente que lo respalda, es quien puede confirmar disponibilidad, garantía, repuestos y el precio vigente. Los precios de este sitio son los que una fuente publicó en una fecha concreta y no se actualizan solos: miralos siempre junto con su fecha.',
+                    'Si querés una orientación, escribinos por WhatsApp con el nombre del modelo y te decimos qué datos tenemos y qué preguntar.',
+                ],
+            ],
+            [
+                'h2' => 'Si pensás en una usada',
+                'body' => [
+                    'En una eléctrica usada, el estado de la batería es lo que define el valor. Pedí probarla en un recorrido real, mirá cuánto carga y cuánto dura, y asegurate de que venga con el cargador original. Revisá también los papeles: la guía de [papeles de una moto al día](/guias/papeles-de-una-moto-al-dia) explica qué pedir.',
+                ],
+            ],
+        ],
+        'faq' => [
+            [
+                'q' => '¿Quién distribuye Super Soco en Paraguay?',
+                'a' => 'El distribuidor figura arriba, con el enlace a la fuente y la fecha de consulta.',
+            ],
+            [
+                'q' => '¿Qué ventaja tiene una moto eléctrica?',
+                'a' => 'No usa nafta ni aceite de motor y su mantenimiento mecánico es menor. A cambio, depende de una batería que se carga y que a la larga hay que reemplazar.',
+            ],
+            [
+                'q' => '¿Cuánto cuestan los modelos de Super Soco?',
+                'a' => 'Cada ficha muestra el precio que publicó una fuente, con su fecha de consulta. Si el dato es viejo, se oculta hasta que se verifique de nuevo.',
+            ],
+        ],
+        'updated' => '2026-10-01',
+    ],
+    'yadea' => [
+        'intro' => [
+            'Esta es la página de **Yadea** en moto.com.py. La marca fabrica motos y scooters eléctricos, y en el catálogo figura el modelo que tiene precio publicado por una fuente en Paraguay. No vendemos motos: mostramos lo que publicó esa fuente y te contamos qué mirar antes de comprar una eléctrica.',
+            'Una moto eléctrica se carga en un enchufe y no usa nafta, bujía ni aceite de motor. Eso simplifica el mantenimiento, pero la batería pasa a ser la pieza más importante del vehículo, tanto por su costo como por su duración.',
+        ],
+        'sections' => [
+            [
+                'h2' => 'Qué mirar antes de comprar',
+                'body' => [
+                    'Más allá del precio, hay datos que hacen la diferencia en el uso diario. Pedilos al distribuidor y guardá las respuestas por escrito.',
+                    [
+                        'list' => [
+                            'Tipo y capacidad de la batería, y cuánto cuesta reemplazarla.',
+                            'Cuánto tarda la carga completa y si el cargador viene incluido.',
+                            'La garantía de la batería y del motor.',
+                            'Qué taller se ocupa del servicio y qué repuestos tiene en el país.',
+                            'Para qué recorrido está pensado el modelo: ciudad, trabajo o ruta.',
+                        ],
+                    ],
+                ],
+            ],
+            [
+                'h2' => 'Dónde consultar',
+                'body' => [
+                    'El distribuidor figura arriba, con el enlace a la fuente que lo respalda. Él puede confirmar disponibilidad, colores, garantía y el precio al día. El precio que mostramos es el que publicó una fuente en una fecha concreta, y se oculta solo cuando pasa demasiado tiempo sin verificarse.',
+                    'Si querés una mano, escribinos por WhatsApp con el nombre del modelo.',
+                ],
+            ],
+            [
+                'h2' => 'Uso diario y cuidado de la batería',
+                'body' => [
+                    'Una buena rutina de carga alarga la vida de la batería: cargala con el cargador que corresponde, evitá dejarla vacía durante semanas y no la dejes al sol fuerte ni en un lugar donde se acumule agua. En épocas de lluvia, secá los conectores antes de guardar la moto.',
+                    'Para comparar con motos a nafta de uso urbano, mirá la guía de [cuánto cuesta mantener una moto](/guias/cuanto-cuesta-mantener-una-moto).',
+                ],
+            ],
+        ],
+        'faq' => [
+            [
+                'q' => '¿Quién distribuye Yadea en Paraguay?',
+                'a' => 'El distribuidor figura arriba, con el enlace a la fuente y la fecha de consulta.',
+            ],
+            [
+                'q' => '¿Qué mantenimiento necesita una moto eléctrica?',
+                'a' => 'No lleva cambio de aceite de motor ni bujía, pero sí frenos, neumáticos, suspensión y el cuidado de la batería y de los conectores.',
+            ],
+            [
+                'q' => '¿El precio de Yadea es actual?',
+                'a' => 'La ficha muestra el precio que publicó una fuente con su fecha de consulta; si es muy viejo, se oculta hasta que se verifique de nuevo.',
+            ],
+        ],
+        'updated' => '2026-10-01',
+    ],
+    'buler' => [
+        'intro' => [
+            'Esta es la página de **Buler** en moto.com.py. Reunimos los modelos de la marca que encontramos con datos en fuentes paraguayas: precio publicado cuando existe, ficha técnica con fuente y consejos para el uso diario. No vendemos motos ni armamos precios propios.',
+            'El catálogo de Buler tiene motos tipo cub y naked de baja cilindrada, de las que se usan para ir al trabajo, hacer mandados y repartir. Cada modelo tiene su página y algunos aparecen con versiones, por ejemplo con ruedas de rayos o de aleación.',
+        ],
+        'sections' => [
+            [
+                'h2' => 'Cómo comparar los modelos',
+                'body' => [
+                    'Los modelos de la marca se parecen entre sí, así que conviene mirar tres cosas: el tipo de moto (cub o naked), la cilindrada y la versión de las ruedas. Las ruedas de rayos aguantan bien los caminos malos y se reparan fácil; las de aleación son más prolijas y requieren más cuidado con los golpes.',
+                    'Si todavía no sabés qué cilindrada te conviene, la guía de [125, 150 o 200 cc](/guias/125-150-o-200-cc-cual-elegir) te ayuda a decidir según tu uso y tu presupuesto.',
+                ],
+            ],
+            [
+                'h2' => 'Dónde consultar',
+                'body' => [
+                    'El distribuidor figura arriba, con el enlace a la fuente que lo respalda. Con él podés confirmar disponibilidad, colores, garantía y precio al día. Los precios de esta página son los que publicó una fuente en una fecha concreta, y se ocultan solos cuando pasa demasiado tiempo.',
+                    'Si querés que te orientemos, escribinos por WhatsApp con el nombre del modelo.',
+                ],
+            ],
+            [
+                'h2' => 'Para el trabajo y el reparto',
+                'body' => [
+                    'Una moto que trabaja todos los días necesita lo básico bien cuidado: aceite, filtro de aire, cadena y frenos. El polvo de los caminos y el calor castigan esos puntos, así que revisalos seguido. Para tener una idea del gasto, mirá [cuánto cuesta mantener una moto](/guias/cuanto-cuesta-mantener-una-moto), y para elegir según el trabajo, [qué moto conviene para trabajar](/guias/que-moto-conviene-para-trabajar).',
+                ],
+            ],
+        ],
+        'faq' => [
+            [
+                'q' => '¿Quién distribuye Buler en Paraguay?',
+                'a' => 'El distribuidor figura arriba, con el enlace a la fuente y la fecha de consulta.',
+            ],
+            [
+                'q' => '¿Qué versiones tienen los modelos de Buler?',
+                'a' => 'Algunos aparecen con ruedas de rayos o de aleación. Cada ficha muestra las versiones que figuran en la fuente.',
+            ],
+            [
+                'q' => '¿Los precios de Buler están al día?',
+                'a' => 'Cada precio muestra quién lo publicó y cuándo lo consultamos, y se oculta solo si pasa demasiado tiempo sin verificarse.',
+            ],
+        ],
+        'updated' => '2026-10-01',
+    ],
+    /* == /B1b == */
 ];
