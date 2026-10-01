@@ -51,6 +51,8 @@ Ninguno se muestra en el sitio (PLAN D14). Para resolver uno: reemplazá el bloq
 | `guias.kit-de-arrastre-de-moto.intro.2` | Vida útil orientativa del kit por modelo y medida de la cadena (paso y cantidad de eslabones) de cada modelo del catálogo: confirmar en el manual o en la ficha del fabricante. |
 | `guias.bateria-de-moto.intro.2` | Tipo, capacidad (Ah) y medidas de la batería de cada modelo del catálogo, y valores de voltaje de carga: confirmar en el manual del propietario o la ficha del fabricante. |
 | `guias.bujia-de-moto.intro.2` | Código de bujía, separación de electrodos, torque de apriete e intervalo de cambio de cada modelo del catálogo: confirmar en el manual del propietario o la ficha del fabricante. |
+| `guias.pastillas-de-freno-moto.intro.2` | Espesor mínimo del material de fricción, tipo de freno delantero y trasero y torque de las pinzas por modelo: confirmar en el manual del propietario o en la ficha técnica del fabricante. |
+| `guias.presion-de-neumaticos-moto.intro.2` | Presión recomendada delantera y trasera, con y sin acompañante, de cada modelo del catálogo: confirmar en el manual del propietario o en la etiqueta de la moto. |
 | `guias.registro-de-conducir-para-moto.intro.2` | confirmar en la ANTSV si el registro de motociclista ya se emite con el formato nacional unificado y qué municipios lo emiten; fuente: antsv.gov.py |
 | `guias.registro-de-conducir-para-moto.sections.1.body.3` | costo vigente de la licencia nueva de motociclista en Asunción, con los derechos de examen; fuente: Municipalidad de Asunción, tarifario vigente |
 | `guias.examen-teorico-registro-de-conducir.sections.1.body.1` | material de estudio oficial para el examen teórico (manual o cuestionario) publicado por la ANTSV o por la municipalidad; fuente: antsv.gov.py y sitios municipales |
@@ -58,7 +60,7 @@ Ninguno se muestra en el sitio (PLAN D14). Para resolver uno: reemplazá el bloq
 | `guias.casco-obligatorio-paraguay.sections.0.body.4` | texto vigente del artículo 76 tras las modificaciones posteriores a la Ley 5016/14 (por ejemplo la Ley 6842/2021, que modificó otros artículos de la misma ley); fuente: BACN |
 | `guias.casco-obligatorio-paraguay.sections.1.body.3` | norma técnica o certificación con la que se acredita que un casco es "normalizado" en Paraguay; fuente: INTN o reglamento de la Ley 5016/14 |
 | `guias.casco-obligatorio-paraguay.sections.2.body.1` | cantidad de jornales y monto en guaraníes vigentes por circular sin casco o sin chaleco reflectivo; fuente: escala de multas vigente de la Patrulla Caminera / MOPC |
-| `guias.multas-de-transito-para-motos.sections.0.body.2` | valor del jornal mínimo vigente y fecha de entrada en vigencia de la escala de multas; fuente: Patrulla Caminera / MOPC |
+| `guias.multas-de-transito-para-motos.sections.0.body.3` | valor del jornal mínimo vigente y fecha de entrada en vigencia de la escala de multas; fuente: Patrulla Caminera / MOPC |
 | `guias.multas-de-transito-para-motos.sections.1.body.3` | cantidad de jornales por circular sin casco o sin chaleco reflectivo (las fuentes consultadas discrepan); fuente: escala de multas vigente de la Patrulla Caminera |
 | `guias.multas-de-transito-para-motos.sections.2.body.1` | procedimiento y plazos para pagar o impugnar una multa de la Caminera; fuente: Patrulla Caminera |
 | `guias.chapa-de-moto.sections.0.body.2` | si el canje de la chapa anterior por la Mercosur es obligatorio para las motos, el plazo y el arancel vigente; fuente: Dirección del Registro de Automotores (DRA) |
@@ -67,7 +69,7 @@ Ninguno se muestra en el sitio (PLAN D14). Para resolver uno: reemplazá el bloq
 | `guias.cedula-verde-de-moto.sections.0.body.2` | nombre oficial del documento (cédula verde, cédula del automotor o título) y qué datos exactos contiene; fuente: Dirección del Registro de Automotores |
 | `guias.cedula-verde-de-moto.sections.1.body.1` | si la cédula digital reemplaza a la impresa ante la Patrulla Caminera y los agentes municipales; fuente: MITIC y Registro de Automotores |
 | `guias.cedula-verde-de-moto.sections.2.body.2` | cómo consultar si una moto tiene prenda o embargo y el costo del informe del Registro; fuente: Registro de Automotores |
-| `guias.cedula-verde-de-moto.sections.4.body.1` | requisitos y costo para obtener un duplicado de la cédula verde; fuente: Registro de Automotores |
+| `guias.cedula-verde-de-moto.sections.5.body.1` | requisitos y costo para obtener un duplicado de la cédula verde; fuente: Registro de Automotores |
 | `guias.habilitacion-de-moto-para-delivery.sections.0.body.1` | si el reparto o la mensajería remunerada exige una categoría profesional distinta de la de motociclista; fuente: ANTSV o ley de tránsito |
 | `guias.habilitacion-de-moto-para-delivery.sections.1.body.2` | si una moto usada para reparto necesita una habilitación comercial o un seguro específico, además de la habilitación común; fuente: municipalidad y Superintendencia de Seguros |
 | `guias.habilitacion-de-moto-para-delivery.sections.3.body.1` | requisitos de registro de repartidores de las principales aplicaciones de delivery que operan en Paraguay; fuente: sitios de las propias empresas |

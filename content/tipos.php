@@ -77,18 +77,18 @@ return array (
           array (
             'list' => 
             array (
-              0 => '[Kenton Forza 150 vs Kenton GL 150 Pro](/guias/kenton-forza-150-vs-kenton-gl-150-pro)',
-              1 => '[Kenton Classic 125 vs Yamaha YBR 125Z](/guias/kenton-classic-125-vs-yamaha-ybr-125z)',
-              2 => '[Honda CB1 125 vs Kenton Classic 125](/guias/honda-cb1-125-vs-kenton-classic-125)',
-              3 => '[Kenton GL 150 Pro vs Star Star 150](/guias/kenton-gl-150-pro-vs-star-star-150)',
-              4 => '[Star NT-A 150 vs Star RX4 150](/guias/star-nt-a-150-vs-star-rx4-150)',
-              5 => '[TVS Raider 125 vs Yamaha YBR 125Z](/guias/tvs-raider-125-vs-yamaha-ybr-125z)',
-              6 => '[Kenton GL 150 vs Taiga TL150 CR1](/guias/kenton-gl-150-vs-taiga-tl150-cr1)',
-              7 => '[Kenton GL 150 Pro vs Kenton GTR 150](/guias/kenton-gl-150-pro-vs-kenton-gtr-150)',
-              8 => '[Kenton Forza 150 vs Taiga TL150 CR1](/guias/kenton-forza-150-vs-taiga-tl150-cr1)',
-              9 => '[Kenton Forza 150 vs Leopard HT 150 BA](/guias/kenton-forza-150-vs-leopard-ht-150-ba)',
-              10 => '[Kenton Stratta 200 vs TVS Ronin 225](/guias/kenton-stratta-200-vs-tvs-ronin-225)',
-              11 => '[Kenton Stratta 200 vs Taiga TL200 Eclipse Pro Gen1](/guias/kenton-stratta-200-vs-taiga-tl200-eclipse-pro-gen1)',
+              0 => '[Kenton Forza 150 vs Kenton GL 150 Pro](/guias/forza-150-vs-gl-150-pro)',
+              1 => '[Kenton Classic 125 vs Yamaha YBR 125Z](/guias/classic-125-vs-ybr-125z)',
+              2 => '[Honda CB1 125 vs Kenton Classic 125](/guias/cb1-125-vs-classic-125)',
+              3 => '[Kenton GL 150 Pro vs Star Star 150](/guias/gl-150-pro-vs-star-150)',
+              4 => '[Star NT-A 150 vs Star RX4 150](/guias/nt-a-150-vs-rx4-150)',
+              5 => '[TVS Raider 125 vs Yamaha YBR 125Z](/guias/raider-125-vs-ybr-125z)',
+              6 => '[Kenton GL 150 vs Taiga TL150 CR1](/guias/gl-150-vs-tl150-cr1)',
+              7 => '[Kenton GL 150 Pro vs Kenton GTR 150](/guias/gl-150-pro-vs-gtr-150)',
+              8 => '[Kenton Forza 150 vs Taiga TL150 CR1](/guias/forza-150-vs-tl150-cr1)',
+              9 => '[Kenton Forza 150 vs Leopard HT 150 BA](/guias/forza-150-vs-ht-150-ba)',
+              10 => '[TVS Ronin 225 vs Kenton Stratta 200](/guias/ronin-225-vs-stratta-200)',
+              11 => '[Kenton Stratta 200 vs Taiga TL200 Eclipse Pro Gen1](/guias/stratta-200-vs-tl200-eclipse-pro-gen1)',
             ),
           ),
         ),
@@ -106,23 +106,22 @@ return array (
     ),
     'guides' => 
     array (
-      0 => 'kenton-forza-150-vs-kenton-gl-150-pro',
-      1 => 'kenton-classic-125-vs-yamaha-ybr-125z',
-      2 => 'honda-cb1-125-vs-kenton-classic-125',
-      3 => 'kenton-gl-150-pro-vs-star-star-150',
-      4 => 'star-nt-a-150-vs-star-rx4-150',
-      5 => 'tvs-raider-125-vs-yamaha-ybr-125z',
-      6 => 'kenton-gl-150-vs-taiga-tl150-cr1',
-      7 => 'kenton-gl-150-pro-vs-kenton-gtr-150',
-      8 => 'kenton-forza-150-vs-taiga-tl150-cr1',
-      9 => 'kenton-forza-150-vs-leopard-ht-150-ba',
-      10 => 'kenton-stratta-200-vs-tvs-ronin-225',
-      11 => 'kenton-stratta-200-vs-taiga-tl200-eclipse-pro-gen1',
-      12 => 'como-comprar-tu-primera-moto',
-      13 => 'moto-0-km-o-usada',
-      14 => 'que-cilindrada-elegir',
-      15 => 'motos-baratas-en-paraguay',
-      16 => 'precios-de-motos-0-km-en-paraguay',
+      0 => 'forza-150-vs-gl-150-pro',
+      1 => 'classic-125-vs-ybr-125z',
+      2 => 'cb1-125-vs-classic-125',
+      3 => 'gl-150-pro-vs-star-150',
+      4 => 'nt-a-150-vs-rx4-150',
+      5 => 'raider-125-vs-ybr-125z',
+      6 => 'gl-150-vs-tl150-cr1',
+      7 => 'gl-150-pro-vs-gtr-150',
+      8 => 'forza-150-vs-tl150-cr1',
+      9 => 'forza-150-vs-ht-150-ba',
+      10 => 'ronin-225-vs-stratta-200',
+      11 => 'stratta-200-vs-tl200-eclipse-pro-gen1',
+      12 => 'moto-0-km-o-usada',
+      13 => '125-150-o-200-cc-cual-elegir',
+      14 => 'que-moto-conviene-para-trabajar',
+      15 => 'como-comprar-una-moto-usada-sin-que-te-estafen',
     ),
     'faq' => 
     array (
@@ -199,10 +198,10 @@ return array (
           array (
             'list' => 
             array (
-              0 => '[Kenton DKR 150 vs Star SMX 150](/guias/kenton-dkr-150-vs-star-smx-150)',
-              1 => '[Kenton Shark 150 vs Kenton Skua 150](/guias/kenton-shark-150-vs-kenton-skua-150)',
-              2 => '[Kenton Skua 150 vs Star SMX 150](/guias/kenton-skua-150-vs-star-smx-150)',
-              3 => '[Taiga Rally 250 vs Taiga TL250 CR5 GT](/guias/taiga-rally-250-vs-taiga-tl250-cr5-gt)',
+              0 => '[Kenton DKR 150 vs Star SMX 150](/guias/dkr-150-vs-smx-150)',
+              1 => '[Kenton Shark 150 vs Kenton Skua 150](/guias/shark-150-vs-skua-150)',
+              2 => '[Kenton Skua 150 vs Star SMX 150](/guias/skua-150-vs-smx-150)',
+              3 => '[Taiga Rally 250 vs Taiga TL250 CR5 GT](/guias/rally-250-vs-tl250-cr5-gt)',
             ),
           ),
         ),
@@ -220,14 +219,14 @@ return array (
     ),
     'guides' => 
     array (
-      0 => 'kenton-dkr-150-vs-star-smx-150',
-      1 => 'kenton-shark-150-vs-kenton-skua-150',
-      2 => 'kenton-skua-150-vs-star-smx-150',
-      3 => 'taiga-rally-250-vs-taiga-tl250-cr5-gt',
-      4 => 'como-comprar-tu-primera-moto',
-      5 => 'moto-0-km-o-usada',
-      6 => 'que-cilindrada-elegir',
-      7 => 'como-comprar-una-moto-usada-sin-estafas',
+      0 => 'dkr-150-vs-smx-150',
+      1 => 'shark-150-vs-skua-150',
+      2 => 'skua-150-vs-smx-150',
+      3 => 'rally-250-vs-tl250-cr5-gt',
+      4 => 'moto-0-km-o-usada',
+      5 => '125-150-o-200-cc-cual-elegir',
+      6 => 'que-moto-conviene-para-trabajar',
+      7 => 'como-comprar-una-moto-usada-sin-que-te-estafen',
     ),
     'faq' => 
     array (
@@ -304,9 +303,9 @@ return array (
           array (
             'list' => 
             array (
-              0 => '[Kenton Bravo 125 vs Kenton Quick 125](/guias/kenton-bravo-125-vs-kenton-quick-125)',
-              1 => '[Honda Navi 110 vs Kenton Bravo 125](/guias/honda-navi-110-vs-kenton-bravo-125)',
-              2 => '[Kenton Quick 125 vs Kenton Spark 150](/guias/kenton-quick-125-vs-kenton-spark-150)',
+              0 => '[Kenton Bravo 125 vs Kenton Quick 125](/guias/bravo-125-vs-quick-125)',
+              1 => '[Kenton Bravo 125 vs Honda Navi 110](/guias/bravo-125-vs-navi-110)',
+              2 => '[Kenton Quick 125 vs Kenton Spark 150](/guias/quick-125-vs-spark-150)',
             ),
           ),
         ),
@@ -324,13 +323,13 @@ return array (
     ),
     'guides' => 
     array (
-      0 => 'kenton-bravo-125-vs-kenton-quick-125',
-      1 => 'honda-navi-110-vs-kenton-bravo-125',
-      2 => 'kenton-quick-125-vs-kenton-spark-150',
-      3 => 'como-comprar-tu-primera-moto',
-      4 => 'moto-0-km-o-usada',
-      5 => 'que-cilindrada-elegir',
-      6 => 'motos-baratas-en-paraguay',
+      0 => 'bravo-125-vs-quick-125',
+      1 => 'bravo-125-vs-navi-110',
+      2 => 'quick-125-vs-spark-150',
+      3 => 'moto-0-km-o-usada',
+      4 => '125-150-o-200-cc-cual-elegir',
+      5 => 'que-moto-conviene-para-trabajar',
+      6 => 'como-comprar-una-moto-usada-sin-que-te-estafen',
     ),
     'faq' => 
     array (
@@ -407,9 +406,9 @@ return array (
           array (
             'list' => 
             array (
-              0 => '[Leopard HB 125 Grand Tour vs Leopard HB1 110](/guias/leopard-hb-125-grand-tour-vs-leopard-hb1-110)',
-              1 => '[Buler Urban 110 vs Leopard HB1 110](/guias/buler-urban-110-vs-leopard-hb1-110)',
-              2 => '[Leopard HB1 110 vs Star Dax 110](/guias/leopard-hb1-110-vs-star-dax-110)',
+              0 => '[Leopard HB 125 Grand Tour vs Leopard HB1 110](/guias/hb-125-grand-tour-vs-hb1-110)',
+              1 => '[Leopard HB1 110 vs Buler Urban 110](/guias/hb1-110-vs-urban-110)',
+              2 => '[Star Dax 110 vs Leopard HB1 110](/guias/dax-110-vs-hb1-110)',
             ),
           ),
         ),
@@ -427,13 +426,13 @@ return array (
     ),
     'guides' => 
     array (
-      0 => 'leopard-hb-125-grand-tour-vs-leopard-hb1-110',
-      1 => 'buler-urban-110-vs-leopard-hb1-110',
-      2 => 'leopard-hb1-110-vs-star-dax-110',
-      3 => 'como-comprar-tu-primera-moto',
-      4 => 'moto-0-km-o-usada',
-      5 => 'que-cilindrada-elegir',
-      6 => 'motos-baratas-en-paraguay',
+      0 => 'hb-125-grand-tour-vs-hb1-110',
+      1 => 'hb1-110-vs-urban-110',
+      2 => 'dax-110-vs-hb1-110',
+      3 => 'moto-0-km-o-usada',
+      4 => '125-150-o-200-cc-cual-elegir',
+      5 => 'que-moto-conviene-para-trabajar',
+      6 => 'como-comprar-una-moto-usada-sin-que-te-estafen',
     ),
     'faq' => 
     array (

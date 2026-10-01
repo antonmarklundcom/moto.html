@@ -23,7 +23,7 @@
 declare(strict_types=1);
 /* Generated from content/catalogo.php (specs as of 2026-10-01); regenerate when the catalogue changes. */
 return array (
-  'kenton-forza-150-vs-kenton-gl-150-pro' => 
+  'forza-150-vs-gl-150-pro' => 
   array (
     'a' => 'kenton/forza-150',
     'b' => 'kenton/gl-150-pro',
@@ -91,7 +91,7 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'kenton-classic-125-vs-yamaha-ybr-125z' => 
+  'classic-125-vs-ybr-125z' => 
   array (
     'a' => 'kenton/classic-125',
     'b' => 'yamaha/ybr-125z',
@@ -155,7 +155,7 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'honda-cb1-125-vs-kenton-classic-125' => 
+  'cb1-125-vs-classic-125' => 
   array (
     'a' => 'honda/cb1-125',
     'b' => 'kenton/classic-125',
@@ -217,7 +217,7 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'kenton-gl-150-pro-vs-star-star-150' => 
+  'gl-150-pro-vs-star-150' => 
   array (
     'a' => 'kenton/gl-150-pro',
     'b' => 'star/star-150',
@@ -279,7 +279,7 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'star-nt-a-150-vs-star-rx4-150' => 
+  'nt-a-150-vs-rx4-150' => 
   array (
     'a' => 'star/nt-a-150',
     'b' => 'star/rx4-150',
@@ -339,7 +339,7 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'tvs-raider-125-vs-yamaha-ybr-125z' => 
+  'raider-125-vs-ybr-125z' => 
   array (
     'a' => 'tvs/raider-125',
     'b' => 'yamaha/ybr-125z',
@@ -401,7 +401,7 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'kenton-gl-150-vs-taiga-tl150-cr1' => 
+  'gl-150-vs-tl150-cr1' => 
   array (
     'a' => 'kenton/gl-150',
     'b' => 'taiga/tl150-cr1',
@@ -462,7 +462,7 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'kenton-gl-150-pro-vs-kenton-gtr-150' => 
+  'gl-150-pro-vs-gtr-150' => 
   array (
     'a' => 'kenton/gl-150-pro',
     'b' => 'kenton/gtr-150',
@@ -524,7 +524,7 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'kenton-forza-150-vs-taiga-tl150-cr1' => 
+  'forza-150-vs-tl150-cr1' => 
   array (
     'a' => 'kenton/forza-150',
     'b' => 'taiga/tl150-cr1',
@@ -587,7 +587,7 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'kenton-forza-150-vs-leopard-ht-150-ba' => 
+  'forza-150-vs-ht-150-ba' => 
   array (
     'a' => 'kenton/forza-150',
     'b' => 'leopard/ht-150-ba',
@@ -649,14 +649,14 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'kenton-stratta-200-vs-tvs-ronin-225' => 
+  'ronin-225-vs-stratta-200' => 
   array (
-    'a' => 'kenton/stratta-200',
-    'b' => 'tvs/ronin-225',
-    'description' => 'Kenton Stratta 200 vs TVS Ronin 225: ficha lado a lado con la fuente de cada dato y en qué se diferencian, sin ganadora inventada.',
+    'a' => 'tvs/ronin-225',
+    'b' => 'kenton/stratta-200',
+    'description' => 'TVS Ronin 225 vs Kenton Stratta 200: ficha lado a lado con la fuente de cada dato y en qué se diferencian, sin ganadora inventada.',
     'criterio' => 
     array (
-      0 => 'Esta comparación pone lado a lado a la Kenton Stratta 200 y a la TVS Ronin 225 con los datos de ficha que publican Classic Motos y TVS Motor Paraguay y que consultamos el 30 de septiembre de 2026. Las dos son motos de tipo naked y están en un rango de uso parecido, así que tiene sentido mirarlas juntas.',
+      0 => 'Esta comparación pone lado a lado a la TVS Ronin 225 y a la Kenton Stratta 200 con los datos de ficha que publican TVS Motor Paraguay y Classic Motos y que consultamos el 30 de septiembre de 2026. Las dos son motos de tipo naked y están en un rango de uso parecido, así que tiene sentido mirarlas juntas.',
       1 => 'No elegimos una ganadora. Cuál te conviene depende de lo que pese más para vos, y por eso cada observación de abajo dice con qué criterio se está mirando: peso, tanque, altura del asiento, frenos, potencia declarada. Si un criterio no aparece, es porque una de las dos fichas no publica ese dato.',
       2 => 'En la tabla entran sólo las filas con dato y fuente en las dos motos (7 filas). No completamos ni estimamos nada que la ficha no diga.',
     ),
@@ -678,30 +678,30 @@ return array (
       array (
         'list' => 
         array (
-          0 => '**Si te importa la cilindrada declarada:** la Kenton Stratta 200 figura con 200 cc y la TVS Ronin 225 con 225 cc; la TVS Ronin 225 tiene el motor más grande, que no es lo mismo que decir que rinde más.',
+          0 => '**Si te importa la cilindrada declarada:** la TVS Ronin 225 figura con 225 cc y la Kenton Stratta 200 con 200 cc; la TVS Ronin 225 tiene el motor más grande, que no es lo mismo que decir que rinde más.',
           1 => '**Si mirás la potencia declarada:** la TVS Ronin 225 publica la cifra más alta (20.1 HP @ 7750 rpm contra 15 HP). Las fichas no siempre usan el mismo régimen de giro, así que tomá la diferencia como orientación.',
-          2 => '**Si el freno delantero es tu criterio:** la Kenton Stratta 200 declara disco y la TVS Ronin 225 disco 300 mm con ABS de dos canales. Es una diferencia de equipamiento que se ve a simple vista en el local.',
-          3 => '**Si el freno trasero es tu criterio:** la Kenton Stratta 200 declara disco y la TVS Ronin 225 disco 240 mm. Es una diferencia de equipamiento que se ve a simple vista en el local.',
-          4 => '**Refrigeración:** aire en la Kenton Stratta 200, aceite en la TVS Ronin 225.',
-          5 => '**Neumático delantero:** la Kenton Stratta 200 monta 100/80-17 y la TVS Ronin 225 110/70-17 sin cámara. Si cambiás cubiertas, la medida condiciona qué modelos de neumático conseguís.',
-          6 => '**Neumático trasero:** la Kenton Stratta 200 monta 130/80-17 y la TVS Ronin 225 130/70-17 sin cámara. Si cambiás cubiertas, la medida condiciona qué modelos de neumático conseguís.',
+          2 => '**Si el freno delantero es tu criterio:** la TVS Ronin 225 declara disco 300 mm con ABS de dos canales y la Kenton Stratta 200 disco. Es una diferencia de equipamiento que se ve a simple vista en el local.',
+          3 => '**Si el freno trasero es tu criterio:** la TVS Ronin 225 declara disco 240 mm y la Kenton Stratta 200 disco. Es una diferencia de equipamiento que se ve a simple vista en el local.',
+          4 => '**Refrigeración:** aceite en la TVS Ronin 225, aire en la Kenton Stratta 200.',
+          5 => '**Neumático delantero:** la TVS Ronin 225 monta 110/70-17 sin cámara y la Kenton Stratta 200 100/80-17. Si cambiás cubiertas, la medida condiciona qué modelos de neumático conseguís.',
+          6 => '**Neumático trasero:** la TVS Ronin 225 monta 130/70-17 sin cámara y la Kenton Stratta 200 130/80-17. Si cambiás cubiertas, la medida condiciona qué modelos de neumático conseguís.',
         ),
       ),
       3 => '**Lo que las fichas no permiten comparar.** Entre las dos no hay dato publicado y con fuente para comparar el consumo, la velocidad máxima, el torque y la autonomía. Son justo los datos que más influyen en el costo de uso, y preferimos dejarlos vacíos antes que repetir cifras de foros o de ficha de otro país.',
-      4 => '**El precio.** No lo comparamos acá: un precio publicado vence y cambia según la sucursal y la forma de pago. En la página de cada modelo ([Kenton Stratta 200](/motos/kenton/stratta-200), [TVS Ronin 225](/motos/tvs/ronin-225)) figura el precio vigente con quién lo publica y la fecha de consulta, o la aclaración de que no hay uno publicado.',
+      4 => '**El precio.** No lo comparamos acá: un precio publicado vence y cambia según la sucursal y la forma de pago. En la página de cada modelo ([TVS Ronin 225](/motos/tvs/ronin-225), [Kenton Stratta 200](/motos/kenton/stratta-200)) figura el precio vigente con quién lo publica y la fecha de consulta, o la aclaración de que no hay uno publicado.',
       5 => '**Cómo cerrar la decisión.** Mirá las dos en persona, con el casco puesto: sentate, apoyá los pies, probá el freno y fijate qué tan cómoda es la posición. Preguntá en el local por la disponibilidad de repuestos y el service en tu ciudad, y pedí la ficha completa por escrito si algún dato que te importa no está en la tabla. Más motos de este tipo, en [la página de naked](/motos/tipo/naked).',
     ),
     'faq' => 
     array (
       0 => 
       array (
-        'q' => '¿Cuál conviene más, la Kenton Stratta 200 o la TVS Ronin 225?',
+        'q' => '¿Cuál conviene más, la TVS Ronin 225 o la Kenton Stratta 200?',
         'a' => 'Depende de tu criterio. Esta comparación no elige ganadora: según la ficha, se diferencian en cilindrada, potencia, refrigeración y freno delantero, y cada uno pesa distinto según cómo y cuánto uses la moto.',
       ),
       1 => 
       array (
         'q' => '¿De dónde salen los datos de la tabla?',
-        'a' => 'De las fichas que publican Classic Motos y TVS Motor Paraguay; cada dato lleva su enlace y la fecha en que lo consultamos. Si una ficha no publica un dato, la fila no aparece.',
+        'a' => 'De las fichas que publican TVS Motor Paraguay y Classic Motos; cada dato lleva su enlace y la fecha en que lo consultamos. Si una ficha no publica un dato, la fila no aparece.',
       ),
       2 => 
       array (
@@ -712,7 +712,7 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'kenton-stratta-200-vs-taiga-tl200-eclipse-pro-gen1' => 
+  'stratta-200-vs-tl200-eclipse-pro-gen1' => 
   array (
     'a' => 'kenton/stratta-200',
     'b' => 'taiga/tl200-eclipse-pro-gen1',
@@ -774,7 +774,7 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'kenton-bravo-125-vs-kenton-quick-125' => 
+  'bravo-125-vs-quick-125' => 
   array (
     'a' => 'kenton/bravo-125',
     'b' => 'kenton/quick-125',
@@ -840,14 +840,14 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'honda-navi-110-vs-kenton-bravo-125' => 
+  'bravo-125-vs-navi-110' => 
   array (
-    'a' => 'honda/navi-110',
-    'b' => 'kenton/bravo-125',
-    'description' => 'Honda Navi 110 vs Kenton Bravo 125: ficha lado a lado con la fuente de cada dato y en qué se diferencian, sin ganadora inventada.',
+    'a' => 'kenton/bravo-125',
+    'b' => 'honda/navi-110',
+    'description' => 'Kenton Bravo 125 vs Honda Navi 110: ficha lado a lado con la fuente de cada dato y en qué se diferencian, sin ganadora inventada.',
     'criterio' => 
     array (
-      0 => 'Esta comparación pone lado a lado a la Honda Navi 110 y a la Kenton Bravo 125 con los datos de ficha que publican InfoNegocios y Kenton y que consultamos el 30 de septiembre de 2026. Las dos son motos de tipo scooter y están en un rango de uso parecido, así que tiene sentido mirarlas juntas.',
+      0 => 'Esta comparación pone lado a lado a la Kenton Bravo 125 y a la Honda Navi 110 con los datos de ficha que publican Kenton y InfoNegocios y que consultamos el 30 de septiembre de 2026. Las dos son motos de tipo scooter y están en un rango de uso parecido, así que tiene sentido mirarlas juntas.',
       1 => 'No elegimos una ganadora. Cuál te conviene depende de lo que pese más para vos, y por eso cada observación de abajo dice con qué criterio se está mirando: peso, tanque, altura del asiento, frenos, potencia declarada. Si un criterio no aparece, es porque una de las dos fichas no publica ese dato.',
       2 => 'En la tabla entran sólo las filas con dato y fuente en las dos motos (7 filas). No completamos ni estimamos nada que la ficha no diga.',
     ),
@@ -869,28 +869,28 @@ return array (
       array (
         'list' => 
         array (
-          0 => '**Si te importa la cilindrada declarada:** la Honda Navi 110 figura con 109 cc y la Kenton Bravo 125 con 125 cc; la Kenton Bravo 125 tiene el motor más grande, que no es lo mismo que decir que rinde más.',
+          0 => '**Si te importa la cilindrada declarada:** la Kenton Bravo 125 figura con 125 cc y la Honda Navi 110 con 109 cc; la Kenton Bravo 125 tiene el motor más grande, que no es lo mismo que decir que rinde más.',
           1 => '**Si mirás la potencia declarada:** la Kenton Bravo 125 publica la cifra más alta (8.4 HP contra 7.92 HP). Las fichas no siempre usan el mismo régimen de giro, así que tomá la diferencia como orientación.',
-          2 => '**Si el freno delantero es tu criterio:** la Honda Navi 110 declara tambor y la Kenton Bravo 125 disco. Es una diferencia de equipamiento que se ve a simple vista en el local.',
-          3 => '**Neumático delantero:** la Honda Navi 110 monta 12 pulgadas y la Kenton Bravo 125 90/90-12. Si cambiás cubiertas, la medida condiciona qué modelos de neumático conseguís.',
-          4 => '**Neumático trasero:** la Honda Navi 110 monta 10 pulgadas y la Kenton Bravo 125 3.50-10. Si cambiás cubiertas, la medida condiciona qué modelos de neumático conseguís.',
+          2 => '**Si el freno delantero es tu criterio:** la Kenton Bravo 125 declara disco y la Honda Navi 110 tambor. Es una diferencia de equipamiento que se ve a simple vista en el local.',
+          3 => '**Neumático delantero:** la Kenton Bravo 125 monta 90/90-12 y la Honda Navi 110 12 pulgadas. Si cambiás cubiertas, la medida condiciona qué modelos de neumático conseguís.',
+          4 => '**Neumático trasero:** la Kenton Bravo 125 monta 3.50-10 y la Honda Navi 110 10 pulgadas. Si cambiás cubiertas, la medida condiciona qué modelos de neumático conseguís.',
         ),
       ),
       3 => '**Lo que las fichas no permiten comparar.** Entre las dos no hay dato publicado y con fuente para comparar el consumo, la velocidad máxima, el torque y la autonomía. Son justo los datos que más influyen en el costo de uso, y preferimos dejarlos vacíos antes que repetir cifras de foros o de ficha de otro país.',
-      4 => '**El precio.** No lo comparamos acá: un precio publicado vence y cambia según la sucursal y la forma de pago. En la página de cada modelo ([Honda Navi 110](/motos/honda/navi-110), [Kenton Bravo 125](/motos/kenton/bravo-125)) figura el precio vigente con quién lo publica y la fecha de consulta, o la aclaración de que no hay uno publicado.',
+      4 => '**El precio.** No lo comparamos acá: un precio publicado vence y cambia según la sucursal y la forma de pago. En la página de cada modelo ([Kenton Bravo 125](/motos/kenton/bravo-125), [Honda Navi 110](/motos/honda/navi-110)) figura el precio vigente con quién lo publica y la fecha de consulta, o la aclaración de que no hay uno publicado.',
       5 => '**Cómo cerrar la decisión.** Mirá las dos en persona, con el casco puesto: sentate, apoyá los pies, probá el freno y fijate qué tan cómoda es la posición. Preguntá en el local por la disponibilidad de repuestos y el service en tu ciudad, y pedí la ficha completa por escrito si algún dato que te importa no está en la tabla. Más motos de este tipo, en [la página de scooter](/motos/tipo/scooter).',
     ),
     'faq' => 
     array (
       0 => 
       array (
-        'q' => '¿Cuál conviene más, la Honda Navi 110 o la Kenton Bravo 125?',
+        'q' => '¿Cuál conviene más, la Kenton Bravo 125 o la Honda Navi 110?',
         'a' => 'Depende de tu criterio. Esta comparación no elige ganadora: según la ficha, se diferencian en cilindrada, potencia, freno delantero y neumático delantero, y cada uno pesa distinto según cómo y cuánto uses la moto.',
       ),
       1 => 
       array (
         'q' => '¿De dónde salen los datos de la tabla?',
-        'a' => 'De las fichas que publican InfoNegocios y Kenton; cada dato lleva su enlace y la fecha en que lo consultamos. Si una ficha no publica un dato, la fila no aparece.',
+        'a' => 'De las fichas que publican Kenton y InfoNegocios; cada dato lleva su enlace y la fecha en que lo consultamos. Si una ficha no publica un dato, la fila no aparece.',
       ),
       2 => 
       array (
@@ -901,7 +901,7 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'kenton-quick-125-vs-kenton-spark-150' => 
+  'quick-125-vs-spark-150' => 
   array (
     'a' => 'kenton/quick-125',
     'b' => 'kenton/spark-150',
@@ -966,7 +966,7 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'kenton-dkr-150-vs-star-smx-150' => 
+  'dkr-150-vs-smx-150' => 
   array (
     'a' => 'kenton/dkr-150',
     'b' => 'star/smx-150',
@@ -1032,7 +1032,7 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'kenton-shark-150-vs-kenton-skua-150' => 
+  'shark-150-vs-skua-150' => 
   array (
     'a' => 'kenton/shark-150',
     'b' => 'kenton/skua-150',
@@ -1101,7 +1101,7 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'kenton-skua-150-vs-star-smx-150' => 
+  'skua-150-vs-smx-150' => 
   array (
     'a' => 'kenton/skua-150',
     'b' => 'star/smx-150',
@@ -1167,7 +1167,7 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'taiga-rally-250-vs-taiga-tl250-cr5-gt' => 
+  'rally-250-vs-tl250-cr5-gt' => 
   array (
     'a' => 'taiga/rally-250',
     'b' => 'taiga/tl250-cr5-gt',
@@ -1227,7 +1227,7 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'leopard-hb-125-grand-tour-vs-leopard-hb1-110' => 
+  'hb-125-grand-tour-vs-hb1-110' => 
   array (
     'a' => 'leopard/hb-125-grand-tour',
     'b' => 'leopard/hb1-110',
@@ -1291,14 +1291,14 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'buler-urban-110-vs-leopard-hb1-110' => 
+  'hb1-110-vs-urban-110' => 
   array (
-    'a' => 'buler/urban-110',
-    'b' => 'leopard/hb1-110',
-    'description' => 'Buler Urban 110 vs Leopard HB1 110: ficha lado a lado con la fuente de cada dato y en qué se diferencian, sin ganadora inventada.',
+    'a' => 'leopard/hb1-110',
+    'b' => 'buler/urban-110',
+    'description' => 'Leopard HB1 110 vs Buler Urban 110: ficha lado a lado con la fuente de cada dato y en qué se diferencian, sin ganadora inventada.',
     'criterio' => 
     array (
-      0 => 'Esta comparación pone lado a lado a la Buler Urban 110 y a la Leopard HB1 110 con los datos de ficha que publican Bristol y Reimpex y que consultamos el 30 de septiembre de 2026. Las dos son motos de tipo cub y están en un rango de uso parecido, así que tiene sentido mirarlas juntas.',
+      0 => 'Esta comparación pone lado a lado a la Leopard HB1 110 y a la Buler Urban 110 con los datos de ficha que publican Reimpex y Bristol y que consultamos el 30 de septiembre de 2026. Las dos son motos de tipo cub y están en un rango de uso parecido, así que tiene sentido mirarlas juntas.',
       1 => 'No elegimos una ganadora. Cuál te conviene depende de lo que pese más para vos, y por eso cada observación de abajo dice con qué criterio se está mirando: peso, tanque, altura del asiento, frenos, potencia declarada. Si un criterio no aparece, es porque una de las dos fichas no publica ese dato.',
       2 => 'En la tabla entran sólo las filas con dato y fuente en las dos motos (7 filas). No completamos ni estimamos nada que la ficha no diga.',
     ),
@@ -1322,26 +1322,26 @@ return array (
         array (
           0 => '**Si priorizás una moto más liviana:** según la ficha, la Buler Urban 110 es la más liviana (90 kg contra 93 kg). Un peso menor se nota al maniobrar y al estacionar, y es un factor si manejás poco o recién empezás.',
           1 => '**Si hacés muchos kilómetros entre cargas:** la Buler Urban 110 publica el tanque más grande (4 litros contra 3.5 litros). Sin un dato de consumo no se puede convertir eso en kilómetros de autonomía, y no lo inventamos.',
-          2 => '**Si el freno delantero es tu criterio:** la Buler Urban 110 declara tambor y la Leopard HB1 110 disco. Es una diferencia de equipamiento que se ve a simple vista en el local.',
-          3 => '**Arranque:** la Buler Urban 110 declara eléctrico y a pedal y la Leopard HB1 110 eléctrico/pedal. Si usás la moto todos los días, un arranque eléctrico evita depender del pedal.',
-          4 => '**Transmisión:** la Buler Urban 110 la publica como semi automática y la Leopard HB1 110 como 4 velocidades semiautomática, cadena.',
+          2 => '**Si el freno delantero es tu criterio:** la Leopard HB1 110 declara disco y la Buler Urban 110 tambor. Es una diferencia de equipamiento que se ve a simple vista en el local.',
+          3 => '**Arranque:** la Leopard HB1 110 declara eléctrico/pedal y la Buler Urban 110 eléctrico y a pedal. Si usás la moto todos los días, un arranque eléctrico evita depender del pedal.',
+          4 => '**Transmisión:** la Leopard HB1 110 la publica como 4 velocidades semiautomática, cadena y la Buler Urban 110 como semi automática.',
         ),
       ),
       3 => '**Lo que las fichas no permiten comparar.** Entre las dos no hay dato publicado y con fuente para comparar el consumo, la velocidad máxima, el torque y la autonomía. Son justo los datos que más influyen en el costo de uso, y preferimos dejarlos vacíos antes que repetir cifras de foros o de ficha de otro país.',
-      4 => '**El precio.** No lo comparamos acá: un precio publicado vence y cambia según la sucursal y la forma de pago. En la página de cada modelo ([Buler Urban 110](/motos/buler/urban-110), [Leopard HB1 110](/motos/leopard/hb1-110)) figura el precio vigente con quién lo publica y la fecha de consulta, o la aclaración de que no hay uno publicado.',
+      4 => '**El precio.** No lo comparamos acá: un precio publicado vence y cambia según la sucursal y la forma de pago. En la página de cada modelo ([Leopard HB1 110](/motos/leopard/hb1-110), [Buler Urban 110](/motos/buler/urban-110)) figura el precio vigente con quién lo publica y la fecha de consulta, o la aclaración de que no hay uno publicado.',
       5 => '**Cómo cerrar la decisión.** Mirá las dos en persona, con el casco puesto: sentate, apoyá los pies, probá el freno y fijate qué tan cómoda es la posición. Preguntá en el local por la disponibilidad de repuestos y el service en tu ciudad, y pedí la ficha completa por escrito si algún dato que te importa no está en la tabla. Más motos de este tipo, en [la página de cub](/motos/tipo/cub).',
     ),
     'faq' => 
     array (
       0 => 
       array (
-        'q' => '¿Cuál conviene más, la Buler Urban 110 o la Leopard HB1 110?',
+        'q' => '¿Cuál conviene más, la Leopard HB1 110 o la Buler Urban 110?',
         'a' => 'Depende de tu criterio. Esta comparación no elige ganadora: según la ficha, se diferencian en transmisión, arranque, freno delantero y tanque, y cada uno pesa distinto según cómo y cuánto uses la moto.',
       ),
       1 => 
       array (
         'q' => '¿De dónde salen los datos de la tabla?',
-        'a' => 'De las fichas que publican Bristol y Reimpex; cada dato lleva su enlace y la fecha en que lo consultamos. Si una ficha no publica un dato, la fila no aparece.',
+        'a' => 'De las fichas que publican Reimpex y Bristol; cada dato lleva su enlace y la fecha en que lo consultamos. Si una ficha no publica un dato, la fila no aparece.',
       ),
       2 => 
       array (
@@ -1352,14 +1352,14 @@ return array (
     'published' => '2026-10-01',
     'updated' => '2026-10-01',
   ),
-  'leopard-hb1-110-vs-star-dax-110' => 
+  'dax-110-vs-hb1-110' => 
   array (
-    'a' => 'leopard/hb1-110',
-    'b' => 'star/dax-110',
-    'description' => 'Leopard HB1 110 vs Star Dax 110: ficha lado a lado con la fuente de cada dato y en qué se diferencian, sin ganadora inventada.',
+    'a' => 'star/dax-110',
+    'b' => 'leopard/hb1-110',
+    'description' => 'Star Dax 110 vs Leopard HB1 110: ficha lado a lado con la fuente de cada dato y en qué se diferencian, sin ganadora inventada.',
     'criterio' => 
     array (
-      0 => 'Esta comparación pone lado a lado a la Leopard HB1 110 y a la Star Dax 110 con los datos de ficha que publican Reimpex y Star y que consultamos el 30 de septiembre de 2026. Las dos son motos de tipo cub y están en un rango de uso parecido, así que tiene sentido mirarlas juntas.',
+      0 => 'Esta comparación pone lado a lado a la Star Dax 110 y a la Leopard HB1 110 con los datos de ficha que publican Star y Reimpex y que consultamos el 30 de septiembre de 2026. Las dos son motos de tipo cub y están en un rango de uso parecido, así que tiene sentido mirarlas juntas.',
       1 => 'No elegimos una ganadora. Cuál te conviene depende de lo que pese más para vos, y por eso cada observación de abajo dice con qué criterio se está mirando: peso, tanque, altura del asiento, frenos, potencia declarada. Si un criterio no aparece, es porque una de las dos fichas no publica ese dato.',
       2 => 'En la tabla entran sólo las filas con dato y fuente en las dos motos (6 filas). No completamos ni estimamos nada que la ficha no diga.',
     ),
@@ -1374,31 +1374,31 @@ return array (
     ),
     'body' => 
     array (
-      0 => '**Lo que tienen en común.** Según las fichas, las dos declaran el mismo valor en cilindrada (110 cc), arranque (eléctrico/pedal), freno trasero (tambor) y tanque (3.5 litros). En esos puntos la elección no cambia nada, y lo que decide es lo que sigue.',
+      0 => '**Lo que tienen en común.** Según las fichas, las dos declaran el mismo valor en cilindrada (110 cc), arranque (eléctrico / Pedal), freno trasero (tambor) y tanque (3,5 litros). En esos puntos la elección no cambia nada, y lo que decide es lo que sigue.',
       1 => '**Dónde se separan, criterio por criterio.** Cada punto de la lista se lee por separado; ninguno alcanza por sí solo para decidir.',
       2 => 
       array (
         'list' => 
         array (
           0 => '**Si priorizás una moto más liviana:** según la ficha, la Leopard HB1 110 es la más liviana (93 kg contra 100 kg). Un peso menor se nota al maniobrar y al estacionar, y es un factor si manejás poco o recién empezás.',
-          1 => '**Si el freno delantero es tu criterio:** la Leopard HB1 110 declara disco y la Star Dax 110 tambor. Es una diferencia de equipamiento que se ve a simple vista en el local.',
+          1 => '**Si el freno delantero es tu criterio:** la Star Dax 110 declara tambor y la Leopard HB1 110 disco. Es una diferencia de equipamiento que se ve a simple vista en el local.',
         ),
       ),
       3 => '**Lo que las fichas no permiten comparar.** Entre las dos no hay dato publicado y con fuente para comparar el consumo, la velocidad máxima, el torque y la autonomía. Son justo los datos que más influyen en el costo de uso, y preferimos dejarlos vacíos antes que repetir cifras de foros o de ficha de otro país.',
-      4 => '**El precio.** No lo comparamos acá: un precio publicado vence y cambia según la sucursal y la forma de pago. En la página de cada modelo ([Leopard HB1 110](/motos/leopard/hb1-110), [Star Dax 110](/motos/star/dax-110)) figura el precio vigente con quién lo publica y la fecha de consulta, o la aclaración de que no hay uno publicado.',
+      4 => '**El precio.** No lo comparamos acá: un precio publicado vence y cambia según la sucursal y la forma de pago. En la página de cada modelo ([Star Dax 110](/motos/star/dax-110), [Leopard HB1 110](/motos/leopard/hb1-110)) figura el precio vigente con quién lo publica y la fecha de consulta, o la aclaración de que no hay uno publicado.',
       5 => '**Cómo cerrar la decisión.** Mirá las dos en persona, con el casco puesto: sentate, apoyá los pies, probá el freno y fijate qué tan cómoda es la posición. Preguntá en el local por la disponibilidad de repuestos y el service en tu ciudad, y pedí la ficha completa por escrito si algún dato que te importa no está en la tabla. Más motos de este tipo, en [la página de cub](/motos/tipo/cub).',
     ),
     'faq' => 
     array (
       0 => 
       array (
-        'q' => '¿Cuál conviene más, la Leopard HB1 110 o la Star Dax 110?',
+        'q' => '¿Cuál conviene más, la Star Dax 110 o la Leopard HB1 110?',
         'a' => 'Depende de tu criterio. Esta comparación no elige ganadora: según la ficha, se diferencian en freno delantero y peso, y cada uno pesa distinto según cómo y cuánto uses la moto.',
       ),
       1 => 
       array (
         'q' => '¿De dónde salen los datos de la tabla?',
-        'a' => 'De las fichas que publican Reimpex y Star; cada dato lleva su enlace y la fecha en que lo consultamos. Si una ficha no publica un dato, la fila no aparece.',
+        'a' => 'De las fichas que publican Star y Reimpex; cada dato lleva su enlace y la fecha en que lo consultamos. Si una ficha no publica un dato, la fila no aparece.',
       ),
       2 => 
       array (

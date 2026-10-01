@@ -2525,6 +2525,189 @@ return [
         'quiz' => null,
         'sources' => [],
     ],
+    'pastillas-de-freno-moto' => [
+        'group' => 'reparacion',
+        'title' => 'Pastillas de freno de moto: desgaste y cambio',
+        'navLabel' => 'Pastillas de freno',
+        'seoTitle' => 'Pastillas de freno de moto: cuándo cambiarlas',
+        'metaDescription' => 'Pastillas de freno de moto: cómo ver el desgaste, ruidos y señales de cambio, diferencia con las zapatas y por qué no conviene esperar.',
+        'query' => 'pastillas de freno moto',
+        'published' => '2026-10-01',
+        'updated' => '2026-10-01',
+        'hero' => [
+            'h1' => 'Pastillas de freno de moto: cómo ver el desgaste y cuándo cambiarlas',
+            'lead' => 'Los frenos son lo último que conviene dejar para después. Revisá las pastillas seguido y cambialas antes de quedar sin material.',
+        ],
+        'intro' => [
+            'Las pastillas de freno son la pieza que roza contra el disco para detener la moto. Se desgastan con cada frenada, y se gastan más rápido si manejás en ciudad con mucho tránsito, con carga o en bajadas largas. En motos con freno a tambor, en lugar de pastillas hay zapatas, que cumplen la misma función; muchas motos de baja cilindrada, comunes en Paraguay, tienen disco adelante y tambor atrás. Revisá en la ficha de tu modelo qué tipo de freno tiene cada rueda.',
+            'El límite de desgaste y el torque de los tornillos los fija el fabricante: están en el manual. No ponemos cifras en esta guía.',
+            ['verify' => 'Espesor mínimo del material de fricción, tipo de freno delantero y trasero y torque de las pinzas por modelo: confirmar en el manual del propietario o en la ficha técnica del fabricante.'],
+        ],
+        'sections' => [
+            [
+                'h2' => 'Señales de pastillas gastadas',
+                'id' => 'senales',
+                'body' => [
+                    ['list' => [
+                        '**Chirrido agudo o un rechinar metálico** al frenar. El metálico indica que ya se gastó el material y el soporte roza contra el disco.',
+                        '**La palanca o el pedal llegan más cerca del puño** o más abajo que antes.',
+                        '**La moto frena menos** o necesitás más distancia.',
+                        '**Vibración** al frenar, que puede venir del disco alabeado.',
+                        '**Mucho polvo oscuro** en la llanta cerca del freno.',
+                    ]],
+                    'Si notás cualquiera de estas señales, no sigas posponiendo la revisión.',
+                ],
+            ],
+            [
+                'h2' => 'Cómo mirar el desgaste vos mismo',
+                'id' => 'mirar',
+                'body' => [
+                    'Con la moto apagada y estable, mirá la pinza (la pieza que abraza el disco) desde un costado, con una linterna si hace falta. Verás el material de fricción, de color gris o marrón, contra el disco. Muchas pastillas tienen una ranura o una marca de desgaste. Si el material casi desapareció o ves sólo la chapa metálica, hay que cambiarlas. Comparalo con lo que indica el manual.',
+                    'Mirá también el disco: si tiene surcos profundos, está azulado por calor o muy desparejo, consultá en el taller. Y fijate que no haya pérdidas de líquido en la pinza o en las mangueras.',
+                ],
+            ],
+            [
+                'h2' => 'Qué más se mira junto con las pastillas',
+                'id' => 'que-mas',
+                'body' => [
+                    ['list' => [
+                        '**El líquido de frenos.** Absorbe humedad con el tiempo y pierde eficacia. El manual dice cada cuánto cambiarlo; con el calor y la lluvia de Paraguay conviene no descuidarlo.',
+                        '**Las mangueras**, que no estén agrietadas ni hinchadas.',
+                        '**El nivel del depósito**: baja a medida que se gastan las pastillas, pero una bajada brusca indica pérdida.',
+                        '**Las zapatas del tambor**, si tu moto tiene freno trasero a tambor; el mecánico las mide y las ajusta.',
+                    ]],
+                ],
+            ],
+            [
+                'h2' => 'Por qué conviene que lo haga el taller',
+                'id' => 'taller',
+                'body' => [
+                    'Cambiar pastillas parece simple, pero hay que empujar los pistones de la pinza, limpiar, aplicar el lubricante en los lugares correctos (y nunca sobre el material de fricción) y apretar con el torque del manual. Después hay que bombear la palanca hasta que quede firme y probar a baja velocidad. Un error acá se paga en la frenada. Llevala al taller si no tenés experiencia, si hay pérdida de líquido, si la palanca queda esponjosa o si el freno queda trabado. Cuando vayas, aprovechá para pedir una revisión general, como en el [service de moto](/guias/service-de-moto-que-incluye).',
+                    'No damos precios: pedí presupuesto de repuesto y mano de obra antes de dejar la moto. Usá las pastillas que corresponden a tu modelo y a tu tipo de uso.',
+                ],
+            ],
+            [
+                'h2' => 'Cuidados para que duren más',
+                'id' => 'cuidados',
+                'body' => [
+                    ['list' => [
+                        'Anticipá las frenadas en lugar de clavarlas.',
+                        'Usá los dos frenos juntos, como se enseña en cualquier curso de manejo.',
+                        'Después de lavar la moto o de pasar por barro, frená suavemente un par de veces para secar y limpiar.',
+                        'En bajadas largas, ayudate con el freno motor para no recalentar.',
+                    ]],
+                    'Una buena presión en las cubiertas también ayuda: ver [presión de neumáticos de moto](/guias/presion-de-neumaticos-moto).',
+                ],
+            ],
+            [
+                'h2' => 'Nota de seguridad',
+                'id' => 'seguridad',
+                'body' => [
+                    ['note' => 'Si los frenos fallan o se sienten raros, no salgas. Después de cambiar pastillas, no te vayas sin probar la palanca y el pedal parado y la moto a baja velocidad. Nunca dejes aceite, grasa o líquido de frenos sobre el disco o las pastillas: arruina la frenada. El líquido de frenos daña la pintura y la piel.'],
+                ],
+            ],
+        ],
+        'faq' => [
+            ['q' => '¿Cuánto duran las pastillas de moto?', 'a' => 'Depende de cómo manejes, el peso y el tránsito. No hay una cifra única: revisalas con regularidad.'],
+            ['q' => '¿Cambio también el disco?', 'a' => 'No siempre. El taller mide el espesor y el estado del disco y te dice si sigue dentro de lo que permite el fabricante.'],
+        ],
+        'links' => [
+            ['path' => '/motos', 'label' => 'Motos por marca y tipo'],
+        ],
+        'related' => ['presion-de-neumaticos-moto', 'service-de-moto-que-incluye', 'moto-despues-de-la-lluvia'],
+        'quiz' => null,
+        'sources' => [],
+    ],
+    'presion-de-neumaticos-moto' => [
+        'group' => 'reparacion',
+        'title' => 'Presión de neumáticos de moto: cómo controlarla',
+        'navLabel' => 'Presión de neumáticos',
+        'seoTitle' => 'Presión de neumáticos de moto: cómo controlarla',
+        'metaDescription' => 'Presión de neumáticos de moto: dónde ver la que pide tu modelo, cómo medirla en frío, qué pasa si falta o sobra aire y cada cuánto revisar.',
+        'query' => 'presión de neumáticos moto',
+        'published' => '2026-10-01',
+        'updated' => '2026-10-01',
+        'hero' => [
+            'h1' => 'Presión de neumáticos de moto: cómo controlarla',
+            'lead' => 'La presión correcta mejora el agarre, el consumo y la duración de las cubiertas. Se mide en un minuto y es una de las revisiones más útiles.',
+        ],
+        'intro' => [
+            'Las cubiertas son lo único que une la moto con el piso. Una presión incorrecta cambia cómo frena, cómo toma las curvas y cuánto dura la goma. Y como el aire se pierde de a poco, conviene controlarla seguido, también en las motos que no andan mucho.',
+            'No te damos una cifra de presión porque varía por modelo, por cubierta y por la carga (con y sin acompañante). La que corresponde está en el manual del propietario y, en muchas motos, en una etiqueta pegada en el chasis o en la basculante.',
+            ['verify' => 'Presión recomendada delantera y trasera, con y sin acompañante, de cada modelo del catálogo: confirmar en el manual del propietario o en la etiqueta de la moto.'],
+        ],
+        'sections' => [
+            [
+                'h2' => 'Dónde encontrar la presión de tu moto',
+                'id' => 'donde',
+                'body' => [
+                    ['list' => [
+                        'En el **manual del propietario**, en la sección de cubiertas o especificaciones.',
+                        'En una **etiqueta** en la basculante, el chasis o debajo del asiento.',
+                        'En el costado de la cubierta aparece una presión **máxima**: no es la que tenés que usar, es el límite de la cubierta. Usá la del manual.',
+                    ]],
+                    'Si cambiaste la medida de las cubiertas, consultá al taller o a la gomería qué presión corresponde.',
+                ],
+            ],
+            [
+                'h2' => 'Cómo medirla bien',
+                'id' => 'medir',
+                'body' => [
+                    ['ol' => [
+                        'Medí con las cubiertas **frías**: antes de salir o después de que la moto estuvo parada un rato. Al rodar se calientan y la presión sube.',
+                        'Sacá el tapón de la válvula, apoyá el medidor derecho y leé.',
+                        'Si falta, inflá de a poco y volvé a medir. Si sobra, soltá aire.',
+                        'Volvé a poner el tapón: protege la válvula del polvo.',
+                    ]],
+                    'Tené un medidor propio, de los chicos de bolsillo, y comparalo de vez en cuando con el de la estación de servicio: algunos de las bombas están descalibrados.',
+                ],
+            ],
+            [
+                'h2' => 'Qué pasa si hay poco o demasiado aire',
+                'id' => 'efectos',
+                'body' => [
+                    ['list' => [
+                        '**Poca presión:** la moto se siente pesada y floja en las curvas, la cubierta se calienta más, se gasta de los bordes y la moto consume más nafta. También aumenta el riesgo de que se pinche o se salga del aro.',
+                        '**Demasiada presión:** menos agarre, sobre todo con lluvia o en tierra, y la moto rebota sobre los pozos. Se gasta la parte central.',
+                        '**Distinta entre ambas ruedas:** se nota en la dirección y en la frenada.',
+                    ]],
+                    'Con el calor intenso del verano, la presión sube más al andar: por eso se mide siempre en frío, sin "descargar" aire de una cubierta caliente para llegar a un número.',
+                ],
+            ],
+            [
+                'h2' => 'Revisá de paso el estado de la cubierta',
+                'id' => 'estado',
+                'body' => [
+                    'Mientras medís, mirá la banda de rodamiento y los costados. Buscá clavos, piedras incrustadas, tajos, grietas o bultos, y fijate que el dibujo no esté liso. Cuándo cambiar la cubierta lo desarrollamos en [cubiertas de moto: cuándo cambiarlas](/guias/cubiertas-de-moto-cuando-cambiarlas). El manual o la propia cubierta tienen un indicador de desgaste.',
+                    'En caminos de tierra y con lluvia, el estado de las cubiertas pesa más que casi cualquier otra cosa; sumá la revisión a la rutina antes de salir, junto a [las pastillas de freno](/guias/pastillas-de-freno-moto).',
+                ],
+            ],
+            [
+                'h2' => 'Cuándo ir a la gomería o al taller',
+                'id' => 'taller',
+                'body' => [
+                    'Si una cubierta pierde aire seguido, si ves un bulto o una grieta, si hay vibración al andar o si sospechás de una llanta doblada, llevala. Una gomería de confianza también balancea las ruedas. No intentes parchar una cubierta con un tajo en el costado: ese daño no es reparable de forma segura.',
+                ],
+            ],
+            [
+                'h2' => 'Nota de seguridad',
+                'id' => 'seguridad',
+                'body' => [
+                    ['note' => 'No salgas con una cubierta muy baja ni con señales de daño. Con acompañante o carga, ajustá la presión como indica el manual. Al inflar, no te quedes frente a la cubierta ni la superes de la presión máxima del costado.'],
+                ],
+            ],
+        ],
+        'faq' => [
+            ['q' => '¿Cada cuánto hay que medir la presión?', 'a' => 'Con regularidad y antes de viajes largos. Muchos talleres recomiendan hacerlo seguido porque el aire se pierde de a poco, aunque no hay pinchadura.'],
+            ['q' => '¿Puedo inflar con nitrógeno?', 'a' => 'Se puede, pero no es obligatorio. Lo que importa es mantener la presión del manual.'],
+        ],
+        'links' => [
+            ['path' => '/motos', 'label' => 'Motos por marca y tipo'],
+        ],
+        'related' => ['cubiertas-de-moto-cuando-cambiarlas', 'pastillas-de-freno-moto', 'moto-gasta-mucha-nafta'],
+        'quiz' => null,
+        'sources' => [],
+    ],
     /* == /B4 == */
     /* == B5 == */
     'registro-de-conducir-para-moto' => [
@@ -2766,6 +2949,7 @@ return [
             ['h2' => 'Cómo se calcula una multa', 'id' => 'calculo', 'body' => [
                 'La Patrulla Caminera publica una escala en la que cada infracción tiene una cantidad de jornales. Cuando el salario mínimo sube, se actualiza el valor del jornal y con él todos los montos, pero la cantidad de jornales de cada infracción se mantiene. Así lo explicó la prensa al informarse el último reajuste.',
                 'Entonces para saber cuánto vas a pagar necesitás dos datos: cuántos jornales tiene la infracción y cuánto vale hoy el jornal. Con esos dos números, es una multiplicación.',
+                'Por eso en esta guía no ponemos montos en guaraníes: quedarían desactualizados en la próxima suba del salario mínimo. Mirá siempre la fecha de la escala que estás consultando y desconfiá de cualquier cifra que no la tenga.',
                 ['verify' => 'valor del jornal mínimo vigente y fecha de entrada en vigencia de la escala de multas; fuente: Patrulla Caminera / MOPC'],
             ]],
             ['h2' => 'Infracciones frecuentes en moto', 'id' => 'infracciones', 'body' => [
@@ -2931,6 +3115,15 @@ return [
                 ]],
                 'Si trabajás con la moto (reparto, mensajería), leé [habilitación de moto para delivery](/guias/habilitacion-de-moto-para-delivery).',
             ]],
+            ['h2' => 'Errores frecuentes con este documento', 'id' => 'errores', 'body' => [
+                ['list' => [
+                    'Aceptar una fotocopia o una foto del documento en lugar del original. Una copia no te dice si el original fue reemplazado o está en manos de otra persona.',
+                    'Mirar sólo el nombre del titular y no los números de chasis y de motor, que son los que identifican a la moto.',
+                    'Pagar la seña antes de ver el documento. Primero el papel, después el dinero.',
+                    'Confiar en lo que te cuenta un conocido sobre el vendedor en vez de comprobarlo vos mismo con el documento a la vista.',
+                ]],
+                'Si algo no cierra, pedí un tiempo para consultar en el Registro del Automotor. Un vendedor honesto no te apura.',
+            ]],
             ['h2' => 'Si la perdés o te la roban', 'id' => 'perdida', 'body' => [
                 'Hacé la denuncia lo antes posible y guardá una copia. Después consultá en el Registro del Automotor cómo se pide un duplicado. Mientras no lo tengas, evitá circular con la moto: sin el documento, un control te puede demorar la moto.',
                 ['verify' => 'requisitos y costo para obtener un duplicado de la cédula verde; fuente: Registro de Automotores'],
@@ -2989,6 +3182,7 @@ return [
                 'Las aplicaciones y los comercios suelen pedir documentos propios además de los legales: foto de la licencia y de la cédula verde, a veces un certificado de antecedentes. Esos requisitos los fija cada empresa y cambian, así que no los podemos dar como regla.',
                 ['verify' => 'requisitos de registro de repartidores de las principales aplicaciones de delivery que operan en Paraguay; fuente: sitios de las propias empresas'],
                 'Lo que sí podés hacer es tener un sobre con todo: licencia, cédula verde, habilitación y el comprobante de seguro si lo tenés, con copias digitales en el celular.',
+                'Revisá la fecha de vencimiento de cada papel una vez por mes. Un documento vencido es lo que más seguido frena a quien trabaja con la moto, porque cada hora parada es plata que no entra.',
             ]],
             ['h2' => 'Mantenimiento y moto adecuada para trabajar', 'id' => 'moto', 'body' => [
                 'Una moto de trabajo recorre muchos kilómetros: frenos, cubiertas y kit de arrastre se gastan más rápido. Revisalos con frecuencia y fijate en las guías de mantenimiento del sitio. Si estás por comprar una, mirá el catálogo de [motos](/motos).',
