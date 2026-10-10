@@ -26,11 +26,9 @@ return [
     // server. It stays empty here so a server without config.php fails closed.
     'SITE_NOINDEX' => '',
 
-    // VenderCRM (Sitios → moto.com.py; a key for this site only). Without both
-    // values leads stay in logs/leads.jsonl and the visitor still gets the
-    // thank-you (degraded mode, enviar.php).
-    'VENDERCRM_URL'     => '',
-    'VENDERCRM_API_KEY' => '',
+    // CRM credentials are separate: copy vendercrm.private.example.php to
+    // ../private/vendercrm.php outside the document/deployment root.
+    // Keep this file for unrelated site settings only.
 
     // Optional lead notification email through Resend. LEAD_FROM must be on a
     // domain verified in Resend (SPF + DKIM in the DNS).
