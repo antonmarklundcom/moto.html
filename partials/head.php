@@ -72,9 +72,19 @@ $headLang   = market_locale();
   <?php if ($headAds !== ''): ?>gtag('config', '<?= e($headAds) ?>');<?php endif; ?>
 </script>
 <?php endif; ?>
-<?php if (cfg('VENDERCRM_URL') !== null): ?>
-<script src="<?= e(rtrim((string) cfg('VENDERCRM_URL'), '/')) ?>/vc-attribution.js" defer></script>
+<?php
+/* A missing or invalid CRM config must never take the page down: Config
+   throws RuntimeException on a partial/unsafe setting, so omit the script. */
+try {
+    $headCrm = cfg('VENDERCRM_URL');
+} catch (RuntimeException $error) {
+    $headCrm = null;
+}
+?>
+<?php if ($headCrm !== null): ?>
+<script src="<?= e(rtrim($headCrm, '/')) ?>/vc-attribution.js" defer></script>
 <?php endif; ?>
+<?php unset($headCrm); ?>
 </head>
 <body data-ga4="<?= e($headGa4) ?>">
 <a class="skip-link" href="#main"><?= e(ui('nav.skip')) ?></a>
