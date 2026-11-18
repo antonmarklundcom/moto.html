@@ -30,6 +30,7 @@ foreach (array_keys(route_index()) as $path) {
 /* Generated endpoints. */
 $routes[] = ['/robots.txt', '200'];
 $routes[] = ['/sitemap.xml', '200'];
+$routes[] = ['/version.txt', '200']; // deploy marker: proves Hostinger redeployed the latest main
 
 /* No trailing slash (D3), no visible index.php; the query string survives. */
 $routes[] = ['/guias/', '301', '/guias'];
